@@ -1,5 +1,6 @@
 ---
 title: "Hola!!! Estamos volviendo..."
+layout: "post"
 date: 2021-05-07
 excerpt: Os presento mi super nueva web. Sabéis que no me manejo del todo bien con las redes, así que necesito de mi pequeño espacio personal en el que tener mis cositas ordenadas.
 draft:

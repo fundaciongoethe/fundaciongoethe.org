@@ -1,12 +1,52 @@
 <section
 	id="conciertos-pasado"
-	class="relative flex flex-col mt-20 items-start justify-between p-2 sm:p-4 bg-blue-100 mx-auto shadow-sm [ sm:h-80 sm:w-80 ][ xl:h-96 xl:w-96 ]"
+	class="
+		relative
+		flex flex-col
+		mt-20
+		items-start
+		justify-between
+		p-2
+		sm:p-4
+		bg-blue-100
+		mx-auto
+		shadow-sm
+		[
+		sm:h-80
+		sm:w-80
+		][
+		xl:h-96
+		xl:w-96
+		]
+	"
 >
 	{# hinweis kozert in vergangenheit #}
 	<span
-		class="absolute flex right-0 items-center py-0.5 pl-2 pr-1 mt-2 text-xs font-medium bg-pink-500 text-white"
+		class="
+			absolute
+			flex
+			right-0
+			items-center
+			py-0.5
+			pl-2
+			pr-1
+			mt-2
+			text-xs
+			font-medium
+			bg-red-600
+			text-white
+		"
 		>Este evento ya ha terminado.<span
-			class="flex-shrink-0 ml-0.5 h-5 w-5 rounded-full inline-flex items-center justify-center"
+			class="
+				flex-shrink-0
+				ml-0.5
+				h-5
+				w-5
+				rounded-full
+				inline-flex
+				items-center
+				justify-center
+			"
 		>
 			{% svg "info", "h-4 w-4", "info" %}
 		</span>
@@ -16,7 +56,16 @@
 		<p class="font-rock text-5xl xl:text-6xl">{{ event.data.date | dayES }}</p>
 
 		<p
-			class="text-base leading-6 text-blue-100 font-bold tracking-wider uppercase transform -translate-y-2"
+			class="
+				text-base
+				leading-6
+				text-blue-100
+				font-bold
+				tracking-wider
+				uppercase
+				transform
+				-translate-y-2
+			"
 		>
 			<span class="bg-gray-900 px-1 xl:px-2 pb-0.5">{{
 				event.data.date | monthShortES

@@ -26,12 +26,6 @@
 		<!-- include base schema  -->
 		{%- include "schemas/base-schema.njk" %}
 		<!-- audioplayer traversy -->
-		{% if audioplayer %}
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
-		/>
-		{% endif %}
 	</head>
 	<body class="bg-gray-200">
 		<a href="#main" class="skip-link cbutton"
@@ -40,7 +34,7 @@
 
 		<div hidden>{% svgsprite %}</div>
 		<div
-			class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-blue-50 via-blue-50 to-gray-200' }}"
+			class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-yellow-300 via-orange-500 to-red-600' }}"
 		>
 			<div
 				class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
@@ -51,6 +45,7 @@
 				> -->
 
 				{% if bgimg %} {% include "components/fullbg.njk" %} {% endif %} {% if
+				heroimg %} {% include "components/herobg.njk" %} {% endif %}{% if
 				pinkbox %} {% include "components/pink-box.njk" %} {% endif %} {% if
 				tealbox %} {% include "components/teal-box.njk" %} {% endif %} {%
 				include "partials/header.njk" %}
@@ -64,10 +59,6 @@
 		</div>
 
 		<script src="/assets/main.js" defer></script>
-
-		{% if audioplayer %}
-		<script src="/assets/player.js" defer></script>
-		{% endif %}
 
 		<script
 			src="//instant.page/5.1.0"

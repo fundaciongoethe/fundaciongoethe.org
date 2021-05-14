@@ -134,12 +134,12 @@ module.exports = function (eleventyConfig) {
 	// Collections
 
 	// blog
-	eleventyConfig.addCollection("post", (collection) => {
+	eleventyConfig.addCollection("noticia", (collection) => {
 		if (process.env.ELEVENTY_ENV !== "production")
-			return [...collection.getFilteredByGlob("./src/posts/*.md")];
+			return [...collection.getFilteredByGlob("./src/noticias/*.md")];
 		else
-			return [...collection.getFilteredByGlob("./src/posts/*.md")].filter(
-				(post) => !post.data.draft
+			return [...collection.getFilteredByGlob("./src/noticias/*.md")].filter(
+				(noticia) => !post.data.draft
 			);
 	});
 

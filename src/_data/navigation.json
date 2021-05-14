@@ -1,24 +1,28 @@
 {
 	"items": [
 		{
-			"text": "Bio",
-			"url": "/biografia/"
+			"text": "Inico",
+			"url": "/"
 		},
 		{
-			"text": "Discos",
-			"url": "/discos/"
+			"text": "La Fundación",
+			"url": "/sobre-nosotros/"
 		},
 		{
-			"text": "Conciertos",
-			"url": "/conciertos/"
+			"text": "Eventos",
+			"url": "/eventos/"
 		},
 		{
-			"text": "Vídeos",
-			"url": "/videos/"
+			"text": "Artistas",
+			"url": "/artistas/"
 		},
 		{
-			"text": "Blog",
-			"url": "/blog/"
+			"text": "Lugares",
+			"url": "/lugares/"
+		},
+		{
+			"text": "Noticias",
+			"url": "/noticias/"
 		},
 		{
 			"text": "Contacto",

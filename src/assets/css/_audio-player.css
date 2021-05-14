@@ -23,7 +23,7 @@
 }
 
 .audio-player .timeline .progress {
-	@apply bg-pink-500;
+	@apply bg-red-500;
 }
 
 .audio-player .timeline .progress {

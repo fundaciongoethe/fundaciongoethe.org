@@ -5,7 +5,7 @@
 }
 
 ::selection {
-	@apply bg-pink-500;
+	@apply bg-orange-500;
 }
 
 /* Scrollbar styles */
@@ -14,17 +14,17 @@
 }
 
 ::-webkit-scrollbar-track {
-	@apply bg-gray-100 border border-pink-500 rounded-sm;
+	@apply bg-gray-100 border border-red-600 rounded-sm;
 }
 
 ::-webkit-scrollbar-thumb {
-	@apply bg-teal-200 border;
+	@apply bg-gray-900 border;
 }
 
 html {
 	scroll-behavior: smooth;
-	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-	font-size: 23px;
+	font-family: "GothamRounded", "Helvetica Neue", Arial, sans-serif;
+	font-size: 19px;
 }
 
 [id] {
@@ -62,7 +62,7 @@ h2 {
 }
 
 .menu-li {
-	@apply block px-8 py-3 xl:py-6 rounded-md md:px-3 text-gray-900 tracking-wide sm:tracking-normal no-underline hover:text-purple-700 md:hover:bg-purple-700 md:hover:text-white;
+	@apply block px-8 py-3 xl:py-6 rounded-md md:px-3 text-gray-900 tracking-wide sm:tracking-normal no-underline hover:text-orange-700 md:hover:bg-orange-700 md:hover:text-white;
 }
 
 .prose {
@@ -83,18 +83,18 @@ h2 {
 }
 
 .prose figure figcaption {
-	color: #6e7786;
+	color: #f5f5f4;
 	font-size: 0.875em;
 	line-height: 1.4285714;
 	margin-top: 0.8571429em;
 }
 
 .prose ul > li::before {
-	@apply bg-pink-700;
+	@apply bg-orange-500;
 }
 
 .prose ol > li::before {
-	@apply text-pink-700;
+	@apply text-orange-500;
 }
 
 .prose img {
@@ -110,21 +110,13 @@ h2 {
 /* spezial alberto */
 
 .cbutton {
-	@apply inline-block py-1 px-2 bg-teal-300 text-gray-900 border-2 uppercase no-underline text-center font-bold;
+	@apply inline-block py-1 px-2 bg-yellow-300 text-gray-900 border-2 uppercase no-underline text-center font-bold;
 }
 
 @media (min-width: 640px) {
-	.nav a[aria-current="page"]::after,
-	.nav a[data-state="active"]::after {
-		content: "";
-		display: block;
-		width: 100%;
-		height: 0.2rem;
-		position: absolute;
-		bottom: 20%;
-		left: 0;
-		margin-top: 0.25rem;
-		background: #fde047;
+	.nav a[aria-current="page"],
+	.nav a[data-state="active"] {
+		@apply bg-red-600;
 	}
 }
 

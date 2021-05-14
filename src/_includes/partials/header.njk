@@ -1,38 +1,53 @@
-<nav x-data="{ open: false }" class="relative nav bg-yellow-300 sm:mt-24">
+<nav x-data="{ open: false }" class="relative nav sm:mt-24">
 	<div class="mx-auto">
-
-
 		<div
-			class="flex sm:flex-col lg:flex-row items-center sm:items-start lg:items-end justify-between relative bg-yellow-300"
+			class="flex sm:flex-col lg:flex-row items-center justify-between relative"
 		>
 			<div class="flex items-end">
-				<div class="flex-shrink-0 flex lg:absolute b-0">
+				<div class="flex-shrink-0 flex">
 					<a href="/" title="Home" class="no-underline">
-						<span
-							class="block w-auto uppercase text-gray-900 font-rock ml-2 text-base [ sm:ml-0 sm:bg-yellow-300 sm:px-1 sm:text-5xl sm:-mt-12 ] lg:hidden"
-							>Alberto Ballesteros</span
-						>
-
 						<img
-							class="hidden lg:block h-20 2xl:h-24 mb-0.5 xl:mb-0 w-auto"
-							src="/assets/svg/alberto-logo.svg"
-							alt="Alberto Ballesteros Logo"
-							width="455"
-							height="138"
+							class="block h-12 2xl:h-16 mb-0.5 xl:mb-0 w-auto xl:pl-24"
+							src="/assets/svg/logo-goethe20-RGB.svg"
+							alt="Fundación Goethe Logo"
+							width="338"
+							height="98"
 						/>
 					</a>
 				</div>
 			</div>
 			<div
-				class="hidden sm:block bg-gray-900 px-4 xl:px-6 w-full lg:w-auto 2xl:w-7/12"
+				class="
+					hidden
+					sm:block
+					bg-gray-900
+					xl:pl-12
+					xl:pr-10
+					w-full
+					lg:w-auto
+					2xl:w-2/3
+					rounded-l-md
+				"
 			>
-				<div
-					class="flex space-x-3 xl:space-x-4 justify-center lg:justify-start mr-3"
-				>
+				<div class="flex justify-center lg:justify-start mr-3">
 					{% for item in navigation.items %}
 
 					<a
-						class="text-white no-underline text-base 2xl:text-lg font-semibold xl:font-bold uppercase bg-gray-900 hover:text-white hover:bg-gray-800 py-2 block relative"
+						class="
+							text-white
+							no-underline
+							text-base
+							font-semibold
+							uppercase
+							bg-gray-900
+							hover:text-white
+							hover:bg-gray-800
+							px-2
+							xl:px-3
+							py-4
+							block
+							relative
+						"
 						href="{{ item.url }}"
 						{{
 						helpers.getLinkActiveState(item.url,
@@ -51,7 +66,15 @@
 				<!-- Mobile menu button -->
 				<button
 					type="button"
-					class="inline-flex items-center justify-center p-2 text-sm text-pink-50 bg-pink-500 hover:bg-pink-600"
+					class="
+						inline-flex
+						items-center
+						justify-center
+						p-2
+						text-sm text-pink-50
+						bg-red-600
+						hover:bg-pink-600
+					"
 					aria-controls="mobile-menu"
 					@click="open = !open"
 					aria-expanded="false"
@@ -160,18 +183,6 @@ Heroicon name: outline/x"
 				</button>
 			</div>
 		</div>
-
-		<div class="absolute hidden sm:flex -right-1 md:right-8 -top-20 z-50">
-			<a
-				href="/shop/"
-				title="Shop"
-				class="shadow-sm transform rotate-6 transition duration-200 ease-in-out no-underline bg-gray-900 h-16 w-16 text-white hover:scale-110 hover:text-white hover:rotate-0 text-center font-bold uppercase flex flex-col items-center justify-center rounded-full text-base overflow-hidden"
-				>{% svg "cart-white", "h-7 w-7", "flecha" %}
-
-				<span class="text-sm">Shop</span></a
-			>
-		</div>
-
 	</div>
 
 	<div
@@ -185,7 +196,18 @@ Heroicon name: outline/x"
 			{% for item in navigation.items %}
 
 			<a
-				class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-900 hover:text-gray-100 block px-2 py-2"
+				class="
+					text-gray-900
+					no-underline
+					text-sm
+					font-bold
+					uppercase
+					hover:bg-gray-900
+					hover:text-gray-100
+					block
+					px-2
+					py-2
+				"
 				href="{{ item.url }}"
 				{{
 				helpers.getLinkActiveState(item.url,
@@ -197,14 +219,6 @@ Heroicon name: outline/x"
 			>
 
 			{% endfor %}
-
-			{% set currentUrl %}{{ page.url }}{% endset %}
-
-			<a  {% if currentUrl === '/shop/' %}aria-current="page"{% endif %}
-				href="/shop/"
-				class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-900 hover:text-gray-100 block px-2 py-2"
-				>Shop
-			</a>
 		</div>
 	</div>
 </nav>
