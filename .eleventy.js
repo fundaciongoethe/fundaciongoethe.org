@@ -139,7 +139,7 @@ module.exports = function (eleventyConfig) {
 			return [...collection.getFilteredByGlob("./src/noticias/*.md")];
 		else
 			return [...collection.getFilteredByGlob("./src/noticias/*.md")].filter(
-				(noticia) => !post.data.draft
+				(noticia) => !noticia.data.draft
 			);
 	});
 
@@ -155,7 +155,7 @@ module.exports = function (eleventyConfig) {
 						// this list should match the `filter` list in tags.njk
 						case "authors":
 						case "pages":
-						case "post":
+						case "noticia":
 							return false;
 					}
 
