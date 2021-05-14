@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ seo.title or title }} | {{ meta.siteName }}</title>
+		<!-- Inline Minified CSS -->
+
+		<link rel="stylesheet" href="/assets/fonts.min.css" />
+
+		{% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{%
+		endset %}
+		<style>
+			{{ css | cssmin | safe }}
+		</style>
+		{% else %}
+		<link rel="stylesheet" href="/assets/main.min.css" />
+		{% endif %}
+		<link
+			rel="alternate"
+			type="application/atom+xml"
+			title="RSS Feed for {{ meta.siteName }}"
+			href="/feed.xml"
+		/>
+		{%- include "partials/head.njk" %}
+		<!-- include base schema  -->
+		{%- include "schemas/base-schema.njk" %}
+		<!-- audioplayer traversy -->
+		{% if audioplayer %}
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+		/>
+		{% endif %}
+	</head>
+	<body class="bg-gray-200">
+		<a href="#main" class="skip-link cbutton"
+			>Saltar a la región principal de la página</a
+		>
+
+		<div hidden>{% svgsprite %}</div>
+		<div
+			class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-blue-50 via-blue-50 to-gray-200' }}"
+		>
+			<div
+				class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
+					overflow
+				}} "
+			>
+				<!-- full bg image, teal box und pink box from frontmatter data
+				> -->
+
+				{% if bgimg %} {% include "components/fullbg.njk" %} {% endif %} {% if
+				pinkbox %} {% include "components/pink-box.njk" %} {% endif %} {% if
+				tealbox %} {% include "components/teal-box.njk" %} {% endif %} {%
+				include "partials/header.njk" %}
+
+				<div class="flex-grow max-w-full">
+					{{ content | safe }}
+				</div>
+			</div>
+
+			{% include "partials/footer.njk" %}
+		</div>
+
+		<script src="/assets/main.js" defer></script>
+
+		{% if audioplayer %}
+		<script src="/assets/player.js" defer></script>
+		{% endif %}
+
+		<script
+			src="//instant.page/5.1.0"
+			type="module"
+			integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"
+			defer="defer"
+		></script>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+<footer
+	class="bg-gray-900 max-w-3xl mx-auto uppercase transform lg:-translate-y-5 text-xs"
+>
+	<div
+		class="py-4 lg:py-1 px-2 flex flex-col lg:flex-row md:items-center md:justify-between"
+	>
+		<div class="mt-2 lg:mt-0 md:order-1">
+			<p class="text-center text-gray-100">
+				&copy; 2009 - {% year %} Alberto Ballesteros
+				<a
+					href="/aviso-legal/"
+					class="text-gray-300 hover:text-gray-100 mx-2 font-normal"
+				>
+					Aviso legal
+				</a>
+
+				<a
+					href="/privacidad/"
+					class="text-gray-300 hover:text-gray-100 font-normal"
+				>
+					Política de privacidad
+				</a>
+			</p>
+		</div>
+
+		<div class="mt-2 lg:mt-0 flex justify-center space-x-2 md:order-2">
+			{% if structure.g_showFooterSocialIcons %} {# Display Social icons from
+			_data/social.json #} {% for site in social %} {% if site.url %}
+			<a
+				aria-label="Link to {{ site.platform }}"
+				alt="Link to {{ site.platform }}"
+				class="transition duration-100 ease-in-out transform hover:-translate-y-1 hover:scale-105 text-yellow-400 hover:text-gray-50"
+				href="{{ site.url | url }}"
+				target="_blank"
+				rel="noopener"
+			>
+				{% svg site.platform, "h-4 w-4 fill-current", site.platform, "footer" %}
+			</a>
+			{% endif %} {% endfor %} {% endif %}
+		</div>
+
+		<div
+			class="md:order-3 text-center flex justify-center items-center content-between text-gray-100"
+		>
+			<p class="pr-1 py-2">Hecho con</p>
+			<a
+				rel="noopener"
+				title="Lene Saile - Diseñadora y desarrolladora web"
+				href="https://lenesaile.com"
+			>
+				{% svg "heart", "w-4 h-4 transition duration-200 ease-in-out transform
+				hover:scale-125 hover:text-pink-400", "corazon" %}
+			</a>
+			<p class="pl-1 py-2">
+				por
+				<a
+					class="underline hover:text-white"
+					rel="noopener"
+					title="Lene Saile - Diseñadora y desarrolladora web"
+					href="https://www.lenesaile.com/"
+					>Lene Saile</a
+				>
+			</p>
+		</div>
+	</div>
+</footer>

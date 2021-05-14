@@ -1,0 +1,217 @@
+---
+title: Shop
+layout: plain
+seo:
+  title: Tienda
+  description: Description
+contentcolor: bg-teal-200
+pinkbox:
+  text: Los gastos de envío gratis para todos los pedidos enviados a la península ibérica (España).
+permalink: false
+---
+
+<h1 class="text-6xl sm:text-7xl uppercase text-white font-rock my-10 sm:my-24 px-4 2xl:pl-24">Shop</h1>
+
+
+
+	<p class="sm:hidden px-4 font-semibold text-base pb-20">
+		{{ pinkbox.text }}
+	</p>
+
+
+<div class="bg-white">
+	<div class="max-w-4xl mx-auto pb-20 px-4">
+		<!-- article -->
+
+    <div class="sm:max-w-xs md:max-w-none mx-auto flex flex-col md:flex-row  md:gap-8 pb-24 lg:pb-12">
+	<img
+				class="w-full h-full md:w-52 md:h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 shadow-md transform -translate-y-6"
+				src="/assets/images/shop/shirt.jpg"
+				alt="shirt"
+			/>
+
+			<div class="flex flex-col justify-start lg:justify-center pt-5 lg:pt-0">
+				<span class="uppercase text-xs text-pink-500 font-bold ">nuevo.</span>
+				<h2 class="font-rock text-2xl lg:text-4xl text-gray-900">
+					T-Shirt La Fiesta En Paz
+				</h2>
+
+			<p class="text-sm lg:text-base py-4 lg:py-8">
+					Chao Madrid, nos vamos a pasar el verano al pueblo. Atrás quedan para
+					el recuerdo cuatro meses de mierda, cuatro meses de incertidumbre,
+					miedo y pena; Incertidumbre porque, quieras que no.
+				</p>
+
+				<div class="flex items-center justify-between">
+
+          <p class="text-4xl font-rock color-gray-900">20<span class="text-base text-pink-500">€</span></p>
+					<div class="flex gap-2 md:gap-8 justify-start lg:justify-center items-center">
+						<div
+							x-data="counter()"
+							class="flex justify-between items-center font-rock "
+						>
+							<button
+								x-on:click="decrement()"
+								class="order-1 px-3 py-2 text-lg"
+							>
+								-
+							</button>
+							<button
+								x-on:click="increment()"
+								class="order-3 px-3 py-2 text-lg"
+							>
+								+
+							</button>
+
+              <span class="px-1 order-2 text-center w-4 text-lg lg:w-6 lg:text-2xl" x-text="count" />
+
+						</div>
+
+						<button
+							class="inline-flex items-center px-3 py-1 xl:px-4 shadow-sm text-sm lg:text-base 2xl:text-lg font-semibold no-underline text-gray-50 bg-gray-900 uppercase transition duration-200 ease-in-out transform hover:scale-105 hover:-translate-y-1 hover:text-white"
+						>
+							{% svg "cart-white", "mr-3 h-6 w-6", "flecha" %} comprar
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- article 2 -->
+
+		<div class="sm:max-w-xs md:max-w-none mx-auto flex flex-col md:flex-row  md:gap-8 pb-24 lg:pb-12">
+			<img
+				class="md:w-52 md:h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 shadow-md transform -translate-y-6"
+				src="/assets/images/shop/libro-fiesta.jpg"
+				alt="shirt"
+			/>
+
+			<div class="flex flex-col justify-start lg:justify-center">
+				<span class="uppercase text-xs text-pink-500 font-bold ">nuevo</span>
+				<h2 class="font-rock text-2xl lg:text-4xl text-gray-900">
+					Discolibro “La fiesta En Paz”
+				</h2>
+
+			<p class="text-sm lg:text-base py-4 lg:py-8">
+					Chao Madrid, nos vamos a pasar el verano al pueblo. Atrás quedan para
+					el recuerdo cuatro meses de mierda, cuatro meses de incertidumbre,
+					miedo y pena; Incertidumbre porque, quieras que no.
+				</p>
+
+				<div class="flex items-center justify-between">
+
+          <p class="text-4xl font-rock color-gray-900">15<span class="text-base text-pink-500">€</span></p>
+					<div class="flex gap-2 md:gap-8 justify-start lg:justify-center items-center">
+						<div
+							x-data="counter()"
+							class="flex justify-between items-center font-rock "
+						>
+							<button
+								x-on:click="decrement()"
+								class="order-1 px-3 py-2 text-lg"
+							>
+								-
+							</button>
+							<button
+								x-on:click="increment()"
+								class="order-3 px-3 py-2 text-lg"
+							>
+								+
+							</button>
+
+              <span class="order-2 px-1 text-center w-4 text-lg lg:w-6 lg:text-2xl" x-text="count" />
+
+						</div>
+
+						<button
+							class="inline-flex items-center px-3 py-1 xl:px-4 shadow-sm text-sm lg:text-base 2xl:text-lg font-semibold no-underline text-gray-50 bg-gray-900 uppercase transition duration-200 ease-in-out transform hover:scale-105 hover:-translate-y-1 hover:text-white"
+						>
+							{% svg "cart-white", "mr-3 h-6 w-6", "flecha" %} comprar
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- article 2 -->
+
+		<div class="sm:max-w-xs md:max-w-none mx-auto flex flex-col md:flex-row md:gap-8 pb-24 lg:pb-12">
+			<img
+				class="md:w-52 md:h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 shadow-md transform -translate-y-6"
+				src="/assets/images/shop/cd-mundo.jpg"
+				alt="shirt"
+			/>
+
+			<div class="flex flex-col justify-start lg:justify-center">
+
+				<h2 class="font-rock text-2xl lg:text-4xl text-gray-900">
+					Disco  “El mundo encima”
+				</h2>
+
+			<p class="text-sm lg:text-base py-4 lg:py-8">
+					Chao Madrid, nos vamos a pasar el verano al pueblo. Atrás quedan para
+					el recuerdo cuatro meses de mierda, cuatro meses de incertidumbre,
+					miedo y pena; Incertidumbre porque, quieras que no.
+				</p>
+
+				<div class="flex items-center justify-between">
+
+          <p class="text-4xl font-rock color-gray-900">10<span class="text-base text-pink-500">€</span></p>
+					<div class="flex gap-2 md:gap-8 justify-start lg:justify-center items-center">
+						<div
+							x-data="counter()"
+							class="flex justify-between items-center font-rock "
+						>
+							<button
+								x-on:click="decrement()"
+								class="order-1 px-3 py-2 text-lg"
+							>
+								-
+							</button>
+							<button
+								x-on:click="increment()"
+								class="order-3 px-3 py-2 text-lg"
+							>
+								+
+							</button>
+
+              <span class="order-2 px-1 text-center w-4 text-lg lg:w-6 lg:text-2xl" x-text="count" />
+
+						</div>
+
+						<button
+							class="inline-flex items-center px-3 py-1 xl:px-4 shadow-sm text-sm lg:text-base 2xl:text-lg font-semibold no-underline text-gray-50 bg-gray-900 uppercase transition duration-200 ease-in-out transform hover:scale-105 hover:-translate-y-1 hover:text-white"
+						>
+							{% svg "cart-white", "mr-3 h-6 w-6", "flecha" %} comprar
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+</div>
+
+<script>
+	function counter() {
+		return {
+			count: 0,
+			increment() {
+				this.count++;
+			},
+			decrement() {
+				this.count--;
+			},
+		};
+	}
+</script>

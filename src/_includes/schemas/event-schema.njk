@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Event",
+		"location": {
+			"@type": "Place",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "{{ event.data.place.city }}",
+				"postalCode": "{{ event.data.place.plz }}",
+				"streetAddress": "{{ event.data.place.street }}"
+			},
+			"name": "{{ event.data.place.name }}"
+		},
+		"name": "{{ event.data.title }}",
+		"description": "{{ event.data.description }}",
+		"startDate": "{{ event.data.date  }}",
+		"performer": "Alberto Ballesteros"
+	}
+</script>

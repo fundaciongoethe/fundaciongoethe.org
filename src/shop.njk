@@ -1,0 +1,129 @@
+---
+title: Shop
+layout: plain
+seo:
+  title: Shop
+  description: CDs y Productos de merchandising en venta. Los gastos de envío a península están incluidos. Me viene guay para financiar el próximo proyecto.
+contentcolor: bg-teal-200
+pinkbox:
+  text: <p class="text-sm lg:text-base 2xl:text-lg">Ya sé que no está muy de moda comprar CD's, pero siempre hay gente con afición por estos objetos y a mí me viene guay para financiar el próximo proyecto. Los gastos de envío a península están incluidos.</p>
+---
+
+<h1
+	class="text-6xl sm:text-7xl uppercase text-white font-rock my-10 sm:my-24 px-2 2xl:pl-24"
+>
+	Shop
+</h1>
+
+<div class="sm:hidden px-2 font-semibold text-base pb-20">
+	{{ pinkbox.text | safe }}
+</div>
+
+<div class="bg-white">
+	<div class="max-w-4xl mx-auto pb-20 px-2">
+		<div class="products"></div>
+
+		<template id="product">
+			<div
+				class="product sm:max-w-xs md:max-w-none mx-auto flex flex-col md:flex-row md:gap-8 pb-24 lg:pb-12"
+			>
+				<img
+					class="w-full h-full md:w-52 md:h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 shadow-md transform -translate-y-6"
+					src=""
+					alt=""
+				/>
+
+				<div class="flex flex-col justify-start lg:justify-center pt-5 lg:pt-0">
+					{#
+					<span class="uppercase text-xs text-pink-500 font-bold"
+						>itemlabel</span
+					>
+					#}
+					<h2 class="font-rock text-2xl lg:text-4xl text-gray-900">name</h2>
+
+					<p class="description text-sm lg:text-base py-4 lg:py-8">
+						description
+					</p>
+
+					<div
+						class="flex flex-col sm:flex-row items-end sm:items-center justify-between"
+					>
+						<p class="price text-2xl lg:text-4xl font-rock text-gray-900">
+							price<span class="text-base text-pink-500">€</span>
+						</p>
+						<div
+							class="flex gap-2 md:gap-8 justify-start lg:justify-center items-center"
+						>
+							<form
+								class="flex gap-2 md:gap-8 justify-start lg:justify-center items-center"
+								action=""
+								method="post"
+							>
+								<label class="sr-only" for="quantity">Cantidad</label>
+
+								<div class="flex justify-between items-center font-rock">
+									<span
+										class="down counterspan block order-1 px-3 py-2 text-lg cursor-pointer"
+										onClick="decreaseCount(event, this)"
+										>-</span
+									>
+									<input
+										type="text"
+										value="1"
+										id="quantity"
+										name="quantity"
+										min="1"
+										class="counterinput order-2 px-1 text-center w-4 text-lg lg:w-6 lg:text-2xl border-none"
+										max="20"
+									/>
+									<span
+										class="up counterspan block order-3 px-3 py-2 text-lg cursor-pointer"
+										onClick="increaseCount(event, this)"
+										>+</span
+									>
+								</div>
+
+								<input type="hidden" name="sku" value="" />
+								<button
+									type="submit"
+									class="inline-flex items-center px-2 py-1 xl:px-4 shadow-sm text-sm lg:text-base 2xl:text-lg font-semibold no-underline text-gray-50 bg-gray-900 uppercase transition duration-200 ease-in-out transform hover:scale-105 hover:-translate-y-1 hover:text-white"
+								>
+									{% svg "cart-white", "mr-3 h-5 w-5", "carrito" %} comprar
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</template>
+	</div>
+</div>
+
+<!-- counter -->
+
+<script type="text/javascript">
+	function increaseCount(a, b) {
+		var input = b.previousElementSibling;
+		var value = parseInt(input.value, 10);
+		value = isNaN(value) ? 0 : value;
+		value++;
+		input.value = value;
+	}
+	function decreaseCount(a, b) {
+		var input = b.nextElementSibling;
+		var value = parseInt(input.value, 10);
+		if (value > 1) {
+			value = isNaN(value) ? 0 : value;
+			value--;
+			input.value = value;
+		}
+	}
+</script>
+
+<!-- stripe und products -->
+<script src="https://js.stripe.com/v3/"></script>
+<script type="module">
+	import { loadProducts } from "../js/load-products.js";
+
+	loadProducts();
+</script>

@@ -1,0 +1,210 @@
+<nav x-data="{ open: false }" class="relative nav bg-yellow-300 sm:mt-24">
+	<div class="mx-auto">
+
+
+		<div
+			class="flex sm:flex-col lg:flex-row items-center sm:items-start lg:items-end justify-between relative bg-yellow-300"
+		>
+			<div class="flex items-end">
+				<div class="flex-shrink-0 flex lg:absolute b-0">
+					<a href="/" title="Home" class="no-underline">
+						<span
+							class="block w-auto uppercase text-gray-900 font-rock ml-2 text-base [ sm:ml-0 sm:bg-yellow-300 sm:px-1 sm:text-5xl sm:-mt-12 ] lg:hidden"
+							>Alberto Ballesteros</span
+						>
+
+						<img
+							class="hidden lg:block h-20 2xl:h-24 mb-0.5 xl:mb-0 w-auto"
+							src="/assets/svg/alberto-logo.svg"
+							alt="Alberto Ballesteros Logo"
+							width="455"
+							height="138"
+						/>
+					</a>
+				</div>
+			</div>
+			<div
+				class="hidden sm:block bg-gray-900 px-4 xl:px-6 w-full lg:w-auto 2xl:w-7/12"
+			>
+				<div
+					class="flex space-x-3 xl:space-x-4 justify-center lg:justify-start mr-3"
+				>
+					{% for item in navigation.items %}
+
+					<a
+						class="text-white no-underline text-base 2xl:text-lg font-semibold xl:font-bold uppercase bg-gray-900 hover:text-white hover:bg-gray-800 py-2 block relative"
+						href="{{ item.url }}"
+						{{
+						helpers.getLinkActiveState(item.url,
+						page.url)
+						|
+						safe
+						}}
+						>{{ item.text }}</a
+					>
+
+					{% endfor %}
+				</div>
+			</div>
+
+			<div class="flex sm:hidden">
+				<!-- Mobile menu button -->
+				<button
+					type="button"
+					class="inline-flex items-center justify-center p-2 text-sm text-pink-50 bg-pink-500 hover:bg-pink-600"
+					aria-controls="mobile-menu"
+					@click="open = !open"
+					aria-expanded="false"
+					x-bind:aria-expanded="open.toString()"
+				>
+					<span class="sr-only">Abrir menú principal</span>
+					<span
+						class="uppercase font-rock"
+						:class="{ 'hidden': open, 'block': !(open) }"
+						>Menú</span
+					>
+
+					<svg
+						x-description="Icono para el menú cerrado."
+						xmlns="http://www.w3.org/2000/svg"
+						x-state:on="Menú abierto"
+						x-state:off="Menú cerrado"
+						class="h-4 w-4 ml-1 block"
+						:class="{ 'hidden': open, 'block': !(open) }"
+						viewBox="0 0 24 24"
+						stroke-width="2.5"
+						stroke="#FDF2F8"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						aria-hidden="true"
+					>
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<line x1="4" y1="6" x2="20" y2="6" />
+						<line x1="4" y1="12" x2="20" y2="12" />
+						<line x1="4" y1="18" x2="20" y2="18" />
+					</svg>
+
+					{#
+					<svg
+						x-description="Icono si menú está cerrado.
+
+					Heroicon name: outline/menu"
+						x-state:on="Menú abierto"
+						x-state:off="Menú cerrado"
+						class="h-5 w-5 ml-1 block"
+						:class="{ 'hidden': open, 'block': !(open) }"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M4 6h16M4 12h16M4 18h16"
+						></path>
+					</svg>
+					#}
+					<span
+						class="uppercase font-rock"
+						:class="{ 'block': open, 'hidden': !(open) }"
+						>Cerrar</span
+					>
+
+					<svg
+						x-description="Icono pare el menú abierto."
+						xmlns="http://www.w3.org/2000/svg"
+						x-state:on="Menú abierto"
+						x-state:off="Menú cerrado"
+						class="h-4 w-4 ml-1 block"
+						:class="{ 'block': open, 'hidden': !(open) }"
+						viewBox="0 0 24 24"
+						stroke-width="2.5"
+						stroke="#FDF2F8"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						aria-hidden="true"
+					>
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<line x1="18" y1="6" x2="6" y2="18" />
+						<line x1="6" y1="6" x2="18" y2="18" />
+					</svg>
+
+					{#
+					<svg
+						x-description="Icono si menú está abierto.
+
+Heroicon name: outline/x"
+						x-state:on="Menú abierto"
+						x-state:off="Menú cerrado"
+						class="h-5 w-5 ml-1 hidden"
+						:class="{ 'block': open, 'hidden': !(open) }"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M6 18L18 6M6 6l12 12"
+						></path>
+					</svg>
+					#}
+				</button>
+			</div>
+		</div>
+
+		<div class="absolute hidden sm:flex -right-1 md:right-8 -top-20 z-50">
+			<a
+				href="/shop/"
+				title="Shop"
+				class="shadow-sm transform rotate-6 transition duration-200 ease-in-out no-underline bg-gray-900 h-16 w-16 text-white hover:scale-110 hover:text-white hover:rotate-0 text-center font-bold uppercase flex flex-col items-center justify-center rounded-full text-base overflow-hidden"
+				>{% svg "cart-white", "h-7 w-7", "flecha" %}
+
+				<span class="text-sm">Shop</span></a
+			>
+		</div>
+
+	</div>
+
+	<div
+		x-description="Mobile menu, show/hide based on menu state."
+		class="sm:hidden relative bg-yellow-300"
+		id="mobile-menu"
+		x-show="open"
+		style="display: none"
+	>
+		<div class="pt-2 space-y-1">
+			{% for item in navigation.items %}
+
+			<a
+				class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-900 hover:text-gray-100 block px-2 py-2"
+				href="{{ item.url }}"
+				{{
+				helpers.getLinkActiveState(item.url,
+				page.url)
+				|
+				safe
+				}}
+				>{{ item.text }}</a
+			>
+
+			{% endfor %}
+
+			{% set currentUrl %}{{ page.url }}{% endset %}
+
+			<a  {% if currentUrl === '/shop/' %}aria-current="page"{% endif %}
+				href="/shop/"
+				class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-900 hover:text-gray-100 block px-2 py-2"
+				>Shop
+			</a>
+		</div>
+	</div>
+</nav>

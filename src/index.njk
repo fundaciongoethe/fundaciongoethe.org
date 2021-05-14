@@ -1,0 +1,166 @@
+---
+title: Home
+layout: home
+seo:
+  title: Home
+  description: Soy Alberto Ballesteros, un escritor e intérprete de canciones en castellano. Estamos grabando un nuevo álbum. Para antes de verano 2021 estará listo.
+	image: default.png
+bgimg:
+  url: alberto-home.jpg
+  alt: Alberto tocando la guitarra en una nave vacia
+  width: 1537
+  height: 1659
+pinkbox:
+  text: <h1 class="text-sm lg:text-base 2xl:text-lg mb-6">Estamos grabando un nuevo álbum.  Va a estar muy guapo, mucho rock, vais a flipar.</h1>  <p class="text-sm lg:text-base 2xl:text-lg">Para antes de verano estará listo.  <br>¡Besos para todos!</p>
+---
+
+<div
+	class="
+		sm:hidden
+		transform
+		-translate-x-12
+		rotate-3
+		w-full
+		text-sm
+		lg:text-base
+		2xl:text-lg
+		bg-teal-200
+		pt-8
+		pb-16
+		pl-16
+		pr-4
+		my-8
+		font-semibold
+	"
+>
+	{{ pinkbox.text | safe }}
+</div>
+
+<div
+	class="
+		flex flex-col
+		lg:flex-row
+		items-center
+		justify-center
+		sm:items-start
+		sm:justify-start
+		lg:items-end
+	"
+>
+	<a
+		aria-hidden="true"
+		class="flex items-center justify-center"
+		href="/discos/"
+	>
+		<img
+			src="/assets/images/book3.jpg"
+			alt="Portada del discolibro La fiesta en paz"
+			width="540"
+			height="861"
+			class="
+				transform
+				w-3/4
+				shadow-md
+				-rotate-3
+				-translate-y-16
+				[
+				sm:mb-10
+				sm:w-56
+				sm:translate-x-5 sm:translate-y-40
+				]
+				[
+				md:w-60
+				md:translate-y-20
+				][
+				lg:w-72
+				lg:translate-x-6
+				][
+				xl:mb-20
+				xl:w-80
+				xl:-translate-x-10
+				][
+				2xl:w-auto
+				2xl:-translate-x-12
+				]
+				ease-in-out
+				duration-300
+				hover:rotate-0
+				hover:scale-105
+				hover:shadow-lg
+			"
+		/>
+	</a>
+	<div class="fade-in-bottom">
+		<div
+			class="
+				transform
+				mx-auto
+				bg-gray-50 bg-opacity-75
+				p-4
+				text-sm
+				font-semibold
+				shadow-lg
+				w-11/12
+				-translate-y-4
+				mb-10
+				[
+				sm:w-2/3
+				sm:mb-0
+				sm:-rotate-3
+				sm:translate-y-36
+				][
+				md:-translate-x-0
+				md:translate-y-12
+				][
+				lg:w-80
+				lg:text-base
+				lg:-translate-x-8
+				lg:translate-y-10
+				][
+				xl:-translate-x-24
+				xl:translate-y-1
+				][
+				2xl:-translate-x-32
+				2xl-translate-y-10
+				2xl:text-lg
+				]
+			"
+		>
+			<p>
+				El álbum se va a llamar, casí seguro, "La Fiesta en Paz". Lo editaremos
+				en forma de libro-disco. Pronto os cuento más cosas.
+			</p>
+
+			<a
+				href="/discos/"
+				class="
+					inline-flex
+					items-center
+					px-3
+					py-1
+					xl:px-2
+					xl:py-2
+					shadow-sm
+					text-sm
+					lg:text-base
+					2xl:text-lg
+					font-semibold
+					no-underline
+					text-gray-50
+					bg-gray-900
+					uppercase
+					mt-2
+					transition
+					duration-200
+					ease-in-out
+					transform
+					hover:scale-105
+					hover:-translate-y-1
+					hover:text-white
+				"
+			>
+				{% svg "arrow-right-white", "mr-3 h-6 w-6", "flecha" %} La fiesta en paz
+			</a>
+		</div>
+	</div>
+</div>

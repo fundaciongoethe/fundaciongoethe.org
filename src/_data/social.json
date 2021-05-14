@@ -1,0 +1,30 @@
+[
+	{
+		"platform": "### Comment: Make sure to add SVG icon in /assets/svg with same name as 'platform' ###",
+		"url": ""
+	},
+	{
+		"platform": "youtube",
+		"url": "https://www.youtube.com/user/Sheffield247"
+	},
+	{
+		"platform": "instagram",
+		"url": "https://instagram.com/alber.ballesteros"
+	},
+	{
+		"platform": "twitter",
+		"url": "https://twitter.com/alberto_ballest"
+	},
+	{
+		"platform": "facebook",
+		"url": "https://www.facebook.com/Alberto-Ballesteros-224771544218187/"
+	},
+	{
+		"platform": "spotify",
+		"url": "https://open.spotify.com/artist/76cl8WncFJMLHHsekATDDC"
+	},
+	{
+		"platform": "rss",
+		"url": ""
+	}
+]

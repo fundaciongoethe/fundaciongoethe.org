@@ -1,0 +1,71 @@
+---
+title: Prensa
+layout: home
+seo:
+  title: Archivo de prensa de Alberto Ballesteros
+  description: En mi archivo de prensa colecciono enlaces y grabaciones de radio, blogs, periódicos y entrevistas conmigo o sobre mí.
+---
+
+<div class="flex justify-end">
+	<h1
+		class="bg-teal-200 w-2/3 uppercase font-rock text-xl sm:text-4xl px-2 py-0.5"
+	>
+		Prensa
+	</h1>
+</div>
+
+<div class="max-w-7xl mx-auto px-2 lg:px-6 my-20">
+	<ul class="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3">
+		{% for item in prensa.items %}
+
+		<li class="col-span-1 bg-gray-200 divide-y flex flex-col justify-between">
+			<div class="w-full flex items-center justify-between p-4 space-x-6">
+				<div class="flex-1">
+					<div class="flex flex-col sm:flex-row sm:items-center sm:space-x-3">
+						<h3 class="text-gray-900 text-base font-medium truncate font-rock">
+							{{ item.title }}
+						</h3>
+						<span
+							class="font-semibold tracking-wide uppercase flex-shrink-0 sm:inline-block sm:px-1 py-0.5 text-xs sm:bg-pink-500 text-pink-500 sm:text-white"
+							>{{ item.type }}</span
+						>
+					</div>
+					<p class="mt-1 text-gray-700 text-xs max-w-40">
+						{{ item.resume }}
+					</p>
+				</div>
+				<img
+					class="w-10 h-10 bg-gray-300 rounded-full flex-shrink-0"
+					src="{{ item.image }}"
+					alt="{{ item.imagealt }}"
+				/>
+			</div>
+			<div>
+				<div class="-mt-px flex divide-x divide-gray-200">
+					<div class="flex-col flex-1 flex">
+						{% if item.audio %} {% pairedaudio "mp3" %}
+						{{ item.audio }}
+						{% endpairedaudio %} {% endif %} {% if item.audio2 %} {% pairedaudio
+						"mp3" %}
+						{{ item.audio2 }}
+						{% endpairedaudio %} {% endif %} {% if item.link %}
+
+						<a
+							target="_blank"
+							rel="nofollow"
+							href="{{ item.link }}"
+							class="border-t-8 border-gray-100 inline-flex items-center px-2 py-1 xl:px-4 xl:py-2 text-xs font-semibold no-underline text-gray-90 bg-gray-300 uppercase mt-2 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:text-white"
+						>
+							{% svg "external-black", "mr-3 h-4 w-4", "flecha" %} Link al
+							origen
+						</a>
+
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</li>
+
+		{% endfor %}
+	</ul>
+</div>

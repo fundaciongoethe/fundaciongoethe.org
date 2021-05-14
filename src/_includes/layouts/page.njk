@@ -1,0 +1,21 @@
+---
+layout: base
+tags: pages
+---
+
+<main id="main" class="block">
+	<div class="relative pb-6 md:pb-20">
+		<article>
+			<h1
+				class="pt-16 pb-4 text-4xl lg:text-6xl text-gray-900 font-rock text-center"
+			>
+				{{ seo.title or title }}
+			</h1>
+
+			<div class="prose mx-auto prose-pink px-2">{{ content | safe }}</div>
+		</article>
+	</div>
+</main>
+
+<!-- include base schema  -->
+{%- include "schemas/page-schema.njk" %}

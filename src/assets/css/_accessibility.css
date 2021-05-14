@@ -1,0 +1,26 @@
+:focus,
+button:focus {
+	outline: #ec4899 dashed 2px;
+	outline-offset: 0.25rem;
+}
+
+.skip-link {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	z-index: 99;
+	display: inline-block;
+}
+
+.skip-link:not(:focus),
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}

@@ -1,0 +1,108 @@
+<div
+	class="flex items-center justify-center px-4 py-3 border-t border-gray-200 sm:px-6 mx-auto"
+>
+	<div class="flex justify-between flex-1 sm:hidden">
+		<div>
+			{% if pagination.href.previous %}
+			<a
+				href="{{ pagination.href.previous }}"
+				class="relative inline-flex items-center px-4 py-2 text-sm leading-5 text-white uppercase no-underline font-bold transition duration-150 ease-in-out bg-pink-500 hover:text-white hover:bg-gray-900"
+			>
+				Anterior
+			</a>
+			{% endif %}
+		</div>
+		<div>
+			{% if pagination.href.next %}
+			<a
+				href="{{ pagination.href.next }}"
+				class="relative inline-flex items-center px-4 py-2 ml-3 text-sm leading-5 text-white uppercase no-underline font-bold transition duration-150 ease-in-out bg-pink-500 hover:text-white hover:bg-gray-900"
+			>
+				Siguiente
+			</a>
+			{% endif %}
+		</div>
+	</div>
+
+	<div
+		class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-{{
+			structure.g_alignPagination
+		}}"
+	>
+		<div>
+			<nav class="relative z-0 inline-flex shadow-sm">
+				{% if pagination.href.previous %}
+				<a
+					href="{{ pagination.href.previous }}"
+					class="relative inline-flex items-center px-2 py-2 text-sm font-bold leading-5 text-white transition duration-150 ease-in-out bg-gray-900 hover:text-white hover:bg-gray-900 active:bg-gray-900 active:text-gray-50"
+					aria-label="Anterior"
+				>
+					<svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							fill-rule="evenodd"
+							d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</a>
+				{% else %}
+				<div
+					class="relative inline-flex items-center px-2 py-2 text-sm font-bold leading-5 text-white transition duration-150 ease-in-out bg-gray-600 hover:text-white hover:bg-gray-900 active:bg-gray-900 active:text-gray-50"
+					aria-label="Anterior"
+				>
+					<svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							fill-rule="evenodd"
+							d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</div>
+				{%- endif %} {%- for pageEntry in pagination.pages %} {% if page.url !=
+				pagination.hrefs[loop.index0] %}
+				<a
+					href="{{ pagination.hrefs[loop.index0] }}"
+					class="relative inline-flex items-center no-underline px-4 py-2 text-sm font-bold leading-5 text-white transition duration-150 ease-in-out bg-pink-500 hover:text-white hover:bg-gray-900 active:bg-gray-900 active:text-gray-50"
+				>
+					{{ loop.index }}
+				</a>
+				{% else %}
+				<div
+					class="relative inline-flex items-center px-4 py-2 text-sm font-bold leading-5 text-gray-900 transition duration-150 ease-in-out bg-gray-50 border hover:text-white hover:bg-gray-900 active:bg-gray-900 active:text-gray-50"
+				>
+					{{ loop.index }}
+				</div>
+				{%- endif %} {%- endfor %} {% if pagination.href.next %}
+
+				<a
+					href="{{ pagination.href.next }}"
+					class="relative inline-flex items-center px-2 py-2 text-sm font-bold leading-5 text-white transition duration-150 ease-in-out bg-gray-900 hover:text-white hover:bg-gray-900 active:bg-gray-900 active:text-gray-50"
+					aria-label="Siguiente"
+				>
+					<svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							fill-rule="evenodd"
+							d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</a>
+				{% else %}
+				<div
+					class="relative inline-flex items-center px-2 py-2 text-sm font-bold leading-5 text-white transition duration-150 ease-in-out bg-gray-600 hover:text-white hover:bg-gray-900 active:bg-gray-900 active:text-gray-50"
+					aria-label="Siguiente"
+				>
+					<svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							fill-rule="evenodd"
+							d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</div>
+
+				{%- endif %}
+			</nav>
+		</div>
+	</div>
+</div>

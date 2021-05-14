@@ -1,0 +1,15 @@
+---
+layout: base
+tags: pages
+---
+
+<main id="main" class="block">
+	<div class="relative pb-6 md:pb-20">
+		<article>
+			{{ content | safe }}
+		</article>
+	</div>
+</main>
+
+<!-- include base schema  -->
+{%- include "schemas/page-schema.njk" %}

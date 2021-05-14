@@ -1,0 +1,19 @@
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Event",
+		"location": {
+			"@type": "Place",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "{{ place.city }}",
+				"postalCode": "{{ place.plz }}",
+				"streetAddress": "{{ place.street }}"
+			},
+			"name": "{{ place.name }}"
+		},
+		"name": "{{ title }}",
+		"description": "{{ event.templateContent | safe }}",
+		"startDate": "{{ date  }}"
+	}
+</script>

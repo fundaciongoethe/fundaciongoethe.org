@@ -1,0 +1,28 @@
+{
+	"items": [
+		{
+			"text": "Bio",
+			"url": "/biografia/"
+		},
+		{
+			"text": "Discos",
+			"url": "/discos/"
+		},
+		{
+			"text": "Conciertos",
+			"url": "/conciertos/"
+		},
+		{
+			"text": "Vídeos",
+			"url": "/videos/"
+		},
+		{
+			"text": "Blog",
+			"url": "/blog/"
+		},
+		{
+			"text": "Contacto",
+			"url": "/contacto/"
+		}
+	]
+}
