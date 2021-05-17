@@ -50,7 +50,7 @@
 				tealbox %} {% include "components/teal-box.njk" %} {% endif %} {%
 				include "partials/header.njk" %}
 
-				<div class="flex-grow max-w-full">
+				<div class="flex-grow max-w-full {% if heroimg %} mt-112 {% endif %}">
 					{{ content | safe }}
 				</div>
 			</div>

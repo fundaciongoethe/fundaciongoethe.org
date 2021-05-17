@@ -4,24 +4,24 @@
 		"url": ""
 	},
 	{
-		"platform": "youtube",
-		"url": "https://www.youtube.com/user/Sheffield247"
+		"platform": "twitter",
+		"url": "https://twitter.com/fundaciongoethe"
 	},
 	{
 		"platform": "instagram",
-		"url": "https://instagram.com/alber.ballesteros"
-	},
-	{
-		"platform": "twitter",
-		"url": "https://twitter.com/alberto_ballest"
+		"url": "https://www.instagram.com/fundaciongoethe/"
 	},
 	{
 		"platform": "facebook",
-		"url": "https://www.facebook.com/Alberto-Ballesteros-224771544218187/"
+		"url": "https://www.facebook.com/fundaciongoethe/"
 	},
 	{
-		"platform": "spotify",
-		"url": "https://open.spotify.com/artist/76cl8WncFJMLHHsekATDDC"
+		"platform": "youtube",
+		"url": "https://www.youtube.com/channel/UCmTLw_kXDEUS7wxiyX3Aqdw"
+	},
+	{
+		"platform": "linkedin",
+		"url": "https://www.linkedin.com/company/fundaciongoethe/"
 	},
 	{
 		"platform": "rss",

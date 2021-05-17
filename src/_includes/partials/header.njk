@@ -1,13 +1,97 @@
-<nav x-data="{ open: false }" class="relative nav sm:mt-24">
+<!-- topbar -->
+<div class="bg-transparent z-10 hidden md:block">
+	<div class="max-w-7xl mx-auto px-2 md:px-10 2xl:px-16">
+		<div class="relative flex items-center justify-end h-16">
+			<div class="flex items-center pr-2 sm:ml-6 sm:pr-0">
+				<button
+					class="
+						text-xs
+						font-semibold
+						bg-orange-400
+						p-2
+						rounded-full
+						text-black
+						mx-2
+					"
+				>
+					ES
+				</button>
+
+				<button
+					class="text-xs font-semibold bg-white p-2 rounded-full text-black"
+				>
+					DE
+				</button>
+
+				<button
+					type="button"
+					class="
+						inline-flex
+						items-center
+						px-3
+						py-2
+						shadow-sm
+						text-xs
+						uppercase
+						leading-4
+						font-semibold
+						rounded-md
+						text-black
+						bg-yellow-300
+						hover:bg-orange-300
+						ml-6
+					"
+				>
+					{% svg "ticket", "h-4 w-4 fill-current mr-2", site.platform, "topbar"
+					%} Recibe invitaciones
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<nav
+	x-data="{ open: false }"
+	class="
+		relative
+		nav
+		mt-2
+		transform
+		md:-translate-y-16
+		lg:translate-y-0
+		bg-gray-50
+		md:bg-transparent
+	"
+>
 	<div class="mx-auto">
 		<div
-			class="flex sm:flex-col lg:flex-row items-center justify-between relative"
+			class="
+				flex
+				md:flex-col
+				lg:flex-row
+				lg:items-center
+				justify-between
+				relative
+			"
 		>
 			<div class="flex items-end">
 				<div class="flex-shrink-0 flex">
 					<a href="/" title="Home" class="no-underline">
 						<img
-							class="block h-12 2xl:h-16 mb-0.5 xl:mb-0 w-auto xl:pl-24"
+							class="
+								py-1
+								sm:py-0
+								block
+								h-10
+								sm:h-12
+								2xl:h-16
+								md:mb-2
+								lg:mb-0
+								w-auto
+								pl-2
+								xl:pl-16
+								2xl:pl-24
+							"
 							src="/assets/svg/logo-goethe20-RGB.svg"
 							alt="Fundación Goethe Logo"
 							width="338"
@@ -19,32 +103,38 @@
 			<div
 				class="
 					hidden
-					sm:block
+					md:block
 					bg-gray-900
-					xl:pl-12
-					xl:pr-10
+					md:px-2
+					md:pl-10
+					2xl:pl-12
+					2xl:pr-10
 					w-full
 					lg:w-auto
-					2xl:w-2/3
-					rounded-l-md
+					xl:w-2/3
+					lg:rounded-l-md
 				"
 			>
-				<div class="flex justify-center lg:justify-start mr-3">
+				<div class="flex justify-center lg:justify-start">
 					{% for item in navigation.items %}
 
 					<a
 						class="
 							text-white
 							no-underline
-							text-base
+							text-xs
+							xl:text-sm
+							2xl:text-base
 							font-semibold
 							uppercase
 							bg-gray-900
 							hover:text-white
 							hover:bg-gray-800
-							px-2
-							xl:px-3
-							py-4
+							px-1
+							md:px-2
+							2xl:px-3
+							py-3
+							2xl:py-4
 							block
 							relative
 						"
@@ -62,7 +152,7 @@
 				</div>
 			</div>
 
-			<div class="flex sm:hidden">
+			<div class="flex md:hidden">
 				<!-- Mobile menu button -->
 				<button
 					type="button"
@@ -71,9 +161,10 @@
 						items-center
 						justify-center
 						p-2
-						text-sm text-pink-50
-						bg-red-600
-						hover:bg-pink-600
+						text-sm text-gray-50
+						bg-black
+						rounded-l-md
+						hover:bg-red-600
 					"
 					aria-controls="mobile-menu"
 					@click="open = !open"
@@ -81,9 +172,7 @@
 					x-bind:aria-expanded="open.toString()"
 				>
 					<span class="sr-only">Abrir menú principal</span>
-					<span
-						class="uppercase font-rock"
-						:class="{ 'hidden': open, 'block': !(open) }"
+					<span class="uppercase" :class="{ 'hidden': open, 'block': !(open) }"
 						>Menú</span
 					>
 
@@ -187,7 +276,7 @@ Heroicon name: outline/x"
 
 	<div
 		x-description="Mobile menu, show/hide based on menu state."
-		class="sm:hidden relative bg-yellow-300"
+		class="md:hidden relative bg-gray-50"
 		id="mobile-menu"
 		x-show="open"
 		style="display: none"
