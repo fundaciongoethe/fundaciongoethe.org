@@ -1,14 +1,15 @@
 ---
-title: Blog
+title: Aktuelles
 layout: home
+translationKey: "blog"
 seo:
-  title: Blog de Alberto Ballesteros
+  title: Aktuelles von der Fundaci¡on Goethe
   description: En mi blog escribo sobre mi proyecto. Noticias, prensa, críticas, mis movidas, conciertos, fotos, canciones y vídeos.
 pagination:
-  data: collections.noticia
+  data: collections.posts_de
   size: 6
   reverse: true
-  alias: posts
+  alias: posts_de
 ---
 
 <div class="flex justify-end">
@@ -24,13 +25,13 @@ pagination:
 			py-0.5
 		"
 	>
-		Noticias
+		Aktuelles
 	</h1>
 </div>
 
-{% set postslist = posts | reverse %} {# Allows a user to easily change the Tag
-List Style. Please see instructions in /src/_data/structure.js >>> ===== Post
-List Style Options ===== #} {% set postlist = ['components/',
+{% set postslist = posts_de | reverse %} {# Allows a user to easily change the
+Tag List Style. Please see instructions in /src/_data/structure.js >>> =====
+Post List Style Options ===== #} {% set postlist = ['components/',
 structure.postListStyle, '.njk'] %} {% include postlist | join %} {# =====
 Paginate based on "size" frontmatter value above ===== #} {# Don't even include
 the pagination component if there are fewer posts than needed to paginate #} {%

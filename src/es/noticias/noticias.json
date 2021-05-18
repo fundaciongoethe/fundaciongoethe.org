@@ -1,6 +1,6 @@
 {
 	"layout": "post",
-	"permalink": "/noticias/{{ title | slugify }}/index.html",
+	"permalink": "/{{ locale }}/noticias/{{ title | slugify }}/index.html",
 	"tags": ["noticia"],
 	"author": "{{ meta.author }}"
 }

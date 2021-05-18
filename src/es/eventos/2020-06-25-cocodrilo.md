@@ -1,7 +1,10 @@
 ---
 title: Con Antonio Hernando en el Cocodrilo
 description: Compartimos escenario para presentar Cotton candy cake tootsie roll. Cotton candy chocolate liquorice soufflé tart pastry.
-date: 2020-02-20 22:00:00.10 +2
+translationKey: "cocodrilo"
+customSlug: 2020-06-25-cocodrilo
+type: Concierto
+date: 2020-06-25 22:00:00.10 +2
 place:
   name: El Cocodrilo
   url: https://elcocodrilomadrid.eatbu.com
@@ -9,7 +12,7 @@ place:
   city: Madrid
   plz: 28028
 button:
-  text: Comprar entradas
+  text: anderer text
   url: https://entradium.com
-cardcolor: bg-pink-400
+cardcolor: bg-yellow-300
 ---

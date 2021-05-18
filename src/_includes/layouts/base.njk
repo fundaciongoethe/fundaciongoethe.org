@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="{{ locale }}">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>{{ seo.title or title }} | {{ meta.siteName }}</title>
+		<title>{{ seo.title or title }} | {{ meta[locale].metaTitle }}</title>
 		<!-- Inline Minified CSS -->
 
 		<link rel="stylesheet" href="/assets/fonts.min.css" />
@@ -19,7 +19,7 @@
 		<link
 			rel="alternate"
 			type="application/atom+xml"
-			title="RSS Feed for {{ meta.siteName }}"
+			title="RSS Feed para {{ meta.siteName }}"
 			href="/feed.xml"
 		/>
 		{%- include "partials/head.njk" %}
@@ -28,9 +28,7 @@
 		<!-- audioplayer traversy -->
 	</head>
 	<body class="bg-gray-200">
-		<a href="#main" class="skip-link cbutton"
-			>Saltar a la región principal de la página</a
-		>
+		<a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
 
 		<div hidden>{% svgsprite %}</div>
 		<div

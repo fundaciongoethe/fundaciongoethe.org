@@ -133,14 +133,14 @@ module.exports = function (eleventyConfig) {
 
 	// Collections
 
-	// blog
-	eleventyConfig.addCollection("noticia", (collection) => {
-		if (process.env.ELEVENTY_ENV !== "production")
-			return [...collection.getFilteredByGlob("./src/noticias/*.md")];
-		else
-			return [...collection.getFilteredByGlob("./src/noticias/*.md")].filter(
-				(noticia) => !noticia.data.draft
-			);
+	// blog es
+	eleventyConfig.addCollection("posts_es", function (collection) {
+		return collection.getFilteredByGlob("./src/es/noticias/*.md");
+	});
+
+	// blog de
+	eleventyConfig.addCollection("posts_de", function (collection) {
+		return collection.getFilteredByGlob("./src/de/aktuelles/*.md");
 	});
 
 	// TAGLIST used from the official eleventy-base-blog  https://github.com/11ty/eleventy-base-blog/blob/master/.eleventy.js
@@ -171,20 +171,42 @@ module.exports = function (eleventyConfig) {
 		return [...tagSet];
 	});
 
-	eleventyConfig.addCollection("events", (collectionApi) => {
-		return collectionApi.getFilteredByGlob("./src/conciertos/*.md");
+	// events es
+	eleventyConfig.addCollection("events_es", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/es/eventos/*.md");
 	});
-	eleventyConfig.addCollection("pastEvents", (collectionApi) => {
+	eleventyConfig.addCollection("eventosPasados", (collectionApi) => {
 		return collectionApi
-			.getFilteredByGlob("./src/conciertos/*.md")
+			.getFilteredByGlob("./src/es/eventos/*.md")
 			.filter(
 				(event) =>
 					isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
 			);
 	});
-	eleventyConfig.addCollection("upcomingEvents", (collectionApi) => {
+	eleventyConfig.addCollection("eventosFuturos", (collectionApi) => {
 		return collectionApi
-			.getFilteredByGlob("./src/conciertos/*.md")
+			.getFilteredByGlob("./src/es/eventos/*.md")
+			.filter(
+				(event) =>
+					isValidEvent(event) && isAfter(new Date(event.data.date), new Date())
+			);
+	});
+
+	// events de
+	eleventyConfig.addCollection("events_de", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/de/events/*.md");
+	});
+	eleventyConfig.addCollection("eventsVergangenheit", (collectionApi) => {
+		return collectionApi
+			.getFilteredByGlob("./src/de/events/*.md")
+			.filter(
+				(event) =>
+					isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
+			);
+	});
+	eleventyConfig.addCollection("eventsZukunft", (collectionApi) => {
+		return collectionApi
+			.getFilteredByGlob("./src/de/events/*.md")
 			.filter(
 				(event) =>
 					isValidEvent(event) && isAfter(new Date(event.data.date), new Date())
@@ -277,6 +299,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias("home", "layouts/home.njk");
 	eleventyConfig.addLayoutAlias("plain", "layouts/plain.njk");
 	eleventyConfig.addLayoutAlias("evento", "layouts/evento.njk");
+	eleventyConfig.addLayoutAlias("redirect", "layouts/redirect.njk");
 
 	// Opts in to a full deep merge when combining the Data Cascade.
 	// @link https://www.11ty.dev/docs/data-deep-merge/#data-deep-merge

@@ -1,0 +1,80 @@
+---
+title: Conciertos
+layout: home
+permalink: "/{{ locale }}/eventos/index.html"
+translationKey: "events"
+seo:
+  title: Conciertos
+  description: Aquí puedes ver cuándo y dónde tendrán lugar mis próximos conciertos.  Actualmente no hay conciertos. Ojalá de cara al verano podamos estrenar el disco.
+bgimg:
+  url: alberto-conciertos-nohay.jpg
+  alt: Alberto gritando
+  width: 1537
+  height: 2013
+---
+
+<div class="flex justify-end">
+	<h1
+		class="
+			fade-in-bottom
+			bg-gray-900
+			text-gray-50
+			sm:text-gray-900
+			sm:bg-teal-200
+			w-full
+			sm:w-1/3
+			uppercase
+			font-rock
+			text-xl
+			sm:text-4xl
+			px-2
+			py-0.5
+		"
+	>
+		Eventos
+	</h1>
+</div>
+
+{# wenn es events gibt #} {% for event in collections.eventosFuturos %}
+{{ event | log }}
+
+<!-- include eventcard  -->
+{% include "components/eventcard.njk" %}
+<!-- include event schema  -->
+{%- include "schemas/event-schema.njk" %}
+<!-- ende -->
+{% endfor %} {# ansonsten #}
+
+<section id="sinconciertos" class="flex items-center justify-end">
+	<div
+		class="
+			flex flex-col
+			mt-20
+			xl:mt-40
+			items-start
+			justify-between
+			py-3
+			px-2
+			sm:px-6
+			bg-teal-200
+			shadow-sm
+			w-40
+			[
+			sm:w-56
+			][
+			lg:w-80
+			][
+			xl:w-96
+			]
+		"
+	>
+		<h2 class="font-rock text-xl sm:text-2xl mb-2">
+			Actualmente no hay conciertos.
+		</h2>
+
+		<p class="text-sm">
+			Ya me gustaría a mí. De momento nada de nada. Ojalá de cara al verano
+			podamos ir pensando en estrenar el disco.
+		</p>
+	</div>
+</section>

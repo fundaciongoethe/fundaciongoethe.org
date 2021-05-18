@@ -8,22 +8,23 @@ absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%}
 <meta name="author" content="{{ author or meta.authorName }}" />
 <meta
 	name="description"
-	content="{{ seo.description or excerpt or meta.siteDescription }}"
+	content="{{ seo.description or excerpt or meta[locale].metaDescription }}"
 />
 <link rel="canonical" href="{{ absolutePageUrl }}" />
 {#- Open Graph #}
-<meta property="og:site_name" content="{{ meta.siteName }}" />
+<meta property="og:site_name" content="{{ meta[locale].metaTitle }}" />
 <meta
 	property="og:title"
-	content="{{ seo.title or title }} | {{ meta.siteName }}"
+	content="{{ seo.title or title }} | {{ meta[locale].metaTitle }}"
 />
 <meta property="og:type" content="website" />
 <meta
 	property="og:description"
-	content="{{ seo.description or excerpt or meta.siteDescription }}"
+	content="{{ seo.description or excerpt or meta[locale].metaDescription }}"
 />
 <meta property="og:url" content="{{ absolutePageUrl }}" />
-<meta property="og:locale" content="{{ meta.locale }}" />
+<meta property="og:locale" content="{{ meta[locale].localeCode }}" />
+
 <meta
 	property="og:image"
 	content="{{ ogImage | url | absoluteUrl(build.url) }}"
@@ -34,11 +35,11 @@ absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%}
 <meta name="twitter:creator" content="{{ meta.twitterCreator }}" />
 <meta
 	name="twitter:title"
-	content="{{ seo.title or title }} | {{ meta.siteName }}"
+	content="{{ seo.title or title }} | {{ meta[locale].metaTitle }}"
 />
 <meta
 	name="twitter:description"
-	content="{{ seo.description or excerpt or meta.siteDescription }}"
+	content="{{ seo.description or excerpt or meta[locale].metaDescription }}"
 />
 {#- Favicon #}
 <link rel="icon" href="{{ '/favicon.ico' | url }}" />

@@ -2,6 +2,8 @@
 title: Política de privacidad
 description: Política de privacidad según la Regulación General de Protección de Datos de la UE (RGPD).
 layout: page
+permalink: "/{{ locale }}/datenschutz/index.html"
+translationKey: "privacy"
 ---
 
 Respeto la Regulación General de Protección de Datos de la UE (RGPD) y este documento de política explica cómo recopilamos y manejamos cualquier información que nos proporciones.

@@ -28,7 +28,7 @@
 						lg:mt-10
 					"
 				>
-					<h1
+					<span
 						class="
 							text-base
 							leading-6
@@ -38,9 +38,11 @@
 							uppercase
 						"
 					>
-						<span class="bg-red-600 px-3 py-1 rounded-md">Desde 2011</span>
-					</h1>
-					<h2
+						<span class="bg-red-600 px-3 py-1 rounded-md">{{
+							herotext.badge
+						}}</span>
+					</span>
+					<h1
 						class="
 							mt-4
 							mb-6
@@ -55,13 +57,11 @@
 							leading-tight
 						"
 					>
-						Fundación cultural de la economía hispano-alemana
-					</h2>
+						{{ herotext.title }}
+					</h1>
 					<div class="text-sm xl:text-base text-gray-900">
 						<p>
-							La Fundación Goethe promueve las relaciones hispano-alemanas a
-							nivel cultural y apoya a músicos y artistas alemanes y españoles
-							con posibilidades de actuación y exposición.
+							{{ herotext.content }}
 						</p>
 					</div>
 				</div>

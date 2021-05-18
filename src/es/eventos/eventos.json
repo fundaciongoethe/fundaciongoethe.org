@@ -1,0 +1,5 @@
+{
+	"layout": "evento",
+	"permalink": "/{{ locale }}/eventos/{{ customSlug }}/index.html",
+	"tags": ["evento"]
+}

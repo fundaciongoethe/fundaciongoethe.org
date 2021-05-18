@@ -1,8 +1,8 @@
 ---
 title: "Chao Madrid - Feliz verano"
+translationKey: "chaomadrid"
 date: 2020-07-04
 excerpt: Chao Madrid, nos vamos a pasar el verano al pueblo. Atrás quedan para el recuerdo cuatro meses de mierda, cuatro meses de incertidumbre, miedo y pena.
-draft:
 seo:
   title: Chao Madrid - Feliz verano
   description: Chao Madrid, nos vamos a pasar el verano al pueblo. Atrás quedan para el recuerdo cuatro meses de mierda, cuatro meses de incertidumbre, miedo y pena.

@@ -1,16 +1,17 @@
 ---
 title: Conciertos
 layout: home
+permalink: "/{{ locale }}/events-beendet/index.html"
+translationKey: "events-finished"
 seo:
   title: Conciertos
   description: Crispina & Molinilla no pueden estar quietas ni un segundo, no paran de crear, por eso pronto las podrás encontrar en los teatros y en algunos directo de Youtube.
 bgimg:
   url: alberto-conciertos.jpg
   alt: Alberto schwarz weiss
-permalink: false
 ---
 
-{% for event in collections.pastEvents %} {{ event | log }}
+{% for event in collections.eventsVergangenheit %} {{ event | log }}
 
 <!-- include eventcard  -->
 {% include "components/eventcard-pasados.njk" %}

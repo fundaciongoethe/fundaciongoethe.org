@@ -1,0 +1,39 @@
+---
+title: Noticias
+layout: home
+translationKey: "blog"
+seo:
+  title: Noticias de la Fundaci¡on Goethe
+  description: En mi blog escribo sobre mi proyecto. Noticias, prensa, críticas, mis movidas, conciertos, fotos, canciones y vídeos.
+pagination:
+  data: collections.posts_es
+  size: 6
+  reverse: true
+  alias: posts_es
+---
+
+<div class="flex justify-end">
+	<h1
+		class="
+			bg-teal-200
+			w-2/3
+			uppercase
+			font-rock
+			text-xl
+			sm:text-4xl
+			px-2
+			py-0.5
+		"
+	>
+		Noticias
+	</h1>
+</div>
+
+{% set postslist = posts_es | reverse %} {# Allows a user to easily change the
+Tag List Style. Please see instructions in /src/_data/structure.js >>> =====
+Post List Style Options ===== #} {% set postlist = ['components/',
+structure.postListStyle, '.njk'] %} {% include postlist | join %} {# =====
+Paginate based on "size" frontmatter value above ===== #} {# Don't even include
+the pagination component if there are fewer posts than needed to paginate #} {%
+if collections.post.length > pagination.size %} {% include
+"components/pagination.njk" %} {% endif %}
