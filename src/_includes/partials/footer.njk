@@ -1,54 +1,205 @@
-<footer
-	class="font-semibold bg-transparent px-2 sm:px-6 md:px-24 text-xs pb-16"
->
-	<div
-		class="
-			py-4
-			lg:py-1
-			flex flex-col
-			lg:flex-row
-			md:items-center
-			md:justify-between
-		"
-	>
-		<div class="mt-2 lg:mt-0 md:order-1 uppercase">
-			<p class="text-center text-gray-900">
-				&copy; 2001 - {% year %} Fundación Goethe
-				<a href="/aviso-legal/" class="text-gray-900 hover:text-red-600 mx-4">
-					Aviso legal
-				</a>
+<!-- This example requires Tailwind CSS v2.0+ -->
+<footer aria-labelledby="footerHeading">
+	<h2 id="footerHeading" class="sr-only">Footer</h2>
+	<div class="mx-auto pb-12 lg:pb-16">
+		<div class="xl:grid xl:grid-cols-3 xl:gap-8 bg-gray-100">
+			<div class="space-y-8 xl:col-span-1 bg-gray-200 pl-24 py-8 pr-8">
+				<ul class="divide-y divide-gray-200">
+					<li class="py-3 flex items-center">
+						{% svg "phone", "h-10 w-10 p-2 bg-white rounded-full", "Teléfonos",
+						"footer" %}
 
-				<a href="/privacidad/" class="text-gray-900 hover:text-red-600">
-					Política de privacidad
-				</a>
-			</p>
-		</div>
+						<div class="ml-5 text-base font-semibold text-gray-900">
+							<p>
+								<a
+									class="no-underline"
+									href="tel:{{ meta.address.phoneCall }}"
+									>{{ meta.address.phoneDisplay }}</a
+								>
+							</p>
+							<p>
+								<a
+									class="no-underline"
+									href="tel:{{ meta.address.mobileCall }}"
+									>{{ meta.address.mobileDisplay }}</a
+								>
+							</p>
+						</div>
+					</li>
 
-		<div
-			class="mt-2 lg:mt-0 flex justify-center items-center space-x-2 md:order-2"
-		>
-			{# Display Social icons from _data/social.json #} {% for site in social %}
-			{% if site.url %}
-			<a
-				aria-label="Link to {{ site.platform }}"
-				alt="Link to {{ site.platform }}"
+					<li class="py-3 flex items-center">
+						{% svg "mail", "h-10 w-10 p-2 bg-white rounded-full", "Dirección de
+						correos", "footer" %}
+
+						<div class="ml-5 text-base font-semibold text-gray-900">
+							<p>
+								<a
+									class="no-underline"
+									href="mailto:{{ meta.address.email }}"
+									>{{ meta.address.email }}</a
+								>
+							</p>
+						</div>
+					</li>
+
+					<li class="py-3 flex items-center">
+						{% svg "map", "h-10 w-10 p-2 bg-white rounded-full", "Dirección
+						postal", "footer" %}
+
+						<div class="ml-5 text-base font-semibold text-gray-900">
+							<p>
+								{{ meta.address.street }}
+							</p>
+							<p>{{ meta.address.zip }} {{ meta.address.city }}</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div
 				class="
-					transition
-					duration-100
-					ease-in-out
-					transform
-					hover:-translate-y-1
-					hover:scale-105
-					text-yellow-400
-					hover:text-gray-50
+					mt-12
+					md:grid md:grid-cols-3
+					gap-8
+					xl:mt-0
+					xl:col-span-2
+					py-8
+					text-sm
+					font-semibold
+					tracking-wider
+					uppercase
+					mx-auto
+					max-w-3xl
+					px-2
 				"
-				href="{{ site.url | url }}"
-				target="_blank"
-				rel="noopener"
 			>
-				{% svg site.platform, "h-5 w-5 fill-current", site.platform, "footer" %}
-			</a>
-			{% endif %} {% endfor %} <span class="ml-3">@fundaciongoethe</span>
+				<div class="flex flex-row items-center">
+					<ul class="space-y-2">
+						{% for item in navigation[locale].bottom.row1 %}
+						<li>
+							<a
+								class="no-underline text-orange-400 hover:text-gray-900"
+								href="{{ item.url }}"
+								{{
+								helpers.getLinkActiveState(item.url,
+								page.url)
+								|
+								safe
+								}}
+								>{{ item.text }}</a
+							>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="flex flex-row items-center mt-12 md:mt-0">
+					<ul class="space-y-2">
+						{% for item in navigation[locale].bottom.row2 %}
+						<li>
+							<a
+								class="no-underline text-orange-600 hover:text-gray-900"
+								href="{{ item.url }}"
+								{{
+								helpers.getLinkActiveState(item.url,
+								page.url)
+								|
+								safe
+								}}
+								>{{ item.text }}</a
+							>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="flex flex-row items-center mt-12 md:mt-0">
+					<ul class="space-y-2">
+						{% for item in navigation[locale].bottom.row3 %}
+						<li>
+							<a
+								class="no-underline text-red-500 hover:text-gray-900"
+								href="{{ item.url }}"
+								{{
+								helpers.getLinkActiveState(item.url,
+								page.url)
+								|
+								safe
+								}}
+								>{{ item.text }}</a
+							>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="font-semibold bg-transparent px-2 sm:px-6 md:px-24 text-xs pb-16">
+		<div
+			class="
+				py-4
+				lg:py-1
+				flex flex-col
+				lg:flex-row
+				md:items-center
+				md:justify-between
+			"
+		>
+			<div class="mt-2 lg:mt-0 md:order-1 uppercase">
+				<p class="text-center text-gray-900">
+					&copy; 2001 - {% year %} Fundación Goethe {% for item in
+					navigation[locale].footer %}
+
+					<a
+						class="text-gray-900 hover:text-red-600 ml-4"
+						href="{{ item.url }}"
+						{{
+						helpers.getLinkActiveState(item.url,
+						page.url)
+						|
+						safe
+						}}
+						>{{ item.text }}</a
+					>
+					{% endfor %}
+				</p>
+			</div>
+
+			<div
+				class="
+					mt-2
+					lg:mt-0
+					flex
+					justify-center
+					items-center
+					space-x-2
+					md:order-2
+				"
+			>
+				{# Display Social icons from _data/social.json #} {% for site in social
+				%} {% if site.url %}
+				<a
+					aria-label="Link to {{ site.platform }}"
+					alt="Link to {{ site.platform }}"
+					class="
+						transition
+						duration-100
+						ease-in-out
+						transform
+						hover:-translate-y-1
+						hover:scale-105
+						text-yellow-400
+						hover:text-gray-50
+					"
+					href="{{ site.url | url }}"
+					target="_blank"
+					rel="noopener"
+				>
+					{% svg site.platform, "h-5 w-5 fill-current", site.platform, "footer"
+					%}
+				</a>
+				{% endif %} {% endfor %} <span class="ml-3">@fundaciongoethe</span>
+			</div>
 		</div>
 	</div>
 </footer>
