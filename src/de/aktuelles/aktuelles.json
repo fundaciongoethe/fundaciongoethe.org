@@ -1,6 +1,5 @@
 {
 	"layout": "post",
 	"permalink": "/{{ locale }}/aktuelles/{{ title | slugify }}/index.html",
-	"tags": ["aktuell"],
 	"author": "{{ meta.author }}"
 }

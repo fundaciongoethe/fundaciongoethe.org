@@ -1,0 +1,9 @@
+---
+permalink: /{{ locale }}/tags/
+layout: home
+title: Alle Themen
+---
+
+<div class="mt-6">
+	{% set tags = collections.tagList %} {% include "components/tagpills.njk" %}
+</div>

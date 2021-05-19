@@ -1,45 +1,32 @@
 <footer
-	class="
-		bg-gray-900
-		max-w-3xl
-		mx-auto
-		uppercase
-		transform
-		lg:-translate-y-5
-		text-xs
-	"
+	class="font-semibold bg-transparent px-2 sm:px-6 md:px-24 text-xs pb-16"
 >
 	<div
 		class="
 			py-4
 			lg:py-1
-			px-2
 			flex flex-col
 			lg:flex-row
 			md:items-center
 			md:justify-between
 		"
 	>
-		<div class="mt-2 lg:mt-0 md:order-1">
-			<p class="text-center text-gray-100">
-				&copy; 2009 - {% year %} Alberto Ballesteros
-				<a
-					href="/aviso-legal/"
-					class="text-gray-300 hover:text-gray-100 mx-2 font-normal"
-				>
+		<div class="mt-2 lg:mt-0 md:order-1 uppercase">
+			<p class="text-center text-gray-900">
+				&copy; 2001 - {% year %} Fundación Goethe
+				<a href="/aviso-legal/" class="text-gray-900 hover:text-red-600 mx-4">
 					Aviso legal
 				</a>
 
-				<a
-					href="/privacidad/"
-					class="text-gray-300 hover:text-gray-100 font-normal"
-				>
+				<a href="/privacidad/" class="text-gray-900 hover:text-red-600">
 					Política de privacidad
 				</a>
 			</p>
 		</div>
 
-		<div class="mt-2 lg:mt-0 flex justify-center space-x-2 md:order-2">
+		<div
+			class="mt-2 lg:mt-0 flex justify-center items-center space-x-2 md:order-2"
+		>
 			{# Display Social icons from _data/social.json #} {% for site in social %}
 			{% if site.url %}
 			<a
@@ -59,41 +46,9 @@
 				target="_blank"
 				rel="noopener"
 			>
-				{% svg site.platform, "h-4 w-4 fill-current", site.platform, "footer" %}
+				{% svg site.platform, "h-5 w-5 fill-current", site.platform, "footer" %}
 			</a>
-			{% endif %} {% endfor %}
-		</div>
-
-		<div
-			class="
-				md:order-3
-				text-center
-				flex
-				justify-center
-				items-center
-				content-between
-				text-gray-100
-			"
-		>
-			<p class="pr-1 py-2">Hecho con</p>
-			<a
-				rel="noopener"
-				title="Lene Saile - Diseñadora y desarrolladora web"
-				href="https://lenesaile.com"
-			>
-				{% svg "heart", "w-4 h-4 transition duration-200 ease-in-out transform
-				hover:scale-125 hover:text-pink-400", "corazon" %}
-			</a>
-			<p class="pl-1 py-2">
-				por
-				<a
-					class="underline hover:text-white"
-					rel="noopener"
-					title="Lene Saile - Diseñadora y desarrolladora web"
-					href="https://www.lenesaile.com/"
-					>Lene Saile</a
-				>
-			</p>
+			{% endif %} {% endfor %} <span class="ml-3">@fundaciongoethe</span>
 		</div>
 	</div>
 </footer>

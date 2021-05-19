@@ -37,7 +37,7 @@
 			<div
 				class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
 					overflow
-				}} "
+				}} rounded-b-lg"
 			>
 				<!-- full bg image, teal box und pink box from frontmatter data
 				> -->
@@ -45,15 +45,16 @@
 				{% if bgimg %} {% include "components/fullbg.njk" %} {% endif %} {% if
 				heroimg %} {% include "components/herobg.njk" %} {% endif %}{% if
 				pinkbox %} {% include "components/pink-box.njk" %} {% endif %} {% if
-				tealbox %} {% include "components/teal-box.njk" %} {% endif %} {%
-				include "partials/header.njk" %}
+				tealbox %} {% include "components/teal-box.njk" %} {% endif %} {# topbar
+				+ header #} {% include "partials/topbar.njk" %} {% include
+				"partials/header.njk" %}
 
 				<div class="flex-grow max-w-full {% if heroimg %} mt-112 {% endif %}">
 					{{ content | safe }}
 				</div>
+				{% include "partials/footer.njk" %}
 			</div>
-
-			{% include "partials/footer.njk" %}
+			{% include "partials/credit.njk" %}
 		</div>
 
 		<script src="/assets/main.js" defer></script>

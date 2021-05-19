@@ -1,5 +1,6 @@
 const { isAfter, isBefore, format } = require("date-fns");
-const spanishLocale = require("date-fns/locale/es");
+// moment cause i cant get it to work with fns repecting DRY
+const moment = require("moment");
 const markdownIt = require("markdown-it");
 const markdownItEmoji = require("markdown-it-emoji");
 
@@ -45,6 +46,13 @@ module.exports = function (eleventyConfig) {
 
 	Object.keys(dateFilters).forEach((filterName) => {
 		eleventyConfig.addFilter(filterName, dateFilters[filterName]);
+	});
+
+	// date filter (localized)
+	eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
+		locale = locale ? locale : "es";
+		moment.locale(locale);
+		return moment(date).format(format);
 	});
 
 	// Shortcodes
@@ -155,7 +163,7 @@ module.exports = function (eleventyConfig) {
 						// this list should match the `filter` list in tags.njk
 						case "authors":
 						case "pages":
-						case "noticia":
+						case "post":
 							return false;
 					}
 
@@ -168,6 +176,7 @@ module.exports = function (eleventyConfig) {
 			}
 		});
 
+		// returning an array in addCollection works in Eleventy 0.5.3
 		return [...tagSet];
 	});
 

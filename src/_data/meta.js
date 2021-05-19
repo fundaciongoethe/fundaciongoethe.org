@@ -41,6 +41,7 @@ module.exports = {
 		menuText: "Abrir menú principal",
 		menuClose: "cerrar",
 		invitations: "Recibe invitaciones",
+		readingText: "seguir leyendo",
 	},
 	de: {
 		metaTitle: "Fundación Goethe Spanien",
@@ -52,6 +53,7 @@ module.exports = {
 		menuText: "Hauptmenü öffnen",
 		menuClose: "Menü",
 		invitations: "Einladungen erhalten",
+		readingText: "weiterlesen",
 	},
 
 	isProduction: process.env.ELEVENTY_ENV === "production",

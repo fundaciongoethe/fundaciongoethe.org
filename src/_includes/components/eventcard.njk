@@ -5,13 +5,24 @@
 	}} mx-auto shadow-sm [ sm:h-80 sm:w-80 ][ xl:h-96 xl:w-96 ]"
 >
 	<div class="flex flex-col items-center justify-center w-12 text-center">
-		<p class="font-rock text-5xl xl:text-6xl">{{ event.data.date | dayES }}</p>
+		<p class="font-rock text-5xl xl:text-6xl">
+			{{ event.data.date | day_es }}
+		</p>
 
 		<p
-			class="text-base leading-6 text-gray-100 font-bold tracking-wider uppercase transform -translate-y-2"
+			class="
+				text-base
+				leading-6
+				text-gray-100
+				font-bold
+				tracking-wider
+				uppercase
+				transform
+				-translate-y-2
+			"
 		>
 			<span class="bg-gray-900 px-1 xl:px-2 pb-0.5">{{
-				event.data.date | monthShortES
+				event.data.date | monthShort_es
 			}}</span>
 		</p>
 	</div>
@@ -33,7 +44,31 @@
 		href="{{ event.data.button.url }}"
 		target="_blank"
 		rel="nofollow"
-		class="inline-flex items-center px-3 py-1 xl:px-4 xl:py-2 shadow-sm text-sm lg:text-base 2xl:text-lg font-semibold no-underline text-gray-50 bg-gray-900 uppercase mt-2 transition duration-200 ease-in-out transform hover:scale-105 hover:-translate-y-1 hover:text-white"
+		class="
+			inline-flex
+			items-center
+			px-3
+			py-1
+			xl:px-4
+			xl:py-2
+			shadow-sm
+			text-sm
+			lg:text-base
+			2xl:text-lg
+			font-semibold
+			no-underline
+			text-gray-50
+			bg-gray-900
+			uppercase
+			mt-2
+			transition
+			duration-200
+			ease-in-out
+			transform
+			hover:scale-105
+			hover:-translate-y-1
+			hover:text-white
+		"
 	>
 		{% svg "external", "mr-2 h-5 w-5", "flecha" %} {{ event.data.button.text }}
 	</a>
@@ -47,13 +82,13 @@
 		}}</span>
 		el
 		<span class="bg-gray-900 px-1 py-0.5 text-gray-50"
-			>{{ event.data.date | dayES }} de {{ event.data.date | monthES }}</span
+			>{{ event.data.date | day_es }} de {{ event.data.date | monthES }}</span
 		>
 		de
-		{{ event.data.date | yearES }}
+		{{ event.data.date | year_es }}
 		a las
 		<span class="bg-gray-900 px-1 py-0.5 text-gray-50"
-			>{{ event.data.date | timeES }}
+			>{{ event.data.date | time_es }}
 		</span>
 	</p>
 </section>

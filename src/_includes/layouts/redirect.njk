@@ -8,8 +8,7 @@
 	<body>
 		<!-- Redirecting to according to browser language -->
 		<script>
-			var availableLanguages = [{% for lang in meta.languages %}"{{ languages.code }}"{{ '' if loop.last else ',' }}{% endfor %}];
-			// source from https://gist.github.com/leipert/9586b796281faa5e27ed
+			var availableLanguages = [{% for lgg in meta.languages %}"{{ lgg.code }}"{{ '' if loop.last else ',' }}{% endfor %}];
 			var locale =
 			  [
 			    ...(window.navigator.languages || []),

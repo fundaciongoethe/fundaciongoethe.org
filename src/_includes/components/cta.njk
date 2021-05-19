@@ -1,0 +1,57 @@
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-gradient-to-r from-orange-400 to-red-600">
+	<div
+		class="
+			max-w-7xl
+			mx-auto
+			py-12
+			px-2
+			sm:px-6
+			xl:py-16
+			xl:px-44
+			xl:flex
+			xl:items-center
+			xl:justify-between
+			xl:gap-10
+		"
+	>
+		<h2
+			class="
+				font-semibold
+				tracking-tight
+				text-white
+				2xl:flex
+				2xl:items-center
+				2xl:justify-center
+				2xl:gap-5
+			"
+		>
+			<span class="block text-2xl md:text-3xl mr-5">{{ cta.mainText }}</span>
+			<span class="block text-base md:text-lg">{{ cta.subText }}</span>
+		</h2>
+		<div class="mt-8 flex xl:mt-0 xl:flex-shrink-0">
+			<div class="inline-flex rounded-md shadow">
+				<a
+					href="{{ cta.btnLink }}"
+					class="
+						inline-flex
+						items-center
+						justify-center
+						px-5
+						py-2
+						border border-transparent
+						text-base
+						no-underline
+						font-semibold
+						rounded-md
+						text-black
+						bg-yellow-300
+						hover:bg-yellow-400
+					"
+				>
+					{{ cta.btnText }}
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

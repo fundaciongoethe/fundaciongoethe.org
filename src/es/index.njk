@@ -16,128 +16,47 @@ herotext:
   badge: Desde 2001
   title: Fundación cultural de la economía hispano-alemana
   content: La Fundación Goethe promueve las relaciones hispano-alemanas a nivel cultural y apoya a músicos y artistas alemanes y españoles con posibilidades de actuación y exposición.
+cta:
+  mainText: Forma parte de la Fundación	Goethe como Patrocinador
+  subText: ...o bien promociona eventos aislados bajo tu patrocinio.
+  btnText: Informate de las opciones.
+  btnLink: /
 ---
 
-<div
-	class="
-		mb-10
-		lg:my-16
-		2xl:my-20
-		lg:grid lg:grid-cols-2
-		lg:gap-8
-		overflow-hidden
-		xl:overflow-visible
-	"
->
-	<div
-		class="relative lg:row-start-1 lg:col-start-2 transform 2xl:translate-x-10"
-	>
-		<div
-			class="
-				absolute
-				inset-0
-				bg-red-600
-				shadow-lg
-				transform
-				translate-y-3
-				-skew-y-3
-				sm:skew-y-0
-				sm:rotate-3
-				w-full
-				h-auto
-				lg:h-96
-				xl:h-112
-				2xl:h-128
-				lg:-translate-x-6
-				lg:translate-y-16
-				2xl:translate-x-10 2xl:translate-y-20
-			"
-		></div>
-		<div class="relative bg-white shadow-lg">
-			<div class="mx-auto">
-				<div class="divide-y divide-gray-200">
-					<div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-						<img
-							class="object-cover object-center"
-							src="/assets/images/alberto-sobre.jpg"
-							alt="Alberto pensativo"
-							width="1184"
-							height="1376"
-						/>
+{# startnews #}
+
+<div class="pt-16 pb-5 px-4 sm:px-6 lg:pt-20 lg:px-24">
+	<div class="relative mx-auto">
+		<div class="text-center">
+			<h2 class="text-2xl font-semibold text-gray-900 sm:text-3xl">Noticias</h2>
+			<p class="mt-3 max-w-2xl mx-auto text-base text-gray-700 sm:mt-4">
+				En nuestra sección de noticias damos una revisión de los eventos pasados
+				y llamamos la atención sobre eventos especiales.
+			</p>
+		</div>
+
+		<section class="mt-12">
+			<div class="relative pb-20">
+				<div class="relative mx-auto max-w-7xl">
+					<div
+						class="
+							grid
+							gap-8
+							mx-auto
+							mt-12
+							md:grid-cols-2
+							lg:grid-cols-3
+							lg:max-w-none
+						"
+					>
+						{% set postslist = collections.posts_es | reverse %} {% for post in
+						postslist.slice(0, 3) %} {% include "components/postslistcards3.njk"
+						%} {%- endfor -%}
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div class="mt-16 lg:mt-0">
-		<div
-			class="
-				px-2
-				md:px-10
-				lg:px-5
-				2xl:ml-20
-				mx-auto
-				lg:row-start-1
-				lg:col-start-1
-			"
-		>
-			<h1
-				class="
-					text-base
-					leading-6
-					text-gray-100
-					font-bold
-					tracking-wider
-					uppercase
-				"
-			>
-				<span class="bg-red-600 px-2">Biografía</span>
-			</h1>
-			<h2
-				class="
-					mt-2
-					mb-10
-					text-3xl
-					leading-8
-					font-rock
-					tracking-tight
-					text-gray-900
-					sm:text-4xl
-				"
-			>
-				"Soy Madrid, soy Berlin, soy la nube y el charco."
-			</h2>
-			<div class="prose prose-pink text-gray-900 max-w-none">
-				<p>
-					Nazco en Madrid en el 83, mi familia me quiere, tengo una infancia
-					normal, pocos amigos pero buenos. En el cole me aburro y trato de
-					pasar desapercibido.
-				</p>
-
-				<p>
-					Por lo que sea me flipa la música así que empiezo a tocar la guitarra.
-					Me gustan Los Rodríguez, Celtas Cortos, Los Ronaldos, Rosendo... ese
-					rollo.
-				</p>
-
-				<p>
-					Con 18 o así escribo mis primeras canciones y monto una banda con
-					amigos. Componer, ensayar y dar conciertos me divierte, me emociona y
-					me hace sentir especial. Tanto es así que lo he seguido haciendo sin
-					parar durante los siguientes 20 años que me han traído hasta los 38
-					que tengo ahora.
-				</p>
-
-				<p>
-					Gracias a las canciones que he conseguido hacer, he conocido a gente
-					increíble a la que quiero y admiro, he viajado por aquí y por allá, he
-					vivido en Sheffield y en Berlín y he cantado en sitios chulísimos en
-					los que han cantado muchos de mis ídolos.
-				</p>
-
-				<p>Y en eso seguimos.</p>
-			</div>
-		</div>
+		</section>
 	</div>
 </div>
+
+{% include "components/cta.njk" %}

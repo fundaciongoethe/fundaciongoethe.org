@@ -12,28 +12,23 @@ pagination:
   alias: posts_es
 ---
 
-<div class="flex justify-end">
-	<h1
-		class="
-			bg-teal-200
-			w-2/3
-			uppercase
-			font-rock
-			text-xl
-			sm:text-4xl
-			px-2
-			py-0.5
-		"
-	>
-		Noticias
-	</h1>
-</div>
+<div class="px-2 sm:px-6 md:px-24 pt-16 pb-20 lg:pt-24 lg:pb-28">
+	<div class="relative max-w-7xl mx-auto">
+		<div class="text-center">
+			<h2 class="text-2xl font-semibold text-gray-900 sm:text-3xl">Noticias</h2>
+			<p class="mt-3 max-w-2xl mx-auto text-base text-gray-700 sm:mt-4">
+				En nuestra sección de noticias damos una revisión de los eventos pasados
+				y llamamos la atención sobre eventos especiales
+			</p>
+		</div>
 
-{% set postslist = posts_es | reverse %} {# Allows a user to easily change the
-Tag List Style. Please see instructions in /src/_data/structure.js >>> =====
-Post List Style Options ===== #} {% set postlist = ['components/',
-structure.postListStyle, '.njk'] %} {% include postlist | join %} {# =====
-Paginate based on "size" frontmatter value above ===== #} {# Don't even include
-the pagination component if there are fewer posts than needed to paginate #} {%
-if collections.post.length > pagination.size %} {% include
-"components/pagination.njk" %} {% endif %}
+		{% set postslist = posts_es | reverse %} {# Allows a user to easily change
+		the Tag List Style. Please see instructions in /src/_data/structure.js >>>
+		===== Post List Style Options ===== #} {% set postlist = ['components/',
+		structure.postListStyle, '.njk'] %} {% include postlist | join %} {# =====
+		Paginate based on "size" frontmatter value above ===== #} {# Don't even
+		include the pagination component if there are fewer posts than needed to
+		paginate #} {% if collections.post.length > pagination.size %} {% include
+		"components/pagination.njk" %} {% endif %}
+	</div>
+</div>
