@@ -3,13 +3,22 @@
 	<h2 id="footerHeading" class="sr-only">Footer</h2>
 	<div class="mx-auto pb-12 lg:pb-16">
 		<div class="xl:grid xl:grid-cols-3 xl:gap-8 bg-gray-100">
-			<div class="space-y-8 xl:col-span-1 bg-gray-200 pl-24 py-8 pr-8">
+			<div class="space-y-8 xl:col-span-1 bg-gray-200 pl-3 sm:pl-24 py-8 pr-8">
 				<ul class="divide-y divide-gray-200">
 					<li class="py-3 flex items-center">
-						{% svg "phone", "h-10 w-10 p-2 bg-white rounded-full", "Teléfonos",
-						"footer" %}
+						{% svg "phone", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0",
+						"Teléfonos", "footer" %}
 
-						<div class="ml-5 text-base font-semibold text-gray-900">
+						<div
+							class="
+								ml-2
+								sm:ml-5
+								text-sm
+								sm:text-base
+								font-semibold
+								text-gray-900
+							"
+						>
 							<p>
 								<a
 									class="no-underline"
@@ -28,10 +37,19 @@
 					</li>
 
 					<li class="py-3 flex items-center">
-						{% svg "mail", "h-10 w-10 p-2 bg-white rounded-full", "Dirección de
-						correos", "footer" %}
+						{% svg "mail", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0",
+						"Dirección de correos", "footer" %}
 
-						<div class="ml-5 text-base font-semibold text-gray-900">
+						<div
+							class="
+								ml-2
+								sm:ml-5
+								text-sm
+								sm:text-base
+								font-semibold
+								text-gray-900
+							"
+						>
 							<p>
 								<a
 									class="no-underline"
@@ -43,10 +61,19 @@
 					</li>
 
 					<li class="py-3 flex items-center">
-						{% svg "map", "h-10 w-10 p-2 bg-white rounded-full", "Dirección
-						postal", "footer" %}
+						{% svg "map", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0",
+						"Dirección postal", "footer" %}
 
-						<div class="ml-5 text-base font-semibold text-gray-900">
+						<div
+							class="
+								ml-2
+								sm:ml-5
+								text-sm
+								sm:text-base
+								font-semibold
+								text-gray-900
+							"
+						>
 							<p>
 								{{ meta.address.street }}
 							</p>

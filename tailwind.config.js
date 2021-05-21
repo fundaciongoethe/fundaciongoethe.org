@@ -101,6 +101,7 @@ module.exports = {
 	variants: {
 		borderWidth: ["responsive", "last"],
 		animation: ["responsive", "motion-safe", "motion-reduce"],
+		grayscale: ["hover", "focus"],
 	},
 	plugins: [
 		require("@tailwindcss/typography"),

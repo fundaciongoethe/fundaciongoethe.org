@@ -55,6 +55,14 @@ module.exports = function (eleventyConfig) {
 		return moment(date).format(format);
 	});
 
+	// Return a randomly picked item from a given array. From 11ty.rocks
+	eleventyConfig.addFilter("randomItem", (arr) => {
+		arr.sort(() => {
+			return 0.5 - Math.random();
+		});
+		return arr.slice(0, 1);
+	});
+
 	// Shortcodes
 
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`); // current year, stephanie eckles
@@ -104,7 +112,7 @@ module.exports = function (eleventyConfig) {
 	// eleventy img
 	eleventyConfig.addNunjucksAsyncShortcode(
 		"Image",
-		async (src, alt, sizes = "100vw") => {
+		async (src, cls, alt, sizes = "100vw") => {
 			if (!alt) {
 				throw new Error(`Missing \`alt\` on myImage from: ${src}`);
 			}
@@ -130,6 +138,7 @@ module.exports = function (eleventyConfig) {
 					.join("\n")}
           <img
             src="${lowsrc.url}"
+						class="${cls}",
             width="${lowsrc.width}"
             height="${lowsrc.height}"
             alt="${alt}"
@@ -151,33 +160,21 @@ module.exports = function (eleventyConfig) {
 		return collection.getFilteredByGlob("./src/de/aktuelles/*.md");
 	});
 
-	// TAGLIST used from the official eleventy-base-blog  https://github.com/11ty/eleventy-base-blog/blob/master/.eleventy.js
-	eleventyConfig.addCollection("tagList", function (collection) {
-		let tagSet = new Set();
-		collection.getAll().forEach(function (item) {
-			if ("tags" in item.data) {
-				let tags = item.data.tags;
+	// förderer es
+	eleventyConfig.addCollection("sponsors_es", function (collection) {
+		return collection.getFilteredByGlob("./src/es/patrocinadores/*.md");
+	});
 
-				tags = tags.filter(function (item) {
-					switch (item) {
-						// this list should match the `filter` list in tags.njk
-						case "authors":
-						case "pages":
-						case "post":
-							return false;
-					}
-
-					return true;
-				});
-
-				for (const tag of tags) {
-					tagSet.add(tag);
-				}
-			}
-		});
-
-		// returning an array in addCollection works in Eleventy 0.5.3
-		return [...tagSet];
+	// förderer de andomized
+	eleventyConfig.addCollection("sponsors_de", function (collection) {
+		return (
+			collection
+				// Change to the name of your tag
+				.getFilteredByGlob("./src/de/foerderer/*.md")
+				.sort(() => {
+					return 0.5 - Math.random();
+				})
+		);
 	});
 
 	// events es
@@ -235,12 +232,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/js/");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts/");
 	eleventyConfig.addPassthroughCopy("src/assets/images/");
-	eleventyConfig.addPassthroughCopy("src/assets/musica/");
-	eleventyConfig.addPassthroughCopy("src/assets/radio/");
 	eleventyConfig.addPassthroughCopy("src/assets/svg/");
-	eleventyConfig.addPassthroughCopy("src/assets/video/");
-	eleventyConfig.addPassthroughCopy("src/assets/podcast/");
-	eleventyConfig.addPassthroughCopy("src/assets/player.js");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts.min.css");
 
 	// helper files zu root

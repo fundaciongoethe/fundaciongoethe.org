@@ -12,8 +12,7 @@ images: # relative to /src/assets/images/
   featured: blog/plaza-mayor-coronavirus.jpeg
   alt: Niña jugando sola con una pelota en la vacía Plaza Mayor de Madrid
 grayscale: true
-tags:
-  - nosotras
+topic: Rückblick
 ---
 
 Chao Madrid, wir werden den Sommer im Dorf verbringen.

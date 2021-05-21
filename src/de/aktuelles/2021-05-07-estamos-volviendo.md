@@ -12,6 +12,7 @@ images: # relative to /src/assets/images/
   featured: blog/estamos-volviendo.jpg
   alt: Alberto sonriente
 grayscale: true
+topic: Info
 ---
 
 Ich präsentiere Ihnen meine super neue Website.

@@ -49,7 +49,25 @@
 				+ header #} {% include "partials/topbar.njk" %} {% include
 				"partials/header.njk" %}
 
-				<div class="flex-grow max-w-full {% if heroimg %} mt-112 {% endif %}">
+				<div
+					class="
+						flex-grow
+						max-w-full
+						{%
+						if
+						heroimg
+						%}
+						mt-112
+						sm:mt-96
+						md:mt-40
+						lg:mt-64
+						xl:mt-96
+						2xl:mt-112
+						{%
+						endif
+						%}
+					"
+				>
 					{{ content | safe }}
 				</div>
 				{% include "partials/footer.njk" %}

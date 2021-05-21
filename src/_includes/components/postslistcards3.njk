@@ -16,8 +16,8 @@
 	</div>
 
 	<div class="flex flex-col justify-between flex-1 p-4">
-		<div class="flex">
-			{% set tags = post.data.tags %} {% include "components/tagpills.njk" %}
+		<div class="flex tracking-wide uppercase text-xs font-bold text-orange-500">
+			{{ post.data.topic }}
 		</div>
 		<a href="{{ post.url | url }}" class="no-underline block">
 			<h2 class="text-base font-bold text-gray-900 mt-2">
