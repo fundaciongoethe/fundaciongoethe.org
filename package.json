@@ -30,7 +30,9 @@
 		"build:scripts": "npx cross-env LEVENTY_ENV=production webpack -p --config webpack.config.js",
 		"build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
 		"dev": "run-p dev:* --print-label",
-		"build": "run-s clean build:* --print-label"
+		"build": "run-s clean build:* --print-label",
+		"debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
+		"debug-perf": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy"
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^0.12.1",

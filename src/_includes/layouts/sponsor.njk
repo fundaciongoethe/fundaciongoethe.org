@@ -1,0 +1,205 @@
+---
+layout: base
+tags: pages
+---
+
+<main id="main" class="block">
+	<div class="relative">
+		<article>
+			<div
+				class="
+					ml-44
+					mt-16
+					bg-gray-100
+					py-8
+					rounded-tl-lg
+					border border-gray-200
+				"
+			>
+				<h1
+					class="
+						ml-64
+						text-base
+						md:text-xl
+						lg:text-2xl
+						xl:text-3xl
+						font-semibold
+					"
+				>
+					{{ title }}
+				</h1>
+				<h2 class="ml-64 text-base uppercase font-semibold mt-2 text-gray-700">
+					{{ meta[locale].sponsorSince }} {{ since }}
+				</h2>
+			</div>
+
+			<div class="bg-gray-200 px-3 pt-10 pb-24 2xl:px-44 flex">
+				<div class="w-1/3">
+					<img class="w-full h-auto" src="/assets/images/{{ images.logo }}" />
+				</div>
+
+				<div class="pl-40 w-2/3">
+					<p class="mb-5">{{ excerpt }}</p>
+
+					<!-- website -->
+					{% if links.web %}
+					<a
+						target="_blank"
+						rel="noopener"
+						href="https://www.{{ links.web }}"
+						class="flex items-left justify-left py-1 text-sm text-gray-700"
+					>
+						{% svg "world", "mr-2 h-5 w-5 ", "flecha" %}
+						<span class="ml-3">{{ links.web }}</span>
+					</a>
+					{% endif %}
+
+					<!-- twitter -->
+					{% if links.twitter %}
+					<a
+						target="_blank"
+						rel="noopener"
+						href="https://www.{{ links.twitter }}"
+						class="flex items-left justify-left py-1 text-sm text-gray-700"
+					>
+						{% svg "twitter", "mr-2 h-5 w-5 ", "flecha" %}
+						<span class="ml-3">{{ links.twitter }}</span>
+					</a>
+					{% endif %}
+
+					<!-- facebook -->
+					{% if links.facebook %}
+					<a
+						target="_blank"
+						rel="noopener"
+						href="https://www.{{ links.facebook }}"
+						class="flex items-left justify-left py-1 text-sm text-gray-700"
+					>
+						{% svg "facebook", "mr-2 h-5 w-5 ", "flecha" %}
+						<span class="ml-3">{{ links.facebook }}</span>
+					</a>
+					{% endif %}
+
+					<!-- instagram -->
+					{% if links.instagram %}
+					<a
+						target="_blank"
+						rel="noopener"
+						href="https://www.{{ links.instagram }}"
+						class="flex items-left justify-left py-1 text-sm text-gray-700"
+					>
+						{% svg "instagram", "mr-2 h-5 w-5 ", "flecha" %}
+						<span class="ml-3">{{ links.instagram }}</span>
+					</a>
+					{% endif %}
+
+					<!-- linkedin -->
+					{% if links.linkedin %}
+					<a
+						target="_blank"
+						rel="noopener"
+						href="https://www.{{ links.linkedin }}"
+						class="flex items-left justify-left py-1 text-sm text-gray-700"
+					>
+						{% svg "linkedin", "mr-2 h-5 w-5 ", "flecha" %}
+						<span class="ml-3">{{ links.linkedin }}</span>
+					</a>
+					{% endif %}
+				</div>
+			</div>
+
+			<ul role="list" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+				<li class="relative block w-full aspect-w-10 aspect-h-7">
+					<img
+						src="/assets/images/{{ images.featured1 }}"
+						alt="{{ images.alt1 }}"
+						class="object-cover"
+					/>
+				</li>
+
+				<li class="relative block w-full aspect-w-10 aspect-h-7">
+					<img
+						src="/assets/images/{{ images.featured2 }}"
+						alt="{{ images.alt2 }}"
+						class="object-cover"
+					/>
+				</li>
+
+				<li class="relative block w-full aspect-w-10 aspect-h-7">
+					<img
+						src="/assets/images/{{ images.featured3 }}"
+						alt="{{ images.alt3 }}"
+						class="object-cover"
+					/>
+				</li>
+				<li class="relative block w-full aspect-w-10 aspect-h-7">
+					<img
+						src="/assets/images/{{ images.featured4 }}"
+						alt="{{ images.alt4 }}"
+						class="object-cover"
+					/>
+				</li>
+			</ul>
+
+			<div class="flex">
+				<div class="border pr-10 w-1/2 pl-44 py-12">
+					<h2
+						class="
+							text-base
+							md:text-xl
+							lg:text-2xl
+							xl:text-3xl
+							font-semibold
+							mb-2
+						"
+					>
+						{{ meta[locale].sponsorCoop }}
+					</h2>
+					<p>
+						{{ meta[locale].sponsorCoopContent }}
+					</p>
+				</div>
+				<div class="border p-20 w-2/3">event</div>
+			</div>
+
+			<div class="py-6 grid grid-cols-2 gap-0.5 md:grid-cols-7 lg:py-8 px-44">
+				{% set sponsors = collections.sponsors_de %} {% for sponsor in sponsors
+				%}
+
+				<figure>
+					<a
+						href="{{ sponsor.url }}"
+						class="
+							col-span-1
+							flex
+							justify-center
+							py-4
+							px-4
+							filter
+							grayscale
+							hover:grayscale-0
+							opacity-75
+							hover:opacity-100
+							transition
+							duration-200
+							ease-in-out
+							transform
+							hover:scale-105
+						"
+					>
+						<img
+							src="/assets/images/{{ sponsor.data.images.logo }}"
+							alt="Logo von {{ sponsor.data.title }}"
+							class="lazy max-h-12"
+						/>
+					</a>
+				</figure>
+
+				{%- endfor -%}
+			</div>
+		</article>
+	</div>
+</main>
+
+<!-- include base schema  -->
+{%- include "schemas/page-schema.njk" %}

@@ -300,6 +300,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias("home", "layouts/home.njk");
 	eleventyConfig.addLayoutAlias("plain", "layouts/plain.njk");
 	eleventyConfig.addLayoutAlias("evento", "layouts/evento.njk");
+	eleventyConfig.addLayoutAlias("sponsor", "layouts/sponsor.njk");
 	eleventyConfig.addLayoutAlias("redirect", "layouts/redirect.njk");
 
 	// Opts in to a full deep merge when combining the Data Cascade.

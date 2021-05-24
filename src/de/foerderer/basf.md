@@ -1,19 +1,27 @@
 ---
 title: "BASF"
 translationKey: "basf"
-excerpt: Unser Förderer BASF schafft Chemie für eine nachhaltige Zukunft. Wirtschaftlichen Erfolg wird mit Umweltschutz und sozialer Verantwortung verbunden.
+customSlug: "basf"
+since: "2009"
+excerpt: Unser Förderer BASF schafft Chemie für eine nachhaltige Zukunft. Wirtschaftlichen Erfolg wird mit Umweltschutz und sozialer Verantwortung verbunden. Die BASF ist seit mehr als 50 Jahren in Spanien vertreten. Derzeit arbeiten mehr als 2.000 Mitarbeiter in den verschiedenen Zentren im ganzen Land.
 seo:
   title: BASF | Förderer der Fundación Goethe
   description: Unser Förderer BASF schafft Chemie für eine nachhaltige Zukunft. Wirtschaftlichen Erfolg wird mit Umweltschutz und sozialer Verantwortung verbunden.
   image:
 images: # relative to /src/assets/images/
   logo: sponsors/basf/basf-logo.jpg
-  featured: sponsors/basf/sede-bcn.jpg
-  alt: Standort von BASF in Barcelona
+  featured1: sponsors/basf/basf-1.jpg
+  alt1: BASF-Werk bei Nacht
+  featured2: sponsors/basf/basf-2.jpg
+  alt2: BASF Werbeimage
+  featured3: sponsors/basf/basf-3.jpg
+  alt3: BASF Werbeimage
+  featured4: sponsors/basf/basf-4.jpg
+  alt4: Standort von BASF in Barcelona
+links:
+  web: basf.com/es/es.html
+  twitter: twitter.com/BASF_ES
+  facebook: facebook.com/basf.spain
+  instagram: instagram.com/basf_es
+  linkedin: linkedin.com/company/basf
 ---
-
-Wir schaffen Chemie für eine nachhaltige Zukunft
-
-Wir verbinden wirtschaftlichen Erfolg mit Umweltschutz und sozialer Verantwortung.
-
-Die mehr als 110.000 Mitarbeiter der BASF-Gruppe arbeiten in nahezu allen Branchen und Ländern der Welt für den Erfolg unserer Kunden. Unser Portfolio ist in sechs Segmente gegliedert: Chemicals, Materials, Industrial Solutions, Surface Technologies, Nutrition & Care und Agricultural Solutions. BASF erzielte im Jahr 2020 einen Umsatz von 59 Milliarden Euro
