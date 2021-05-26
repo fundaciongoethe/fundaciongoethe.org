@@ -3,7 +3,9 @@
 		<div
 			class="
 				p-3
-				mb-6
+				sm:px-16
+				md:px-3
+				mb-2
 				md:mb-0
 				rounded-r-md
 				bg-gray-50
@@ -12,14 +14,18 @@
 				flex
 				md:w-5/7
 				xl:w-1/3
-				mr-3
+				mr-5
+				md:mr-2
 				xl:mr-12
 			"
 		>
 			<div class="flex items-end justify-center">
 				<div
 					class="
+						mb-3
+						xl:mb-0
 						lg:ml-12
+						lg:pl-2
 						2xl:ml-24
 						mx-auto
 						lg:row-start-1
@@ -31,7 +37,9 @@
 				>
 					<span
 						class="
-							text-base
+							text-xs
+							xl:text-sm
+							2xl:text-base
 							leading-6
 							text-gray-100
 							font-bold
@@ -43,24 +51,10 @@
 							herotext.badge
 						}}</span>
 					</span>
-					<h1
-						class="
-							mt-4
-							mb-6
-							2xl:mb-8
-							text-base
-							md:text-xl
-							lg:text-2xl
-							xl:text-3xl
-							tracking-tight
-							text-gray-900
-							font-semibold
-							leading-tight
-						"
-					>
+					<h1 class="standardtitel mt-4 mb-6 2xl:mb-8 text-gray-900">
 						{{ herotext.title }}
 					</h1>
-					<div class="text-sm xl:text-base text-gray-900">
+					<div class="standardtext">
 						<p>
 							{{ herotext.content }}
 						</p>
@@ -69,9 +63,18 @@
 			</div>
 		</div>
 
-		<div class="lg:w-5/7 xl:w-4/7">
+		<div class="lg:w-full xl:w-4/7 pr-10 sm:pr-16 md:pr-0">
 			<img
-				class="h-80 md:h-auto w-full object-cover fade-in md:rounded-b-lg"
+				class="
+					h-56
+					rounded-tr-xl
+					md:rounded-tr-none
+					md:h-auto
+					w-full
+					object-cover
+					fade-in
+					md:rounded-b-lg
+				"
 				src="/assets/images/hero/{{ heroimg.url }}"
 				alt="{{ heroimg.alt }}"
 				width="{{ heroimg.width }}"
@@ -83,24 +86,28 @@
 				absolute
 				transform
 				-rotate-90
-				bottom-40
+				bottom-32
+				md:bottom-36
 				-right-32
-				md:-right-28
+				sm:-right-28
+				md:-right-32
+				lg:-right-28
 				xl:-right-24
 				2xl:-right-20
 				flex
 				items-end
 				justify-end
 				text-sm
+				md:z-10
 			"
 		>
 			<p
 				class="
-					font-semibold
 					flex
+					font-semibold
 					items-center
 					justify-center
-					bg-white
+					bg-gray-50
 					rounded-md
 					px-1
 					xl:bg-transparent
@@ -109,6 +116,7 @@
 				{# Display Social icons from _data/social.json #} {% for site in social
 				%} {% if site.url %}
 				<a
+					tabindex="-1"
 					aria-label="Link to {{ site.platform }}"
 					alt="Link to {{ site.platform }}"
 					class="

@@ -1,6 +1,6 @@
 :focus,
 button:focus {
-	outline: #ec4899 dashed 2px;
+	outline: #f37536 dashed 2px;
 	outline-offset: 0.25rem;
 }
 

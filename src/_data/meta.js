@@ -25,15 +25,18 @@ module.exports = {
 		{
 			label: "ES",
 			code: "es",
+			long: "Español",
 			localeCode: "es_ES",
 		},
 		{
 			label: "DE",
 			code: "de",
+			long: "Deutsch",
 			localeCode: "de_DE",
 		},
 	],
 	es: {
+		code: "es",
 		metaTitle: "Fundación Goethe España",
 		metaDescription:
 			"La Fundación Goethe reúne empresas y empresarios con el fin de promover las relaciones hispano-alemanes a nivel cultural, social, empresarial, económico.",
@@ -50,6 +53,7 @@ module.exports = {
 			"Todos nuestros patrocinadores apoyan los eventos de la Fundación Goethe con una aportación anual. Además, existe la posibilidad de colaborar con eventos individuales por separado mediante contribuciones de patrocinio u otros servicios, por ejemplo de carácter logístico o culinario.",
 	},
 	de: {
+		code: "de",
 		metaTitle: "Fundación Goethe Spanien",
 		metaDescription:
 			"Wir fördern die spanisch-deutschen Beziehungen kulturell, sozial, gesellschaftlich, unternehmerisch und wirtschaftlich.",

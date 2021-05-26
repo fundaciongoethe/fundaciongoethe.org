@@ -65,6 +65,18 @@ h2 {
 	@apply block px-8 py-3 xl:py-6 rounded-md md:px-3 text-gray-900 tracking-wide sm:tracking-normal no-underline hover:text-orange-700 md:hover:bg-orange-700 md:hover:text-white;
 }
 
+.standardtitel {
+	@apply text-xl
+	xl:text-2xl
+	2xl:text-3xl
+	tracking-tight
+	font-semibold
+	leading-tight;
+}
+.standardtext {
+	@apply text-sm xl:text-base text-gray-900;
+}
+
 .prose {
 	font-size: 1rem;
 	line-height: 1.5;
@@ -113,17 +125,17 @@ h2 {
 	@apply inline-block py-1 px-2 bg-yellow-300 text-gray-900 border-2 uppercase no-underline text-center font-bold;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
 	.nav a[aria-current="page"],
 	.nav a[data-state="active"] {
 		@apply bg-red-600;
 	}
 }
 
-@media (max-width: 639px) {
+@media (max-width: 767px) {
 	.nav a[aria-current="page"],
 	.nav a[data-state="active"] {
-		background: #facc15;
+		@apply bg-black text-white;
 	}
 }
 
