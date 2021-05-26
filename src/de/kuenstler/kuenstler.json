@@ -1,0 +1,5 @@
+{
+	"layout": "base",
+	"permalink": "/{{ locale }}/kuenstler/{{ customSlug }}/index.html",
+	"tags": ["event"]
+}

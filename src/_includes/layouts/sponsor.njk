@@ -195,8 +195,8 @@ tags: pages
 					2xl:px-32
 				"
 			>
-				{% set sponsors = collections.sponsors_de %} {% for sponsor in sponsors
-				%}
+				{% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in
+				sponsors %}
 
 				<figure>
 					<a

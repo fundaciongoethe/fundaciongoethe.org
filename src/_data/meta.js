@@ -36,7 +36,6 @@ module.exports = {
 		},
 	],
 	es: {
-		code: "es",
 		metaTitle: "Fundación Goethe España",
 		metaDescription:
 			"La Fundación Goethe reúne empresas y empresarios con el fin de promover las relaciones hispano-alemanes a nivel cultural, social, empresarial, económico.",
@@ -51,9 +50,12 @@ module.exports = {
 		sponsorCoop: "Colaobración especial",
 		sponsorCoopContent:
 			"Todos nuestros patrocinadores apoyan los eventos de la Fundación Goethe con una aportación anual. Además, existe la posibilidad de colaborar con eventos individuales por separado mediante contribuciones de patrocinio u otros servicios, por ejemplo de carácter logístico o culinario.",
+		newsTitle: "Noticias",
+		newsExcerpt:
+			"	En nuestra sección de noticias damos una revisión de los eventos pasados y llamamos la atención sobre eventos especiales.",
+		seoArtist: "Archivo de artistas de la Fundación Goethe",
 	},
 	de: {
-		code: "de",
 		metaTitle: "Fundación Goethe Spanien",
 		metaDescription:
 			"Wir fördern die spanisch-deutschen Beziehungen kulturell, sozial, gesellschaftlich, unternehmerisch und wirtschaftlich.",
@@ -68,6 +70,10 @@ module.exports = {
 		sponsorCoop: "Besondere Kooperation",
 		sponsorCoopContent:
 			"Alle unsere Förderer unterstützen die Veranstaltungen der Fundación Goethe mit einem jährlichen Beitrag. Darüber hinaus besteht die Möglichkeit, einzelne Events separat mit Sponsoringbeiträgen oder anderen Leistungen, z.B. logistischen oder kulinarischen Services, zu unterstützen.",
+		newsTitle: "Aktuelles",
+		newsExcerpt:
+			"	In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene Veranstaltungen und machen auf besondere Events aufmerksam.",
+		seoArtist: "Künstlerarchiv der Fundación Goethe",
 	},
 
 	isProduction: process.env.ELEVENTY_ENV === "production",

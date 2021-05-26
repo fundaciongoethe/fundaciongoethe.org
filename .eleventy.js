@@ -160,12 +160,55 @@ module.exports = function (eleventyConfig) {
 		return collection.getFilteredByGlob("./src/de/aktuelles/*.md");
 	});
 
-	// förderer es
-	eleventyConfig.addCollection("sponsors_es", function (collection) {
-		return collection.getFilteredByGlob("./src/es/patrocinadores/*.md");
+	// artists es, alphabetically sorted by title
+	// eleventyConfig.addCollection("artists_es", function (collection) {
+	// 	collection.getFilteredByGlob("./src/es/artistas/*.md").sort((a, b) => {
+	// 		if (a.data.title > b.data.title) return -1;
+	// 		else if (a.data.title < b.data.title) return 1;
+	// 		else return 0;
+	// 	});
+	// });
+
+	// Returns a list of people ordered by filename
+	// eleventyConfig.addCollection("people", (collection) => {
+	// 	return collection.getFilteredByGlob("./src/de/people/*.md").sort((a, b) => {
+	// 		return Number(a.fileSlug) > Number(b.fileSlug) ? 1 : -1;
+	// 	});
+	// });
+
+	// artists es
+	eleventyConfig.addCollection("artists_es", function (collection) {
+		return collection.getFilteredByGlob("./src/es/artistas/*.md");
 	});
 
-	// förderer de andomized
+	// artists de
+	eleventyConfig.addCollection("artists_de", function (collection) {
+		return collection.getFilteredByGlob("./src/de/kuenstler/*.md");
+	});
+
+	// venues es
+	eleventyConfig.addCollection("venues_es", function (collection) {
+		return collection.getFilteredByGlob("./src/es/lugares/*.md");
+	});
+
+	// venues de
+	eleventyConfig.addCollection("venues_de", function (collection) {
+		return collection.getFilteredByGlob("./src/de/orte/*.md");
+	});
+
+	// förderer es, randomized on build
+	eleventyConfig.addCollection("sponsors_es", function (collection) {
+		return (
+			collection
+				// Change to the name of your tag
+				.getFilteredByGlob("./src/es/patrocinadores/*.md")
+				.sort(() => {
+					return 0.5 - Math.random();
+				})
+		);
+	});
+
+	// förderer de, randomized on build
 	eleventyConfig.addCollection("sponsors_de", function (collection) {
 		return (
 			collection

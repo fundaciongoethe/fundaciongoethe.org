@@ -1,0 +1,27 @@
+---
+title: "BASF"
+translationKey: "basf"
+customSlug: "basf"
+since: "2009"
+excerpt: Nuestro patrocinador BASF crea química para un futuro sostenible. El éxito económico se combina con la protección del medio ambiente y la responsabilidad social. BASF está presente en España desde hace más de 50 años. En la actualidad, más de 2.000 empleados trabajan en los distintos centros de todo el país.
+seo:
+  title: BASF | Patrocinador de la Fundación Goethe
+  description: Nuestro patrocinador BASF está presente en España desde hace más de 50 años. En la actualidad, más de 2.000 empleados trabajan en los distintos centros de todo el país.
+  image:
+images: # relative to /src/assets/images/
+  logo: sponsors/basf/basf-logo.jpg
+  featured1: sponsors/basf/basf-1.jpg
+  alt1: BASF-Werk bei Nacht
+  featured2: sponsors/basf/basf-2.jpg
+  alt2: BASF Werbeimage
+  featured3: sponsors/basf/basf-3.jpg
+  alt3: BASF Werbeimage
+  featured4: sponsors/basf/basf-4.jpg
+  alt4: Standort von BASF in Barcelona
+links:
+  web: basf.com/es/es.html
+  twitter: twitter.com/BASF_ES
+  facebook: facebook.com/basf.spain
+  instagram: instagram.com/basf_es
+  linkedin: linkedin.com/company/basf
+---
