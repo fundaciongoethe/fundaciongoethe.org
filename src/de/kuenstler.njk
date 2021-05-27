@@ -8,4 +8,18 @@ seo:
   description: asdf
 ---
 
-Artistas
+<h1>Artistas</h1>
+{% set artists = collections["artists_" + locale] %} {% for artist in artists %}
+
+<p>
+	<a href="{{ artist.url }}"> {{ artist.data.title }}</a>
+</p>
+
+<img
+	src="/assets/images/{{ artist.data.images.profile }}"
+	alt="{{ artist.data.images.alt }}"
+/>
+
+<p class="text-xs">{{ artist.data.excerpt }}</p>
+
+{%- endfor -%}

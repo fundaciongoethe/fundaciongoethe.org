@@ -1,5 +1,4 @@
 {
-	"layout": "base",
-	"permalink": "/{{ locale }}/kuenstler/{{ customSlug }}/index.html",
-	"tags": ["event"]
+	"layout": "artist",
+	"permalink": "/{{ locale }}/kuenstler/{{ customSlug }}/index.html"
 }

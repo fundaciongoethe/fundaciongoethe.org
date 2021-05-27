@@ -1,5 +1,4 @@
 {
-	"layout": "base",
-	"permalink": "/{{ locale }}/orte/{{ customSlug }}/index.html",
-	"tags": ["event"]
+	"layout": "venue",
+	"permalink": "/{{ locale }}/orte/{{ customSlug }}/index.html"
 }
