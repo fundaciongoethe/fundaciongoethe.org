@@ -3,7 +3,7 @@ title: "Claus Temps"
 translationKey: "claustemps"
 referenceKey: "claustemps"
 customSlug: "claus-temps"
-excerpt: Claus Temps (Karlsruhe), Bassbariton, absolvierte ein Gesangsstudium, seine Ausbildung führte ihn 1993 zu Professor Peter Elkus nach Hamburg und Amsterdam. Er verfügt über eine umfangreiche solistische Konzerttätigkeit mit Schwerpunkt im Bereich Lied und Orato-Rio. Im Bereich des Liedes hat er eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt. In letzter Zeit waren diese Programme u.a. Heinrich Heine, Nikolaus Lenau und Johann Wolfgang von Goethe gewidmet. Es besteht auch eine enge Zusammenarbeit mit dem Musikwissenschaftler Dr. Joachim Draheim und der Pianistin Ira Maria Witoschynskyj. Es gibt Radio- und CD-Aufnahmen.
+excerpt: Claus Temps (Karlsruhe), Bassbariton, verfügt über eine umfangreiche solistische Konzerttätigkeit mit Schwerpunkt im Bereich Lied und Orato-Rio. Im Bereich des Liedes hat er eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt. In letzter Zeit waren diese Programme u.a. Heinrich Heine, Nikolaus Lenau und Johann Wolfgang von Goethe gewidmet. Es gibt Radio- und CD-Aufnahmen.
 seo:
   title: Claus Temps | {{ meta[locale].seoArtist }}
   description: Claus Temps hat eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt.
