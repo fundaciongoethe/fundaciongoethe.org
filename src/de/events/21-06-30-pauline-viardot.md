@@ -9,6 +9,7 @@ type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2021-06-30 19:30:00 +2
 opening: 2021-06-30 18:45:00 +2
+duration: 1 Stunden
 seo:
   title: Konzert zum Geburtstag der Sängerin und Komponistin Pauline Viardot-Garcia
   description: Larissa Wäspy, Claus Temps und Heike Bleckmann spielen Werke von Pauline Viardot-García im Königspalast in Madrid.

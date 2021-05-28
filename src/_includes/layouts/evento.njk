@@ -3,32 +3,143 @@ layout: base
 tags: pages
 ---
 
-<!-- artists -->
-{% set artistItems = helpers.filterCollectionByKeys(collections["artists_" +
-locale], artist) %}
-
 <!-- venues -->
 {% set venueItems = helpers.filterCollectionByKeys(collections["venues_" +
 locale], venue) %} {% block content %}
 
-<div class="prose">
-	<h1>{{ title }}</h1>
-	<p>{{ description }}</p>
+<!-- artists -->
+{% set artistItems = helpers.filterCollectionByKeys(collections["artists_" +
+locale], artist) %}
 
-	<!-- if venues -->
-	{% if venueItems %}
-	<h2>venues</h2>
-	{% for venue in venueItems %}
-	<p>{{ venue.data.title }} - {{ venue.data.excerpt }}</p>
-	{% endfor %} {% endif %}
+<div class="mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
+	<div class="col-span-3 bg-yellow-400 rounded-tr-xl pl-24 pr-44 py-12">
+		<h1 class="standardtitel uppercase">{{ title }}</h1>
+		<p class="standardtext mt-12">{{ description }}</p>
+	</div>
 
-	<!-- if artist -->
-	{% if artistItems %}
-	<h2>artists</h2>
-	{% for artist in artistItems %}
-	<p>{{ artist.data.title }} - {{ artist.data.excerpt }}</p>
-	{% endfor %} {% endif %}
+	<div
+		class="
+			col-span-2
+			bg-black
+			text-white
+			rounded-t-2xl
+			transform
+			-translate-x-32
+			mt-20
+			mr-1
+			py-12
+			px-8
+		"
+	>
+		<div class="py-2 sm:p-0">
+			<dl class="sm:divide-y sm:divide-gray-800">
+				<div class="py-4 grid grid-cols-5 sm:gap-4 r text-lg uppercase">
+					<dt class="font-bold text-gray-400 col-span-2">Art des Events:</dt>
+					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">{{ type }}</dd>
+				</div>
+				<div class="py-4 grid grid-cols-5 sm:gap-4 r text-lg uppercase">
+					<dt class="font-bold text-gray-400 col-span-2">Datum:</dt>
+					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
+						{{  date | date("LLLL", locale) }}
+					</dd>
+				</div>
+				<div class="py-4 grid grid-cols-5 sm:gap-4 r text-lg uppercase">
+					<dt class="font-bold text-gray-400 col-span-2">Einlass:</dt>
+					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
+						{{ opening | date("HH:mm", locale) }} (Beginn:
+						{{ date | date("HH:mm", locale) }})
+					</dd>
+				</div>
+				<div class="py-4 grid grid-cols-5 sm:gap-4 r text-lg uppercase">
+					<dt class="font-bold text-gray-400 col-span-2">Dauer:</dt>
+					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">{{ duration }}</dd>
+				</div>
+
+				<div class="py-4 grid grid-cols-5 sm:gap-4 r text-lg uppercase">
+					<dt class="font-bold text-gray-400 col-span-2">Künstler:</dt>
+					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
+						{% for artist in artistItems %}
+						{{ artist.data.title }}
+						{% endfor %}
+					</dd>
+				</div>
+
+				<div class="py-4 grid grid-cols-2 sm:gap-4 r text-lg uppercase">
+					<dt class="font-bold text-gray-400 col-span-2">Ort:</dt>
+					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
+						{% for venue in venueItems %}
+						{{ venue.data.title }}
+						{% endfor %}
+					</dd>
+				</div>
+			</dl>
+		</div>
+	</div>
 </div>
+
+{% for artist in artistItems %}
+<div class="relative">
+	<div class="lg:absolute lg:inset-0">
+		<div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
+			<img
+				class="filter grayscale w-full object-cover lg:absolute lg:h-full"
+				src="/assets/images/{{ artist.data.images.profile }}"
+				alt="{{ artist.data.images.alt }}"
+			/>
+		</div>
+	</div>
+	<div
+		class="
+			relative
+			pt-12
+			pb-16
+			px-4
+			sm:pt-16
+			sm:px-6
+			lg:px-8
+			lg:max-w-7xl
+			lg:mx-auto
+			lg:grid lg:grid-cols-2
+		"
+	>
+		<div class="lg:col-start-2 lg:pl-8">
+			<div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
+				<h2
+					class="
+						leading-6
+						text-indigo-600
+						font-semibold
+						tracking-wide
+						uppercase
+					"
+				>
+					{{ artist.data.title }}
+				</h2>
+
+				<div class="mt-5">
+					<p>
+						{{ artist.data.excerpt }}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endfor %}
+
+<!-- if venues -->
+{% if venueItems %}
+<h2>venues</h2>
+{% for venue in venueItems %}
+<p>{{ venue.data.title }} - {{ venue.data.excerpt }}</p>
+{% endfor %} {% endif %}
+
+<!-- if artist -->
+{% if artistItems %}
+<h2>artists</h2>
+{% for artist in artistItems %}
+<p>{{ artist.data.title }} - {{ artist.data.excerpt }}</p>
+{% endfor %} {% endif %}
 
 <!-- test -->
 {% endblock %}
