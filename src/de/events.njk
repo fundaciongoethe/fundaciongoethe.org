@@ -18,119 +18,153 @@ herogrid:
     alt3:
     featured4: evento-visita.jpg
     alt4:
+cta2: # relative to /assets/images/
+  title: Möchten Sie über zukünftige Veranstaltungen informiert werden?
+  text: Abonnieren Sie unseren Newsletter, um Einladungen per E-Mail zu erhalten. In den E-Mails erhalten Sie Informationen zu ausgewählten Veranstaltungen sowie einen Link zur direkten Anmeldung. Es werden keine Werbemaßnahmen durchgeführt.
+  btnText: Einladungen erhalten
+  btnLink: /
+  image: cta/concert2.jpg
+  alt: Konzert im Palacio Real
 ---
 
 <!-- hero -->
 {% include "components/hero-grid.njk" %}
 
-<div class="mt-24">
-	<ul class="-my-5 divide-y divide-gray-300">
+<div class="my-10 2xl:md:my-16 xl:my-28">
+	<ul
+		class="
+			divide-y divide-gray-300
+			md:bg-gray-100
+			md:border-t md:border-b
+			border-gray-300
+		"
+	>
 		{# wenn es events gibt #} {% for event in collections.eventsZukunft %}
 
-		<li class="px-3 max-w-5xl mx-auto">
+		<li class="px-3 py-3 md:py-0 max-w-5xl mx-auto">
 			<div class="flex items-center space-x-4">
-				<div class="flex flex-col items-center justify-center w-40 text-center">
+				<div
+					class="
+						flex flex-col
+						items-center
+						justify-center
+						w-20
+						md:w-32
+						lg:w-40
+						text-center
+					"
+				>
 					<p
 						class="text-xs uppercase tracking-wider text-gray-500 font-semibold"
 					>
-						{{ post.date | date("dddd", locale) }}
+						{{ event.date | date("dddd", locale) }}
 					</p>
 
 					<p class="text-4xl font-semibold">
-						{{ post.date | date("do", locale) }}
+						{{ event.date | date(" Do", locale) }}
 					</p>
 
 					<p class="text-xs uppercase tracking-wider font-semibold">
-						{{ post.date | date("MMM", locale) }}
+						{{ event.date | date("MMM", locale) }}
 					</p>
 				</div>
 
-				<div class="flex">
+				<div class="hidden md:flex">
+					{#
 					<img
 						class="h-40 w-40 filter grayscale"
 						src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&amp;ixqx=9eFae6zevd&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
 						alt=""
 					/>
-					<img
-						class="h-40 w-40 filter grayscale"
-						src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&amp;ixqx=9eFae6zevd&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
-						alt=""
-					/>
+					#}
+					<a href="{{ event.url }}"
+						><img
+							class="h-40 w-40 filter grayscale"
+							src="/assets/images/{{ event.data.images.featured }}"
+							alt="{{ event.data.images.alt }}"
+							width="190"
+							height="190"
+					/></a>
 				</div>
-				<div class="flex-1 min-w-0">
-					{% if event.data.type %}{{ event.data.type }} {% endif %}
 
-					<h2
-						id="{{ event.data.title | slug }}"
-						class="text-base font-semibold max-w-56 mb-1 mt-2"
-					>
-						{{ event.data.title }}
-					</h2>
+				<div class="flex flex-col flex-1 min-w-0">
+					<a class="no-underline" href="{{ event.url }}">
+						<div class="flex items-center justify-start">
+							<p
+								class="
+									inline-flex
+									items-center
+									px-2.5
+									py-0.5
+									rounded-md
+									text-xs
+									font-semibold
+									border border-gray-300
+									uppercase
+									tracking-wider
+								"
+							>
+								{{ event.data.type }}
+							</p>
 
-					<p class="bg-gray-900 px-1 py-0.5 text-gray-50">
-						Apertura de puertas: {{ post.date | date("HH:mm", locale) }}
-					</p>
+							<p class="hidden sm:block text-xs text-gray-500 ml-2">
+								{{ event.data.access }}
+							</p>
+						</div>
+
+						<h2
+							id="{{ event.data.title | slug }}"
+							class="
+								standardtext
+								md:uppercase
+								md:font-semibold
+								2xl:font-bold
+								my-2
+								max-w-sm
+							"
+						>
+							{{ event.data.title }}
+						</h2>
+
+						<p class="text-xs font-semibold">
+							Einlass:
+							{{ event.data.opening | date("HH:mm", locale) }}
+						</p>
+					</a>
 				</div>
+
 				<div>
 					<a
-						href="#"
+						href="{{ event.url }}"
 						class="
 							inline-flex
 							items-center
 							shadow-sm
 							px-2.5
-							py-0.5
-							border border-gray-300
-							text-sm
-							leading-5
-							font-medium
+							py-2.5
 							rounded-full
-							text-gray-700
-							bg-white
-							hover:bg-gray-50
+							bg-red-600
+							transform
+							hover:translate-x-2
+							transition
+							duration-300
+							ease-in-out
+							mr-1
+							sm:mr-3
 						"
 					>
-						View
+						{% svg "arrow-right-white", "h-5 w-5 lg:h-10 lg:w-10", "flecha" %}
 					</a>
 				</div>
 			</div>
 		</li>
+		{% endfor %}
 	</ul>
 </div>
+
+<!-- hero -->
+{% include "components/cta2.njk" %}
 
 <!-- include event schema  -->
 {%- include "schemas/event-schema.njk" %}
 <!-- ende -->
-{% endfor %} {# ansonsten #}
-
-<section id="sinconciertos" class="flex items-center justify-end">
-	<div
-		class="
-			flex flex-col
-			mt-20
-			xl:mt-40
-			items-start
-			justify-between
-			py-3
-			px-2
-			sm:px-6
-			bg-teal-200
-			shadow-sm
-			w-40
-			[
-			sm:w-56
-			][
-			lg:w-80
-			][
-			xl:w-96
-			]
-		"
-	>
-		<h2 class="font-rock text-xl sm:text-2xl mb-2">Im moment keine Konzerte</h2>
-
-		<p class="text-sm">
-			Ya me gustaría a mí. De momento nada de nada. Ojalá de cara al verano
-			podamos ir pensando en estrenar el disco.
-		</p>
-	</div>
-</section>

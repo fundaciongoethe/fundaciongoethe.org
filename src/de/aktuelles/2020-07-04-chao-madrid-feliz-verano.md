@@ -6,10 +6,10 @@ excerpt: Chao Madrid, wir werden den Sommer im Dorf verbringen. Vier Monate voll
 seo:
   title: Chao Madrid - Fröhlicher Sommer
   description: Chao Madrid, wir werden den Sommer im Dorf verbringen. Vier Monate voller Scheiße, vier Monate voller Ungewissheit, Angst und Trauer bleiben in der Erinnerung zurück.
-  image: blog/plaza-mayor-coronavirus.jpeg
+  image:
 images: # relative to /src/assets/images/
-  thumb: blog/plaza-mayor-coronavirus.jpeg
-  featured: blog/plaza-mayor-coronavirus.jpeg
+  thumb:
+  featured:
   alt: Niña jugando sola con una pelota en la vacía Plaza Mayor de Madrid
 grayscale: true
 topic: Rückblick

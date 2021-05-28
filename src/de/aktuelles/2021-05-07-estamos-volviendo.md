@@ -6,10 +6,10 @@ excerpt: Sie wissen, dass ich mit den Netzwerken nicht sehr gut zurechtkomme, de
 seo:
   title: Hallo!!! Wir kommen zurück...
   description: Sie wissen, dass ich mit den Netzwerken nicht sehr gut zurechtkomme, deshalb brauche ich meinen kleinen persönlichen Raum, in dem ich meine kleinen Dinge geordnet habe.
-  image: blog/estamos-volviendo.jpg
+  image:
 images: # relative to /src/assets/images/
-  thumb: blog/estamos-volviendo.jpg
-  featured: blog/estamos-volviendo.jpg
+  thumb:
+  featured:
   alt: Alberto sonriente
 grayscale: true
 topic: Info
