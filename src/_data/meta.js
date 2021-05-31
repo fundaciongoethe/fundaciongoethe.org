@@ -54,6 +54,9 @@ module.exports = {
 		newsExcerpt:
 			"	En nuestra sección de noticias damos una revisión de los eventos pasados y llamamos la atención sobre eventos especiales.",
 		seoArtist: "Archivo de artistas de la Fundación Goethe",
+		eventArtist: "Artista",
+		eventVenue: "Lugar",
+		eventMore: "Más sobre: ",
 	},
 	de: {
 		metaTitle: "Fundación Goethe Spanien",
@@ -74,6 +77,9 @@ module.exports = {
 		newsExcerpt:
 			"	In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene Veranstaltungen und machen auf besondere Events aufmerksam.",
 		seoArtist: "Künstlerarchiv der Fundación Goethe",
+		eventArtist: "Künstler/in",
+		eventVenue: "Ort",
+		eventMore: "Mehr über: ",
 	},
 
 	isProduction: process.env.ELEVENTY_ENV === "production",

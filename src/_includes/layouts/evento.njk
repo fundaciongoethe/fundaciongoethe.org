@@ -12,9 +12,20 @@ locale], venue) %} {% block content %}
 locale], artist) %}
 
 <div class="mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
-	<div class="col-span-3 bg-yellow-400 rounded-tr-xl pl-24 pr-44 py-12">
+	<div
+		class="
+			col-span-3
+			bg-yellow-400
+			rounded-tr-xl
+			pl-3
+			xl:pl-16
+			2xl:pl-24
+			xl:pr-44
+			py-12
+		"
+	>
 		<h1 class="standardtitel uppercase">{{ title }}</h1>
-		<p class="standardtext mt-12">{{ description }}</p>
+		<div class="standardtext mt-12 prose">{{ content | safe }}</div>
 	</div>
 
 	<div
@@ -24,7 +35,11 @@ locale], artist) %}
 			text-white
 			rounded-t-2xl
 			transform
-			-translate-x-32
+			lg:ml-2
+			xl:ml-1
+			2xl:ml-0
+			lg:-translate-x-28
+			2xl:-translate-x-32
 			mt-20
 			mr-1
 			py-12
@@ -32,39 +47,39 @@ locale], artist) %}
 		"
 	>
 		<div class="py-2 sm:p-0">
-			<dl class="sm:divide-y sm:divide-gray-800">
-				<div class="py-4 grid grid-cols-5 sm:gap-4 text-base uppercase">
+			<dl class="sm:divide-y sm:divide-gray-800 text-sm md:text-base uppercase">
+				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">Art des Events:</dt>
 					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">{{ type }}</dd>
 				</div>
-				<div class="py-4 grid grid-cols-5 sm:gap-4 text-base uppercase">
+				<div class="py-4 grid grid-cols-5 sm:gap-4 upprcase">
 					<dt class="font-bold text-gray-400 col-span-2">Datum:</dt>
 					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
-						{{  date | date("LLLL", locale) }}
+						{{  date | date("dddd", locale) }}, {{  date | date("LL", locale) }}
 					</dd>
 				</div>
-				<div class="py-4 grid grid-cols-5 sm:gap-4 text-base uppercase">
+				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">Einlass:</dt>
 					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
 						{{ opening | date("HH:mm", locale) }} (Beginn:
 						{{ date | date("HH:mm", locale) }})
 					</dd>
 				</div>
-				<div class="py-4 grid grid-cols-5 sm:gap-4 text-base uppercase">
+				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">Dauer:</dt>
 					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">{{ duration }}</dd>
 				</div>
 
-				<div class="py-4 grid grid-cols-5 sm:gap-4 text-base uppercase">
+				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">Künstler:</dt>
 					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
 						{% for artist in artistItems %}
-						{{ artist.data.title }}
-						{% endfor %}
+						{{ artist.data.title }}{% if not loop.last %}, {% endif %} {% endfor
+						%}
 					</dd>
 				</div>
 
-				<div class="py-4 grid grid-cols-5 sm:gap-4 text-base uppercase">
+				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">Ort:</dt>
 					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
 						{% for venue in venueItems %}
@@ -77,84 +92,18 @@ locale], artist) %}
 	</div>
 </div>
 
-{% for artist in artistItems %}
-<div class="relative">
-	<div class="lg:absolute lg:inset-0">
-		<div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-			<img
-				class="filter grayscale w-full object-cover lg:absolute lg:h-full"
-				src="/assets/images/{{ artist.data.images.profile }}"
-				alt="{{ artist.data.images.alt }}"
-			/>
-		</div>
-	</div>
-	<div
-		class="
-			relative
-			pt-12
-			pb-16
-			px-4
-			sm:pt-16
-			sm:px-6
-			lg:px-8
-			lg:max-w-7xl
-			lg:mx-auto
-			lg:grid lg:grid-cols-2
-		"
-	>
-		<div class="lg:col-start-2 lg:pl-8">
-			<div
-				class="
-					text-base
-					max-w-prose
-					mx-auto
-					lg:max-w-lg
-					lg:ml-auto
-					lg:mr-0
-					pr-24
-				"
-			>
-				<span
-					class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"
-				>
-					Künstler
-				</span>
-				<h2 class="standardtitel uppercase">
-					{{ artist.data.title }}
-				</h2>
+<div class="flex border-b">
+	{% for artist in artistItems %}
 
-				<div class="mt-8">
-					<p>
-						{{ artist.data.excerpt }}
-					</p>
+	<!-- event artist logic -->
+	{%- include "components/event-artist.njk" %}
 
-					<div class="rounded-md mt-8">
-						<a
-							href="{{ artist.url }}"
-							class="
-								flex
-								items-center
-								justify-center
-								px-6
-								py-2
-								border border-transparent
-								text-base
-								font-semibold
-								no-underline
-								rounded-md
-								text-white
-								bg-black
-							"
-						>
-							Mehr über {{ artist.data.title }}
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<!-- endfor -->
+	{% endfor %}
 </div>
-{% endfor %} {% for venue in venueItems %}
+
+<!-- venues -->
+{% for venue in venueItems %}
 <div class="relative">
 	<div
 		class="
