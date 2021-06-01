@@ -11,15 +11,20 @@ locale], venue) %} {% block content %}
 {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" +
 locale], artist) %}
 
-<div class="mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
+<div class="pt-12 md:pt-0 lg:mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
 	<div
 		class="
-			col-span-3
+			col-span-5
+			md:col-span-3
 			bg-yellow-400
-			rounded-tr-xl
-			pl-3
+			sm:rounded-tr-xl
+			sm:mr-6
+			md:mr-0
+			px-3
 			xl:pl-16
 			2xl:pl-24
+			md:pr-12
+			lg:pr-36
 			xl:pr-44
 			py-12
 		"
@@ -30,24 +35,31 @@ locale], artist) %}
 
 	<div
 		class="
-			col-span-2
+			col-span-5
+			md:col-span-2
 			bg-black
 			text-white
-			rounded-t-2xl
+			sm:rounded-t-2xl
+			sm:ml-6
+			md:ml-0
 			transform
 			lg:ml-2
 			xl:ml-1
 			2xl:ml-0
+			md:-translate-x-8
 			lg:-translate-x-28
 			2xl:-translate-x-32
-			mt-20
+			sm:-mt-6
+			md:mt-20
 			mr-1
-			py-12
-			px-8
+			py-4
+			sm:py-10
+			px-3
+			xl:px-8
 		"
 	>
 		<div class="py-2 sm:p-0">
-			<dl class="sm:divide-y sm:divide-gray-800 text-sm md:text-base uppercase">
+			<dl class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase">
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">Art des Events:</dt>
 					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">{{ type }}</dd>
@@ -92,7 +104,7 @@ locale], artist) %}
 	</div>
 </div>
 
-<div class="flex border-b">
+<div class="flex flex-col sm:flex-row border-b">
 	{% for artist in artistItems %}
 
 	<!-- event artist logic -->
