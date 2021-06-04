@@ -1,0 +1,37 @@
+<div>
+	<small>Add this event to your calendar: </small>
+	<ul class="add-to-calendar">
+		<li>
+			<a
+				aria-label="Add to Google Calendar"
+				href="{{ calendarLinks.googleLink }}"
+			>
+				{% svg "calendar-google", "h-5 w-5 lg:h-10 lg:w-10", "calendar outlook"
+				%}
+			</a>
+		</li>
+		<li>
+			<a
+				aria-label="Add to Outlook Calendar"
+				href="{{ calendarLinks.outlookLink }}"
+			>
+				{% svg "calendar-outlook", "h-5 w-5 lg:h-10 lg:w-10", "calendar outlook"
+				%}
+			</a>
+		</li>
+		<li>
+			<a
+				aria-label="Add to Office 365 Calendar"
+				href="{{ calendarLinks.officeLink }}"
+			>
+				{% svg "calendar-office", "h-5 w-5 lg:h-10 lg:w-10", "calendar outlook"
+				%}
+			</a>
+		</li>
+		<li>
+			<a aria-label="Add to ics Calendar" href="{{ calendarLinks.icsLink }}">
+				{% svg "calendar", "h-5 w-5 lg:h-10 lg:w-10", "calendar ics" %}
+			</a>
+		</li>
+	</ul>
+</div>

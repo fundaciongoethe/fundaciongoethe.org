@@ -5,7 +5,7 @@ tags: pages
 
 <!-- venues -->
 {% set venueItems = helpers.filterCollectionByKeys(collections["venues_" +
-locale], venue) %} {% block content %}
+locale], venue) %}
 
 <!-- artists -->
 {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" +
@@ -16,9 +16,20 @@ locale], artist) %}
 		class="
 			col-span-5
 			md:col-span-3
+			{%
+			if
+			calendarLinks.isFutureEvent
+			%}
 			bg-yellow-400
+			{%
+			else
+			%}
+			bg-gray-200
+			{%
+			endif
+			%}
 			sm:rounded-tr-xl
-			sm:mr-6
+			sm:mr-3
 			md:mr-0
 			px-3
 			xl:pl-16
@@ -29,7 +40,35 @@ locale], artist) %}
 			py-12
 		"
 	>
-		<h1 class="standardtitel uppercase">{{ title }}</h1>
+		{% if calendarLinks.isFutureEvent %}
+
+		<span class="text-sm text-red-600 font-bold tracking-wide uppercase">
+			Event am {{ event.data.date | date("Do MMMM yyyy", locale) }}
+		</span>
+
+		{% else %}
+		<span
+			class="
+				text-sm text-gray-800
+				bg-red-400
+				px-2
+				py-1
+				rounded-sm
+				font-bold
+				tracking-wide
+				uppercase
+			"
+		>
+			Diese Veranstaltung ist bereits beendet
+		</span>
+		{% endif %}
+
+		<h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
+
+		<!-- calendar links -->
+		{% if calendarLinks.isFutureEvent %} {%- include
+		"partials/calendarLinks.njk" %}{% endif %}
+
 		<div class="standardtext mt-12 prose">{{ content | safe }}</div>
 	</div>
 
@@ -40,7 +79,7 @@ locale], artist) %}
 			bg-black
 			text-white
 			sm:rounded-t-2xl
-			sm:ml-6
+			sm:ml-3
 			md:ml-0
 			transform
 			lg:ml-2
@@ -51,7 +90,6 @@ locale], artist) %}
 			2xl:-translate-x-32
 			sm:-mt-6
 			md:mt-20
-			mr-1
 			py-4
 			sm:py-10
 			px-3
@@ -61,30 +99,42 @@ locale], artist) %}
 		<div class="py-2 sm:p-0">
 			<dl class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase">
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
-					<dt class="font-bold text-gray-400 col-span-2">Art des Events:</dt>
-					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">{{ type }}</dd>
+					<dt class="font-bold text-gray-400 col-span-2">
+						{{ meta[locale].eventType }}
+					</dt>
+					<dd class="text-gray-50 col-span-3">{{ type }}</dd>
 				</div>
 				<div class="py-4 grid grid-cols-5 sm:gap-4 upprcase">
-					<dt class="font-bold text-gray-400 col-span-2">Datum:</dt>
-					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
+					<dt class="font-bold text-gray-400 col-span-2">
+						{{ meta[locale].eventDate }}
+					</dt>
+					<dd class="text-gray-50 col-span-3">
 						{{  date | date("dddd", locale) }}, {{  date | date("LL", locale) }}
 					</dd>
 				</div>
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
-					<dt class="font-bold text-gray-400 col-span-2">Einlass:</dt>
-					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
-						{{ opening | date("HH:mm", locale) }} (Beginn:
+					<dt class="font-bold text-gray-400 col-span-2">
+						{{ meta[locale].eventEntry }}
+					</dt>
+					<dd class="text-gray-50 col-span-3">
+						{{ opening | date("HH:mm", locale) }} ({{
+							meta[locale].eventStart
+						}}
 						{{ date | date("HH:mm", locale) }})
 					</dd>
 				</div>
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
-					<dt class="font-bold text-gray-400 col-span-2">Dauer:</dt>
-					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">{{ duration }}</dd>
+					<dt class="font-bold text-gray-400 col-span-2">
+						{{ meta[locale].eventDuration }}
+					</dt>
+					<dd class="text-gray-50 col-span-3">{{ duration }}</dd>
 				</div>
 
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
-					<dt class="font-bold text-gray-400 col-span-2">Künstler:</dt>
-					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
+					<dt class="font-bold text-gray-400 col-span-2">
+						{{ meta[locale].eventArtist }}
+					</dt>
+					<dd class="text-gray-50 col-span-3">
 						{% for artist in artistItems %}
 						{{ artist.data.title }}{% if not loop.last %}, {% endif %} {% endfor
 						%}
@@ -92,8 +142,10 @@ locale], artist) %}
 				</div>
 
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
-					<dt class="font-bold text-gray-400 col-span-2">Ort:</dt>
-					<dd class="mt-1 text-gray-50 sm:mt-0 col-span-3">
+					<dt class="font-bold text-gray-400 col-span-2">
+						{{ meta[locale].eventVenue }}
+					</dt>
+					<dd class="text-gray-50 col-span-3">
 						{% for venue in venueItems %}
 						{{ venue.data.title }}
 						{% endfor %}
@@ -116,37 +168,29 @@ locale], artist) %}
 
 <!-- venues -->
 {% for venue in venueItems %}
-<div class="relative">
+<div class="relative flex flex-col">
 	<div
 		class="
+			order-2
 			relative
 			pt-12
 			pb-16
-			px-4
+			px-3
 			sm:pt-16
-			sm:px-6
-			lg:px-8
-			lg:max-w-7xl
-			lg:mx-auto
-			lg:grid lg:grid-cols-2
+			md:max-w-7xl
+			md:mx-auto
+			grid grid-cols-1
+			md:grid-cols-2
 		"
 	>
-		<div class="lg:col-start-1 lg:pl-8">
+		<div class="md:col-start-1 xl:pl-12">
 			<div
-				class="
-					text-base
-					max-w-prose
-					mx-auto
-					lg:max-w-lg
-					lg:ml-auto
-					lg:mr-0
-					pr-24
-				"
+				class="text-base mx-auto md:ml-auto md:mr-0 sm:pr-6 lg:pr-16 xl:pr-20"
 			>
 				<span
 					class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"
 				>
-					Ort
+					{{ meta[locale].eventVenue }}
 				</span>
 				<h2 class="standardtitel uppercase">
 					{{ venue.data.title }}
@@ -157,39 +201,32 @@ locale], artist) %}
 						{{ venue.data.excerpt }}
 					</p>
 
-					<div class="rounded-md mt-8">
-						<a
-							href="{{ venue.url }}"
-							class="
-								flex
-								items-center
-								justify-center
-								px-6
-								py-2
-								border border-transparent
-								text-base
-								font-semibold
-								no-underline
-								rounded-md
-								text-white
-								bg-black
-							"
-						>
-							Mehr über {{ venue.data.title }}
+					<div class="mt-8">
+						<a href="{{ venue.url }}" class="blackbutton">
+							{{ meta[locale].eventMore }} {{ venue.data.title }}
 						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="lg:absolute lg:inset-0">
-		<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-			<img
-				class="filter grayscale w-full object-cover lg:absolute lg:h-full"
-				src="/assets/images/{{ venue.data.images.profile }}"
-				alt="{{ venue.data.images.alt }}"
-			/>
-		</div>
+
+	<div class="order-1 md:absolute md:inset-y-0 md:right-0 md:w-1/2">
+		<img
+			class="
+				filter
+				grayscale
+				w-full
+				object-cover
+				md:absolute
+				h-72
+				sm:h-96
+				md:h-full
+			"
+			src="/assets/images/{{ venue.data.images.profile }}"
+			alt="{{ venue.data.images.alt }}"
+		/>
 	</div>
 </div>
-{% endfor %} {% endblock %}
+
+{% endfor %}

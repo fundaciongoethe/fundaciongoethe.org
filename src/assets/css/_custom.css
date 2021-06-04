@@ -78,6 +78,10 @@ h2 {
 	@apply text-sm xl:text-base text-gray-900;
 }
 
+.standardtext p {
+	@apply mb-5;
+}
+
 .blackbutton {
 	@apply flex
 	items-center

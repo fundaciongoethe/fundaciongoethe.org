@@ -25,6 +25,9 @@ cta2: # relative to /assets/images/
   btnLink: /
   image: cta/concert2.jpg
   alt: Konzert im Palacio Real
+pastevents:
+  title: Vergangene Veranstaltungen
+  description: In unserem Veranstaltungsarchiv finden Sie alle bereits stattgefundene Events und Termine
 ---
 
 <!-- hero -->
@@ -160,6 +163,20 @@ cta2: # relative to /assets/images/
 		</li>
 		{% endfor %}
 	</ul>
+
+	<div class="max-w-xl mx-auto">
+		<h2 class="standardtitel mt-20 mb-6 2xl:mb-8 text-gray-900 text-center">
+			{{ pastevents.title }}
+		</h2>
+
+		<div class="standardtext text-center">
+			<p>
+				{{ pastevents.description }}
+			</p>
+		</div>
+	</div>
+
+	{% include "components/event-past.njk" %}
 </div>
 
 <!-- hero -->
