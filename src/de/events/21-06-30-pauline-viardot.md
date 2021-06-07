@@ -4,6 +4,10 @@ description: Compartimos escenario para presentar Cotton candy cake tootsie roll
 customSlug: konzert-geburtstag-pauline-viardot-garcia-2
 artist: [claustemps]
 venue: [palacioreal]
+partners:
+  - BenMyers
+  - patrimonio
+  - AnneMieke
 type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2021-06-30 19:30:00

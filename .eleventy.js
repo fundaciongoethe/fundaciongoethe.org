@@ -7,6 +7,7 @@ const markdownItEmoji = require("markdown-it-emoji");
 // filters
 const eleventaFilters = require("./utils/filters/eleventaFilters.js");
 const dateFilters = require("./utils/filters/dateFilters.js");
+const partnerUtils = require("./src/modules/partner.js");
 
 // shortcodes
 const youtube = require("./utils/shortcodes/youtube-lite.js");
@@ -39,6 +40,8 @@ const isValidEvent = (event) => isValidTitle(event.data.title);
 // config starts
 module.exports = function (eleventyConfig) {
 	// Filters
+
+	eleventyConfig.addFilter("partnerLogo", partnerUtils.getLogoUrl);
 
 	Object.keys(eleventaFilters).forEach((filterName) => {
 		eleventyConfig.addFilter(filterName, eleventaFilters[filterName]);

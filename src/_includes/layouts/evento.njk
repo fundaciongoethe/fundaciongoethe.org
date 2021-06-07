@@ -43,7 +43,7 @@ locale], artist) %}
 		{% if calendarLinks.isFutureEvent %}
 
 		<span class="text-sm text-red-600 font-bold tracking-wide uppercase">
-			Event am {{ event.data.date | date("Do MMMM yyyy", locale) }}
+			{{  date | date("Do MMMM yyyy", locale) }}
 		</span>
 
 		{% else %}
@@ -59,15 +59,11 @@ locale], artist) %}
 				uppercase
 			"
 		>
-			Diese Veranstaltung ist bereits beendet
+			{{ meta[locale].event.finished }}
 		</span>
 		{% endif %}
 
 		<h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
-
-		<!-- calendar links -->
-		{% if calendarLinks.isFutureEvent %} {%- include
-		"partials/calendarLinks.njk" %}{% endif %}
 
 		<div class="standardtext mt-12 prose">{{ content | safe }}</div>
 	</div>
@@ -100,13 +96,13 @@ locale], artist) %}
 			<dl class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase">
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
-						{{ meta[locale].eventType }}
+						{{ meta[locale].event.type }}
 					</dt>
 					<dd class="text-gray-50 col-span-3">{{ type }}</dd>
 				</div>
 				<div class="py-4 grid grid-cols-5 sm:gap-4 upprcase">
 					<dt class="font-bold text-gray-400 col-span-2">
-						{{ meta[locale].eventDate }}
+						{{ meta[locale].event.date }}
 					</dt>
 					<dd class="text-gray-50 col-span-3">
 						{{  date | date("dddd", locale) }}, {{  date | date("LL", locale) }}
@@ -114,25 +110,25 @@ locale], artist) %}
 				</div>
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
-						{{ meta[locale].eventEntry }}
+						{{ meta[locale].event.entry }}
 					</dt>
 					<dd class="text-gray-50 col-span-3">
 						{{ opening | date("HH:mm", locale) }} ({{
-							meta[locale].eventStart
+							meta[locale].event.start
 						}}
 						{{ date | date("HH:mm", locale) }})
 					</dd>
 				</div>
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
-						{{ meta[locale].eventDuration }}
+						{{ meta[locale].event.duration }}
 					</dt>
 					<dd class="text-gray-50 col-span-3">{{ duration }}</dd>
 				</div>
 
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
-						{{ meta[locale].eventArtist }}
+						{{ meta[locale].event.artist }}
 					</dt>
 					<dd class="text-gray-50 col-span-3">
 						{% for artist in artistItems %}
@@ -143,7 +139,7 @@ locale], artist) %}
 
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
-						{{ meta[locale].eventVenue }}
+						{{ meta[locale].event.venue }}
 					</dt>
 					<dd class="text-gray-50 col-span-3">
 						{% for venue in venueItems %}
@@ -152,6 +148,9 @@ locale], artist) %}
 					</dd>
 				</div>
 			</dl>
+			<!-- calendar links -->
+			{% if calendarLinks.isFutureEvent %} {%- include
+			"partials/calendarLinks.njk" %}{% endif %}
 		</div>
 	</div>
 </div>
@@ -190,7 +189,7 @@ locale], artist) %}
 				<span
 					class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"
 				>
-					{{ meta[locale].eventVenue }}
+					{{ meta[locale].event.venue }}
 				</span>
 				<h2 class="standardtitel uppercase">
 					{{ venue.data.title }}
@@ -203,7 +202,7 @@ locale], artist) %}
 
 					<div class="mt-8">
 						<a href="{{ venue.url }}" class="blackbutton">
-							{{ meta[locale].eventMore }} {{ venue.data.title }}
+							{{ meta[locale].event.readMore }} {{ venue.data.title }}
 						</a>
 					</div>
 				</div>
@@ -228,5 +227,64 @@ locale], artist) %}
 		/>
 	</div>
 </div>
-
 {% endfor %}
+
+<!-- partners -->
+{% if partners %}
+
+<h2 class="standardtitel pt-20 px-3 lg:px-16">
+	{{ meta[locale].event.thanks }}:
+</h2>
+
+<div
+	class="py-16 pb-5 px-3 sm:px-6 md:pt-28 lg:pt-40 xl:pt-12 2xl:pt-20 lg:px-16"
+>
+	<div class="relative mx-auto">
+		<div
+			class="
+				mt-6
+				grid grid-cols-2
+				gap-0.5
+				md:grid-cols-7
+				lg:mt-8
+				divide-x divide-gray-300
+			"
+		>
+			<!-- get current locale from meta.languages -->
+			{% for partner in partners %}
+
+			<figure>
+				<a
+					title="Logo: {{ partnerarchiv[partner].name }}"
+					href="{{ partnerarchiv[partner].url }}"
+					class="
+						col-span-1
+						flex
+						justify-center
+						py-4
+						px-4
+						filter
+						grayscale
+						hover:grayscale-0
+						opacity-75
+						hover:opacity-100
+						transition
+						duration-200
+						ease-in-out
+						transform
+						hover:scale-105
+					"
+				>
+					<img
+						src="{{ partnerarchiv[partner] | partnerLogo }}"
+						alt="Logo: {{ partnerarchiv[partner].name }}"
+						class="lazy max-h-12"
+					/>
+				</a>
+			</figure>
+
+			{%- endfor -%}
+		</div>
+	</div>
+</div>
+{% endif %}

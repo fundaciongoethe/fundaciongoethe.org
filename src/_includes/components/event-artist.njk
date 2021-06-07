@@ -71,7 +71,7 @@
 			<span
 				class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"
 			>
-				{{ meta[locale].eventArtist }}
+				{{ meta[locale].event.artist }}
 			</span>
 			<h2 class="standardtitel uppercase">
 				{{ artist.data.title }}
@@ -83,7 +83,7 @@
 				</p>
 			</div>
 			<a href="{{ artist.url }}" class="blackbutton mt-8">
-				{{ meta[locale].eventMore }} {{ artist.data.title }}
+				{{ meta[locale].event.readmore }} {{ artist.data.title }}
 			</a>
 		</div>
 	</div>
@@ -131,7 +131,7 @@
 				<span
 					class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"
 				>
-					{{ meta[locale].eventArtist }}
+					{{ meta[locale].event.artist }}
 				</span>
 				<h2 class="standardtitel uppercase">
 					{{ artist.data.title }}
@@ -144,7 +144,7 @@
 
 					<div class="rounded-md mt-8">
 						<a href="{{ artist.url }}" class="blackbutton">
-							{{ meta[locale].eventMore }} {{ artist.data.title }}
+							{{ meta[locale].event.readmore }} {{ artist.data.title }}
 						</a>
 					</div>
 				</div>

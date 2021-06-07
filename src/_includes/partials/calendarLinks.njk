@@ -1,36 +1,44 @@
-<div>
-	<small>Add this event to your calendar: </small>
-	<ul class="add-to-calendar">
+<div class="my-6">
+	<small>{{ meta[locale].event.addCalendar }} </small>
+	<ul class="add-to-calendar flex gap-4 mt-2">
 		<li>
 			<a
+				class="text-white hover:yellow-400"
 				aria-label="Add to Google Calendar"
 				href="{{ calendarLinks.googleLink }}"
+				target="_blank"
 			>
-				{% svg "calendar-google", "h-5 w-5 lg:h-10 lg:w-10", "calendar outlook"
-				%}
+				{% svg "calendar-google", "h-5 w-5", "calendar outlook" %}
 			</a>
 		</li>
 		<li>
 			<a
+				class="text-white hover:yellow-400"
 				aria-label="Add to Outlook Calendar"
 				href="{{ calendarLinks.outlookLink }}"
+				target="_blank"
 			>
-				{% svg "calendar-outlook", "h-5 w-5 lg:h-10 lg:w-10", "calendar outlook"
-				%}
+				{% svg "calendar-outlook", "h-5 w-5 ", "calendar outlook" %}
 			</a>
 		</li>
 		<li>
 			<a
+				class="text-white hover:yellow-400"
 				aria-label="Add to Office 365 Calendar"
 				href="{{ calendarLinks.officeLink }}"
+				target="_blank"
 			>
-				{% svg "calendar-office", "h-5 w-5 lg:h-10 lg:w-10", "calendar outlook"
-				%}
+				{% svg "calendar-office", "h-5 w-5", "calendar outlook" %}
 			</a>
 		</li>
 		<li>
-			<a aria-label="Add to ics Calendar" href="{{ calendarLinks.icsLink }}">
-				{% svg "calendar", "h-5 w-5 lg:h-10 lg:w-10", "calendar ics" %}
+			<a
+				class="text-white hover:yellow-400"
+				aria-label="Add to ics Calendar"
+				href="{{ calendarLinks.icsLink }}"
+				target="_blank"
+			>
+				{% svg "calendar", "h-5 w-5 ", "calendar ics" %}
 			</a>
 		</li>
 	</ul>
