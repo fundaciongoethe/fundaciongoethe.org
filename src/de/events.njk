@@ -4,11 +4,11 @@ layout: home
 permalink: "/{{ locale }}/events/index.html"
 translationKey: "events"
 seo:
-  title: Conciertos
-  description: Aquí puedes ver cuándo y dónde tendrán lugar mis próximos conciertos.  Actualmente no hay conciertos. Ojalá de cara al verano podamos estrenar el disco.
+  title: Veranstaltungen und Termine
+  description: Die Fundación Goethe unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten.
 herogrid:
-  title: Nuestros próximos eventos
-  text: En la Fundación Goethe te ofrecemos una amplia gama de eventos únicos. Conciertos, visitas guiadas, exposiciones o excursiones con almuerzo y cata de vinos.
+  title: Unsere nächsten Veranstaltungen
+  text: Die Fundación Goethe unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten.
   images:
     featured1: evento-culinarico.jpg
     alt1:
@@ -42,7 +42,9 @@ pastevents:
 			border-gray-300
 		"
 	>
-		{# wenn es events gibt #} {% for event in collections.eventsZukunft %}
+		<!-- events FUTURE -->
+
+		{% for event in collections.eventsZukunft %}
 
 		<li class="px-3 py-3 md:py-0 max-w-5xl mx-auto">
 			<div class="flex items-center space-x-4">
@@ -84,7 +86,10 @@ pastevents:
 						><img
 							class="h-40 w-40 filter grayscale"
 							src="/assets/images/{{ event.data.images.featured }}"
-							alt="{{ event.data.images.alt }}"
+							alt="
+
+							{{ event.data.images.alt or event.data.location }}
+		"
 							width="190"
 							height="190"
 					/></a>
@@ -130,7 +135,7 @@ pastevents:
 						</h2>
 
 						<p class="text-xs font-semibold">
-							Einlass:
+							{{ meta[locale].event.entry }}:
 							{{ event.data.opening | date("HH:mm", locale) }}
 						</p>
 					</a>
@@ -176,7 +181,84 @@ pastevents:
 		</div>
 	</div>
 
-	{% include "components/event-past.njk" %}
+	<!-- events PAST -->
+	<div
+		class="bg-white max-w-xl mx-auto border border-gray-300 rounded-md"
+		x-data="{selected:null}"
+	>
+		<ul class="shadow-box">
+			<!-- sorted by year past events -->
+			{% for date, event in collections.eventsVergangenheit | groupby("date") %}
+
+			<li class="relative">
+				<button
+					type="button"
+					class="w-full px-8 py-6 text-left"
+					@click="selected !== {{ loop.index }} ? selected = {{
+						loop.index
+					}} : selected = null"
+				>
+					<div class="flex items-center justify-between">
+						<h3 class="md:font-semibold 2xl:font-bold">
+							{{ event.date | date("YYYY", locale) 	}}
+						</h3>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="32"
+							height="32"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="#000000"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+							<line x1="12" y1="5" x2="12" y2="19" />
+							<line x1="18" y1="13" x2="12" y2="19" />
+							<line x1="6" y1="13" x2="12" y2="19" />
+						</svg>
+					</div>
+				</button>
+
+				<div
+					class="relative overflow-hidden max-h-0"
+					style=""
+					x-ref="container{{ loop.index }}"
+					x-bind:style="selected == {{
+						loop.index
+					}} ? 'max-height: ' + $refs.container{{
+						loop.index
+					}}.scrollHeight + 'px' : ''"
+				>
+					<div class="p-6">
+						{% for event in collections.eventsVergangenheit %}
+						<p>
+							<a
+								class="
+									no-underline
+									text-sm
+									bg-gray-200
+									py-0.5
+									rouded-sm
+									pr-1
+									hover:bg-yellow-400
+								"
+								href="{{ event.url }}"
+							>
+								<span class="bg-black text-white px-2 py-0.5 rouded-sm">
+									{{ event.data.date | date("Do MMMM yyyy", locale) }}:</span
+								>
+								{{ event.data.title }}</a
+							>
+						</p>
+						{% endfor %}
+					</div>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
 </div>
 
 <!-- hero -->

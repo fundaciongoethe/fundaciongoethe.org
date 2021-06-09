@@ -3,7 +3,8 @@ title: "Heike Bleckmann"
 translationKey: "heikebleckmann"
 referenceKey: "heikebleckmann"
 customSlug: "heike-bleckmann"
-excerpt: Die Pianistin Heike Bleckmann hat eine Karriere mit umfangreicher Solokonzerttätigkeit, aber auch mit verschiedenen Ensembles (z.B. "Die 12 Pianisten") und vor allem als Liedbegleiterin.
+excerpt: Die Pianistin Heike Bleckmann hat eine Karriere mit umfangreicher Solokonzerttätigkeit, aber auch mit verschiedenen Ensembles und als Liedbegleiterin.
+occupation: "Pianistin"
 seo:
   title: Heike Bleckmann | {{ meta[locale].seoArtist }}
   description: Die Pianistin Heike Bleckmann hat eine Karriere mit umfangreicher Solokonzerttätigkeit und ist Teil verschiedener Ensembles.

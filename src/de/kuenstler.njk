@@ -1,6 +1,6 @@
 ---
 title: Artistas
-layout: home
+layout: plain
 permalink: "/{{ locale }}/kuenstler/index.html"
 translationKey: "artists"
 seo:
@@ -8,18 +8,15 @@ seo:
   description: asdf
 ---
 
-<h1>Artistas</h1>
-{% set artists = collections["artists_" + locale] %} {% for artist in artists %}
+<div class="text-center max-w-3xl mx-auto mb-12">
+	<h1 class="standardtitel text-gray-900">Unsere Künstler</h1>
+	<p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
+		Biscuit sesame snaps candy canes dragée soufflé sweet marzipan pastry
+		jujubes. Toffee wafer croissant lemon drops tiramisu.
+	</p>
+</div>
+<!-- set -->
+{% set artists = collections["artists_" + locale] %}
 
-<p>
-	<a href="{{ artist.url }}"> {{ artist.data.title }}</a>
-</p>
-
-<img
-	src="/assets/images/{{ artist.data.images.profile }}"
-	alt="{{ artist.data.images.alt }}"
-/>
-
-<p class="text-xs">{{ artist.data.excerpt }}</p>
-
-{%- endfor -%}
+<!-- include partial -->
+{%- include "partials/archive-artists.njk" %}

@@ -5,7 +5,7 @@
 }
 
 ::selection {
-	@apply bg-orange-500;
+	@apply bg-yellow-200;
 }
 
 /* Scrollbar styles */

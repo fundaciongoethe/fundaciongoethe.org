@@ -3,7 +3,8 @@ title: "Claus Temps"
 translationKey: "claustemps"
 referenceKey: "claustemps"
 customSlug: "claus-temps"
-excerpt: Claus Temps, Bassbariton, hat eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt. In letzter Zeit waren diese Programme u.a. Heinrich Heine, Nikolaus Lenau und Johann Wolfgang von Goethe gewidmet.
+excerpt: Claus Temps, Bassbariton, hat eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt.
+occupation: "Bassbariton"
 seo:
   title: Claus Temps | {{ meta[locale].seoArtist }}
   description: Claus Temps hat eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt.
@@ -11,6 +12,7 @@ seo:
 images: # relative to /src/assets/images/
   profile: artists/claus-temps.jpg
   alt: Claus Temps
+  credit: Fotografenname
 links:
   web:
   twitter:

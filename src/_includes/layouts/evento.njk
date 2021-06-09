@@ -108,6 +108,9 @@ locale], artist) %}
 						{{  date | date("dddd", locale) }}, {{  date | date("LL", locale) }}
 					</dd>
 				</div>
+
+				<!-- start and end only upcoming events -->
+				{% if calendarLinks.isFutureEvent %}
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
 						{{ meta[locale].event.entry }}
@@ -121,10 +124,13 @@ locale], artist) %}
 				</div>
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
-						{{ meta[locale].event.duration }}
+						{{ meta[locale].event.ending }}
 					</dt>
-					<dd class="text-gray-50 col-span-3">{{ duration }}</dd>
+					<dd class="text-gray-50 col-span-3">
+						{{ ending | date("HH:mm", locale) }}
+					</dd>
 				</div>
+				{% endif %}
 
 				<div class="py-4 grid grid-cols-5 sm:gap-4">
 					<dt class="font-bold text-gray-400 col-span-2">
@@ -148,10 +154,11 @@ locale], artist) %}
 					</dd>
 				</div>
 			</dl>
-			<!-- calendar links -->
-			{% if calendarLinks.isFutureEvent %} {%- include
-			"partials/calendarLinks.njk" %}{% endif %}
 		</div>
+
+		<!-- calendar links -->
+		{% if calendarLinks.isFutureEvent %} {%- include
+		"partials/calendarLinks.njk" %}{% endif %}
 	</div>
 </div>
 
@@ -202,7 +209,7 @@ locale], artist) %}
 
 					<div class="mt-8">
 						<a href="{{ venue.url }}" class="blackbutton">
-							{{ meta[locale].event.readMore }} {{ venue.data.title }}
+							{{ meta[locale].event.readmore }} {{ venue.data.title }}
 						</a>
 					</div>
 				</div>
@@ -223,7 +230,7 @@ locale], artist) %}
 				md:h-full
 			"
 			src="/assets/images/{{ venue.data.images.profile }}"
-			alt="{{ venue.data.images.alt }}"
+			alt=" {{ venue.data.images.alt }} "
 		/>
 	</div>
 </div>
@@ -236,33 +243,28 @@ locale], artist) %}
 	{{ meta[locale].event.thanks }}:
 </h2>
 
-<div
-	class="py-16 pb-5 px-3 sm:px-6 md:pt-28 lg:pt-40 xl:pt-12 2xl:pt-20 lg:px-16"
->
-	<div class="relative mx-auto">
+<div class="mt-8 border-t border-b border-gray-300">
+	<div class="relative mx-auto px-3 lg:px-16 bg-white">
 		<div
-			class="
-				mt-6
-				grid grid-cols-2
-				gap-0.5
-				md:grid-cols-7
-				lg:mt-8
-				divide-x divide-gray-300
-			"
+			class="grid grid-cols-2 gap-0.5 md:grid-cols-7 divide-x divide-gray-300"
 		>
 			<!-- get current locale from meta.languages -->
 			{% for partner in partners %}
 
 			<figure>
 				<a
-					title="Logo: {{ partnerarchiv[partner].name }}"
+					ref="nofollow"
+					target="_blank"
+					title="{{ meta[locale].event.visitaWeb }} {{
+						partnerarchiv[partner].name
+					}}"
 					href="{{ partnerarchiv[partner].url }}"
 					class="
 						col-span-1
 						flex
 						justify-center
-						py-4
-						px-4
+						py-6
+						px-2
 						filter
 						grayscale
 						hover:grayscale-0
@@ -278,7 +280,7 @@ locale], artist) %}
 					<img
 						src="{{ partnerarchiv[partner] | partnerLogo }}"
 						alt="Logo: {{ partnerarchiv[partner].name }}"
-						class="lazy max-h-12"
+						class="lazy max-h-16"
 					/>
 				</a>
 			</figure>

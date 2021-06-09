@@ -1,6 +1,6 @@
 ---
 title: Konzert zum Geburtstag der Sängerin und Komponistin Pauline Viardot-Garcia
-description: Compartimos escenario para presentar Cotton candy cake tootsie roll. Cotton candy chocolate liquorice soufflé tart pastry.
+description: Larissa Wäspy, Claus Temps und Heike Bleckmann spielen Werke von Pauline Viardot-García im Königspalast in Madrid.
 customSlug: konzert-geburtstag-pauline-viardot-garcia
 artist: [larissawaspy, claustemps]
 venue: [palacioreal]
@@ -8,7 +8,8 @@ type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2021-06-29 19:30:00
 opening: 2021-06-29 18:45:00
-duration: 1 Stunde
+ending: 2021-06-29 20:30:00
+calcDuration: 1
 seo:
   title: Konzert zum Geburtstag der Sängerin und Komponistin Pauline Viardot-Garcia
   description: Larissa Wäspy, Claus Temps und Heike Bleckmann spielen Werke von Pauline Viardot-García im Königspalast in Madrid.

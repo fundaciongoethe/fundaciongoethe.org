@@ -7,7 +7,7 @@
 		transform
 		md:-translate-y-16
 		lg:translate-y-0
-		bg-gray-50
+		bg-gray-200
 		md:bg-transparent
 	"
 >
@@ -228,7 +228,7 @@ Heroicon name: outline/x"
 
 	<div
 		x-description="Mobile menu, show/hide based on menu state."
-		class="md:hidden relative bg-orange-400 my-2"
+		class="md:hidden relative bg-white my-2"
 		id="mobile-menu"
 		x-show="open"
 		style="display: none"
@@ -242,8 +242,8 @@ Heroicon name: outline/x"
 				text-sm
 				font-bold
 				uppercase
-				hover:bg-orange-400
-				hover:text-gray-100
+				hover:bg-gray-300
+				hover:text-orange-500
 				block
 				px-2
 				py-3
@@ -264,18 +264,18 @@ Heroicon name: outline/x"
 			{% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set
 			translatedUrl to the homepage of that language by default #} {% set
 			translatedUrl = "/" + lgg.code + "/" %} {# set current language class #}
-			{% set activeClass = "bg-black text-white " if lgg.code == locale else
-			"text-gray-900 " %} {# loop through all the content of the site #} {% for
-			item in collections.all %} {# for each item in the loop, check if - its
-			translationKey matches the current item translationKey - its locale
+			{% set activeClass = "bg-orange-500 text-black " if lgg.code == locale
+			else "text-gray-900 " %} {# loop through all the content of the site #} {%
+			for item in collections.all %} {# for each item in the loop, check if -
+			its translationKey matches the current item translationKey - its locale
 			matches the code of the language we are looping through #} {% if
 			item.data.translationKey == translationKey and item.data.locale ==
 			lgg.code %} {% set translatedUrl = item.url %} {% endif %} {% endfor %}
 
 			<a
 				class="
-					border-orange-300 border-t border-b border-r text-center
-					hover:bg-orange-400
+					bg-gray-300 text-center
+					hover:bg-white
 			no-underline
 			text-xs
 			font-semibold

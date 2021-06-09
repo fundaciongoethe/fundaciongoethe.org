@@ -1,0 +1,4 @@
+{
+	"layout": "artist",
+	"permalink": "/{{ locale }}/artistas/{{ customSlug }}/index.html"
+}

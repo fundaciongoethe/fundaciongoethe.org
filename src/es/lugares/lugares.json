@@ -1,0 +1,4 @@
+{
+	"layout": "venue",
+	"permalink": "/{{ locale }}/lugares/{{ customSlug }}/index.html"
+}

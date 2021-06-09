@@ -42,11 +42,8 @@
 				<!-- full bg image, teal box und pink box from frontmatter data
 				> -->
 
-				{% if bgimg %} {% include "components/fullbg.njk" %} {% endif %} {% if
-				heroimg %} {% include "components/herobg.njk" %} {% endif %}{% if
-				pinkbox %} {% include "components/pink-box.njk" %} {% endif %} {% if
-				tealbox %} {% include "components/teal-box.njk" %} {% endif %} {# topbar
-				+ header #} {% include "partials/topbar.njk" %} {% include
+				{% if heroimg %} {% include "components/herobg.njk" %} {% endif %}{#
+				topbar + header #} {% include "partials/topbar.njk" %} {% include
 				"partials/header.njk" %}
 
 				<div

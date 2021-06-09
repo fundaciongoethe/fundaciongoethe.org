@@ -60,70 +60,8 @@ tags: pages
 				<div class="sm:pl-16 2xl:pl-40 sm:w-2/3">
 					<p class="mb-5">{{ excerpt }}</p>
 
-					<!-- website -->
-					{% if links.web %}
-					<a
-						target="_blank"
-						rel="noopener"
-						href="https://www.{{ links.web }}"
-						class="flex items-left justify-left py-1 text-sm text-gray-700"
-					>
-						{% svg "world", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
-						<span class="ml-3">{{ links.web }}</span>
-					</a>
-					{% endif %}
-
-					<!-- twitter -->
-					{% if links.twitter %}
-					<a
-						target="_blank"
-						rel="noopener"
-						href="https://www.{{ links.twitter }}"
-						class="flex items-left justify-left py-1 text-sm text-gray-700"
-					>
-						{% svg "twitter", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
-						<span class="ml-3">{{ links.twitter }}</span>
-					</a>
-					{% endif %}
-
-					<!-- facebook -->
-					{% if links.facebook %}
-					<a
-						target="_blank"
-						rel="noopener"
-						href="https://www.{{ links.facebook }}"
-						class="flex items-left justify-left py-1 text-sm text-gray-700"
-					>
-						{% svg "facebook", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
-						<span class="ml-3">{{ links.facebook }}</span>
-					</a>
-					{% endif %}
-
-					<!-- instagram -->
-					{% if links.instagram %}
-					<a
-						target="_blank"
-						rel="noopener"
-						href="https://www.{{ links.instagram }}"
-						class="flex items-left justify-left py-1 text-sm text-gray-700"
-					>
-						{% svg "instagram", "mr-2 h-5 w-5 flex-shrink-0 ", "flecha" %}
-						<span class="ml-3">{{ links.instagram }}</span>
-					</a>
-					{% endif %}
-
-					<!-- linkedin -->
-					{% if links.linkedin %}
-					<a
-						target="_blank"
-						rel="noopener"
-						href="https://www.{{ links.linkedin }}"
-						class="flex items-left justify-left py-1 text-sm text-gray-700"
-					>
-						{% svg "linkedin", "mr-2 h-5 w-5 flex-shrink-0", "linkedin" %}
-						<span class="ml-3">{{ links.linkedin }}</span>
-					</a>
-					{% endif %}
+					<!-- social links -->
+					{%- include "partials/social-links.njk" %}
 				</div>
 			</div>
 

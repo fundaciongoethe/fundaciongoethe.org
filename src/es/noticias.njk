@@ -22,13 +22,9 @@ pagination:
 			</p>
 		</div>
 
-		{% set postslist = posts_es | reverse %} {# Allows a user to easily change
-		the Tag List Style. Please see instructions in /src/_data/structure.js >>>
-		===== Post List Style Options ===== #} {% set postlist = ['components/',
-		structure.postListStyle, '.njk'] %} {% include postlist | join %} {# =====
-		Paginate based on "size" frontmatter value above ===== #} {# Don't even
-		include the pagination component if there are fewer posts than needed to
-		paginate #} {% if collections.post.length > pagination.size %} {% include
+		{% set postslist = posts_es | reverse %} {% set postlist =
+		['components/postslistcards.njk'] %} {% include postlist | join %} {% if
+		collections.post.length > pagination.size %} {% include
 		"components/pagination.njk" %} {% endif %}
 	</div>
 </div>

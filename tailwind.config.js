@@ -7,8 +7,6 @@ module.exports = {
 		"./src/**/*.md",
 		"./src/**/*.js",
 		"./utils/**/*.js",
-		"./src/_data/colors.js",
-		"./src/_data/structure.js",
 	],
 	experimental: {
 		applyComplexClasses: true,
@@ -101,6 +99,7 @@ module.exports = {
 	variants: {
 		borderWidth: ["responsive", "last"],
 		animation: ["responsive", "motion-safe", "motion-reduce"],
+		transitionProperty: ["responsive", "motion-safe", "motion-reduce"],
 		grayscale: ["hover", "focus"],
 	},
 	plugins: [
