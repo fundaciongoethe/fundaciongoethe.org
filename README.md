@@ -50,18 +50,7 @@ npm run build
 
 ---
 
-#### Credits
-
-- [Eleventy](https://11ty.io)
-- [TailwindCSS](https://tailwindcss.com/)
-- [PostCSS](https://github.com/postcss)
-  - Autoprefixer
-- [Babel](https://babeljs.io/)
-- [Webpack](https://webpack.js.org/)
-- [PurgeCSS](https://github.com/FullHuman/purgecss)
-- [Concurrently](https://www.npmjs.com/package/concurrently)
-- [HTML Minifier](https://www.npmjs.com/package/html-minifier)
-- [JS YAML](https://www.npmjs.com/package/js-yaml)
+#### Deploy status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e6eb38e1-d081-46ea-a4f6-4d3d36ab7036/deploy-status)](https://app.netlify.com/sites/albertoballesteros/deploys)
 

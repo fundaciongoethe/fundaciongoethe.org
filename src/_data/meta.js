@@ -79,8 +79,18 @@ module.exports = {
 			phone: "Teléfono",
 			message: "Tu mensaje",
 			optional: "opcional",
+			required: "requerido",
 			send: "enviar",
 			actionLink: "gracias",
+		},
+		newsletter: {
+			language: "Idioma de los emails",
+			spanish: "Español",
+			german: "Alemán",
+			venues: "Lugares",
+			allInvitations: "Todas las invitaciones",
+			datos:
+				"He leído la política de privacidad y acepto recibir invitaciones por correo electrónico.",
 		},
 	},
 	de: {
@@ -101,7 +111,7 @@ module.exports = {
 			"Alle unsere Förderer unterstützen die Veranstaltungen der Fundación Goethe mit einem jährlichen Beitrag. Darüber hinaus besteht die Möglichkeit, einzelne Events separat mit Sponsoringbeiträgen oder anderen Leistungen, z.B. logistischen oder kulinarischen Services, zu unterstützen.",
 		newsTitle: "Aktuelles",
 		newsExcerpt:
-			"	In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene Veranstaltungen und machen auf besondere Events aufmerksam.",
+			"In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene Veranstaltungen und machen auf besondere Events aufmerksam.",
 		seoArtist: "Künstlerarchiv der Fundación Goethe",
 		event: {
 			artist: "Künstler/in",
@@ -127,8 +137,18 @@ module.exports = {
 			phone: "Telefon",
 			message: "Ihre Nachricht",
 			optional: "optional",
+			required: "erforderlich",
 			send: "senden",
 			actionLink: "danke",
+		},
+		newsletter: {
+			language: "Sprache der E-Mails",
+			spanish: "Spanisch",
+			german: "Deutsch",
+			venues: "Orte",
+			allInvitations: "Einladungen für alle Orte",
+			datos:
+				"Ich habe die Datenschutzerklärung zur Kenntnis genommen und bin damit einverstanden, per E-Mail Einladungen zu erhalten.",
 		},
 	},
 

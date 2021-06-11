@@ -6,164 +6,550 @@ translationKey: "about"
 seo:
   title: Über die Fundación Goethe
   description: Gracias a las canciones que he conseguido hacer, he conocido a gente increíble a la que quiero y admiro.
+sponsorlist:
+  direction: text-left
+  grids: grid-cols-5
+  title: Unsere Förderer
+  text: Unsere Förderer sind die zentrale Achse der Fundación Goethe. Wir haben das große Glück, seit Jahren auf die Zusammenarbeit mit weltbekannten Unternehmen zählen zu können.
 ---
 
-<div
-	class="
-		mb-10
-		lg:my-16
-		2xl:my-20
-		lg:grid lg:grid-cols-2
-		lg:gap-8
-		overflow-hidden
-		xl:overflow-visible
-	"
->
-	<div
-		class="relative lg:row-start-1 lg:col-start-2 transform 2xl:translate-x-10"
-	>
-		<div
-			class="
-				absolute
-				inset-0
-				bg-red-600
-				shadow-lg
-				transform
-				translate-y-3
-				-skew-y-3
-				sm:skew-y-0
-				sm:rotate-3
-				w-full
-				h-auto
-				lg:h-96
-				xl:h-112
-				2xl:h-128
-				lg:-translate-x-6
-				lg:translate-y-16
-				2xl:translate-x-10 2xl:translate-y-20
-			"
-		></div>
-		<div class="relative bg-white shadow-lg">
-			<div class="mx-auto">
-				<div class="divide-y divide-gray-200">
-					<div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+<div class="relative mx-auto pt-10 md:py-0 lg:pt-16">
+	<div class="flex">
+		<div class="w-5/12 bg-gray-200 rounded-tr-lg rounded-br-lg py-12 z-10">
+			<div class="px-3 xl:pl-16 2xl:pl-24 md:pr-12">
+				<h1 class="standardtitel">Patronato</h1>
+				<p class="standardtext mt-4">
+					El Patronato es el órgano de gobierno y representación de la
+					Fundación. Sus miembros se encargan de establecer las actividades que
+					ha de desarrollar, aprobar los presupuestos y las cuentas anuales y
+					fijar los criterios de actuación.
+				</p>
+			</div>
+
+			<!-- brem -->
+			<div class="space-y-4 mt-16 mr-16 -mb-6">
+				<div class="aspect-w-4 aspect-h-2">
+					<img
+						class="
+							object-cover
+							shadow-sm
+							rounded-tr-lg rounded-br-lg
+							filter
+							grayscale
+						"
+						src="/assets/images/patrons/josef-brem-1.jpg"
+						alt=""
+					/>
+				</div>
+
+				<div
+					class="
+						py-2
+						transform
+						-translate-y-16
+						space-y-2
+						bg-white
+						rounded-md
+						border
+						w-72
+						mx-auto
+					"
+				>
+					<div class="leading-6 text-center text-lg">
+						<h3 class="mb-2 font-semibold">Josef Brem</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Presidente
+						</p>
+						<p class="text-gray-500 text-sm">desde 2019</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- minet -->
+			<div class="space-y-4 mt-1 mr-16 -mb-5">
+				<div class="aspect-w-4 aspect-h-2">
+					<img
+						class="
+							object-cover
+							shadow-sm
+							rounded-tr-lg rounded-br-lg
+							filter
+							grayscale
+						"
+						src="/assets/images/patrons/wolfgang-minet-1.jpg"
+						alt=""
+					/>
+				</div>
+
+				<div
+					class="
+						py-2
+						transform
+						-translate-y-16
+						space-y-2
+						bg-white
+						rounded-md
+						border
+						w-72
+						mx-auto
+					"
+				>
+					<div class="leading-6 text-center text-lg">
+						<h3 class="mb-2 font-semibold">Wolfgang Minet</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Presidente de honor
+						</p>
+						<p class="text-gray-500 text-sm">Presidente 2001 - 2019</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- small patrons -->
+			<div class="space-y-5">
+				<!-- Dirk Mirovsky -->
+				<div
+					class="
+						flex
+						items-center
+						space-x-4
+						lg:space-x-6
+						px-3
+						xl:pl-16
+						2xl:pl-24
+						mb-4
+					"
+				>
+					<div
+						class="
+							block
+							w-36
+							aspect-w-10 aspect-h-2
+							rounded-lg
+							bg-gray-100
+							overflow-hidden
+						"
+					>
 						<img
-							class="object-cover object-center"
-							src="/assets/images/alberto-sobre.jpg"
-							alt="Alberto pensativo"
-							width="1184"
-							height="1376"
+							src="/assets/images/patrons/dirk-mirovsky-1.jpg"
+							alt=""
+							class="object-cover filter grayscale"
 						/>
+					</div>
+					<div class="text-lg leading-6 w-2/3">
+						<h3 class="mb-2 font-semibold">Dirk Mirovsky</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Vicepresidente
+						</p>
+						<p class="text-gray-500 text-sm">Barcelona, desde 2013</p>
+					</div>
+				</div>
+
+				<!-- Dirk Budach -->
+				<div
+					class="
+						flex
+						items-center
+						space-x-4
+						lg:space-x-6
+						px-3
+						xl:pl-16
+						2xl:pl-24
+					"
+				>
+					<div
+						class="
+							block
+							w-36
+							aspect-w-10 aspect-h-2
+							rounded-lg
+							bg-gray-100
+							overflow-hidden
+						"
+					>
+						<img
+							src="/assets/images/patrons/dirk-budach.jpg"
+							alt=""
+							class="object-cover filter grayscale"
+						/>
+					</div>
+					<div class="text-lg leading-6 w-2/3">
+						<h3 class="mb-2 font-semibold">Dirk Budach</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Vicepresidente
+						</p>
+						<p class="text-gray-500 text-sm">Madrid, seit 2017</p>
+					</div>
+				</div>
+
+				<!-- Kai Fische  -->
+				<div
+					class="
+						flex
+						items-center
+						space-x-4
+						lg:space-x-6
+						px-3
+						xl:pl-16
+						2xl:pl-24
+					"
+				>
+					<div
+						class="
+							block
+							w-36
+							aspect-w-10 aspect-h-2
+							rounded-lg
+							bg-gray-100
+							overflow-hidden
+						"
+					>
+						<img
+							src="/assets/images/patrons/kai-fischer-1.jpg"
+							alt=""
+							class="object-cover filter grayscale"
+						/>
+					</div>
+					<div class="text-lg leading-6 w-2/3">
+						<h3 class="mb-2 font-semibold">Kai Fischer</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Schriftführer
+						</p>
+						<p class="text-gray-500 text-sm">seit 2009</p>
+					</div>
+				</div>
+
+				<!-- Claudia Remus -->
+				<div
+					class="
+						flex
+						items-center
+						space-x-4
+						lg:space-x-6
+						px-3
+						xl:pl-16
+						2xl:pl-24
+					"
+				>
+					<div
+						class="
+							block
+							w-36
+							aspect-w-10 aspect-h-2
+							rounded-lg
+							bg-gray-100
+							overflow-hidden
+						"
+					>
+						<img
+							src="/assets/images/patrons/claudia-remus.jpg"
+							alt=""
+							class="object-cover filter grayscale"
+						/>
+					</div>
+					<div class="text-lg leading-6 w-2/3">
+						<h3 class="mb-2 font-semibold">Claudia Remus</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Direktorin
+						</p>
+						<p class="text-gray-500 text-sm">
+							seit 2013. Ansprechpartnerin und Organisatorin.
+						</p>
+					</div>
+				</div>
+
+				<!-- Gerhard W. Volz -->
+				<div
+					class="
+						flex
+						items-center
+						space-x-4
+						lg:space-x-6
+						px-3
+						xl:pl-16
+						2xl:pl-24
+					"
+				>
+					<div
+						class="
+							block
+							w-36
+							aspect-w-10 aspect-h-2
+							rounded-lg
+							bg-gray-100
+							overflow-hidden
+						"
+					>
+						<img
+							src="/assets/images/patrons/gerhard-volz-1.jpg"
+							alt=""
+							class="object-cover filter grayscale"
+						/>
+					</div>
+					<div class="text-lg leading-6 w-2/3">
+						<h3 class="mb-2 font-semibold">Gerhard W. Volz</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Ehrenmitglied
+						</p>
+						<p class="text-gray-500 text-sm">
+							Vorstandsmitglied und Schriftführer, 2004 bis 2017
+						</p>
+					</div>
+				</div>
+
+				<!-- Liebrecht von Beyme -->
+				<div
+					class="
+						flex
+						items-center
+						space-x-4
+						lg:space-x-6
+						px-3
+						xl:pl-16
+						2xl:pl-24
+					"
+				>
+					<div
+						class="
+							block
+							w-36
+							aspect-w-10 aspect-h-2
+							rounded-lg
+							bg-gray-100
+							overflow-hidden
+						"
+					>
+						<img
+							src="/assets/images/patrons/Liebrecht-von-Beyme.jpg"
+							alt=""
+							class="object-cover filter grayscale"
+						/>
+					</div>
+					<div class="text-lg leading-6 w-2/3">
+						<h3 class="mb-2 font-semibold">Liebrecht von Beyme</h3>
+						<p class="text-red-600 text-sm font-semibold uppercase">
+							Ehrenmitglied
+						</p>
+						<p class="text-gray-500 text-sm">
+							Vorstandsmitglied, 2003 bis 2017
+						</p>
+					</div>
+				</div>
+				<!-- small patrons ende -->
+			</div>
+		</div>
+		<div class="w-7/12">
+			<div class="py-12 px-16">
+				<!-- sponsors -->
+				{% include "components/sponsorlist.njk" %}
+			</div>
+
+			<div class="relative bg-yellow-300">
+				<div class="lg:absolute lg:inset-0">
+					<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12">
+						<img
+							class="
+								h-56
+								w-full
+								object-cover
+								lg:absolute
+								lg:h-full
+								filter
+								grayscale
+							"
+							src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1567&amp;q=80"
+							alt=""
+						/>
+					</div>
+				</div>
+				<div
+					class="
+						relative
+						pt-12
+						pb-12
+						px-3
+						sm:pt-12
+						sm:px-6
+						lg:px-8
+						lg:max-w-7xl
+						lg:mx-auto
+						lg:grid lg:grid-cols-2
+					"
+				>
+					<div class="lg:col-start-1 lg:pl-8">
+						<div
+							class="
+								text-base
+								max-w-prose
+								mx-auto
+								lg:max-w-lg
+								lg:ml-auto
+								lg:mr-0
+							"
+						>
+							<p class="text-lg text-black font-semibold">
+								En la Fundación Goethe promovemos las relaciones
+								hispano-alemanas a nivel cultural y apoyamos con nuestras
+								numerosas actividades músicos y artistas alemanes y españoles.
+							</p>
+							<div class="mt-6 prose text-black">
+								<p>
+									Nuestro trabajo permite a los jóvenes actuar en eventos o
+									exponer en lugares emocionantes. Se promueve activamente el
+									talento joven de la escena cultural de ambos países. Los
+									participantes del evento tendrán la oportunidad de
+									intercambiar ideas no sólo entre ellos, sino también con los
+									propios artistas.
+								</p>
+								<p>
+									La economía hispano-alemana apoya la labor benéfica de la
+									Fundación Goethe con contribuciones anuales deducibles de
+									impuestos. De esta manera, los patrocinadores contribuyen al
+									diálogo cultural entre la República Federal de Alemania y el
+									Reino de España.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bg-orange-400">
+				<div
+					class="text-base mx-auto lg:mr-0 pt-12 pb-28 px-3 xl:pl-16 md:pr-12"
+				>
+					<p class="text-lg text-black font-semibold">
+						La Fundación Goethe se inauguró el 18 de junio de 2001 en la
+						Residencia del Embajador Alemán en Madrid
+					</p>
+					<div class="mt-6 prose text-black">
+						<p>
+							Desde su constitución en 2001 la Fundación Goethe crece
+							continuamente tanto en número de empresas participantes,
+							promotores y amigos, como en visibilidad y prestigio, gracias a la
+							realización de una serie de eventos de gran atractivo y el apoyo
+							de importantes colaboradores, instituciones y otras fundaciones.
+							Hoy la Fundación está establecida y reconocida en la sociedad
+							hispano-alemana y sigue igual de comprometida en fortalecer el
+							diálogo entre las dos culturas, apostando por una sinergia del
+							escenario cultural y empresarial.
+						</p>
+						<p>
+							En la Fundación Goethe se unen empresas y empresarios en un
+							compromiso social y cultural único, fortaleciendo así su apoyo al
+							intercambio cultural entre España y Alemania. Conscientes de que
+							la economia y la cultura no son mundos distantes sino
+							coincidentes, las empresas apuestan por la alianza entre cultura y
+							economía, arte y comercio, en un momento en el que la situación de
+							los mercados dinamiza la reflexión sobre nuevos modelos de soporte
+							a la cultura.
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="mt-16 lg:mt-0">
+	<div class="relative bg-red-600 transform -translate-y-12">
+		<div class="lg:absolute lg:inset-0">
+			<div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/3">
+				<img
+					class="h-56 w-full object-cover lg:absolute lg:h-full"
+					src="/assets/images/patrons/jahrbuch.jpg"
+					alt=""
+				/>
+			</div>
+		</div>
 		<div
 			class="
-				px-2
-				md:px-10
-				lg:px-5
-				2xl:ml-20
-				mx-auto
-				lg:row-start-1
-				lg:col-start-1
+				relative
+				pt-12
+				pb-16
+				px-4
+				sm:pt-16
+				sm:px-6
+				lg:px-8
+				lg:max-w-7xl
+				lg:mx-auto
+				lg:grid lg:grid-cols-3
 			"
 		>
-			<h1
-				class="
-					text-base
-					leading-6
-					text-gray-100
-					font-bold
-					tracking-wider
-					uppercase
-				"
-			>
-				<span class="bg-red-600 px-2">Biografía</span>
-			</h1>
-			<h2
-				class="
-					mt-2
-					mb-10
-					text-3xl
-					leading-8
-					font-rock
-					tracking-tight
-					text-gray-900
-					sm:text-4xl
-				"
-			>
-				"Soy Madrid, soy Berlin, soy la nube y el charco."
-			</h2>
-			<div class="prose prose-pink text-gray-900 max-w-none">
-				<p>
-					Nazco en Madrid en el 83, mi familia me quiere, tengo una infancia
-					normal, pocos amigos pero buenos. En el cole me aburro y trato de
-					pasar desapercibido.
-				</p>
+			<div class="col-span-2 lg:col-start-2 lg:pl-8">
+				<div class="text-base max-w-prose mx-auto lg:ml-32 lg:mr-12">
+					<h2 class="standardtitel text-white">
+						Anuarios de la Fundación Goethe
+					</h2>
 
-				<p>
-					Por lo que sea me flipa la música así que empiezo a tocar la guitarra.
-					Me gustan Los Rodríguez, Celtas Cortos, Los Ronaldos, Rosendo... ese
-					rollo.
-				</p>
+					<div class="mt-4 standardtext text-white">
+						<p>
+							En nuestros anuarios presentamos una visión general de todos los
+							eventos del año pasado. Descargate los anuarios de los anos
+							pasados en formato Archivo PDF.
+						</p>
 
-				<p>
-					Con 18 o así escribo mis primeras canciones y monto una banda con
-					amigos. Componer, ensayar y dar conciertos me divierte, me emociona y
-					me hace sentir especial. Tanto es así que lo he seguido haciendo sin
-					parar durante los siguientes 20 años que me han traído hasta los 38
-					que tengo ahora.
-				</p>
-
-				<p>
-					Gracias a las canciones que he conseguido hacer, he conocido a gente
-					increíble a la que quiero y admiro, he viajado por aquí y por allá, he
-					vivido en Sheffield y en Berlín y he cantado en sitios chulísimos en
-					los que han cantado muchos de mis ídolos.
-				</p>
-
-				<p>Y en eso seguimos.</p>
+						<span class="relative z-0 inline-flex shadow-sm rounded-md">
+							<button
+								type="button"
+								class="
+									relative
+									inline-flex
+									items-center
+									px-4
+									py-2
+									rounded-l-md
+									border border-gray-300
+									bg-white
+									text-sm
+									font-medium
+									text-gray-700
+									hover:bg-gray-50
+									focus:z-10
+									focus:outline-none
+									focus:ring-1 focus:ring-indigo-500
+									focus:border-indigo-500
+								"
+							>
+								<!-- Heroicon name: solid/bookmark -->
+								<svg
+									class="-ml-1 mr-2 h-5 w-5 text-gray-400"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+								>
+									<path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
+								</svg>
+								2014
+							</button>
+							<button
+								type="button"
+								class="
+									-ml-px
+									relative
+									inline-flex
+									items-center
+									px-3
+									py-2
+									rounded-r-md
+									border border-gray-300
+									bg-white
+									text-sm
+									font-medium
+									text-gray-700
+									hover:bg-gray-50
+									focus:z-10
+									focus:outline-none
+									focus:ring-1 focus:ring-indigo-500
+									focus:border-indigo-500
+								"
+							>
+								pdf
+							</button>
+						</span>
+					</div>
+				</div>
 			</div>
-
-			<a
-				href="/prensa/"
-				class="
-					mt-8
-					inline-flex
-					items-center
-					px-3
-					py-1
-					shadow-sm
-					text-sm
-					2xl:text-base
-					font-semibold
-					no-underline
-					text-gray-50
-					bg-gray-900
-					uppercase
-					transition
-					duration-200
-					ease-in-out
-					transform
-					hover:scale-105
-					hover:-translate-y-1
-					hover:text-white
-				"
-				><svg
-					class="mr-2 h-5 w-5 fill-current"
-					aria-describedby="symbol-arrow-right-white-desc"
-					aria-labelledby="symbol-arrow-right-white-desc"
-					role="group"
-				>
-					<desc id="symbol-arrow-right-white-desc-content">flecha</desc>
-					<use xlink:href="#symbol-arrow-right-white"></use>
-				</svg>
-				Prensa</a
-			>
 		</div>
 	</div>
 </div>
+
+Partners..

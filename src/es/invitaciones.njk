@@ -1,0 +1,110 @@
+---
+title: Invitaciones
+description: Inscripción a las invitaciones. Rellena el formulario para recibir informaciones e invitaciones para eventos seleccionados de la Fundación Goethe.
+layout: plain
+permalink: "/{{ locale }}/invitaciones/index.html"
+translationKey: "invitations"
+contentcolor: bg-gray-100
+form:
+  label1:
+    title: "Información personal"
+    text: "Te pedimos tu nombre y apellidos para poder enviarte las invitaciones con una dirección personal. Sin embargo, sólo se requiere una dirección de correo electrónico válida."
+  label2:
+    title: "Preferencias"
+    text: "Indica en qué idioma quieres ser informado y qué lugares te interesan para recibir invitaciones. Es posible la selección múltiple."
+  label3:
+    title: "Protección de datos"
+    text: "Tus datos no se transmitirán a terceros. Puedes consultar toda la información adicional en nuestra política de privacidad."
+---
+
+<!-- Header -->
+
+<div class="mx-auto md:text-center max-w-2xl pb-10 lg:pb-16">
+	<h1 class="standardtitel">Inscripción a las invitaciones</h1>
+	<p class="standardtext mt-3 sm:mt-4">
+		Para recibir invitaciones a nuestros eventos e información sobre los mismos,
+		rellena el siguiente formulario. Aviso:
+		<a class="underline" href="#infos"
+			>Desgraciadamente, no podemos enviar invitaciones a todos los eventos</a
+		>.
+	</p>
+</div>
+
+<!-- form -->
+{%- include "partials/form-newsletter.njk" %}
+
+<div class="relative mt-16 lg:mt-20 mb-6">
+	<div class="text-base max-w-prose lg:max-w-none">
+		<span class="graybadge">Aviso</span>
+
+		<h2 id="infos" class="standardtitel">
+			Acerca de nuestro boletín de invitaciones
+		</h2>
+	</div>
+</div>
+
+<div class="relative">
+	<div class="lg:grid lg:grid-cols-2 lg:gap-6">
+		<div class="prose max-w-none">
+			<p>
+				<strong
+					>Hay un número limitado de entradas para los eventos de la Fundación
+					Goethe. Por lo tanto, no podemos enviar invitaciones a todos los
+					eventos: Están marcados con la etiqueta "Privado" en nuestro resumen
+					de eventos.
+				</strong>
+			</p>
+			<p>
+				Los patrocinadores reciben invitaciones a todos los eventos de la
+				Fundación Goethe.
+			</p>
+
+			<p>
+				En los emails recibirás información sobre los eventos previstos, así
+				como un enlace para la inscripción directa a través de un servicio de
+				venta de entradas.
+			</p>
+
+			<p>Tus datos no se transmitirán a terceros.</p>
+		</div>
+		<div class="mt-6 prose prose-sm lg:mt-0">
+			<ul>
+				<li>
+					<strong>Responsable del tratamiento:</strong> FUNDACIÓN GOETHE ESPAÑA
+				</li>
+				<li>
+					<strong>Finalidades:</strong> enviar información sobre los eventos y
+					actividades de la FUNDACIÖN GOETHE ESPAÑA, así como noticias sobre la
+					FUNDACIÓN GOETHE ESPAÑA y o cualquiera de sus miembros.
+				</li>
+				<li>
+					<strong>Legitimación:</strong> el consentimiento del interesado y el
+					interés legítimo en el caso de los miembros.
+				</li>
+				<li>
+					<strong>Conservación de los datos:</strong> hasta que se solicite su
+					supresión por el interesado y hasta la finalización de la relación
+					contractual en el caso de los miembros.
+				</li>
+				<li>
+					<strong>Destinatarios:</strong> autoridades y organismos competentes,
+					así como a encargados del tratamiento de la FUNDACIÓN GOETHE ESPAÑA.
+				</li>
+				<li>
+					<strong>Derechos:</strong> puede oponerse al tratamiento, limitar el
+					mismo, acceder, rectificar, suprimir los datos y ejercer su derecho a
+					portabilidad, y revocar su consentimiento, mediante solicitud escrita
+					dirigida a la FUNDACIÓN GOETHE ESPAÑA:
+					<a href="mailto:info@fundaciongoethe.org">info@fundaciongoethe.org</a>
+				</li>
+				<li>
+					<strong>Información adicional:</strong> Puede consultar la información
+					adicional y detallada sobre protección de datos en las bases legales
+					<a href="https://www.fundaciongoethe.org/politica-de-privacidad/"
+						>a través de este enlace</a
+					>.
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

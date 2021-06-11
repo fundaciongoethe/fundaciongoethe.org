@@ -1,49 +1,47 @@
-<div
-	class="pt-40 pb-5 px-4 sm:px-6 md:pt-28 lg:pt-40 xl:pt-12 2xl:pt-20 lg:px-24"
->
-	<div class="relative mx-auto max-w-4xl">
-		<div class="text-center">
-			<h2 class="standardtitel text-gray-900">{{ sponsorlist.title }}</h2>
-			<p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
-				{{ sponsorlist.text }}
-			</p>
-		</div>
+<div class="relative mx-auto max-w-4xl">
+	<div class="{{ sponsorlist.direction or 'text-center' }}">
+		<h2 class="standardtitel text-gray-900">{{ sponsorlist.title }}</h2>
+		<p class="standardtext mt-3 sm:mt-4">
+			{{ sponsorlist.text }}
+		</p>
+	</div>
 
-		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-7 lg:mt-8">
-			<!-- get current locale from meta.languages -->
-			{% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in
-			sponsors %}
+	<div
+		class="mt-6 grid grid-cols-2 gap-0.5 md:{{ sponsorlist.grids or 'grid-cols-7' }} lg:mt-8"
+	>
+		<!-- get current locale from meta.languages -->
+		{% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in
+		sponsors %}
 
-			<figure>
-				<a
-					href="{{ sponsor.url }}"
-					class="
-						col-span-1
-						flex
-						justify-center
-						py-4
-						px-4
-						filter
-						grayscale
-						hover:grayscale-0
-						opacity-75
-						hover:opacity-100
-						transition
-						duration-200
-						ease-in-out
-						transform
-						hover:scale-105
-					"
-				>
-					<img
-						src="/assets/images/{{ sponsor.data.images.logo }}"
-						alt="Logo von {{ sponsor.data.title }}"
-						class="lazy max-h-12"
-					/>
-				</a>
-			</figure>
+		<figure>
+			<a
+				href="{{ sponsor.url }}"
+				class="
+					col-span-1
+					flex
+					justify-center
+					py-4
+					px-4
+					filter
+					grayscale
+					hover:grayscale-0
+					opacity-75
+					hover:opacity-100
+					transition
+					duration-200
+					ease-in-out
+					transform
+					hover:scale-105
+				"
+			>
+				<img
+					src="/assets/images/{{ sponsor.data.images.logo }}"
+					alt="Logo von {{ sponsor.data.title }}"
+					class="lazy max-h-12"
+				/>
+			</a>
+		</figure>
 
-			{%- endfor -%}
-		</div>
+		{%- endfor -%}
 	</div>
 </div>

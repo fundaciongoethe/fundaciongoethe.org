@@ -8,9 +8,9 @@
 				language by default #} {% set translatedUrl = "/" + lgg.code + "/" %} {#
 				set current language class #} {% set activeClass = "bg-orange-400
 				text-black hover:bg-orange-500" if lgg.code == locale else "bg-white
-				text-gray-700 hover:bg-gray-200" %} {# loop through all the content of
-				the site #} {% for item in collections.all %} {# for each item in the
-				loop, check if - its translationKey matches the current item
+				text-gray-700 hover:bg-gray-200 border" %} {# loop through all the
+				content of the site #} {% for item in collections.all %} {# for each
+				item in the loop, check if - its translationKey matches the current item
 				translationKey - its locale matches the code of the language we are
 				looping through #} {% if item.data.translationKey == translationKey and
 				item.data.locale == lgg.code %} {% set translatedUrl = item.url %} {%
