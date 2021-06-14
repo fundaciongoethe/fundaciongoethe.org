@@ -1,6 +1,6 @@
 ---
 title: Lugares
-layout: home
+layout: plain
 permalink: "/{{ locale }}/lugares/index.html"
 translationKey: "places"
 seo:
@@ -8,15 +8,17 @@ seo:
   description: asdf
 ---
 
-<div class="text-center max-w-3xl mx-auto mb-12">
-	<h1 class="standardtitel text-gray-900">Veranstaltungsorte</h1>
-	<p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
-		Biscuit sesame snaps candy canes dragée soufflé sweet marzipan pastry
-		jujubes. Toffee wafer croissant lemon drops tiramisu.
-	</p>
-</div>
-<!-- set -->
-{% set venues = collections["venues_" + locale] %}
+<div class="mb-12">
+	<div class="md:text-center max-w-3xl mx-auto mb-12">
+		<h1 class="standardtitel text-gray-900">Lugares para nuestros eventos</h1>
+		<p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
+			Biscuit sesame snaps candy canes dragée soufflé sweet marzipan pastry
+			jujubes. Toffee wafer croissant lemon drops tiramisu.
+		</p>
+	</div>
+	<!-- set -->
+	{% set venues = collections["venues_" + locale] %}
 
-<!-- include partial -->
-{%- include "partials/archive-venues.njk" %}
+	<!-- include partial -->
+	{%- include "partials/archive-venues.njk" %}
+</div>

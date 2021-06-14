@@ -75,7 +75,7 @@ h2 {
 }
 
 .standardtext {
-	@apply text-sm xl:text-base;
+	@apply text-base;
 }
 
 .standardtext p {
@@ -169,7 +169,7 @@ h2 {
 @media (max-width: 767px) {
 	.nav a[aria-current="page"],
 	.nav a[data-state="active"] {
-		@apply bg-black text-white;
+		@apply bg-gray-300 text-black;
 	}
 }
 

@@ -7,7 +7,7 @@
 	</div>
 
 	<div
-		class="mt-6 grid grid-cols-2 gap-0.5 md:{{ sponsorlist.grids or 'grid-cols-7' }} lg:mt-8"
+		class="mt-6 grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-2 md:grid-cols-7' }} lg:mt-8"
 	>
 		<!-- get current locale from meta.languages -->
 		{% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in

@@ -8,104 +8,186 @@ seo:
   description: Gracias a las canciones que he conseguido hacer, he conocido a gente increíble a la que quiero y admiro.
 sponsorlist:
   direction: text-left
-  grids: grid-cols-5
+  grids: grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5
   title: Unsere Förderer
   text: Unsere Förderer sind die zentrale Achse der Fundación Goethe. Wir haben das große Glück, seit Jahren auf die Zusammenarbeit mit weltbekannten Unternehmen zählen zu können.
+partners:
+  - patrimonio
+  - basf
 ---
 
-<div class="relative mx-auto pt-10 md:py-0 lg:pt-16">
-	<div class="flex">
-		<div class="w-5/12 bg-gray-200 rounded-tr-lg rounded-br-lg py-12 z-10">
-			<div class="px-3 xl:pl-16 2xl:pl-24 md:pr-12">
-				<h1 class="standardtitel">Patronato</h1>
+<div class="relative mx-auto lg:pt-16">
+	<ul
+		class="
+			max-w-md
+			mx-auto
+			px-3
+			sm:px-6
+			md:hidden
+			divide-y divide-gray-300
+			mt-10
+			text-sm
+			font-semibold
+			mb-2
+		"
+	>
+		<li class="py-2">
+			<a href="#patronato" class="block no-underline pr-2 text-gray-900">
+				Vorstand</a
+			>
+		</li>
+
+		<li class="py-2">
+			<a href="#sponsors" class="block no-underline pr-2 text-gray-900">
+				Förderer</a
+			>
+		</li>
+
+		<li class="py-2">
+			<a href="#filosofia" class="block no-underline pr-2 text-gray-900">
+				Philosophie</a
+			>
+		</li>
+
+		<li class="py-2">
+			<a href="#historia" class="block no-underline pr-2 text-gray-900">
+				Geschichte</a
+			>
+		</li>
+
+		<li class="py-2">
+			<a href="#anuarios" class="block no-underline pr-2 text-gray-900">
+				Jahrbücher</a
+			>
+		</li>
+
+		<li class="py-2">
+			<a href="#partners" class="block no-underline pr-2 text-gray-900">
+				Kooperationspartner</a
+			>
+		</li>
+	</ul>
+
+	<div class="flex flex-col md:flex-row">
+		<div
+			class="
+				mr-3
+				md:mr-0
+				md:w-5/12
+				bg-gray-200
+				rounded-tr-lg rounded-br-lg
+				py-12
+				z-10
+			"
+		>
+			<div class="px-3 sm:px-6 xl:pl-16 2xl:pl-24 md:pr-12">
+				<h1 id="patronato" class="standardtitel">Vorstand</h1>
 				<p class="standardtext mt-4">
-					El Patronato es el órgano de gobierno y representación de la
-					Fundación. Sus miembros se encargan de establecer las actividades que
-					ha de desarrollar, aprobar los presupuestos y las cuentas anuales y
-					fijar los criterios de actuación.
+					Der Stiftungsrat ist das Leitungs- und Vertretungsorgan der Stiftung.
+					Seine Mitglieder sind für die Festlegung der durchzuführenden
+					Tätigkeiten, die Genehmigung der Haushaltspläne und Jahresabschlüsse
+					verantwortlich.
 				</p>
 			</div>
 
-			<!-- brem -->
-			<div class="space-y-4 mt-16 mr-16 -mb-6">
-				<div class="aspect-w-4 aspect-h-2">
-					<img
-						class="
-							object-cover
-							shadow-sm
-							rounded-tr-lg rounded-br-lg
-							filter
-							grayscale
-						"
-						src="/assets/images/patrons/josef-brem-1.jpg"
-						alt=""
-					/>
-				</div>
+			<div
+				class="
+					flex flex-col
+					sm:flex-row
+					md:flex-col
+					mt-10
+					xl:mt-16
+					mr-3
+					md:mr-16
+				"
+			>
+				<!-- brem -->
+				<div class="w-full md:space-y-4 md:-mb-6 mr-3">
+					<div class="aspect-w-4 aspect-h-2">
+						<img
+							class="
+								object-cover
+								shadow-sm
+								rounded-tr-lg rounded-br-lg
+								filter
+								grayscale
+							"
+							src="/assets/images/patrons/josef-brem-1.jpg"
+							alt=""
+						/>
+					</div>
 
-				<div
-					class="
-						py-2
-						transform
-						-translate-y-16
-						space-y-2
-						bg-white
-						rounded-md
-						border
-						w-72
-						mx-auto
-					"
-				>
-					<div class="leading-6 text-center text-lg">
-						<h3 class="mb-2 font-semibold">Josef Brem</h3>
-						<p class="text-red-600 text-sm font-semibold uppercase">
-							Presidente
-						</p>
-						<p class="text-gray-500 text-sm">desde 2019</p>
+					<div
+						class="
+							py-1
+							lg:py-2
+							transform
+							-translate-y-10
+							lg:-translate-y-16
+							space-y-2
+							bg-white
+							rounded-md
+							border
+							w-56
+							2xl:w-72
+							mx-auto
+						"
+					>
+						<div class="leading-6 text-center text-lg">
+							<h3 class="mb-2 font-semibold">Josef Brem</h3>
+							<p class="text-red-600 text-sm font-semibold uppercase">
+								Presidente
+							</p>
+							<p class="text-gray-500 text-sm">desde 2019</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<!-- minet -->
-			<div class="space-y-4 mt-1 mr-16 -mb-5">
-				<div class="aspect-w-4 aspect-h-2">
-					<img
+				<!-- minet -->
+				<div class="w-full md:space-y-4 md:mt-1 -mb-5">
+					<div class="aspect-w-4 aspect-h-2">
+						<img
+							class="
+								object-cover
+								shadow-sm
+								rounded-tr-lg rounded-br-lg
+								filter
+								grayscale
+							"
+							src="/assets/images/patrons/wolfgang-minet-1.jpg"
+							alt=""
+						/>
+					</div>
+
+					<div
 						class="
-							object-cover
-							shadow-sm
-							rounded-tr-lg rounded-br-lg
-							filter
-							grayscale
+							py-1
+							lg:py-2
+							transform
+							-translate-y-10
+							lg:-translate-y-16
+							space-y-2
+							bg-white
+							rounded-md
+							border
+							w-56
+							2xl:w-72
+							mx-auto
 						"
-						src="/assets/images/patrons/wolfgang-minet-1.jpg"
-						alt=""
-					/>
-				</div>
-
-				<div
-					class="
-						py-2
-						transform
-						-translate-y-16
-						space-y-2
-						bg-white
-						rounded-md
-						border
-						w-72
-						mx-auto
-					"
-				>
-					<div class="leading-6 text-center text-lg">
-						<h3 class="mb-2 font-semibold">Wolfgang Minet</h3>
-						<p class="text-red-600 text-sm font-semibold uppercase">
-							Presidente de honor
-						</p>
-						<p class="text-gray-500 text-sm">Presidente 2001 - 2019</p>
+					>
+						<div class="leading-6 text-center text-lg">
+							<h3 class="mb-2 font-semibold">Wolfgang Minet</h3>
+							<p class="text-red-600 text-sm font-semibold uppercase">
+								Presidente de honor
+							</p>
+							<p class="text-gray-500 text-sm">Presidente 2001 - 2019</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<!-- small patrons -->
-			<div class="space-y-5">
+			<div class="space-y-6 my-10">
 				<!-- Dirk Mirovsky -->
 				<div
 					class="
@@ -337,13 +419,13 @@ sponsorlist:
 				<!-- small patrons ende -->
 			</div>
 		</div>
-		<div class="w-7/12">
-			<div class="py-12 px-16">
+		<div class="md:w-7/12">
+			<div id="sponsors" class="py-12 px-3 sm:px-6 xl:pl-16">
 				<!-- sponsors -->
 				{% include "components/sponsorlist.njk" %}
 			</div>
 
-			<div class="relative bg-yellow-300">
+			<div id="filosofia" class="relative bg-yellow-300">
 				<div class="lg:absolute lg:inset-0">
 					<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12">
 						<img
@@ -356,7 +438,7 @@ sponsorlist:
 								filter
 								grayscale
 							"
-							src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1567&amp;q=80"
+							src="/assets/images/hero/guestaccess-hdr.jpg"
 							alt=""
 						/>
 					</div>
@@ -369,13 +451,13 @@ sponsorlist:
 						px-3
 						sm:pt-12
 						sm:px-6
-						lg:px-8
+						xl:pl-16
 						lg:max-w-7xl
 						lg:mx-auto
 						lg:grid lg:grid-cols-2
 					"
 				>
-					<div class="lg:col-start-1 lg:pl-8">
+					<div class="lg:col-start-1">
 						<div
 							class="
 								text-base
@@ -387,25 +469,24 @@ sponsorlist:
 							"
 						>
 							<p class="text-lg text-black font-semibold">
-								En la Fundación Goethe promovemos las relaciones
-								hispano-alemanas a nivel cultural y apoyamos con nuestras
-								numerosas actividades músicos y artistas alemanes y españoles.
+								Die Fundación Goethe fördert die deutsch-spanischen
+								Kulturbeziehungen und unterstützt deutsche und spanische Musiker
+								und Künstler mit zahlreichen Aufführungs- und
+								Ausstellungsmöglichkeiten
 							</p>
 							<div class="mt-6 prose text-black">
 								<p>
-									Nuestro trabajo permite a los jóvenes actuar en eventos o
-									exponer en lugares emocionantes. Se promueve activamente el
-									talento joven de la escena cultural de ambos países. Los
-									participantes del evento tendrán la oportunidad de
-									intercambiar ideas no sólo entre ellos, sino también con los
-									propios artistas.
+									Künstlern beider Länder und vor allem jungen Menschen wird
+									ermöglicht, bei exklusiven Veranstaltungen aufzutreten oder an
+									spannenden Orten auszustellen. Der Nachwuchs der Kulturszene
+									beider Länder wird aktiv gefördert.
 								</p>
 								<p>
-									La economía hispano-alemana apoya la labor benéfica de la
-									Fundación Goethe con contribuciones anuales deducibles de
-									impuestos. De esta manera, los patrocinadores contribuyen al
-									diálogo cultural entre la República Federal de Alemania y el
-									Reino de España.
+									Die deutsch-spanische Wirtschaft unterstützt mit jährlichen
+									steuerlich abzugsfähigen Fördererbeiträgen die gemeinnützige
+									Arbeit der Fundación Goethe. Damit leisten die Förderer einen
+									Beitrag zum kulturellen Dialog zwischen der Bundesrepublik
+									Deutschland und dem Königreich Spanien.
 								</p>
 							</div>
 						</div>
@@ -413,35 +494,43 @@ sponsorlist:
 				</div>
 			</div>
 
-			<div class="bg-orange-400">
+			<div id="historia" class="bg-orange-400">
 				<div
-					class="text-base mx-auto lg:mr-0 pt-12 pb-28 px-3 xl:pl-16 md:pr-12"
+					class="
+						text-base
+						mx-auto
+						lg:mr-0
+						pt-12
+						pb-28
+						px-3
+						sm:px-6
+						xl:pl-16
+						md:pr-12
+					"
 				>
 					<p class="text-lg text-black font-semibold">
-						La Fundación Goethe se inauguró el 18 de junio de 2001 en la
-						Residencia del Embajador Alemán en Madrid
+						Die Fundación Goethe wurde am 18. Juni 2001 in der Residenz des
+						deutschen Botschafters in Madrid gegründet.
 					</p>
 					<div class="mt-6 prose text-black">
 						<p>
-							Desde su constitución en 2001 la Fundación Goethe crece
-							continuamente tanto en número de empresas participantes,
-							promotores y amigos, como en visibilidad y prestigio, gracias a la
-							realización de una serie de eventos de gran atractivo y el apoyo
-							de importantes colaboradores, instituciones y otras fundaciones.
-							Hoy la Fundación está establecida y reconocida en la sociedad
-							hispano-alemana y sigue igual de comprometida en fortalecer el
-							diálogo entre las dos culturas, apostando por una sinergia del
-							escenario cultural y empresarial.
+							Seit ihrer Gründung im Jahre 2001 und dank der Ausrichtung einer
+							Reihe von Veranstaltungen, die einen hohen Zuspruch finden und der
+							Unterstützung namhafter Partner, Einrichtungen und anderer
+							Stiftungen, wächst die Fundación Goethe sowohl in der Zahl
+							teilnehmender Unternehmen, Förderer und Freunde, als auch in ihrer
+							Visibilitat und ihrem Ansehen ständig weiter. Heute ist die
+							Fundación in der deutsch-spanischen Gesellschaft etabliert und
+							anerkannt und widmet sich auch weiterhin der Stärkung des Dialogs
+							zwischen den beiden Kulturen, indem sie auf die Synergie zwischen
+							kulturellen und unternehmerischen Szenarien setzt.
 						</p>
 						<p>
-							En la Fundación Goethe se unen empresas y empresarios en un
-							compromiso social y cultural único, fortaleciendo así su apoyo al
-							intercambio cultural entre España y Alemania. Conscientes de que
-							la economia y la cultura no son mundos distantes sino
-							coincidentes, las empresas apuestan por la alianza entre cultura y
-							economía, arte y comercio, en un momento en el que la situación de
-							los mercados dinamiza la reflexión sobre nuevos modelos de soporte
-							a la cultura.
+							Im Bewusstsein, dass Wirtschaft und Kultur keine entgegenwirkenden
+							sondern zusammengehörenden Welten sind, setzten diese
+							Unternehmungen auf die Allianz zwischen Kultur und Wirtschaft,
+							Kunst und Kommerz, in einem Moment, in dem die Lage der Märkte das
+							Nachdenken über neue Modelle zur Förderung von Kultur anregt.
 						</p>
 					</div>
 				</div>
@@ -449,7 +538,7 @@ sponsorlist:
 		</div>
 	</div>
 
-	<div class="relative bg-red-600 transform -translate-y-12">
+	<div id="anuarios" class="relative bg-red-600 transform -translate-y-12">
 		<div class="lg:absolute lg:inset-0">
 			<div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/3">
 				<img
@@ -473,78 +562,170 @@ sponsorlist:
 				lg:grid lg:grid-cols-3
 			"
 		>
-			<div class="col-span-2 lg:col-start-2 lg:pl-8">
-				<div class="text-base max-w-prose mx-auto lg:ml-32 lg:mr-12">
+			<div class="col-span-2 lg:col-start-2 lg:ml-2 xl:ml-16 2xl:ml-20">
+				<div class="text-base mx-auto lg:ml-20 lg:mr-4">
 					<h2 class="standardtitel text-white">
-						Anuarios de la Fundación Goethe
+						Jahrbücher der Fundación Goethe
 					</h2>
 
 					<div class="mt-4 standardtext text-white">
 						<p>
-							En nuestros anuarios presentamos una visión general de todos los
-							eventos del año pasado. Descargate los anuarios de los anos
-							pasados en formato Archivo PDF.
+							In unseren Jahrbüchern geben wir einen Überblick über alle
+							Ereignisse des vergangenen Jahres. Laden Sie sich hier die
+							Jahrbücher der vergangenen Jahre als PDF-Datei herunter.
 						</p>
 
-						<span class="relative z-0 inline-flex shadow-sm rounded-md">
-							<button
-								type="button"
-								class="
-									relative
-									inline-flex
-									items-center
-									px-4
-									py-2
-									rounded-l-md
-									border border-gray-300
-									bg-white
-									text-sm
-									font-medium
-									text-gray-700
-									hover:bg-gray-50
-									focus:z-10
-									focus:outline-none
-									focus:ring-1 focus:ring-indigo-500
-									focus:border-indigo-500
-								"
+						<div class="flex flex-wrap">
+							<!-- button 2014 -->
+
+							<span
+								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
 							>
-								<!-- Heroicon name: solid/bookmark -->
-								<svg
-									class="-ml-1 mr-2 h-5 w-5 text-gray-400"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
-									<path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
-								</svg>
-								2014
-							</button>
-							<button
-								type="button"
-								class="
-									-ml-px
-									relative
-									inline-flex
-									items-center
-									px-3
-									py-2
-									rounded-r-md
-									border border-gray-300
-									bg-white
-									text-sm
-									font-medium
-									text-gray-700
-									hover:bg-gray-50
-									focus:z-10
-									focus:outline-none
-									focus:ring-1 focus:ring-indigo-500
-									focus:border-indigo-500
-								"
+								<a href="/assets/pdf/jahrbuch-2014.pdf" target="_blank">
+									<span
+										class="
+											relative
+											inline-flex
+											items-center
+											px-4
+											py-2
+											rounded-md
+											border border-gray-400
+											bg-white
+											text-sm
+											font-semibold
+											text-gray-700
+											hover:bg-gray-50
+											transform
+											hover:scale-105
+											no-underline
+											transition
+											duration-300
+											ease-in-out
+										"
+									>
+										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
+										%} 2014
+										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+											>2.2 MB</span
+										>
+									</span>
+								</a>
+							</span>
+
+							<!-- button 2015 -->
+
+							<span
+								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
 							>
-								pdf
-							</button>
-						</span>
+								<a href="/assets/pdf/jahrbuch-2015.pdf" target="_blank">
+									<span
+										class="
+											relative
+											inline-flex
+											items-center
+											px-4
+											py-2
+											rounded-md
+											border border-gray-100
+											bg-white
+											text-sm
+											font-semibold
+											text-gray-700
+											hover:bg-gray-50
+											transform
+											hover:scale-105
+											no-underline
+											transition
+											duration-300
+											ease-in-out
+										"
+									>
+										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
+										%} 2015
+										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+											>3.5 MB</span
+										>
+									</span>
+								</a>
+							</span>
+
+							<!-- button 2016 -->
+
+							<span
+								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
+							>
+								<a href="/assets/pdf/jahrbuch-2016.pdf" target="_blank">
+									<span
+										class="
+											relative
+											inline-flex
+											items-center
+											px-4
+											py-2
+											rounded-md
+											border border-red-700
+											bg-white
+											text-sm
+											font-semibold
+											text-gray-700
+											hover:bg-gray-50
+											transform
+											hover:scale-105
+											no-underline
+											transition
+											duration-300
+											ease-in-out
+										"
+									>
+										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
+										%} 2016
+										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+											>4.3 MB</span
+										>
+									</span>
+								</a>
+							</span>
+
+							<!-- button 2017 -->
+
+							<span
+								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
+							>
+								<a href="/assets/pdf/jahrbuch-2017.pdf" target="_blank">
+									<span
+										class="
+											relative
+											inline-flex
+											items-center
+											px-4
+											py-2
+											rounded-md
+											border border-gray-400
+											bg-white
+											text-sm
+											font-semibold
+											text-gray-700
+											hover:bg-gray-50
+											transform
+											hover:scale-105
+											no-underline
+											transition
+											duration-300
+											ease-in-out
+										"
+									>
+										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
+										%} 2017
+										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+											>8.5 MB</span
+										>
+									</span>
+								</a>
+							</span>
+
+							<!-- flex end -->
+						</div>
 					</div>
 				</div>
 			</div>
@@ -552,4 +733,55 @@ sponsorlist:
 	</div>
 </div>
 
-Partners..
+<!-- partners -->
+
+<div id="partners" class="relative mx-auto max-w-3xl mb-12">
+	<div class="text-center">
+		<h2 class="standardtitel text-gray-900">Partners</h2>
+		<p class="standardtext mt-3 sm:mt-4">
+			Viele der von der Fundación Goethe organisierten Veranstaltungen wären
+			ohne die Zusammenarbeit mit unseren Kooperationspartnern nicht möglich.
+		</p>
+	</div>
+
+	<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-7 lg:mt-8">
+		<!-- get current locale from meta.languages -->
+		{% for partner in partners %}
+
+		<figure>
+			<a
+				ref="nofollow"
+				target="_blank"
+				title="{{ meta[locale].event.visitWeb }} {{
+					partnerarchiv[partner].name
+				}}"
+				href="{{ partnerarchiv[partner].url }}"
+				class="
+					col-span-1
+					flex
+					justify-center
+					py-4
+					px-4
+					filter
+					grayscale
+					hover:grayscale-0
+					opacity-75
+					hover:opacity-100
+					transition
+					duration-200
+					ease-in-out
+					transform
+					hover:scale-105
+				"
+			>
+				<img
+					src="/assets/images/{{ partnerarchiv[partner].logo }}"
+					alt="Logo: {{ partnerarchiv[partner].name }}"
+					class="lazy max-h-16"
+				/>
+			</a>
+		</figure>
+
+		{%- endfor -%}
+	</div>
+</div>

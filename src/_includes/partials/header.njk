@@ -233,7 +233,7 @@ Heroicon name: outline/x"
 
 	<div
 		x-description="Mobile menu, show/hide based on menu state."
-		class="md:hidden relative bg-white my-2"
+		class="md:hidden relative bg-gray-200"
 		id="mobile-menu"
 		x-show="open"
 		style="display: none"
@@ -248,7 +248,6 @@ Heroicon name: outline/x"
 				font-bold
 				uppercase
 				hover:bg-gray-300
-				hover:text-orange-500
 				block
 				px-2
 				py-3
@@ -269,7 +268,7 @@ Heroicon name: outline/x"
 			{% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set
 			translatedUrl to the homepage of that language by default #} {% set
 			translatedUrl = "/" + lgg.code + "/" %} {# set current language class #}
-			{% set activeClass = "bg-orange-500 text-black " if lgg.code == locale
+			{% set activeClass = "bg-orange-500 text-white " if lgg.code == locale
 			else "text-gray-900 " %} {# loop through all the content of the site #} {%
 			for item in collections.all %} {# for each item in the loop, check if -
 			its translationKey matches the current item translationKey - its locale

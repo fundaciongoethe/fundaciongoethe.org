@@ -273,6 +273,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets/fonts/");
 	eleventyConfig.addPassthroughCopy("src/assets/images/");
 	eleventyConfig.addPassthroughCopy("src/assets/svg/");
+	eleventyConfig.addPassthroughCopy("src/assets/pdf/");
 	eleventyConfig.addPassthroughCopy("src/assets/fonts.min.css");
 
 	// helper files zu root
