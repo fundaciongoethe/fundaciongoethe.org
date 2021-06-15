@@ -45,20 +45,9 @@ tags: pages
 				<div class="relative text-base mx-auto max-w-prose lg:max-w-none">
 					<figure>
 						<div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-							<img
-								class="
-									fade-in-bottom
-									rounded-lg
-									shadow
-									object-cover object-center
-									filter
-									grayscale
-								"
-								src="/assets/images/{{ images.profile }}"
-								alt="{{ images.alt }}"
-								width="1184"
-								height="1376"
-							/>
+							<!-- picture shortcode -->
+							{% Picture images.profile, " fade-in-bottom rounded-lg shadow
+							object-cover object-center filter grayscale", images.alt %}
 						</div>
 						{% if images.credit %}
 						<figcaption class="mt-3 flex text-sm text-gray-500">
@@ -86,7 +75,7 @@ tags: pages
 			</div>
 			<div class="mt-8 lg:mt-0">
 				<div class="text-base max-w-prose mx-auto lg:max-w-none">
-					<p class="text-lg text-black">{{ excerpt }}</p>
+					<p class="text-lg text-black font-semibold">{{ excerpt }}</p>
 				</div>
 				<div
 					class="

@@ -10,7 +10,7 @@ seo:
   description: Claus Temps, bajo-barítono, tiene predilección por los programas músico-literarios, que a menudo desarrolla en colaboración con la pianista Heike Bleckmann.
   image: artists/claus-temps.jpg
 images: # relative to /src/assets/images/
-  profile: artists/claus-temps.jpg
+  profile: ./src/assets/images/artists/claus-temps.jpg
   alt: Claus Temps
 links:
   web:

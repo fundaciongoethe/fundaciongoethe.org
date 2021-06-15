@@ -10,7 +10,7 @@ seo:
   description: Die Pianistin Heike Bleckmann hat eine Karriere mit umfangreicher Solokonzerttätigkeit und ist Teil verschiedener Ensembles.
   image: artists/heike-blechmann.jpg
 images: # relative to /src/assets/images/
-  profile: artists/heike-blechmann.jpg
+  profile: ./src/assets/images/artists/heike-blechmann.jpg
   alt: Heike Blechmann
 links:
   web:

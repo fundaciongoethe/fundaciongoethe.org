@@ -33,11 +33,9 @@
 					ease-in-out
 				"
 			>
-				<img
-					src="/assets/images/{{ artist.data.images.profile }}"
-					alt="{{ artist.data.images.alt }}"
-					class="object-cover filter grayscale"
-				/>
+				<!-- picture shortcode -->
+				{% Picture artist.data.images.profile, "object-cover filter grayscale",
+				artist.data.images.alt %}
 
 				<span class="sr-only">
 					{{ meta[locale].event.readmore }} {{ artist.data.title }}</span

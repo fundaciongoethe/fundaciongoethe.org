@@ -111,7 +111,7 @@ module.exports = function (eleventyConfig) {
 
 	// eleventy img
 	eleventyConfig.addNunjucksAsyncShortcode(
-		"Image",
+		"Picture",
 		async (src, cls, alt, sizes = "100vw") => {
 			if (!alt) {
 				throw new Error(`Missing \`alt\` on myImage from: ${src}`);
@@ -145,6 +145,26 @@ module.exports = function (eleventyConfig) {
             loading="lazy"
             decoding="async">
         </picture>`;
+		}
+	);
+
+	eleventyConfig.addNunjucksAsyncShortcode(
+		"Image",
+		async function imageShortcode(src, cls, alt) {
+			if (alt === undefined) {
+				// You bet we throw an error on missing alt (alt="" works okay)
+				throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+			}
+
+			let metadata = await Image(src, {
+				widths: [600],
+				formats: ["jpeg"],
+				urlPath: "/assets/images/",
+				outputDir: "./dist/assets/images/",
+			});
+
+			let data = metadata.jpeg[metadata.jpeg.length - 1];
+			return `<img src="${data.url}" class="${cls}" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">`;
 		}
 	);
 

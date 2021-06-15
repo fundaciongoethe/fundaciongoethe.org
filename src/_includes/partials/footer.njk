@@ -117,7 +117,7 @@
 						{% for item in navigation[locale].bottom.row1 %}
 						<li>
 							<a
-								class="no-underline text-orange-400 hover:text-gray-900"
+								class="no-underline text-orange-500 hover:text-gray-900"
 								href="{{ item.url }}"
 								{{
 								helpers.getLinkActiveState(item.url,
@@ -157,7 +157,7 @@
 						{% for item in navigation[locale].bottom.row3 %}
 						<li>
 							<a
-								class="no-underline text-red-500 hover:text-gray-900"
+								class="no-underline text-red-600 hover:text-gray-900"
 								href="{{ item.url }}"
 								{{
 								helpers.getLinkActiveState(item.url,
@@ -191,13 +191,13 @@
 				py-4
 				lg:py-1
 				flex flex-col
-				lg:flex-row
+				xl:flex-row
 				md:items-center
 				md:justify-between
 			"
 		>
 			<div class="mt-2 lg:mt-0 md:order-1 uppercase">
-				<p class="text-center text-gray-900">
+				<p class="text-center text-gray-900 leading-loose">
 					&copy; 2001 - {% year %} Fundación Goethe {% for item in
 					navigation[locale].footer %}
 
@@ -218,8 +218,8 @@
 
 			<div
 				class="
-					mt-2
-					lg:mt-0
+					mt-6
+					xl:mt-0
 					flex
 					justify-center
 					items-center

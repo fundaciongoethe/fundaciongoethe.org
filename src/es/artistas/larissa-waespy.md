@@ -10,7 +10,7 @@ seo:
   description: La soprano Larissa Wäspy inspira al público y al mundo del arte con su claridad de expresión y su enorme brillo en el escenario.
   image: artists/claus-temps.jpg
 images: # relative to /src/assets/images/
-  profile: artists/larissa-waespy.jpg
+  profile: ./src/assets/images/artists/larissa-waespy.jpg
   alt: Larissa Wäspy
 links:
   web: https://waespy.net/

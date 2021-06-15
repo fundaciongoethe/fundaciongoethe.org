@@ -263,7 +263,40 @@ Heroicon name: outline/x"
 		>
 
 		{% endfor %}
-		<div class="flex items-center justify-center">
+
+		<!-- invitations link on mobile -->
+		<a
+			class="
+				text-gray-900
+				no-underline
+				text-sm
+				font-bold
+				uppercase
+				hover:bg-gray-300
+				block
+				px-2
+				py-3
+				{%
+				if
+				(page.url
+				===
+				'/es/invitaciones/')
+				or
+				(page.url
+				===
+				'/de/einladungen/')
+				%}
+				bg-gray-300
+				{%
+				endif
+				%}
+			"
+			href="	{{ navigation[locale].bottom.row3[0].url }}"
+		>
+			{{ navigation[locale].bottom.row3[0].text }}</a
+		>
+
+		<div class="flex items-center justify-center border-t border-gray-100">
 			<!-- languages -->
 			{% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set
 			translatedUrl to the homepage of that language by default #} {% set

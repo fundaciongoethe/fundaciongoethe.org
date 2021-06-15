@@ -39,15 +39,15 @@ module.exports = {
 				},
 				{
 					text: "Patronato",
-					url: "/es/sobre-nosotros#patronato/",
+					url: "/es/sobre-nosotros#patronato",
 				},
 				{
 					text: "Patrocinadores",
-					url: "/es/sobre-nosotros#patrocinadores/",
+					url: "/es/sobre-nosotros#sponsors",
 				},
 				{
 					text: "Partners",
-					url: "/es/sobre-nosotros#partners/",
+					url: "/es/sobre-nosotros#partners",
 				},
 			],
 			row2: [
@@ -60,7 +60,7 @@ module.exports = {
 					url: "/es/artistas/",
 				},
 				{
-					text: "Orte",
+					text: "Lugares",
 					url: "/es/lugares/",
 				},
 				{
@@ -71,10 +71,10 @@ module.exports = {
 			row3: [
 				{
 					text: "Invitaciones",
-					url: "/es/",
+					url: "/es/invitaciones/",
 				},
 				{
-					text: "Förderer werden",
+					text: "Participar",
 					url: "/es/",
 				},
 				{
@@ -83,7 +83,7 @@ module.exports = {
 				},
 				{
 					text: "Contacto",
-					url: "/es/contacto",
+					url: "/es/contacto/",
 				},
 			],
 		},
@@ -140,15 +140,15 @@ module.exports = {
 				},
 				{
 					text: "Vorstand",
-					url: "/de/ueber-uns#patronato/",
+					url: "/de/ueber-uns/#patronato",
 				},
 				{
 					text: "Förderer",
-					url: "/de/ueber-uns#patrocinadores/",
+					url: "/de/ueber-uns/#sponsors",
 				},
 				{
-					text: "Kooperationspartner",
-					url: "/de/ueber-uns#partners/",
+					text: "Partner",
+					url: "/de/ueber-uns/#partners",
 				},
 			],
 			row2: [
@@ -172,10 +172,10 @@ module.exports = {
 			row3: [
 				{
 					text: "Einladungen",
-					url: "/de/",
+					url: "/de/einladungen/",
 				},
 				{
-					text: "Förderer werden",
+					text: "Mitmachen",
 					url: "/de/",
 				},
 				{
@@ -184,7 +184,7 @@ module.exports = {
 				},
 				{
 					text: "Kontakt",
-					url: "/de/kontakt",
+					url: "/de/kontakt/",
 				},
 			],
 		},
@@ -195,7 +195,7 @@ module.exports = {
 				url: "/de/impressum/",
 			},
 			{
-				text: "Datenschutzerklärung ",
+				text: "Datenschutz",
 				url: "/de/datenschutz/",
 			},
 		],

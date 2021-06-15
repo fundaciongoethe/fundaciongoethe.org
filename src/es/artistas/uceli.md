@@ -10,8 +10,8 @@ seo:
   description: Das Streichquartett UceLi gründet sich aus Mitgliedern des Sinfonieorchesters des Gran Teatre del Liceu in Barcelona.
   image: artists/uleci.jpg
 images: # relative to /src/assets/images/
-  profile: artists/uleci.jpg
-  alt: Larissa Wäspy
+  profile: ./src/assets/images/artists/uleci.jpg
+  alt: UceLi Quartet
 links:
   web: https://www.guillaumeterrail.com/uceli-quartet
   twitter:
