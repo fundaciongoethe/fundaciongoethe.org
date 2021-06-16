@@ -24,12 +24,9 @@
 				>
 					<div class="flex-shrink-0 relative">
 						<a href="{{ post.url | url }}">
-							<img width="620" height="350" class="lazy object-cover grayimg
-							{{ post.data.images.align }} w-full h-40" src={% if
-							post.data.images.thumb %}"/assets/images/{{
-								post.data.images.thumb
-							}}"{% else %}"/assets/images/blog/crispina-molinilla-shoot.jpg"{%
-							endif %} alt="{{ post.data.title }} vista previa">
+							{% Picture post.data.images.featured,"", "lazy object-cover
+							grayimg w-full h-40", post.data.images.alt %}
+
 							<div
 								class="
 									absolute

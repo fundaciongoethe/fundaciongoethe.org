@@ -7,9 +7,8 @@ seo:
   title: Chao Madrid - Feliz verano
   description: Chao Madrid, nos vamos a pasar el verano al pueblo. Atrás quedan para el recuerdo cuatro meses de mierda, cuatro meses de incertidumbre, miedo y pena.
   image: blog/plaza-mayor-coronavirus.jpeg
-images: # relative to /src/assets/images/
-  thumb: blog/plaza-mayor-coronavirus.jpeg
-  featured: blog/plaza-mayor-coronavirus.jpeg
+images: # complete path for eleventy img srcset output, alt required
+  featured: ./src/assets/images/events/evento-concierto.jpg
   alt: Niña jugando sola con una pelota en la vacía Plaza Mayor de Madrid
 grayscale: true
 topic: Resumen

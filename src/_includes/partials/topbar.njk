@@ -1,8 +1,8 @@
 <!-- topbar -->
-<div class="bg-transparent z-10 hidden md:block">
+<div class="bg-transparent hidden md:block">
 	<div class="max-w-7xl mx-auto px-2 md:px-10 2xl:px-16">
 		<div class="relative flex items-center justify-end h-16">
-			<div class="flex items-center pr-2 sm:ml-6 sm:pr-0">
+			<div class="flex items-center pr-2 sm:ml-6 sm:pr-0 z-10">
 				{# loop though site.languages #} {% for lgg in meta.languages %} {% if
 				loop.first %} {% endif %} {# set translatedUrl to the homepage of that
 				language by default #} {% set translatedUrl = "/" + lgg.code + "/" %} {#

@@ -7,10 +7,9 @@ seo:
   title: Chao Madrid - Fröhlicher Sommer
   description: Chao Madrid, wir werden den Sommer im Dorf verbringen. Vier Monate voller Scheiße, vier Monate voller Ungewissheit, Angst und Trauer bleiben in der Erinnerung zurück.
   image:
-images: # relative to /src/assets/images/
-  thumb:
-  featured:
-  alt: Niña jugando sola con una pelota en la vacía Plaza Mayor de Madrid
+images: # complete path for eleventy img srcset output, alt required
+  featured: ./src/assets/images/events/evento-concierto.jpg
+  alt: Noch ein test
 grayscale: true
 topic: Rückblick
 ---

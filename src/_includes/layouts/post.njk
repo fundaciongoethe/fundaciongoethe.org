@@ -2,33 +2,34 @@
 layout: home
 ---
 
-<div class="mx-auto max-w-lg text-gray-900 mb-10 sm:my-20">
-	{% if images.featured %}   <figure class="h-full w-full fade-in">
-    <div class="mx-auto max-w-4xl relative">
+<div class="mx-auto max-w-2xl text-gray-900 mb-10 sm:my-20">
+	{% if images.featured %}
+	<figure class="h-full w-full fade-in">
+		<div class="mx-auto max-w-4xl relative">
+			{% Picture images.featured,"", "lazy w-full h-auto grayimg sm:rounded-md",
+			images.alt %}
 
-      <img src="/assets/images/{{images.featured}}" alt="{{ images.alt }}" class="lazy w-full h-auto {% if grayscale %} grayimg {% endif %}"></img>
-
-     <div
-  class="absolute inset-0 	bg-gradient-to-b
-	from-gray-50
-	to-orange-50"
-  style="mix-blend-mode: multiply"
-></div>
-    </div>
-  </figure>
-  {% endif %}
+			<div
+				class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50"
+				style="mix-blend-mode: multiply"
+			></div>
+		</div>
+	</figure>
+	{% endif %}
 
 	<div
 		class="text-right text-xs uppercase flex justify-end font-bold mr-5 mt-2"
 	>
-		<time datetime="{{ date | datetime }}"> {{ date | date("dddd, Do MMMM yyyy", locale) }}</time>
+		<time datetime="{{ date | datetime }}">
+			{{ date | date("dddd, Do MMMM yyyy", locale) }}</time
+		>
 	</div>
 
-	<h1 class="font-rock text-3xl sm:text-4xl px-2 py-6">
+	<h1 class="standardtitel px-2 py-6">
 		{{ title }}
 	</h1>
 
-	<div class="prose prose-pink px-2">
+	<div class="prose prose-red px-2">
 		{{ content | safe }}
 	</div>
 
@@ -36,11 +37,19 @@ layout: home
 	<div
 		class="mt-12 px-2 mx-auto max-w-lg md:flex-row md:flex md:justify-between"
 	>
-		{% set previousPost = collections.noticia | getPreviousCollectionItem(page) %}
-		{% set nextPost = collections.noticia | getNextCollectionItem(page) %}
+		{% set previousPost = collections.noticia | getPreviousCollectionItem(page)
+		%} {% set nextPost = collections.noticia | getNextCollectionItem(page) %}
 
 		<div
-			class="py-2 text-left sm:py-0 text-xs uppercase font-semibold text-pink-500"
+			class="
+				py-2
+				text-left
+				sm:py-0
+				text-xs
+				uppercase
+				font-semibold
+				text-red-500
+			"
 		>
 			{% if previousPost %}
 			<a class="flex items-center" href="{{ previousPost.url }}">
@@ -52,7 +61,15 @@ layout: home
 		</div>
 
 		<div
-			class="py-2 text-right sm:py-0 text-xs uppercase font-semibold text-pink-500"
+			class="
+				py-2
+				text-right
+				sm:py-0
+				text-xs
+				uppercase
+				font-semibold
+				text-red-500
+			"
 		>
 			{% if nextPost %}
 			<a class="flex items-center" href="{{ nextPost.url }}"
@@ -65,7 +82,5 @@ layout: home
 	</div>
 </div>
 
-
-
-		<!-- include blogpost schema  -->
-		{%- include "schemas/blogpost-schema.njk" %}
+<!-- include blogpost schema  -->
+{%- include "schemas/blogpost-schema.njk" %}

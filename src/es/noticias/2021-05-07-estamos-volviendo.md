@@ -9,8 +9,7 @@ seo:
   description: Os presento mi super nueva web. Sabéis que no me manejo del todo bien con las redes, así que necesito de mi pequeño espacio personal en el que tener mis cositas ordenadas.
   image: blog/estamos-volviendo.jpg
 images: # relative to /src/assets/images/
-  thumb: blog/estamos-volviendo.jpg
-  featured: blog/estamos-volviendo.jpg
+  featured: ./src/assets/images/venues/palacio-real-madrid.jpg
   alt: Alberto sonriente
 grayscale: true
 topic: Información

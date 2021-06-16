@@ -7,10 +7,9 @@ seo:
   title: Hallo!!! Wir kommen zurück...
   description: Sie wissen, dass ich mit den Netzwerken nicht sehr gut zurechtkomme, deshalb brauche ich meinen kleinen persönlichen Raum, in dem ich meine kleinen Dinge geordnet habe.
   image:
-images: # relative to /src/assets/images/
-  thumb:
-  featured:
-  alt: Alberto sonriente
+images: # complete path for eleventy img srcset output, alt required
+  featured: ./src/assets/images/venues/palacio-real-madrid.jpg
+  alt: test
 grayscale: true
 topic: Info
 ---

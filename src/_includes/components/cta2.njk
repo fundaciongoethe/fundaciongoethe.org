@@ -60,18 +60,10 @@
 				md:aspect-w-2 md:aspect-h-1
 			"
 		>
-			<img
-				class="
-					transform
-					translate-x-6 translate-y-6
-					rounded-lg
-					object-cover object-left-top
-					sm:translate-x-16
-					lg:translate-y-20
-				"
-				src="/assets/images/{{ cta2.image }}"
-				alt="{{ cta2.alt }}"
-			/>
+			{% Picture cta2.image, "aspect-w-5 aspect-h-3 md:aspect-w-2
+			md:aspect-h-1", "transform translate-x-6 translate-y-6 rounded-lg
+			object-cover object-left-top sm:translate-x-16 lg:translate-y-20",
+			cta2.alt %}
 		</div>
 	</div>
 </div>

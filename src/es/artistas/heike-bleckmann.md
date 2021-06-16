@@ -9,7 +9,7 @@ seo:
   title: Heike Bleckmann | {{ meta[locale].seoArtist }}
   description: La pianista Heike Bleckmann ha desarrollado una carrera con una amplia actividad de conciertos en solitario, pero también con diversos conjuntos
   image: artists/heike-blechmann.jpg
-images: # relative to /src/assets/images/
+images: # complete path for eleventy img srcset output, alt required
   profile: ./src/assets/images/artists/heike-blechmann.jpg
   alt: Heike Blechmann
 links:

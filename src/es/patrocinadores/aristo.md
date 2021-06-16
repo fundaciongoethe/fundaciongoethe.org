@@ -8,16 +8,16 @@ seo:
   title: Aristo | Patrocinador de la Fundación Goethe
   description: Nuestro patrocinador ARISTO Pharma Iberia es la filial española del grupo de empresas alemán Aristo Phar. GmbH con muchos años de experiencia en la industria farmacéutica y con sede en Berlín.
   image:
-images: # relative to /src/assets/images/
-  logo: sponsors/aristo/aritso.png
-  featured1: sponsors/aristo/aristo-1.jpg
-  alt1:
-  featured2: sponsors/aristo/aristo-2.jpg
-  alt2:
-  featured3: sponsors/aristo/destacado-interior-dolor.jpg
-  alt3:
-  featured4: sponsors/aristo/destacado-interior-farmacias.jpg
-  alt4:
+images: # complete path for eleventy img srcset output, alt required
+  logo: ./src/assets/images/sponsors/aristo/aritso.png
+  featured1: ./src/assets/images/sponsors/aristo/aristo-1.jpg
+  alt1: Fotografía promocional
+  featured2: ./src/assets/images/sponsors/aristo/aristo-2.jpg
+  alt2: Fotografía promocional
+  featured3: ./src/assets/images/sponsors/aristo/destacado-interior-dolor.jpg
+  alt3: Fotografía promocional
+  featured4: ./src/assets/images/sponsors/aristo/destacado-interior-farmacias.jpg
+  alt4: Fotografía promocional
 links:
   web: aristoiberia.es
   twitter: twitter.com/aristoiberia

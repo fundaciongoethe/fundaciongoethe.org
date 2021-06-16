@@ -10,20 +10,20 @@ herogrid:
   title: Nuestros próximos eventos
   text: En la Fundación Goethe te ofrecemos una amplia gama de eventos únicos. Conciertos, visitas guiadas, exposiciones o excursiones con almuerzo y cata de vinos.
   images:
-    featured1: evento-culinarico.jpg
-    alt1:
-    featured2: evento-concierto.jpg
-    alt2:
-    featured3: evento-excursion.jpg
-    alt3:
-    featured4: evento-visita.jpg
-    alt4:
-cta2: # relative to /assets/images/
+    featured1: ./src/assets/images/events/evento-culinarico.jpg
+    alt1: Fotografía de un evento gastronómico
+    featured2: ./src/assets/images/events/evento-concierto.jpg
+    alt2: Fotografía de un concierto del Fukio Trio de saxófonos
+    featured3: ./src/assets/images/events/evento-excursion.jpg
+    alt3: Fotografía de una antigua calle española
+    featured4: ./src/assets/images/events/evento-visita.jpg
+    alt4: Fotografía de una visita a la fábrica
+cta2: # complete path for eleventy img srcset output, alt required
   title: ¿Quieres estar informado sobre futuros eventos?
   text: Suscríbete a nuestro boletín para recibir invitaciones por correo electrónico. En los correos electrónicos recibirás información sobre los eventos planeados así como un enlace para la inscripción directa. No se llevarán a cabo medidas de publicidad.
   btnText: Recibir invitaciones
   btnLink: /
-  image: cta/concert2.jpg
+  image: ./src/assets/images/cta/concert2.jpg
   alt: Konzert im Palacio Real
 pastevents:
   title: Eventos pasados
@@ -80,17 +80,11 @@ pastevents:
 						alt=""
 					/>
 					#}
-					<a href="{{ event.url }}"
-						><img
-							class="h-40 w-40 filter grayscale"
-							src="/assets/images/{{ event.data.images.featured }}"
-							alt="
-
-							{{ event.data.images.alt or event.data.location }}
-		"
-							width="190"
-							height="190"
-					/></a>
+					<a href="{{ event.url }}">
+						<!-- picture shortcode -->
+						{% Picture event.data.images.featured,"", "h-40 w-40 filter
+						grayscale", event.data.images.alt %}
+					</a>
 				</div>
 
 				<div class="flex flex-col flex-1 min-w-0">

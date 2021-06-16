@@ -30,6 +30,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Image = require("@11ty/eleventy-img");
+const path = require("path");
 const embedEverything = require("eleventy-plugin-embed-everything");
 
 // event validation
@@ -112,7 +113,7 @@ module.exports = function (eleventyConfig) {
 	// eleventy img
 	eleventyConfig.addNunjucksAsyncShortcode(
 		"Picture",
-		async (src, cls, alt, sizes = "100vw") => {
+		async (src, pcls, cls, alt, sizes = "100vw") => {
 			if (!alt) {
 				throw new Error(`Missing \`alt\` on myImage from: ${src}`);
 			}
@@ -122,11 +123,17 @@ module.exports = function (eleventyConfig) {
 				formats: ["avif", "webp", "jpeg"],
 				urlPath: "/assets/images/",
 				outputDir: "./dist/assets/images/",
+				filenameFormat: function (id, src, width, format, options) {
+					const extension = path.extname(src);
+					const name = path.basename(src, extension);
+
+					return `${name}-${width}w.${format}`;
+				},
 			});
 
 			let lowsrc = metadata.jpeg[0];
 
-			return `<picture>
+			return `<picture class="${pcls}">
         ${Object.values(metadata)
 					.map((imageFormat) => {
 						return `  <source type="${
@@ -138,7 +145,7 @@ module.exports = function (eleventyConfig) {
 					.join("\n")}
           <img
             src="${lowsrc.url}"
-						class="${cls}",
+						class="${cls}"
             width="${lowsrc.width}"
             height="${lowsrc.height}"
             alt="${alt}"

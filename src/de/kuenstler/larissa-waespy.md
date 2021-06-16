@@ -9,7 +9,7 @@ seo:
   title: Larissa Wäspy | {{ meta[locale].seoArtist }}
   description: Die Sopranistin Larissa Wäspy begeistert Publikum und Kunstwelt mit Klarheit im Ausdruck und ihrer enormen Strahlkraft auf der Bühne.
   image: artists/claus-temps.jpg
-images: # relative to /src/assets/images/
+images: # complete path for eleventy img srcset output, alt required
   profile: ./src/assets/images/artists/larissa-waespy.jpg
   alt: Larissa Wäspy
 links:

@@ -33,11 +33,9 @@
 					ease-in-out
 				"
 			>
-				<img
-					src="/assets/images/{{ venue.data.images.profile }}"
-					alt="{{ venue.data.images.alt }}"
-					class="object-cover filter grayscale"
-				/>
+				<!-- picture shortcode -->
+				{% Picture venue.data.images.profile,"", "object-cover filter
+				grayscale", venue.data.images.alt %}
 
 				<span class="sr-only">
 					{{ meta[locale].event.readmore }} {{ venue.data.title }}</span

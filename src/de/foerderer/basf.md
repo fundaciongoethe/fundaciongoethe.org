@@ -8,15 +8,15 @@ seo:
   title: BASF | Förderer der Fundación Goethe
   description: Unser Förderer BASF schafft Chemie für eine nachhaltige Zukunft. Wirtschaftlichen Erfolg wird mit Umweltschutz und sozialer Verantwortung verbunden.
   image:
-images: # relative to /src/assets/images/
-  logo: sponsors/basf/basf-logo.jpg
-  featured1: sponsors/basf/basf-1.jpg
+images: # complete path for eleventy img srcset output, alt required
+  logo: ./src/assets/images/sponsors/basf/basf-logo.jpg
+  featured1: ./src/assets/images/sponsors/basf/basf-1.jpg
   alt1: BASF-Werk bei Nacht
-  featured2: sponsors/basf/basf-2.jpg
+  featured2: ./src/assets/images/sponsors/basf/basf-2.jpg
   alt2: BASF Werbeimage
-  featured3: sponsors/basf/basf-3.jpg
+  featured3: ./src/assets/images/sponsors/basf/basf-3.jpg
   alt3: BASF Werbeimage
-  featured4: sponsors/basf/basf-4.jpg
+  featured4: ./src/assets/images/sponsors/basf/basf-4.jpg
   alt4: Standort von BASF in Barcelona
 links:
   web: basf.com/es/es.html

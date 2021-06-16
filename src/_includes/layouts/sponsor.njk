@@ -1,11 +1,13 @@
 ---
 layout: base
 tags: pages
+sponsorlist:
+  grids: grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6  xl:grid-cols-7
 ---
 
 <main id="main" class="block">
 	<div class="relative">
-		<article>
+		<article class="mb-10">
 			<div
 				class="
 					px-3
@@ -14,7 +16,6 @@ tags: pages
 					2xl:ml-44
 					mt-8
 					xl:mt-16
-					2xl:bg-gray-100
 					py-8
 					rounded-tl-lg
 					2xl:border
@@ -54,7 +55,8 @@ tags: pages
 				"
 			>
 				<div class="sm:w-1/3 mb-8 sm:mb-0">
-					<img class="w-full h-auto" src="/assets/images/{{ images.logo }}" />
+					<!-- picture shortcode -->
+					{% Picture images.logo, "", "w-full h-auto", title %}
 				</div>
 
 				<div class="sm:pl-16 2xl:pl-40 sm:w-2/3">
@@ -67,106 +69,30 @@ tags: pages
 
 			<ul role="list" class="grid grid-cols-2 sm:grid-cols-4">
 				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<img
-						src="/assets/images/{{ images.featured1 }}"
-						alt="{{ images.alt1 }}"
-						class="object-cover"
-					/>
+					<!-- picture shortcode -->
+					{% Picture images.featured1, "w-full aspect-w-10 aspect-h-7",
+					"object-cover", images.alt1 %}
 				</li>
 
 				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<img
-						src="/assets/images/{{ images.featured2 }}"
-						alt="{{ images.alt2 }}"
-						class="object-cover"
-					/>
+					<!-- picture shortcode -->
+					{% Picture images.featured2, "w-full aspect-w-10 aspect-h-7",
+					"object-cover", images.alt2 %}
 				</li>
 
 				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<img
-						src="/assets/images/{{ images.featured3 }}"
-						alt="{{ images.alt3 }}"
-						class="object-cover"
-					/>
+					<!-- picture shortcode -->
+					{% Picture images.featured3, "w-full aspect-w-10 aspect-h-7",
+					"object-cover", images.alt3 %}
 				</li>
 				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<img
-						src="/assets/images/{{ images.featured4 }}"
-						alt="{{ images.alt4 }}"
-						class="object-cover"
-					/>
+					<!-- picture shortcode -->
+					{% Picture images.featured4, "w-full aspect-w-10 aspect-h-7",
+					"object-cover", images.alt4 %}
 				</li>
 			</ul>
 
-			<!-- besondere kooperations -->
-			<!-- <div class="flex flex-col sm:flex-row">
-				<div class="border pr-10 sm:w-1/2 px-3 sm:px-16 2xl:pl-24 py-16">
-					<h2
-						class="
-							text-base
-							md:text-xl
-							lg:text-2xl
-							xl:text-3xl
-							font-semibold
-							mb-2
-						"
-					>
-						{{ meta[locale].sponsorCoop }}
-					</h2>
-					<p>
-						{{ meta[locale].sponsorCoopContent }}
-					</p>
-				</div>
-				<div class="border p-20 sm:w-2/3">event</div>
-			</div> -->
-
-			<div
-				class="
-					py-6
-					grid grid-cols-3
-					sm:grid-cols-4
-					md:grid-cols-5
-					lg:grid-cols-7
-					gap-0.5
-					lg:py-8
-					xl:px-16
-					2xl:px-32
-				"
-			>
-				{% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in
-				sponsors %}
-
-				<figure>
-					<a
-						href="{{ sponsor.url }}"
-						class="
-							col-span-1
-							flex
-							justify-center
-							py-4
-							px-4
-							filter
-							grayscale
-							hover:grayscale-0
-							opacity-75
-							hover:opacity-100
-							transition
-							duration-200
-							ease-in-out
-							transform
-							hover:scale-105
-						"
-					>
-						<img
-							src="/assets/images/{{ sponsor.data.images.logo }}"
-							alt="Logo von {{ sponsor.data.title }}"
-							class="lazy max-h-12"
-						/>
-					</a>
-				</figure>
-
-				{%- endfor -%}
-			</div>
+			{% include "components/sponsorlist.njk" %}
 		</article>
 	</div>
 </main>

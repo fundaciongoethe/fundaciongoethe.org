@@ -1,12 +1,15 @@
 ---
 title: Concierto en honor a la cantante y compositora Pauline Viardot-Garcia
 description: Larissa Wäspy, Claus Temps y Heike Bleckmann interpretan obras de Pauline Viardot-García en el Palacio Real de Madrid.
-customSlug: pauline-viardot-garcia-cantante-y-compositora-concierto-2
-artist: [claustemps]
+translationKey: viardot-madrid
+referenceKey: viardot-madrid
+customSlug: pauline-viardot-garcia-cantante-y-compositora-concierto
+artist: [larissawaspy, claustemps, heikebleckmann]
 venue: [palacioreal]
 location: Palacio Real, Madrid
 partners:
   - patrimonio
+  - basf
 type: Concierto
 access: Se requiere una invitación personal
 date: 2021-06-30 19:30:00
@@ -17,9 +20,9 @@ seo:
   title: Concierto en honor a la cantante y compositora Pauline Viardot-Garcia
   description: Larissa Wäspy, Claus Temps y Heike Bleckmann interpretan obras de Pauline Viardot-García en el Palacio Real de Madrid.
   image: venues/palacio-real-madrid.jpg
-images: # relative to /src/assets/images/
-  featured: venues/palacio-real-madrid.jpg
-  alt:
+images: # complete path for eleventy img srcset output, alt required
+  featured: ./src/assets/images/venues/palacio-real-madrid.jpg
+  alt: Palacio Real
 ---
 
 «Temperamento español, educación francesa y simpatía alemana»: con estas palabras Franz Liszt caracterizó a su antiguo alumno de piano. Además, escribió: «Ella une las peculiaridades de las diferentes nacionalidades de tal manera que uno no concedería a ninguna nación en particular un derecho exclusivo sobre ella, sino que querría llamar al arte la patria de su libre elección y amor…»
