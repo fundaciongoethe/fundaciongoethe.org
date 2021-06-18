@@ -2,7 +2,7 @@
 <footer aria-labelledby="footerHeading">
 	<h2 id="footerHeading" class="sr-only">Footer</h2>
 	<div class="mx-auto pb-12 lg:pb-16">
-		<div class="xl:grid xl:grid-cols-3 xl:gap-8 bg-gray-100">
+		<div class="xl:grid xl:grid-cols-3 xl:gap-8 bg-gray-50 border-b">
 			<div
 				class="
 					space-y-8
@@ -117,7 +117,7 @@
 						{% for item in navigation[locale].bottom.row1 %}
 						<li>
 							<a
-								class="no-underline text-orange-500 hover:text-gray-900"
+								class="no-underline text-red-600 hover:text-gray-900"
 								href="{{ item.url }}"
 								{{
 								helpers.getLinkActiveState(item.url,
@@ -137,7 +137,7 @@
 						{% for item in navigation[locale].bottom.row2 %}
 						<li>
 							<a
-								class="no-underline text-orange-600 hover:text-gray-900"
+								class="no-underline text-red-700 hover:text-gray-900"
 								href="{{ item.url }}"
 								{{
 								helpers.getLinkActiveState(item.url,
@@ -157,7 +157,7 @@
 						{% for item in navigation[locale].bottom.row3 %}
 						<li>
 							<a
-								class="no-underline text-red-600 hover:text-gray-900"
+								class="no-underline text-red-800 hover:text-gray-900"
 								href="{{ item.url }}"
 								{{
 								helpers.getLinkActiveState(item.url,
