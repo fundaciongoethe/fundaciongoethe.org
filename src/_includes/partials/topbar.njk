@@ -1,5 +1,5 @@
 <!-- topbar -->
-<div class="bg-transparent hidden md:block">
+<div class="bg-transparent hidden md:block z-10">
 	<div class="max-w-7xl mx-auto px-2 md:px-10 2xl:px-16">
 		<div class="relative flex items-center justify-end h-16">
 			<div class="flex items-center pr-2 sm:ml-6 sm:pr-0 z-10">
@@ -32,6 +32,7 @@
 				<a
 					href="/{{ locale }}/{{ meta[locale].invitationsLink }}/"
 					class="
+						buttonhover
 						inline-flex
 						items-center
 						px-3
@@ -46,12 +47,6 @@
 						bg-yellow-300
 						hover:bg-yellow-400
 						ml-6
-						transform
-						hover:scale-105
-						no-underline
-						transition
-						duration-300
-						ease-in-out
 					"
 				>
 					{% svg "ticket", "h-4 w-4 fill-current mr-2", site.platform, "topbar"

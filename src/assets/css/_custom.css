@@ -82,6 +82,16 @@ h2 {
 	@apply mb-5;
 }
 
+.buttonhover {
+	@apply transform
+	hover:scale-105
+	hover:-translate-y-1
+	no-underline
+	transition
+	duration-300
+	ease-in-out;
+}
+
 .graybadge {
 	@apply bg-gray-300 px-2 py-0.5 text-sm font-semibold rounded-sm;
 }

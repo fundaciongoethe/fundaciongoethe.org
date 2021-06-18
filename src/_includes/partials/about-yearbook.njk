@@ -1,0 +1,171 @@
+<div id="anuarios" class="relative bg-red-600 transform -translate-y-12">
+	<div class="lg:absolute lg:inset-0">
+		<div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/3">
+			{% Picture "./src/assets/images/patrons/jahrbuch.jpg","", "h-56 w-full
+			object-cover lg:absolute lg:h-full", "Anuarios de la Fundación Goethe" %}
+		</div>
+	</div>
+	<div
+		class="
+			relative
+			pt-12
+			pb-16
+			px-4
+			sm:pt-16
+			sm:px-6
+			lg:px-8
+			lg:max-w-7xl
+			lg:mx-auto
+			lg:grid lg:grid-cols-3
+		"
+	>
+		<div class="col-span-2 lg:col-start-2 lg:ml-2 xl:ml-16 2xl:ml-20">
+			<div class="text-base mx-auto lg:ml-20 lg:mr-4">
+				<h2 class="standardtitel text-white">
+					Jahrbücher der Fundación Goethe {{ yearbook.title }}
+				</h2>
+
+				<div class="mt-4 standardtext text-white">
+					<p>
+						In unseren Jahrbüchern geben wir einen Überblick über alle
+						Ereignisse des vergangenen Jahres. Laden Sie sich hier die
+						Jahrbücher der vergangenen Jahre als PDF-Datei herunter.
+						{{ yearbook.text }}
+					</p>
+
+					<div class="flex flex-wrap">
+						<!-- button 2014 -->
+
+						<span
+							class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
+						>
+							<a href="/assets/pdf/jahrbuch-2014.pdf" target="_blank">
+								<span
+									class="
+										buttonhover
+										relative
+										inline-flex
+										items-center
+										px-4
+										py-2
+										rounded-md
+										border border-gray-400
+										bg-white
+										text-sm
+										font-semibold
+										text-gray-700
+										hover:bg-gray-50
+									"
+								>
+									{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro" %}
+									2014
+									<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+										>2.2 MB</span
+									>
+								</span>
+							</a>
+						</span>
+
+						<!-- button 2015 -->
+
+						<span
+							class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
+						>
+							<a href="/assets/pdf/jahrbuch-2015.pdf" target="_blank">
+								<span
+									class="
+										buttonhover
+										relative
+										inline-flex
+										items-center
+										px-4
+										py-2
+										rounded-md
+										border border-gray-100
+										bg-white
+										text-sm
+										font-semibold
+										text-gray-700
+										hover:bg-gray-50
+									"
+								>
+									{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro" %}
+									2015
+									<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+										>3.5 MB</span
+									>
+								</span>
+							</a>
+						</span>
+
+						<!-- button 2016 -->
+
+						<span
+							class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
+						>
+							<a href="/assets/pdf/jahrbuch-2016.pdf" target="_blank">
+								<span
+									class="
+										buttonhover
+										relative
+										inline-flex
+										items-center
+										px-4
+										py-2
+										rounded-md
+										border border-red-700
+										bg-white
+										text-sm
+										font-semibold
+										text-gray-700
+										hover:bg-gray-50
+									"
+								>
+									{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro" %}
+									2016
+									<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+										>4.3 MB</span
+									>
+								</span>
+							</a>
+						</span>
+
+						<!-- button 2017 -->
+
+						<span
+							class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
+						>
+							<a href="/assets/pdf/jahrbuch-2017.pdf" target="_blank">
+								<span
+									class="
+										buttonhover
+										relative
+										inline-flex
+										items-center
+										px-4
+										py-2
+										rounded-md
+										border border-gray-400
+										bg-white
+										text-sm
+										font-semibold
+										text-gray-700
+										hover:bg-gray-50
+									"
+								>
+									{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro" %}
+									2017
+									<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
+										>8.5 MB</span
+									>
+								</span>
+							</a>
+						</span>
+
+						<!-- flex end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

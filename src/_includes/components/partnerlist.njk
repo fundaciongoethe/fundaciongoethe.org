@@ -1,0 +1,46 @@
+{% if partnerlist.title %}
+<div class="text-center">
+	<h2 class="standardtitel text-gray-900">{{ partnerlist.title }}</h2>
+	<p class="standardtext mt-3 sm:mt-4">
+		{{ partnerlist.text }}
+	</p>
+</div>
+{% endif %}
+
+<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-7 lg:mt-8">
+	<!-- get current locale from meta.languages -->
+	{% for partner in partners %}
+
+	<figure>
+		<a
+			ref="nofollow"
+			target="_blank"
+			title="{{ meta[locale].event.visitWeb }} {{
+				partnerarchiv[partner].name
+			}}"
+			href="{{ partnerarchiv[partner].url }}"
+			class="
+				col-span-1
+				flex
+				justify-center
+				py-4
+				px-4
+				filter
+				grayscale
+				hover:grayscale-0
+				opacity-75
+				hover:opacity-100
+				transition
+				duration-200
+				ease-in-out
+				transform
+				hover:scale-105
+			"
+		>
+			{% Picture partnerarchiv[partner].logo,"", "lazy max-h-16",
+			partnerarchiv[partner].name %}
+		</a>
+	</figure>
+
+	{%- endfor -%}
+</div>

@@ -33,7 +33,7 @@
 								border border-gray-200
 							"
 						>
-							<div class="flex-shrink-0 relative">
+							<div class="flex-shrink-0 relative buttonhover">
 								<a href="{{ post.url | url }}" tabindex="-1">
 									<!-- picture shortcode -->
 									{% Picture post.data.images.featured,"", "lazy object-cover
@@ -100,6 +100,7 @@
 											title="Leer más: {{ post.data.title }}"
 											href="{{ post.url | url }}"
 											class="
+												buttonhover
 												block
 												bg-red-600
 												text-gray-50
@@ -107,11 +108,6 @@
 												rounded-sm
 												no-underline
 												transition
-												duration-200
-												ease-in-out
-												transform
-												hover:scale-105
-												hover:-translate-y-1
 												hover:text-white
 											"
 											>{{ meta[locale].readingText }}</a

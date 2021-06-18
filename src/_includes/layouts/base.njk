@@ -25,7 +25,6 @@
 		{%- include "partials/head.njk" %}
 		<!-- include base schema  -->
 		{%- include "schemas/base-schema.njk" %}
-		<!-- audioplayer traversy -->
 	</head>
 	<body class="bg-gray-200">
 		<a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
@@ -39,32 +38,11 @@
 					overflow
 				}} rounded-b-lg"
 			>
-				<!-- full bg image, teal box und pink box from frontmatter data
-				> -->
+				<!-- 				{# topbar + header #}  -->
 
-				{% if heroimg %} {% include "components/herobg.njk" %} {% endif %}{#
-				topbar + header #} {% include "partials/topbar.njk" %} {% include
-				"partials/header.njk" %}
+				{% include "partials/topbar.njk" %} {% include "partials/header.njk" %}
 
-				<div
-					class="
-						flex-grow
-						max-w-full
-						{%
-						if
-						heroimg
-						%}
-						mt-112
-						sm:mt-96
-						md:mt-40
-						lg:mt-64
-						xl:mt-96
-						2xl:mt-112
-						{%
-						endif
-						%}
-					"
-				>
+				<div class="flex-grow max-w-full">
 					{{ content | safe }}
 				</div>
 				{% include "partials/footer.njk" %}

@@ -1,4 +1,4 @@
-<div class="absolute h-144">
+<div class="absolute h-144 transform md:-translate-y-44 lg:-translate-y-36">
 	<div class="flex flex-col md:flex-row relative">
 		<div
 			class="
@@ -30,9 +30,9 @@
 						mx-auto
 						lg:row-start-1
 						lg:col-start-1
-						mt-24
+						mt-10
 						md:mt-28
-						lg:mt-10
+						lg:mt-40
 					"
 				>
 					<span
@@ -47,11 +47,9 @@
 							uppercase
 						"
 					>
-						<span class="bg-red-600 px-3 py-1 rounded-md">{{
-							herotext.badge
-						}}</span>
+						<span class="text-red-600 font-bold">{{ herotext.badge }}</span>
 					</span>
-					<h1 class="standardtitel mt-4 mb-6 2xl:mb-8 text-gray-900">
+					<h1 class="standardtitel mb-6 2xl:mb-8 text-gray-900">
 						{{ herotext.title }}
 					</h1>
 					<div class="standardtext">
@@ -66,22 +64,8 @@
 		<div class="lg:w-full xl:w-4/7 pr-10 sm:pr-16 md:pr-0">
 			<!-- picture shortcode geht nicht? -->
 
-			<img
-				class="
-					h-56
-					rounded-tr-xl
-					md:rounded-tr-none
-					md:h-auto
-					w-full
-					object-cover
-					fade-in
-					md:rounded-b-lg
-				"
-				src="/assets/images/hero/{{ heroimg.url }}"
-				alt="{{ heroimg.alt }}"
-				width="{{ heroimg.width }}"
-				height="{{ heroimg.height }}"
-			/>
+			{% Picture heroimg.url, "", " h-56 rounded-tr-xl md:rounded-tr-none
+			md:h-auto w-full object-cover fade-in md:rounded-b-lg", heroimg.alt %}
 		</div>
 		<div
 			class="

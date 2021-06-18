@@ -3,6 +3,7 @@ title: Über die Fundación Goethe
 layout: home
 permalink: "/{{ locale }}/ueber-uns/index.html"
 translationKey: "about"
+contentcolor: bg-white
 seo:
   title: Über die Fundación Goethe
   description: Gracias a las canciones que he conseguido hacer, he conocido a gente increíble a la que quiero y admiro.
@@ -11,6 +12,12 @@ sponsorlist:
   grids: grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5
   title: Unsere Förderer
   text: Unsere Förderer sind die zentrale Achse der Fundación Goethe. Wir haben das große Glück, seit Jahren auf die Zusammenarbeit mit weltbekannten Unternehmen zählen zu können.
+yearbook:
+  title: Jahrbücher der Fundación Goethe
+  text: In unseren Jahrbüchern geben wir einen Überblick über alle Ereignisse des vergangenen Jahres. Laden Sie sich hier die Jahrbücher der vergangenen Jahre als PDF-Datei herunter.
+partnerlist:
+  title: Partners
+  text: Viele der von der Fundación Goethe organisierten Veranstaltungen wären ohne die Zusammenarbeit mit unseren Kooperationspartnern nicht möglich.
 partners:
   - patrimonio
   - basf
@@ -406,19 +413,9 @@ partners:
 			<div id="filosofia" class="relative bg-yellow-300">
 				<div class="lg:absolute lg:inset-0">
 					<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12">
-						<img
-							class="
-								h-56
-								w-full
-								object-cover
-								lg:absolute
-								lg:h-full
-								filter
-								grayscale
-							"
-							src="/assets/images/hero/guestaccess-hdr.jpg"
-							alt=""
-						/>
+						{% Picture "./src/assets/images/hero/guestaccess-hdr.jpg","", " h-56
+						w-full object-cover lg:absolute lg:h-full filter grayscale", "Gente
+						hablando y tomando algo en un evento de la Fundación Goethe" %}
 					</div>
 				</div>
 				<div
@@ -516,250 +513,13 @@ partners:
 		</div>
 	</div>
 
-	<div id="anuarios" class="relative bg-red-600 transform -translate-y-12">
-		<div class="lg:absolute lg:inset-0">
-			<div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/3">
-				<img
-					class="h-56 w-full object-cover lg:absolute lg:h-full"
-					src="/assets/images/patrons/jahrbuch.jpg"
-					alt=""
-				/>
-			</div>
-		</div>
-		<div
-			class="
-				relative
-				pt-12
-				pb-16
-				px-4
-				sm:pt-16
-				sm:px-6
-				lg:px-8
-				lg:max-w-7xl
-				lg:mx-auto
-				lg:grid lg:grid-cols-3
-			"
-		>
-			<div class="col-span-2 lg:col-start-2 lg:ml-2 xl:ml-16 2xl:ml-20">
-				<div class="text-base mx-auto lg:ml-20 lg:mr-4">
-					<h2 class="standardtitel text-white">
-						Jahrbücher der Fundación Goethe
-					</h2>
+	<!-- include yearbook -->
 
-					<div class="mt-4 standardtext text-white">
-						<p>
-							In unseren Jahrbüchern geben wir einen Überblick über alle
-							Ereignisse des vergangenen Jahres. Laden Sie sich hier die
-							Jahrbücher der vergangenen Jahre als PDF-Datei herunter.
-						</p>
-
-						<div class="flex flex-wrap">
-							<!-- button 2014 -->
-
-							<span
-								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
-							>
-								<a href="/assets/pdf/jahrbuch-2014.pdf" target="_blank">
-									<span
-										class="
-											relative
-											inline-flex
-											items-center
-											px-4
-											py-2
-											rounded-md
-											border border-gray-400
-											bg-white
-											text-sm
-											font-semibold
-											text-gray-700
-											hover:bg-gray-50
-											transform
-											hover:scale-105
-											no-underline
-											transition
-											duration-300
-											ease-in-out
-										"
-									>
-										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
-										%} 2014
-										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
-											>2.2 MB</span
-										>
-									</span>
-								</a>
-							</span>
-
-							<!-- button 2015 -->
-
-							<span
-								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
-							>
-								<a href="/assets/pdf/jahrbuch-2015.pdf" target="_blank">
-									<span
-										class="
-											relative
-											inline-flex
-											items-center
-											px-4
-											py-2
-											rounded-md
-											border border-gray-100
-											bg-white
-											text-sm
-											font-semibold
-											text-gray-700
-											hover:bg-gray-50
-											transform
-											hover:scale-105
-											no-underline
-											transition
-											duration-300
-											ease-in-out
-										"
-									>
-										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
-										%} 2015
-										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
-											>3.5 MB</span
-										>
-									</span>
-								</a>
-							</span>
-
-							<!-- button 2016 -->
-
-							<span
-								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
-							>
-								<a href="/assets/pdf/jahrbuch-2016.pdf" target="_blank">
-									<span
-										class="
-											relative
-											inline-flex
-											items-center
-											px-4
-											py-2
-											rounded-md
-											border border-red-700
-											bg-white
-											text-sm
-											font-semibold
-											text-gray-700
-											hover:bg-gray-50
-											transform
-											hover:scale-105
-											no-underline
-											transition
-											duration-300
-											ease-in-out
-										"
-									>
-										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
-										%} 2016
-										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
-											>4.3 MB</span
-										>
-									</span>
-								</a>
-							</span>
-
-							<!-- button 2017 -->
-
-							<span
-								class="relative z-0 inline-flex shadow-sm rounded-md mr-2 mb-2"
-							>
-								<a href="/assets/pdf/jahrbuch-2017.pdf" target="_blank">
-									<span
-										class="
-											relative
-											inline-flex
-											items-center
-											px-4
-											py-2
-											rounded-md
-											border border-gray-400
-											bg-white
-											text-sm
-											font-semibold
-											text-gray-700
-											hover:bg-gray-50
-											transform
-											hover:scale-105
-											no-underline
-											transition
-											duration-300
-											ease-in-out
-										"
-									>
-										{% svg "book", "-ml-1 mr-2 h-5 w-5 text-gray-400", "libro"
-										%} 2017
-										<span class="border-l ml-2 pl-2 border-gray-300 text-xs"
-											>8.5 MB</span
-										>
-									</span>
-								</a>
-							</span>
-
-							<!-- flex end -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	{%- include "partials/about-yearbook.njk" %}
 </div>
 
 <!-- partners -->
 
 <div id="partners" class="relative mx-auto max-w-3xl mb-12">
-	<div class="text-center">
-		<h2 class="standardtitel text-gray-900">Partners</h2>
-		<p class="standardtext mt-3 sm:mt-4">
-			Viele der von der Fundación Goethe organisierten Veranstaltungen wären
-			ohne die Zusammenarbeit mit unseren Kooperationspartnern nicht möglich.
-		</p>
-	</div>
-
-	<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-7 lg:mt-8">
-		<!-- get current locale from meta.languages -->
-		{% for partner in partners %}
-
-		<figure>
-			<a
-				ref="nofollow"
-				target="_blank"
-				title="{{ meta[locale].event.visitWeb }} {{
-					partnerarchiv[partner].name
-				}}"
-				href="{{ partnerarchiv[partner].url }}"
-				class="
-					col-span-1
-					flex
-					justify-center
-					py-4
-					px-4
-					filter
-					grayscale
-					hover:grayscale-0
-					opacity-75
-					hover:opacity-100
-					transition
-					duration-200
-					ease-in-out
-					transform
-					hover:scale-105
-				"
-			>
-				<img
-					src="/assets/images/{{ partnerarchiv[partner].logo }}"
-					alt="Logo: {{ partnerarchiv[partner].name }}"
-					class="lazy max-h-16"
-				/>
-			</a>
-		</figure>
-
-		{%- endfor -%}
-	</div>
+	{%- include "components/partnerlist.njk" %}
 </div>

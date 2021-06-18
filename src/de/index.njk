@@ -1,6 +1,6 @@
 ---
 title: Startseite
-layout: home
+layout: base
 permalink: /{{ locale }}/index.html
 translationKey: "home"
 seo:
@@ -8,15 +8,17 @@ seo:
   description: Die Kulturstiftung der deutsch-spanischen Wirtschaft seit 2001
   image: default.png
 heroimg:
-  url: start.JPG
-  url2: /assets/images/hero/start.JPG
+  url: ./src/assets/images/hero/start.JPG
   alt: teatro
-  width: 835
-  height: 714
 herotext:
   badge: Seit 2001
-  title: Die Kulturstiftung der deutsch-spanischen Wirtschaft
+  title: Kulturstiftung der deutsch-spanischen Wirtschaft
   content: Die Fundación Goethe fördert die deutsch-spanischen Kulturbeziehungen und unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten.
+promotion:
+  title: Wir organisieren Events in ganz Spanien.
+  text: Wir haben mehr als <strong>600</strong> Konzerte, Ausstellungen, Führungen und Ausflüge für mehr als <strong>50.000</strong> Besucher organisiert.
+  more: Mehr erfahren!
+  link: /
 cta:
   mainText: Werde Teil der Fundación Goethe als Förderer
   subText: ...oder bewerben Sie einzelne Veranstaltungen unter Ihrer Schirmherrschaft.
@@ -27,144 +29,31 @@ sponsorlist:
   text: Unsere Förderer sind die zentrale Achse der Fundación Goethe. Wir haben das große Glück, seit Jahren auf die Zusammenarbeit mit weltbekannten Unternehmen zählen zu können.
 ---
 
-<div
-	class="pt-40 pb-5 px-4 sm:px-6 md:pt-28 lg:pt-40 xl:pt-12 2xl:pt-20 lg:px-24"
->
-	<!-- sponsors -->
-	{% include "components/sponsorlist.njk" %}
-</div>
-<!-- promotion -->
-<div class="relative bg-gray-900 mt-20">
+{% include "components/herobg.njk" %}
+
+<div class="mt-112 sm:mt-96 md:mt-44 lg:mt-64 xl:mt-96 2xl:mt-112">
 	<div
 		class="
-			relative
-			h-56
-			bg-gray-100
-			sm:h-72
-			md:absolute
-			md:left-0
-			md:h-full
-			md:w-5/12
+			pt-48
+			pb-5
+			px-4
+			sm:px-6
+			md:pt-28
+			lg:pt-40
+			xl:pt-12
+			2xl:pt-20
+			lg:px-24
 		"
 	>
-		{% Picture "./src/assets/images/cta/concert.jpg","", "w-full h-full
-		object-cover", "Concierto de una gran orquesta" %}
-
-		<div
-			aria-hidden="true"
-			class="
-				absolute
-				inset-0
-				bg-gradient-to-b
-				from-gray-50
-				to-orange-50
-				mix-blend-multiply
-			"
-		></div>
+		<!-- sponsors -->
+		{% include "components/sponsorlist.njk" %}
 	</div>
-	<div class="relative mx-auto">
-		<div class="md:ml-auto md:w-7/12 flex flex-col sm:flex-row">
-			<div
-				class="
-					sm:w-7/12
-					bg-yellow-400
-					px-3
-					py-12
-					sm:px-6
-					sm:py-10
-					lg:px-10
-					lg:py-12
-				"
-			>
-				<h2 class="mt-2 text-black standardtitel">
-					Wir organisieren Events in ganz Spanien.
-				</h2>
-				<p class="standardtext mt-3">
-					Wir haben mehr als <strong>600</strong> Konzerte, Ausstellungen,
-					Führungen und Ausflüge für mehr als <strong>50.000</strong> Besucher
-					organisiert.
-				</p>
-				<div class="mt-8">
-					<div class="inline-flex">
-						<a
-							href="#"
-							class="
-								inline-flex
-								items-center
-								justify-center
-								px-2
-								py-2
-								text-xs
-								font-bold
-								text-black
-								uppercase
-							"
-						>
-							{% svg "arrow-right", "-ml-1 mr-3 h-5 w-5", "flecha" %} Mehr
-							erfahren!
-						</a>
-					</div>
-				</div>
-			</div>
+	<!-- promotion -->
+	{% include "components/promotion.njk" %}
 
-			<div class="sm:w-5/12 text-white flex items-center justify-center">
-				<ul class="flex flex-row sm:flex-col py-2 sm:py-0">
-					<li
-						class="
-							rounded-sm
-							sm:bg-gray-700
-							px-2
-							sm:px-4
-							py-2
-							my-2
-							uppercase
-							text-sm
-							sm:text-lg
-							font-semibold
-						"
-					>
-						<a class="no-underline" href="#">Orte</a>
-					</li>
-					<li
-						class="
-							rounded-sm
-							sm:bg-gray-700
-							px-2
-							sm:px-4
-							py-2
-							my-2
-							uppercase
-							text-sm
-							sm:text-lg
-							font-semibold
-						"
-					>
-						<a class="no-underline" href="#">Events</a>
-					</li>
-					<li
-						class="
-							rounded-sm
-							sm:bg-gray-700
-							px-2
-							sm:px-4
-							py-2
-							my-2
-							uppercase
-							text-sm
-							sm:text-lg
-							font-semibold
-						"
-					>
-						<a class="no-underline" href="#">Künstler</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+	<!-- last 3 news -->
+	{% include "components/last3news.njk" %}
+
+	<!-- CTA -->
+	{% include "components/cta.njk" %}
 </div>
-
-<!-- last 3 news -->
-{% include "components/last3news.njk" %}
-
-<!-- CTA -->
-{% include "components/cta.njk" %}
