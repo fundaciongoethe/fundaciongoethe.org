@@ -40,7 +40,7 @@ module.exports = {
 		const descAttr = desc ? desc : `${nameAttr} icon`;
 		const locationAttr = location ? location : "content";
 		return `<svg class="${classesAttr}" aria-describedby="symbol-${nameAttr}-desc" aria-labelledby="symbol-${nameAttr}-desc" role="group">
-                <desc id="symbol-${nameAttr}-desc">${descAttr}</desc>
+                <desc>${descAttr}</desc>
                 <use xlink:href="#symbol-${nameAttr}"></use>
             </svg>`;
 	},
