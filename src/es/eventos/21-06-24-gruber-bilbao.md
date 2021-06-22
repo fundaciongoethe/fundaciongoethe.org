@@ -7,6 +7,8 @@ artist: [duogruber]
 venue: [encarnacion]
 location: Iglesia de la Encarnación, Bilbao
 city: Bilbao
+partners:
+  - lenesaile
 type: Konzert
 access: Kartenverkauf
 date: 2021-06-24 19:30:00

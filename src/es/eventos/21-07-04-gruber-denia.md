@@ -9,6 +9,7 @@ location: Ermita de Les Rotes, Dénia
 city: Dénia
 partners:
   - ekdblanca
+  - lenesaile
 type: Konzert
 access: Direkte Anmeldung
 date: 2021-07-04 18:00:00

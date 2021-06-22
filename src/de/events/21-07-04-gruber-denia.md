@@ -8,6 +8,7 @@ venue: [eremitarotes]
 location: Ermita de Les Rotes, Dénia
 city: Dénia
 partners:
+  - lenesaile
   - ekdblanca
 type: Konzert
 access: Direkte Anmeldung

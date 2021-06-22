@@ -8,6 +8,8 @@ venue: [encarnacion]
 location: Iglesia de la Encarnación, Bilbao
 city: Bilbao
 type: Konzert
+partners:
+  - lenesaile
 access: Kartenverkauf
 date: 2021-06-24 19:30:00
 opening: 2021-06-24 19:00:00

@@ -9,6 +9,7 @@ location: Museo Jorge Rando, Málaga
 city: Málaga
 partners:
   - jorgerando
+  - lenesaile
 type: Konzert
 access: Direkte Anmeldung
 date: 2021-06-28 19:00:00

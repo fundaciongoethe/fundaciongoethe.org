@@ -7,6 +7,8 @@ artist: [duogruber]
 venue: [sanvicente]
 location: Iglesia San Vicente, Donostia - San Sebastián
 city: Donostia - San Sebastián
+partners:
+  - lenesaile
 type: Konzert
 access: Kartenverkauf
 date: 2021-06-25 20:30:00
