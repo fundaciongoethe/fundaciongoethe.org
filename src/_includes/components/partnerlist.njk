@@ -7,7 +7,17 @@
 </div>
 {% endif %}
 
-<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-7 lg:mt-8">
+<div
+	class="
+		mt-6
+		grid grid-cols-2
+		gap-0.5
+		sm:grid-cols-3
+		md:grid-cols-4
+		xl:grid-cols-5
+		lg:mt-8
+	"
+>
 	<!-- get current locale from meta.languages -->
 	{% for partner in partners %}
 
@@ -37,7 +47,7 @@
 				hover:scale-105
 			"
 		>
-			{% Picture partnerarchiv[partner].logo,"", "lazy max-h-16",
+			{% Picture partnerarchiv[partner].logo,"", "lazy",
 			partnerarchiv[partner].name %}
 		</a>
 	</figure>
