@@ -101,6 +101,7 @@ pastevents:
 									rounded-md
 									text-xs
 									font-semibold
+									text-gray-500
 									border border-gray-300
 									uppercase
 									tracking-wider
@@ -127,11 +128,24 @@ pastevents:
 						>
 							{{ event.data.title }}
 						</h2>
-
-						<p class="text-xs font-semibold">
-							{{ meta[locale].event.entry }}:
-							{{ event.data.opening | date("HH:mm", locale) }}
-						</p>
+						<div class="flex items-center justify-start">
+							<p
+								class="
+									mr-4
+									font-semibold
+									text-red-600
+									uppercase
+									tracking-wider
+									text-xs
+								"
+							>
+								{{ event.data.city }}
+							</p>
+							<p class="text-xs font-semibold">
+								{{ meta[locale].event.entry }}:
+								{{ event.data.opening | date("HH:mm", locale) }}
+							</p>
+						</div>
 					</a>
 				</div>
 

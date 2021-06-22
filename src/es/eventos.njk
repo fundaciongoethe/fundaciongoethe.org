@@ -44,7 +44,7 @@ pastevents:
 	>
 		{# wenn es events gibt #} {% for event in collections.eventosFuturos %}
 
-		<li class="px-3 py-3 md:py-0 max-w-5xl mx-auto">
+		<li class="px-3 py-5 md:py-0 max-w-5xl mx-auto">
 			<div class="flex items-center space-x-4">
 				<div
 					class="
@@ -117,19 +117,34 @@ pastevents:
 							class="
 								standardtext
 								md:uppercase
-								md:font-semibold
-								2xl:font-bold
-								my-2
+								font-semibold
+								xl:font-bold
+								mt-1
+								mb-4
 								max-w-sm
 							"
 						>
 							{{ event.data.title }}
 						</h2>
 
-						<p class="text-xs font-semibold">
-							{{ meta[locale].event.entry }}:
-							{{ event.data.opening | date("HH:mm", locale) }}
-						</p>
+						<div class="flex items-center justify-start">
+							<p
+								class="
+									mr-4
+									font-semibold
+									text-red-600
+									uppercase
+									tracking-wider
+									text-xs
+								"
+							>
+								{{ event.data.city }}
+							</p>
+							<p class="text-xs font-semibold">
+								{{ meta[locale].event.entry }}:
+								{{ event.data.opening | date("HH:mm", locale) }}
+							</p>
+						</div>
 					</a>
 				</div>
 

@@ -1,16 +1,15 @@
 ---
 title: "Claus Temps"
 translationKey: "claustemps"
-referenceKey: "claustemps"
 customSlug: "claus-temps"
 excerpt: Claus Temps, bajo-barítono, tiene predilección por los programas músico-literarios, que a menudo desarrolla en colaboración con la pianista Heike Bleckmann.
 occupation: "bajo-barítono"
 seo:
-  title: Claus Temps | {{ meta[locale].seoArtist }}
+  title: Claus Temps
   description: Claus Temps, bajo-barítono, tiene predilección por los programas músico-literarios, que a menudo desarrolla en colaboración con la pianista Heike Bleckmann.
   image: artists/claus-temps.jpg
 images: # complete path for eleventy img srcset output, alt required
-  profile: ./src/assets/images/artists/claus-temps.jpg
+  featured: ./src/assets/images/artists/claus-temps.jpg
   alt: Claus Temps
 links:
   web:

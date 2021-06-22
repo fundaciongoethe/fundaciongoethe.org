@@ -1,15 +1,14 @@
 ---
-title: Konzert zum Geburtstag der Sängerin und Komponistin Pauline Viardot-Garcia
+title: Konzert zu Ehren von Pauline Viardot-Garcia
 description: Larissa Wäspy, Claus Temps und Heike Bleckmann spielen Werke von Pauline Viardot-García im Königspalast in Madrid.
 translationKey: viardot-madrid
-referenceKey: viardot-madrid
 customSlug: konzert-geburtstag-pauline-viardot-garcia
 artist: [larissawaspy, claustemps, heikebleckmann]
 venue: [palacioreal]
 location: Palacio Real, Madrid
+city: Madrid
 partners:
   - patrimonio
-  - basf
 type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2021-06-30 19:30:00
@@ -17,8 +16,7 @@ opening: 2021-06-30 18:45:00
 ending: 2021-06-30 20:30:00
 calcDuration: 1
 seo:
-  title: Konzert zum Geburtstag der Sängerin und Komponistin Pauline Viardot-Garcia
-  description: Larissa Wäspy, Claus Temps und Heike Bleckmann spielen Werke von Pauline Viardot-García im Königspalast in Madrid.
+  title: Konzert zu Ehren von Pauline Viardot-Garcia
   image: venues/palacio-real-madrid.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/palacio-real-madrid.jpg

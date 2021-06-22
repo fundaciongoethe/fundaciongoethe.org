@@ -1,16 +1,15 @@
 ---
 title: "UceLi Quartet"
 translationKey: "uceli"
-referenceKey: "uceli"
 customSlug: "uceli-quartet"
 excerpt: Streichquartett bestehend aus Mitgliedern des Sinfonieorchesters des Gran Teatre del Liceu in Barcelona. Yana Tsanova und Oleg Shport (Violine), Claire Bobij (Viola), Guillaume Terrail (Cello).
 occupation: "Streichquartett"
 seo:
-  title: UceLi Quartet | {{ meta[locale].seoArtist }}
+  title: UceLi Quartet
   description: Das Streichquartett UceLi gründet sich aus Mitgliedern des Sinfonieorchesters des Gran Teatre del Liceu in Barcelona.
   image: artists/uleci.jpg
 images: # complete path for eleventy img srcset output, alt required
-  profile: ./src/assets/images/artists/uleci.jpg
+  featured: ./src/assets/images/artists/uleci.jpg
   alt: UceLi Quartet
 links:
   web: https://www.guillaumeterrail.com/uceli-quartet

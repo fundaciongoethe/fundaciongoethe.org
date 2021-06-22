@@ -1,16 +1,15 @@
 ---
 title: "Heike Bleckmann"
 translationKey: "heikebleckmann"
-referenceKey: "heikebleckmann"
 customSlug: "heike-bleckmann"
 excerpt: La pianista Heike Bleckmann ha desarrollado una carrera con una amplia actividad de conciertos en solitario, pero también con diversos conjuntos y como acompañante de lied.
 occupation: "Pianista"
 seo:
-  title: Heike Bleckmann | {{ meta[locale].seoArtist }}
+  title: Heike Bleckmann
   description: La pianista Heike Bleckmann ha desarrollado una carrera con una amplia actividad de conciertos en solitario, pero también con diversos conjuntos
   image: artists/heike-blechmann.jpg
 images: # complete path for eleventy img srcset output, alt required
-  profile: ./src/assets/images/artists/heike-blechmann.jpg
+  featured: ./src/assets/images/artists/heike-blechmann.jpg
   alt: Heike Blechmann
 links:
   web:

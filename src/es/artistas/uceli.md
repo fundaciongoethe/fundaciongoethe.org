@@ -10,7 +10,7 @@ seo:
   description: Das Streichquartett UceLi gründet sich aus Mitgliedern des Sinfonieorchesters des Gran Teatre del Liceu in Barcelona.
   image: artists/uleci.jpg
 images: # complete path for eleventy img srcset output, alt required
-  profile: ./src/assets/images/artists/uleci.jpg
+  featured: ./src/assets/images/artists/uleci.jpg
   alt: UceLi Quartet
 links:
   web: https://www.guillaumeterrail.com/uceli-quartet

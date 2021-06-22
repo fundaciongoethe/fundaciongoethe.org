@@ -2,6 +2,8 @@
 absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%}
 {# set image paths here so user/editor doesn't have to deal with full paths #}
 {%- set ogImage -%} {% if seo.image %} /assets/images/{{ seo.image }}
+{% elseif images.featured %}
+{{ images.featured }}
 {% else %}
 {{ meta.siteImage }}
 {% endif %} {%- endset -%} {#- General #}

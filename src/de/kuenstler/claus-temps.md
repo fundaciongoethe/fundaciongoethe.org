@@ -1,16 +1,15 @@
 ---
 title: "Claus Temps"
 translationKey: "claustemps"
-referenceKey: "claustemps"
 customSlug: "claus-temps"
 excerpt: Claus Temps, Bassbariton, hat eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt.
 occupation: "Bassbariton"
 seo:
-  title: Claus Temps | {{ meta[locale].seoArtist }}
+  title: Claus Temps
   description: Claus Temps hat eine Vorliebe für musikalisch-literarische Programme, die er oft in Zusammenarbeit mit der Pianistin Heike Bleckmann entwickelt.
   image: artists/claus-temps.jpg
 images: # complete path for eleventy img srcset output, alt required
-  profile: ./src/assets/images/artists/claus-temps.jpg
+  featured: ./src/assets/images/artists/claus-temps.jpg
   alt: Claus Temps
   credit: Fotografenname
 links:

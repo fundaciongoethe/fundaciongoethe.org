@@ -33,6 +33,6 @@ module.exports = {
 	 * @returns {Array} result collection or empty
 	 */
 	filterCollectionByKeys(collection, keys) {
-		return collection.filter((x) => keys.includes(x.data.referenceKey));
+		return collection.filter((x) => keys.includes(x.data.translationKey));
 	},
 };
