@@ -92,6 +92,7 @@ module.exports = {
 			datos:
 				"He leído la política de privacidad y acepto recibir invitaciones por correo electrónico.",
 		},
+		gallery: "Galería",
 	},
 	de: {
 		metaTitle: "Fundación Goethe Spanien",
@@ -150,6 +151,7 @@ module.exports = {
 			datos:
 				"Ich habe die Datenschutzerklärung zur Kenntnis genommen und bin damit einverstanden, per E-Mail Einladungen zu erhalten.",
 		},
+		gallery: "Galerie",
 	},
 
 	isProduction: process.env.ELEVENTY_ENV === "production",

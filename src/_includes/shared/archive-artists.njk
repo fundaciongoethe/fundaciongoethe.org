@@ -11,10 +11,10 @@
 	"
 >
 	<!-- loop -->
-	{% for venue in venues %}
+	{% for artist in artists %}
 
 	<li class="relative">
-		<a href="{{ venue.url }}">
+		<a href="{{ artist.url }}">
 			<div
 				class="
 					group
@@ -24,25 +24,24 @@
 					rounded-md
 					bg-gray-100
 					overflow-hidden
-					motion-reduce:transition-none motion-reduce:transform-none
 					buttonhover
 				"
 			>
 				<!-- picture shortcode -->
-				{% Picture venue.data.images.featured,"", "object-cover filter
-				grayscale", venue.data.images.alt %}
+				{% Picture artist.data.images.featured," aspect-w-10 aspect-h-7",
+				"object-cover filter grayscale", artist.data.images.alt %}
 
 				<span class="sr-only">
-					{{ meta[locale].event.readmore }} {{ venue.data.title }}</span
+					{{ meta[locale].event.readmore }} {{ artist.data.title }}</span
 				>
-			</div>
-		</a>
+			</div></a
+		>
 		<h2 class="mt-2 block text-base font-semibold truncate uppercase">
 			<a
 				class="no-underline hover:underline"
 				tabindex="-1"
-				href="{{ venue.url }}"
-				>{{ venue.data.title }}</a
+				href="{{ artist.url }}"
+				>{{ artist.data.title }}</a
 			>
 		</h2>
 		<p
@@ -54,7 +53,7 @@
 				uppercase
 			"
 		>
-			{{ venue.data.city }}
+			{{ artist.data.occupation }}
 		</p>
 	</li>
 

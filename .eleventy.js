@@ -414,7 +414,7 @@ module.exports = function (eleventyConfig) {
 			data: "_data",
 		},
 		passthroughFileCopy: true,
-		templateFormats: ["html", "njk", "md"],
+		templateFormats: ["html", "njk", "md", "pdf"],
 		htmlTemplateEngine: "njk",
 		markdownTemplateEngine: "njk",
 	};

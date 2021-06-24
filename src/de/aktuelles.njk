@@ -35,7 +35,7 @@ pagination:
 		</div>
 
 		{% set postslist = posts_de | reverse %} {% include
-		"components/postslistcards.njk" %} {% if collections.post.length >
+		"components/postslistcards.njk" %} {% if collections.posts_de.length >
 		pagination.size %} {% include "components/pagination.njk" %} {% endif %}
 	</div>
 </div>

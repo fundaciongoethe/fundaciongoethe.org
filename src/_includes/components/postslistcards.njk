@@ -24,8 +24,15 @@
 				>
 					<div class="flex-shrink-0 relative buttonhover">
 						<a href="{{ post.url | url }}">
-							{% Picture post.data.images.featured,"", "lazy object-cover
-							grayimg w-full h-40", post.data.images.alt %}
+							<!-- if featured image -->
+							{% if post.data.images.featured %} {% Picture
+							post.data.images.featured,"", "lazy object-cover grayimg w-full
+							h-40", post.data.images.alt %}
+							<!-- else fallback -->
+							{% else %} {% Picture
+							"./src/assets/images/blog/blog-fallback.jpg","", "lazy
+							object-cover grayimg w-full h-40", "Blog Fundación Goethe" %} {%
+							endif %}
 
 							<div
 								class="
