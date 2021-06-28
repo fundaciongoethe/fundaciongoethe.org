@@ -11,6 +11,19 @@
 </a>
 {% endif %}
 
+<!-- website alt -->
+{% if links.web2 %}
+<a
+	target="_blank"
+	rel="noopener"
+	href="{{ links.web2 }}"
+	class="flex items-left justify-left py-1 text-sm text-gray-700"
+>
+	{% svg "world", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
+	<span class="ml-3">{{ links.web2 }}</span>
+</a>
+{% endif %}
+
 <!-- twitter -->
 {% if links.twitter %}
 <a
@@ -47,6 +60,19 @@
 >
 	{% svg "instagram", "mr-2 h-5 w-5 flex-shrink-0 ", "flecha" %}
 	<span class="ml-3">{{ links.instagram }}</span>
+</a>
+{% endif %}
+
+<!-- youtube -->
+{% if links.youtube %}
+<a
+	target="_blank"
+	rel="noopener"
+	href="{{ links.youtube }}"
+	class="flex items-left justify-left py-1 text-sm text-gray-700"
+>
+	{% svg "youtube", "mr-2 h-5 w-5 flex-shrink-0", "youtube" %}
+	<span class="ml-3">{{ links.youtube }}</span>
 </a>
 {% endif %}
 

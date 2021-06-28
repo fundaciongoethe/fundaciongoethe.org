@@ -9,7 +9,7 @@ seo:
   description: Unser Förderer BASF schafft Chemie für eine nachhaltige Zukunft. Wirtschaftlichen Erfolg wird mit Umweltschutz und sozialer Verantwortung verbunden.
   image:
 images: # complete path for eleventy img srcset output, alt required
-  logo: ./src/assets/images/sponsors/basf/basf-logo.jpg
+  logo: ./src/assets/images/sponsors/basf/basf-logo.png
   featured1: ./src/assets/images/sponsors/basf/basf-1.jpg
   alt1: BASF-Werk bei Nacht
   featured2: ./src/assets/images/sponsors/basf/basf-2.jpg

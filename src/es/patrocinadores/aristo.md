@@ -19,9 +19,9 @@ images: # complete path for eleventy img srcset output, alt required
   featured4: ./src/assets/images/sponsors/aristo/destacado-interior-farmacias.jpg
   alt4: Fotografía promocional
 links:
-  web: aristoiberia.es
-  twitter: twitter.com/aristoiberia
-  facebook: facebook.com/AristoIberia
-  instagram: instagram.com/aristoiberia
-  linkedin: linkedin.com/company/aristo-pharma-iberia
+  web: https://aristoiberia.es
+  twitter: https://twitter.com/aristoiberia
+  facebook: https://facebook.com/AristoIberia
+  instagram: https://instagram.com/aristoiberia
+  linkedin: https://linkedin.com/company/aristo-pharma-iberia
 ---
