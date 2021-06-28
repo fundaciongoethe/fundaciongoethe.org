@@ -6,6 +6,7 @@ customSlug: pauline-viardot-garcia-cantante-compositora-concierto
 artist: [larissawaspy, claustemps, heikebleckmann]
 venue: [palacioreal]
 location: Palacio Real, Madrid
+city: Madrid
 partners:
   - patrimonio
 type: Concierto

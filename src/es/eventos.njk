@@ -37,13 +37,13 @@ pastevents:
 	<ul
 		class="
 			divide-y divide-gray-300
-			md:bg-gray-100
-			md:border-t md:border-b
+			md:bg-gray-100 md:border-t md:border-b
 			border-gray-300
 		"
 	>
-		{# wenn es events gibt #} {% for event in collections.eventosFuturos %}
-
+		<!-- if events -->
+		{% for event in collections.eventosFuturos %}
+		<!-- future events -->
 		<li class="px-3 py-5 md:py-0 max-w-5xl mx-auto">
 			<div class="flex items-center space-x-4">
 				<div
@@ -88,11 +88,12 @@ pastevents:
 				</div>
 
 				<div class="flex flex-col flex-1 min-w-0">
-					<a class="no-underline" href="{{ event.url }}">
+					<a class="no-underline py-1 sm:py-5 lg:py-6" href="{{ event.url }}">
 						<div class="flex items-center justify-start">
 							<p
 								class="
-									inline-flex
+									hidden
+									sm:inline-flex
 									items-center
 									px-2.5
 									py-0.5
@@ -119,8 +120,8 @@ pastevents:
 								md:uppercase
 								font-semibold
 								xl:font-bold
-								mt-1
-								mb-4
+								my-1
+								md:mb-4
 								max-w-sm
 							"
 						>
@@ -140,7 +141,7 @@ pastevents:
 							>
 								{{ event.data.city }}
 							</p>
-							<p class="text-xs font-semibold">
+							<p class="text-xs font-semibold hidden sm:block">
 								{{ meta[locale].event.entry }}:
 								{{ event.data.opening | date("HH:mm", locale) }}
 							</p>
@@ -148,7 +149,7 @@ pastevents:
 					</a>
 				</div>
 
-				<div>
+				<div class="hidden sm:block">
 					<a
 						href="{{ event.url }}"
 						class="
@@ -176,6 +177,8 @@ pastevents:
 		{% endfor %}
 	</ul>
 
+	<!-- past events -->
+
 	<div class="max-w-xl mx-auto">
 		<h2 class="standardtitel mt-20 mb-6 2xl:mb-8 text-gray-900 text-center">
 			{{ pastevents.title }}
@@ -188,7 +191,6 @@ pastevents:
 		</div>
 	</div>
 
-	<!-- events PAST -->
 	<div
 		class="bg-white max-w-xl mx-auto border border-gray-300 rounded-md"
 		x-data="{selected:null}"
@@ -263,6 +265,7 @@ pastevents:
 					</div>
 				</div>
 			</li>
+
 			{% endfor %}
 		</ul>
 	</div>

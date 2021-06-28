@@ -9,7 +9,7 @@ seo:
   description: ARISTO Pharma Iberia ist die spanische Tochtergesellschaft der deutschen Unternehmensgruppe Aristo Pharma GmbH mit langjähriger Erfahrung in der Pharmabranche und Sitz in Berlin.
   image:
 images: # complete path for eleventy img srcset output, alt required
-  logo: ./src/assets/images/sponsors/aristo/aritso.png
+  logo: ./src/assets/images/sponsors/aristo/aristo-logo.png
   featured1: ./src/assets/images/sponsors/aristo/aristo-1.jpg
   alt1: Aristo Werbefoto
   featured2: ./src/assets/images/sponsors/aristo/aristo-2.jpg
