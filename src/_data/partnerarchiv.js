@@ -2,12 +2,12 @@ module.exports = {
 	lenesaile: {
 		name: "Lene Saile - Desarrollo web",
 		url: "https://www.lenesaile.com/",
-		logo: "./src/assets/images/event-sponsors/lene.jpg",
+		logo: "./src/assets/images/event-sponsors/lene.png",
 	},
 	patrimonio: {
 		name: "Patrimonio Nacional",
 		url: "https://www.patrimonionacional.es/",
-		logo: "./src/assets/images/event-sponsors/patrimonio.jpg",
+		logo: "./src/assets/images/event-sponsors/patrimonio.png",
 	},
 	basf: {
 		name: "BASF",
@@ -17,21 +17,116 @@ module.exports = {
 	jorgerando: {
 		name: "Museo Jorge Rando",
 		url: "https://www.museojorgerando.org",
-		logo: "./src/assets/images/event-sponsors/jorgerando.jpg",
+		logo: "./src/assets/images/event-sponsors/rando.png",
+	},
+	thyssen: {
+		name: "Museo Nacional Thyssen-Bornemisza",
+		url: "https://www.museothyssen.org/",
+		logo: "./src/assets/images/event-sponsors/thyssen.png",
+	},
+	cccc: {
+		name: "Centre del carme",
+		url: "https://www.consorcimuseus.gva.es/centro-del-carmen/",
+		logo: "./src/assets/images/event-sponsors/cccc.png",
+	},
+	carlestache: {
+		name: "Galería Carles Taché",
+		url: "https://www.carlestache.com",
+		logo: "./src/assets/images/event-sponsors/carles.png",
 	},
 	sixt: {
 		name: "Sixt",
 		url: "https://www.sixt.es",
-		logo: "./src/assets/images/event-sponsors/sixt.jpg",
+		logo: "./src/assets/images/event-sponsors/sixt.png",
 	},
 	mies: {
 		name: "Fundación Mies van der Rohe",
 		url: "https://miesbcn.com/",
-		logo: "./src/assets/images/event-sponsors/fundacionmies.jpg",
+		logo: "./src/assets/images/event-sponsors/mies.png",
+	},
+	carlosamberes: {
+		name: "Fundación Carlos de Amberes",
+		url: "https://www.fcamberes.org/",
+		logo: "./src/assets/images/event-sponsors/carlosamberes.png",
+	},
+	olivar: {
+		name: "Fundación Olivar de Castillejo",
+		url: "http://www.fundacionolivardecastillejo.org",
+		logo: "./src/assets/images/event-sponsors/olivar.png",
 	},
 	ekdblanca: {
 		name: "Tourismusspfarramt Costa Blanca",
 		url: "https://ev-kicb.com/",
-		logo: "./src/assets/images/event-sponsors/ekdblanca.jpg",
+		logo: "./src/assets/images/event-sponsors/ekdblanca.png",
+	},
+	ekdsol: {
+		name: "Tourismuspfarramt der EKD an der Costa del Sol",
+		url: "https://ekd-costadelsol.de/",
+		logo: "./src/assets/images/event-sponsors/ekdsol.png",
+	},
+	sanjuan: {
+		name: "Iglesia de San Juan del Hospital",
+		url: "https://sanjuandelhospital.es/",
+		logo: "./src/assets/images/event-sponsors/sanjuan.png",
+	},
+	sanmiguel: {
+		name: "Basílica Pontificia de San Miguel en Madrid",
+		url: "https://bsmiguel.es/",
+		logo: "./src/assets/images/event-sponsors/sanmiguel.png",
+	},
+	caterva: {
+		name: "Caterva Musica – Barockorchester in Westfalen",
+		url: "https://caterva-musica.de/",
+		logo: "./src/assets/images/event-sponsors/caterva.png",
+	},
+	sexta: {
+		name: "Grupo Vocal IN HORA SEXTA",
+		url: "http://inhorasexta.com/",
+		logo: "./src/assets/images/event-sponsors/sexta.png",
+	},
+	ahk: {
+		name: "Cámara de Comercio Alemana para España",
+		url: "https://www.ahk.es/",
+		logo: "./src/assets/images/event-sponsors/ahk.png",
+	},
+	esa: {
+		name: "ESA - Madrid - European Space Agency",
+		url: "https://www.esa.int/Space_in_Member_States/Spain/Madrid",
+		logo: "./src/assets/images/event-sponsors/esa.png",
+	},
+	dsm: {
+		name: "Colegio Alemán de Madrid",
+		url: "https://www.dsmadrid.org/",
+		logo: "./src/assets/images/event-sponsors/dsm.png",
+	},
+	dsb: {
+		name: "Colegio Alemán de Barcelona",
+		url: "https://www.dsbarcelona.com",
+		logo: "./src/assets/images/event-sponsors/dsb.png",
+	},
+	filmoteca: {
+		name: "Filmoteca de Catalunya",
+		url: "https://www.filmoteca.cat",
+		logo: "./src/assets/images/event-sponsors/filmoteca.png",
+	},
+	germanfilms: {
+		name: "German Films",
+		url: "https://www.german-films.de",
+		logo: "./src/assets/images/event-sponsors/germanfilms.png",
+	},
+	ksb: {
+		name: "Bombas, Válvulas y Servicio - KSB",
+		url: "https://www.ksb.com/es-es",
+		logo: "./src/assets/images/event-sponsors/ksb.png",
+	},
+	sur: {
+		name: "DEUTSCHE WOCHENZEITUNG FÜR SÜDSPANIEN",
+		url: "http://www.surdeutsch.com/",
+		logo: "./src/assets/images/event-sponsors/sur.png",
+	},
+	visitberlin: {
+		name: "Portal oficial de viajes de Berlín - visitBerlín.de",
+		url: "https://www.visitberlin.de/es",
+		logo: "./src/assets/images/event-sponsors/visitberlin.png",
 	},
 };

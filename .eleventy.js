@@ -37,6 +37,9 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 const isValidTitle = (title = "") => title.trim().length > 2;
 const isValidEvent = (event) => isValidTitle(event.data.title);
 
+// to group all posts by year
+const _ = require("lodash");
+
 // config starts
 module.exports = function (eleventyConfig) {
 	// Filters
@@ -251,14 +254,27 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("events_es", (collectionApi) => {
 		return collectionApi.getFilteredByGlob("./src/es/eventos/*.md");
 	});
+	// eleventyConfig.addCollection("eventosPasados", (collectionApi) => {
+	// 	return collectionApi
+	// 		.getFilteredByGlob("./src/es/eventos/*.md")
+	// 		.filter(
+	// 			(event) =>
+	// 				isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
+	// 		);
+	// });
+	// events es past sorted by year
 	eleventyConfig.addCollection("eventosPasados", (collectionApi) => {
-		return collectionApi
-			.getFilteredByGlob("./src/es/eventos/*.md")
+		return _.chain(collectionApi.getFilteredByGlob("./src/es/eventos/*.md"))
 			.filter(
 				(event) =>
 					isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
-			);
+			)
+			.groupBy((event) => event.date.getFullYear())
+			.toPairs()
+			.reverse()
+			.value();
 	});
+
 	eleventyConfig.addCollection("eventosFuturos", (collectionApi) => {
 		return collectionApi
 			.getFilteredByGlob("./src/es/eventos/*.md")
@@ -272,14 +288,28 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("events_de", (collectionApi) => {
 		return collectionApi.getFilteredByGlob("./src/de/events/*.md");
 	});
+	// eleventyConfig.addCollection("eventsVergangenheit", (collectionApi) => {
+	// 	return collectionApi
+	// 		.getFilteredByGlob("./src/de/events/*.md")
+	// 		.filter(
+	// 			(event) =>
+	// 				isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
+	// 		);
+	// });
+
+	// events de past sorted by year
 	eleventyConfig.addCollection("eventsVergangenheit", (collectionApi) => {
-		return collectionApi
-			.getFilteredByGlob("./src/de/events/*.md")
+		return _.chain(collectionApi.getFilteredByGlob("./src/de/events/*.md"))
 			.filter(
 				(event) =>
 					isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
-			);
+			)
+			.groupBy((event) => event.date.getFullYear())
+			.toPairs()
+			.reverse()
+			.value();
 	});
+
 	eleventyConfig.addCollection("eventsZukunft", (collectionApi) => {
 		return collectionApi
 			.getFilteredByGlob("./src/de/events/*.md")

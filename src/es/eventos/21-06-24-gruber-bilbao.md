@@ -10,7 +10,7 @@ city: Bilbao
 partners:
   - lenesaile
 type: Konzert
-access: Kartenverkauf
+access: Venta de entradas
 date: 2021-06-24 19:30:00
 opening: 2021-06-24 19:00:00
 ending: 2021-06-24 20:30:00

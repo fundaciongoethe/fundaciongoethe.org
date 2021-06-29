@@ -10,8 +10,8 @@ city: Dénia
 partners:
   - ekdblanca
   - lenesaile
-type: Konzert
-access: Direkte Anmeldung
+type: Concierto
+access: Libre, registro directo
 date: 2021-07-04 18:00:00
 opening: 2021-07-04 17:30:00
 ending: 2021-07-04 19:00:00

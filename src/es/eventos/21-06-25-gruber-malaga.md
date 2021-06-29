@@ -10,8 +10,8 @@ city: Málaga
 partners:
   - jorgerando
   - lenesaile
-type: Konzert
-access: Direkte Anmeldung
+type: Concierto
+access: Libre, registro directo
 date: 2021-06-28 19:00:00
 opening: 2021-06-28 18:30:00
 ending: 2021-06-28 20:30:00

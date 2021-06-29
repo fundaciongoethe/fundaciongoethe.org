@@ -9,8 +9,8 @@ location: Iglesia San Vicente, Donostia - San Sebastián
 city: Donostia - San Sebastián
 partners:
   - lenesaile
-type: Konzert
-access: Kartenverkauf
+type: Concierto
+access: Venta de entradas
 date: 2021-06-25 20:30:00
 opening: 2021-06-25 20:15:00
 ending: 2021-06-25 21:30:00

@@ -80,7 +80,7 @@ pastevents:
 						alt=""
 					/>
 					#}
-					<a href="{{ event.url }}">
+					<a href="{{ event.url }}" tabindex="-1">
 						<!-- picture shortcode -->
 						{% Picture event.data.images.featured,"", "h-40 w-40 filter
 						grayscale", event.data.images.alt %}
@@ -149,8 +149,9 @@ pastevents:
 					</a>
 				</div>
 
-				<div class="hidden sm:block">
+				<div class="hidden sm:block" aria-hidden="true">
 					<a
+						tabindex="-1"
 						href="{{ event.url }}"
 						class="
 							inline-flex
@@ -197,7 +198,7 @@ pastevents:
 	>
 		<ul class="shadow-box">
 			<!-- sorted by year past events -->
-			{% for date, event in collections.eventosPasados | groupby("date") %}
+			{% for year, yearPosts in collections.eventosPasados %}
 
 			<li class="relative">
 				<button
@@ -209,7 +210,7 @@ pastevents:
 				>
 					<div class="flex items-center justify-between">
 						<h3 class="md:font-semibold 2xl:font-bold">
-							{{ event.date | date("YYYY", locale) 	}}
+							{{ year }}
 						</h3>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -241,26 +242,26 @@ pastevents:
 					}}.scrollHeight + 'px' : ''"
 				>
 					<div class="p-6">
-						{% for event in collections.eventosPasados %}
-						<p>
-							<a
-								class="
-									no-underline
-									text-sm
-									bg-gray-200
-									py-0.5
-									rouded-sm
-									pr-1
-									hover:bg-yellow-400
-								"
-								href="{{ event.url }}"
+						{% for event in yearPosts | reverse %}
+
+						<a
+							class="
+								no-underline
+								text-sm
+								bg-gray-200
+								py-0.5
+								rouded-sm
+								pr-1
+								hover:bg-yellow-400
+							"
+							href="{{ event.url }}"
+						>
+							<span class="bg-black text-white px-2 py-0.5 rouded-sm">
+								{{ event.data.date | date("Do MMMM yyyy", locale) }}:</span
 							>
-								<span class="bg-black text-white px-2 py-0.5 rouded-sm">
-									{{ event.data.date | date("Do MMMM yyyy", locale) }}:</span
-								>
-								{{ event.data.title }}</a
-							>
-						</p>
+							{{ event.data.title }}, {{ event.data.city }}</a
+						>
+
 						{% endfor %}
 					</div>
 				</div>

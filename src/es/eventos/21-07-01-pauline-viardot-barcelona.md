@@ -9,8 +9,8 @@ location: Centre i Teatre de Sarrià, Barcelona
 city: Barcelona
 partners:
   - patrimonio
-type: Konzert
-access: Kartenverkauf
+type: Concierto
+access: Venta de entradas
 date: 2021-07-01 19:30:00
 opening: 2021-07-01 19:00:00
 ending: 2021-07-01 20:30:00

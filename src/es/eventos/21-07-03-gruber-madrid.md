@@ -9,8 +9,8 @@ location: Campo del Moro, Madrid
 city: Madrid
 partners:
   - patrimonio
-type: Konzert
-access: Persönliche Einladung erforderlich
+type: Concierto
+access: Se requiere una invitación personal
 date: 2021-07-03 20:00:00
 opening: 2021-07-03 19:30:00
 ending: 2021-07-03 21:00:00

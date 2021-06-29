@@ -9,7 +9,7 @@ location: Pabellón Mies van der Rohe, Barcelona
 city: Barcelona
 partners:
   - mies
-type: Konzert
+type: Concierto
 access: Se requiere una invitación personal
 date: 2021-07-05 20:30:00
 opening: 2021-07-05 20:00:00
