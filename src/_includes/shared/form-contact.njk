@@ -13,9 +13,7 @@
 			relative
 			py-16
 			px-3
-			lg:max-w-7xl
-			lg:mx-auto
-			lg:grid lg:grid-cols-2
+			lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2
 			xl:px-16
 			2xl:pl-24
 		"
@@ -50,9 +48,8 @@
 									w-full
 									shadow-sm
 									sm:text-sm
-									border-gray-300
-									focus:ring-yellow-400
-									focus:border-yellow-400
+									border-2 border-gray-300
+									focus:ring-yellow-400 focus:border-yellow-400
 									rounded-md
 								"
 							/>
@@ -73,9 +70,8 @@
 									w-full
 									shadow-sm
 									sm:text-sm
-									border-gray-300
-									focus:ring-yellow-400
-									focus:border-yellow-400
+									border-2 border-gray-300
+									focus:ring-yellow-400 focus:border-yellow-400
 									rounded-md
 								"
 							/>
@@ -86,9 +82,11 @@
 							<label for="email" class="block text-sm text-gray-900">
 								{{ meta[locale].contact.email }}
 							</label>
-							<span id="email_description" class="text-sm text-gray-500">{{
-								meta[locale].contact.required
-							}}</span>
+							<span
+								id="email_description"
+								class="text-sm text-red-600 font-semibold"
+								>{{ meta[locale].contact.required }}</span
+							>
 						</div>
 
 						<div class="mt-1">
@@ -102,9 +100,8 @@
 									w-full
 									shadow-sm
 									sm:text-sm
-									border-gray-300
-									focus:ring-yellow-400
-									focus:border-yellow-400
+									border-2 border-gray-300
+									focus:ring-yellow-400 focus:border-yellow-400
 									rounded-md
 								"
 								required="required"
@@ -129,9 +126,8 @@
 									w-full
 									shadow-sm
 									sm:text-sm
-									border-gray-300
-									focus:ring-yellow-400
-									focus:border-yellow-400
+									border-2 border-gray-300
+									focus:ring-yellow-400 focus:border-yellow-400
 									rounded-md
 								"
 							/>
@@ -156,9 +152,8 @@
 									w-full
 									shadow-sm
 									sm:text-sm
-									border border-gray-300
-									focus:ring-yellow-400
-									focus:border-yellow-400
+									border-2 border-gray-300
+									focus:ring-yellow-400 focus:border-yellow-400
 									rounded-md
 								"
 							></textarea>

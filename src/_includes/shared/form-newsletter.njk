@@ -30,13 +30,12 @@
 									autocomplete="given-name"
 									class="
 										mt-1
-										focus:ring-yellow-400
-										focus:border-yellow-400
+										focus:ring-yellow-400 focus:border-yellow-400
 										block
 										w-full
 										shadow-sm
 										sm:text-sm
-										border-gray-300
+										border-2 border-gray-300
 										rounded-md
 									"
 								/>
@@ -53,13 +52,12 @@
 									autocomplete="family-name"
 									class="
 										mt-1
-										focus:ring-yellow-400
-										focus:border-yellow-400
+										focus:ring-yellow-400 focus:border-yellow-400
 										block
 										w-full
 										shadow-sm
 										sm:text-sm
-										border-gray-300
+										border-2 border-gray-300
 										rounded-md
 									"
 								/>
@@ -70,9 +68,11 @@
 									<label for="email" class="block text-sm text-gray-900">
 										{{ meta[locale].contact.email }}
 									</label>
-									<span id="email_description" class="text-sm text-red-500">{{
-										meta[locale].contact.required
-									}}</span>
+									<span
+										id="email_description"
+										class="text-sm text-red-600 font-semibold"
+										>{{ meta[locale].contact.required }}</span
+									>
 								</div>
 
 								<input
@@ -83,13 +83,12 @@
 									required="required"
 									class="
 										mt-1
-										focus:ring-yellow-400
-										focus:border-yellow-400
+										focus:ring-yellow-400 focus:border-yellow-400
 										block
 										w-full
 										shadow-sm
 										sm:text-sm
-										border-gray-300
+										border-2 border-gray-300
 										rounded-md
 									"
 								/>
@@ -120,7 +119,7 @@
 					<div class="sm:flex bg-white">
 						<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
 							<fieldset>
-								<legend class="text-base text-gray-900">
+								<legend class="font-semibold text-gray-900">
 									{{ meta[locale].newsletter.language }}
 								</legend>
 								<div class="mt-4 space-y-4">
@@ -136,7 +135,7 @@
 													h-4
 													w-4
 													text-gray-700
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -162,7 +161,7 @@
 													h-4
 													w-4
 													text-gray-700
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -181,7 +180,7 @@
 						</div>
 						<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
 							<fieldset>
-								<legend class="text-base text-gray-900">
+								<legend class="font-semibold text-gray-900">
 									{{ meta[locale].newsletter.venues }}
 								</legend>
 								<div class="mt-4 space-y-4">
@@ -198,7 +197,7 @@
 													h-4
 													w-4
 													text-gray-700
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -225,7 +224,7 @@
 													h-4
 													w-4
 													text-gray-900
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -252,7 +251,7 @@
 													h-4
 													w-4
 													text-gray-700
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -279,7 +278,7 @@
 													h-4
 													w-4
 													text-gray-700
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -306,7 +305,7 @@
 													h-4
 													w-4
 													text-gray-700
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -333,7 +332,7 @@
 													h-4
 													w-4
 													text-gray-700
-													border-gray-300
+													border-2 border-gray-300
 													rounded
 												"
 											/>
@@ -384,7 +383,7 @@
 									h-4
 									w-4
 									text-gray-700
-									border-gray-300
+									border-2 border-gray-300
 									rounded
 								"
 							/>
@@ -396,9 +395,11 @@
 								>
 									{{ meta[locale].newsletter.datos }}
 								</label>
-								<span id="rgpd_description" class="text-sm text-red-500">{{
-									meta[locale].contact.required
-								}}</span>
+								<span
+									id="rgpd_description"
+									class="text-sm text-red-600 font-semibold"
+									>{{ meta[locale].contact.required }}</span
+								>
 							</div>
 						</div>
 					</div>
