@@ -1,33 +1,30 @@
 ---
-title: Mailchimp
-layout: home
+title: Wir haben es fast geschafft!
+description: Wir haben es fast geschafft! Wir müssen noch Ihre E-Mail-Adresse bestätigen.
+layout: plain
 permalink: "/{{ locale }}/erfolg/index.html"
 translationKey: "success"
-seo:
-  title: ¡Muchísimas gracias por tu compra!
-  description: Si tienes alguna pregunta, por favor no dudes en ponterte en contacto conmigo.
 ---
 
-<div class="my-16 grid grid-cols-4 gap-4">
+<div class="flex items-center justify-center w-full lg:min-h-0">
 	<div
 		class="
-			col-start-2 col-end-5
-			bg-white
-			sm:bg-transparent
-			opacity-75
-			sm:opacity-100
-			p-4
-			sm:col-start-3
-			col-span-1
-			pr-4
-			lg:pr-10
-			max-w-md
+			flex flex-col
+			lg:flex-row lg:space-x-16 lg:space-x-reverse
+			justify-center
+			items-center
 		"
 	>
-		<h1 class="standardtitle">¡Muchísimas gracias por tu compra!</h1>
-		<p class="prose standardtext">
-			Si tienes alguna pregunta, por favor no dudes en ponterte en
-			<a href="/contacto/">contacto</a> conmigo.
-		</p>
+		<div class="lg:w-1/2 px-2 text-sm md:text-base lg:px-0">
+			<h1 class="standardtitel">Wir haben es fast geschafft!</h1>
+
+			<p class="standardtext mt-2">
+				Wir müssen noch Ihre E-Mail-Adresse bestätigen. Bitte sehen Sie in Ihrem
+				Postfach nach. Um die Anmeldung abzuschließen klicken Sie auf den Link,
+				den wir Ihnen gerade gesendet haben.
+			</p>
+		</div>
+
+		<div class="lg:w-1/2 py-8">{%- include "shared/selfie.svg" %}</div>
 	</div>
 </div>
