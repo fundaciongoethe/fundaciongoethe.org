@@ -1,4 +1,4 @@
-const svgColorDefault = "text-pink-500";
+const svgColorDefault = "text-black";
 
 module.exports = {
 	/**
