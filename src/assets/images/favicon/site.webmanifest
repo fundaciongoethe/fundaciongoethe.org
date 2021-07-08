@@ -1,6 +1,6 @@
 {
-	"name": "Alberto Ballesteros",
-	"short_name": "Alberto Ballesteros",
+	"name": "Fundación Goethe",
+	"short_name": "Fundación Goethe",
 	"icons": [
 		{
 			"src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
 			"type": "image/png"
 		}
 	],
-	"theme_color": "#99F6E4",
-	"background_color": "#99F6E4",
+	"theme_color": "#FFCF1D",
+	"background_color": "#FDE68A",
 	"display": "standalone"
 }

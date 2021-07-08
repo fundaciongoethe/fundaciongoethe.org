@@ -65,7 +65,7 @@ module.exports = {
 				},
 				{
 					text: "Albúm de fotos",
-					url: "/es/",
+					url: "/es/galeria/",
 				},
 			],
 			row3: [
@@ -166,7 +166,7 @@ module.exports = {
 				},
 				{
 					text: "Fotoalbum",
-					url: "/de/",
+					url: "/de/fotoalbum/",
 				},
 			],
 			row3: [
