@@ -6,9 +6,11 @@ translationKey: "artists"
 seo:
   title: Förderer, Partner und Künstler
   description: Werden Sie Teil der Fundación Goethe als Förderer oder bewerben Sie einzelne Veranstaltungen unter Ihrer Schirmherrschaft.
+sponsorlist:
+  grids: grid-cols-3 md:grid-cols-4 lg:grid-cols-5
 ---
 
-<div class="md:text-center max-w-3xl mx-auto mb-12">
+<div class="relative md:text-center max-w-3xl mx-auto mb-12">
 	<h1 class="standardtitel text-gray-900">Förderer, Partner und Künstler</h1>
 	<p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
 		Unser Ziel ist es, den Dialog zwischen deutscher und spanischer Kultur zu
@@ -20,7 +22,7 @@ seo:
 
 <!-- förderer -->
 
-<div class="relative mt-10">
+<div id="sponsor" class="relative mt-16">
 	<div
 		class="
 			lg:mx-auto
@@ -52,8 +54,6 @@ seo:
 
 						<p>
 							Alle Spenden an die Fundación Goethe sind steuerlich absetzbar.
-						</p>
-						<p>
 							Sämtliche Vorteile und Bedingungen einer Mitgliedschaft erfahren
 							Sie von uns in einem persönlichen Gespräch!
 						</p>
@@ -64,17 +64,12 @@ seo:
 							class="
 								buttonhover
 								inline-flex
-								bg-gradient-to-r
-								from-red-600
-								to-orange-500
-								bg-origin-border
+								bg-red-600 bg-origin-border
 								px-4
 								py-2
 								border border-transparent
 								rounded-md
 								shadow-sm
-								text-white
-								hover:from-red-600 hover:to-red-700
 								no-underline
 							"
 						>
@@ -86,7 +81,7 @@ seo:
 			<div class="mt-8 border-t border-gray-200 pt-6">
 				<blockquote>
 					<div>
-						<p class="text-base text-gray-500">
+						<p class="text-base text-gray-700">
 							“Zitat von einem zufriedenem Förderer. Cras velit quis eros eget
 							rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur
 							donec aliquet. Mi venenatis in euismod ut.”
@@ -94,7 +89,7 @@ seo:
 					</div>
 					<footer class="mt-3">
 						<div class="flex items-center space-x-3">
-							<div class="text-base font-medium text-gray-700">
+							<div class="text-base font-medium text-black">
 								Vorname Name, Position bei Förderer
 							</div>
 						</div>
@@ -103,25 +98,41 @@ seo:
 			</div>
 		</div>
 		<div class="mt-12 sm:mt-16">
-			<div
-				class="
-					relative
-					rounded-lg
-					shadow-lg
-					overflow-hidden
-					aspect-w-4 aspect-h-4
-				"
-			>
-				<!-- picture shortcode -->
-				{% Picture "./src/assets/images/cta/concert.jpg"," aspect-w-4 aspect-h-4
-				", "object-cover filter grayscale", "Förderer" %}
+			<div class="relative py-3 sm:max-w-xl sm:mx-auto">
+				<div
+					class="
+						absolute
+						inset-0
+						bg-gradient-to-r
+						from-red-500
+						to-red-600
+						shadow-lg
+						transform
+						-skew-y-6
+						sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl
+					"
+				></div>
+				<div
+					class="
+						relative
+						px-4
+						aspect-w-4 aspect-h-4
+						bg-white
+						shadow-lg
+						sm:rounded-3xl
+					"
+				>
+					{% Picture "./src/assets/images/cta/concert.jpg"," aspect-w-4
+					aspect-h-4 ", "object-cover filter grayscale sm:rounded-xl",
+					"Förderer" %}
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- partner -->
 
-	<div class="mt-24">
+	<div id="partner" class="mt-24">
 		<div
 			class="
 				lg:mx-auto
@@ -164,17 +175,13 @@ seo:
 							class="
 								buttonhover
 								inline-flex
-								bg-gradient-to-r
-								from-orange-600
-								to-yellow-500
-								bg-origin-border
+								bg-orange-500 bg-origin-border
 								px-4
 								py-2
 								border border-transparent
 								rounded-md
 								shadow-sm
 								text-black
-								hover:from-orange-700 hover:to-yellow-600
 								no-underline
 							"
 						>
@@ -184,210 +191,249 @@ seo:
 				</div>
 			</div>
 			<div class="mt-12 sm:mt-16 lg:mt-0">
-				<div
-					class="
-						relative
-						rounded-lg
-						shadow-lg
-						overflow-hidden
-						aspect-w-4 aspect-h-4
-					"
-				>
-					<!-- picture shortcode -->
-					{% Picture "./src/assets/images/cta/concert.jpg"," aspect-w-4
-					aspect-h-4 ", "object-cover filter grayscale", "Förderer" %}
-
-					<div class="absolute inset-0 bg-red-600 mix-blend-multiply"></div>
+				<div class="relative py-3 sm:max-w-xl sm:mx-auto">
 					<div
 						class="
 							absolute
 							inset-0
-							bg-gradient-to-t
-							from-orange-600
-							to-yellow-500
-							opacity-40
+							bg-gradient-to-r
+							from-orange-500
+							to-orange-600
+							shadow-lg
+							transform
+							-skew-y-6
+							sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl
 						"
 					></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- kontakt claudia -->
-
-	<div
-		id="claudia"
-		class="
-			pb-16
-			lg:pb-0 lg:z-10 lg:relative
-			border-t border-b
-			bg-gradient-to-r
-			from-white
-			to-gray-200
-			mt-40
-		"
-	>
-		<div
-			class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8"
-		>
-			<div class="relative lg:-my-8">
-				<div
-					aria-hidden="true"
-					class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
-				></div>
-				<div
-					class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full"
-				>
 					<div
-						class="aspect-w-4 aspect-h-4 rounded-md shadow-md overflow-hidden"
-					>
-						<!-- picture shortcode -->
-						{% Picture "./src/assets/images/patrons/claudia-remus.jpg","
-						aspect-w-4 aspect-h-4 ", "rounded-md object-cover filter grayscale",
-						"Claudia Remus" %}
-					</div>
-				</div>
-			</div>
-			<div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
-				<div
-					class="
-						mx-auto
-						max-w-md
-						px-4
-						sm:max-w-2xl sm:px-6
-						lg:px-0 lg:py-20 lg:max-w-none
-					"
-				>
-					<blockquote>
-						<div>
-							<svg
-								class="h-12 w-12 text-red-600 opacity-25"
-								fill="currentColor"
-								viewBox="0 0 32 32"
-								aria-hidden="true"
-							>
-								<path
-									d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
-								></path>
-							</svg>
-							<p class="mt-6 text-xl text-black">
-								Ich freue mich darauf, alles weitere persönlich zu besprechen.
-								Sie erreichen mich per Festnetz unter
-								<a
-									class="no-underline"
-									href="tel:{{ meta.address.phoneCall }}"
-									>{{ meta.address.phoneDisplay }}</a
-								>, sowie per Mobiltelefon unter
-								<a
-									class="no-underline"
-									href="tel:{{ meta.address.mobileCall }}"
-									>{{ meta.address.mobileDisplay }}</a
-								>. Gerne können Sie mir auch unter
-								<a
-									class="no-underline"
-									href="mailto:{{ meta.address.email }}"
-									>{{ meta.address.email }}</a
-								>
-								eine E-Mail schreiben.
-							</p>
-						</div>
-						<footer class="mt-6">
-							<p class="text-base text-black">Claudia Remus</p>
-							<p class="text-base text-red-600">
-								Direktorin der Fundación Goethe
-							</p>
-						</footer>
-					</blockquote>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- förderer -->
-
-	<div class="mt-32">
-		<div
-			class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl"
-		>
-			<div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
-				<div>
-					<h2
 						class="
-							text-3xl
-							font-extrabold
-							text-gray-900
-							tracking-tight
-							sm:text-4xl
+							relative
+							px-4
+							aspect-w-4 aspect-h-4
+							bg-white
+							shadow-lg
+							sm:rounded-3xl
 						"
 					>
-						Backed by world-renowned investors
-					</h2>
-					<p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">
-						Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum
-						urna sed consectetur neque tristique pellentesque. Blandit amet, sed
-						aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel
-						porttitor vitae ut. Amet vitae fames senectus vitae.
-					</p>
-					<div class="mt-6">
-						<a href="#" class="text-base font-medium text-rose-500">
-							Meet our investors and advisors&nbsp;→
-						</a>
+						{% Picture "./src/assets/images/cta/concert.jpg"," aspect-w-4
+						aspect-h-4 ", "object-cover filter grayscale sm:rounded-xl",
+						"Förderer" %}
 					</div>
 				</div>
-				<div
-					class="
-						mt-12
-						grid grid-cols-2
-						gap-0.5
-						md:grid-cols-3
-						lg:mt-0 lg:grid-cols-2
-					"
-				>
-					<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-						<img
-							class="max-h-12"
-							src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-							alt="Transistor"
-						/>
+			</div>
+		</div>
+	</div>
+
+	<!-- artist -->
+
+	<div id="artist" class="relative mt-16">
+		<div
+			class="
+				lg:mx-auto
+				lg:max-w-7xl
+				lg:px-8
+				lg:grid
+				lg:grid-cols-2
+				lg:grid-flow-col-dense
+				lg:gap-24
+			"
+		>
+			<div
+				class="
+					px-4
+					max-w-xl
+					mx-auto
+					sm:px-6
+					lg:max-w-none lg:mx-0 lg:px-0
+					py-10
+				"
+			>
+				<div>
+					<div class="mt-6">
+						<h2 class="standardtitel">Eine Bühne in Spanien</h2>
+						<div class="mt-4 standardtext">
+							<p>
+								<strong>
+									Sind Sie Künstler? Ist Ihr Lebensinhalt die Bildende Kunst,
+									Darstellende Kunst oder Musik?</strong
+								>
+							</p>
+
+							<p>
+								Sie sind herzlich dazu eingeladen uns zu kontaktieren und uns
+								Ihre Arbeit vorzustellen. Senden Sie uns zum Beispiel Ihr
+								Portfolio als PDF oder Webseite, eine kurze Projektbeschreibung,
+								Youtube-Videos oder Spotify-Links.
+							</p>
+
+							<p>
+								Wir freuen uns, wenn wir für künftige Veranstaltungen in Spanien
+								zusammenarbeiten können!
+							</p>
+						</div>
+						<div class="mt-6">
+							<a
+								href="#claudia"
+								class="
+									buttonhover
+									inline-flex
+									bg-yellow-400 bg-origin-border
+									px-4
+									py-2
+									border border-transparent
+									rounded-md
+									shadow-sm
+									no-underline
+								"
+							>
+								Kontakt aufnehmen
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mt-12 sm:mt-16">
+				<div class="relative py-3 sm:max-w-xl sm:mx-auto">
+					<div
+						class="
+							absolute
+							inset-0
+							bg-gradient-to-r
+							from-yellow-400
+							to-yellow-500
+							shadow-lg
+							transform
+							-skew-y-6
+							sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl
+						"
+					></div>
+					<div
+						class="
+							relative
+							px-4
+							aspect-w-4 aspect-h-4
+							bg-white
+							shadow-lg
+							sm:rounded-3xl
+						"
+					>
+						{% Picture "./src/assets/images/cta/concert.jpg"," aspect-w-4
+						aspect-h-4 ", "object-cover filter grayscale sm:rounded-xl",
+						"Förderer" %}
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- kontakt claudia -->
+
+		<div
+			id="claudia"
+			class="
+				pb-16
+				lg:pb-0 lg:z-10 lg:relative
+				bg-gradient-to-r
+				from-gray-50
+				to-gray-200
+				mt-40
+				rounded-md
+			"
+		>
+			<div
+				class="lg:mx-auto lg:max-w-7xl md:px-8 md:grid md:grid-cols-3 md:gap-8"
+			>
+				<div class="relative md:-my-8">
+					<div
+						aria-hidden="true"
+						class="absolute inset-x-0 top-0 h-1/2 bg-white md:hidden"
+					></div>
+					<div
+						class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 md:p-0 md:h-full"
+					>
+						<div
+							class="aspect-w-4 aspect-h-4 rounded-md shadow-md overflow-hidden"
+						>
+							<!-- picture shortcode -->
+							{% Picture "./src/assets/images/patrons/claudia-remus.jpg","
+							aspect-w-4 aspect-h-4 ", "rounded-md object-cover filter
+							grayscale", "Claudia Remus" %}
+						</div>
+					</div>
+				</div>
+				<div class="mt-12 md:m-0 md:col-span-2 md:pl-8">
+					<div
+						class="
+							mx-auto
+							max-w-md
+							px-4
+							sm:max-w-2xl sm:px-6
+							md:px-0 md:py-4 md:max-w-none
+						"
+					>
+						<blockquote>
+							<div>
+								<svg
+									class="h-12 w-12 text-red-600 opacity-90"
+									fill="currentColor"
+									viewBox="0 0 32 32"
+									aria-hidden="true"
+								>
+									<path
+										d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
+									></path>
+								</svg>
+								<p class="mt-6 standardtext">
+									Ich freue mich darauf, alles weitere persönlich zu besprechen.
+									Sie erreichen mich unter
+									<a
+										class="no-underline"
+										href="tel:{{ meta.address.phoneCall }}"
+										>{{ meta.address.phoneDisplay }}</a
+									>
+									oder
+									<a
+										class="no-underline"
+										href="tel:{{ meta.address.mobileCall }}"
+										>{{ meta.address.mobileDisplay }}</a
+									>. Gerne können Sie mir auch unter
+									<a
+										class="no-underline"
+										href="mailto:{{ meta.address.email }}"
+										>{{ meta.address.email }}</a
+									>
+									eine E-Mail schreiben.
+								</p>
+							</div>
+							<footer class="mt-6">
+								<p class="text-base text-black">Claudia Remus</p>
+								<p class="text-base text-red-600">
+									Direktorin der Fundación Goethe
+								</p>
+							</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- förderer -->
+
+		<div class="mt-32">
+			<div
+				class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl"
+			>
+				<div class="lg:grid lg:grid-cols-3 lg:gap-24 lg:items-center">
+					<div>
+						<h2 class="standardtitel">Unsere Förderer</h2>
+						<p class="mt-4 standardtext">
+							Unsere Förderer sind die zentrale Achse der Fundación Goethe. Wir
+							haben das große Glück, seit Jahren auf die Zusammenarbeit mit
+							weltbekannten Unternehmen zählen zu können.
+						</p>
 					</div>
 
-					<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-						<img
-							class="max-h-12"
-							src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-							alt="Mirage"
-						/>
-					</div>
-
-					<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-						<img
-							class="max-h-12"
-							src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-							alt="Tuple"
-						/>
-					</div>
-
-					<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-						<img
-							class="max-h-12"
-							src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
-							alt="Laravel"
-						/>
-					</div>
-
-					<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-						<img
-							class="max-h-12"
-							src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-							alt="StaticKit"
-						/>
-					</div>
-
-					<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-						<img
-							class="max-h-12"
-							src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-							alt="Workcation"
-						/>
+					<div class="col-span-2">
+						{% include "components/sponsorlist.njk" %}
 					</div>
 				</div>
 			</div>

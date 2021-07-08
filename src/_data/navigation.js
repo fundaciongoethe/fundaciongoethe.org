@@ -176,7 +176,7 @@ module.exports = {
 				},
 				{
 					text: "Mitmachen",
-					url: "/de/",
+					url: "/de/mitmachen/",
 				},
 				{
 					text: "Aktuelles",
