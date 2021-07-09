@@ -11,7 +11,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/claus-temps.jpg
   alt: Claus Temps
-  credit: Fotografenname
+  credit:
 links:
   web:
   twitter:

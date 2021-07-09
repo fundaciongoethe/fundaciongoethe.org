@@ -75,7 +75,7 @@ module.exports = {
 				},
 				{
 					text: "Participar",
-					url: "/es/",
+					url: "/es/participar/",
 				},
 				{
 					text: "Noticias",

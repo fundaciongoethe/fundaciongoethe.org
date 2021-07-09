@@ -17,8 +17,7 @@
 			class="
 				flex
 				md:flex-col
-				lg:flex-row
-				lg:items-center
+				lg:flex-row lg:items-center
 				justify-between
 				relative
 			"
@@ -58,8 +57,7 @@
 					hidden
 					md:block
 					bg-gray-900
-					md:px-2
-					md:pl-10
+					md:px-2 md:pl-10
 					lg:pl-12
 					2xl:pr-10
 					w-full
@@ -81,8 +79,7 @@
 							font-semibold
 							uppercase
 							bg-gray-900
-							hover:text-white
-							hover:bg-gray-800
+							hover:text-white hover:bg-gray-800
 							px-1
 							md:px-2
 							2xl:px-3
@@ -302,18 +299,18 @@ Heroicon name: outline/x"
 			{% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set
 			translatedUrl to the homepage of that language by default #} {% set
 			translatedUrl = "/" + lgg.code + "/" %} {# set current language class #}
-			{% set activeClass = "bg-orange-500 text-white " if lgg.code == locale
-			else "text-gray-900 " %} {# loop through all the content of the site #} {%
-			for item in collections.all %} {# for each item in the loop, check if -
-			its translationKey matches the current item translationKey - its locale
+			{% set activeClass = "bg-gray-300 " if lgg.code == locale else
+			"text-gray-900 " %} {# loop through all the content of the site #} {% for
+			item in collections.all %} {# for each item in the loop, check if - its
+			translationKey matches the current item translationKey - its locale
 			matches the code of the language we are looping through #} {% if
 			item.data.translationKey == translationKey and item.data.locale ==
 			lgg.code %} {% set translatedUrl = item.url %} {% endif %} {% endfor %}
 
 			<a
 				class="
-					bg-gray-300 text-center
-					hover:bg-white
+					bg-gray-200 text-center
+					hover:bg-gray-300
 			no-underline
 			text-xs
 			font-semibold

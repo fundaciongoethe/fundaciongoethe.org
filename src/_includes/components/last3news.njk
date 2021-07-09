@@ -39,7 +39,7 @@
 									<!-- if featured image -->
 									{% if post.data.images.featured %} {% Picture
 									post.data.images.featured,"", "lazy object-cover grayimg
-									w-full h-40", post.data.images.alt %}
+									w-full h-40", post.data.images.alt or post.data.title %}
 									<!-- else fallback -->
 									{% else %} {% Picture
 									"./src/assets/images/blog/blog-fallback.jpg","", "lazy
