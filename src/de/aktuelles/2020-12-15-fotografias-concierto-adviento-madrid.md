@@ -2,7 +2,7 @@
 title: "Rückblick auf das Adventskonzert in Madrid"
 date: "2020-12-15"
 translationKey: "adviento20mad"
-excerpt:
+excerpt: Wir möchten uns bei allen bedanken, die es ermöglicht haben, dass unser traditionelles Adventskonzert in Madrid sicher stattfinden konnte
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/concierto-adviento-madrid-2020.jpg
   alt:

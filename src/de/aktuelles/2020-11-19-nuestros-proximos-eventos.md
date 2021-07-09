@@ -2,13 +2,13 @@
 title: ZUnsere nächsten Veranstaltungen"
 date: "2020-11-19"
 translationKey: "proximos20"
-excerpt:
+excerpt: Wir freuen uns sehr, dass wir Ihnen in den letzten Wochen dieses Jahres noch einige Veranstaltungen anbieten dürfen.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/std-news-2.jpg
   alt:
 ---
 
-"Wir freuen uns sehr, dass wir Ihnen in den letzten Wochen dieses Jahres noch einige Veranstaltungen anbieten dürfen. Ihre regulären Einladungen erhalten Sie separat. Bitte beachten Sie dass die Präsenzveranstaltungen aufgrund der Corona-Krise ein sehr reduziertes Kontigent haben und wir nicht wie bisher alle unsere Kontakte zu unseren Adventskonzerten einladen können. Hoffentlich wird dies nächstes Jahr wieder möglich sein.
+Wir freuen uns sehr, dass wir Ihnen in den letzten Wochen dieses Jahres noch einige Veranstaltungen anbieten dürfen. Ihre regulären Einladungen erhalten Sie separat. Bitte beachten Sie dass die Präsenzveranstaltungen aufgrund der Corona-Krise ein sehr reduziertes Kontigent haben und wir nicht wie bisher alle unsere Kontakte zu unseren Adventskonzerten einladen können. Hoffentlich wird dies nächstes Jahr wieder möglich sein.
 Bleiben Sie gesund!
 
 <strong>22. November 2020 - Online</strong>

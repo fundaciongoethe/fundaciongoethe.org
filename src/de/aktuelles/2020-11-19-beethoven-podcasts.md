@@ -2,13 +2,13 @@
 title: "Wir empfehlen: Die Beethoven-Podcasts"
 date: "2020-11-19"
 translationKey: "beethovenpod"
-excerpt:
+excerpt: Wir empfehlen die Beethoven-Podcasts der Deutschen Zentrale für Tourismus - Auf den Spuren des Musikgenies in ganz Deutschland.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/beethoven.jpg
   alt:
 ---
 
-"Wir empfehlen die Beethoven-Podcasts der Deutschen Zentrale für Tourismus: Auf den Spuren des Musikgenies in ganz Deutschland.
+Wir empfehlen die Beethoven-Podcasts der Deutschen Zentrale für Tourismus: Auf den Spuren des Musikgenies in ganz Deutschland.
 
 Ludwig van Beethoven (1770 - 1827) gilt als der meistgespielte klassische Komponist der Welt und als einer der wichtigsten Botschafter der europäischen Kultur. Dieser radikale Künstler, der sich immer wieder neu erfunden hat, inspiriert uns bis heute.
 
