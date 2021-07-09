@@ -3,7 +3,7 @@ title: "Fundación Federico Fliedner"
 translationKey: "fliedner"
 customSlug: "fliedner"
 since: "2011"
-excerpt: Muffin pastry oat cake jelly pie. Sugar plum pie liquorice liquorice cookie cotton candy croissant. Powder tart jelly beans donut chocolate bar. Apple pie pudding chocolate bar sweet cheesecake soufflé.
+excerpt:
 seo:
   image:
 images: # complete path for eleventy img srcset output, alt required

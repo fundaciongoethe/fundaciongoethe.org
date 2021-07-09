@@ -46,7 +46,7 @@ module.exports = {
 		menuClose: "cerrar",
 		invitations: "Recibe invitaciones",
 		invitationsLink: "invitaciones",
-		readingText: "seguir leyendo",
+		readingText: "leer",
 		sponsorSince: "Patrocinador de la Fundación Goethe desde",
 		sponsorCoop: "Colaobración especial",
 		sponsorCoopContent:

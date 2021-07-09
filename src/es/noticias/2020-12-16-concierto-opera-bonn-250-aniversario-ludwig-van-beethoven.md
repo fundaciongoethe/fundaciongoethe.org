@@ -2,7 +2,7 @@
 title: "Concierto en honor al 250 aniversario del nacimiento de Ludwig van Beethoven"
 date: "2020-12-16"
 translationKey: "bonn"
-excerpt:
+excerpt: En honor al 250º aniversario de Ludwig van Beethoven se emitará hoy, 17 de diciembre, una transmisión en directo desde la Ópera de Bonn.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/Beethoven_als_Bonner_Buerger_c_Sonja_Werner1.jpg
   alt:

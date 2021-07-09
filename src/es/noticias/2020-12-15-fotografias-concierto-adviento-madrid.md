@@ -2,7 +2,7 @@
 title: "Fotografías del concierto de Adviento en Madrid"
 date: "2020-12-15"
 translationKey: "adviento20mad"
-excerpt:
+excerpt: Queremos agradecer a todas las personas que hicieron posible que se pudiera celebrar de forma segura nuestro tradicional concierto de Adviento en Madrid.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/concierto-adviento-madrid-2020.jpg
   alt:
