@@ -1,5 +1,5 @@
 ---
-title: 'Concierto de "Caterva Musica" en el Pabellón Mies van der Rohe'
+title: "Concierto de Caterva Musica en el Pabellón Mies van der Rohe"
 date: "2020-07-16"
 translationKey: "caterva20"
 excerpt:
