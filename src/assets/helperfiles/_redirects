@@ -1,4 +1,5 @@
 /eventos/                                                                 /es/eventos/
+/eventos-previstos/                                                       /es/eventos/
 /invitaciones/                                                            /es/invitaciones/
 /retrospectiva/                                                           /es/eventos/
 /contacto/                                                                /es/contacto/
@@ -26,5 +27,10 @@
 
 /de/datenschutzerklaerung/                                                /de/datenschutz/
 /es/politica-de-privacidad/                                               /de/privacidad/
-/es/aviso-legal/                                                          /es/aviso-legal/
+/es/aviso/                                                                /es/aviso-legal/
+
+/downloads/jahrbuch-2014.pdf                                              /assets/pdf/jahrbuch-2014.pdf
+/downloads/jahrbuch-2015.pdf                                              /assets/pdf/jahrbuch-2015.pdf
+/downloads/jahrbuch-2016.pdf                                              /assets/pdf/jahrbuch-2016.pdf
+/downloads/jahrbuch-2017.pdf                                              /assets/pdf/jahrbuch-2017.pdf
 

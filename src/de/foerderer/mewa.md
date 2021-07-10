@@ -13,5 +13,5 @@ links:
   twitter: https://twitter.com/mewa_es
   facebook:
   instagram:
-  linkedin: https://linkedin.com/company/mewaserviciotextil/
+  linkedin: https://linkedin.com/company/mewaserviciotextil
 ---

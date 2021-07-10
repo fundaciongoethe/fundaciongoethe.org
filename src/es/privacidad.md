@@ -35,7 +35,7 @@ La FUNDACIÓN GOETHE ESPAÑA realiza las siguientes transferencias internacional
 
 Las transferencias de datos a las empresas mencionadas se realizan al amparo del acuerdo EU-US Privacy Shield. Podrá encontrar una lista de empresas adheridas al acuerdo EU-US Privacy Shield así como más información al respecto en el siguiente enlace: <a rel="noreferrer noopener" href="https://www.privacyshield.gov/list">privacyshield.gov/list</a>.
 
-**Base jurídica del tratamiento**
+## Base jurídica del tratamiento
 
 **Patrocinadores y promotores**
 
