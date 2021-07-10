@@ -91,7 +91,7 @@ module.exports = {
 		footer: [
 			{
 				text: "Aviso legal",
-				url: "/es/aviso/",
+				url: "/es/aviso-legal/",
 			},
 			{
 				text: "Política de privacidad ",

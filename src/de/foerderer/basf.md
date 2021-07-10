@@ -19,9 +19,9 @@ images: # complete path for eleventy img srcset output, alt required
   featured4: ./src/assets/images/sponsors/basf/basf-4.jpg
   alt4: Standort von BASF in Barcelona
 links:
-  web: basf.com/es/es.html
-  twitter: twitter.com/BASF_ES
-  facebook: facebook.com/basf.spain
-  instagram: instagram.com/basf_es
-  linkedin: linkedin.com/company/basf
+  web: https://basf.com/es/es.html
+  twitter: https://twitter.com/BASF_ES
+  facebook: https://facebook.com/basf.spain
+  instagram: https://instagram.com/basf_es
+  linkedin: https://linkedin.com/company/basf
 ---

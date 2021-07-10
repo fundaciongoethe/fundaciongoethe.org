@@ -9,9 +9,9 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/jungheinrich/jungheinrich-logo.png
 links:
-  web: https://www.jungheinrich.es/
+  web: https://jungheinrich.es
   twitter:
-  facebook: https://www.facebook.com/JungheinrichES/
-  youtube: https://www.youtube.com/channel/UCMet5UmBhtQRn5GlF0THB3Q
-  linkedin: https://www.linkedin.com/company/jungheinrich-de-espa-a-s-a-u-/
+  facebook: https:/facebook.com/JungheinrichES/
+  youtube: https://youtube.com/channel/UCMet5UmBhtQRn5GlF0THB3Q
+  linkedin: https://linkedin.com/company/jungheinrich-de-espa-a-s-a-u-
 ---

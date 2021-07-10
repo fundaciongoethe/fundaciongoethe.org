@@ -11,7 +11,7 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://corporate.evonik.com/en
   twitter: https://twitter.com/evonik
-  facebook: https://www.facebook.com/Evonik/
-  youtube: https://www.youtube.com/user/EvonikIndustries
-  linkedin: https://www.linkedin.com/company/evonik
+  facebook: https://facebook.com/Evonik/
+  youtube: https://youtube.com/user/EvonikIndustries
+  linkedin: https://linkedin.com/company/evonik
 ---

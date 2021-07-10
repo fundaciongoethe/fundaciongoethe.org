@@ -2,7 +2,7 @@
 title: "El concierto de Adviento en Barcelona se cancela"
 date: "2020-12-03"
 translationKey: "advientobcn20"
-excerpt: Lamentablemente hemos tenido que cancelar el concierto de Adviento en Barcelona, que ya era programado.
+excerpt: Lamentablemente hemos tenido que cancelar el concierto de Adviento en Barcelona, que ya era programado. No obstante, estamos trabajando para posponerlo al año que viene.
 images: # complete path for eleventy img srcset output, alt required
   featured:
   alt:

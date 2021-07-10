@@ -5,12 +5,8 @@ tags: pages
 
 <main id="main" class="block">
 	<div class="relative pb-6 md:pb-20">
-		<article>
-			<h1 class="standardtitle">
-				{{ seo.title or title }}
-			</h1>
-
-			<div class="prose mx-auto px-3 sm:px-6">{{ content | safe }}</div>
+		<article class="py-10 md:py-0 lg:py-16 px-3 sm:px-6 xl:px-16 2xl:px-24">
+			<div class="prose mx-auto">{{ content | safe }}</div>
 		</article>
 	</div>
 </main>

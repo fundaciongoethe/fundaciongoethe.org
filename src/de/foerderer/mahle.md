@@ -9,9 +9,9 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/mahle/mahle-logo.png
 links:
-  web: https://www.mahle.com/
+  web: https://mahle.com
   twitter: https://twitter.com/MAHLE_Group
-  facebook: https://www.facebook.com/mahlegroup/
-  instagram: https://www.instagram.com/mahlegroup/
-  youtube: https://www.youtube.com/user/MAHLEZU
+  facebook: https://facebook.com/mahlegroup
+  instagram: https://instagram.com/mahlegroup
+  youtube: https://youtube.com/user/MAHLEZU
 ---

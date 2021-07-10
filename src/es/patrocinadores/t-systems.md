@@ -9,8 +9,8 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/t-systems/t-systems-logo.png
 links:
-  web: https://www.t-systems.com/es/es
+  web: https://t-systems.com/es/es
   twitter: https://twitter.com/TSystems_Iberia
-  youtube: https://www.youtube.com/user/TSystemsIberia
-  linkedin: https://www.linkedin.com/company/tsystems-iberia
+  youtube: https://youtube.com/user/TSystemsIberia
+  linkedin: https://linkedin.com/company/tsystems-iberia
 ---

@@ -2,7 +2,7 @@
 title: "Nuestros próximos eventos"
 date: "2020-11-19"
 translationKey: "proximos20"
-excerpt:
+excerpt: Estamos muy contentos de poder ofreceros algunos eventos más en las últimas semanas de este año. Recibiréis vuestras invitaciones habituales por separado.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/std-news-2.jpg
   alt:

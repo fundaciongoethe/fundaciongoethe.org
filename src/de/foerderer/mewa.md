@@ -9,9 +9,9 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/mewa/mewa-logo.png
 links:
-  web: https://www.mewa.es/
+  web: https://mewa.es
   twitter: https://twitter.com/mewa_es
   facebook:
   instagram:
-  linkedin: https://www.linkedin.com/company/mewaserviciotextil/about/
+  linkedin: https://linkedin.com/company/mewaserviciotextil/
 ---

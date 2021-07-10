@@ -9,9 +9,9 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/bmw/bmw-logo.png
 links:
-  web: https://www.bmw.es
+  web: https://bmw.es
   twitter: https://twitter.com/BMWEspana
-  facebook: https://www.facebook.com/BMW.Espana
-  instagram: https://www.instagram.com/bmwespana/
-  youtube: https://www.youtube.com/user/BMWEspana
+  facebook: https://facebook.com/BMW.Espana
+  instagram: https://instagram.com/bmwespana
+  youtube: https://youtube.com/user/BMWEspana
 ---

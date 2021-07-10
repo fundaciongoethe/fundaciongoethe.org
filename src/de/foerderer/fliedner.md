@@ -9,8 +9,8 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/fliedner/fliedner-logo.png
 links:
-  web: https://www.fliedner.es
+  web: https://fliedner.es
   twitter: https://twitter.com/Fund_Fliedner
-  facebook: https://www.facebook.com/fundacionfedericofliedner.es
-  youtube: https://www.youtube.com/channel/UCn2kqNYAltaRScEkyNhdXKw
+  facebook: https://facebook.com/fundacionfedericofliedner.es
+  youtube: https://youtube.com/channel/UCn2kqNYAltaRScEkyNhdXKw
 ---

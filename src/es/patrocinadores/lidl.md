@@ -9,9 +9,9 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/lidl/lidl-logo.png
 links:
-  web: https://www.lidl.es/
-  twitter: http://www.twitter.com/lidlespana
-  facebook: http://www.facebook.com/lidlespana
+  web: https://lidl.es
+  twitter: http://twitter.com/lidlespana
+  facebook: http://facebook.com/lidlespana
   instagram: https://instagram.com/lidlespana
-  youtube: https://www.youtube.com/user/LIDLEspana?sub_confirmation=1
+  youtube: https://youtube.com/user/LIDLEspana
 ---

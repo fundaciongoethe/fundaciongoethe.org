@@ -11,7 +11,7 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://twitter.com/mewa_es
   twitter: https://twitter.com/MBenzEspana
-  facebook: https://www.facebook.com/MercedesBenzEspana
-  instagram: https://www.instagram.com/mbenzespana/
-  youtube: https://www.youtube.com/user/MercedesBenzSpain
+  facebook: https://facebook.com/MercedesBenzEspana
+  instagram: https://instagram.com/mbenzespana
+  youtube: https://youtube.com/user/MercedesBenzSpain
 ---

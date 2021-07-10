@@ -19,6 +19,7 @@ module.exports = {
 		mobileDisplay: "+34 670 588 264",
 		mobileCall: " +34670588264",
 		email: "info@fundaciongoethe.org",
+		cif: "G83131854",
 	},
 	defaultLang: "es",
 	languages: [

@@ -1,46 +1,52 @@
 ---
-title: Política de privacidad
-description: Política de privacidad según la Regulación General de Protección de Datos de la UE (RGPD).
+title: Datenschutzerklärung
+description: Datenschutzerklärung der Fundación Goethe, gemäß der EU-Datenschutzgrundverordnung (GDPR).
 layout: page
 permalink: "/{{ locale }}/datenschutz/index.html"
 translationKey: "privacy"
 ---
 
-Respeto la Regulación General de Protección de Datos de la UE (RGPD) y este documento de política explica cómo recopilamos y manejamos cualquier información que nos proporciones.
+# Datenschutzerklärung
 
-## ¿Qué datos de fondo se recogen?
-
-Esta página web no recoge ningún dato personal. No establece ninguna cookie y no utiliza ningún script de seguimiento de terceros. No se procesa ninguna analítica de usuario ni ninguna otra métrica durante tu visita, y el servidor no escribe ningún archivo de registro, lo que significa que tu dirección IP no se almacena en ningún sitio.
-
-## ¿Cómo utilizamos los datos que proporcionas?
-
-Este sitio web no recoge más información.
-
-## ¿Qué tan seguros están tus datos?
-
-Muy seguro, ya que este sitio web no recoge ninguna información.
-
-## ¿Qué tan seguro es este sitio web?
-
-Este sitio web se transmite a sí mismo usando HTTPS, encriptando todos los datos entre el navegador y el servidor. Tu proveedor de red puede seguir viendo que está cargando archivos de este sitio, pero no su contenido. Esto también te protege de que terceros intercepten datos, por ejemplo, mientras navega en una WiFi pública, o de que los proveedores de red inyecten anuncios en este sitio.
-
-## Responsable del tratamiento de datos
+## Für die Datenverarbeitung verantwortlich:
 
 {{ meta.address.firma }}
-{{ meta.address.street }}
-{{ meta.address.zip }}, {{ meta.address.city }},
+**CIF:** {{ meta.address.cif }}
+**Adresse:**{{ meta.address.street }}
+{{ meta.address.zip }}, {{ meta.address.city }}
 
-Tel: <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
-Mail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+**Tel:** <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
+**E-Mail:** <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
-Si tienes alguna pregunta o duda al respecto por favor, ponte en contacto conmigo: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+Wenn Sie diesbezüglich Fragen oder Bedenken haben, wenden Sie sich bitte an: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
-## Cambios en la política
+## Welche Daten werden im Hintergrund gesammelt?
 
-Si cambio el contenido de esta política, esos cambios serán efectivos en el momento en que los publique en mi sitio web.
+Diese Website sammelt oder speichert keine persönlich identifizierbaren Daten im Hintergrund.
 
-## Quejas
+## Internationale Datenübertragungen
 
-Si tienes alguna razón para quejarte de la forma en que manejo su privacidad, por favor contáctame por correo electrónico: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.
+Die FUNDACIÓN GOETHE ESPAÑA nimmt folgende internationale Datenübertragungen vor:
 
-Última actualización: 28 de abril de 2021
+- **Netlify**: für den Versand des Kontaktformulars.
+- **Mailchimp**: für die Übersendung geschäftlicher Kommunikation.
+- **Eventbrite**: für die Eintragung von Mitarbeitern für Veranstaltungen.
+- **Google Drive**: für die Archivierung von Dokumenten.
+- **Dropbox**: für die Archivierung von Dokumenten.
+- **Microsoft OneDrive**: für den Versand von E-Mails.
+
+Die Übertragung von Daten an die genannten Unternehmen erfolgt unter dem Schutz des EU-US Privacy-Shield-Abkommens. Sie finden eine Auflistung der dem EU-US Privacy Shield beigetretenen Unternehmen sowie weitere Informationen unter <a rel="noreferrer noopener" href="https://www.privacyshield.gov/list">privacyshield.gov/list</a>.
+
+## Wie sicher ist diese Website?
+
+Diese Webseite überträgt sich mit HTTPS, wodurch alle Daten zwischen dem Browser und dem Server verschlüsselt werden. Ihr Netzwerkbetreiber kann zwar sehen, dass Sie Dateien von dieser Website laden, aber nicht deren Inhalt. Dies schützt Sie auch vor dem Abfangen von Daten durch Dritte, z. B. beim Surfen im öffentlichen WLAN, oder vor der Einblendung von Werbung auf dieser Seite durch Netzwerkbetreiber.
+
+## Änderungen an der Richtlinie
+
+Wenn wir den Inhalt dieser Richtlinien ändern, werden diese Änderungen in dem Moment wirksam, in dem wir sie auf unserer Webseite veröffentlichen.
+
+## Reklamationen
+
+Wenn Sie einen Grund haben, sich über die Art und Weise zu beschweren, wie wir Ihre Privatsphäre behandlen, kontaktieren Sie uns bitte per E-Mail an : <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.
+
+Zuletzt aktualisiert am: 01. Juli 2021
