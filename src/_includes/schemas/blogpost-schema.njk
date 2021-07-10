@@ -12,7 +12,7 @@
 		"headline": "{{ title or meta.siteName }}",
 		"description": "{{ excerpt or meta.siteDescription }}",
 		"image": "{% if seo.image %}/assets/images/{{ seo.image }}{% else %}{{ meta.siteImage }}{% endif %}",
-		"inLanguage": "{{ meta.[locale] }}",
+		"inLanguage": "{{ meta[locale] }}",
 		"publisher": {
 			"@type": "{{ meta.siteType }}",
 			"name": "{{ meta.authorName }}",
