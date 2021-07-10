@@ -12,7 +12,7 @@ translationKey: "privacy"
 
 {{ meta.address.firma }}
 **CIF:** {{ meta.address.cif }}
-**Adresse:**{{ meta.address.street }}
+**Adresse:** {{ meta.address.street }}
 {{ meta.address.zip }}, {{ meta.address.city }}
 
 **Tel:** <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>

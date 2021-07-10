@@ -11,7 +11,7 @@ translationKey: "privacy"
 ## Responsable del tratamiento de datos
 
 **CIF:** {{ meta.address.firma }}
-**Adresse:**{{ meta.address.street }}
+**Dirección:** {{ meta.address.street }}
 {{ meta.address.zip }}, {{ meta.address.city }}
 
 **Tel:** <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>

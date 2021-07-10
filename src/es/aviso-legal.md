@@ -23,4 +23,5 @@ Este sitio está construido usando <a href="https://www.11ty.dev/" target="_blan
 
 El método Jamstack es una forma moderna y muy sencilla de crear paginas web. Y tiene grandes ventajas: Tiempos de carga muy rápidos, más seguridad, bajos costos de funcionamiento, un desarrollo rápido y cambios sin complicaciones.
 
-Quieres una página web? Ponte en contacto con <a href="https://www.lenesaile.com" target="_blank" rel="noopener">Lene</a>, estará encantada de ayudarte.
+**¿Te gustaría tener un sitio web como este?**
+Ponte en contacto con <a href="https://www.lenesaile.com" target="_blank" rel="noopener">Lene</a>, estará encantada de ayudarte.
