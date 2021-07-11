@@ -6,14 +6,14 @@
 			"@type": "Place",
 			"address": {
 				"@type": "PostalAddress",
-				"addressLocality": "{{ event.data.location }}"
+				"addressLocality": "{{ location }}"
 			},
-			"name": "{{ event.data.location }}"
+			"name": "{{ location }}"
 		},
-		"name": "{{ event.data.title }}",
-		"description": "{{ event.data.description }}",
-		"startDate": "{{ event.data.date  }}",
-		"endDate": "{{ event.data.ending  }}",
-		"performer": "{{ event.data.artist  }}"
+		"name": "{{ title }}",
+		"description": "{{ description }}",
+		"startDate": "{{ date  }}",
+		"endDate": "{{ ending  }}",
+		"performer": "{{ artist  }}"
 	}
 </script>

@@ -346,6 +346,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"src/assets/helperfiles/sitemap.xml.njk": "sitemap.xml",
 	});
+	eleventyConfig.addPassthroughCopy({
+		"src/assets/helperfiles/feed.njk": "feed.xml",
+	});
 
 	// social icons von images zu root
 	eleventyConfig.addPassthroughCopy({

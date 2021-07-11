@@ -4,13 +4,8 @@ date: "2020-09-04"
 translationKey: "infoeventos"
 excerpt:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/blog/xy.jpg
+  featured: ./src/assets/images/blog/herbstinfo-web2.jpg
   alt:
-gallery:
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
 ---
 
 Para septiembre, teníamos planeados conciertos presenciales en Barcelona, Málaga y Aranjuez con la pianista Corinna Simon y el dúo de guitarras Gruber/Maklar. Desafortunadamente tenemos que cancelar estos conciertos.
@@ -23,7 +18,7 @@ Le deseamos buena salud y un buen comienzo en la segunda mitad del año.
 
 ## Livestream: El guitarrista Pablo Sainz Villegas con la orquesta de RTVE
 
-El guitarrista español Pablo Sainz Villegas interpreta obras de Joaquín Rodrigo con la orquesta de RTVE bajo la dirección de Enrique García Asensio en el marco del ciclo anual de conciertos "Joaquín Rodrigo en Aranjuez". Programa: Adagio para instrumentos de viento, Concierto de Aranjuez, Tres viejos aires de danza y Homenaje a la Tempranica de Joaquín Rodrigo. Esta serie de conciertos especiales lleva ya tres años de existencia y fue inaugurada en su momento con la participación del dúo Gruber/Maklar. **Livestream, 11.09.2020, 21:30h. [Más info en rtve.es](https://www.rtve.es/rtve/20200720/iv-concierto-joaquin-rodrigo-aranjuez-orquesta-sinfonica-rtve-garcia-asensio-sainz-villegas/2033143.shtml).**
+El guitarrista español Pablo Sainz Villegas interpreta obras de Joaquín Rodrigo con la orquesta de RTVE bajo la dirección de Enrique García Asensio en el marco del ciclo anual de conciertos "Joaquín Rodrigo en Aranjuez". Programa: Adagio para instrumentos de viento, Concierto de Aranjuez, Tres viejos aires de danza y Homenaje a la Tempranica de Joaquín Rodrigo. Esta serie de conciertos especiales lleva ya tres años de existencia y fue inaugurada en su momento con la participación del dúo Gruber/Maklar. \*\*Livestream, 11.09.2020, 21:30h.
 
 ## Reportaje de televisión: Corinna Simon con la orquesta RTVE
 
