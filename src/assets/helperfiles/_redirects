@@ -34,3 +34,7 @@
 /downloads/jahrbuch-2016.pdf                                              /assets/pdf/jahrbuch-2016.pdf
 /downloads/jahrbuch-2017.pdf                                              /assets/pdf/jahrbuch-2017.pdf
 
+/noticias/                                                                /es/noticias/
+/de/aktuell/                                                              /de/aktuelles/
+/noticias/*                                                               /es/noticias/:splat
+/de/aktuell/*                                                             /de/aktuelles/:splat

@@ -6,15 +6,14 @@
 			"@type": "Place",
 			"address": {
 				"@type": "PostalAddress",
-				"addressLocality": "{{ event.data.place.city }}",
-				"postalCode": "{{ event.data.place.plz }}",
-				"streetAddress": "{{ event.data.place.street }}"
+				"addressLocality": "{{ event.data.location }}"
 			},
-			"name": "{{ event.data.place.name }}"
+			"name": "{{ event.data.location }}"
 		},
 		"name": "{{ event.data.title }}",
 		"description": "{{ event.data.description }}",
 		"startDate": "{{ event.data.date  }}",
-		"performer": "Alberto Ballesteros"
+		"endDate": "{{ event.data.ending  }}",
+		"performer": "{{ event.data.artist  }}"
 	}
 </script>

@@ -2,6 +2,7 @@ module.exports = {
 	siteURL: process.env.URL || "http://localhost:8080",
 	siteName: "Fundación Goethe",
 	siteType: "Organization", // schema
+	logoUrl: "https://www.fundaciongoethe.org/assets/svg/logo-goethe20-RGB.svg",
 	siteImage: "/assets/images/default.png",
 	authorName: "Fundación Goethe",
 	authorURL: "https://www.fundaciongoethe.org",
@@ -73,7 +74,7 @@ module.exports = {
 		},
 		contact: {
 			title: "Escríbenos usando nuestro formulario",
-			text: "Si nos escribes un mensaje mediante el formulario de contacto, utilizarémos los datos que nos proporciones para mantener correspondencia contigo. Este sitio web no recoge más información.",
+			text: "Si nos escribes un mensaje mediante el formulario de contacto, utilizarémos los datos que nos proporciones para mantener correspondencia contigo. ",
 			firstname: "Nombre",
 			lastname: "Apellidos",
 			email: "Email ",
@@ -132,7 +133,7 @@ module.exports = {
 		},
 		contact: {
 			title: "Schreiben Sie uns über unser Kontaktformular.",
-			text: "Wenn Sie das Kontaktformular nutzen, verwenden wir die von Ihnen angegebenen Daten, um mit Ihnen zu korrespondieren. Diese Website sammelt keine weiteren Informationen. Weitere Infos in unserem Datenschutz.",
+			text: "Wenn Sie das Kontaktformular nutzen, verwenden wir die von Ihnen angegebenen Daten, um mit Ihnen zu korrespondieren. ",
 			firstname: "Vorname",
 			lastname: "Nachname",
 			email: "E-Mail",

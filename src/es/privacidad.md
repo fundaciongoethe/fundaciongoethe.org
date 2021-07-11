@@ -10,14 +10,15 @@ translationKey: "privacy"
 
 ## Responsable del tratamiento de datos
 
-**CIF:** {{ meta.address.firma }}
+{{ meta.address.firma }}
+**CIF:** {{ meta.address.cif }}
 **Dirección:** {{ meta.address.street }}
 {{ meta.address.zip }}, {{ meta.address.city }}
 
 **Tel:** <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
 **Mail:** <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
-Si tienes alguna pregunta o duda al respecto por favor, ponte en contacto con: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+Si tienes alguna pregunta o duda al respecto por favor, ponte en contacto con Claudia Remus: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 ## ¿Qué datos de fondo se recogen?
 
@@ -27,6 +28,7 @@ Esta página web no recoge ningún dato personal. No establece ninguna cookie y 
 
 La FUNDACIÓN GOETHE ESPAÑA realiza las siguientes transferencias internacionales de datos:
 
+- **Netlify**: para el envío del formulario de contacto.
 - **Mailchimp**: para el envío de las comunicaciones comerciales.
 - **Eventbrite**: para la inscripción de los asistentes a eventos y actividades.
 - **Google Drive**: para el archivo de documentos.
@@ -77,6 +79,9 @@ Si cambiamos el contenido de esta política, esos cambios serán efectivos en el
 
 ## Quejas
 
-Si tienes alguna razón para quejarte de la forma en que tratamos tu privacidad, ponte en contacto con nosotros por correo electrónico: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>. Podrás también presentar una reclamación ante la Agencia Española de Protección de Datos.
+Si tienes alguna razón para quejarte de la forma en que tratamos tu privacidad, ponte en contacto con nosotros por correo electrónico: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.
+Podrás también presentar una reclamación ante la Agencia Española de Protección de Datos.
+
+## Actualización
 
 Última actualización: 01 de julio de 2021
