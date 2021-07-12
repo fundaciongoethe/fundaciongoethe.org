@@ -13,10 +13,10 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/uleci.jpg
   alt: UceLi Quartet
 links:
-  web: https://www.guillaumeterrail.com/uceli-quartet
+  web: https://guillaumeterrail.com/uceli-quartet
   twitter:
-  facebook: https://www.facebook.com/Uceliquartet/
-  instagram: https://www.instagram.com/uceli_quartet/
+  facebook: https://facebook.com/Uceliquartet
+  instagram: https://instagram.com/uceli_quartet
   spotify:
   youtube:
 ---

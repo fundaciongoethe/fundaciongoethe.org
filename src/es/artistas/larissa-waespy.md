@@ -14,8 +14,8 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://waespy.net/
   twitter:
-  facebook: https://www.facebook.com/profile.php?id=100002333306461
-  instagram: https://www.instagram.com/larissawaespy/
+  facebook: https://facebook.com/profile.php?id=100002333306461
+  instagram: https://instagram.com/larissawaespy
   spotify: https://open.spotify.com/artist/19nzmdk9tGOo25sILaiRur
   youtube:
 ---

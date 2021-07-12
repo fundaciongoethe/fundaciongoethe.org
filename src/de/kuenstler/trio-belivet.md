@@ -3,7 +3,7 @@ title: "Trío Belivet"
 translationKey: "triobelivet"
 customSlug: "trio-belivet"
 excerpt: Das Trío Belivet aus Madrid besteht aus den Künstlern Marta Leiva Egido am piano, Guillermo Santonja di Fonzo an der Violine und María Cadenas Rodríguez am Violonchelo
-occupation: "Trio"
+occupation: "Klaviertrio"
 seo:
   image: artists/trio-belivet.jpg
 images: # complete path for eleventy img srcset output, alt required

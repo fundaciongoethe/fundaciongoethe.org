@@ -12,12 +12,12 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/laura-konjetzky.jpg
   alt: Laura Konjetzky
 links:
-  web: http://www.laurakonjetzky.com/
+  web: http://laurakonjetzky.com
   twitter: https://twitter.com/LauraKonjetzky
   facebook:
   instagram:
   spotify:
-  youtube: https://www.youtube.com/channel/UCYPp5Nme259M4JqHTLxENjw
+  youtube: https://youtube.com/channel/UCYPp5Nme259M4JqHTLxENjw
 ---
 
 La pianista y compositora Laura Konjetzky na-ció en Munich en 1977.

@@ -10,8 +10,8 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/duo-gruber.jpg
   alt: Duo Gruber
 links:
-  web: https://www.christian-gruber-gitarre.de
-  web2: https://www.katharinagruber.de
+  web: https://christian-gruber-gitarre.de
+  web2: https://katharinagruber.de
 ---
 
 **Christian Gruber**, der seit über 30 Jahren im _Gitarrenduo Gruber &amp; Maklar_ eine internationale Konzerttätigkeit pflegt, fühlt sich in vielen musikalischen Welten zu Hause. Neben der Konstante des Gitarrenduos, nutzt er die vielfältigen Möglichkeiten des Zusammenspiels mit anderen Musikern und Künstlern als Inspiration und Herausforderung zugleich. Das zeigt sich in grenzüberschreitenden Projekten wie mit der Akkordeonistin Maria Reiter, der Weltmusikerin Monika Drasch oder mit seiner Tochter Katharina Gruber.

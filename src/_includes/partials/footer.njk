@@ -63,7 +63,7 @@
 						>
 							<p>
 								<a
-									class="no-underline"
+									class="no-underline truncate"
 									href="mailto:{{ meta.address.email }}"
 									>{{ meta.address.email }}</a
 								>
@@ -98,8 +98,7 @@
 					mt-12
 					md:grid md:grid-cols-3
 					gap-8
-					xl:mt-0
-					xl:col-span-2
+					xl:mt-0 xl:col-span-2
 					py-8
 					text-base
 					font-semibold
@@ -192,8 +191,7 @@
 				lg:py-1
 				flex flex-col
 				xl:flex-row
-				md:items-center
-				md:justify-between
+				md:items-center md:justify-between
 			"
 		>
 			<div class="mt-2 lg:mt-0 md:order-1 uppercase">
@@ -237,8 +235,7 @@
 						duration-100
 						ease-in-out
 						transform
-						hover:-translate-y-0.5
-						hover:scale-105
+						hover:-translate-y-0.5 hover:scale-105
 						text-yellow-400
 						hover:text-gray-50
 					"
