@@ -1,10 +1,7 @@
----json
-{
-  "permalink": "feed.xml",
-  "eleventyExcludeFromCollections": true
-}
 ---
-
+permalink: "feed.xml"
+eleventyExcludeFromCollections: true
+---
 {# set absolutePageURL to use later in canonical and og URLs #} {%- set
 absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%}
 <?xml version="1.0" encoding="utf-8"?>

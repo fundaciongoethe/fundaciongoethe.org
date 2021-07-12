@@ -13,7 +13,7 @@ gallery:
   - image: ./src/assets/images/blog/xx.jpg
 ---
 
-Nos place presentar el nuevo anuario 2015. Por favor, haga click en el siguiente links para descargar el PDF: **[\[Anuario 2015: PDF, 3,5Mb\]](https://www.fundaciongoethe.org/downloads/jahrbuch-2015.pdf)**
+Nos place presentar el nuevo anuario 2015. Por favor, haga click en el siguiente links para descargar el PDF: **[\[Anuario 2015: PDF, 3,5Mb\]](https://www.fundaciongoethe.org/assets/pdf/jahrbuch-2015.pdf)**
 
 ### Saludo del embajador alemán para España Sr. Peter Tempel para la memoria del año 2015 de la Fundación Goethe
 

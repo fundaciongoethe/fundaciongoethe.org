@@ -17,4 +17,3 @@ El Theater der Klänge de Karlsruhe presentó "TRIAS - El ballett triádico", un
 
 **¡Gracias por la experiencia única!**
 
-\[gallery link="file" ids="5358,5376,5364,5350,5362,5346,5348,5344,5352,5354,5370,5360,5366,5368,5356,5372,5374"\]

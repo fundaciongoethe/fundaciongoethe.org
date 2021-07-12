@@ -206,24 +206,52 @@ module.exports = function (eleventyConfig) {
 	// 	});
 	// });
 
-	// artists es
+	// artists es, randomized on build
 	eleventyConfig.addCollection("artists_es", function (collection) {
-		return collection.getFilteredByGlob("./src/es/artistas/*.md");
+		return (
+			collection
+				// Change to the name of your tag
+				.getFilteredByGlob("./src/es/artistas/*.md")
+				.sort(() => {
+					return 0.5 - Math.random();
+				})
+		);
 	});
 
-	// artists de
+	// artists de, randomized on build
 	eleventyConfig.addCollection("artists_de", function (collection) {
-		return collection.getFilteredByGlob("./src/de/kuenstler/*.md");
+		return (
+			collection
+				// Change to the name of your tag
+				.getFilteredByGlob("./src/de/kuenstler/*.md")
+				.sort(() => {
+					return 0.5 - Math.random();
+				})
+		);
 	});
 
-	// venues es
+	// venues es, randomized on build
 	eleventyConfig.addCollection("venues_es", function (collection) {
-		return collection.getFilteredByGlob("./src/es/lugares/*.md");
+		return (
+			collection
+				// Change to the name of your tag
+				.getFilteredByGlob("./src/es/lugares/*.md")
+				.sort(() => {
+					return 0.5 - Math.random();
+				})
+		);
 	});
 
-	// venues de
+	// venues de, randomized on build
 	eleventyConfig.addCollection("venues_de", function (collection) {
-		return collection.getFilteredByGlob("./src/de/orte/*.md");
+		return (
+			collection
+				// Change to the name of your tag
+				.getFilteredByGlob("./src/de/orte/*.md")
+				.sort(() => {
+					return 0.5 - Math.random();
+				})
+		);
 	});
 
 	// förderer es, randomized on build
@@ -347,7 +375,7 @@ module.exports = function (eleventyConfig) {
 		"src/assets/helperfiles/sitemap.xml.njk": "sitemap.xml",
 	});
 	eleventyConfig.addPassthroughCopy({
-		"src/assets/helperfiles/feed.njk": "feed.xml",
+		"src/assets/helperfiles/feed.xml.njk": "feed.xml",
 	});
 
 	// social icons von images zu root

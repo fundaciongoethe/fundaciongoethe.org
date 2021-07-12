@@ -23,4 +23,4 @@ Este año 2019 se celebra el centenario de la escuela Bauhaus. Desde Alemania el
 >
 > \- Ruhrnachrichten/Tanznetz.de
 
-[Consigue tus entradas!](https://www.fundaciongoethe.org/eventos/)
+
