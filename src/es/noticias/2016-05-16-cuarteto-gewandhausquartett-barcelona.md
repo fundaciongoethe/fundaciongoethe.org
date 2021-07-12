@@ -1,6 +1,6 @@
 ---
 title: "Cuarteto Gewandhausquartett en Barcelona"
-date: "2016-05-16"
+date: "2016-05-17"
 translationKey: "gewandhausquartett16"
 excerpt:
 images: # complete path for eleventy img srcset output, alt required

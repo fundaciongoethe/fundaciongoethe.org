@@ -22,7 +22,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Patrio de Carruaje del Monasterio de El Escorial
 ---
 
-Erleben Sie einen ganz besonderen Konzertabend der preisgekrönten Pianistin und Komponistin Laura Konjetzky aus München und des jungen Trios Belivet aus Madrid im Patrio de Carruaje des Klosters El Escorial.
+Erleben Sie einen ganz besonderen Konzertabend der preisgekrönten Pianistin und Komponistin Laura Konjetzky aus München und des jungen Trios Belivet aus Madrid im Patio de Carruaje des Klosters El Escorial.
 
 In diesem Konzert konzentriert sich Laura Konjetzky auf Werke aus weiblicher Feder, Klavierwerke von Komponistinnen. Diese Kompositionen kennenzulernen war für sie sehr berührend und inspirierend, ist sie doch selber eine Komponistin, die heute unter anderen Bedingungen arbeiten kann, als ihre Kolleginnen im 19. Jahrhundert. Als Pianistin ist es ihr deswegen ein besonderes Anliegen, Ihnen diese Werke von Cécile Chaminade und Fanny Mendelssohn-Hensel zu Gehör zu bringen. Ferner wird mit Konjetzkys eigener Komposition, ihrem dritten Nocturne, der Bogen zur heutigen Zeit gespannt. Gekrönt wird das Konzertprogramm mit der Uraufführung eines brandneuen Klavierwerks von Laura Konjetzky.
 

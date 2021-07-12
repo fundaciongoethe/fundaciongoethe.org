@@ -3,10 +3,10 @@ layout: home
 ---
 
 <div class="mx-auto max-w-2xl text-gray-900 mb-10 lg:mt-16">
-	{% if images.featured %}
+	{% if images.featured %} {# 21-07 "grayimg" entfernt aus picture class #}
 	<figure class="h-full w-full fade-in">
 		<div class="mx-auto max-w-4xl relative">
-			{% Picture images.featured,"", "lazy w-full h-auto grayimg md:rounded-md",
+			{% Picture images.featured,"", "lazy w-full h-auto md:rounded-md",
 			images.alt or title %}
 
 			<div
@@ -75,15 +75,14 @@ layout: home
 
 	<!-- import gallery if there is gallery  -->
 
-	{% if gallery %}
-
+	{% if gallery %} {# 21-07 "filter grayscale" entfernt aus picture class #}
 	<div class="px-3 sm:px-6 mt-10">
 		<h2 class="standardtitel mb-4">{{ meta[locale].gallery }}</h2>
 
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
 			{% for item in gallery %} {% Picture item.image,"aspect-w-5 aspect-h-3
-			md:aspect-w-4 md:aspect-h-4", "object-cover filter grayscale rounded-md",
-			title %} {%- endfor -%}
+			md:aspect-w-4 md:aspect-h-4", "object-cover rounded-sm", title %} {%-
+			endfor -%}
 		</div>
 	</div>
 	{%- endif -%}

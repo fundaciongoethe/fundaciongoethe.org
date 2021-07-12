@@ -7,7 +7,7 @@ absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%}
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ meta.siteName }}</title>
-	<subtitle>{{ meta.siteDescription }}</subtitle>
+	<subtitle>{{ meta[locale].metaDescription }}</subtitle>
 	<link href="{{ meta.siteURL }}" />
 	<link href="{{ absolutePageUrl }}" rel="self" />
 	<updated>{{ collections.post | rssLastUpdatedDate }}</updated>
