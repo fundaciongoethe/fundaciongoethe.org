@@ -138,6 +138,14 @@ h2 {
 	leading-tight;
 }
 
+.prose h2 {
+	@apply text-xl
+	xl:text-2xl
+	tracking-tight
+	font-semibold
+	leading-tight;
+}
+
 .prose figure figcaption {
 	color: #f5f5f4;
 	font-size: 0.875em;
