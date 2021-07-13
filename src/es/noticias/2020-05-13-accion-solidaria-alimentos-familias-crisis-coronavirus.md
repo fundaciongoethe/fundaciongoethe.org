@@ -2,18 +2,13 @@
 title: "Acción solidaria: Alimentos para familias vulnerables durante la crisis del coronavirus"
 date: "2020-05-13"
 translationKey: "solidariaalimentos"
-excerpt:
+excerpt: Nos unimos a la campaña de Miele, que pone a disposición sus cocinas para que durante la crisis del coronavirus se pueda cocinar para familias vulnerables.
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/blog/xy.jpg
+  featured: ./src/assets/images/blog/Accion-solidaria-miele-lidl-fundaciongoethe-1.jpg
   alt:
-gallery:
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
 ---
 
-Junto con nuestros patrocinadores [Fundación Federico Fliedner](https://www.fliedner.es/news/es/noticias/pi/1/mi/56/ni/8829?es/noticias-fundacion-federico-fliedner/pi/1/mi/56/ni/8829) y [LIDL](https://empresa.lidl.es/), nos unimos a la [campaña de nuestro patrocinador Miele](https://www.miele.es/), que pone a disposición sus cocinas para que durante la crisis del coronavirus se pueda cocinar para familias vulnerables.
+Junto con nuestros patrocinadores Fundación Federico Fliedner y LIDL, nos unimos a la campaña de Miele, que pone a disposición sus cocinas para que durante la crisis del coronavirus se pueda cocinar para familias vulnerables.
 
 Tres días a la semana el _Miele Experience Center de Alcobendas_ se convierte en un espacio solidario. Se cocinan unas 500 raciones a la semana que se distribuen a través de la Fundación Federico Fliedner, la Fundación Madrina y la Policía Nacional.
 

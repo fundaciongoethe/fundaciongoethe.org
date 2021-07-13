@@ -2,7 +2,7 @@
 title: "Última compra de la acción solidaria para las familias necesitadas durante la crisis del coronavirus"
 date: "2020-06-30"
 translationKey: "solidariacompra"
-excerpt:
+excerpt: Nos complace poder contribuir a esta causa al proporcionar el transporte de alimentos a las instalaciones de Miele.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/cooking-solidario-coronavirus-miele-2020-27.jpg
   alt:
@@ -13,7 +13,7 @@ gallery:
   - image: ./src/assets/images/blog/cooking-solidario-coronavirus-miele-2020-23.jpg
 ---
 
-Como informamos hace unas semanas, nos hemos unido junto con [Fundación Federico Fliedner](https://www.fliedner.es/news/es/noticias/pi/1/mi/56/ni/8829?es/noticias-fundacion-federico-fliedner/pi/1/mi/56/ni/8829) y [LIDL](https://empresa.lidl.es/) a una acción solidaria [de nuestro patrocinador Miele](https://www.miele.es/). Las cocinas del Miele Experience Center La Moraleja, situado en Alcobendas, se ponen a disposición de las familias en riesgo durante la crisis de COVID 19.
+Como informamos hace unas semanas, nos hemos unido junto con Fundación Federico Fliedner y LIDL a una acción solidaria de Miele. Las cocinas del Miele Experience Center La Moraleja, situado en Alcobendas, se ponen a disposición de las familias en riesgo durante la crisis de COVID 19.
 
 Nos complace poder contribuir a esta causa al proporcionar el transporte de alimentos a las instalaciones de Miele.
 

@@ -18,19 +18,16 @@ layout: home
 		{% if images.credit %}
 		<figcaption
 			class="
+				md:mr-20
+				flex
 				transform
-				-translate-y-8
-				xs:-translate-y-20
-				-mt-2
-				mx-5
-				sm:mx-10
-				lg:mx-20
+				-translate-y-10
 				text-sm
 				bg-gray-100
 				py-1
-				px-2
-				rounded
-				text-white
+				pl-3
+				sm:pl-6
+				md:rounded-r
 				opacity-80
 			"
 		>
@@ -86,62 +83,6 @@ layout: home
 		</div>
 	</div>
 	{%- endif -%}
-
-	<!-- Previous and Next -->
-
-	<div
-		class="
-			mt-12
-			px-3
-			sm:px-6
-			mx-auto
-			max-w-lg
-			md:flex-row md:flex md:justify-between
-		"
-	>
-		{% set previousPost = collections.noticia | getPreviousCollectionItem(page)
-		%} {% set nextPost = collections.noticia | getNextCollectionItem(page) %}
-
-		<div
-			class="
-				py-2
-				text-left
-				sm:py-0
-				text-xs
-				uppercase
-				font-semibold
-				text-red-500
-			"
-		>
-			{% if previousPost %}
-			<a class="flex items-center" href="{{ previousPost.url }}">
-				{% svg "arrow-left", "w-6 h-6 mr-1 transition duration-200 ease-in-out
-				transform hover:-translate-x-1", "flecha" %}
-				{{ previousPost.data.title }}</a
-			>
-			{% endif %}
-		</div>
-
-		<div
-			class="
-				py-2
-				text-right
-				sm:py-0
-				text-xs
-				uppercase
-				font-semibold
-				text-red-500
-			"
-		>
-			{% if nextPost %}
-			<a class="flex items-center" href="{{ nextPost.url }}"
-				>{{ nextPost.data.title }} {% svg "arrow-right", "w-6 h-6 rounded-full
-				ml-1 transition duration-200 ease-in-out transform hover:translate-x-1",
-				"flecha" %}
-			</a>
-			{% endif %}
-		</div>
-	</div>
 </div>
 
 <!-- include blogpost schema  -->

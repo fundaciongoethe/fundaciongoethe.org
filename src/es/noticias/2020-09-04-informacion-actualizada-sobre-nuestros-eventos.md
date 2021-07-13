@@ -2,7 +2,7 @@
 title: "Información actualizada sobre nuestros eventos"
 date: "2020-09-04"
 translationKey: "infoeventos"
-excerpt:
+excerpt: Para septiembre, teníamos planeados conciertos presenciales en Barcelona, Málaga y Aranjuez con la pianista Corinna Simon y el dúo de guitarras Gruber/Maklar.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/herbstinfo-web2.jpg
   alt:
