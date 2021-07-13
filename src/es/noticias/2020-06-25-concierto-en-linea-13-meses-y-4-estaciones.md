@@ -4,7 +4,7 @@ date: "2020-06-25"
 translationKey: "cuatroestaciones"
 excerpt: El concierto fue grabado en mayo de 2020 de salón a salón durante la crisis del coronavirus. Se presentaron la primavera y extractos de los poemas de Erich Kästner.
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/blog/caterva-youtube-webl.jpg
+  featured: ./src/assets/images/blog/caterva-youtube-web2.jpg
   alt:
 ---
 

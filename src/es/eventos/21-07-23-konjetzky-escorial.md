@@ -23,8 +23,6 @@ images: # complete path for eleventy img srcset output, alt required
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 ---
 
-{{ infobox }}
-
 Disfruta de una velada de concierto muy especial a cargo de la premiada pianista y compositora muniquesa Laura Konjetzky y del joven Trío Belivet de Madrid en el Patrio de Carruaje del Monasterio de El Escorial.
 
 En este concierto, Laura Konjetzky se centra en obras de plumas femeninas, obras para piano de compositoras. Conocer estas composiciones fue muy conmovedor e inspirador para ella, ya que ella misma es una mujer compositora que hoy puede trabajar en condiciones diferentes a las de sus colegas del siglo XIX. Por ello, como pianista, le preocupa especialmente traer estas obras de Cécile Chaminade y Fanny HenselMendelssohn. Además, la propia composición de Konjetzky, su tercer Nocturno, nos llevará a los tiempos actuales. El programa del concierto estará coronado por el estreno de una nueva obra para piano de Laura Konjetzky.
