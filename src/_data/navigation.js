@@ -64,7 +64,7 @@ module.exports = {
 					url: "/es/lugares/",
 				},
 				{
-					text: "Albúm de fotos",
+					text: "Álbum de fotos",
 					url: "/es/galeria/",
 				},
 			],

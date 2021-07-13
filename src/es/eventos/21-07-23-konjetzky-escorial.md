@@ -10,7 +10,7 @@ city: San Lorenzo de El Escorial
 partners:
   - patrimonio
 type: Concierto
-access: Se requiere una invitación personal
+access:
 date: 2021-07-23 21:30:00
 opening: 2021-07-23 21:00:00
 ending: 2021-07-23 22:30:00
@@ -20,7 +20,10 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/el-escorial.jpg
   alt: Patrio de Carruaje del Monasterio de El Escorial
+infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 ---
+
+{{ infobox }}
 
 Disfruta de una velada de concierto muy especial a cargo de la premiada pianista y compositora muniquesa Laura Konjetzky y del joven Trío Belivet de Madrid en el Patrio de Carruaje del Monasterio de El Escorial.
 

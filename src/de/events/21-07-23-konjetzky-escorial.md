@@ -10,7 +10,7 @@ city: San Lorenzo de El Escorial
 partners:
   - patrimonio
 type: Konzert
-access: Persönliche Einladung erforderlich
+access:
 date: 2021-07-23 21:30:00
 opening: 2021-07-23 21:00:00
 ending: 2021-07-23 22:30:00
@@ -20,6 +20,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/el-escorial.jpg
   alt: Patrio de Carruaje del Monasterio de El Escorial
+infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
 ---
 
 Erleben Sie einen ganz besonderen Konzertabend der preisgekrönten Pianistin und Komponistin Laura Konjetzky aus München und des jungen Trios Belivet aus Madrid im Patio de Carruaje des Klosters El Escorial.
