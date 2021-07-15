@@ -159,6 +159,19 @@ locale], artist) %}
 							{% endfor %}
 						</dd>
 					</div>
+
+					{% if deadline and calendarLinks.isFutureEvent %}
+					<div class="py-4 grid grid-cols-5 sm:gap-4">
+						<dt class="font-bold text-gray-400 col-span-2">
+							{{ meta[locale].event.deadline }}
+						</dt>
+						<dd class="text-gray-50 col-span-3">
+							{{  deadline | date("dddd", locale) }},
+							{{  deadline | date("LL", locale) }}
+						</dd>
+					</div>
+
+					{% endif %}
 				</dl>
 			</div>
 

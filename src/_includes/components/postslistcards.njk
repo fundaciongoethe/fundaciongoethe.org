@@ -23,7 +23,7 @@
 					"
 				>
 					<div class="flex-shrink-0 relative buttonhover">
-						<a href="{{ post.url | url }}">
+						<a href="{{ post.url | url }}" tabindex="-1">
 							<!-- if featured image -->
 							{% if post.data.images.featured %} {% Picture
 							post.data.images.featured,"", "lazy object-cover grayimg w-full
@@ -60,7 +60,11 @@
 						>
 							{{ post.data.topic }}
 						</div>
-						<a href="{{ post.url | url }}" class="no-underline block">
+						<a
+							href="{{ post.url | url }}"
+							tabindex="-1"
+							class="no-underline block"
+						>
 							<h2 class="text-base font-bold text-gray-900 mt-2">
 								{{ post.data.title }}
 							</h2>

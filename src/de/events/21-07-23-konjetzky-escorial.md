@@ -14,6 +14,7 @@ access:
 date: 2021-07-23 21:30:00
 opening: 2021-07-23 21:00:00
 ending: 2021-07-23 22:30:00
+deadline: 2021-07-19 23:00:00
 calcDuration: 1
 seo:
   image: venues/el-escorial.jpg

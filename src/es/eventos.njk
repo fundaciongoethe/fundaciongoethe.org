@@ -46,31 +46,43 @@ pastevents:
 		<!-- future events -->
 		<li class="px-3 py-5 md:py-0 max-w-5xl mx-auto">
 			<div class="flex items-center space-x-4">
-				<div
-					class="
-						flex flex-col
-						items-center
-						justify-center
-						w-20
-						md:w-32
-						lg:w-40
-						text-center
-					"
+				<a
+					class="no-underline py-1 sm:py-5 lg:py-6"
+					tabindex="-1"
+					href="{{ event.url }}"
 				>
-					<p
-						class="text-xs uppercase tracking-wider text-gray-500 font-semibold"
+					<div
+						class="
+							flex flex-col
+							items-center
+							justify-center
+							w-20
+							md:w-32
+							lg:w-40
+							text-center
+						"
 					>
-						{{ event.date | date("dddd", locale) }}
-					</p>
+						<p
+							class="
+								text-xs
+								uppercase
+								tracking-wider
+								text-gray-500
+								font-semibold
+							"
+						>
+							{{ event.date | date("dddd", locale) }}
+						</p>
 
-					<p class="text-4xl font-semibold">
-						{{ event.date | date(" Do", locale) }}
-					</p>
+						<p class="text-4xl font-semibold">
+							{{ event.date | date(" Do", locale) }}
+						</p>
 
-					<p class="text-xs uppercase tracking-wider font-semibold">
-						{{ event.date | date("MMM", locale) }}
-					</p>
-				</div>
+						<p class="text-xs uppercase tracking-wider font-semibold">
+							{{ event.date | date("MMM", locale) }}
+						</p>
+					</div>
+				</a>
 
 				<div class="hidden md:flex">
 					{#
