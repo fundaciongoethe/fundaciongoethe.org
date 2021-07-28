@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>{{ seo.title or title }} | {{ meta[locale].metaTitle }}</title>
-		<!-- Inline Minified CSS -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ seo.title or title }} | {{ meta[locale].metaTitle }}</title>
+    <!-- Inline Minified CSS -->
 
-		<link rel="stylesheet" href="/assets/fonts.min.css" />
+    <link rel="stylesheet" href="/assets/fonts.min.css" />
 
-		{% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{%
-		endset %}
-		<style>
-			{{ css | cssmin | safe }}
-		</style>
-		{% else %}
-		<link rel="stylesheet" href="/assets/main.min.css" />
-		{% endif %}
-		<link
-			rel="alternate"
-			type="application/atom+xml"
-			title="RSS Feed para {{ meta.siteName }}"
-			href="/feed.xml"
-		/>
-		{%- include "partials/head.njk" %}
-		<!-- include base schema  -->
-		{%- include "schemas/base-schema.njk" %}
-	</head>
-	<body class="bg-gray-200">
-		<a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
+    {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{%
+    endset %}
+    <style>
+      {{ css | safe }}
+    </style>
+    {% else %}
+    <link rel="stylesheet" href="/assets/main.min.css" />
+    {% endif %}
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="RSS Feed para {{ meta.siteName }}"
+      href="/feed.xml"
+    />
+    {%- include "partials/head.njk" %}
+    <!-- include base schema  -->
+    {%- include "schemas/base-schema.njk" %}
+  </head>
+  <body class="bg-gray-200">
+    <a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
 
-		<div hidden>{% svgsprite %}</div>
-		<div
-			class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-yellow-300 via-orange-500 to-red-600' }}"
-		>
-			<div
-				class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
-					overflow
-				}} rounded-b-lg"
-			>
-				<!-- 				{# topbar + header #}  -->
+    <div hidden>{% svgsprite %}</div>
+    <div
+      class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-yellow-300 via-orange-500 to-red-600' }}"
+    >
+      <div
+        class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
+          overflow
+        }} rounded-b-lg"
+      >
+        <!-- 				{# topbar + header #}  -->
 
-				{% include "partials/topbar.njk" %} {% include "partials/header.njk" %}
+        {% include "partials/topbar.njk" %} {% include "partials/header.njk" %}
 
-				<div class="flex-grow max-w-full">
-					{{ content | safe }}
-				</div>
-				{% include "partials/footer.njk" %}
-			</div>
-			{% include "partials/credit.njk" %}
-		</div>
+        <div class="flex-grow max-w-full">
+          {{ content | safe }}
+        </div>
+        {% include "partials/footer.njk" %}
+      </div>
+      {% include "partials/credit.njk" %}
+    </div>
 
-		<script src="/assets/main.js" defer></script>
+    <script src="/assets/main.min.js" defer></script>
 
-		<script
-			src="//instant.page/5.1.0"
-			type="module"
-			integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"
-			defer="defer"
-		></script>
-	</body>
+    <script
+      src="//instant.page/5.1.0"
+      type="module"
+      integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"
+      defer="defer"
+    ></script>
+  </body>
 </html>

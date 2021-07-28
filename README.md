@@ -1,34 +1,38 @@
-# fundaciongoethe.org
+<h1><a href="https://eleventywebstarter.netlify.app"><strong>Eleventy Web Starter</strong></a></h1>
 
-<p align="center">
-	<img src="https://res.cloudinary.com/lenesaile/image/upload/v1599732281/lene-blog_mebtmm.svg" alt="Lene" width="100" align="center" />
-</p>
+<em>Eleventy · Tailwind CSS · HTML · CSS · Javascript</em>
 
-<p align="center"><a href="https://www.lenesaile.com"><strong>lenesaile.com</strong></a></p>
+<a href="https://app.netlify.com/sites/eleventywebstarter/deploys"><img src="https://api.netlify.com/api/v1/badges/27819fce-1c2b-4f30-ab30-5c0769f9734e/deploy-status"></a>
 
-<p align="center"><em>Eleventy · Tailwind CSS · HTML · CSS · Javascript</em></p>
+## Contents 	
+
+- [Project overview](#project-overview)
+- [Getting started](#getting-started)
+	- [Install dependencies](#install-dependencies)
+	- [Working locally](#working-locally)
+	- [Creating a production build](#creating-a-production-build)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
+---
+
+## Project Overview 
+
+- The project uses [Eleventy](https://11ty.dev) as a static site generator
+- Default templating is [Nunjucks](https://mozilla.github.io/nunjucks/) (can be changed)
+- PostCSS set up to handle:
+	- TailwindCSS
+	- CSS Imports
+	- Autoprefixer 
+- PurgeCSS to remove unused CSS (set up for TailwindCSS by default) in production
+- HTML minified in production
+- CSS inlined and minified in production
+- [esbuild](https://esbuild.github.io/) used to bundle and minify scripts
+- Document `<head>` crafted using [htmlhead.dev](https://htmlhead.dev)
 
 ---
 
-> **20.04.2021 inline css**
-> package.json: "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/\_includes/main.min.css",
-> layouts/base.njk: {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{% endset %} <style>{{ css | cssmin | safe }} </style> {% else %} <link rel="stylesheet" href="/assets/main.min.css" /> {% endif %}
-
-## Project Overview
-
-- El proyecto utiliza [Eleventy](https://11ty.io) como un generador de sitios estáticos
-- La plantilla por defecto es [Nunjucks](https://mozilla.github.io/nunjucks/)
-- PostCSS preparado para manejar:
-  - TailwindCSS
-  - Autoprefixer
-- PurgeCSS para eliminar el CSS no utilizado (configurado para TailwindCSS por defecto) en production
-- AlpineJS
-- HTML minified en production
-- CSS inlined y minified en production
-- Webpack para agrupar scripts
-- Scripts optimizados para production
-
----
+## Getting Started
 
 ### Install dependencies
 
@@ -37,21 +41,39 @@ npm install
 ```
 
 ### Working locally
+Starts watch tasks to compile when changes detected
 
 ```
-npm run dev
+npm start
 ```
 
-### production build
+### Creating a production build
+Minify HTML, minify JS, inline and minify CSS.
 
-```
+``` 
 npm run build
 ```
 
 ---
 
-#### Deploy status
+## Deployment 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e6eb38e1-d081-46ea-a4f6-4d3d36ab7036/deploy-status)](https://app.netlify.com/sites/albertoballesteros/deploys)
+You can host the production output on any web server or service you like and upload it via any method, it'll work. 
+
+If you don't have an existing place to host your site you should have a look at [Netlify](https://www.netlify.com), I can't recommend it enough. To get started you can hit the button below.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scottishstoater/eleventy-web-starter)
 
 ---
+
+#### Credits 
+
+- [Eleventy](https://11ty.dev)
+- [TailwindCSS](https://tailwindcss.com/)
+- [PostCSS](https://github.com/postcss)
+	- Autoprefixer
+	- PostCSS Import
+- [esbuild](https://esbuild.github.io/)
+- [Luxon](https://moment.github.io/luxon/)
+- [NPM Run All](https://www.npmjs.com/package/npm-run-all)
+- [HTML Minifier](https://www.npmjs.com/package/html-minifier)

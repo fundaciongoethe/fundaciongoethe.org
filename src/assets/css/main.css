@@ -3,12 +3,12 @@
 /* @import "_fonts.css"; */
 /* purgecss end ignore */
 
-@import "_tailwind.css";
+@import "utils/_tailwind.css";
 
 /* purgecss start ignore */
-@import "_accessibility.css";
-@import "_custom.css";
-@import "_animations.css";
-@import "_audio-player.css";
-@import "_lite-youtube.css";
+@import "utils/_accessibility.css";
+@import "utils/_custom.css";
+@import "utils/_animations.css";
+@import "utils/_audio-player.css";
+@import "utils/_lite-youtube.css";
 /* purgecss end ignore */
