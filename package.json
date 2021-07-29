@@ -8,7 +8,7 @@
 		"dev:scripts": "esbuild src/assets/scripts/main.js --bundle --watch --outfile=dist/assets/main.min.js",
 		"dev:11ty": "eleventy --serve --watch",
 		"build:postcss": "NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
-		"build:11ty": "ELEVENTY_ENV=production eleventy",
+		"build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
 		"build:scripts": "esbuild src/assets/scripts/main.js --bundle --minify --outfile=dist/assets/main.min.js",
 		"start": "run-p dev:*",
 		"build": "run-s clean build:*",
