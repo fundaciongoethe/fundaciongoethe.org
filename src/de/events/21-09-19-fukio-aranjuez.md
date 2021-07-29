@@ -15,9 +15,9 @@ ending: 2021-09-19 17:00:00
 deadline: 2021-09-10 21:00:00
 calcDuration: 8
 seo:
-  image: venues/jardin-isla-2.jpg
+  image: venues/jardin-isla-2.JPG
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/jardin-isla-2.jpg
+  featured: ./src/assets/images/venues/jardin-isla-2.JPG
   alt: Jardín de la Isla
 infobox: Evento privado, sólo con invitación personal.
 ---

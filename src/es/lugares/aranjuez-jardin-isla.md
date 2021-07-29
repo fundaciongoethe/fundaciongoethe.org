@@ -5,9 +5,9 @@ customSlug: "jardin-de-la-isla"
 excerpt: El Jardín de la Isla es un jardín histórico situado al norte del Palacio Real de Aranjuez. Es una de las principales obras del arte de los jardines del Renacimiento español.
 city: Aranjuez
 seo: # image relative to /assets/images/
-  image: /venues/jardin-isla-2.jpg
+  image: /venues/jardin-isla-2.JPG
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/jardin-isla-2.jpg
+  featured: ./src/assets/images/venues/jardin-isla-2.JPG
   alt: Jardín de la Isla en Aranjuez
 links:
   web: https://www.aranjuez.com/jard%C3%ADn-de-la-isla.html
