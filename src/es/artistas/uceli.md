@@ -1,13 +1,12 @@
 ---
 title: "UceLi Quartet"
 translationKey: "uceli"
-referenceKey: "uceli"
 customSlug: "uceli-quartet"
-excerpt: Streichquartett bestehend aus Mitgliedern des Sinfonieorchesters des Gran Teatre del Liceu in Barcelona. Yana Tsanova und Oleg Shport (Violine), Claire Bobij (Viola), Guillaume Terrail (Cello).
+excerpt: Cuarteto de cuerda formado por miembros de la Orquesta Sinfónica del Gran Teatro del Liceo de Barcelona. Yana Tsanova y Oleg Shport (violín), Claire Bobij (viola), Guillaume Terrail (chelo).
 occupation: "Sopranistin"
 seo:
   title: UceLi Quartet | {{ meta[locale].seoArtist }}
-  description: Das Streichquartett UceLi gründet sich aus Mitgliedern des Sinfonieorchesters des Gran Teatre del Liceu in Barcelona.
+  description: El cuarteto de cuerda UceLi está formado por miembros de la orquesta sinfónica del Gran Teatre del Liceu de Barcelona.
   image: artists/uleci.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/uleci.jpg
@@ -21,20 +20,22 @@ links:
   youtube:
 ---
 
-## Yana Tsanova - Geige, Bulgarien
+Formado por miembros del Gran Teatre del Liceu, con el proyecto de explorar un repertorio diferente a través de una formación más íntima, el cuarteto de cuerda "UceLi" se constituye en febrero de 2017.
 
-Sie begann ihr Musikstudium im Alter von 5 Jahren, nahm an Meisterkursen teil und schloß mit Auszeichnung ab. Bereits mit 14 Jahren begann sie als Solistin in Orchestern zu spielen. 1998 begann sie ein Musikstudium in der Nationalen Musikakademie in Sofia, studierte bei Professor Dora Ivanova, erwarb einen Bachelor- und einen Master-Abschluss und schloss sie ihr Studium an der Guildhall School of Music in London ab. Im Jahr 2004 erhielt sie einen Platz im Hong Kong Philharmonic Orchestra. Seit 2005 ist sie als erste Geige Teil des Orchesters des Gran Teatro del Liceo.
+## Yana Tsanova - violín, Bulgaria
 
-## Oleg Shport, Violine, Russland
+Empezó sus estudios musicales a los 5 años de edad. Participa en clases magistrales y se gradúa con distinción. Empieza a tocar como solista con orquestas con sólo 14 años y en el año 1998 ingresa a la Academia Nacional Musical de Sofía, donde estudia con la profesora Dora Ivanova y obtiene licenciatura y máster; posteriormente complementa los estudios en la Guildhall School of Music de Londres. El año 2004 obtiene una plaza en la Hong Kong Philarmonic Orquesta y desde 2005 forma parte de la orquesta del Gran Teatro del Liceo, como primer violín.
 
-Geboren in Taschkent, Usbekistan, schloss er 1995 sein Musikstudium am Konservatorium seiner Stadt ab. Er begann seine Karriere im Taschkenter Philharmonischen Orchester und im Kammerorchester “Solisten Usbekistans”. Er arbeitete zwei Jahre lang mit dem Moskauer Symphonieorchester zusammen, bevor er 2004 in die Liceu-Akademie und 2007 in das Orchester des Gran Teatre del Liceu als erste Geige eintrat. Er arbeitet mit dem OBC (Orquesta Sinfónica de Barcelona i Nacional de Catalunya) zusammen.
+## Oleg Shport, violín, rusia
 
-## Fulgencio Sandoval García, Bratsche, Spanien
+Nacido en Tashkent, Uzbekistán, finaliza sus estudios musicales en 1995 en el conservatorio superior de su ciudad. Empieza su carrera en la Filarmonia de Tashkent y en la orquesta de cámara "Solistas de Uzbekistán”. Colabora dos años con la orquesta sinfónica de Moscú, justo antes de entrar a la Academia del Liceo en 2004 y en la orquesta del Gran Teatro del Liceo en el 2007, como primer violín. Es colaborador de la OBC (Orquesta Sinfónica de Barcelona i Nacional de Catalunya).
 
-Er begann sein Studium am Conservatorio Superior de Murcia, seiner Heimatstadt, bei Professor Arpad Babarczi und beendete es am Conservatorio Superior de Oviedo unter der Leitung von Oleg Lev (ehemaliger Solist der Moskauer Virtuosi). Anschließend absolvierte er ein Aufbaustudium am Sweelinck Conservatorium in Amsterdam bei den Professoren Marjolain Dispa und Michael Gieler.
-Er nahm an Konzertreisen in Europa und Amerika teil und spielte unter der Leitung von Dirigenten wie Lutz Köhler, Gianandrea Noseda, Sir Neville Marriner, Fabio Luisi, Ricardo Muti, Carlo Maria Giulini, Claudio Abbado und Gustavo Dudamel.
-Seit 1999 ist er Co-Principal Viola des Orquesta Sinfónica del Gran Teatro del Liceo.
+## Fulgencio Sandoval García, viola, España
 
-## Guillaume Terrail, Cello, Schweiz
+Comienza sus estudios en el Conservatorio Superior de Murcia, su ciudad natal, con el profesor Arpad Babarczi, finalizándolos en el Conservatorio Superior de Oviedo bajo la tutela de Oleg Lev (ex solista de los Virtuosos de Moscú). Seguidamente obtiene el postgraduado en el Sweelinck Conservatorium de Amsterdam con los profesores Marjolain Dispa y Michael Gieler.
+Ha participado en giras de conciertos por Europa y América y ha tocado bajo la batuta de directores como Lutz Köhler, Gianandrea Noseda, Sir Neville Marriner, Fabio Luisi, Ricardo Muti, Carlo Maria Giulini, Claudio Abbado o Gustavo Dudamel.
+Desde el año 1999 es viola co-principal de la Orquesta Sinfónica del Gran Teatro del Liceo.
 
-Er begann sein Cellostudium im Alter von 6 Jahren in seiner Heimatstadt. Sein Studium setzte er an der Haute École de Musique de Lausanne bei Susan Rybicki-Varga und Marcio Carneiro fort. In Deutschland studierte er an der Musikhochschule in Karlsruhe bei Martin Ostertag und schloss sein Studium 2015 mit einem Master of Arts and Musik mit Bestnote ab. Bei Musikwettbewerben, die ihn zur Teilnahme als Solist mit Orchester und Kammermusikkonzerten in mehreren Städten Europas führten, erhielt er mehrere Preise. Seit September 2016 ist er Teil des Gran Orquesta del Teatre del Liceo als Co-Principal Cello.
+## Guillaume Terrail, violonchelo, Suiza
+
+Empieza sus estudios de violoncello a la edad de 6 años en su ciudad natal. Continúa los mismos en la Haute École de música de Lausanne con las profesoras Susan Rybicki-Varga y Marcio Carneiro. Sigue su formación en Alemania, en el Musikhochschule de Karlsruhe con Martin Ostertag y obtiene su máster de Artes y Música en 2015, con la máxima puntuación. También obtiene varios premios en competiciones musicales que lo llevan a participar como solista con orquesta y conciertos de música de cámara en varias ciudades de Europa. Desde septiembre del 2016 forma parte de la Gran Orquesta del Teatre del Liceo como violonchelo co-principal.
