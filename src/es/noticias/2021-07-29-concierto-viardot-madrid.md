@@ -1,7 +1,7 @@
 ---
-title: "Concierto del cuarteto de cuerda UceLi en Barcelona"
+title: "Concierto de del cuarteto de cuerda UceLi en Barcelona"
 date: "2021-05-19"
-translationKey: "ucelibcn"
+translationKey: "viarmad"
 excerpt: El pasado 17 de mayo disfrutamos del concierto del cuarteto de cuerda UceLi en la iglesia de Sant Pau del Camp, Barcelona.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/SantPauCamp28_lw-1000x667.jpg

@@ -1,4 +1,8 @@
-import "alpinejs";
+import Alpine from "alpinejs";
+
+window.Alpine = Alpine;
+
+Alpine.start();
 
 //  ---------------------------- simple audio player
 document.querySelectorAll(".audio-player").forEach(createAudioPlayer);
@@ -11,9 +15,8 @@ function createAudioPlayer(audioPlayer) {
 	audio.addEventListener(
 		"loadeddata",
 		() => {
-			audioPlayer.querySelector(
-				".time .length"
-			).textContent = getTimeCodeFromNum(audio.duration);
+			audioPlayer.querySelector(".time .length").textContent =
+				getTimeCodeFromNum(audio.duration);
 			audio.volume = 0.75;
 		},
 		false
@@ -49,9 +52,8 @@ function createAudioPlayer(audioPlayer) {
 	setInterval(() => {
 		const progressBar = audioPlayer.querySelector(".progress");
 		progressBar.style.width = (audio.currentTime / audio.duration) * 100 + "%";
-		audioPlayer.querySelector(
-			".time .current"
-		).textContent = getTimeCodeFromNum(audio.currentTime);
+		audioPlayer.querySelector(".time .current").textContent =
+			getTimeCodeFromNum(audio.currentTime);
 	}, 500);
 
 	//toggle between playing and pausing on button click
