@@ -49,8 +49,16 @@ translationKey: "aboutwebsite"
       {% Picture "./src/assets/images/pages/lighthouse.jpg","", "w-full h-full
       rounded-md object-cover border", "Pantallazo de los resultados de
       lighhouse " %}
-      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
-        Lighthouse-Ergebnisse für fundaciongoethe.org/de. Lighthouse ist ein
+      <figcaption
+        class="
+          text-sm
+          mt-2
+          text-gray-600
+          sm:bg-white sm:border sm:px-3 sm:py-2
+          rounded-md
+        "
+      >
+        Lighthouse-Ergebnisse für fundaciongoethe.org/es. Lighthouse ist ein
         Tool, das Informationen über die Leistung, SEO, Benutzerfreundlichkeit
         und Barrierefreiheit einer Website liefert.
       </figcaption>
@@ -69,11 +77,7 @@ translationKey: "aboutwebsite"
       Sprach-, motorischen oder kognitiven Beeinträchtigung ausgeschlossen
       werden.
     </p>
-    <h2>Diese Website ist sehr schnell und sicher</h2>
-    <p>
-      Unsere Entwicklerin legt großen Wert auf die Schnelligkeit dieser Website.
-      Das Ziel ist, alles zu optimieren, zu reduzieren und wiederzuverwenden.
-    </p>
+    <h2>fundaciongoethe.org ist sehr schnell und sicher</h2>
 
     <p>
       Jamstack-Architekturen bieten weniger Angriffspunkte. Durch die
@@ -91,32 +95,36 @@ translationKey: "aboutwebsite"
       {% Picture "./src/assets/images/pages/webpagetest.jpg","", "w-full h-full
       rounded-md object-cover border", "Pantallazo de los resultados de
       webpagetest " %}
-      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
-        Ergebnisse www.webpagetest.org für fundaciongoethe.org/de. WebPageTest
-        ist ein Leistungstool, das echte Browser verwendet, um Zeitmetriken,
-        Sicherheitsdetails und die kürzlich eingeführten "Core Web Vitals" zu
-        sammeln.
+      <figcaption
+        class="
+          text-sm
+          mt-2
+          text-gray-600
+          sm:bg-white sm:border sm:px-3 sm:py-2
+          rounded-md
+        "
+      >
+        Ergebnisse www.webpagetest.org für fundaciongoethe.org/es. WebPageTest
+        ist ein Tool, das echte Browser verwendet, um Zeitmetriken,
+        Sicherheitsdetails und die kürzlich eingeführten "Core Web Vitals"
+        auszuwerten.
       </figcaption>
     </figure>
   </div>
 </div>
 
-<div class="max-w-7xl mx-auto lg:bg-transparent lg:px-8 my-20">
-  <div class="lg:grid lg:grid-cols-12">
+<div class="max-w-7xl mx-auto md:bg-transparent md:my-20">
+  <div class="md:grid md:grid-cols-12">
     <div
       class="
+        hidden
+        md:block
         relative
         z-10
-        lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent
+        md:col-start-1 md:row-start-1 md:col-span-4 md:py-16 md:bg-transparent
       "
     >
-      <div
-        class="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden"
-        aria-hidden="true"
-      ></div>
-      <div
-        class="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0"
-      >
+      <div class="max-w-md mx-auto sm:max-w-3xl md:max-w-none md:p-0">
         <div class="aspect-h-1 aspect-w-1">
           {% Picture "./src/assets/images/pages/lene.png","aspect-h-1
           aspect-w-1", "object-cover object-center rounded-lg shadow-lg",
@@ -128,26 +136,24 @@ translationKey: "aboutwebsite"
     <div
       class="
         relative
-        bg-gray-200
-        lg:col-start-3
-        lg:row-start-1
-        lg:col-span-10
-        lg:rounded-xl
-        lg:grid
-        lg:grid-cols-10
-        lg:items-center
+        md:bg-gray-200
+        md:col-start-3
+        md:row-start-1
+        md:col-span-10
+        md:rounded-xl
+        md:grid
+        md:grid-cols-10
+        md:items-center
       "
     >
       <div
         class="
           relative
-          max-w-md
           mx-auto
           py-12
-          px-4
           space-y-6
-          sm:max-w-3xl sm:py-16 sm:px-6
-          lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6
+          sm:max-w-3xl sm:py-16
+          md:max-w-none md:p-0 md:col-start-4 md:col-span-6
         "
       >
         <h2
@@ -177,12 +183,13 @@ translationKey: "aboutwebsite"
             py-2
             border border-transparent
             rounded-md
-            shadow-sm
+            shadow-md
+            hover:shadow-lg
             no-underline
           "
           rel="noopener"
           target="_blank"
-          href="https://www.lenesaile.com"
+          href="https://www.lenesaile.com/de"
           >www.lenesaile.com</a
         >
       </div>

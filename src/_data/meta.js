@@ -85,6 +85,8 @@ module.exports = {
 			required: "requerido",
 			send: "enviar",
 			actionLink: "gracias",
+			creditMade: "Hecho con",
+			creditBy: "por",
 		},
 		newsletter: {
 			language: "Idioma de los emails",
@@ -145,6 +147,8 @@ module.exports = {
 			required: "erforderlich",
 			send: "senden",
 			actionLink: "danke",
+			creditMade: "Gemacht mit",
+			creditBy: "von",
 		},
 		newsletter: {
 			language: "Sprache der E-Mails",

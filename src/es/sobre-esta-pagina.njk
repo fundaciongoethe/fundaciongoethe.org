@@ -11,12 +11,13 @@ translationKey: "aboutwebsite"
     <h1 class="standardtitel">Detalles técnicos y accesibilidad</h1>
     <p class="standardtext mt-3 sm:mt-4 prose">
       Este sitio fue diseñado totalmente a mano y desarrollado con el método
-      Jamstack. Jamstack está diseñado para hacer la web más rápida y segura.
-      Está orientado a los inicios del desarrollo de la web, cuando todas las
-      páginas web eran estáticas - puros archivos HTML que se encuentran en una
-      estructura de carpetas. Estas páginas web, que se arreglaban con lo más
-      esencial, eran increíblemente rápidas y seguras. Hoy en día queremos
-      aprovechar de las ventajas de esta técnica clásica con un método moderno.
+      Jamstack. La idea de Jamstack es hacer que el Internet sea más rápida y
+      segura. Está orientado a los inicios del desarrollo de la web, cuando
+      todas las páginas web eran estáticas - puros archivos HTML que se
+      encuentran en una estructura de carpetas. Estas páginas web, que se
+      arreglaban con lo más esencial, eran increíblemente rápidas y seguras. Hoy
+      en día queremos aprovechar de las ventajas de esta técnica clásica con un
+      método moderno.
     </p>
   </div>
   <div class="mt-6 prose mx-auto">
@@ -51,7 +52,15 @@ translationKey: "aboutwebsite"
       {% Picture "./src/assets/images/pages/lighthouse.jpg","", "w-full h-full
       rounded-md object-cover border", "Pantallazo de los resultados de
       lighhouse " %}
-      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
+      <figcaption
+        class="
+          text-sm
+          mt-2
+          text-gray-600
+          sm:bg-white sm:border sm:px-3 sm:py-2
+          rounded-md
+        "
+      >
         Resultados de la auditoría Lighthouse para fundaciongoethe.org/es.
         Lighthouse es una herramienta que proporciona información sobre el
         rendimiento, el SEO, la usabilidad y la accesibilidad de una página.
@@ -61,9 +70,9 @@ translationKey: "aboutwebsite"
   <div class="mt-6 prose mx-auto">
     <h2>Damos gran importancia a la accesibilidad</h2>
     <p>
-      al menos 1 de cada 5 personas tiene una enfermedad, deficiencia o
-      discapacidad de larga duración, y muchas más tienen una discapacidad
-      temporal o situacional.
+      Por término medio, una de cada cinco personas tiene una enfermedad,
+      deficiencia o discapacidad de larga s 1 de cada 5 pduración, y muchas más
+      tienen una discapacidad temporal o situacional.
     </p>
     <p>
       Nuestra desarrolladora se asegura de que este sitio web puede ser
@@ -71,11 +80,7 @@ translationKey: "aboutwebsite"
       por tener deficiencias visuales, auditivas, del habla, motoras o
       cognitivas.
     </p>
-    <h2>Esta página web está muy rapida y segura</h2>
-    <p>
-      Nuestra desarrolladora web se preocupa mucho por el rendimiento de este
-      sitio. El objetivo es optimizar todo, reducir y reutilizar.
-    </p>
+    <h2>fundaciongoethe.org está muy rapido y seguro</h2>
 
     <p>
       Las arquitecturas Jamstack ofrecen menos puntos de ataque. Al servir HTML
@@ -84,7 +89,8 @@ translationKey: "aboutwebsite"
     </p>
     <p>
       Nos aseguramos de que todo el mundo pueda ver este sitio web rápidamente y
-      sin costes adicionales, sin tener que pasar por obstáculos innecesarios.
+      sin costes adicionales (consumo de datos), y sin tener que pasar por
+      obstáculos innecesarios.
     </p>
   </div>
 
@@ -93,7 +99,15 @@ translationKey: "aboutwebsite"
       {% Picture "./src/assets/images/pages/webpagetest.jpg","", "w-full h-full
       rounded-md object-cover border", "Pantallazo de los resultados de
       webpagetest " %}
-      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
+      <figcaption
+        class="
+          text-sm
+          mt-2
+          text-gray-600
+          sm:bg-white sm:border sm:px-3 sm:py-2
+          rounded-md
+        "
+      >
         Resultados de la auditoría www.webpagetest.org para
         fundaciongoethe.org/es. WebPageTest es una herramienta de rendimiento
         que utiliza navegadores reales para recopilar métricas de tiempo,
@@ -104,22 +118,18 @@ translationKey: "aboutwebsite"
   </div>
 </div>
 
-<div class="max-w-7xl mx-auto lg:bg-transparent lg:px-8 my-20">
-  <div class="lg:grid lg:grid-cols-12">
+<div class="max-w-7xl mx-auto md:bg-transparent md:my-20">
+  <div class="md:grid md:grid-cols-12">
     <div
       class="
+        hidden
+        md:block
         relative
         z-10
-        lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent
+        md:col-start-1 md:row-start-1 md:col-span-4 md:py-16 md:bg-transparent
       "
     >
-      <div
-        class="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden"
-        aria-hidden="true"
-      ></div>
-      <div
-        class="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0"
-      >
+      <div class="max-w-md mx-auto sm:max-w-3xl md:max-w-none md:p-0">
         <div class="aspect-h-1 aspect-w-1">
           {% Picture "./src/assets/images/pages/lene.png","aspect-h-1
           aspect-w-1", "object-cover object-center rounded-lg shadow-lg",
@@ -131,26 +141,24 @@ translationKey: "aboutwebsite"
     <div
       class="
         relative
-        bg-gray-200
-        lg:col-start-3
-        lg:row-start-1
-        lg:col-span-10
-        lg:rounded-xl
-        lg:grid
-        lg:grid-cols-10
-        lg:items-center
+        md:bg-gray-200
+        md:col-start-3
+        md:row-start-1
+        md:col-span-10
+        md:rounded-xl
+        md:grid
+        md:grid-cols-10
+        md:items-center
       "
     >
       <div
         class="
           relative
-          max-w-md
           mx-auto
           py-12
-          px-4
           space-y-6
-          sm:max-w-3xl sm:py-16 sm:px-6
-          lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6
+          sm:max-w-3xl sm:py-16
+          md:max-w-none md:p-0 md:col-start-4 md:col-span-6
         "
       >
         <h2
@@ -180,7 +188,8 @@ translationKey: "aboutwebsite"
             py-2
             border border-transparent
             rounded-md
-            shadow-sm
+            shadow-md
+            hover:shadow-lg
             no-underline
           "
           rel="noopener"

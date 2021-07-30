@@ -1,5 +1,5 @@
 ---
-title: Erdbeerzug und musikalischer Spaziergang durch Jardín de la Isla
+title: Erdbeerzug und musikalischer Spaziergang
 description: Der Tag beginnt mit einer Fahrt mit dem Erdbeerzug von Atocha nach Aranjuez. Das FUKIO-Saxophonquartett begleitet uns.
 translationKey: fukioaranjuez
 customSlug: fukio-aranjuez

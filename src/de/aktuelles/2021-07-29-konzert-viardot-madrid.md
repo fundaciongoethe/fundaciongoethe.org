@@ -15,4 +15,4 @@ gallery:
   - image: ./src/assets/images/blog/concierto-viardot-garcia-madrid-2021-7.jpg
 ---
 
-Am 30. Juni würdigten Larissa Wäspy (Sopran), Claus Temps (Bass-Bariton) und Heike Bleckmannam (Klavier) die große Komponistin Pauline Viardot-García mit einem Konzert im Palacio Real in Madrid.
+Am 30. Juni würdigten Larissa Wäspy (Sopran), Claus Temps (Bass-Bariton) und Heike Bleckmann (Klavier) die große Komponistin Pauline Viardot-García mit einem Konzert im Palacio Real in Madrid.

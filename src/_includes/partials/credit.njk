@@ -11,7 +11,7 @@
       uppercase
     "
   >
-    <p class="pr-1 py-2">Hecho con</p>
+    <p class="pr-1 py-2">{{ meta[locale].contact.creditMade }}</p>
     <a
       tabindex="-1"
       rel="noopener"
@@ -22,15 +22,31 @@
       hover:scale-125", "corazon" %}
     </a>
     <p class="pl-1 py-2">
-      por
+      {{ meta[locale].contact.creditBy }}
       <a
         class="underline"
+        target="_blank"
         rel="noopener"
         title="Lene Saile - Diseñadora y desarrolladora web"
         href="{{ navigation[locale].credit[0].url }}"
         >{{ navigation[locale].credit[0].text }}</a
-      >
-      /
+      >.
+    </p>
+  </div>
+
+  <div
+    class="
+      text-center
+      flex
+      justify-center
+      items-center
+      content-between
+      text-black-900
+      font-semibold
+      uppercase
+    "
+  >
+    <p>
       <a
         class="underline"
         title="{{ navigation[locale].credit[1].text }}"
