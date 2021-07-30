@@ -1,0 +1,196 @@
+---
+title: Entwicklung und technische Details von fundaciongoethe.org
+description: Technische Details und Barrierefreiheit. Diese Website wurde vollständig von Hand gestaltet und mit der Jamstack-Methode entwickelt.
+layout: plain
+permalink: "/{{ locale }}/ueber-diese-seite/index.html"
+translationKey: "aboutwebsite"
+---
+
+<div class="relative px-4 sm:px-6 lg:px-8 max-w-2xl mx-auto">
+  <div class="text-lg max-w-prose mx-auto">
+    <h1 class="standardtitel">Technische Details und Barrierefreiheit</h1>
+    <p class="standardtext mt-3 sm:mt-4 prose">
+      Diese Website wurde vollständig von Hand gestaltet und mit der
+      Jamstack-Methode entwickelt. Jamstack wurde entwickelt, um das Internet
+      schneller und sicherer zu machen. Die Methode orientiert sich an den
+      frühen Tagen der Webentwicklung, als alle Webseiten statisch waren - reine
+      HTML-Dateien in einer Ordnerstruktur. Diese auf das Nötigste beschränkten
+      Webseiten waren sehr schnell und sicher. Heute nutzen wir die Vorteile
+      dieser klassischen Technik mit einer modernen Methode.
+    </p>
+  </div>
+  <div class="mt-6 prose mx-auto">
+    <p>
+      <strong>Jamstack-Webseiten haben große Vorteile:</strong>
+    </p>
+    <ul>
+      <li>
+        <strong>Sehr schnelle Ladezeiten</strong>, da die vorgefertigten
+        Markendateien und Assets über ein Content Delivery Network (CDN)
+        bereitgestellt werden.
+      </li>
+      <li>
+        <strong>Mehr Sicherheit</strong>, denn ohne Datenbanken und Server gibt
+        es keine Schwachstellen, die von Angreifern ausgenutzt werden können.
+      </li>
+      <li>
+        <strong>Niedrige Betriebskosten</strong>, da das Hosting statischer
+        Dateien billig oder sogar kostenlos ist.
+      </li>
+      <li>
+        <strong> Skalierbarkeit</strong>, d. h., wenn die Website plötzlich von
+        vielen aktiven Nutzern gleichzeitig besucht wird, gleicht das CDN dies
+        problemlos aus.
+      </li>
+    </ul>
+  </div>
+  <div class="my-12">
+    <figure>
+      {% Picture "./src/assets/images/pages/lighthouse.jpg","", "w-full h-full
+      rounded-md object-cover border", "Pantallazo de los resultados de
+      lighhouse " %}
+      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
+        Lighthouse-Ergebnisse für fundaciongoethe.org/de. Lighthouse ist ein
+        Tool, das Informationen über die Leistung, SEO, Benutzerfreundlichkeit
+        und Barrierefreiheit einer Website liefert.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="mt-6 prose mx-auto">
+    <h2>Wir legen großen Wert auf Barrierefreiheit</h2>
+    <p>
+      Rund einer von fünf Menschen hat eine langfristige Krankheit,
+      Beeinträchtigung oder Behinderung, und viele weitere haben eine
+      vorübergehende oder situationsbedingte Behinderung.
+    </p>
+    <p>
+      Unsere Entwicklerin sorgt dafür, dass diese Website von so vielen Menschen
+      wie möglich genutzt werden kann. Niemand sollte wegen einer Seh-, Hör-,
+      Sprach-, motorischen oder kognitiven Beeinträchtigung ausgeschlossen
+      werden.
+    </p>
+    <h2>Diese Website ist sehr schnell und sicher</h2>
+    <p>
+      Unsere Entwicklerin legt großen Wert auf die Schnelligkeit dieser Website.
+      Das Ziel ist, alles zu optimieren, zu reduzieren und wiederzuverwenden.
+    </p>
+
+    <p>
+      Jamstack-Architekturen bieten weniger Angriffspunkte. Durch die
+      Bereitstellung von vorgerendertem statischem HTML werden alle möglichen
+      Verbindungen zu Webanwendungsservern oder Datenbanken eliminiert.
+    </p>
+    <p>
+      Wir sorgen dafür, dass jeder diese Website schnell und ohne unnötige
+      Kosten (Datenverbrauch) benutzen kann.
+    </p>
+  </div>
+
+  <div class="my-12">
+    <figure>
+      {% Picture "./src/assets/images/pages/webpagetest.jpg","", "w-full h-full
+      rounded-md object-cover border", "Pantallazo de los resultados de
+      webpagetest " %}
+      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
+        Ergebnisse www.webpagetest.org für fundaciongoethe.org/de. WebPageTest
+        ist ein Leistungstool, das echte Browser verwendet, um Zeitmetriken,
+        Sicherheitsdetails und die kürzlich eingeführten "Core Web Vitals" zu
+        sammeln.
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="max-w-7xl mx-auto lg:bg-transparent lg:px-8 my-20">
+  <div class="lg:grid lg:grid-cols-12">
+    <div
+      class="
+        relative
+        z-10
+        lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent
+      "
+    >
+      <div
+        class="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden"
+        aria-hidden="true"
+      ></div>
+      <div
+        class="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0"
+      >
+        <div
+          class="
+            aspect-w-10 aspect-h-6
+            sm:aspect-w-2 sm:aspect-h-1
+            lg:aspect-w-1
+          "
+        >
+          {% Picture "./src/assets/images/pages/lene.png","", "object-cover
+          object-center rounded-lg shadow-lg", "Dibujo de Lene" %}
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="
+        relative
+        bg-gray-200
+        lg:col-start-3
+        lg:row-start-1
+        lg:col-span-10
+        lg:rounded-xl
+        lg:grid
+        lg:grid-cols-10
+        lg:items-center
+      "
+    >
+      <div
+        class="
+          relative
+          max-w-md
+          mx-auto
+          py-12
+          px-4
+          space-y-6
+          sm:max-w-3xl sm:py-16 sm:px-6
+          lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6
+        "
+      >
+        <h2
+          class="
+            text-xl
+            xl:text-2xl
+            2xl:text-3xl
+            tracking-tight
+            font-semibold
+            leading-tight
+            text-black
+          "
+          id="join-heading"
+        >
+          Möchten Sie eine ähnliche Website haben?
+        </h2>
+        <p class="text-lg text-black">
+          Wenden Sie sich an unsere Entwicklerin Lene, sie wird Ihnen gerne
+          helfen.
+        </p>
+        <a
+          class="
+            buttonhover
+            inline-flex
+            bg-yellow-400 bg-origin-border
+            px-4
+            py-2
+            border border-transparent
+            rounded-md
+            shadow-sm
+            no-underline
+          "
+          rel="noopener"
+          target="_blank"
+          href="https://www.lenesaile.com"
+          >www.lenesaile.com</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

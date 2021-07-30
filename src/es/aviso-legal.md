@@ -16,12 +16,3 @@ De conformidad con el artículo 10 de la Ley 34/2002, de 11 de julio, de servici
 
 Tel: <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
 Mail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
-
-## Sobre esta página web
-
-Este sitio está construido usando <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a>, <a href="https://github.com/netlify" target="_blank" rel="noopener">GitHub</a> y <a href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>.
-
-El método Jamstack es una forma moderna y muy sencilla de crear paginas web. Y tiene grandes ventajas: Tiempos de carga muy rápidos, más seguridad, bajos costos de funcionamiento, un desarrollo rápido y cambios sin complicaciones.
-
-**¿Te gustaría tener un sitio web como este?**
-Ponte en contacto con <a href="https://www.lenesaile.com" target="_blank" rel="noopener">Lene</a>, estará encantada de ayudarte.
