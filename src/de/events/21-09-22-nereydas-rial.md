@@ -9,9 +9,9 @@ location: Palacio Real
 city: Madrid
 type: Konzert
 access:
-date: 2021-09-22 20:30:00
-opening: 2021-09-22 20:00:00
-ending: 2021-09-22 17:00:00
+date: 2021-09-22 19:30:00
+opening: 2021-09-22 19:00:00
+ending: 2021-09-22 20:30:00
 deadline: 2021-09-10 21:00:00
 calcDuration: 1
 seo:

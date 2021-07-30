@@ -19,8 +19,8 @@ E-Mail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 ## Über diese Webseite
 
-Diese Seite wurde mit <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a>, <a href="https://github.com/netlify" target="_blank" rel="noopener">GitHub</a> und <a href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a> komplett "von Hand" entwickelt.
+Diese Seite wurde mit der Jamstack-Methode komplett von Hand gestaltet und entwickelt.
 
-Die Jamstack-Methode ist eine moderne und sehr schlichte Art, Webseiten zu erstellen. Die Methode hat große Vorteile: sehr schnelle Ladezeiten, mehr Sicherheit, geringe laufende Kosten, schnelle Entwicklung und unkomplizierte Änderungen.
+Jamstack ist eine moderne und sehr effiziente Art, Webseiten zu erstellen. Die Methode hat große Vorteile: sehr schnelle Ladezeiten, mehr Sicherheit, geringe laufende Kosten, schnelle Entwicklung und unkomplizierte Änderungen.
 
-Möchten Sie eine Website wie diese? Sprechen Sie <a href="https://www.lenesaile.com/de" target="_blank" rel="noopener">Lene</a>, sie wird Ihnen gerne weiterhelfen!
+Möchten Sie eine Website wie diese? Sprechen Sie mit <a href="https://www.lenesaile.com/de" target="_blank" rel="noopener">Lene</a>, sie hilft Ihnen gerne weiter!

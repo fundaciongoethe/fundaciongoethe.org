@@ -3,7 +3,7 @@ title: "Larissa Wäspy"
 translationKey: "larissawaspy"
 customSlug: "larissa-waespy"
 excerpt: La soprano Larissa Wäspy inspira al público y al mundo del arte con su claridad de expresión y su enorme brillo en el escenario.
-occupation: "soprano"
+occupation: "Soprano"
 seo:
   title: Larissa Wäspy
   description: La soprano Larissa Wäspy inspira al público y al mundo del arte con su claridad de expresión y su enorme brillo en el escenario.
@@ -12,7 +12,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/larissa-waespy.jpg
   alt: Larissa Wäspy
 links:
-  web: https://waespy.net/
+  web: https://waespy.net
   twitter:
   facebook: https://facebook.com/profile.php?id=100002333306461
   instagram: https://instagram.com/larissawaespy

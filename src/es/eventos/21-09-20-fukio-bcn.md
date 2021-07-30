@@ -11,7 +11,7 @@ type: Concierto
 access: Se requiere una invitación personal
 date: 2021-09-20 20:30:00
 opening: 2021-09-20 20:00:00
-ending: 2021-09-20 17:00:00
+ending: 2021-09-20 21:30:00
 deadline: 2021-09-19 21:00:00
 calcDuration: 1
 seo:
