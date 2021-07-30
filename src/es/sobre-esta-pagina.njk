@@ -6,7 +6,7 @@ permalink: "/{{ locale }}/sobre-esta-pagina/index.html"
 translationKey: "aboutwebsite"
 ---
 
-<div class="relative px-4 sm:px-6 lg:px-8 max-w-2xl mx-auto">
+<div class="relative max-w-2xl mx-auto">
   <div class="text-lg max-w-prose mx-auto">
     <h1 class="standardtitel">Detalles técnicos y accesibilidad</h1>
     <p class="standardtext mt-3 sm:mt-4 prose">
@@ -120,15 +120,10 @@ translationKey: "aboutwebsite"
       <div
         class="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0"
       >
-        <div
-          class="
-            aspect-w-10 aspect-h-6
-            sm:aspect-w-2 sm:aspect-h-1
-            lg:aspect-w-1
-          "
-        >
-          {% Picture "./src/assets/images/pages/lene.png","", "object-cover
-          object-center rounded-lg shadow-lg", "Dibujo de Lene" %}
+        <div class="aspect-h-1 aspect-w-1">
+          {% Picture "./src/assets/images/pages/lene.png","aspect-h-1
+          aspect-w-1", "object-cover object-center rounded-lg shadow-lg",
+          "Dibujo de Lene" %}
         </div>
       </div>
     </div>
