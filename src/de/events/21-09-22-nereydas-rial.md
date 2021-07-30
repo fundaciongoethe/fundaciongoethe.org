@@ -24,4 +24,4 @@ infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Pl
 
 Die "Temporada Musical de Patrimonio Nacional 2021" ist eine Reise durch die königlichen Anlagen, in deren Mittelpunkt die Rolle der Frauen in der Hofmusik steht.
 
-Im Rahmen des Musikzyklus "Akademien und Salonmusik" werden Nereydas und die Sopranistin Nuria Rial unter der Leitung von Javier Ulises Illán eine Handvoll höfischer Musikwerke aus einer Manuskriptsammlung der Königin María Bárbara de Braganza aufführen.
+Im Rahmen des Musikzyklus "Akademien und Salonmusik" werden Nereydas und die Sopranistin Núria Rial unter der Leitung von Javier Ulises Illán eine Handvoll höfischer Musikwerke aus einer Manuskriptsammlung der Königin María Bárbara de Braganza aufführen.

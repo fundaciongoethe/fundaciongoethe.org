@@ -98,6 +98,17 @@ module.exports = {
 				url: "/es/privacidad/",
 			},
 		],
+
+		credit: [
+			{
+				text: "Lene Saile",
+				url: "https://www.lenesaile.com",
+			},
+			{
+				text: "Sobre esta página",
+				url: "/es/sobre-esta-pagina/",
+			},
+		],
 	},
 
 	de: {
@@ -197,6 +208,17 @@ module.exports = {
 			{
 				text: "Datenschutz",
 				url: "/de/datenschutz/",
+			},
+		],
+
+		credit: [
+			{
+				text: "Lene Saile",
+				url: "https://www.lenesaile.com/de",
+			},
+			{
+				text: "Über diese Seite",
+				url: "/de/ueber-diese-seite/",
 			},
 		],
 	},

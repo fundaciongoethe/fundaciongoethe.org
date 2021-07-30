@@ -1,0 +1,200 @@
+---
+title: Desarrollo y detalles técnicos de fundaciongoethe.org
+description: ¡Gracias, hemos recibido tu mensaje! Te contestaremos lo antes posible.
+layout: plain
+permalink: "/{{ locale }}/sobre-esta-pagina/index.html"
+translationKey: "aboutwebsite"
+---
+
+<div class="relative px-4 sm:px-6 lg:px-8 max-w-2xl mx-auto">
+  <div class="text-lg max-w-prose mx-auto">
+    <h1 class="standardtitel">Detalles técnicos y accesibilidad</h1>
+    <p class="standardtext mt-3 sm:mt-4 prose">
+      Esta página web está desarrollado según el método Jamstack. Jamstack está
+      diseñado para hacer la web más rápida y segura. Está orientado a los
+      inicios del desarrollo de la web, cuando todas las páginas web eran
+      estáticas - puros archivos HTML que se encuentran en una estructura de
+      carpetas. Estas páginas web, que se arreglaban con lo más esencial, eran
+      increíblemente rápidas y seguras. Hoy en día queremos aprovechar de las
+      ventajas de esta técnica clásica con un método moderno.
+    </p>
+  </div>
+  <div class="mt-6 prose mx-auto">
+    <p>
+      <strong
+        >Las páginas creadas con este sístema tienen grandes ventajas:</strong
+      >
+    </p>
+    <ul>
+      <li>
+        <strong>Tiempos de carga muy rápidos</strong>, ya que los archivos de
+        marcas y activos preconstruidos se sirven a través de una red de
+        distribución de contenidos (CDN)
+      </li>
+      <li>
+        <strong>Más seguridad</strong>, porque sin bases de datos y servidores
+        no hay vulnerabilidades que puedan ser explotadas por los atacantes.
+      </li>
+      <li>
+        <strong>Bajos costos de funcionamiento</strong>, ya que el alojamiento
+        de archivos estáticos es barato o incluso gratuito.
+      </li>
+      <li>
+        <strong> Escalabilidad</strong>, significa que si el sitio web es
+        visitado repentinamente por muchos usuarios activos al mismo tiempo, el
+        CDN compensa esto sin problemas.
+      </li>
+    </ul>
+  </div>
+  <div class="my-12">
+    <figure>
+      {% Picture "./src/assets/images/pages/lighthouse.jpg","", "w-full h-full
+      rounded-md object-cover border", "Pantallazo de los resultados de
+      lighhouse " %}
+      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
+        Resultados de la auditoría Lighthouse para fundaciongoethe.org/es.
+        Lighthouse es una herramienta que proporciona información sobre el
+        rendimiento, el SEO, la usabilidad y la accesibilidad de una página.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="mt-6 prose mx-auto">
+    <h2>Damos gran importancia a la accesibilidad</h2>
+    <p>
+      al menos 1 de cada 5 personas tiene una enfermedad, deficiencia o
+      discapacidad de larga duración, y muchas más tienen una discapacidad
+      temporal o situacional.
+    </p>
+    <p>
+      Nuestra desarrolladora se asegura de que este sitio web puede ser
+      utilizado por el mayor número posible de personas. Nadie debe ser excluido
+      por tener deficiencias visuales, auditivas, del habla, motoras o
+      cognitivas.
+    </p>
+    <h2>Esta página web está muy rapida y segura</h2>
+    <p>
+      Nuestra desarrolladora web se preocupa mucho por el rendimiento de este
+      sitio. El objetivo es optimizar todo, reducir y reutilizar.
+    </p>
+
+    <p>
+      Las arquitecturas Jamstack ofrecen menos puntos de ataque. Al servir HTML
+      estático pre-renderizado, se eliminan todas las posibles conexiones a
+      servidores de aplicaciones web o de bases de datos.
+    </p>
+    <p>
+      Nos aseguramos de que todo el mundo pueda ver este sitio web rápidamente y
+      sin costes adicionales, sin tener que pasar por obstáculos innecesarios.
+    </p>
+  </div>
+
+  <div class="my-12">
+    <figure>
+      {% Picture "./src/assets/images/pages/webpagetest.jpg","", "w-full h-full
+      rounded-md object-cover border", "Pantallazo de los resultados de
+      webpagetest " %}
+      <figcaption class="text-sm mt-2 text-gray-500 font-semibold">
+        Resultados de la auditoría www.webpagetest.org para
+        fundaciongoethe.org/es. WebPageTest es una herramienta de rendimiento
+        que utiliza navegadores reales para recopilar métricas de tiempo,
+        detalles de seguridad y los recientemente introducidos “Core Web
+        Vitals”.
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="max-w-7xl mx-auto lg:bg-transparent lg:px-8">
+  <div class="lg:grid lg:grid-cols-12">
+    <div
+      class="
+        relative
+        z-10
+        lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent
+      "
+    >
+      <div
+        class="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden"
+        aria-hidden="true"
+      ></div>
+      <div
+        class="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0"
+      >
+        <div
+          class="
+            aspect-w-10 aspect-h-6
+            sm:aspect-w-2 sm:aspect-h-1
+            lg:aspect-w-1
+          "
+        >
+          {% Picture "./src/assets/images/pages/lene.png","", "object-cover
+          object-center rounded-lg shadow-lg", "Dibujo de Lene" %}
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="
+        my-20
+        relative
+        bg-gray-200
+        lg:col-start-3
+        lg:row-start-1
+        lg:col-span-10
+        lg:rounded-xl
+        lg:grid
+        lg:grid-cols-10
+        lg:items-center
+      "
+    >
+      <div
+        class="
+          relative
+          max-w-md
+          mx-auto
+          py-12
+          px-4
+          space-y-6
+          sm:max-w-3xl sm:py-16 sm:px-6
+          lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6
+        "
+      >
+        <h2
+          class="
+            text-xl
+            xl:text-2xl
+            2xl:text-3xl
+            tracking-tight
+            font-semibold
+            leading-tight
+            text-black
+          "
+          id="join-heading"
+        >
+          ¿Quieres tener una página web similar?
+        </h2>
+        <p class="text-lg text-black">
+          Ponte en contacto con nuestra desarrolladora Lene, estará encantada de
+          ayudarte.
+        </p>
+        <a
+          class="
+            buttonhover
+            inline-flex
+            bg-yellow-400 bg-origin-border
+            px-4
+            py-2
+            border border-transparent
+            rounded-md
+            shadow-sm
+            no-underline
+          "
+          rel="noopener"
+          target="_blank"
+          href="https://www.lenesaile.com"
+          >www.lenesaile.com</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

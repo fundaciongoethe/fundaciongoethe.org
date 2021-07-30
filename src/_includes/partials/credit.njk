@@ -1,35 +1,42 @@
 <div class="bg-transparent px-2 text-xs max-w-6xl py-5 mx-auto">
-	<div
-		class="
-			text-center
-			flex
-			justify-center
-			items-center
-			content-between
-			text-black-900
-			font-semibold
-			uppercase
-		"
-	>
-		<p class="pr-1 py-2">Hecho con</p>
-		<a
-			tabindex="-1"
-			rel="noopener"
-			title="Lene Saile - Diseñadora y desarrolladora web"
-			href="https://lenesaile.com"
-		>
-			{% svg "heart", "w-5 h-5 transition duration-200 ease-in-out transform
-			hover:scale-125", "corazon" %}
-		</a>
-		<p class="pl-1 py-2">
-			por
-			<a
-				class="underline"
-				rel="noopener"
-				title="Lene Saile - Diseñadora y desarrolladora web"
-				href="https://www.lenesaile.com/"
-				>Lene Saile</a
-			>
-		</p>
-	</div>
+  <div
+    class="
+      text-center
+      flex
+      justify-center
+      items-center
+      content-between
+      text-black-900
+      font-semibold
+      uppercase
+    "
+  >
+    <p class="pr-1 py-2">Hecho con</p>
+    <a
+      tabindex="-1"
+      rel="noopener"
+      title="Lene Saile - Diseñadora y desarrolladora web"
+      href="https://lenesaile.com"
+    >
+      {% svg "heart", "w-5 h-5 transition duration-200 ease-in-out transform
+      hover:scale-125", "corazon" %}
+    </a>
+    <p class="pl-1 py-2">
+      por
+      <a
+        class="underline"
+        rel="noopener"
+        title="Lene Saile - Diseñadora y desarrolladora web"
+        href="{{ navigation[locale].credit[0].url }}"
+        >{{ navigation[locale].credit[0].text }}</a
+      >
+      /
+      <a
+        class="underline"
+        title="{{ navigation[locale].credit[1].text }}"
+        href="{{ navigation[locale].credit[1].url }}"
+        >{{ navigation[locale].credit[1].text }}</a
+      >
+    </p>
+  </div>
 </div>

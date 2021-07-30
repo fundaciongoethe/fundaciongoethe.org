@@ -24,4 +24,4 @@ infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo c
 
 La Temporada Musical de Patrimonio Nacional para 2021 propone un viaje por los Reales Sitios, cuyo eje principal es el papel de la mujer en la música de la corte.
 
-En el marco del ciclo musical 'Academias y música de salón' tiene lugar la interpretación por parte de Nereydas y la soprano Nuria Rial, con dirección de Javier Ulises Illán, un buen puñado de obras musicales cortesanas contenidas en una colección manuscrita de la reina María Bárbara de Braganza.
+En el marco del ciclo musical 'Academias y música de salón' tiene lugar la interpretación por parte de Nereydas y la soprano Núria Rial, con dirección de Javier Ulises Illán, un buen puñado de obras musicales cortesanas contenidas en una colección manuscrita de la reina María Bárbara de Braganza.
