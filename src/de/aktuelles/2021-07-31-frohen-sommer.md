@@ -18,7 +18,7 @@ Im Folgenden einige der Veranstaltungen, die wir für die Rückkehr aus den Feri
 
 - **19.09.** Family & Friends in Aranjuez
 - **20.09.** Fukio Quartet im Pabellón Mies van der Rohe, Barcelona
-- **22.09.** NEREYDAS im Palacio Real, Madrid
+- **22.09.** Nereydas und Nuria Rial im Palacio Real, Madrid
 - Für Fragen oder Voranmeldungen stehen wir Ihnen gerne zur Verfügung.
 
   \*\*Wir sehen uns im September!

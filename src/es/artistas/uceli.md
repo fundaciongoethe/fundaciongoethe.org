@@ -5,7 +5,7 @@ customSlug: "uceli-quartet"
 excerpt: Cuarteto de cuerda formado por miembros de la Orquesta Sinfónica del Gran Teatro del Liceo de Barcelona. Yana Tsanova y Oleg Shport (violín), Claire Bobij (viola), Guillaume Terrail (chelo).
 occupation: "Sopranistin"
 seo:
-  title: UceLi Quartet | {{ meta[locale].seoArtist }}
+  title: UceLi Quartet
   description: El cuarteto de cuerda UceLi está formado por miembros de la orquesta sinfónica del Gran Teatre del Liceu de Barcelona.
   image: artists/uleci.jpg
 images: # complete path for eleventy img srcset output, alt required

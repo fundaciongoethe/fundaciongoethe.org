@@ -1,5 +1,5 @@
 ---
-title: "¡Os deseamos un feliz verano 2021!"
+title: "Os deseamos un feliz verano 2021"
 date: "2021-07-31"
 translationKey: "verano2021"
 excerpt: ¡Os deseamos un feliz verano! Aquí podeis ver algunos de los eventos que estamos preparando para el regreso de las vacaciones.
@@ -14,7 +14,7 @@ Aquí podeis ver algunos de los eventos que estamos preparando para el regreso d
 
 - **19.09.** Family & Friends: Aranjuez
 - **20.09.** Fukio Quartet en el Pabellón Mies van der Rohe
-- **22.09.** NEREYDAS en el Palacio Real de Madrid
+- **22.09.** Nereydas y Nuria Rial en el Palacio Real de Madrid
 
 Quedamos a tu disposición para cualquier duda o preinscripción.
 

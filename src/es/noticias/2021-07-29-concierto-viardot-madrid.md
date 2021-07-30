@@ -15,4 +15,4 @@ gallery:
   - image: ./src/assets/images/blog/concierto-viardot-garcia-madrid-2021-7.jpg
 ---
 
-El pasado 30 de junio Larissa Wäspy (soprano) Claus Temps (bajo barítono) y Heike Bleckmannam (piano) rindieron homenaje a la gran compositora Pauline Viardot-García con un concierto en el Palacio Real de Madrid.
+El pasado 30 de junio Larissa Wäspy (soprano) Claus Temps (bajo barítono) y Heike Bleckmann (piano) rindieron homenaje a la gran compositora Pauline Viardot-García con un concierto en el Palacio Real de Madrid.

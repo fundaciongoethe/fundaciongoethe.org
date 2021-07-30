@@ -2,87 +2,87 @@
 layout: home
 ---
 
-<div class="mx-auto max-w-2xl text-gray-900 mb-10 lg:mt-16">
-	{% if images.featured %} {# 21-07 "grayimg" entfernt aus picture class #}
-	<figure class="h-full w-full fade-in">
-		<div class="mx-auto max-w-4xl relative">
-			{% Picture images.featured,"", "lazy w-full h-auto md:rounded-md",
-			images.alt or title %}
+<div class="mx-auto max-w-2xl text-gray-900 mb-20 lg:mt-16">
+  {% if images.featured %} {# 21-07 "grayimg" entfernt aus picture class #}
+  <figure class="h-full w-full fade-in">
+    <div class="mx-auto max-w-4xl relative">
+      {% Picture images.featured,"", "lazy w-full h-auto md:rounded-md",
+      images.alt or title %}
 
-			<div
-				class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50"
-				style="mix-blend-mode: multiply"
-			></div>
-		</div>
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50"
+        style="mix-blend-mode: multiply"
+      ></div>
+    </div>
 
-		{% if images.credit %}
-		<figcaption
-			class="
-				md:mr-20
-				flex
-				transform
-				-translate-y-10
-				text-sm
-				bg-gray-100
-				py-1
-				pl-3
-				sm:pl-6
-				md:rounded-r
-				opacity-80
-			"
-		>
-			<!-- Heroicon name: solid/camera -->
-			<svg
-				class="flex-none w-5 h-5 text-gray-400"
-				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 20 20"
-				fill="currentColor"
-				aria-hidden="true"
-			>
-				<path
-					fill-rule="evenodd"
-					d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z"
-					clip-rule="evenodd"
-				/>
-			</svg>
-			<span class="ml-2">
-				{{ images.credit }}
-			</span>
-		</figcaption>
-		{% endif %}
-	</figure>
+    {% if images.credit %}
+    <figcaption
+      class="
+        md:mr-20
+        flex
+        transform
+        -translate-y-10
+        text-sm
+        bg-gray-100
+        py-1
+        pl-3
+        sm:pl-6
+        md:rounded-r
+        opacity-80
+      "
+    >
+      <!-- Heroicon name: solid/camera -->
+      <svg
+        class="flex-none w-5 h-5 text-gray-400"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z"
+          clip-rule="evenodd"
+        />
+      </svg>
+      <span class="ml-2">
+        {{ images.credit }}
+      </span>
+    </figcaption>
+    {% endif %}
+  </figure>
 
-	{% endif %}
+  {% endif %}
 
-	<div
-		class="text-right text-xs uppercase flex justify-end font-bold mr-5 mt-2"
-	>
-		<time datetime="{{ date | datetime }}">
-			{{ date | date("dddd, Do MMMM yyyy", locale) }}</time
-		>
-	</div>
+  <div
+    class="text-right text-xs uppercase flex justify-end font-bold mr-5 mt-2"
+  >
+    <time datetime="{{ date | datetime }}">
+      {{ date | date("dddd, Do MMMM yyyy", locale) }}</time
+    >
+  </div>
 
-	<h1 class="standardtitel px-3 sm:px-6 py-6">
-		{{ title }}
-	</h1>
+  <h1 class="standardtitel px-3 sm:px-6 py-6">
+    {{ title }}
+  </h1>
 
-	<div class="prose prose-red px-3 sm:px-6">
-		{{ content | safe }}
-	</div>
+  <div class="prose prose-red px-3 sm:px-6">
+    {{ content | safe }}
+  </div>
 
-	<!-- import gallery if there is gallery  -->
+  <!-- import gallery if there is gallery  -->
 
-	{% if gallery %} {# 21-07 "filter grayscale" entfernt aus picture class #}
-	<div class="px-3 sm:px-6 mt-10">
-		<h2 class="standardtitel mb-4">{{ meta[locale].gallery }}</h2>
+  {% if gallery %} {# 21-07 "filter grayscale" entfernt aus picture class #}
+  <div class="px-3 sm:px-6 mt-10">
+    <h2 class="standardtitel mb-4">{{ meta[locale].gallery }}</h2>
 
-		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
-			{% for item in gallery %} {% Picture item.image,"aspect-w-5 aspect-h-3
-			md:aspect-w-4 md:aspect-h-4", "object-cover rounded-sm", title %} {%-
-			endfor -%}
-		</div>
-	</div>
-	{%- endif -%}
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
+      {% for item in gallery %} {% Picture item.image,"aspect-w-5 aspect-h-4
+      md:aspect-w-4 md:aspect-h-4", "object-cover rounded-sm", title %} {%-
+      endfor -%}
+    </div>
+  </div>
+  {%- endif -%}
 </div>
 
 <!-- include blogpost schema  -->

@@ -7,7 +7,7 @@ artist: [fukio]
 venue: [jardinisla]
 location: Jardín de la Isla
 city: Aranjuez
-type: Excursión
+type: Ausflug
 access: Persönliche Einladung erforderlich
 date: 2021-09-19 10:00:00
 opening:
