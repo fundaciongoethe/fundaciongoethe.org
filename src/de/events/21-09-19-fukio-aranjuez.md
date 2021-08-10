@@ -19,7 +19,6 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/jardin-isla-2.JPG
   alt: Jardín de la Isla
-infobox: Evento privado, sólo con invitación personal.
 ---
 
 Beginnen Sie den Tag mit einer Fahrt mit dem Erdbeerzug nach Aranjuez.
