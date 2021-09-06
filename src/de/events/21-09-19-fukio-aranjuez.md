@@ -19,9 +19,18 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/jardin-isla-2.JPG
   alt: Jardín de la Isla
-infobox: Evento privado, sólo con invitación personal.
+infobox: Private Veranstaltung, nur mit persönlicher Einladung. Für die Reise mit dem Zug sowie das Konzert können unabhängig davon Eintrittskarten erstanden werden.
 ---
 
-Beginnen Sie den Tag mit einer Fahrt mit dem Erdbeerzug nach Aranjuez.
+Bei unserem alljährlichen Ausflug "Family & Friends" geht es darum sich wohlzufühlen, sich auszutauschen und den Tag zu genießen.
 
-Das FUKIO-Saxophonquartett wird uns am Bahnhof empfangen und den ganzen Tag über zu verschiedenen Zeiten begleiten.
+Im "Europäischen Jahr der Schiene" beginnt der Tag mit einer Eisenbahnfahrt im historischen Zug "Tren de la Fresa“ von Madrid nach Aranjuez. In Aranjuez, am Eingang des Jardín del Parterre an der Plaza de Rusiñol, unternehmen wir einen musikalischen Spaziergang im Jardín de la Isla, der im Schatten der großen Plantanen, dem sogenannten Salón de los Reyes Catolicos, mit einem Konzert endet.
+
+Das Fukio-Quartett, ein Saxophon-Ensemble, wird in dem Konzert Jahrhunderte der Musikgeschichte mit Szenen, die in Deutschland, Spanien, Argentinien und den Vereinigten Staaten entstanden sind, verbinden.
+
+Nach einem gemeinsamen Mittagessen bringt der Zug die Teilnehmer wieder nach Madrid. Geplante Ankunft um 19:30h Uhr im Museo del Ferrocarril.
+
+Für die Kinder gibt es ein Rahmenprogramm.
+
+Die Kosten des Tages für eingeladene Gäste übernimmt die Fundación Goethe.
+Zugfahrt und Konzert sind unabhängige Veranstaltungen im Rahmen der **XXVIII Música Antigua Aranjuez 2021** und können unter folgendem Link gekauft werden: <a href="http://musicaantiguaaranjuez.com/evento/fukio-ensemble-paseo-musical-por-el-jardin-de-la-isla/" target="_blank" rel="noreferrer"> musicaantiguaaranjuez.com/evento/fukio-ensemble-paseo-musical-por-el-jardin-de-la-isla</a>.

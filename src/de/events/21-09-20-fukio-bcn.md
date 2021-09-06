@@ -19,7 +19,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pabellon-mies.jpg
   alt: Pabellón Mies van der Rohe
-infobox: Evento privado, sólo con invitación personal.
+infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 ---
 
 Seit 2007 beschäftigt sich das preisgekrönte Saxophonquartett Fukio intensiv mit der Literatur der Kammermusik für Saxophon.
