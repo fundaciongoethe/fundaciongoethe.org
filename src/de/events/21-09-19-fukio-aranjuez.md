@@ -11,7 +11,7 @@ type: Ausflug
 access: Persönliche Einladung erforderlich
 date: 2021-09-19 10:00:00
 opening:
-ending: 2021-09-19 17:00:00
+ending: 2021-09-19 19:30:00
 deadline: 2021-09-10 21:00:00
 calcDuration: 8
 seo:

@@ -22,4 +22,8 @@ images: # complete path for eleventy img srcset output, alt required
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 ---
 
-Seit 2007 beschäftigt sich das preisgekrönte Saxophonquartett Fukio intensiv mit der Literatur der Kammermusik für Saxophon.
+Das Fukio-Quartett beginnt sein Programm mit den drei Gymnopédies von Satie, in ihrer Transkription für Saxophonquartett.
+
+1911 gab Maurice Ravel im Pariser Salle Gaveau ein Klavierkonzert mit Musik von Erik Satie und stellte den noch unbekannten Komponisten der drei kleinen Stücke als Wegbereiter der modernen Musik vor. Es ist eine knappe, transparente und luzide Musik, die eine perfekte Analogie zu dem zu sein scheint, was Mies van der Rohe und Lily Reich mit ihrer Komposition im Pavillon erreichen. Klein und flüchtig; Gebäude und Musik, aber von herausragender historischer Bedeutung.
+
+Weiter werden Werke von G. F. Haas, Caroline Shaw und William Albright gespielt.
