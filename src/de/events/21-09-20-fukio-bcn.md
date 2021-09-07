@@ -1,5 +1,5 @@
 ---
-title: Fukio im Pabellón Mies van der Rohe
+title: Fukio Quartett im Pabellón Mies van der Rohe
 description: Seit 2007 beschäftigt sich das preisgekrönte Saxophonquartett Fukio intensiv mit der Literatur der Kammermusik für Saxophon.
 translationKey: fukiobcn21
 customSlug: fukio-concierto-barcelona
