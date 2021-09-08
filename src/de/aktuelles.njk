@@ -7,35 +7,35 @@ seo:
   description: En mi blog escribo sobre mi proyecto. Noticias, prensa, críticas, mis movidas, conciertos, fotos, canciones y vídeos.
 pagination:
   data: collections.posts_de
-  size: 6
+  size: 9
   reverse: true
   alias: posts_de
 ---
 
 <div
-	class="
-		relative
-		mx-auto
-		py-10
-		md:pt-0
-		lg:py-16
-		px-3
-		sm:px-6
-		xl:px-16
-		2xl:px-24
-	"
+  class="
+    relative
+    mx-auto
+    py-10
+    md:pt-0
+    lg:py-16
+    px-3
+    sm:px-6
+    xl:px-16
+    2xl:px-24
+  "
 >
-	<div class="relative max-w-7xl mx-auto">
-		<div class="text-center">
-			<h2 class="standardtitel">Aktuelles</h2>
-			<p class="standardtext mt-3 sm:mt-4 max-w-2xl mx-auto">
-				In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene
-				Veranstaltungen und machen auf besondere Events aufmerksam.
-			</p>
-		</div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="text-center">
+      <h2 class="standardtitel">Aktuelles</h2>
+      <p class="standardtext mt-3 sm:mt-4 max-w-2xl mx-auto">
+        In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene
+        Veranstaltungen und machen auf besondere Events aufmerksam.
+      </p>
+    </div>
 
-		{% set postslist = posts_de | reverse %} {% include
-		"components/postslistcards.njk" %} {% if collections.posts_de.length >
-		pagination.size %} {% include "components/pagination.njk" %} {% endif %}
-	</div>
+    {% set postslist = posts_de | reverse %} {% include
+    "components/postslistcards.njk" %} {% if collections.posts_de.length >
+    pagination.size %} {% include "components/pagination.njk" %} {% endif %}
+  </div>
 </div>

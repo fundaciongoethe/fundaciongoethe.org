@@ -7,36 +7,36 @@ seo:
   description: En mi blog escribo sobre mi proyecto. Noticias, prensa, críticas, mis movidas, conciertos, fotos, canciones y vídeos.
 pagination:
   data: collections.posts_es
-  size: 6
+  size: 9
   reverse: true
   alias: posts_es
 ---
 
 <div
-	class="
-		relative
-		mx-auto
-		py-10
-		md:pt-0
-		lg:py-16
-		px-3
-		sm:px-6
-		xl:px-16
-		2xl:px-24
-	"
+  class="
+    relative
+    mx-auto
+    py-10
+    md:pt-0
+    lg:py-16
+    px-3
+    sm:px-6
+    xl:px-16
+    2xl:px-24
+  "
 >
-	<div class="relative max-w-7xl mx-auto">
-		<div class="text-center">
-			<h2 class="standardtitel">Noticias</h2>
-			<p class="standardtext mt-3 sm:mt-4 max-w-2xl mx-auto">
-				En nuestra sección de noticias damos una revisión de los eventos pasados
-				y llamamos la atención sobre eventos especiales
-			</p>
-		</div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="text-center">
+      <h2 class="standardtitel">Noticias</h2>
+      <p class="standardtext mt-3 sm:mt-4 max-w-2xl mx-auto">
+        En nuestra sección de noticias damos una revisión de los eventos pasados
+        y llamamos la atención sobre eventos especiales
+      </p>
+    </div>
 
-		{% set postslist = posts_es | reverse %} {% set postlist =
-		['components/postslistcards.njk'] %} {% include postlist | join %} {% if
-		collections.posts_es.length > pagination.size %} {% include
-		"components/pagination.njk" %} {% endif %}
-	</div>
+    {% set postslist = posts_es | reverse %} {% set postlist =
+    ['components/postslistcards.njk'] %} {% include postlist | join %} {% if
+    collections.posts_es.length > pagination.size %} {% include
+    "components/pagination.njk" %} {% endif %}
+  </div>
 </div>

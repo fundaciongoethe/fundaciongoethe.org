@@ -2,7 +2,7 @@
 title: "Jürgen Schadeberg - exposición en Alcalá de Henares"
 date: "2016-06-17"
 translationKey: "schadeberg16"
-excerpt:
+excerpt: En el Antiguo Hopital de Santa María la Rica (Alcalá de Henares) tuvo lugar la primera gran exposición en España del fotógrafo Jürgen Schadeberg.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/xy.jpg
   alt:

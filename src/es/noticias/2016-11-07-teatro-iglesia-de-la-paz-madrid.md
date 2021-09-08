@@ -2,15 +2,10 @@
 title: "Teatro en la Iglesia de la Paz de Madrid"
 date: "2016-11-07"
 translationKey: "teatro16"
-excerpt:
+excerpt: Asistimos en la Iglesia de la Paz de Madrid a la comedia “Mi querido Sr. Katharina – Divertidas Consideraciones de la Casa de Lutero”, con Annette Seibt, Reiner Gabriel y Werner Brunngräber.
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/blog/xy.jpg
+  featured: ./src/assets/images/blog/teatro-iglesia-madrid-17.jpg
   alt:
-gallery:
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
 ---
 
 **El día 4 de noviembre asistimos en la Iglesia de la Paz de Madrid a la comedia “Mi querido Sr. Katharina – Divertidas Consideraciones de la Casa de Lutero”, con Annette Seibt, Reiner Gabriel y Werner Brunngräber.**
@@ -20,7 +15,3 @@ La familia Luther acudió como invitada al comienzo del aniversario de la reform
 Así, y representados en una obra de teatro, se concedieron tanto el señor como la señora Lutero el honor de dar a conocer su turbulenta vida matrimonial a través de testigos y extractos de numerosas cartas que intercambiaban. Hechos e historias se entremezclaron de manera amena y entretenida, pudiendo los espectadores disfrutar de una obra de teatro con los actores Annete Seibt, en el papel de Catalina de Bora y Reiner Gabriel, en el papel de Lutero. Todo ello acompañado de música en directo de Werner Brunngräber, que al igual que entonces, no podía faltar en la casa luterana.
 
 En la recepción que tuvo lugar a continuación, los espectadores tuvieron la oportunidad de comentar con los intérpretes las obras y vivencias de las que habían podido disfrutar.
-
-**A continuación nos gustaría compartir algunas imágenes de esta representación teatral con Vds.**
-
-\[gallery link="file" ids="1741,1727,1725,1729,1731,1733,1737,1735,1755,1751,1745,1747,1743,1739,1749,1753,1723"\]

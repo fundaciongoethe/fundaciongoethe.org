@@ -2,18 +2,13 @@
 title: "Anuario 2015 de la Fundación Goethe"
 date: "2016-07-11"
 translationKey: "anuariopresentacion"
-excerpt:
+excerpt: Nos place presentar el nuevo anuario 2015. La embajada alemana en Madrid y la Fundación Goethe pueden mirar hacia atrás sobre una cooperación de quince años de éxito.
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/blog/xy.jpg
+  featured: ./src/assets/images/blog/DSC08742-820x400.jpg
   alt:
-gallery:
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
 ---
 
-Nos place presentar el nuevo anuario 2015. Por favor, haga click en el siguiente links para descargar el PDF: **[\[Anuario 2015: PDF, 3,5Mb\]](https://www.fundaciongoethe.org/assets/pdf/jahrbuch-2015.pdf)**
+Nos place presentar el [nuevo anuario 2015](https://www.fundaciongoethe.org/es/sobre-nosotros/#anuarios).
 
 ### Saludo del embajador alemán para España Sr. Peter Tempel para la memoria del año 2015 de la Fundación Goethe
 

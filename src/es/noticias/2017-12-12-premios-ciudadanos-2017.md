@@ -2,15 +2,10 @@
 title: "La Fundación Goethe ha sido galardonada por los Premios CIUDADANOS"
 date: "2017-12-12"
 translationKey: "premio17"
-excerpt:
+excerpt: La Fundación Goethe ha sido galardonada por los Premios CIUDADANOS.
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/blog/xy.jpg
+  featured: ./src/assets/images/blog/premio-fundacion-goethe-2017-1.jpg
   alt:
-gallery:
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
 ---
 
 La Fundación Goethe ha sido galardonada por los Premios CIUDADANOS. La Gala Fin de Año de la XXI Edición de los Premios CIUDADANOS tendrá lugar el 12.12.2017 a las 19:00 horas en el Ateneo de Madrid.

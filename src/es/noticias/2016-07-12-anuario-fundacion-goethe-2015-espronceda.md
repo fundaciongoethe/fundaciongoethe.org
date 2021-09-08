@@ -2,15 +2,10 @@
 title: "Presentación del anuario de la Fundación Goethe 2015 en Espronceda"
 date: "2016-07-12"
 translationKey: "anuario16"
-excerpt:
+excerpt: En Espronceda, un centro de arte contemporáneo e innovador con salas de exposiciones, se presentó el anuario de la Fundación Goethe.
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/blog/xy.jpg
+  featured: ./src/assets/images/blog/jahrbuch-fundacion-goethe-2016-820x400.jpg
   alt:
-gallery:
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
-  - image: ./src/assets/images/blog/xx.jpg
 ---
 
 **En Espronceda, un centro de arte contemporáneo e innovador con salas de exposiciones, se presentó el anuario de la Fundación Goethe.**
