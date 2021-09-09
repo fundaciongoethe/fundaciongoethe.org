@@ -1,8 +1,8 @@
 ---
-title: "Singer Pur en los monasterios de Burgos, Tordesillas y Cuacos de Yuste"
+title: "Singer Pur in den Klöstern von Burgos, Tordesillas und Cuacos de Yuste"
 date: "2019-10-07"
 translationKey: "singerpur19"
-excerpt: La galardonada formación a capela cantó a través de un amplio repertorio - desde el Renacimiento hasta el presente.
+excerpt: Das preisgekrönte A-cappella-Ensemble sang bei seinen Konzerten in Burgos, Tordesillas und Cuacos de Yuste ein breites Repertoire.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/singer-pur-2019-torde-espana-2.jpg
   alt:
@@ -16,10 +16,6 @@ gallery:
   - image: ./src/assets/images/blog/singer-pur-2019-espana-7.jpg
 ---
 
-La galardonada formación a capela cantó a través de un amplio repertorio: desde el Renacimiento hasta el presente, desde baladas de jazz hasta canciones populares alemanas en sus conciertos en Burgos, Tordesillas y Cuacos de Yuste.
+Das preisgekrönte A-cappella-Ensemble sang bei seinen Konzerten in Burgos, Tordesillas und Cuacos de Yuste ein breites Repertoire von der Renaissance bis zur Gegenwart, von Jazzballaden bis zu deutschen Volksliedern.
 
-SingerPur, un conjunto vocal compuesto por Claudia Reinhard (soprano), Christian Meister, Markus Zapp y Manuel Warwitz (tenores), Reiner Schneider-Waterberg (barítono) y Marcus Schmidl (bajo), dio variados conciertos al más alto nivel en tres monasterios españoles históricamente signifi-cativos. Este grupo a capela, premiado y líder internacional, tiene un amplio repertorio: desde el Renacimiento hasta el presente, desde baladas de jazz hasta canciones populares alemanas.
-
-Para los conciertos en los hermosos monasterios de Santa María la Real de las Huelgas, Burgos, y Santa Clara de Tordesillas, prepararon un programa musical muy especial, incluyendo el famoso „Códice de las Huelgas“, que proviene del monasterio cisterciense de las Huelgas. Allí fue copiado y se ha conservado durante siete siglos. En memoria de la boda de Fernando III y Beatriz von Schwaben en 1219 en la catedral de Burgos, SingerPur abrió el concierto con „Las Cantigas de Santa María“. Complementaron esta música medieval con obras de grandes representantes españoles de la música vocal polifónica y con obras de compositores contemporáneos.
-
-El tercer concierto tuvo lugar en el Monasterio de San Jeró-nimo de Yuste, donde seleccionaron algunas obras vocales sagradas que reflejan la belleza y la estética de diferentes épocas, llevando al oyente a un fascinante viaje a través de la historia de la música.
+SingerPur, ein Vokalensemble bestehend aus Claudia Reinhard (Sopran), Christian Meister, Markus Zapp und Manuel Warwitz (Tenor), Reiner Schneider-Waterberg (Bariton) und Marcus Schmidl (Bass), gab in drei historisch bedeutsamen spanischen Klöstern abwechslungsreiche Konzerte auf höchstem Niveau. Diese preisgekrönte und international führende A-capella Gruppe singt sich durch ein breit gefächertes Repertoire: von der Renaissance bis zur Gegenwart, von der Jazz-Ballade bis zum deutschen Volkslied. Für die Konzerte in den wunderschönen Klöstern Santa María la Real de las Huelgas, Burgos, und Santa Clara de Tordesillas stellten sie ein ganz besonderes musikalisches Programm zusam- men. Es beinhaltet den berühmten „Códice de las Huelgas“, der aus dem Zisterzienserkloster las Huelgas stammt. Dort wurde er kopiert und ist seit sieben Jahrhunderten erhalten. Zur Erinnerung an die Hochzeit von Ferdinand III und Beatriz von Schwaben 1219 im Dom von Burgos eröffneten SingerPur mit „Las Cantigas de Santa María“ das Konzert. Sie ergänzten diese mittelalterliche Musik mit Werken großer spanischer Vertreter der polyphonen Vokalmusik und mit Werken zeitgenössischer Komponisten. Das dritte Konzert fand im Kloster San Jerónimo de Yuste statt, in dem sie einige geistliche Vokalwerke auswählten, die die Schönheit und Ästhetik verschiedener Epochen widerspiegeln und mit denen sie den Hörer auf eine faszinierende Reise durch die Geschichte der Musik mitnahmen.

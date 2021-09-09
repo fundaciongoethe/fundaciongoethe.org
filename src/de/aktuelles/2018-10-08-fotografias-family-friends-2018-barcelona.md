@@ -1,5 +1,5 @@
 ---
-title: "Fotografías: Family & Friends 2018 Barcelona"
+title: "Family & Friends 2018 Barcelona"
 date: "2018-10-08"
 translationKey: "ff18bcn"
 excerpt: Nuestra excursión de un día por la región de Barcelona tuvo lugar en la perfumería Bravanariz.
@@ -14,6 +14,7 @@ gallery:
   - image: ./src/assets/images/blog/bravanariz-excursion-2018-6.jpg
 ---
 
-Nuestra excursión de un día por la región de Barcelona tuvo lugar en la perfumería Bravanariz. Una degustación de vinos antes del almuerzo redondeó el día!
+Unser Ausflug im Raum Barcelona fand in der Parfümerie Bravanariz statt.
+Eine Weinprobe vor dem Mittagessen rundete den Tag ab!
 
-En Pontós, Cataluña, exploramos la fragante campiña de L’Empordà con el guía experto Ernesto Collardo, fundador de la empresa Bravanariz. Después de descubrir los secretos de las plantas que dan a la zona su personalidad aromática, pudimos crear nuestro propio perfume de la excursión siguiendo las instrucciones correspondientes y llevarlo a casa.
+In Pontós, Katalonien, erkundeten wir unter der kundigen Führung des Firmengründers von Bravanariz Ernesto Collardo die duftende Landschaft der Empordà. Nachdem wir Geheimnisse von Pflanzen erfahren hatten, die der Gegend ihre aromatische Persönlichkeit verleihen, konnte unter Anleitung ein eigener Duft des Ausfluges kreiert und mit nach Hause genommen werden.

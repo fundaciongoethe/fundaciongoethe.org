@@ -1,8 +1,8 @@
 ---
-title: "Family & Friends 2019 en la bodega Mas Blanch i Jové"
+title: "Family & Friends 2019 auf dem Weingut Mas Blanch i Jové"
 date: "2019-10-10"
 translationKey: "ff19"
-excerpt: El pasado 29 de septiembre pasamos un día maravilloso en la bodega Mas Blanch i Jové.
+excerpt: Am vergangenen 29. September haben wir einen wunderbaren Tag auf dem Weingut Mas Blanch i Jové verbracht.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/fundacion-goethe-bodega-Mas-Blanch-i-Jove-2019-16.jpg
   alt:
@@ -31,8 +31,8 @@ gallery:
   - image: ./src/assets/images/blog/fundacion-goethe-bodega-Mas-Blanch-i-Jove-2019-31.jpg
 ---
 
-El pasado 29 de septiembre pasamos un día maravilloso en la bodega Mas Blanch i Jové.
+Am vergangenen 29. September haben wir einen wunderbaren Tag auf dem Weingut Mas Blanch i Jové verbracht.
 
-Family & Friends es un evento recurrente en el que los patrocinadores de la Fundación Goethe pasan un día en un lugar especial: la Bodega Mas Blanch i Jové. La bodega está situada en la DO Costers del Segre, en el límite occidental del Priorat, en una zona montañosa a más de 700 metros sobre el nivel del mar. La peculiaridad del suelo, las escasas precipitaciones, la elevada radiación solar y la gran diferencia térmica entre el día y la noche permiten obtener un producto de calidad excepcional después de un trabajo constante y cuidadoso en las viñas. Los vinos producidos allí también inspiran a los artistas. La bodega combina el arte y el vino en una sala de exposiciones abierta al público. Se exhiben esculturas e instalaciones de gran formato diseñadas por artistas como Carles Santos, Guinovart, Joan Brossa, Susana Solano, Evru (Zush) y Frederic Amat.
+Family & Friends ist eine wiederkehrende Veranstaltung, bei der die Förderer der Fundación Goethe einen schönen Tag an einem besonderen Ort verbringen: die Bodega Mas Blanch i Jové. Das Weingut befindet sich in der DO Costers del Segre, an der Westgrenze des Priorats, in einem gebirgigen Gebiet mit mehr als 700 Meter über dem Meeresspiegel. Die Besonderheit des Bodens, die geringen Niederschläge, die hohe Sonneneinstrahlung und der bedeutende thermische Unterschied zwischen Tag und Nacht ermöglichen es, nach ständiger und sorgfältiger Arbeit an den Reben ein Produkt von außergewöhnlicher Qualität zu erhalten. Die dort entstehenden Weine inspirieren auch Künstler. Das Weingut vereint Kunst und Wein in einem für die Öffentlichkeit zugänglichen Ausstellungssaal. Zu sehen sind Skulpturen und großformatige Installationen, die von Künstlern wie Carles Santos, Guinovart, Joan Brossa, Susana Solano, Evru (Zush) und Frederic Amat konzipiert wurden.
 
-Es un escenario perfecto para lecturas de poesía, pintura al aire libre, magia, payasos, ópera, música de todo tipo, danza, muñecas gigantes, pompas de jabón, teatro... La bodega es el punto culminante del viaje artístico a través del viñedo. No sólo se producen vinos ecológicos, sino que también se exhibe arte. En el interior de la bodega hay impresionantes obras de arte de Gregorio Iglesias, Esteve Casanoves y Josep Guinovart, que concibieron el proyecto desde el principio. La bodega Mas Blanch i Jové es el punto culminante de un viaje artístico y fue un destino estupendo para nuestra excursión.
+Es ist ein perfekter Rahmen für Dichterlesungen, Freiluftmalerei, Magie, Clowns, Oper, Musik aller Art, Tanz, Riesenpuppen, Seifenblasen, Theater... Der Weinkeller ist der Höhepunkt der künstlerischen Reise durch den Weinberg. Dort werden nicht nur ökologische Weine hergestellt, sondern auch Kunst ausgestellt. Im Inneren des Kellers befinden sich beeindruckende Kunstwerke von Gregorio Iglesias, Esteve Casanoves und Josep Guinovart, die das Projekt von Anfang an konzipiert haben. Das Weingut Mas Blanch i Jové ist der Höhepunkt einer künstlerischen Reise und war ein wunderbares Ziel für unseren Ausflug.

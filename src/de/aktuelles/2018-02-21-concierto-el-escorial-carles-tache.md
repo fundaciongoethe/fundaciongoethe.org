@@ -1,8 +1,8 @@
 ---
-title: "Concierto en la Iglesia Vieja de Real Monasterio de San Lorenzo de El Escorial  y en la Galería Carles Taché"
+title: "Konzerte in der Iglesia Vieja de Real Monasterio de San Lorenzo de El Escorial und in der Galería Carles Taché"
 date: "2018-02-21"
 translationKey: "bleckmann18"
-excerpt: El pasado febrero os hemos invitado a un concierto del Dúo Bleckmann/Temps en un entorno muy especial.
+excerpt: Im Februar haben wir Sie zu Konzerten des Duo Bleckmann/Temps in einer ganz besonderen Umgebung einlgeladen.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/2018-concierto-el-escorial-12.jpg
   alt:
@@ -22,8 +22,4 @@ gallery:
   - image: ./src/assets/images/blog/don-quijote-carles-tache-barcelona-07.jpg
 ---
 
-[Heike Bleckmann](https://www.fundaciongoethe.org/es/artistas/claus-temps/), piano, y [Claus Temps](https://www.fundaciongoethe.org/es/artistas/claus-temps/), barítono bajo, presentaron canciones y melodías con el tema “...buscar la felicidad y la aventura...” en el bello ambiente de la moderna Galerie Taché de Barcelona y en la histórica Iglesia Vieja del Real Monasterio de San Lorenzo de El Escorial. “Don Quijote y Pierrot Lunaire – Dos tontos viajeros”.
-
-El dúo tiene su hogar artístico en la región de Karlsruhe, pero es frecuentemente invitado a dar conciertos en Alemania y en el extranjero. Don Quijote de la Mancha fue escrito por Miguel de Cervantes Saavedra. El libro fue publicado en España en 1605 y rápidamente conquistó un público internacional como la primera novela moderna en la historia del mundo con varias traducciones. Entre ellos había numerosos compositores que estaban fascinados por este personaje y cuyas huellas seguiremos. Pierrot es un diminutivo de Pierre, es decir, “Pequeño Pedro”. El poeta belga Albert Giraud le dio su propia vestimenta. Su “Pierrot Lunaire: Rondels bergamasques” fue publicado en 1884. Con estos 50 poemas se hizo a sí mismo y a la figura de Pierrot inmortal.
-
-El abogado y compositor de Frankfurt Max Kowalski encontró estos textos y puso 12 de ellos en música para voz y piano. Esta noche, los dos músicos dieron vida a Pierrot, que era tan tímido. Don Quijote saca los altos ideales de los viejos libros de caballeros que tanto le han cautivado. Al hacerlo, pierde toda referencia a la realidad. Pierrot Lunaire también vive en un mundo de sueños. Pierrot se propone buscar la felicidad y la aventura.
+[Heike Bleckmann](https://www.fundaciongoethe.org/es/artistas/claus-temps/), Klavier, und [Claus Temps](https://www.fundaciongoethe.org/es/artistas/claus-temps/), Bassbariton, präsentierten an in dem schönen Ambiente der modernen Galerie Taché in Barcelona und in der historischen Iglesia Vieja del Real Monasterio de San Lorenzo de El Escorial Lieder und Melodien „...aufzusuchen Glück und Abenteuer...“ – „Don Quixote und Pierrot Lunaire – Zwei reisende Narren“. Das Duo hat seine künstlerische Heimat in der Region Karlsruhe, wird aber immer wieder zu Konzerten im In- und Ausland eingeladen. Don Quixote von La Mancha entstammt der Feder von Miguel de Cervantes Saavedra. Das Buch erschien 1605 in Spanien und eroberte als erster moderner Roman der Weltgeschichte in mehreren Übersetzungen schnell eine internationale Leserschaft. Zu ihr zählten auch zahlreiche Kompo- nisten, die von dieser Figur fasziniert waren und deren Spuren wir folgten. Pierrot ist eine Verkleinerungsform von Pierre, also „Der kleine Peter“. Ein ganz eigenes Gewand gab ihm der belgische Dichter Albert Giraud. 1884 erschien sein „Pierrot Lunaire: Rondels bergamasques“. Mit diesen 50 Gedichten machte er sich und die Figur des Pierrots unsterblich. Der Frankfurter Rechtsanwalt und Komponist Max Kowalski stieß auf diese Texte und vertonte 12 davon für Singstimme und Klavier. An diesem Abend hauchten die beiden Musiker, seinem so scheuen Pierrot wieder Leben ein. Die hohen Ideale zieht Don Quijote aus alten Ritterbüchern, die ihn so sehr gefesselt haben. Dabei verliert er jeden Bezug zur Wirklichkeit. In einer Traumwelt lebt auch Pierrot Lunaire, der sich aufmacht, Glück und Abenteuer zu suchen.

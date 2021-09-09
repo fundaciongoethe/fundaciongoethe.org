@@ -1,8 +1,8 @@
 ---
-title: "El cielo sobre Berlín - Exposición de Teresa Esteban"
+title: "Der Himmel über Berlin – Ausstellung von Teresa Esteban"
 date: "2018-04-01"
 translationKey: "cieloberlin"
-excerpt: Del pasado 6 de diciembre de 2017 al 5 de enero de 2018, la exposición de Teresa Esteban "El cielo sobre Berlín" pudo verse en el espacio expositivo IG Metall-Haus de Berlín.
+excerpt: Vom 6. Dezember 2017 bis 5. Januar 2018 konnte die Ausstellung „Der Himmel über Berlin“ (El cielo sobre Berlín) von Teresa Esteban im Ausstellungsraum IG Metall-Haus in Berlin besichtigt werden.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/2017-himmel-berlin-ausstellung.jpg
   alt:
@@ -12,8 +12,8 @@ gallery:
   - image: ./src/assets/images/blog/2017-exposicion-cielo-sobre-berlin-5.jpg
 ---
 
-Del pasado 6 de diciembre de 2017 al 5 de enero de 2018, la exposición de Teresa Esteban "El cielo sobre Berlín" pudo verse en el espacio expositivo IG Metall-Haus de Berlín.
+Vom 6. Dezember 2017 bis 5. Januar 2018 konnte die Ausstellung „Der Himmel über Berlin“ (El cielo sobre Berlín) von Teresa Esteban im Ausstellungsraum IG Metall-Haus in Berlin besichtigt werden.
 
-Los patios traseros de Berlín no fascinan precisamente por su estética sino más bien por su vida social interna. Muestran la esencia y el espíritu de la metrópolis y rompen el anonimato de una gran ciudad. Berlín es una ciudad en movimiento: en medio de diseño, destrucción y reconstrucción moderna, los patios constituyen una constante arquitec- tónica. Requieren ser vividos y reconstruidos siguiendo su desarrollo futuro en las obras de arte expuestas. La artista española Teresa Esteban profundiza en su historia, su impor- tancia y su fuerza comunicativa por media de múltiples escultura, collage, dibujos y fotografías. Teresa Esteban hizo su doctorado en la Universidad Complutense de Madrid y orga- nizó numerosas exposiciones, entre otros, en Madrid, Cáce- res, Toledo, Paris, Rabat, Casablanca, Teherán y Riad y con la presente exposición por primera vez en Berlín. La exposición fue organizada en cooperación con la Cámara de Arquitectos de Berlín y la IG Metall Berlin-Brandenburg-Sachsen, simultáneamente con el simposio “Berlín-Madrid: Diálogo de Arquitectura”. La Cámara de Arquitectos de Berlín quiso promover el debate internacional sobre la construcción del medio ambiente y debatió cuestiones profesionales actuales durante el congreso, tematizando los importantes procesos del cambio urbano que ambas capitales habían experimen- tado recientemente. La idea de la exposición con la madrileña Teresa Esteban surgió durante la Semana de la Arquitectura Madrid 2016, en la que Berlín fue la ciudad invitada.
+Berlins Hinterhöfe faszinieren nicht unmittelbar durch ihre Ästhetik, sondern vielmehr durch ihr soziales Innenleben. Sie zeigen die Essenz und Seele dieser Metropole und brechen die gewöhnliche Anonymität eine Großstadt. Berlin ist eine Stadt in Bewegung: inmitten von Gestaltung, Zerstörung und moderner Rekonstruktion sind die Höfe eine architektonische Konstante. Sie ersuchen gelebt, und wieder rekonstruiert zu werden – sie führen ihre künftige Entwicklung in den ausgestellten Kunstwerken weiter fort. In zahlreichen Skulpturen, Collagen, Zeichnungen und Fotografien setzt sich die spanische Künstlerin Teresa Esteban mit ihrer Geschichte, ihrer Bedeutung und kommunikativen Kraft auseinander.
 
-Teresa Esteban es doctora por la Universidad Complutense de Madrid y doctora en Bellas Artes, especialidad en escultura. Ya ha presentado su trabajo en exposiciones individuales en Madrid, Cáceres, Toledo, París, Rabat, Casablanca, Teherán y Riad.
+Teresa Esteban promovierte an der „Universidad Complutense de Madrid“ und ist Doktor der Bildenden Kunst, Fachgebiet Bildhauerei. Sie präsentierte ihre Arbeiten bereits in Einzelausstellungen in Madrid, Caceres, Toledo, Paris, Rabat, Casablanca, Teheran und in Riad.

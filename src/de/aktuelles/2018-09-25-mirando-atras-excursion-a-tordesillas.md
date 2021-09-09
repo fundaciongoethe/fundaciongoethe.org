@@ -1,8 +1,8 @@
 ---
-title: "Mirando atrás: Excursión a Tordesillas"
+title: "Ausflug nach Tordesillas"
 date: "2018-09-25"
 translationKey: "ffmad18"
-excerpt: Como cada año hemos invitado a nuestros patrocinadores y amigos a realizar una excursión de un día.
+excerpt: Wie jedes Jahr haben wir unsere Förderer und Freunde zu einem eintägigen Ausflug eingeladen. Bei dieser Gelegenheit fuhren wir nach Tordesillas.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/tordesillas-excursion-2018-1.jpg
   alt:
@@ -12,6 +12,6 @@ gallery:
   - image: ./src/assets/images/blog/tordesillas-excursion-2018-6.jpg
 ---
 
-Como cada año hemos invitado a nuestros patrocinadores y amigos a realizar una excursión de un día. En esta ocasión fuimos a Tordesillas, precioso pueblo de la provincia de Valladolid, sin más pretensión que disfrutar del día en buena compañía en un entorno tranquilo y precioso.
+Die traditionellen Veranstaltungen Family & Friends sind Ausflüge, bei denen es um nichts anderes geht, als sich wohlzufühlen, sich auszutauschen und den Tag zu genießen.
 
-Saliendo desde Madrid, Patrocinado- res y Amigos de la Fundación Goethe visitaron la pequeña pero históricamente importante ciudad de Tordesillas. Comenzando con una visita al Monasterio de Santa Clara, a orillas del río Duero, los participantes conocieron uno de los edificios de estilo mudéjar más bellos de la provincia de Valladolid. La princesa Beatriz, hija del rey Pedro I de Castilla, fundó en este palacio un convento de clarisas en 1363. Históricamente, Tordesillas es un lugar especial. Fue aquí donde los delegados reales de España y Portugal se reunieron en 1494 para firmar el Tratado de Dominio de Ultramar. Esto sentó las bases de una era de descubri- mientos, ya que se establecieron por primera vez los límites del océano. Después del almuerzo se visitó la Bodega Muelas. La familia Muelas se instaló por primera vez en Tordesillas en 1883 para elaborar vinos generosos. Hoy en día, además de su producto más innovador, el primer vermut de Valla- dolid, elaboran vinos blancos, rosados y tintos.
+Von Madrid aus besuchten Förderer und Freunde der Fundación Goethe den kleinen, aber historisch bedeutenden Ort Tordesillas. Beginnend mit der Besichtigung des Klosters Santa Clara am Ufer des Flusses Duero erlebten die Teilnehmer eines der schönsten Gebäude im Mudejarstil der Provinz Valladolid. Prinzessin Beatriz, Tochter des Königs Pedro I. von Kas- tilien, gründete in diesem Palast 1363 ein Klarissenkloster. Geschichtlich ist Tordesillas ein besonderer Ort. Dort trafen sich 1494 die königlichen Delegierten Spaniens und Portugals, um den Vertrag über die überseeischen Herrschaften zu unterzeichnen. Dieser legte den Grundstein für eine Ära der Entdeckungen, da zum ersten Mal Grenzen im Ozean festgelegt wurden. Nach einem gemeinsamen Mittagessen fand eine sehr interessante Besichtigung der Bodega Muelas statt. Erstmals 1883 ließ sich die Familie Muelas in Tordesillas nieder, um dort Likörweine herzustellen. Neben dem innovativsten Produkt, dem ersten Wermut in Valladolid, stellen sie heute Weißweine, Rosé- und Rotweine her.

@@ -2,14 +2,14 @@
 title: "Mercedes Benz Fashion Week 2019"
 date: "2019-01-23"
 translationKey: "fashion19"
-excerpt: Este año volveremos a estar presentes en la pasarela de moda española Mercedes Benz Fashion Week de Madrid
+excerpt: Wir waren dieses Jahr wieder bei der„Mercedes Benz Fashion Week“ in Madrid - am 24. Januar bei 404 STUDIO und MIKELCOLÁS.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/mercedes-fashion-week-1-750x400.jpg
   alt:
 ---
 
-La Semana de la Moda de Mercedes Benz es la gran pasarela de la moda española y una excelente plataforma para promover y ganar la atención mundial. Está organizado por IFEMA y tiene lugar dos veces al año en el pabellón 14.1 de la Feria de Madrid y en varios otros lugares de la ciudad. Los desfiles de moda incluyen la presentación de las colecciones de los mejores diseñadores del momento, tanto en el marco de su programa general como para los jóvenes talentos en la pasarela de SAMSUNG EGO.
+Die Mercedes Benz Fashion Week ist der große Laufsteg der spanischen Mode und eine hervorragende Plattform zur Förderung und zum erlangen weltweiter Aufmerksamkeit. Organisiert wird sie von der IFEMA und findet zweimal jährlich in der Halle 14.1 der Feria de Madrid und an verschiedenen anderen Orten in der Stadt statt.
 
-Los patrocinadores de la Fundación Goethe han sido invitados a disfrutar el espectáculo de 404 Studio junto con Mikelcolás. La presentación impresionó por la innovación, el talento y la vanguardia. La inspiración para el diseño de „Cuatro horas de estudio 404“ fue la película de 1963 „Cleopatra“, protagonizada por Elisabeth Taylor. Para el próximo año, la colección propone prendas de lana teji- das a mano acompañadas de accesorios metálicos. Los diseños se centraron en colores asociados a Egipto como el beige, el negro, el verde, el coral, el azul y el oro, pero las verdaderas estrellas eran las lentejuelas doradas. Después del desfile de moda, los participantes han sido invitados al Kissing Room, como cada año.
+Die Modenschauen umfassen die Präsentation von Kollektionen der besten Designer der Zeit, sowohl im Rahmen seines allgemeinen Programms als auch für junge Talente auf dem SAMSUNG EGO-Laufsteg. Förderer der Fundación Goethe waren eingeladen, die Show von 404 Studio gemeinsam mit Mikelcolás mitzuerleben. Die Präsentation beeindruckte mit Innovation, Talent und Avantgarde. Die Inspiration für das Design Four Hours von 404 Studio war der Film Kleopatra aus dem Jahr 1963 mit Elisabeth Taylor in der Hauptrolle. Die Kollektion schlug für das kommende Jahr handgewebte Kleidungsstücke aus Wolle vor, die von metallischen Accessoires begleitet wurden. Die Entwürfe konzentrierten sich auf die mit Ägypten verbundenen Farben wie Beige, Schwarz, Grün, Koralle, Blau und Gold, doch die eigentlichen Stars waren die goldenen Pailletten.
 
-Allí tuvieron la oportunidad de intercambiar ideas y asistir a las entrevistas de los jóvenes diseñadores.
+Im Anschluss an die Modenschau waren die Teilnehmer wie jedes Jahr in den Kissing Room eingeladen. Dort konnten sie sich austauschen und die jungen Designer in einem Inter- view erleben.

@@ -1,25 +1,27 @@
 ---
-title: "La Fundación Goethe recibe el premio Corazón de Olavidia"
+title: "Die Fundación Goethe erhält den Preis „Corazón de Olavidia“"
 date: "2018-04-18"
 translationKey: "premio18"
-excerpt: La ciudad de Carboneros, en la provincia de Jaén, Andalucía, concedió por cuarta vez los premios Corazón de Olavidia
+excerpt: Die Stadt Carboneros in der Provinz Jaén, Andalucía, hat am 14. April 2018 zum vierten Mal den „Corazón de Olavidia“ verliehen.
 images:
   featured: ./src/assets/images/blog/premio-Corazon-de-Olavidia.jpg
   alt:
 ---
 
-> Todos los premiados se lo merecen por su labor a nivel nacional, internacional, regional o local
+> Alle Preisträger leisten hervorragende Arbeit auf nationaler, internationaler, regionaler oder lokaler Ebene
 >
-> Alcalde de Carboneros, Domingo Bonillo
+> Bürgermeister von Carboneros, Domingo Bonillo
 
-**La ciudad de Carboneros, en la provincia de Jaén, Andalucía, concedió por cuarta vez los premios "Corazón de Olavidia" el pasado 14 de abril de 2018. Estamos encantados y agradecidos de que la Fundación Goethe haya sido uno de los galardonados!**
+Die Stadt Carboneros in der Provinz Jaén, Andalucía, hat am 14. April 2018 zum vierten Mal den „Corazón de Olavidia“ verliehen. Wir freuen uns, dass in diesem Jahr auch die Fundación Goethe zu den Preisträgern gehört!
 
-La ceremonia de entrega de premios tuvo lugar en la pequeña localidad de Nuevas Poblaciones y fue presentada por el director deportivo de Radio Jaén, Eduardo Oliver. Escuche la [entrevista al alcalde Domingo Bonillo](http://play.cadenaser.com/audio/1523551335_441892/?leer=on) en el programa "Hoy por Hoy Jaén" de la emisora Cadensa Ser.
+Die Preisverleihung fand in der kleinen Stadt Nuevas Poblaciones statt und wurde vom Sportdirektor des Radio Jaén, Eduardo Oliver, präsentiert.
 
-**¡Agradecemos al Ayuntamiento de Carboneros por este premio especial!**
+Hören Sie hier das [Interview mit Bürgermeister Domingo Bonillo](http://play.cadenaser.com/audio/1523551335_441892/?leer=on) im Programm „Hoy por Hoy Jaén“ des Radiosenders Cadensa Ser.
 
-## Canal Sur Jaén: Carboneros entrega sus premios "Corazón de Olavidia"
+**Wir danken dem Stadtrat von Carboneros für diese besondere Auszeichnung! **
+
+## Canal Sur Jaén: Carboneros verleiht seine „Corazón de Olavidia“-Auszeichnungen
 
 {% youtube 'F_QZ71LmqjU', 'Carboneros entrega sus premios' %}
 
-{% Image "./src/assets/images/blog/2018-premio-fundacion-goethe-prensa.jpg", " ", "Diario Jaén 15 de abril de 2018" %}
+{% Image "./src/assets/images/blog/2018-premio-fundacion-goethe-prensa.jpg", "w-full h-auto", "Diario Jaén 15 de abril de 2018" %}

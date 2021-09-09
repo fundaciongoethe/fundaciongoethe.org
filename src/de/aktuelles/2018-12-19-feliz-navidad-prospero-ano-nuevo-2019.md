@@ -1,15 +1,13 @@
 ---
-title: "¡Les deseamos Feliz Navidad y Próspero Año Nuevo 2019!"
+title: "Wir wünschen Frohe Weihnachten und ein gutes neues Jahr 2019!"
 date: "2018-12-19"
 translationKey: "navidad18"
-excerpt: Agradecemos la participación y colaboración en todos los eventos culturales de este último año.
+excerpt: ADie Fundación Goethe dankt Ihnen sehr herzlich für die Unterstützung und Teilnahme an all den kulturellen Veranstaltungen im vergangenen Jahr.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/weihnachtsgruss-c-820x400.jpg
   alt:
 ---
 
-## Estimados patrocinadores y amigos de la Fundación Goethe,
+Die Fundación Goethe dankt Ihnen sehr herzlich für die Unterstützung und Teilnahme an all den kulturellen Veranstaltungen im vergangenen Jahr. Wir hoffen, dass Ihnen unser Programm gefallen hat und freuen uns, Sie im Jahr 2019 wieder begrüßen zu dürfen!
 
-La Fundación Goethe les agradece su participación y colaboración en todos los eventos culturales de este último año. Esperamos que hayan disfrutado de nuestro programa y les animamos a participar en los eventos y actividades del próximo año.
-
-**¡Feliz Navidad y Próspero Año Nuevo!**
+**Frohe Weihnachten und ein gesundes neues Jahr!**
