@@ -8,7 +8,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt:
 gallery:
   - image: ./src/assets/images/blog/concierto-organo-trompeta-capilla-real-01.jpg
-  - image: ./src/assets/images/blog/concierto-organo-trompeta-capilla-real-08x.jpg
+  - image: ./src/assets/images/blog/concierto-organo-trompeta-capilla-real-08.jpg
   - image: ./src/assets/images/blog/concierto-organo-trompeta-capilla-real-11.jpg
 ---
 
