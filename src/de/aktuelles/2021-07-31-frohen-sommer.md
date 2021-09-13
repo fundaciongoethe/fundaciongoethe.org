@@ -1,5 +1,5 @@
 ---
-title: "Wir wünschen einen schönen Sommer!"
+title: "Wir wünschen einen schönen Sommer 2021!"
 date: "2021-07-31"
 translationKey: "verano2021"
 excerpt: Wir wünschen Ihnen einen schönen Sommer! Hier können Sie einige der Veranstaltungen sehen, die wir für die Rückkehr aus den Ferien vorbereiten.

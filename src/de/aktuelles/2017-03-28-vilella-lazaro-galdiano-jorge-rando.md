@@ -1,5 +1,5 @@
 ---
-title: "Fukio Ensemble: La Vilella, Museum Lázaro Galdiano & Museum Jorge Rando"
+title: "Fukio Ensemble - La Vilella, Museum Lázaro Galdiano & Museum Jorge Rando"
 date: "2017-03-28"
 translationKey: "fukiorando17"
 excerpt: Ende März durften wir Gäste in Barcelona, Madrid und Málaga zu Konzerten mit dem preisgekrönten Fukio Ensemble begrüßen.

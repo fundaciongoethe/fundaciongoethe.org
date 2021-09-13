@@ -1,8 +1,8 @@
 ---
-title: "Fukio Ensemble: La Vilella, Museum Lázaro Galdiano & Museum Jorge Rando"
+title: "Fukio Ensemble - La Vilella, Museum Lázaro Galdiano & Museum Jorge Rando"
 date: "2017-03-28"
 translationKey: "fukiorando17"
-excerpt:
+excerpt: A finales de marzo Fukio Ensemble ofreció tres conciertos extraordinarios en Barcelona, Madrid y Málaga.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/concierto-saxofon-fukio-2017-01.jpg
   alt:

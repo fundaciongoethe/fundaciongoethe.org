@@ -1,5 +1,5 @@
 ---
-title: ZUnsere nächsten Veranstaltungen"
+title: Unsere nächsten Veranstaltungen"
 date: "2020-11-19"
 translationKey: "proximos20"
 excerpt: Wir freuen uns sehr, dass wir Ihnen in den letzten Wochen dieses Jahres noch einige Veranstaltungen anbieten dürfen.
