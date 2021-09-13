@@ -1,5 +1,5 @@
 ---
-title: "Anuario 2015 de la Fundación Goethe"
+title: "Das neue Jahrbuch 2015 der Fundación Goethe"
 date: "2016-07-11"
 translationKey: "anuariopresentacion"
 excerpt: Nos place presentar el nuevo anuario 2015. La embajada alemana en Madrid y la Fundación Goethe pueden mirar hacia atrás sobre una cooperación de quince años de éxito.
@@ -8,30 +8,31 @@ images: # complete path for eleventy img srcset output, alt required
   alt:
 ---
 
-Nos place presentar el [nuevo anuario 2015](https://www.fundaciongoethe.org/es/sobre-nosotros/#anuarios).
+Wir freuen uns, Ihnen unser neues [Jahrbuch 2015](https://www.fundaciongoethe.org/de/ueber-uns/#anuarios) präsentieren zu dürfen.
 
-### Saludo del embajador alemán para España Sr. Peter Tempel para la memoria del año 2015 de la Fundación Goethe
+## Grußwort des deutschen Botschafters Peter Tempel für das Jahrbuch 2015 der Fundación Goethe
 
-La embajada alemana en Madrid y la Fundación Goethe pueden mirar hacia atrás sobre una cooperación de quince años de éxito en la promoción de las relaciones germano-españolas, y en particular en los ámbitos de la cultura y la economía. Me complace ver que en los últimos años ha surgido una relación de amistad y de confianza entre la Fundación y la Embajada.
+Die Deutsche Botschaft Madrid und die Fundación Goethe können auf fünfzehn Jahre erfolgreicher Zusammenarbeit bei der Förderung deutsch-spanischer Beziehungen insbesondere in den Bereichen Kultur und Wirtschaft zurückblicken. Ich freue mich, dass über die Jahre zwischen Stiftung und Botschaft ein vertrauensvolles und freundschaftliches Verhältnis gewachsen ist.
 
-Con relación al aniversario “25 años de la reunificación alemana” se invitó en el año 2015 a la ciudad de Berlín como invitado a la XII Semana de la Arquitectura de Madrid y las relaciones arquitectónicas actuales e históricas entre ambas ciudades fueron tema central de conferencias, debates y exposiciones. Para la realización y el éxito de esta serie de eventos, así como la segunda edición de la exposición de arte de la Embajada en el histórico centro comercial de Madrid Fuencarral 77 durante la primavera de 2015, la Fundación hizo una contribución significativa. El éxito de asistencia y mediático de ambos eventos subraya el gran interés existente por la cultura alemana en España y que este tipo de actividades fortalece las buenas relaciones germano-españolas.
+Anlässlich des Jubiläums “25 Jahre deutsche Wiedervereinigung“ wurde 2015 die Stadt Berlin als Gaststadt der XII. Architekturwoche Madrid eingeladen, und die historischen wie aktuellen architektonischen Beziehungen beider Städte waren zentraler Schwerpunkt der Vorträge, Debatten und Ausstellungen. Zum Zustandekommen und Gelingen dieser Veranstaltungsreihe sowie der zweiten Ausgabe der Kunstausstellung der Botschaft in der historischen Madrider Ladenpassage Fuencarral 77 im Frühjahr 2015 leistete die Stiftung einen wesentlichen Beitrag.
 
-La colaboración entre la Fundación Goethe y la Embajada de Alemania demostró de manera destacada la exitosa asociación entre la industria y el gobierno. Estoy muy contento de tener a la Fundación Goethe como socio competente a nuestro lado y con ganas de emprender nuevas iniciativas conjuntas durante los próximos años.
+Der Publikums- und Medienerfolg beider Veranstaltungen unterstreicht, dass großes Interesse an deutscher Kultur in Spanien vorhanden ist und die guten deutsch-spanischen Beziehungen durch derartige Aktivitäten weiter gestärkt werden.
 
-¡Para estos proyectos de cooperación así como para toda la gama de sus actividades deseo mucha suerte a la Fundación Goethe!
+Die Zusammenarbeit der Fundación Goethe und der Deutschen Botschaft demonstriert in hervorragender Weise die gelungene Partnerschaft zwischen Wirtschaft und Staat. Ich freue mich sehr, mit der Fundación Goethe einen kompetenten Partner an unserer Seite zu haben und freue mich auf weitere gemeinsame Initiativen in den kommenden Jahren. Für diese Kooperationsprojekte ebenso wie für die gesamte Bandbreite ihrer Tätigkeiten wünsche ich der Fundación Goethe viel Erfolg!
 
-### Prólogo del Presidente de la Fundación Goethe, Wolfgang Minet
+## Vorwort des Präsidenten der Fundación Goethe, Wolfgang Minet
 
-> **„¡El arte es largo! Y corta es nuestra vida.“**
+> **Die Kunst ist lang! Und kurz ist unser Leben.**
 >
 > J. W. Goethe
 
-Tardó alrededor de 60 años para que la mayor obra literaria de la lengua alemana madurase para llegar a su perfección. Para Goethe significó la suma de su creación, como el espejo de su vida: Desde la tempestad y el ímpetu de la juventud a la grandeza y la sabiduría de la edad. Aunque reducido aquí a una palabra, es un proceso de la vida atemporal. Si como persona joven tenemos muchas ideas arremolinadas y queremos cambiar el mundo, a la edad, visiblemente más relajados, vemos muchos problemas desde una perspectiva diferente.
+Rund 60 Jahre hat es gedauert, ehe das wohl größte literarische Werk der deutschen Sprache zur Vollendung herangereift war. Für Goethe bedeutete es die Summe seines Schaffens, gleichsam den Spiegel seines Lebens: Vom Sturm und Drang der Jugend bis zur Erhabenheit und der Weisheit des Alters. Obgleich hier auf einen Satz verkürzt, ist ein solcher Lebensprozess von zeitloser Gültigkeit. Haben wir als junger Mensch noch viele stürmische Ideen und möchten die Welt verändern, werden wir mit dem Alter zusehends gelassener und sehen viele Probleme aus einer anderen Perspektive.
 
-El trabajo de la vida de Goethe también es parte indispensable de la filosofía de la Fundación Goethe, la fundación cultural de la economía alemana-española; Fue Fausto, el primer empresario que pensó más allá de las fronteras nacionales, el que entendió el generar valor añadido como parte del “proceso de creación divina”.
+Goethes Lebenswerk stellt auch einen unverzichtbaren Teil der Philosophie der Fundación Goethe dar, der Kulturstiftung der deutsch-spanischen Wirtschaft; war doch Faust der erste, über nationale Grenzen hinausdenkende Unternehmer, der das Erwirtschaften von Mehrwert gleichsam als Teil des “göttlichen Schaffensprozesses” begriff.
 
-Desde su fundación el 18 de junio de 2001, la Fundación Goethe fomenta la cooperación cultural entre Alemania y España. Anualmente se brindan numerosas oportunidades para encuentros exclusivos con el mundo de la música y las artes visuales.
+Seit ihrer Gründung am 18. Juni 2001 fördert die Fundación Goethe die kulturelle Zusammenarbeit zwischen Deutschland und Spanien. Es bieten sich jährlich zahlreiche Gelegenheiten zu exklusiven Begegnungen mit der Welt der Musik und der Bildenden Künste.
 
-La comprensión mutua y profundizada para el idioma y la cultura de ambos países facilita contactos y crea confianza, base para una cooperación fructífera y duradera.
+Das vertiefte gegenseitige Verständnis für Sprache und Kultur der beiden Länder erleichtert Kontakte und schafft Vertrauen, welches das Fundament für eine fruchtbare und dauerhafte Kooperation ist.
 
-Wolfgang Minet Presidente – Fundación Goethe
+Wolfgang Minet
+Präsident – Fundación Goethe

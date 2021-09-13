@@ -2,7 +2,7 @@
 title: "Visita guiada en el Museo Nacional del Prado"
 date: "2017-02-14"
 translationKey: "prado17"
-excerpt:
+excerpt: Dr. Felix Scheffler nos guió en una visita guiada en el Museo de Prado por uno de los museos más renombrados del mundo.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/prado-madrid-2017-07-W1000.jpg
   alt:

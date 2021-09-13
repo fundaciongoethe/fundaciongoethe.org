@@ -1,17 +1,20 @@
 ---
-title: "Filmoteca de Catalunya: Rico, Oscar y las sombras profundas"
+title: "Kinderprogramm der Deutschen Filmwochen"
 date: "2016-10-20"
 translationKey: "filmoteca16"
-excerpt: Filmoteca per a les escoles. Rico, Oscar y las sombras profundas. Sábado 29.10. y domingo, den 30.10. a las 17:00h.
+excerpt: Im Rahmen der Deutschen Filmwochen in Barcelona läuft im Schulprogramm Filmoteca per a les escoles der Film Rico, Oskar und die Tieferschatten.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/cine-aleman-kinderprogramm.jpg
   alt:
 ---
 
-Filmoteca per a les escoles: **Rico, Oscar y las sombras profundas.** **Sábado 29.10.** y **domingo, den 30.10.** a las 17:00h.
+Kinderprogramm der Deutschen Filmwochen
+Rico, Oscar y las sombras profundas
+Aktuell: 20 / Oktober / 2016
 
-**Detalles** Idioma: VOSE Precio: Tarifa normal 4€, tarifa reducida 3€ +34 93 2926006
+Im Rahmen der Deutschen Filmwochen in Barcelona läuft im Schulprogramm „Filmoteca per a les escoles“ der Film „Rico, Oskar und die Tieferschatten“. Der Film ist besonders geeignet für Kinder im Alter von 8 bis 12 Jahren.
 
-Plaça de Salvador Seguí, 9 08001 Barcelona
+Rico, Oskar und die Tieferschatten läuft am Samstag, den 29.10. und am Sonntag, den 30.10. jeweils um 17 Uhr.
 
-Dirección: Neele Leana Vollmar, 2014, Alemania, color, 96' Rico tiene 10 años y se define a sí mismo como "un niño infradotado". Sabe que no ha sido bendecido con el cerebro más rápido del mundo, pero se las arregla. Rico y su madre, que no tiene demasiado tiempo para él, viven en Kreuzberg, un barrio de Berlín conocido por su gran diversidad cultural y social. Un día, Rico conoce a Oscar, un niño considerado como “superdotado“. Al principio, Oscar se comporta de manera despreciativa y arrogante.
+Regie: Neele Leana Vollmar, 2014, Deutschland, Farbe, 96 Min.
+Rico ist 10 Jahre alt und bezeichnet sich selbst als „tiefbegabt“. Er weiß, dass er nicht mit der schnellsten Auffassungsgabe gesegnet wurde, aber er vermag sich zu helfen. Rico lebt mit seiner Mutter, die nicht viel Zeit für ihn hat, in Kreuzberg, einem sozial und kulturell vielfältigen Viertel Berlins. Eines Tages lernt er den gleichaltrigen Oskar kennen, der als „hochbegabt“ gilt.

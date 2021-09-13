@@ -2,32 +2,32 @@
 title: "Save the date"
 date: "2016-04-25"
 translationKey: "std16"
-excerpt: Es un placer poderles anunciar los siguientes eventos con el ruego de anotar las citas.
+excerpt: Wir freuen uns, Ihnen schon jetzt besondere Veranstaltungen ankündigen zu können und bitten Sie, sich folgende Termine vorzumerken.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/16-03-std4.jpg
   alt:
 ---
 
-Es un placer poderles anunciar los siguientes eventos con el ruego de anotar las citas:
+Wir freuen uns, Ihnen schon jetzt besondere Veranstaltungen ankündigen zu können und bitten Sie, sich folgende Termine vorzumerken:
 
 ## Gewandhaus Quartett Leipzig
 
-El Gewandhaus Quartett de Leipzig tocará los tres cuartetos más famosos de Schubert:
+Das Gewandhaus Quartett Leipzig spielt die drei berühmtesten Quartette von Schubert
 
-- 17 de mayo 2016, 19:30h Madrid, Palacio Real, en los instrumentos contruidos por Stradivari
-- 19 de mayo 2016, 19:30h, Barcelona, Iglesia Sant Pau del Camp
-- 20 de mayo 2016, 19:30h, Málaga, Museo Jorge Rando
+- 17. Mai 2016, 19:30h Madrid, Palacio Real auf den von Stradivari gebauten einzigartigen Instrumenten
+- 19. Mai 2016, 19:30h Barcelona, Iglesia Sant Pau del Camp
+- 20. Mai 2016, 19:30h Málaga, Museum Jorge Rando
 
-## Visita a una central de SIEMENS
+## Besichtigung eines Siemens-Kraftwerks
 
-¿Como se transporta la electricidad del continente a las Islas Baleares? Visita a una central de SIEMENS conectada a una subestación de transformación en Sagunto (Valencia), con almuerzo.
+Wie kommt der Strom vom spanischen Festland auf die Balearen? Besichtigung eines Siemens-Kraftwerks mit angeschlossener Umspannstation in Sagunto (Valencia) mit anschliessendem Mittagessen
 
-- 24 de mayo 2016, 10:30h, Estación del AVE, Valencia
+- 24. Mai 2016, 10:30h AVE-Station Valencia
 
-## Aniversario: 15 aniversario Fundación Goethe
+## Jubiläum: 15 Jahre Fundación Goethe
 
-Aniversario, la Fundación Goethe se fundó en 2001 y cumple su 15 aniversario. Celébrelo con nosotros!
+Jubiläum: die Fundación Goethe wurde 2001 gegründet und besteht mittlerweile 15 Jahre. Feiern Sie mit uns!
 
-- 08 de junio 2016, 19:00h, Madrid, Residencia de la Embajada Alemana en Madrid
+- 8.  Juni 2016, 19:00h, Madrid, Residenz der Deutschen Botschaft Madrid
 
-Nos encantaría poderles saludar.
+Wir freuen uns auf Ihre Teilnahme!

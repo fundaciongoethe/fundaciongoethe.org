@@ -1,13 +1,14 @@
 ---
-title: "Presentación del anuario de la Fundación Goethe 2015 en Espronceda"
+title: "Jahrbuchvorstellung der Fundación Goethe in Espronceda"
 date: "2016-07-12"
 translationKey: "anuario16"
-excerpt: En Espronceda, un centro de arte contemporáneo e innovador con salas de exposiciones, se presentó el anuario de la Fundación Goethe.
+excerpt: In Espronceda, einem Zentrum für innovative und zeitgenössische Kunst mit entsprechenden Ausstellungsräumen, fand die Jahrbuchvorstellung der Fundación Goethe statt.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/jahrbuch-fundacion-goethe-2016-820x400.jpg
   alt:
 ---
 
-**En Espronceda, un centro de arte contemporáneo e innovador con salas de exposiciones, se presentó el anuario de la Fundación Goethe.**
+**In Espronceda, einem Zentrum für innovative und zeitgenössische Kunst mit entsprechenden Ausstellungsräumen, fand die Jahrbuchvorstellung der Fundación Goethe statt.**
 
-En el año 2015 se llevaron a cabo un total de 29 eventos incluyendo eventos propios o con patrocinadores y la Fundación Goethe como colaborador con las instituciones y amigos de la Fundación. BASF, por ejemplo, nos permitió visitar su planta en Tarragona, Mercedes nos facilitó la visita a la Madrid Fashion Week dejándonos ver el ambiente entre bastidores, Miele posibilitó un evento gastronómico con el cocinero galardonado Carles Gaig y el chocolatero David Pallàs. Asimismo merecen mención distintas exposiciones y programas marco: la mesa redonda con la DZT en la agencia efe, la exposición “Diálogo 2”, “Un Réquiem Alemán” y finalmente, en colaboración con la Embajada Alemana, la Semana de la Arquitectura y la exposición “Cuerpo y Poder” con un extenso programa marco en la cámara de arquitectos. El acuerdo de colaboración con el Patrimonio Nacional permitió a la Fundación Goethe invitar en 2015 sobre todo a sus patrocinadores para asistir a eventos exclusivos en lugares extraordinarios. El concierto para órgano y trompeta, interpretado en el órgano histórico de la Capilla Real del Palacio Real ha sido sin duda un encuentro destacable. En el marco de la presentación del anuario los asistentes pudieran recordar una vez más los múltiples y variados eventos. La visita guiada por la maravillosa exposición de jóvenes artistas en Espronceda, que tuvo lugar a continuación, culminó el evento.
+m Jahr 2015 gab es insgesamt 29 Veranstaltungen, darunter eigene Events, andere mit Förderern und der Fundación Goethe als Kooperationspartner, weitere mit Institutionen und Freunden der Fundación. Beispielsweise ermöglichte BASF uns den Besuch des Werkes in Tarragona, Mercedes den Besuch der Fashionshow mit Blick hinter die Kulissen, Miele ein besonderes Kochevent mit dem Sternekoch Carles Gaig und dem Chocolatier David Pallàs. Auch Ausstellungen und deren Rahmenprogramme sind zu nennen: Runder Tisch mit der DZT bei der efe, Ausstellung „Dialog 2“, „Ein deutsches Requiem“, mit der Deutschen Botschaft die Architekturwoche und die Ausstellung „Körper und Macht“ mit einem umfangreichen Rahmenprogrammen in der Architektenkammer Madrid. Das Kooperationsabkommen mit dem Patrimonio Nacional ermöglichte der Fundación Goethe 2015 speziell die Förderer zu einigen exklusiven Events in den außergewöhnlichen Räumlichkeiten einzuladen. Herausragend war sicher das Orgel- und Trompetenkonzert, ein wunderschönes Konzert auf der historischen Orgel des königlichen Palastes in der Capilla Real. Im Rahmen der Jahrbuchvorstellung konnten die Teilnehmer die vielen unterschiedlichen Veranstaltungen noch einmal Revue passieren lassen. Die anschließende Führung durch die aktuelle Ausstellung junger Künstler in
+Espronceda rundete die Veranstaltung ab.

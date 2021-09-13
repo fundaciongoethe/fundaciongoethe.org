@@ -1,11 +1,11 @@
 ---
-title: "Conciertos de la familia Hanke en Barcelona y Madrid"
+title: "Konzerte der Familie Hanke in Barcelona und Madrid"
 translationKey: "hankemadrid"
 date: "2016-03-20"
-excerpt: Con música de baile de 4 siglos la familia Hanke, formada por seis integrantes, contagió al público su alegría y pasión por la música.
+excerpt: Mit Tanzmusik aus 4 Jahrhunderten gibt die sechsköpfige Familie Hanke ihre Freude und Leidenschaft für die Musik an das Publikum weiter.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/familie-hanke-madrid-barcelona-19.jpg
-  alt: La familia Hanke en la Casa Golferichs
+  alt: Die Familie Hanke im Golferichs-Haus
 gallery:
   - image: ./src/assets/images/blog/familie-hanke-madrid-barcelona-01.jpg
   - image: ./src/assets/images/blog/familie-hanke-madrid-barcelona-05.jpg
@@ -18,8 +18,8 @@ gallery:
   - image: ./src/assets/images/blog/familie-hanke-madrid-barcelona-21.jpg
 ---
 
-**Los Promotores de la Fundación Goethe se deleitaron con conciertos excepcionales de la familia musical de Sindelfingen, representados en Barcelona en la Casa Golferichs y en el Palacio de Fernán Núñez en Madrid.**
+Einzigartige Konzerte konnten die Förderer der Fundación Goethe in Barcelona, Casa Golferichs, und Madrid, Palacio de Fernán Núñez, mit der sechsköpfigen Musikerfamilie aus Sindelfingen erleben.
 
-Con música de baile de 4 siglos la familia Hanke, formada por seis integrantes, contagió al público su alegría y pasión por la música. Los músicos hicieron sonar el piano, el violín, la viola, la tuba, la melódica, la percusión y diferentes flautas dulces en distintas combinaciones instrumentales, desde el sexteto hasta el dúo y extensos solos.
+Familie Hanke begeisterte das Publikum mit Tanzmusik aus vier Jahrhunderten, in denen der Funke der Freude und die Begeisterung für Musik übersprang.
 
-En Barcelona la fabulosa sala de concierto era la Villa Casa Golferichs – residencia de Macari Golferichs, un precioso edificio moderno de maderas nobles y cerá-micas diseñado por Joan Rubió Bellver a principios del siglo XX – abierto al público después de su restauración y su historia accidentada. En Madrid la familia Hanke tocó en el salón de baile del Palacio de Fernán Núñez. El Salón de los Espejos es una de las salas más bonitas del Palacio, que a mediados del siglo XIX fue reestructu-rado en estilo romántico y se convirtió en centro neurál-gico de la vida social madrileña. Actualmente el Palacio pertenece a la Fundación de Ferrocarriles Españoles.
+Für den richtigen Ton sorgten die Musiker mit den Instrumenten Klavier, Violine, Viola, Tuba, Melodika, Perkussion und diversen Blockflöten. Die verschiedenen Kombinationen, in denen die Stücke gespielt wurden, sorgten für viel Abwechslung und reichten vom gesamten Sextett bis hin zum Duett und langen Soli. Die Konzert-Orte bildeten einen bezaubernden Rahmen für die Veranstaltungen. In Barcelona fand das Konzert in der Villa Casa Golferichs, einem von Joan Rubió Bellver Anfang des 20. Jahrhunderts entworfenen Gebäude der Moderne mit prächtigen Edelhölzern und schönen Keramiken, statt. Nach einer wechselhaften Geschichte und einer Restaurierung wurde es für die Öffentlichkeit zugänglich gemacht. Im Ballsaal des Palacio de Fernán de Nuñez spielte die musikalische Familie Hanke in Madrid auf. Dieser Spiegelsaal gehört zu den schönsten Räumen im Palacio de Fernán Núñez, der Mitte des 19. Jahrhunderts im romantischen Stil neugestaltet wurde und sich zu einem der Zentren des gesellschaftlichen Lebens in Madrid entwickelte. Heute gehört der Palast der spanischen Eisenbahn Stiftung.

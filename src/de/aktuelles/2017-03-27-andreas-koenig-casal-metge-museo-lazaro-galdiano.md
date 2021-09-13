@@ -1,8 +1,8 @@
 ---
-title: "Andreas König en el Casal del Metge y el Museo Lázaro Galdiano"
+title: "Andreas König in Madrid und Barcelona"
 date: "2017-03-27"
 translationKey: "koenig17"
-excerpt: En febrero y marzo el pianista Andreas Königofreció conciertos en el Museo Lázaro Galdiano, Madrid y en el Casal del Metge, Barcelona.
+excerpt: Im Februar und März durften wie Sie zu Konzerten des Pianisten Andreas König im Museo Lázaro Galdiano, Madrid und im Casal del Metge, Barcelona begrüßen.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/concierto-piano-madrid-barcelona-2017-04.jpg
   alt:
@@ -15,10 +15,8 @@ gallery:
   - image: ./src/assets/images/blog/concierto-piano-madrid-barcelona-2017-11.jpg
 ---
 
-En febrero y marzo el pianista Andreas Königofreció conciertos en el Museo Lázaro Galdiano, Madrid y en el Casal del Metge, Barcelona.
+Im Februar und März durften wie Sie zu Konzerten des Pianisten Andreas König im Museo Lázaro Galdiano, Madrid und im Casal del Metge, Barcelona begrüßen.
 
-El concierto del joven pianista Andreas König, que entusiasmó al público en Madrid, tuvo lugar en Barcelona en el Auditorio de Casal del Médico, en el mismo centro de la ciudad condal.
+Das Klavierkonzert mit dem jungen Pianisten Andreas König war der Konzertauftakt einiger Veranstaltungen der Fundación Goethe im Museum Lázaro Galdiano Madrid.
 
-El Casal del Médico es un edificio simbólico inaugurado en 1932. Hoy en día es sede de las oficinas de la Mutua Médica y dispone de muchas instalaciones para congresos, reuniones y conciertos. Con una excelente acústica y una habilidad técnica absoluta el pianista Andreas König representó en el Auditorio obras de Mozart, Bartók, Bach, Chopin, Gershwin y Albéniz en un piano Steinway.
-
-Andreas König cursó estudios de piano en Alemania en la Escuela Superior de Música y Artes Escénicas de Frankfurt y en España en la renombrada Escuela Superior de Música Reina Sofía en Madrid. Fue galardonado en multitud de concursos pianísticos nacionales e internacionales. El periódico franconio escribió sobre uno de sus conciertos: Impresionó desmesuradamente, como Rey, al mismo tiempo enérgicamente resolutivo y líricamente modelador evitando las exageraciones haciendo máximo hincapié en la transparencia y el análisis lineal. Fue un gran honor para la Fundación Goethe poder invitar al público de Barcelona para asistir a una velada pianística excepcional con un joven músico que ha estudiado en Alemania y España.
+José Lázaro Galdiano (1862-1947) war ein erfolgreicher Selfmade-man, Kunstsammler und Bibliophiler, der sein Eigentum dem spanischen Staat hinterließ. Der Reichtum und die Vielfalt der Sammlungen sowie die neuartige Museographie sind im einzigartigen Museum Lázaro Galdiano in der c/ Serrano zu sehen. Das Museum beherbergt auch ein kleines Auditorium mit hervorragender Akustik, in dem der junge Pianist Andreas König stilsicher und mit perlender Leichtigkeit das Publikum mit Werken von Mozart, Bartók, Bach, Chopin, Gershwin und Albéniz bezauberte. Andreas König studierte das Fach Klavier in Deutschland an der Hochschule für Musik und Darstellende Kunst in Frankfurt und in Spanien an der renommierten Escuela Superior de Música Reina Sofía in Madrid. Er ist Preisträger zahlreicher nationaler und internationaler Klavierwettbewerbe. In Klavierkonzerten ebenso wie als Solist ist er vielfach zu hören. Die Fundación Goethe freut sich, dass sie mit einem jungen Nachwuchsmusiker, der sowohl in Deutschland als auch in Spanien studierte, ein wundervolles Konzert organisieren konnte. Das Publikum im Auditorium des Museo Lázaro Galdiano war begeistert und forderte von dem Pianisten eine weitere Zugabe.

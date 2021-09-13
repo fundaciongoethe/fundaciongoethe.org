@@ -2,7 +2,7 @@
 title: "Visita guiada en el Museo Nacional del Prado"
 date: "2017-02-14"
 translationKey: "prado17"
-excerpt:
+excerpt: Im Februar haben wir uns gemeinsam mit dem Kunsthistoriker Felix Scheffler das Museo Nacional del Prado besucht.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/prado-madrid-2017-07-W1000.jpg
   alt:
@@ -12,8 +12,9 @@ gallery:
   - image: ./src/assets/images/blog/prado-madrid-2017-13-W1000.jpg
 ---
 
-El día 07 de febrero participamos en una **visita guiada en el Museo de Prado** con Felix Scheffler, doctor en historia del arte.
+Im Februar haben wir uns gemeinsam mit dem Kunsthistoriker Felix Scheffler das Museo Nacional del Prado besucht.
 
-Dr. Felix Scheffler nos guió de forma apasionada por uno de los museos más renombrados del mundo. El mismo describe el comienzo de la visita como sigue:
+Die Prado-Führung, eine der beliebtesten Veranstaltungen des Jahres, fand auch 2017 statt. Der Kunsthistoriker Dr. Felix Scheffler führte uns auf spannende Art und Weise durch eines der berühmtesten Museen der Welt.
 
-El punto de encuentro es la Puerta Principal del Prado. Puede ocurrir que no nos encontremos nunca allí. No al menos antes del cierre de las puertas a las 20:00 horas, cuando los ríos de visitantes van camino a los bares y terrazas y nosotros probablemente habremos dado al menos cinco vueltas al edificio. Puede ser debido a la longitud de la construcción histórica de Villanueva o a que ésta dispone de tres maravillosos portales históricos que algunas veces per- miten – pero muchas más veces no lo permiten – el acceso a las salas sagradas de adoración del arte. El grupo tiembla de excitación nada más acercarse a las puertas eléctricas acristaladas de la puerta de los Jerónimos, a solo unos pocos pasos de las tan anheladas obras maestras del arte occidental: Van der Weyden, Bosch, Bruegel, Raffael, Tizian, El Greco, Rubens, Velázquez y Goya no solamente parecen palpables sino proyectarse a través de los pasillos hacia la córnea sensibilizada expresamente para esta visita, cuando el experto enfocado íntegramente en el conjunto pone el pie en los estribos y tira de las riendas. En apenas dos horas los visitantes presencian una visita guiada excepcional que se convierte en una vivencia inolvidable.
+Er selbst beschreibt den Beginn der Führung so:
+Verabredet sind wir am Prado-Eingang. Da kann es natürlich vorkommen, dass wir uns nie treffen. Zumindest nicht vor Schließung um 20.00 Uhr, dann, wenn sich die Besucherströme langsam Richtung Bars und Terrassen hin verlaufen und wir das Gebäude wahrscheinlich mindestens fünfmal umrundet haben werden. Das mag an der Länge des historischen Villanueva-Baus liegen, oder daran, dass dieser über drei historische Prachtportale verfügt, die manchmal - viel häufiger aber auch nicht - den Zugang zu den heiligen Hallen der Kunstanbetung erlauben. ... Die Gruppe erzittert vor Vorfreude, schon ist man kurz vor den elektrischen Glastüren des Jerónimo-Eingangs, nur wenige Schritte vor den heiß ersehnten Meisterwerken der abendländischen Kunst: Van der Weyden, Bosch, Bruegel, Raffael, Tizian, El Greco, Rubens, Velázquez und Goya scheinen nicht nur in greifbarer Nähe sondern sich bereits durch die Flure auratisch auf die eigens für diesen Besuch sensibilisierte Hornhaut zu projizieren, als der gesamtheitlich denkende und auf Vollständig fixierte Experte in die Steigbügel geht und an den Zügeln zerrt.... In knapp zwei Stunden erleben die Besucher eine ganz besondere Führung, die zu einem unvergesslichen Erlebnis wird.

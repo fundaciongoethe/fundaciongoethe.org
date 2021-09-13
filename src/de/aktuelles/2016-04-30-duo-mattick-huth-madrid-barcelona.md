@@ -1,8 +1,8 @@
 ---
-title: "Duo Mattick - Huth en Madrid y Barcelona"
+title: "Duo Mattick – Huth in Madrid und Barcelona"
 date: "2016-04-30"
 translationKey: "mattick16"
-excerpt: Los dos músicos trabajan en dúo desde hace más de 20 años, especializándose entre otros en programas temáticos de conciertos, relacionando música y letra.
+excerpt: Die beiden Musiker arbeiten seit mehr als 20 Jahren als Duo und haben sich unter anderem auf thematische Konzertprogramme spezialisiert, die Musik und Text miteinander verbinden.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/mattick-huth-madrid-barcelona-06.jpg
   alt:
@@ -15,8 +15,8 @@ gallery:
   - image: ./src/assets/images/blog/mattick-huth-madrid-barcelona-05.jpg
 ---
 
-La novela Heinrich von Ofterdingen de Novalis comienza con un sueño en el que el héroe descubre en los mundos fantásticos, musicales La Flor Azul, lugar anhelado por los románticos. La Flor Azul representaba para los escritores y músicos su símbolo de la vida. El sonido de la flauta encarna esta melancolía y búsqueda de lo inalcanzable, de la intimidad y la sensación profunda. La flauta era el instrumento de los viajeros virtuosos, que desde San Petersburgo hasta París entusiasmaban al público con su arte en las grandes salas de conciertos.
+Novalis‘ Roman „Heinrich von Ofterdingen“ beginnt mit einem Traum, in dem der Held in phantastischen, musikalischen Welten die blaue Blume entdeckt – den Sehnsuchtsort der Romantiker. Die blaue Blume war für Musiker wie Schriftsteller das Symbol ihres Lebensgefühls. Der Klang der Flöte verkörperte diese Sehnsucht und Suche nach dem Unerreichbaren – nach Innigkeit und tiefem Gefühl. Gleichzeitig war die Flöte das Instrument reisender Virtuosen, die von Petersburg bis Paris in den großen Konzertsälen mit ihrem Können Furore machten.
 
-El programa con el que Christian Mattick, flauta traversa, y Matthias Huth, piano, deleitaron al público de la Fundación Goethe, también llevaba el nombre de La Flor Azul. Con su virtuosa maestría y la romántica intimidad fueron capaces de trasladar al presente el sentido y sentimiento del romanticismo. Los dos músicos trabajan en dúo desde hace más de 20 años, especializándose entre otros en programas temáticos de conciertos, relacionando música y letra. Para la Fundación Goethe, el dúo ha representado auténticos conciertos maestros, tanto en Barcelona como en Madrid. Los maravillosos diálogos entre ambos instrumentos junto con la concentración de la colorida música fueron capaces de trasladar al público al mundo del romanticismo.
+Die blaue Blume hieß auch das Programm, mit dem Christian Mattick, Querflöte, und Matthias Huth, Piano, die Gäste der Fundación begeisterten. Virtuose Bravour verbunden mit romantischer Innigkeit brachte den Zuhörern das Lebensgefühl der Romantik in der Gegenwart nahe. Seit über zwanzig Jahren arbeiten die beiden Musiker als Duo zusammen und spezialisierten sich unter anderem auf thematisch gebundene Konzertprogramme, die Musik und Text verbinden.
 
-En Barcelona, el escenario del concierto fue el fantástico pabellón Mies van der Rohe, reconstruido hace 30 años. En Madrid, el Museo Lázaro Galdiano, casa del antiguo empresario y coleccionista de arte José Lázaro Galdiano, se prestó como sala del concierto.
+Für die Fundación Goethe spielte das Duo wahre Meisterkonzerte in Barcelona und Madrid. Die wunderbaren Dialoge der beiden Instrumente und das hochkonzentrierte und farbenreiche Musizieren nahm die Besucher mit in die Welt der Romantik. Den Rahmen bildete in Barcelona der wunderschöne Pavillon Mies van der Rohe, der vor 30 Jahren wieder aufgebaut wurde. In Madrid fand das Konzert im ebenfalls beeindruckenden Museo Lázaro Galdiano, dem Haus des ehemaligen Unternehmers und Kunstsammlers José Lázaro Galdiano, statt.

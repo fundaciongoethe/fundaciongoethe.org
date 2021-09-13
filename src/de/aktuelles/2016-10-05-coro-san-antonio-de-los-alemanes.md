@@ -1,8 +1,8 @@
 ---
-title: "Concierto de coro en la iglesia San Antonio de los Alemanes"
+title: "Chorkonzert in der Kirche San Antonio de los Alemanes"
 date: "2016-10-05"
 translationKey: "coro16"
-excerpt: El día 3 de octubre el Martinschor Beedenbostel de Baja Sajonia cantó un amplio abanico de obras sacras y profanas de su repertorio.
+excerpt: Am 3. Oktober war der Martinschor Beedenbostel aus Niedersachsen in der Kirche San Antonio de los Alemanes in Madrid zu Gast.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/martinschor-beedenbostel-fundacion-goethe-2016-11.jpg
   alt:
@@ -12,8 +12,8 @@ gallery:
   - image: ./src/assets/images/blog/martinschor-beedenbostel-fundacion-goethe-2016-10.jpg
 ---
 
-El día 3 de octubre el _Martinschor Beedenbostel_ de Baja Sajonia cantó un amplio abanico de obras sacras y profanas de su repertorio. Tuvimos el placer de escucharlo en la iglesia San Antonio de los Alemanes en Madrid.
+Am 3. Oktober war der Martinschor Beedenbostel aus Niedersachsen in der Kirche San Antonio de los Alemanes in Madrid zu Gast. Die Sängerinnen und Sänger präsentierten uns ein breites und farbenfrohes Spektrum geistlicher und weltlicher Chormusik.
 
-El Martinschor de Beedenbostel vino desde Alemania con el fin de representar para la Fundación Goethe un concierto en Málaga y otro en Madrid bajo la dirección de Dr. Claudia Ott. Gracias a las excelentes relaciones del Museo Jorge Rando con el Convento de la Merced, una orden religiosa del silencio, el monasterio se abre todos los sábados para un concierto matiné. En la pequeña y abarrotada iglesia, el coro cantó para los interesados un maravilloso concierto inaugural de su visita a España. En la iglesia barroca San Antonio de los Alemanes ubicada en el madrileño barrio de Malasaña y ricamente decorada con maravillosos frescos, el coro repartido entre la capilla mayor y la balconada representó la doble coral “Halt was du hast” de Johann Michael Bach. El programa del “coro rural de Alemania” se compuso tanto de música sacra como de música popular, fascinando a la audiencia en ambos lugares.
+Der Martinschor aus Beedenbostel reiste aus Deutschland an, um unter der Leitung von Dr. Claudia Ott für die Fundación Goethe ein Konzert in Málaga und Madrid zu geben. Dank der guten Verbindung des Museums Jorge Rando mit dem Convento de la Merced, einem Schweigeorden, wird die Klosterkirche einmal in der Woche samstags für eine Konzertmartinée geöffnet. In der kleinen und vollbesetzten Kirche gab der Chor für alle Interessierten ein wunderschönes Konzert als Auftakt ihres Spanienbesuches. In Madrid, in der mit herrlichen Frescomalereien ausgeschmückten Barockkirche San Antonio de los Alemanes im Stadtteil Malasaña, brachte der auf den Altarraum und Balkonnischen verteilte Chor den Doppelchoral „Halt was du hast“ von Johann Michael Bach zur Aufführung. Das Programm war eine Mischung aus geistlichen und weltlichen Liedern.
 
-El entusiasmo del coro y la entrega de la directora Claudia Ott, cautivó al público. Las canciones sonaron firmemente ancladas en la belleza estética, en el equilibro vocal con finos y dinámicos matices entre el dramatismo y la dulzura poética. El coro creó una atmósfera cautivadora de vibrantes emociones y vitalidad.
+Mit diesem Programm faszinierte der „Landchor aus Deutschland“ an beiden Orten seine Zuhörer. Die Begeisterung des Chores und das absolute Engagement der Chorleiterin Claudia Ott zog das Publikum in seinen Bann. Die Lieder erklangen fest verankert im ästhetisch Schönen, in stimmlicher Ausgewogenheit und mit feinen dynamischen Abstufungen zwischen Dramatik und poesievoller Süße.

@@ -1,17 +1,17 @@
 ---
-title: "Heike Bleckmann y Claus Temps en el Pabellón Mies van der Rohe"
+title: "Heike Bleckmann und Claus Temps im Pabellón Mies van der Rohe"
 date: "2016-10-25"
 translationKey: "bleckmann16"
-excerpt: El día 17.10.2016 asistimos a un concierto de Heike Bleckmann, piano, y Claus Temps, canto, en el Pabellón Mies van der Rohe.
+excerpt: Am 17.10.2016 haben wir einem Konzert von Heike Bleckmann (Klavier) und Claus Temps (Gesang) im Pabellón Mies van der Rohe beigewohnt.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/pabellon-mies-van-der-rohe-concierto-2016-06.jpg
   alt:
 ---
 
-**El día 17.10.2016 asistimos a un concierto de Heike Bleckmann, piano, y Claus Temps, canto, en el Pabellón Mies van der Rohe. Nos presentaron melodías y canciones de los años 20 en el Pabellón diseñado por Ludwig Mies van der Rohe en 1929.**
+**Am 17.10.2016 haben wir einem Konzert von Heike Bleckmann (Klavier) und Claus Temps (Gesang) im Pabellón Mies van der Rohe beigewohnt.**
 
-Bajo el lema “¡Devuélveme mi Sonrisa!”, el bajo barítono Claus Temps y la pianista Heike Bleckmann presentaron canciones y melodías de los años veinte en el pabellón Mies van der Rohe, Barcelona. La Primera Guerra Mundial supuso en Alemania y en gran parte de Europa una importante censura social, política y cultural.
+Präsentiert wurden Lieder und Melodien aus den 20er Jahren: 1929 wurde Pabellón Mies van der Rohe von Ludwig Mies van der Rohe entworfen. Durch die Interpretation der Stücke aus den Zwanziger Jahre konnten wir einen Eindruck davon erhalten, in welcher Zeit und in welchem Geist die Architektur dieses Pavillons entstanden ist.
 
-El Imperio Alemán fue sustituido por una democracia parlamentaria. Aún siendo muy débil, consiguió abrir la mentalidad de las mentes y los corazones marcando una nueva vida cultural en Alemania. Los “Felices Años Veinte” dejaron atrás el polvo de la época del emperador Guillermo. La arquitectura, música, literatura, arte, danza y teatro encontraron nuevas formas de expresión representadas entre otros por el Bauhaus, el pabellón Mies van der Rohe del año 1929.
+„O gib mir wieder mein Lachen!“ unter diesem Motto präsentierten der Bassbariton Claus Temps und die Pianistin Heike Bleckmann Lieder und Melodien der Zwanziger Jahre im Pavillon Mies van der Rohe, Barcelona. Der Erste Weltkrieg bildet in Deutschland, aber auch in weiten Teilen Europas eine große soziale, politische, gesellschaftliche und kulturelle Zäsur. Das Deutsche Kaiserreich wird von einer parlamentarischen Demokratie abgelöst. Auch wenn diese sich als sehr instabil erwies, öffnete sie doch die Köpfe und Herzen und prägte ein ganz neues kulturelles Leben in Deutschland. Die „Goldenen Zwanziger“ lassen den Staub der Wilhelminischen Zeit hinter sich. Architektur, Musik, Literatur, Kunst, Tanz, Theater finden neue Ausdrucksformen, für die auch das Bauhaus und der Pavillon von Mies van der Rohe aus dem Jahr 1929 stehen.
 
-Los músicos recordaron de estos años de cambio, los años veinte, y mostraron con una selección muy subjetiva de canciones, en qué época y con qué espíritu había surgido el maravilloso pabellón. El programa permitió imaginar y escuchar la década de la posguerra. Los músicos crearon con sus canciones una idea musical de la época de tensión, en la que nace la esperanza la mejora y la búsqueda de una sonrisa, deparando a la audiencia una velada maravillosa en una atmósfera especial.
+Die Musiker ließen diese Jahre des Auf- und Umbruchs musikalisch Revue passieren und zeigten mit einer ganz subjektiven Auswahl an Liedern auf, in welcher Zeit und in welchem Geist die wunderbare Architektur des Pavillons entstanden ist. In ihrem Programm wurde das Nachkriegs-Jahrzehnt wieder hör- und vorstellbar. Sie schufen mit den Liedern einen musikalischen Einblick in diese spannungsvolle Zeit, in der die Hoffnung auf Besserung keimte, man wieder auf der Suche nach dem Lachen war und bescherten den Zuhörern in besonderer Atmosphäre einen wunderbaren Abend.

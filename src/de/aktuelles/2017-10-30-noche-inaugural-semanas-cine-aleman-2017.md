@@ -1,8 +1,8 @@
 ---
-title: "Impresiones de la noche inaugural: Semanas del cine alemán 2017"
+title: "Deutsche Filmwochen 2017"
 date: "2017-10-30"
 translationKey: "cine17"
-excerpt: En la inauguración de la “Semana del Cine Alemán 2017” se representó en la filmoteca de Catalunya la película Las Flores de Antaño.
+excerpt: Zur Eröffnung wurde der Film Die Blumen von gestern von Chris Kraus mit Adèle Haenel und Lars Eidinger in den Hauptrollen aufgeführt.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/cine-aleman-barcelona-2017-JordiAzategui-04.jpg
   alt:
@@ -12,8 +12,10 @@ gallery:
   - image: ./src/assets/images/blog/cine-aleman-barcelona-2017-JordiAzategui-05.jpg
 ---
 
-El 19 de octubre de 2017 se inauguró el **VI Ciclo de cine alemán actual de Barcelona** con la película "**Las Flores de Antano**". Como en años anteriores, se proyectará una selección de las películas más interesantes de Alemania. Se centra en las mejores películas de autor así como en el cine independiente original e innovador. Todas las películas se presentan en la versión original con subtítulos en castellano o catalán.
+Am 19. Oktober 2017 wurde das 6. Filmfestival „Ciclo de cine alemán actual de Barcelona“ mit dem Film „Die Blumen von gestern“ eröffnet. Wie in den vergangenen Jahren wird eine Auswahl der interessantesten Filme aus Deutschland gezeigt. Der Fokus liegt auf den besten Autorenfilmen sowie originellem und innovativem Independent-Kino. Alle Filme werden in der Originalfassung mit Untertiteln in Spanisch oder Katalanisch vorgeführt.
 
-En la inauguración de la “Semana del Cine Alemán 2017” se representó en la filmoteca de Catalunya la película Las Flores de Antaño del director Chris Kraus del año 2016 con Adèle Haenel y Lars Eidinger como protagonistas. Se trata de una comedia romántica poco convencional sobre las repercusiones del holocausto dos generaciones después. En medio de la más profunda crisis vital el investigador del holocausto Totila conoce a la asistenta francesa de origen judío, con una fuerte fobia contra los teutones. Una historia divertida sobre la pregunta: ¿Qué pasa cuando personas emocionalmente inestables y separadas por procedencia y formas de vida investigan el genocidio alemán y se enamoran? El productor Daniel Krausz nos acompañó en la sesión inaugural y ofreció a los invitados un intercambio de impresiones durante la posterior recepción. El director suizo-alemán Dani Levy presentó su película “El mundo de los Wunderlich”, una mezcla de roadmovie y screwball comedy. Durante la semana del cine, varias películas se atrevieron a contar tragicomedias sobres temas muy serios. Aparte de la anteriormente mencionada “Las Flores de Antaño” y “El mundo de los Wunderlich”, la película “Alki Alki” realizó un funambulismo de este género. Igual que en años anteriores, la selección de las obras mostró las películas alemanas más interesantes, originales e innovadoras.
+Das Filmfestival wurde präsentiert von der Filmoteca de Catalunya, mit Unterstützung der Fundación Goethe und German Films.
 
-Fotografías de Jordi Azategui.
+Als Eröffnungsfilm der “Deutschen Filmwochen 2017” in der Filmoteca de Catalunya wurde der Film Die Blumen von gestern von Chris Kraus mit Adèle Haenel und Lars Eidinger in den Hauptrollen aufgeführt. Die Blumen von gestern ist eine unkonventionelle romantische Komödie über die Nachwirkungen des Holocaust zwei Generationen später. Mitten in seiner tiefsten Lebenskrise gerät der Holocaust-Forscher Totila an die französische Assistentin Zazie, jüdischer Herkunft und mit ausgeprägter Teutonen-Phobie. Eine aberwitzige Geschichte über die Frage: Was passiert, wenn der deutsche Völkermord von Leuten erforscht wird, die emotional labil, durch Herkunft und Lebensart auf unvereinbare Weise getrennt und dennoch ineinander verliebt sind? Der Produzent Daniel Krausz war bei dem Eröffnungsabend und dem anschließenden Empfang anwesend und bot den Gästen die Gelegenheit, sich über den Film auszutauschen. Der deutsch-schweizerische Regisseur Dani Levy präsentierte seinen Film Die Welt der Wunderlichs, eine Mischung aus Roadmovie und Screwball Komödie. Mehrere Filme während der deutschen Filmwoche wagten es, tragikomische Geschichten über sehr ernste Themen zu erzählen. Neben den bereits erwähnten Die Blumen von gestern und Die Welt der Wunderlichs vollführt der Film Alki Alki einen Balanceakt in diesem Genre. Die Auswahl der Werke umfasste wie in den vergangenen Jahren die interessantesten, originellsten und innovativsten deutschen Filme.
+
+Fotos von Jordi Azategui.

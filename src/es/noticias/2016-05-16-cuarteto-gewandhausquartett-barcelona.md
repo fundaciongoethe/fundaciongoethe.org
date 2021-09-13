@@ -2,7 +2,7 @@
 title: "Cuarteto Gewandhausquartett en Barcelona"
 date: "2016-05-17"
 translationKey: "gewandhausquartett16"
-excerpt:
+excerpt: El Gewandhausquartett dio conciertos inolvidables en lugares espectaculares de tres ciudades españolas.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/gewandhausquartett-barcelona-10.jpg
   alt:

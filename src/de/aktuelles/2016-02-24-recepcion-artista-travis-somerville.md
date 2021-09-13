@@ -1,19 +1,17 @@
 ---
-title: "Recepción del artista Travis Somerville"
+title: "Kunst an der Fassade des Hotels RadissonBlu Madrid"
 translationKey: "somerville"
 date: "2016-02-24"
-excerpt: Ya es tradición que en el marco de ARCO, una importante feria de arte moderno, se pueda contemplar obras de arte contemporáneo en la fachada del Hotel RadissonBlu.
+excerpt: Es ist schon Tradition, dass an der Fassade des Hotels RadissonBlu zeitgleich zur ARCO, der bedeutenden Messe zeitgenössischer Kunst in Madrid, moderne Kunst zu sehen ist.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/radisson-blue-madrid-somerville-2016-09.jpg
-  alt: El arte de Travis Somerville en la fachada del Hotel RadissonBlu
+  alt: Die Kunst von Travis Somerville an der Fassade des Hotels RadissonBlu
 gallery:
   - image: ./src/assets/images/blog/radisson-blue-madrid-somerville-2016-01.jpg
   - image: ./src/assets/images/blog/radisson-blue-madrid-somerville-2016-06.jpg
   - image: ./src/assets/images/blog/radisson-blue-madrid-somerville-2016-07.jpg
 ---
 
-Ya es tradición que en el marco de ARCO, una importante feria de arte moderno, se pueda contemplar obras de arte contemporáneo en la fachada del Hotel RadissonBlu.
+Es ist schon Tradition, dass an der Fassade des Hotels RadissonBlu zeitgleich zur ARCO, der bedeutenden Messe zeitgenössischer Kunst in Madrid, moderne Kunst zu sehen ist. Das Hotel liegt direkt gegenüber dem Prado, dem größten Kunstmuseums Madrids, und im schönen Viertel Las Letras.
 
-El hotel está ubicado justo enfrente del mayor museo de arte de Madrid, el Museo del Prado, dentro del precioso barrio de Las Letras. Durante 10 días los habitantes y visitantes de Madrid tuvieron ocasión de profundizar en el arte de Travis Somerville, tanto admirando la fachada como en la cercana galería de arte Ponce & Robles y naturalmente en ARCO. El mundialmente famoso artista elaboró banderolas que fueron colocadas en los múltiples balcones de la fachada del hotel. Con elementos simbólicos el artista intentó reflejar con su arte la historia y la actualidad. Para sus obras el artista usó distintos formatos y materiales y expuso por ejemplo en la galería más pequeña del mundo, el Up-Gallery del Hotel, un saco diseñado por él mismo, que fue usado por niños negros recolectores de algodón en las plantaciones del Sur de Estados Unidos hasta el siglo XX.
-
-Durante la recepción de la Fundación Goethe y a la sombra de dicho saco, los invitados y el artista Travis Somerville avivaron una interesante discusión referente al origen de su arte y la vieja y nueva historia de Estados Unidos y dieron lugar a una velada especialmente animada.
+Über 10 Tage konnten sich die Bewohner und Besucher Madrids mit der Kunst von Travis Somerville auseinandersetzen: an der Fassade, in der benachbarten Gallerie Ponce & Robles und natürlich auf der ARCO. Der weltweit bekannte amerikanische Künstler gestaltete für das Hotel Banner, die an den zahlreichen Balkonen der Hotelfassade angebracht wurden und für Aufmerksamkeit sorgten. In seiner Kunst versucht Somerville mit symbolischen Elementen Geschichte zu reflektieren und sich mit der Gegenwart auseinanderzusetzen. In seinen Werken nutzt er unterschiedliche Formate und Materialien und stellte zum Beispiel in der kleinsten Gallerie der Welt, der Up-Gallery des Hotels, einen von ihm gestalteten originalen Baumwollsack aus, der von schwarzen Kindern, Baumwollpflückern, auf den großen Baumwollplantagen im Süden der USA noch im 20. Jahrhundert genutzt wurde. Während des Empfangs der Fundación Goethe und unter dem genannten Baumwollsack entwickelte sich zwischen den Besuchern und Travis Somerville ein spannendes Gespräch zur Entstehung seiner Kunst, der alten und neueren Geschichte der USA und sorgte für einen sehr anregenden Abend.

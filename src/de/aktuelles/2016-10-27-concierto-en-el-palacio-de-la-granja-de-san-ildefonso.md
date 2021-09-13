@@ -1,17 +1,17 @@
 ---
-title: "Concierto en el Palacio de La Granja de San Ildefonso"
+title: "Konzert im Palast La Granja de San Ildefonso in Segovia"
 date: "2016-10-27"
 translationKey: "farrenc16"
-excerpt: El Trío Farrenc nos ofreció un fantástico concierto en la "Casa de las Flores" en el Real Sitio de La Granja de San Ildefonso en Segovia.
+excerpt: Das Trio Farrenc gab ein fantastisches Konzert in der Casa de las Flores im Real Sitio de La Granja de San Ildefonso in Segovia.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/concierto-segovia-palacio-23.jpg
   alt:
 ---
 
-**El día 23 de octubre el Trío Farrenc nos ofreció un fantástico concierto en la "Casa de las Flores" en el Real Sitio de La Granja de San Ildefonso en Segovia.**
+Am 23. Oktober haben wir das Trio Farrenc (benannt nach der französischen Pianistin, Komponistin, Musikwissenschaftlerin und Professorin am Pariser Konservatorium Louise Farrenc) im Palast La Granja de San Ildefonso live erlebt. Arnim Klüser (Flöte, Ulrike Tiedemann (Cello) und Beatrix Ebersberg (Klavier) haben in dem einzigartigen Ambiente der „Casa de las Flores“ ein ganz besonderes Konzert geben.
 
-El palacio de Versailles español, el Palacio Real La Granja de San Ildefonso, era la antigua residencia de verano de los Reyes de España. El palacio está ubicado en la provincia de Segovia y rodeado por uno de los jardines más grandes de España. En el borde del parque se sitúa el antiguo jardín de naranjos, la llamada Casa de las Flores. En la idílica atmósfera de dicho jardín pudo actuar el Trío Farrenc.
+Das spanische Versailles, der Palacio Real La Granja de San Ildefonso, ist eine ehemalige Sommerresidenz der spanischen Könige. Das Schloss liegt in der Region Segovia umgeben von einem der größten Schlossparks in Spanien. Am Rande des Parks liegt die ehemalige Orangerie, die sogenannte Casa de las Flores. In der idyllischen Atmosphäre dieser Orangerie konzertierte das Trio Farrenc.
 
-La violonchelista Ulrike Tiedemann, la pianista Beatrix Ebersberg y el flautista Armin Klüser fascinaron al público con la música de su variado programa. El nombre del trío tiene su origen en la pianista francesa, compositora, músico y profesora en el conservatorio de París, Louise Farrenc (1804-1875). Ella compuso obras de piano, sinfonías y música de cámara. Las obras de Farrenc fueron muy populares y ella gozó de mucha fama durante su vida. Sin embargo, después de su muerte sus obras cayeron en el olvido y no fue hasta 1995 que se editaron nuevamente. Los músicos tocaron de una manera fascinante estas obras descubiertas de nuevo en el espléndido edificio que dispone de una acústica espectacular.
+Die Cellistin Ulrike Tiedemann, die Pianistin Beatrix Ebersberg und der Flötist Armin Klüser übten mit ihrer Musik und dem abwechslungsreichen Programm eine hohe Faszination auf das Publikum aus. Benannt ist das Trio nach der französischen Pianistin, Komponistin, Musikwissenschaftlerin und Professorin am Pariser Konservatorium Louise Farrenc (1804-1875). Sie komponierte Klavierwerke, Sinfonien sowie Kammermusikwerke. Zu ihren Lebzeiten waren Farrencs Werke sehr verbreitet und die Komponistin genoss hohes Ansehen. Nach ihrem Tod gerieten Farrencs Werke in Vergessenheit und wurden erst 1995 wieder verlegt.
 
-Al mismo tiempo que la audiencia se deleitaba con la música también pudo disfrutar de las vistas a través de los altos ventanales a los jardines con su antigua arboleda, por los que pudo pasear al finalizar el concierto. !Una maravillosa experiencia única y maravillosa!
+In dem schönen Gebäude und der hervorragenden Akustik spielte das Trio Farrenc auf wunderschöner Weise diese neuentdeckten Stücke. Während das Publikum die Musik auf sich wirken ließ, beeindruckte vor den hohen Fenstern die Aussicht auf den Garten mit seinen alten, sehr hohen Bäumen, durch den die Gäste im Anschluss an das Konzert flanieren durften. Ein einmaliges, außergewöhnliches Erlebnis!

@@ -1,8 +1,8 @@
 ---
-title: "Visita de la central en Sagunto"
+title: "Besichtigung der Umspannstation in Sagunto"
 date: "2016-05-18"
 translationKey: "sagunto16"
-excerpt: Nuestro promotor Siemens nos brindó la posibilidad de visitar la central en Sagunto y la subestación transformadora posterior.
+excerpt: Unser Förderer Siemens lud uns ein, das Kraftwerk und die angeschlossene Umspannstation in Sagunto anzusehen.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/siemens-sagunto-01.jpg
   alt:
@@ -15,6 +15,7 @@ gallery:
   - image: ./src/assets/images/blog/siemens-sagunto-12.jpg
 ---
 
-**Nuestro promotor Siemens nos brindó la posibilidad de visitar la central en Sagunto y la subestación transformadora posterior.**
+Unser Förderer Siemens lud uns ein, das Kraftwerk und die angeschlossene Umspannstation in Sagunto anzusehen.
 
-Los visitantes procedentes de Madrid y Barcelona se encontraron en Valencia para continuar desde allí camino a Sagunto. Hace pocos años Siemens construyó en Sagunto una moderna central de ciclo combinado. La potencia instalada en tres bloques asciende a 1200 MW. La central es operada por Gas Natural Fenosa, cuyos trabajadores actuaron como guías para el grupo y explicaron la tecnología. La vecina subestación Sagunto es punto de salida del cable subterráneo COMETA, siglas que significan Conexión Mediterránea Transporte Alta Tensión, construido por Siemens para conectar la península con las Islas Baleares. Con una longitud de 244km el cable HVDC (alto voltaje/potencia continua) conecta la subestación de Sagunto en la península con la de Santa Ponsa en la isla de Mallorca con una potencia normalizada de 250kV. La conexión subterránea está situada a una profundidad de hasta 1485 metros. La subestación es operada por la distribuidora nacional Red Eléctrica, cuyos empleados también acompañaron al grupo. Después de la increíble compleja e interesante visita tecnológica, los visitantes pudieron intercambiar sus impresiones durante un almuerzo.
+Aus Madrid und Barcelona trafen sich die Besucher in Valencia, um von dort aus nach Sagunto zu fahren. Dort wurde von Siemens vor wenigen Jahren ein modernes Combined-Cycle-Kraftwerk, ein Gas-Dampf-Kraftwerk errichtet. In drei Kraftwerksblöcken stehen insgesamt 1200 MW installierte Leistung zur Verfügung. Die Anlage wird von Gas Natural Fenosa betrieben, deren Mitarbeiter die Gruppe auch durch das Kraftwerk führten und ihnen die Technik näherbrachten. Das benachbarte Umspannwerk Sagunto ist der Ausgangspunkt des unterirdischen Starkstromkabels COMETA. COMETA steht für Conexión Mediterránea Transporte Alta Tensión und wurde von Siemens zwischen dem Festland und den Balearen erstellt. Auf einer Länge von 244 km verbindet das HVDC (Starkstrom / Gleichstrom) Kabel seit August 2012 die beiden Transformationsstationen Sagunto am Festland und Santa Ponsa auf der Insel Mallorca mit einer Normalspannung von 250 kV = Die Verbindung läuft unterirdischen in einer Tiefe von bis zu 1485 Metern. Das Umspannwerk wird betrieben von dem landesweiten Verteilernetzbetreiber Red Eléctrica, deren Mitarbeiter ihren Teil zur Führung der Gruppe beitrugen.
+Nach den Besichtigungen der hochkomplizierten Technik waren die Teilnehmer eingeladen, sich bei einem gemeinsamen Mittagessen auszutauschen.

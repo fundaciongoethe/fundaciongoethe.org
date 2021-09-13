@@ -2,7 +2,7 @@
 title: "El Secreto de las Medusas en el pabellón Mies van der Rohe"
 date: "2016-05-16"
 translationKey: "medusas16"
-excerpt: abine Dahrendorf und Josep Sanou desarrollaron un teatro baile diseñado expresamente para este extraordinario edificio.
+excerpt: Sabine Dahrendorf y Josep Sanou desarrollaron un teatro escénico de danza para el Pabellón Mies van der Rohe.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/Pavillion-Mies-van-der-Rohe-medusa-04.jpg
   alt:
