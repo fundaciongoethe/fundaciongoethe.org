@@ -1,5 +1,5 @@
 ---
-title: "Visita guiada en el Museo Nacional del Prado"
+title: "Pradoführung 2017"
 date: "2017-02-14"
 translationKey: "prado17"
 excerpt: Im Februar haben wir uns gemeinsam mit dem Kunsthistoriker Felix Scheffler das Museo Nacional del Prado besucht.

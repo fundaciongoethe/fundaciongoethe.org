@@ -2,7 +2,7 @@
 title: "Das neue Jahrbuch 2015 der Fundación Goethe"
 date: "2016-07-11"
 translationKey: "anuariopresentacion"
-excerpt: Nos place presentar el nuevo anuario 2015. La embajada alemana en Madrid y la Fundación Goethe pueden mirar hacia atrás sobre una cooperación de quince años de éxito.
+excerpt: Wir freuen uns, Ihnen unser neues Jahrbuch präsentieren zu dürfen. Die Deutsche Botschaft Madrid und die Fundación Goethe können auf 15 Jahre erfolgreicher Zusammenarbeit zurückblicken.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/DSC08742-820x400.jpg
   alt:
@@ -12,7 +12,7 @@ Wir freuen uns, Ihnen unser neues [Jahrbuch 2015](https://www.fundaciongoethe.or
 
 ## Grußwort des deutschen Botschafters Peter Tempel für das Jahrbuch 2015 der Fundación Goethe
 
-Die Deutsche Botschaft Madrid und die Fundación Goethe können auf fünfzehn Jahre erfolgreicher Zusammenarbeit bei der Förderung deutsch-spanischer Beziehungen insbesondere in den Bereichen Kultur und Wirtschaft zurückblicken. Ich freue mich, dass über die Jahre zwischen Stiftung und Botschaft ein vertrauensvolles und freundschaftliches Verhältnis gewachsen ist.
+Die Deutsche Botschaft Madrid und die Fundación Goethe können auf 15 Jahre erfolgreicher Zusammenarbeit bei der Förderung deutsch-spanischer Beziehungen insbesondere in den Bereichen Kultur und Wirtschaft zurückblicken. Ich freue mich, dass über die Jahre zwischen Stiftung und Botschaft ein vertrauensvolles und freundschaftliches Verhältnis gewachsen ist.
 
 Anlässlich des Jubiläums “25 Jahre deutsche Wiedervereinigung“ wurde 2015 die Stadt Berlin als Gaststadt der XII. Architekturwoche Madrid eingeladen, und die historischen wie aktuellen architektonischen Beziehungen beider Städte waren zentraler Schwerpunkt der Vorträge, Debatten und Ausstellungen. Zum Zustandekommen und Gelingen dieser Veranstaltungsreihe sowie der zweiten Ausgabe der Kunstausstellung der Botschaft in der historischen Madrider Ladenpassage Fuencarral 77 im Frühjahr 2015 leistete die Stiftung einen wesentlichen Beitrag.
 

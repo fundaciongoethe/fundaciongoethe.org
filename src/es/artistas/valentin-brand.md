@@ -3,7 +3,7 @@ title: "Valentin Brand"
 translationKey: "fritzbaltruweit"
 customSlug: "valentin-brand"
 excerpt: Valentin Brand, pianista y músico de teclado electrónico, es compositor y arreglista encontrando música convincente para textos bíblicos y escenas teatrales. Terminada su carrera de ciencias culturales vive como músico independiente en Hildesheim.
-occupation: "Pianist"
+occupation: "Pianista"
 seo:
   title: Valentin Brand
   description: Valentin Brand, pianista y músico de teclado electrónico, es compositor y arreglista encontrando música convincente para textos bíblicos y escenas teatrales. Terminada su carrera de ciencias culturales vive como músico independiente en Hildesheim.

@@ -3,7 +3,7 @@ title: "Christian Gruber"
 translationKey: "christiangruber"
 customSlug: "christian-gruber"
 excerpt: Christian Gruber se siente en casa en muchos mundos musicales. La interacción con otros músicos y artistas le resulta inspiradora y estimulante.
-occupation: "Gitarrist"
+occupation: "Guitarrista"
 seo:
   image: artists/christian-gruber.jpg
 images: # complete path for eleventy img srcset output, alt required

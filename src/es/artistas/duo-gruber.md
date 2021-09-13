@@ -3,7 +3,7 @@ title: "Duo Gruber"
 translationKey: "duogruber"
 customSlug: "duo-gruber"
 excerpt: El Dúo Gruber está compuesto por la cantante Katharina Gruber y el guitarrista Christian Gruber, padre e hija y artistas internacionalmente premiados y reconocidos.
-occupation: "Gitarre und Gesang"
+occupation: "Guitarra y voz"
 seo:
   image: artists/duo-gruber.jpg
 images: # complete path for eleventy img srcset output, alt required
