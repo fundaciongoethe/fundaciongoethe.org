@@ -7,9 +7,9 @@ city: Barcelona
 seo: # image relative to /assets/images/
   title: CaixaForum
   description:
-  image: /venues/caixa.JPG
+  image: /venues/caixa.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/caixa.JPG
+  featured: ./src/assets/images/venues/caixa.jpg
   alt: CaixaForum
   credit: ca:User:amadalvarez, CC BY 3.0, via Wikimedia Commons
 links:
