@@ -1,6 +1,6 @@
 ---
 title: "Museo Nacional Thyssen-Bornemisza"
-translationKey: "palacioreal"
+translationKey: "thyssen"
 customSlug: "museo-nacional-thyssen-bornemisza"
 excerpt: El Museo Nacional Thyssen-Bornemisza alberga una de las colecciones de pintura más importantes que era propiedad de la familia Thyssen-Bornemisza.
 city: Madrid
