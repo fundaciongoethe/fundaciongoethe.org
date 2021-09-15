@@ -7,9 +7,9 @@ city: Madrid
 seo: # image relative to /assets/images/
   title: Colegio Alemán de Madrid
   description:
-  image: /venues/dsm.jpg
+  image: /venues/dsmadrid.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/dsm.jpg
+  featured: ./src/assets/images/venues/dsmadrid.jpg
   alt: Colegio Alemán de Madrid
   credit:
 links:
