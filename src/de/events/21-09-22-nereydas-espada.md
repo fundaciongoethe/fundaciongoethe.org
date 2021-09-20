@@ -1,9 +1,9 @@
 ---
 title: Das geheime Buch der Königin. Ein musikalischer Abend
 description: Die Temporada Musical de Patrimonio Nacional 2021 ist eine Reise durch die Paläste, in deren Mittelpunkt die Rolle der Frauen in der Hofmusik steht.
-translationKey: nereydasrial
-customSlug: nereydas-nuria-rial-palacio-real
-artist: [nereydas, nuriarial]
+translationKey: nereydasespada
+customSlug: nereydas-maria-espada-palacio-real
+artist: [nereydas, mariaespada]
 venue: [palacioreal]
 location: Palacio Real
 city: Madrid

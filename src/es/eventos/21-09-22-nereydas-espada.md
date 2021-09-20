@@ -1,9 +1,9 @@
 ---
 title: El libro secreto de la reina. Una velada musical
 description: La Temporada Musical de Patrimonio Nacional para 2021 propone un viaje por los Reales Sitios, cuyo eje principal es el papel de la mujer en la música de la corte.
-translationKey: nereydasrial
-customSlug: nereydas-nuria-rial-palacio-real
-artist: [nereydas, nuriarial]
+translationKey: nereydasespada
+customSlug: nereydas-maria-espada-palacio-real
+artist: [nereydas, mariaespada]
 venue: [palacioreal]
 location: Palacio Real
 city: Madrid
