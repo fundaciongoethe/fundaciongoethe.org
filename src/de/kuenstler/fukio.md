@@ -9,8 +9,9 @@ seo:
   description: Die vier Musiker des Fukio Quartetts erforschen die Kammermusik für Saxophon und treten in wichtigen Konzertsälen in Spanien, Deutschland, England und China auf.
   image: artists/fukio.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/fukio.jpg
-  alt: Fukio Quartet
+  featured: ./src/assets/images/artists/fukio2.jpg
+  alt: Die 4 Mitglieder des Fukio-Quartetts spielen auf ihren Instrumenten
+  credit: Mireia Miralles
 links:
   web: https://fukioquartet.com
   twitter: https://twitter.com/Fukios

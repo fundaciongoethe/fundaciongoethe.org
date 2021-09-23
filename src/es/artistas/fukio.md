@@ -9,8 +9,9 @@ seo:
   description: Los cuatro músicos del Fukio Quartet exploran la música de cámara para saxofón y actúan en importantes salas de conciertos de España, Alemania, Inglaterra y China.
   image: artists/fukio.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/fukio.jpg
-  alt: Fukio Quartet
+  featured: ./src/assets/images/artists/fukio2.jpg
+  alt: Los 4 interpretes del Fukio Quartet delante del Pabellón Mies van der Rohe, tocando sus instrumentos
+  credit: Mireia Miralles
 links:
   web: https://fukioquartet.com
   twitter: https://twitter.com/Fukios
