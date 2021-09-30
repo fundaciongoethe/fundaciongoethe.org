@@ -1,4 +1,4 @@
-const filters = require('./utils/filters.js')
+const filters = require("./utils/filters.js");
 
 const { isAfter, isBefore, format } = require("date-fns");
 // moment cause i cant get it to work with fns repecting DRY
@@ -46,14 +46,11 @@ module.exports = function (eleventyConfig) {
 
 	// Filters
 	Object.keys(filters).forEach((filterName) => {
-		eleventyConfig.addFilter(filterName, filters[filterName])
-	})
-
+		eleventyConfig.addFilter(filterName, filters[filterName]);
+	});
 
 	// This allows Eleventy to watch for file changes during local development.
 	eleventyConfig.setUseGitIgnore(false);
-
-
 
 	// ab hier altes fundaciongoethe
 
@@ -119,41 +116,36 @@ module.exports = function (eleventyConfig) {
 		eleventyConfig.addTransform(transformName, htmlmin[transformName]);
 	});
 
+	// Plugins
 
+	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.addPlugin(embedEverything);
 
+	// eleventy img
+	eleventyConfig.addNunjucksAsyncShortcode(
+		"Picture",
+		async (src, pcls, cls, alt, sizes = "100vw") => {
+			if (!alt) {
+				throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+			}
 
+			let metadata = await Image(src, {
+				widths: [580, 770, 1200],
+				formats: ["webp", "jpeg"],
+				urlPath: "/assets/images/",
+				outputDir: "./dist/assets/images/",
+				filenameFormat: function (id, src, width, format, options) {
+					const extension = path.extname(src);
+					const name = path.basename(src, extension);
 
+					return `${name}-${width}w.${format}`;
+				},
+			});
 
-		// Plugins
+			let lowsrc = metadata.jpeg[0];
 
-		eleventyConfig.addPlugin(pluginRss);
-		eleventyConfig.addPlugin(syntaxHighlight);
-		eleventyConfig.addPlugin(embedEverything);
-
-		// eleventy img
-		eleventyConfig.addNunjucksAsyncShortcode(
-			"Picture",
-			async (src, pcls, cls, alt, sizes = "100vw") => {
-				if (!alt) {
-					throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-				}
-
-				let metadata = await Image(src, {
-					widths: [580, 770, 1200],
-					formats: ["webp", "jpeg"],
-					urlPath: "/assets/images/",
-					outputDir: "./dist/assets/images/",
-					filenameFormat: function (id, src, width, format, options) {
-						const extension = path.extname(src);
-						const name = path.basename(src, extension);
-
-						return `${name}-${width}w.${format}`;
-					},
-				});
-
-				let lowsrc = metadata.jpeg[0];
-
-				return `<picture class="${pcls}">
+			return `<picture class="${pcls}">
 					${Object.values(metadata)
 						.map((imageFormat) => {
 							return `  <source type="${
@@ -172,31 +164,30 @@ module.exports = function (eleventyConfig) {
 							loading="lazy"
 							decoding="async">
 					</picture>`;
+		}
+	);
+
+	eleventyConfig.addNunjucksAsyncShortcode(
+		"Image",
+		async function imageShortcode(src, cls, alt) {
+			if (alt === undefined) {
+				// You bet we throw an error on missing alt (alt="" works okay)
+				throw new Error(`Missing \`alt\` on myImage from: ${src}`);
 			}
-		);
 
-		eleventyConfig.addNunjucksAsyncShortcode(
-			"Image",
-			async function imageShortcode(src, cls, alt) {
-				if (alt === undefined) {
-					// You bet we throw an error on missing alt (alt="" works okay)
-					throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-				}
+			let metadata = await Image(src, {
+				widths: [600],
+				formats: ["jpeg"],
+				urlPath: "/assets/images/",
+				outputDir: "./dist/assets/images/",
+			});
 
-				let metadata = await Image(src, {
-					widths: [600],
-					formats: ["jpeg"],
-					urlPath: "/assets/images/",
-					outputDir: "./dist/assets/images/",
-				});
+			let data = metadata.jpeg[metadata.jpeg.length - 1];
+			return `<img src="${data.url}" class="${cls}" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">`;
+		}
+	);
 
-				let data = metadata.jpeg[metadata.jpeg.length - 1];
-				return `<img src="${data.url}" class="${cls}" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">`;
-			}
-		);
-
-
-		// Collections
+	// Collections
 
 	// blog es
 	eleventyConfig.addCollection("posts_es", function (collection) {
@@ -207,7 +198,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("posts_de", function (collection) {
 		return collection.getFilteredByGlob("./src/de/aktuelles/*.md");
 	});
-
 
 	// artists es, randomized on build
 	eleventyConfig.addCollection("artists_es", function (collection) {
@@ -281,11 +271,10 @@ module.exports = function (eleventyConfig) {
 		);
 	});
 
-
-		// events es
-		eleventyConfig.addCollection("events_es", (collectionApi) => {
-			return collectionApi.getFilteredByGlob("./src/es/eventos/*.md");
-		});
+	// events es
+	eleventyConfig.addCollection("events_es", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/es/eventos/*.md");
+	});
 
 	// events es past sorted by year
 	eleventyConfig.addCollection("eventosPasados", (collectionApi) => {
@@ -314,29 +303,27 @@ module.exports = function (eleventyConfig) {
 		return collectionApi.getFilteredByGlob("./src/de/events/*.md");
 	});
 
+	// events de past sorted by year
+	eleventyConfig.addCollection("eventsVergangenheit", (collectionApi) => {
+		return _.chain(collectionApi.getFilteredByGlob("./src/de/events/*.md"))
+			.filter(
+				(event) =>
+					isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
+			)
+			.groupBy((event) => event.date.getFullYear())
+			.toPairs()
+			.reverse()
+			.value();
+	});
 
-		// events de past sorted by year
-		eleventyConfig.addCollection("eventsVergangenheit", (collectionApi) => {
-			return _.chain(collectionApi.getFilteredByGlob("./src/de/events/*.md"))
-				.filter(
-					(event) =>
-						isValidEvent(event) && isBefore(new Date(event.data.date), new Date())
-				)
-				.groupBy((event) => event.date.getFullYear())
-				.toPairs()
-				.reverse()
-				.value();
-		});
-
-		eleventyConfig.addCollection("eventsZukunft", (collectionApi) => {
-			return collectionApi
-				.getFilteredByGlob("./src/de/events/*.md")
-				.filter(
-					(event) =>
-						isValidEvent(event) && isAfter(new Date(event.data.date), new Date())
-				);
-		});
-
+	eleventyConfig.addCollection("eventsZukunft", (collectionApi) => {
+		return collectionApi
+			.getFilteredByGlob("./src/de/events/*.md")
+			.filter(
+				(event) =>
+					isValidEvent(event) && isAfter(new Date(event.data.date), new Date())
+			);
+	});
 
 	// Custom Watch Targets
 
@@ -416,17 +403,16 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias("home", "layouts/home.njk");
 	eleventyConfig.addLayoutAlias("plain", "layouts/plain.njk");
 	eleventyConfig.addLayoutAlias("evento", "layouts/evento.njk");
+	eleventyConfig.addLayoutAlias("eventonoartist", "layouts/eventonoartist.njk");
 	eleventyConfig.addLayoutAlias("artist", "layouts/artist.njk");
 	eleventyConfig.addLayoutAlias("venue", "layouts/venue.njk");
 	eleventyConfig.addLayoutAlias("sponsor", "layouts/sponsor.njk");
 	eleventyConfig.addLayoutAlias("redirect", "layouts/redirect.njk");
 
-		// Opts in to a full deep merge when combining the Data Cascade.
+	// Opts in to a full deep merge when combining the Data Cascade.
 	// @link https://www.11ty.dev/docs/data-deep-merge/#data-deep-merge
 
 	eleventyConfig.setDataDeepMerge(true);
-
-
 
 	return {
 		dir: {

@@ -129,4 +129,24 @@ module.exports = {
 		url: "https://www.visitberlin.de/es",
 		logo: "./src/assets/images/event-sponsors/visitberlin.png",
 	},
+	dzt: {
+		name: "Oficina Nacional Alemana de Turismo",
+		url: "https://www.germany.travel",
+		logo: "./src/assets/images/sponsors/dzt/dzt-logo.png",
+	},
+	transfesa: {
+		name: "Transfesa Logistics",
+		url: "https://www.transfesa.com",
+		logo: "./src/assets/images/event-sponsors/transfesa.png",
+	},
+	munichre: {
+		name: "Munich Re",
+		url: "https://www.munichre.com",
+		logo: "./src/assets/images/sponsors/munichre/munichre-logo.png",
+	},
+	sociedadhispanoalemana: {
+		name: "Sociedad Hispano Alemana del norte de España",
+		url: "https://sociedadhispanoalemana.com/",
+		logo: "./src/assets/images/event-sponsors/sociedad-alemana.png",
+	},
 };
