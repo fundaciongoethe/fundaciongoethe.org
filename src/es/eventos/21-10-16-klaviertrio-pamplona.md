@@ -21,7 +21,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pamplona-catedral.jpg
   alt: Catedral de Pamplona
-infobox: Evento privado, sólo con invitación personal.
+infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 ---
 
 Alemania celebra con todo el mundo el 250 aniversario de Ludwig van Beethoven. Ludwig van Beethoven está considerado el compositor clásico más interpretado, que se reinventó constantemente, amplió los límites de la música y cuestionó a la sociedad.

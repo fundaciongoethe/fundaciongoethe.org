@@ -1,6 +1,6 @@
 ---
 layout: eventonoartist
-title: Besichtigung der Niederlassung von Transfesa, Hendaya
+title: Visita guiada de la instalacion de cambio de ejes de Hendaya
 description: Día de excursión con visita a la instalación de Transfesa de Hendaya, visita al Museo Vasco del Ferrocarril en Azpeitia y paseo en el tranvía histórico.
 translationKey: visitaguiadatransfesa
 customSlug: visita-guiada-transfesa-hendaya

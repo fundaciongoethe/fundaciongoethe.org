@@ -21,7 +21,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pamplona-catedral.jpg
   alt: Kathedrale von Pamplona
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
+infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
 ---
 
 Deutschland feiert mit der ganzen Welt den 250. Geburtstag von Ludwig van Beethoven. Ludwig van Beethoven gilt als der meistgespielte klassische Komponist, der sich immer wieder neu erfunden hat, die Grenzen der Musik erweiterte und die Gesellschaft infrage stellte.
