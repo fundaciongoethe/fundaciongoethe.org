@@ -18,3 +18,5 @@ links:
   facebook:
   instagram:
 ---
+
+In der Kapelle des Königspalastes von Aranjuez sind große Kunstwerke der Malerei, Bildhauerei und Architektur aus der Zeit von Carlos III. zu bestaunen.

@@ -149,4 +149,14 @@ module.exports = {
 		url: "https://sociedadhispanoalemana.com/",
 		logo: "./src/assets/images/event-sponsors/sociedad-alemana.png",
 	},
+	konsulatmalaga: {
+		name: "Konsulat der Bundesrepublik Deutschland in Málaga",
+		url: "https://spanien.diplo.de/es-de/vertretungen/generalkonsulat3",
+		logo: "./src/assets/images/event-sponsors/konsulat-malaga.png",
+	},
+	fundacionunicaja: {
+		name: "Fundación Unicaja",
+		url: "https://www.fundacionunicaja.com/",
+		logo: "./src/assets/images/event-sponsors/fundacion-unicaja.png",
+	},
 };

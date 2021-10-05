@@ -18,3 +18,5 @@ links:
   facebook:
   instagram:
 ---
+
+En la capilla del Palacio Real de Aranjuez se pueden admirar grandes obras de pintura, escultura y arquitectura de la época de Carlos III.

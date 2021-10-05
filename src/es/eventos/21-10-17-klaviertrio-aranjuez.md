@@ -1,26 +1,26 @@
 ---
 title: "Ludwig van Beethoven: Los cuartetos para piano"
 description: Junto con el violista Konstantin Sellheim de la Filarmónica de Múnich, el Trío de Piano de Hannover presenta los cuartetos para piano de Ludwig van Beethoven.
-translationKey: klaviertiopamplona
-customSlug: beethoven-cuartetos-para-piano-pamplona
+translationKey: klaviertioaranjuez
+customSlug: beethoven-klavierquartette-aranjuez
 artist: [klaviertriohannover, konstantinsellheim]
-venue: [catedraldepamplona]
-location: Catedral de Pamplona
-city: Pamplona
+venue: [palacioaranjuez]
+location: Capilla del Palacio Real de Aranjuez
+city: Aranjuez
 partners:
-  - sociedadhispanoalemana
-type: Concierto
+  - patrimonio
+type: Konzert
 access:
-date: 2021-10-16 18:00:00
-opening: 2021-10-16 17:30:00
-ending: 2021-10-16 19:00:00
-deadline: 2021-10-15 16:00:00
+date: 2021-10-17 13:00:00
+opening: 2021-10-17 12:30:00
+ending: 2021-10-17 14:00:00
+deadline: 2021-10-10 16:00:00
 calcDuration: 1
 seo:
-  image: venues/pamplona-catedral.jpg
+  image: venues/palacio-aranjuez.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/pamplona-catedral.jpg
-  alt: Catedral de Pamplona
+  featured: ./src/assets/images/venues/palacio-aranjuez.jpg
+  alt: Capilla del Palacio Real de Aranjuez
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 ---
 

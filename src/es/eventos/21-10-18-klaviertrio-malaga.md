@@ -1,26 +1,27 @@
 ---
 title: "Ludwig van Beethoven: Los cuartetos para piano"
 description: Junto con el violista Konstantin Sellheim de la Filarmónica de Múnich, el Trío de Piano de Hannover presenta los cuartetos para piano de Ludwig van Beethoven.
-translationKey: klaviertiopamplona
-customSlug: beethoven-cuartetos-para-piano-pamplona
+translationKey: klaviertiomalaga
+customSlug: beethoven-klavierquartette-malaga
 artist: [klaviertriohannover, konstantinsellheim]
-venue: [catedraldepamplona]
-location: Catedral de Pamplona
-city: Pamplona
+venue: [mariacristinamalaga]
+location: Sala María Cristina
+city: Málaga
 partners:
-  - sociedadhispanoalemana
+  - konsulatmalaga
+  - fundacionunicaja
 type: Concierto
 access:
-date: 2021-10-16 18:00:00
-opening: 2021-10-16 17:30:00
-ending: 2021-10-16 19:00:00
-deadline: 2021-10-15 16:00:00
+date: 2021-10-18 19:00:00
+opening: 2021-10-18 18:30:00
+ending: 2021-10-18 20:00:00
+deadline: 2021-10-17 16:00:00
 calcDuration: 1
 seo:
-  image: venues/pamplona-catedral.jpg
+  image: venues/mariacristina-malaga.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/pamplona-catedral.jpg
-  alt: Catedral de Pamplona
+  featured: ./src/assets/images/venues/mariacristina-malaga.jpg
+  alt: Sala María Cristina
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 ---
 
