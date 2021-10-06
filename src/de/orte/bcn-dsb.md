@@ -7,9 +7,9 @@ city: Barcelona
 seo: # image relative to /assets/images/
   title: Colegio Alemán de Barcelona
   description:
-  image: /venues/dsbarcelona.jpeg
+  image: /venues/dsbarcelona.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/dsbarcelona.jpeg
+  featured: ./src/assets/images/venues/dsbarcelona.jpg
   alt: Colegio Alemán de Barcelona
   credit:
 links:

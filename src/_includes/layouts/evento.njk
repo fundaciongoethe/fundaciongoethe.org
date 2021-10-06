@@ -65,7 +65,13 @@ locale], artist) %}
       {% endif %}
 
       <h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
+      <!-- wenn eventtype -->
+      {% if type %}
+      <h2 class="uppercase text-sm font-bold text-yellow-700">{{ type }}</h2>
 
+      {% endif %}
+
+      <!-- wenn infobox und zukunft -->
       {% if infobox and calendarLinks.isFutureEvent %} {%- include
       "components/infobox.njk" %} {% endif %}
 
@@ -99,14 +105,14 @@ locale], artist) %}
         <dl
           class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase"
         >
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+          <!-- <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.type }}
             </dt>
             <dd class="text-gray-50 col-span-3">{{ type }}</dd>
-          </div>
-          <div class="py-4 grid grid-cols-5 sm:gap-4 upprcase">
-            <dt class="font-bold text-gray-400 col-span-2">
+          </div> -->
+          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.date }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -121,8 +127,8 @@ locale], artist) %}
           <!-- wenn opening time -->
           {% if opening %}
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs truncate">
               {{ meta[locale].event.entry }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -135,8 +141,8 @@ locale], artist) %}
 
           {% else %}
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.start }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -146,8 +152,8 @@ locale], artist) %}
 
           {% endif %}
           <!-- wenn opening time ende -->
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.ending }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -156,8 +162,8 @@ locale], artist) %}
           </div>
           {% endif %}
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.artist }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -167,20 +173,20 @@ locale], artist) %}
             </dd>
           </div>
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.venue }}
             </dt>
             <dd class="text-gray-50 col-span-3">
               {% for venue in venueItems %}
               {{ venue.data.title }}
-              {% endfor %}
+              {% endfor %} - {{ city }}
             </dd>
           </div>
 
           {% if deadline and calendarLinks.isFutureEvent %}
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 text-xs truncate">
               {{ meta[locale].event.deadline }}
             </dt>
             <dd class="text-gray-50 col-span-3">

@@ -1,16 +1,16 @@
 ---
-title: "Klaviertrio Hannover"
+title: "Trío de Piano"
 translationKey: "klaviertriohannover"
-customSlug: "klaviertrio-hannover"
-excerpt: Das Klaviertrio Hannover besteht aus drei Musikern, die mit ihrem mitreißenden und fesselnden Spiel und abwechslungsreich gestalteten Programmen Presse und Publikum auf Konzertpodien im In- und Ausland begeistern.
-occupation: "Viola"
+customSlug: "trio-de-piano--hannover"
+excerpt: El Trío de Piano de Hannover está formado por tres músicos que deleitan a la prensa y al público con su interpretación entusiasta y cautivadora y sus variados programas.
+occupation: "Trío de Piano"
 seo:
   title: Klaviertrio Hannover
-  description: Das Klaviertrio Hannover besteht aus drei Musikern, die mit ihrem mitreißenden und fesselnden Spiel und abwechslungsreich gestalteten Programmen Presse und Publikum auf Konzertpodien im In- und Ausland begeistern.
+  description: El Trío de Piano de Hannover está formado por tres músicos que deleitan a la prensa y al público con su interpretación entusiasta y cautivadora y sus variados programas.
   image: artists/klaviertrio-hannover.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/klaviertrio-hannover.jpg
-  alt: Klaviertrio Hannover
+  alt: Trío de Piano Hannover
   credit:
 links:
   web: https://www.klaviertrio-hannover.de
@@ -21,10 +21,10 @@ links:
   youtube:
 ---
 
-Das Klaviertrios gestaltet bevorzugt Programme zu besonderen Anlässen.
-Zum 250. Geburtstag Ludwig van Beethovens steht nun ein größeres Projekt auf dem Programm: Ludwig van Beethoven . Die Klavierquartette.
+El Trío de Piano se dedica a crear programas para ocasiones especiales.
+Con motivo del 250 aniversario de Ludwig van Beethoven, se ha programado un proyecto más amplio: Ludwig van Beethoven . Los cuartetos para piano.
 
-So heißt auch die CD, die das Klaviertrio Hannover zusammen mit dem Bratschisten Konstantin Sellheim (Münchner Philharmoniker) beim Label Genuin classics in Coproduktion mit dem SWR aufgenommen hat.
+Este es también el nombre del CD que el Piano Trio Hannover grabó junto con el violista Konstantin Sellheim (Filarmónica de Múnich) en el sello Genuin classics en coproducción con la SWR (Südwestrundfunk, que en español significa Radiodifusión del Suroeste).
 
 ## Lucja Madziar - violín
 

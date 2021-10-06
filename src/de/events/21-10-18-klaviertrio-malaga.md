@@ -1,6 +1,6 @@
 ---
 title: "Ludwig van Beethoven: Die Klavierquartette"
-description: Das Klaviertrio Hannover präsentiert gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchener Philharmonikern die  Klavierquartette von Ludwig van Beethoven.
+description: Das Klaviertrio Hannover präsentiert gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchner Philharmonikern die  Klavierquartette von Ludwig van Beethoven.
 translationKey: klaviertiomalaga
 customSlug: beethoven-klavierquartette-malaga
 artist: [klaviertriohannover, konstantinsellheim]
@@ -27,4 +27,6 @@ infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Pl
 
 Deutschland feiert mit der ganzen Welt den 250. Geburtstag von Ludwig van Beethoven. Ludwig van Beethoven gilt als der meistgespielte klassische Komponist, der sich immer wieder neu erfunden hat, die Grenzen der Musik erweiterte und die Gesellschaft infrage stellte.
 
-Das Klaviertrio Hannover ist für eine Konzertreise in Spanien eingeladen. Gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchener Philharmonikern präsentieren sie die wunderbaren Klavierquartette von Ludwig van Beethoven.
+Das Klaviertrio Hannover ist für eine Konzertreise in Spanien eingeladen. Gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchner Philharmonikern präsentieren sie die wunderbaren Klavierquartette von Ludwig van Beethoven.
+
+{% youtube 'a-YvL3bFBgU', 'KLAVIERTRIO HANNOVER+K SELLHEIM Ludwig van Beethoven Die Klavierquartette' %}

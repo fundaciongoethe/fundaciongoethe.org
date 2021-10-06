@@ -2,11 +2,11 @@
 title: "Klaviertrio Hannover"
 translationKey: "klaviertriohannover"
 customSlug: "klaviertrio-hannover"
-excerpt: Das Klaviertrio Hannover besteht aus drei Musikern, die mit ihrem mitreißenden und fesselnden Spiel und abwechslungsreich gestalteten Programmen Presse und Publikum auf Konzertpodien im In- und Ausland begeistern.
-occupation: "Viola"
+excerpt: Das Klaviertrio Hannover besteht aus drei Musikern, die mit ihrem mitreißenden und fesselnden Spiel und abwechslungsreichen Programmen Presse und Publikum abegeistern.
+occupation: "Klaviertrio"
 seo:
   title: Klaviertrio Hannover
-  description: Das Klaviertrio Hannover besteht aus drei Musikern, die mit ihrem mitreißenden und fesselnden Spiel und abwechslungsreich gestalteten Programmen Presse und Publikum auf Konzertpodien im In- und Ausland begeistern.
+  description: Das Klaviertrio Hannover besteht aus drei Musikern, die mit ihrem mitreißenden und fesselnden Spiel und abwechslungsreichen Programmen Presse und Publikum begeistern.
   image: artists/klaviertrio-hannover.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/klaviertrio-hannover.jpg

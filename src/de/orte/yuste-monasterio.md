@@ -7,9 +7,9 @@ city: Cuacos de Yuste
 seo: # image relative to /assets/images/
   title: Monasterio de Yuste
   description:
-  image: /venues/monasterio-yuste.jpeg
+  image: /venues/monasterio-yuste.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/monasterio-yuste.jpeg
+  featured: ./src/assets/images/venues/monasterio-yuste.jpg
   alt: Monasterio de Yuste
   credit: PMRMaeyaert, CC BY-SA 4.0, via Wikimedia Commons
 links:

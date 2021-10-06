@@ -120,7 +120,7 @@ module.exports = {
 			"In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene Veranstaltungen und machen auf besondere Events aufmerksam.",
 		seoArtist: "Künstlerarchiv der Fundación Goethe",
 		event: {
-			artist: "Künstler/in",
+			artist: "Künstler*in",
 			venue: "Ort",
 			readmore: "Mehr über",
 			type: "Art des Events",

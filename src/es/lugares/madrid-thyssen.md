@@ -7,9 +7,9 @@ city: Madrid
 seo: # image relative to /assets/images/
   title: Museo Nacional Thyssen-Bornemisza
   description: El Museo Nacional Thyssen-Bornemisza alberga una de las colecciones de pintura más importantes que era propiedad de la familia Thyssen-Bornemisza.
-  image: /venues/thyssen.jpg
+  image: /venues/museo-thyssen.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/thyssen.jpg
+  featured: ./src/assets/images/venues/museo-thyssen.jpg
   alt: Museo Nacional Thyssen-Bornemisza
 links:
   web: https://www.museothyssen.org
