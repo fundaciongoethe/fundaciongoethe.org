@@ -1,12 +1,12 @@
 ---
-title: "Trío de Piano"
+title: "Trío de Piano Hannover"
 translationKey: "klaviertriohannover"
-customSlug: "trio-de-piano--hannover"
-excerpt: El Trío de Piano de Hannover está formado por tres músicos que deleitan a la prensa y al público con su interpretación entusiasta y cautivadora y sus variados programas.
+customSlug: "trio-de-piano-hannover"
+excerpt: El Trío de Piano Hannover está formado por tres músicos que deleitan a la prensa y al público con su interpretación entusiasta y cautivadora y sus variados programas.
 occupation: "Trío de Piano"
 seo:
   title: Klaviertrio Hannover
-  description: El Trío de Piano de Hannover está formado por tres músicos que deleitan a la prensa y al público con su interpretación entusiasta y cautivadora y sus variados programas.
+  description: El Trío de Piano Hannover está formado por tres músicos que deleitan a la prensa y al público con su interpretación entusiasta y cautivadora y sus variados programas.
   image: artists/klaviertrio-hannover.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/klaviertrio-hannover.jpg

@@ -16,6 +16,7 @@ opening: 2021-10-08 17:30:00
 ending: 2021-10-08 19:00:00
 deadline: 2021-10-08 16:00:00
 calcDuration: 1
+program: 2021-programa-praeteritum.pdf
 seo:
   image: venues/hospital-sant-pau.jpg
 images: # complete path for eleventy img srcset output, alt required

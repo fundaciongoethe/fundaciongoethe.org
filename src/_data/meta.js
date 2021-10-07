@@ -72,6 +72,7 @@ module.exports = {
 			thanks: "Gracias por la colaboración",
 			visitWeb: "Visita el sitio web de",
 			deadline: "Plazo de inscripción",
+			program: "Descargar programa (PDF)",
 		},
 		contact: {
 			title: "Escríbenos usando nuestro formulario",
@@ -134,6 +135,7 @@ module.exports = {
 			thanks: "Danke für die besondere Kooperation",
 			visitWeb: "Besuche die Webseite von",
 			deadline: "Anmeldeschluss",
+			program: "Programm  herunterladen (PDF)",
 		},
 		contact: {
 			title: "Schreiben Sie uns über unser Kontaktformular.",

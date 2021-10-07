@@ -198,6 +198,21 @@ locale], artist) %}
         </dl>
       </div>
 
+      {% if program %}
+
+      <div class="text-white pt-4 text-xs">
+        <a
+          href="/assets/pdf/{{ program }}"
+          class="flex items-center hover:text-yellow-400"
+          download
+        >
+          {% svg "bookwhite", "mr-2 h-5 w-5 text-white", "libro" %}
+          {{ meta[locale].event.program }}
+        </a>
+      </div>
+
+      {% endif %}
+
       <!-- calendar links -->
       {% if calendarLinks.isFutureEvent %} {%- include
       "partials/calendarLinks.njk" %}{% endif %}
