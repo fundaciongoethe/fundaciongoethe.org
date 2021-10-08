@@ -1,27 +1,25 @@
 ---
 title: "Ludwig van Beethoven: Los cuartetos para piano"
 description: Junto con el violista Konstantin Sellheim de la Filarmónica de Múnich, el Trío de Piano de Hannover presenta los cuartetos para piano de Ludwig van Beethoven.
-translationKey: klaviertiomalaga
-customSlug: beethoven-cuartetos-para-piano-malaga
+translationKey: klaviertiovalencia
+customSlug: beethoven-cuartetos-para-piano-valencia
 artist: [klaviertriohannover, konstantinsellheim]
-venue: [mariacristinamalaga]
-location: Sala María Cristina
-city: Málaga
+venue: [conservatoriovalencia]
+location: Conservatorio Profesional de Música
+city: Valencia
 partners:
-  - konsulatmalaga
-  - fundacionunicaja
 type: Concierto
 access:
-date: 2021-10-18 19:00:00
-opening: 2021-10-18 18:30:00
-ending: 2021-10-18 20:00:00
-deadline: 2021-10-17 16:00:00
+date: 2021-10-19 19:00:00
+opening: 2021-10-19 18:30:00
+ending: 2021-10-19 20:00:00
+deadline: 2021-10-18 16:00:00
 calcDuration: 1
 seo:
-  image: venues/mariacristina-malaga.jpg
+  image: venues/valencia-conservatorio.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mariacristina-malaga.jpg
-  alt: Sala María Cristina
+  featured: ./src/assets/images/venues/valencia-conservatorio.jpg
+  alt: Conservatorio Profesional de Música
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 ---
 

@@ -8,6 +8,7 @@ venue: [catedraldepamplona]
 location: Catedral de Pamplona
 city: Pamplona
 partners:
+  - botschaftmadrid
   - sociedadhispanoalemana
 type: Concierto
 access:

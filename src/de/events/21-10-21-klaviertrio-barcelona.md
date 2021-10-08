@@ -1,27 +1,26 @@
 ---
 title: "Ludwig van Beethoven: Die Klavierquartette"
 description: Das Klaviertrio Hannover präsentiert gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchner Philharmonikern die  Klavierquartette von Ludwig van Beethoven.
-translationKey: klaviertiopamplona
-customSlug: beethoven-klavierquartette-pamplona
+translationKey: klaviertiobarcelona
+customSlug: beethoven-klavierquartette-barcelona
 artist: [klaviertriohannover, konstantinsellheim]
-venue: [catedraldepamplona]
-location: Kathedrale von Pamplona
-city: Pamplona
+venue: [universitatabat]
+location: Universität Abt Oliba CEU
+city: Barcelona
 partners:
-  - botschaftmadrid
-  - sociedadhispanoalemana
+  - universitatabat
 type: Konzert
 access:
-date: 2021-10-16 18:00:00
-opening: 2021-10-16 17:30:00
-ending: 2021-10-16 19:00:00
-deadline: 2021-10-15 16:00:00
+date: 2021-10-21 19:30:00
+opening: 2021-10-21 19:00:00
+ending: 2021-10-21 20:30:00
+deadline: 2021-10-20 16:00:00
 calcDuration: 1
 seo:
-  image: venues/pamplona-catedral.jpg
+  image: venues/bcn-universitat-abat.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/pamplona-catedral.jpg
-  alt: Kathedrale von Pamplona
+  featured: ./src/assets/images/venues/bcn-universitat-abat.jpg
+  alt: Universität Abt Oliba CEU, Luftaufnahme
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
 ---
 

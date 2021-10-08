@@ -149,6 +149,11 @@ module.exports = {
 		url: "https://sociedadhispanoalemana.com/",
 		logo: "./src/assets/images/event-sponsors/sociedad-alemana.png",
 	},
+	botschaftmadrid: {
+		name: "Deutsche Botschaft Madrid",
+		url: "https://spanien.diplo.de/es-es/vertretungen/botschaft",
+		logo: "./src/assets/images/event-sponsors/botschaft.png",
+	},
 	konsulatmalaga: {
 		name: "Konsulat der Bundesrepublik Deutschland in Málaga",
 		url: "https://spanien.diplo.de/es-de/vertretungen/generalkonsulat3",
@@ -158,5 +163,10 @@ module.exports = {
 		name: "Fundación Unicaja",
 		url: "https://www.fundacionunicaja.com/",
 		logo: "./src/assets/images/event-sponsors/fundacion-unicaja.png",
+	},
+	universitatabat: {
+		name: "Universitat Abat Oliba CEU",
+		url: "https://www.uaoceu.es/",
+		logo: "./src/assets/images/event-sponsors/universitat-abat.png",
 	},
 };

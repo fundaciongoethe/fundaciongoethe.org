@@ -1,27 +1,25 @@
 ---
 title: "Ludwig van Beethoven: Die Klavierquartette"
 description: Das Klaviertrio Hannover präsentiert gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchner Philharmonikern die  Klavierquartette von Ludwig van Beethoven.
-translationKey: klaviertiopamplona
-customSlug: beethoven-klavierquartette-pamplona
+translationKey: klaviertiovalencia
+customSlug: beethoven-klavierquartette-valencia
 artist: [klaviertriohannover, konstantinsellheim]
-venue: [catedraldepamplona]
-location: Kathedrale von Pamplona
-city: Pamplona
+venue: [conservatoriovalencia]
+location: Konservatorium Valencia
+city: Valencia
 partners:
-  - botschaftmadrid
-  - sociedadhispanoalemana
 type: Konzert
 access:
-date: 2021-10-16 18:00:00
-opening: 2021-10-16 17:30:00
-ending: 2021-10-16 19:00:00
-deadline: 2021-10-15 16:00:00
+date: 2021-10-19 19:00:00
+opening: 2021-10-19 18:30:00
+ending: 2021-10-19 20:00:00
+deadline: 2021-10-18 16:00:00
 calcDuration: 1
 seo:
-  image: venues/pamplona-catedral.jpg
+  image: venues/valencia-conservatorio.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/pamplona-catedral.jpg
-  alt: Kathedrale von Pamplona
+  featured: ./src/assets/images/venues/valencia-conservatorio.jpg
+  alt: Konservatorium Valencia
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
 ---
 
@@ -30,3 +28,5 @@ Deutschland feiert mit der ganzen Welt den 250. Geburtstag von Ludwig van Beetho
 Das Klaviertrio Hannover ist für eine Konzertreise in Spanien eingeladen. Gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchner Philharmonikern präsentieren sie die wunderbaren Klavierquartette von Ludwig van Beethoven.
 
 {% youtube 'a-YvL3bFBgU', 'KLAVIERTRIO HANNOVER+K SELLHEIM Ludwig van Beethoven Die Klavierquartette' %}
+
+universitatabat

@@ -2,7 +2,7 @@
 title: "Ludwig van Beethoven: Los cuartetos para piano"
 description: Junto con el violista Konstantin Sellheim de la Filarmónica de Múnich, el Trío de Piano de Hannover presenta los cuartetos para piano de Ludwig van Beethoven.
 translationKey: klaviertioaranjuez
-customSlug: beethoven-klavierquartette-aranjuez
+customSlug: beethoven-cuartetos-para-piano-aranjuez
 artist: [klaviertriohannover, konstantinsellheim]
 venue: [palacioaranjuez]
 location: Capilla del Palacio Real de Aranjuez
