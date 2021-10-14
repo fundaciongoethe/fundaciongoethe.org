@@ -1,6 +1,6 @@
 ---
 title: Impressum
-description: Herausgeber, Eigentümer und Verantwortlich für die Website und Informationen über die bei der Entwicklung und Produktion verwendeten Techniken.
+description: Herausgeber, Eigentümer und Verantwortlich für die Website der Fundación Goethe.
 layout: page
 permalink: "/{{ locale }}/impressum/index.html"
 translationKey: "imprint"
