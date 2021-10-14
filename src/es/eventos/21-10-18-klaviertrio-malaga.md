@@ -17,6 +17,7 @@ opening: 2021-10-18 18:30:00
 ending: 2021-10-18 20:00:00
 deadline: 2021-10-17 16:00:00
 calcDuration: 1
+program: 2021-programa-klaviertrio.pdf
 seo:
   image: venues/mariacristina-malaga.jpg
 images: # complete path for eleventy img srcset output, alt required

@@ -16,6 +16,7 @@ opening: 2021-10-17 12:30:00
 ending: 2021-10-17 14:00:00
 deadline: 2021-10-10 16:00:00
 calcDuration: 1
+program: 2021-programa-klaviertrio.pdf
 seo:
   image: venues/palacio-aranjuez.jpg
 images: # complete path for eleventy img srcset output, alt required

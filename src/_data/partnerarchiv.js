@@ -159,6 +159,11 @@ module.exports = {
 		url: "https://spanien.diplo.de/es-de/vertretungen/generalkonsulat3",
 		logo: "./src/assets/images/event-sponsors/konsulat-malaga.png",
 	},
+	konsulatbarcelona: {
+		name: "Konsulat der Bundesrepublik Deutschland in Barcelona",
+		url: "https://spanien.diplo.de/es-de/vertretungen/generalkonsulat1",
+		logo: "./src/assets/images/event-sponsors/konsulat-barcelona.png",
+	},
 	fundacionunicaja: {
 		name: "Fundación Unicaja",
 		url: "https://www.fundacionunicaja.com/",
@@ -168,5 +173,10 @@ module.exports = {
 		name: "Universitat Abat Oliba CEU",
 		url: "https://www.uaoceu.es/",
 		logo: "./src/assets/images/event-sponsors/universitat-abat.png",
+	},
+	conservatoriovalencia: {
+		name: "Conservatorio Profesional de Música de Valencia",
+		url: "https://mestreacasa.gva.es/web/cpmvalencia",
+		logo: "./src/assets/images/event-sponsors/conservatorio-valencia.png",
 	},
 };

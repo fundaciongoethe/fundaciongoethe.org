@@ -8,6 +8,8 @@ venue: [conservatoriovalencia]
 location: Conservatorio Profesional de Música
 city: Valencia
 partners:
+  - conservatoriovalencia
+  - konsulatbarcelona
 type: Concierto
 access:
 date: 2021-10-19 19:00:00
@@ -15,6 +17,7 @@ opening: 2021-10-19 18:30:00
 ending: 2021-10-19 20:00:00
 deadline: 2021-10-18 16:00:00
 calcDuration: 1
+program: 2021-programa-klaviertrio.pdf
 seo:
   image: venues/valencia-conservatorio.jpg
 images: # complete path for eleventy img srcset output, alt required

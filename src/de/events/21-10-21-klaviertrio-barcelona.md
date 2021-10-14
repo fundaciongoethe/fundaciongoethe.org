@@ -9,6 +9,7 @@ location: Universität Abt Oliba CEU
 city: Barcelona
 partners:
   - universitatabat
+  - konsulatbarcelona
 type: Konzert
 access:
 date: 2021-10-21 19:30:00
@@ -16,6 +17,7 @@ opening: 2021-10-21 19:00:00
 ending: 2021-10-21 20:30:00
 deadline: 2021-10-20 16:00:00
 calcDuration: 1
+program: 2021-programa-klaviertrio.pdf
 seo:
   image: venues/bcn-universitat-abat.jpg
 images: # complete path for eleventy img srcset output, alt required

@@ -17,6 +17,7 @@ opening: 2021-10-16 17:30:00
 ending: 2021-10-16 19:00:00
 deadline: 2021-10-15 16:00:00
 calcDuration: 1
+program: 2021-programa-klaviertrio.pdf
 seo:
   image: venues/pamplona-catedral.jpg
 images: # complete path for eleventy img srcset output, alt required
