@@ -73,6 +73,7 @@ module.exports = {
 			visitWeb: "Visita el sitio web de",
 			deadline: "Plazo de inscripción",
 			program: "Descargar programa (PDF)",
+			register: "Inscríbete para participar",
 		},
 		contact: {
 			title: "Escríbenos usando nuestro formulario",
@@ -136,6 +137,7 @@ module.exports = {
 			visitWeb: "Besuche die Webseite von",
 			deadline: "Anmeldeschluss",
 			program: "Programm  herunterladen (PDF)",
+			register: "Direkt anmelden",
 		},
 		contact: {
 			title: "Schreiben Sie uns über unser Kontaktformular.",
