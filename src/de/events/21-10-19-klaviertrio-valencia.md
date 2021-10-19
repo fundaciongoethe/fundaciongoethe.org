@@ -11,7 +11,7 @@ partners:
   - conservatoriovalencia
   - konsulatbarcelona
 type: Konzert
-access:
+access: Direktanmeldung
 date: 2021-10-19 19:00:00
 opening: 2021-10-19 18:30:00
 ending: 2021-10-19 20:00:00
@@ -23,7 +23,8 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-conservatorio.jpg
   alt: Konservatorium Valencia
-infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
+infobox: Entrada libre hasta completar aforo permitido. La inscripción directa es posible a través del siguiente enlace.
+directregister: "https://beethoven-klavierquartette-valencia.eventbrite.es"
 ---
 
 Deutschland feiert mit der ganzen Welt den 250. Geburtstag von Ludwig van Beethoven. Ludwig van Beethoven gilt als der meistgespielte klassische Komponist, der sich immer wieder neu erfunden hat, die Grenzen der Musik erweiterte und die Gesellschaft infrage stellte.

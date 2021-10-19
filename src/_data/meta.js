@@ -74,6 +74,7 @@ module.exports = {
 			deadline: "Plazo de inscripción",
 			program: "Descargar programa (PDF)",
 			register: "Inscríbete para participar",
+			sale: "Comprar entradas",
 		},
 		contact: {
 			title: "Escríbenos usando nuestro formulario",
@@ -138,6 +139,7 @@ module.exports = {
 			deadline: "Anmeldeschluss",
 			program: "Programm  herunterladen (PDF)",
 			register: "Direkt anmelden",
+			sale: "Eintrittskarten kaufen",
 		},
 		contact: {
 			title: "Schreiben Sie uns über unser Kontaktformular.",

@@ -11,7 +11,7 @@ partners:
   - universitatabat
   - konsulatbarcelona
 type: Konzert
-access:
+access: Direktanmeldung
 date: 2021-10-21 19:30:00
 opening: 2021-10-21 19:00:00
 ending: 2021-10-21 20:30:00
@@ -23,7 +23,8 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/bcn-universitat-abat.jpg
   alt: Universität Abt Oliba CEU, Luftaufnahme
-infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
+infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Direkte Anmeldung über den folgenden Link möglich.
+directregister: "https://beethoven-klavierquartette-barcelona.eventbrite.es"
 ---
 
 Deutschland feiert mit der ganzen Welt den 250. Geburtstag von Ludwig van Beethoven. Ludwig van Beethoven gilt als der meistgespielte klassische Komponist, der sich immer wieder neu erfunden hat, die Grenzen der Musik erweiterte und die Gesellschaft infrage stellte.
