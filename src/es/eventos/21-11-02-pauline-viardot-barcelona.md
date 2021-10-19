@@ -15,6 +15,7 @@ opening: 2021-11-02 19:00:00
 ending: 2021-11-02 20:30:00
 deadline: 2021-11-02 16:00:00
 calcDuration: 1
+program: programa-ViardotPauline.pdf
 seo:
   title: Concierto en honor a Pauline Viardot-García
   image: venues/teatre-sarria.JPG
