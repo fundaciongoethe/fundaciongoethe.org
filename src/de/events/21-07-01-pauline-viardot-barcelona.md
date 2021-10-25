@@ -27,4 +27,4 @@ images: # complete path for eleventy img srcset output, alt required
 
 Im Juli 2021 jährt sich ihr Geburtstag zum zweihundertsten Mal.
 
-Larissa Wäspy, Sopran, Claus Temps, Bassbariton und Heike Bleckmann, Klavier, führen Werke sowohl von als auch für Pauline Viardot im Palacio Real de Madrid auf.
+Larissa Wäspy, Sopran, Claus Temps, Bassbariton und Heike Bleckmann, Klavier, führen Werke von Pauline Viardot auf und widmen ihr Werke anderer Künstler.

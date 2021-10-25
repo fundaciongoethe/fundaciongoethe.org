@@ -29,6 +29,6 @@ ticketsale: "https://sarria.fila12.cat/Espectacle/ShowId/13143/concierto-con-mod
 
 „Spanisches Naturell, französische Erziehung und deutsche Sympathien“ – mit diesen Worten charakterisierte Franz Liszt seine ehemalige Klavierschülerin. Weiter schrieb er: „Sie vereinigt die Eigenheiten verschiedener Nationalitäten derartig in sich, dass man keinem bestimmten Boden einen ausschließlichen Anspruch an sie zugestehen, sondern die Kunst das Vaterland ihrer freien Wahl und Liebe nennen möchte…“
 
-Im Juli 2021 jährt sich ihr Geburtstag zum zweihundertsten Mal.
+2021 jährt sich ihr Geburtstag zum zweihundertsten Mal.
 
-Larissa Wäspy, Sopran, Claus Temps, Bassbariton und Heike Bleckmann, Klavier, führen Werke sowohl von als auch für Pauline Viardot im Palacio Real de Madrid auf.
+Larissa Wäspy, Sopran, Claus Temps, Bassbariton und Heike Bleckmann, Klavier, führen Werke von Pauline Viardot auf und widmen ihr Werke anderer Künstler.

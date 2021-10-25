@@ -30,4 +30,4 @@ ticketsale: "https://sarria.fila12.cat/Espectacle/ShowId/13143/concierto-con-mod
 
 En julio de 2021 se celebra el bicentenario del nacimiento de Pauline Viardot-García.
 
-Larissa Wäspy, soprano, Claus Temps, bajo barítono y Heike Bleckmann, piano, homenajean a esta gran compositora en el Palacio Real de Madrid.
+Larissa Wäspy, soprano, Claus Temps, bajo barítono y Heike Bleckmann, piano, homenajean a esta gran compositora.

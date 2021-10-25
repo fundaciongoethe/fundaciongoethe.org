@@ -1,7 +1,7 @@
 ---
 title: "Universität Abt Oliba CEU"
 translationKey: "universitatabat"
-customSlug: "Universitaet-abt-oliba-barcelona"
+customSlug: "universitaet-abt-oliba-barcelona"
 excerpt: "Die Universität Abt Oliba CEU (auf Katalanisch und offiziell: Universitat Abat Oliba CEU) ist eine Privatuniversität in Barcelona. Die Universität trägt den Namen von Abt Oliba de Besalú. "
 city: Barcelona
 seo: # image relative to /assets/images/

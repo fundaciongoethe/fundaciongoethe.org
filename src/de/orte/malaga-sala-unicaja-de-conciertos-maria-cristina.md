@@ -9,7 +9,7 @@ seo: # image relative to /assets/images/
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mariacristina-malaga.jpg
   alt: Sala María Cristina
-  credit: Tyk, CC BY-SA 3.0, via Wikimedia Commons
+  credit:
 links:
   web: https://www.fundacionunicaja.com/cultura/nuestros-centros/sala-unicaja-de-conciertos-maria-cristina
 ---

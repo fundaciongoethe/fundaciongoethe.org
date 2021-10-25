@@ -39,15 +39,15 @@ module.exports = {
 				},
 				{
 					text: "Patronato",
-					url: "/es/sobre-nosotros#patronato",
+					url: "/es/sobre-nosotros/#patronato",
 				},
 				{
 					text: "Patrocinadores",
-					url: "/es/sobre-nosotros#sponsors",
+					url: "/es/sobre-nosotros/#sponsors",
 				},
 				{
 					text: "Partners",
-					url: "/es/sobre-nosotros#partners",
+					url: "/es/sobre-nosotros/#partners",
 				},
 			],
 			row2: [
