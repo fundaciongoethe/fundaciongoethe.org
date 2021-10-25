@@ -5,9 +5,9 @@ customSlug: "centro-del-carme"
 excerpt: El Centro del Carmen de Cultura Contemporánea es un centro cultural y de exposiciones que ocupa un antiguo convento del siglo XIII con un campanario y un claustro gótico.
 city: Valencia
 seo: # image relative to /assets/images/
-  image: /venues/cccc.jpg
+  image: /venues/cccc.JPG
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/cccc.jpg
+  featured: ./src/assets/images/venues/cccc.JPG
   alt: Fachada Iglesia desde la Plaza del Carmen.
   credit: Un valencià, Public domain, via Wikimedia Commons
 links:
