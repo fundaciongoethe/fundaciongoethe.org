@@ -3,11 +3,12 @@ title: Concierto en honor a Pauline Viardot-García
 description: Larissa Wäspy, Claus Temps y Heike Bleckmann interpretan obras de Pauline Viardot-García en el Centre i Teatre de Sarrià, Barcelona
 translationKey: viardot-barcelona
 customSlug: pauline-viardot-garcia-barcelona-sarria
-artist: [larissawaspy, claustemps, heikebleckmann]
+artist: [larissawaspy, claustemps, heikebleckmann, ramonnausia]
 venue: [teatresarria]
 location: Centre i Teatre de Sarrià, Barcelona
 city: Barcelona
 partners:
+  - teatresarria
 type: Concierto
 access: Venta de entradas
 date: 2021-11-02 19:30:00

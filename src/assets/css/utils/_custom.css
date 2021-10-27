@@ -161,6 +161,10 @@ h2 {
 	@apply text-orange-500;
 }
 
+.prose blockquote {
+	@apply border-red-600;
+}
+
 .prose img {
 	@apply my-0;
 }

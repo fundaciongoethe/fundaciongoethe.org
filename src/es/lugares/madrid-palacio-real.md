@@ -1,5 +1,5 @@
 ---
-title: "Palacio Real Madrid"
+title: "Palacio Real"
 translationKey: "palacioreal"
 customSlug: "palacio-real-madrid"
 excerpt: Del Palacio Real de Madrid es el más grande de Europa Occidental y uno de los mayores del mundo. Con más de 135.000 metros cuadrados y 3.418 habitaciones, es testigo de siglos de historia de España. Es una de las pocas residencias oficiales de jefes de Estado abiertas al público.

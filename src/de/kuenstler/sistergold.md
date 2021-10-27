@@ -1,6 +1,6 @@
 ---
 title: "Sistergold"
-translationKey: "Sistergold"
+translationKey: "sistergold"
 customSlug: "sistergold"
 excerpt: Ladypower und Entertainment - sistergold bieten musikalische Perfektion und kreatives Gespür für ein grandioses Songprogramm.
 occupation: "Saxophonquartett"

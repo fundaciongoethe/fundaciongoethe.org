@@ -1,30 +1,29 @@
 ---
 title: "El Cuarteto Mandelring interpreta obras de grandes compositoras"
 description: El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpreta obras de las grandes compositoras Rebecca Clarke, Fanny Hensel y Amy Beach.
-translationKey: mandelringbcn2021
-customSlug: mandelring-quartett-barcelona-2021
+translationKey: mandelringmad2021
+customSlug: mandelring-quartett-madrid-2021
 artist: [mandelringquartett]
-venue: [universitatabat]
-location: Universitat Abat Oliba CEU
-city: Barcelona
+venue: [palacioreal]
+location: Salón de Columnas, Palacio Real de Madrid
+city: Madrid
 partners:
-  - universitatabat
-  - konsulatbarcelona
+  - patrimonio
 type: Concierto
-access:
-date: 2021-11-16 19:30:00
-opening: 2021-11-16 19:00:00
-ending: 2021-11-16 20:30:00
+access: Se requiere una invitación personal
+date: 2021-11-18 19:30:00
+opening: 2021-11-18 19:00:00
+ending: 2021-11-18 20:30:00
 deadline:
 calcDuration: 1
 program: 2021-programa-mandelring.pdf
 seo:
-  title: El Cuarteto Mandelring en la Universitat Abat Oliba CEU
-  image: venues/bcn-universitat-abat.jpg
+  title: El Cuarteto Mandelring en el Palacio Real de Madrid
+  image: venues/palacio-real-madrid.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/bcn-universitat-abat.jpg
-  alt: Universitat Abat Oliba CEU, desde el aire
-infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
+  featured: ./src/assets/images/venues/palacio-real-madrid.jpg
+  alt: Palacio Real de Madrid
+infobox: Evento privado, sólo por invitación personal. Los participantes inscritos también recibirán una invitación por correo de la Casa Real.
 directregister:
 ---
 

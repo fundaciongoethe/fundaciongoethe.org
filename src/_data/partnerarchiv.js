@@ -179,4 +179,9 @@ module.exports = {
 		url: "https://mestreacasa.gva.es/web/cpmvalencia",
 		logo: "./src/assets/images/event-sponsors/conservatorio-valencia.png",
 	},
+	teatresarria: {
+		name: "Centre Cultural de Sarrià",
+		url: "https://www.teatredesarria.cat/",
+		logo: "./src/assets/images/event-sponsors/sarria.png",
+	},
 };

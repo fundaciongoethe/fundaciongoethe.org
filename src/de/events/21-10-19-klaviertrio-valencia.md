@@ -23,7 +23,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-conservatorio.jpg
   alt: Konservatorium Valencia
-infobox: Entrada libre hasta completar aforo permitido. La inscripción directa es posible a través del siguiente enlace.
+infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Direkte Anmeldung über den folgenden Link möglich.
 directregister: "https://beethoven-klavierquartette-valencia.eventbrite.es"
 ---
 

@@ -1,29 +1,28 @@
 ---
 title: "El Cuarteto Mandelring interpreta obras de grandes compositoras"
 description: El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpreta obras de las grandes compositoras Rebecca Clarke, Fanny Hensel y Amy Beach.
-translationKey: mandelringbcn2021
-customSlug: mandelring-quartett-barcelona-2021
+translationKey: mandelringmalaga2021
+customSlug: mandelring-quartett-malaga-2021
 artist: [mandelringquartett]
-venue: [universitatabat]
-location: Universitat Abat Oliba CEU
-city: Barcelona
+venue: [jorgerando]
+location: Museo Jorge Rando, Málaga
+city: Málaga
 partners:
-  - universitatabat
-  - konsulatbarcelona
+  - jorgerando
 type: Concierto
 access:
-date: 2021-11-16 19:30:00
-opening: 2021-11-16 19:00:00
-ending: 2021-11-16 20:30:00
+date: 2021-11-17 19:00:00
+opening: 2021-11-17 18:30:00
+ending: 2021-11-17 20:00:00
 deadline:
 calcDuration: 1
 program: 2021-programa-mandelring.pdf
 seo:
-  title: El Cuarteto Mandelring en la Universitat Abat Oliba CEU
-  image: venues/bcn-universitat-abat.jpg
+  title: El Cuarteto Mandelring en el Museo Jorge Rando, Málaga
+  image: venues/rando-malaga.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/bcn-universitat-abat.jpg
-  alt: Universitat Abat Oliba CEU, desde el aire
+  featured: ./src/assets/images/venues/rando-malaga.jpg
+  alt: Museo Jorge Rando
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 directregister:
 ---

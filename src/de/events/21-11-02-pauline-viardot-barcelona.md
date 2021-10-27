@@ -3,12 +3,12 @@ title: Konzert zu Ehren von Pauline Viardot-Garcia
 description: Larissa Wäspy, Claus Temps und Heike Bleckmann spielen Werke von Pauline Viardot-García im Königspalast im Centre i Teatre de Sarrià.
 translationKey: viardot-barcelona
 customSlug: pauline-viardot-garcia-barcelona-sarria
-artist: [larissawaspy, claustemps, heikebleckmann]
+artist: [larissawaspy, claustemps, heikebleckmann, ramonnausia]
 venue: [teatresarria]
 location: Centre i Teatre de Sarrià, Barcelona
 city: Barcelona
 partners:
-  - patrimonio
+  - teatresarria
 type: Konzert
 access: Kartenverkauf
 date: 2021-11-02 19:30:00
