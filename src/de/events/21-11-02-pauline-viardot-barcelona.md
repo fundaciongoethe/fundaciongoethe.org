@@ -10,7 +10,7 @@ city: Barcelona
 partners:
   - teatresarria
 type: Konzert
-access: Kartenverkauf
+access: Direktanmeldung
 date: 2021-11-02 19:30:00
 opening: 2021-11-02 19:00:00
 ending: 2021-11-02 20:30:00
@@ -23,9 +23,11 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/teatre-sarria.JPG
   alt: Centre i Teatre de Sarrià, Barcelona
-infobox: Eintrittskarten sind zum Preis von 10,00 € erhältlich. Über untenstehenden Link können Sie Ihren Sitzplatz reservieren.
-ticketsale: "https://sarria.fila12.cat/Espectacle/ShowId/13143/concierto-con-moderacion--pauline-viardot-garcia-cantante-y-compositora"
+infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Direkte Anmeldung über den folgenden Link möglich.
+directregister: "https://pauline-viardot-garcia-2021-nov-bcn.eventbrite.es"
 ---
+
+**Wichtiger Hinweis:** Wir haben uns dazu entschieden, dieses Konzert kostenlos anzubieten. Falls Sie bereits eine Eintrittskarte gekauft haben legen Sie den Beleg bitte am Konzertabend vor. Wir erstatten Ihnen die Kosten.
 
 „Spanisches Naturell, französische Erziehung und deutsche Sympathien“ – mit diesen Worten charakterisierte Franz Liszt seine ehemalige Klavierschülerin. Weiter schrieb er: „Sie vereinigt die Eigenheiten verschiedener Nationalitäten derartig in sich, dass man keinem bestimmten Boden einen ausschließlichen Anspruch an sie zugestehen, sondern die Kunst das Vaterland ihrer freien Wahl und Liebe nennen möchte…“
 
