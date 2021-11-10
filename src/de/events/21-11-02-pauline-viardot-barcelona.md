@@ -19,9 +19,9 @@ calcDuration: 1
 program: programa-ViardotPauline.pdf
 seo:
   title: Konzert zu Ehren von Pauline Viardot-Garcia
-  image: venues/teatre-sarria.JPG
+  image: venues/teatre-sarria.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/teatre-sarria.JPG
+  featured: ./src/assets/images/venues/teatre-sarria.jpg
   alt: Centre i Teatre de Sarrià, Barcelona
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Direkte Anmeldung über den folgenden Link möglich.
 directregister: "https://pauline-viardot-garcia-2021-nov-bcn.eventbrite.es"

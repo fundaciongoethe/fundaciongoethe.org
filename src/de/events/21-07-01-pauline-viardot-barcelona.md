@@ -17,9 +17,9 @@ ending: 2021-07-01 20:30:00
 calcDuration: 1
 seo:
   title: Konzert zu Ehren von Pauline Viardot-Garcia
-  image: venues/teatre-sarria.JPG
+  image: venues/teatre-sarria.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/teatre-sarria.JPG
+  featured: ./src/assets/images/venues/teatre-sarria.jpg
   alt: Centre i Teatre de Sarrià, Barcelona
 ---
 

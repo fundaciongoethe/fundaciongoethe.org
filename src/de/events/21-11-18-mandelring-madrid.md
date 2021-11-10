@@ -1,5 +1,5 @@
 ---
-title: "Das Mandelring-Quartett interpretiert Werke großer Komponistinnen"
+title: "Das Mandelring-Quartett - Werke großer Komponistinnen"
 description: Das Mandelring-Quartett, eines der besten Streichquartette der Welt, interpretiert Werke von den großen Komponistinnen Rebecca Clarke, Fanny Hensel und Amy Beach.
 translationKey: mandelringmad2021
 customSlug: mandelring-quartett-madrid-2021
