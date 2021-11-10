@@ -8,7 +8,6 @@ venue: [encarnacion]
 location: Iglesia de la Encarnación, Bilbao
 city: Bilbao
 partners:
-  -
 type: Concierto
 access:
 date: 2021-11-30 19:00:00

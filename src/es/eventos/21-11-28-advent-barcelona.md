@@ -8,7 +8,6 @@ venue: [santpau]
 location: Sant Pau del Camp, Barcelona
 city: Barcelona
 partners:
-  -
 type: Concierto
 access:
 date: 2021-11-28 18:00:00
