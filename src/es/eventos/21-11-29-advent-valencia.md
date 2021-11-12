@@ -24,7 +24,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-sanjuan.jpg
   alt: Iglesia San Juan del Hospital
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite. Agradecemos una pequeña donación para el lugar de la celebración.
-directregister:
+directregister: https://adviento-valencia-2021.eventbrite.es
 ---
 
 Este año hemos invitado a la cantante Katharina Gruber y al pianista de jazz Sam Simons como artistas para nuestros conciertos de Adviento.

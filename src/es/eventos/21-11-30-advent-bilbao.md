@@ -1,7 +1,7 @@
 ---
 title: "Concierto de Adviento en Bilbao"
 description: En el concierto de Adviento en Bilbao, nos espera un programa de estándares y baladas de jazz navideño tan alegre como atmosférico.
-translationKey: adventmalaga2021
+translationKey: adventbilbao2021
 customSlug: concierto-adviento-bilbao-2021
 artist: [katharinagruber, samsimons]
 venue: [encarnacion]
@@ -23,7 +23,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/iglesia-encarnacion.jpg
   alt: Iglesia de la Encarnación
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite. Agradecemos una pequeña donación para el lugar de la celebración.
-directregister:
+directregister: https://adviento-bilbao-2021.eventbrite.es
 ---
 
 Este año hemos invitado a la cantante Katharina Gruber y al pianista de jazz Sam Simons como artistas para nuestros conciertos de Adviento.

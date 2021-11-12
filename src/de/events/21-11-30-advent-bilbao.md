@@ -1,7 +1,7 @@
 ---
 title: "Adventskonzert in Bilbao"
 description: Beim Adventskonzert in Bilbao erwartet uns ein gleichermaßen fröhlich-beschwingtes wie stimmungsvolles Programm aus Standards und Balladen des Weihnachts-Jazz.
-translationKey: adventmalaga2021
+translationKey: adventbilbao2021
 customSlug: adventskonzert-bilbao-2021
 artist: [katharinagruber, samsimons]
 venue: [encarnacion]
@@ -23,7 +23,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/iglesia-encarnacion.jpg
   alt: Iglesia de la Encarnación
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite. Wir freuen uns über eine kleine Spende für den Veranstaltungsort.
-directregister:
+directregister: https://adviento-bilbao-2021.eventbrite.es
 ---
 
 Dieses Jahr haben wir mit der Sängerin Katharina Gruber und dem Jazzpianisten Sam Simons zwei talentierte Nachwuchsmusiker aus München eingeladen, auf unseren Adventskonzerten die Vorfreude auf das schönste Fest im Jahr zu wecken.

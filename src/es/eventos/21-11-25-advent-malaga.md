@@ -24,7 +24,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mal-merced.jpg
   alt: Convento de la Merced
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite. Agradecemos una pequeña donación para el lugar de la celebración.
-directregister:
+directregister: https://adviento-malaga-2021.eventbrite.es
 ---
 
 Este año hemos invitado a la cantante Katharina Gruber y al pianista de jazz Sam Simons como artistas para nuestros conciertos de Adviento.
