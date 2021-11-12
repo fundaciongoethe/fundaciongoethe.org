@@ -4,25 +4,25 @@ description: En el concierto de Adviento en Málaga, nos espera un programa de e
 translationKey: adventmalaga2021
 customSlug: concierto-adviento-malaga-2021
 artist: [katharinagruber, samsimons]
-venue: [jorgerando]
-location: Museo Jorge Rando, Málaga
+venue: [conventomerced]
+location: Convento de la Merced, Málaga
 city: Málaga
 partners:
   - jorgerando
 type: Concierto
 access:
-date: 2021-11-26 19:00:00
-opening: 2021-11-26 18:30:00
-ending: 2021-11-26 20:30:00
+date: 2021-11-25 19:00:00
+opening: 2021-11-25 18:30:00
+ending: 2021-11-25 20:30:00
 deadline:
 calcDuration: 1.5
 program:
 seo:
   title: Concierto de Adviento en Málaga
-  image: venues/rando-malaga.jpg
+  image: venues/mal-merced.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/rando-malaga.jpg
-  alt: Museo Jorge Rando
+  featured: ./src/assets/images/venues/mal-merced.jpg
+  alt: Convento de la Merced
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite. Agradecemos una pequeña donación para el lugar de la celebración.
 directregister:
 ---
