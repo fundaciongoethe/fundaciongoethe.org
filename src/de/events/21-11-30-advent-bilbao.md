@@ -9,7 +9,7 @@ location: Iglesia de la Encarnación, Bilbao
 city: Bilbao
 partners:
 type: Konzert
-access:
+access: Direktanmeldung
 date: 2021-11-30 19:00:00
 opening: 2021-11-30 18:30:00
 ending: 2021-11-30 20:30:00

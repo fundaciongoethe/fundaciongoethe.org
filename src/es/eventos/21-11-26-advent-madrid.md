@@ -9,7 +9,7 @@ location: Hispanoamericana de Nuestra Señora de la Merced, Madrid
 city: Madrid
 partners:
 type: Concierto
-access:
+access: Inscripción directa
 date: 2021-11-26 19:00:00
 opening: 2021-11-26 18:30:00
 ending: 2021-11-26 20:30:00

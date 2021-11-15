@@ -10,7 +10,7 @@ city: Valencia
 partners:
   - sanjuan
 type: Konzert
-access:
+access: Direktanmeldung
 date: 2021-11-29 20:00:00
 opening: 2021-11-29 19:30:00
 ending: 2021-11-29 21:30:00

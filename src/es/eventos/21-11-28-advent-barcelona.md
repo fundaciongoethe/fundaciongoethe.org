@@ -9,7 +9,7 @@ location: Sant Pau del Camp, Barcelona
 city: Barcelona
 partners:
 type: Concierto
-access:
+access: Inscripción directa
 date: 2021-11-28 18:00:00
 opening: 2021-11-28 17:30:00
 ending: 2021-11-28 19:30:00
