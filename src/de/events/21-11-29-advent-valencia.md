@@ -16,7 +16,7 @@ opening: 2021-11-29 19:30:00
 ending: 2021-11-29 21:30:00
 deadline:
 calcDuration: 1.5
-program:
+program: 2021-programa-adviento.pdf
 seo:
   title: Concierto de Adviento en Valencia
   image: venues/valencia-sanjuan.jpg

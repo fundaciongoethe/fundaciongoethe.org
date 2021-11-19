@@ -4,26 +4,26 @@ description: Beim Adventskonzert in Barcelona erwartet uns ein gleichermaßen fr
 translationKey: adventbcn2021
 customSlug: adventskonzert-barcelona-2021
 artist: [katharinagruber, samsimons]
-venue: [santpau]
-location: Sant Pau del Camp, Barcelona
+venue: [bcnanfiteatro]
+location: Anfiteatro Anatómico en la Real Academia Medicina Cataluña, Barcelona
 city: Barcelona
 partners:
 type: Konzert
 access: Direktanmeldung
-date: 2021-11-28 18:00:00
-opening: 2021-11-28 17:30:00
-ending: 2021-11-28 19:30:00
+date: 2021-11-28 20:00:00
+opening: 2021-11-28 19:30:00
+ending: 2021-11-28 21:30:00
 deadline:
 calcDuration: 1.5
-program:
+program: 2021-programa-adviento.pdf
 seo:
   title: Concierto de Adviento en Barcelona
-  image: venues/sant-pau-camp.jpg
+  image: venues/bcn-anfiteatro-anatomico.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/sant-pau-camp.jpg
-  alt: Sant Pau del Camp
+  featured: ./src/assets/images/venues/bcn-anfiteatro-anatomico.jpg
+  alt: Anfiteatro Anatómico en la Real Academia Medicina Cataluña
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite. Wir freuen uns über eine kleine Spende für den Veranstaltungsort.
-directregister: https://adviento-barcelona-2021.eventbrite.es
+directregister: https://adviento-barcelona-2021-2funcion.eventbrite.es
 ---
 
 Dieses Jahr haben wir mit der Sängerin Katharina Gruber und dem Jazzpianisten Sam Simons zwei talentierte Nachwuchsmusiker aus München eingeladen, auf unseren Adventskonzerten die Vorfreude auf das schönste Fest im Jahr zu wecken.

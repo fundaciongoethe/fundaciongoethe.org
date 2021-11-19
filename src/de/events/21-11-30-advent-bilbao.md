@@ -15,7 +15,7 @@ opening: 2021-11-30 18:30:00
 ending: 2021-11-30 20:30:00
 deadline:
 calcDuration: 1.5
-program:
+program: 2021-programa-adviento.pdf
 seo:
   title: Concierto de Adviento en Bilbao
   image: venues/iglesia-encarnacion.jpg

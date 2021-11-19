@@ -16,7 +16,7 @@ opening: 2021-11-25 18:30:00
 ending: 2021-11-25 20:30:00
 deadline:
 calcDuration: 1.5
-program:
+program: 2021-programa-adviento.pdf
 seo:
   title: Adventskonzert in Málaga
   image: venues/mal-merced.jpg

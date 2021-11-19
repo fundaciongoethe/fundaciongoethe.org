@@ -15,7 +15,7 @@ opening: 2021-11-26 18:30:00
 ending: 2021-11-26 20:30:00
 deadline:
 calcDuration: 1.5
-program:
+program: 2021-programa-adviento.pdf
 seo:
   title: Concierto de Adviento en Madrid
   image: venues/mad-basilica-hispanoamericana.jpg
