@@ -10,7 +10,7 @@ city: Málaga
 partners:
   - jorgerando
 type: Concierto
-access:
+access: Entradas agotadas
 date: 2021-11-25 19:00:00
 opening: 2021-11-25 18:30:00
 ending: 2021-11-25 20:30:00
