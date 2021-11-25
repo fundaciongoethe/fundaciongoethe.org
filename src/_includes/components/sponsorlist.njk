@@ -32,17 +32,9 @@
           hover:opacity-100
         "
       >
-        {#
-        <img
-          src="/assets/images/{{ sponsor.data.images.logo }}"
-          alt="Logo von {{ sponsor.data.title }}"
-          class="lazy max-h-12"
-        />
-        #}
-
-        <!-- picture shortcode -->
-        {% Picture sponsor.data.images.logo,"bg-transparent", "object-cover
-        filter", sponsor.data.title, "lazy" %}
+        <!-- picture shortcode gr -->
+        {% Picture sponsor.data.images.logo, "bg-transparent", "object-cover
+        filter", sponsor.data.title, "eager", "(min-width: 30em) 20vw, 30vw" %}
       </a>
     </figure>
 

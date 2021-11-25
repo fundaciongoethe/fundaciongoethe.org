@@ -9,6 +9,7 @@ location: Iglesia San Juan del Hospital, Valencia
 city: Valencia
 partners:
   - sanjuan
+  - lidl
 type: Concierto
 access: Inscripción directa
 date: 2021-11-29 20:00:00

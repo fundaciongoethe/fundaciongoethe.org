@@ -9,6 +9,7 @@ location: Convento de la Merced, Málaga
 city: Málaga
 partners:
   - jorgerando
+  - lidl
 type: Concierto
 access: Entradas agotadas
 date: 2021-11-25 19:00:00

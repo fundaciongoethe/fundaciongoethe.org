@@ -27,11 +27,13 @@
               <!-- if featured image -->
               {% if post.data.images.featured %} {% Picture
               post.data.images.featured,"bg-gray-100", " object-cover grayimg
-              w-full h-40", post.data.images.alt or post.data.title, "lazy" %}
+              w-full h-40", post.data.images.alt or post.data.title, "lazy",
+              "(min-width: 769px) 50vw, (min-width: 1025px) 30vw, 100vw" %}
               <!-- else fallback -->
               {% else %} {% Picture
               "./src/assets/images/blog/blog-fallback.jpg","bg-gray-100", "
-              object-cover grayimg w-full h-40", "Blog Fundación Goethe", "lazy"
+              object-cover grayimg w-full h-40", "Blog Fundación Goethe",
+              "lazy", "(min-width: 769px) 50vw, (min-width: 1025px) 30vw, 100vw"
               %} {% endif %}
 
               <div

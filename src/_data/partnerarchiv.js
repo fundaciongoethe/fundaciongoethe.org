@@ -199,4 +199,9 @@ module.exports = {
 		url: "https://www.teatredesarria.cat/",
 		logo: "./src/assets/images/event-sponsors/sarria.png",
 	},
+	lidl: {
+		name: "Lidl España",
+		url: "https://www.lidl.es/",
+		logo: "./src/assets/images/sponsors/lidl/lidl-logo.png",
+	},
 };

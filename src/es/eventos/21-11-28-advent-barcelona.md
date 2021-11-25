@@ -8,6 +8,7 @@ venue: [bcnanfiteatro]
 location: Anfiteatro Anatómico en la Real Academia Medicina Cataluña, Barcelona
 city: Barcelona
 partners:
+  - lidl
 type: Concierto
 access: Entradas agotadas
 date: 2021-11-28 20:00:00

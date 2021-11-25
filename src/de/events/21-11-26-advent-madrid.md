@@ -8,6 +8,7 @@ venue: [hispanoamericana]
 location: Hispanoamericana de Nuestra Señora de la Merced, Madrid
 city: Madrid
 partners:
+  - lidl
 type: Konzert
 access: Direktanmeldung
 date: 2021-11-26 19:00:00
