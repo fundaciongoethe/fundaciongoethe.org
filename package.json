@@ -40,6 +40,7 @@
 		"date-fns": "^2.22.1",
 		"del-cli": "^3.0.1",
 		"dotenv": "^8.6.0",
+		"eleventy-plugin-pwa": "^1.0.8",
 		"esbuild": "^0.12.15",
 		"html-minifier": "^4.0.0",
 		"luxon": "^2.0.1",

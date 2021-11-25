@@ -236,7 +236,8 @@ locale], venue) %}
     <div class="order-1 md:absolute md:inset-y-0 md:right-0 md:w-1/2">
       <!-- picture shortcode -->
       {% Picture venue.data.images.featured,"", "filter grayscale w-full
-      object-cover md:absolute h-72 sm:h-96 md:h-full", venue.data.images.alt %}
+      object-cover md:absolute h-72 sm:h-96 md:h-full", venue.data.images.alt,
+      "lazy" %}
     </div>
   </div>
   {% endfor %}
@@ -278,8 +279,8 @@ locale], venue) %}
               hover:opacity-100
             "
           >
-            {% Picture partnerarchiv[partner].logo,"", "lazy max-h-16",
-            partnerarchiv[partner].name %}
+            {% Picture partnerarchiv[partner].logo, "bg-gray-100", "lazy
+            max-h-16", partnerarchiv[partner].name, "lazy" %}
           </a>
         </figure>
 

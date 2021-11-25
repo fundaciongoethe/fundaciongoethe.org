@@ -29,7 +29,7 @@
       >
         <!-- picture shortcode -->
         {% Picture venue.data.images.featured, "aspect-w-10 aspect-h-7",
-        "object-cover filter grayscale", venue.data.images.alt %}
+        "object-cover filter grayscale", venue.data.images.alt, "lazy" %}
 
         <span class="sr-only">
           {{ meta[locale].event.readmore }} {{ venue.data.title }}</span

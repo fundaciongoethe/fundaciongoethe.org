@@ -58,20 +58,20 @@ gallery:
 ---
 
 <div class="mb-12">
-	<div class="md:text-center max-w-3xl mx-auto mb-12">
-		<h1 class="standardtitel text-gray-900">Álbum de Fotos</h1>
-		<p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
-			En nuestra galería compartimos algunas impresiones de nuestros diversos
-			eventos: Conciertos, visitas guiadas, exposiciones o excursiones con
-			almuerzo y cata de vinos.
-		</p>
-	</div>
-	<!-- set -->
-	<div class="mt-10">
-		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
-			{% for item in gallery %} {% Picture item.image,"aspect-w-5 aspect-h-3
-			md:aspect-w-4 md:aspect-h-4", "object-cover rounded-md", title %} {%-
-			endfor -%}
-		</div>
-	</div>
+  <div class="md:text-center max-w-3xl mx-auto mb-12">
+    <h1 class="standardtitel text-gray-900">Álbum de Fotos</h1>
+    <p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
+      En nuestra galería compartimos algunas impresiones de nuestros diversos
+      eventos: Conciertos, visitas guiadas, exposiciones o excursiones con
+      almuerzo y cata de vinos.
+    </p>
+  </div>
+  <!-- set -->
+  <div class="mt-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
+      {% for item in gallery %} {% Picture item.image,"aspect-w-5 aspect-h-3
+      md:aspect-w-4 md:aspect-h-4", "object-cover rounded-md", title, "lazy" %}
+      {%- endfor -%}
+    </div>
+  </div>
 </div>

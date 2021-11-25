@@ -32,6 +32,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 const embedEverything = require("eleventy-plugin-embed-everything");
+const pluginPWA = require("eleventy-plugin-pwa");
 
 // event validation
 const isValidTitle = (title = "") => title.trim().length > 2;
@@ -121,17 +122,18 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPlugin(embedEverything);
+	eleventyConfig.addPlugin(pluginPWA);
 
 	// eleventy img
 	eleventyConfig.addNunjucksAsyncShortcode(
 		"Picture",
-		async (src, pcls, cls, alt, sizes = "100vw") => {
+		async (src, pcls, cls, alt, loading, sizes = "100vw") => {
 			if (!alt) {
 				throw new Error(`Missing \`alt\` on myImage from: ${src}`);
 			}
 
 			let metadata = await Image(src, {
-				widths: [580, 770, 1200],
+				widths: [160, 410, 580, 770, 1200],
 				formats: ["webp", "jpeg"],
 				urlPath: "/assets/images/",
 				outputDir: "./dist/assets/images/",
@@ -146,24 +148,24 @@ module.exports = function (eleventyConfig) {
 			let lowsrc = metadata.jpeg[0];
 
 			return `<picture class="${pcls}">
-					${Object.values(metadata)
-						.map((imageFormat) => {
-							return `  <source type="${
-								imageFormat[0].sourceType
-							}" srcset="${imageFormat
-								.map((entry) => entry.srcset)
-								.join(", ")}" sizes="${sizes}">`;
-						})
-						.join("\n")}
-						<img
-							src="${lowsrc.url}"
-							class="${cls}"
-							width="${lowsrc.width}"
-							height="${lowsrc.height}"
-							alt="${alt}"
-							loading="lazy"
-							decoding="async">
-					</picture>`;
+      ${Object.values(metadata)
+				.map((imageFormat) => {
+					return `  <source type="${
+						imageFormat[0].sourceType
+					}" srcset="${imageFormat
+						.map((entry) => entry.srcset)
+						.join(", ")}" sizes="${sizes}">`;
+				})
+				.join("\n")}
+        <img
+          src="${lowsrc.url}"
+          class="${cls}"
+          width="${lowsrc.width}"
+          height="${lowsrc.height}"
+          alt="${alt}"
+          loading="${loading}"
+          decoding="async">
+      </picture>`;
 		}
 	);
 
@@ -383,6 +385,9 @@ module.exports = function (eleventyConfig) {
 		"src/assets/images/favicon/android-chrome-512x512.png":
 			"android-chrome-512x512.png",
 	});
+	eleventyConfig.addPassthroughCopy({
+		"src/assets/images/favicon/maskable.png": "maskable.png",
+	});
 
 	// Set custom markdown library instance  and support for Emojis in markdown...
 
@@ -404,6 +409,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias("plain", "layouts/plain.njk");
 	eleventyConfig.addLayoutAlias("evento", "layouts/evento.njk");
 	eleventyConfig.addLayoutAlias("eventonoartist", "layouts/eventonoartist.njk");
+	eleventyConfig.addLayoutAlias(
+		"eventonoartistnovenue",
+		"layouts/eventonoartistnovenue.njk"
+	);
 	eleventyConfig.addLayoutAlias("artist", "layouts/artist.njk");
 	eleventyConfig.addLayoutAlias("venue", "layouts/venue.njk");
 	eleventyConfig.addLayoutAlias("sponsor", "layouts/sponsor.njk");

@@ -135,7 +135,7 @@ partners:
           <div class="aspect-w-5 aspect-h-3">
             {% Picture "src/assets/images/patrons/josef-brem-1.jpg", "aspect-w-4
             aspect-h-2", "object-cover shadow-sm rounded-tr-lg rounded-br-lg
-            filter grayscale", "Josef Brem" %}
+            filter grayscale", "Josef Brem", "eager" %}
           </div>
 
           <div
@@ -170,7 +170,7 @@ partners:
             <!-- picture shortcode -->
             {% Picture "src/assets/images/patrons/wolfgang-minet-1.jpg",
             "aspect-w-5 aspect-h-3", "object-cover shadow-sm rounded-tr-lg
-            rounded-br-lg filter grayscale", "Wolfgang Minet" %}
+            rounded-br-lg filter grayscale", "Wolfgang Minet", "lazy" %}
           </div>
 
           <div
@@ -228,7 +228,7 @@ partners:
             <!-- picture shortcode -->
             {% Picture "src/assets/images/patrons/dirk-mirovsky-1.jpg",
             "aspect-w-10 aspect-h-4", "object-cover filter grayscale", "Dirk
-            Mirovsky" %}
+            Mirovsky", "lazy" %}
           </div>
           <div class="text-lg leading-6 w-2/3">
             <h3 class="mb-2 font-semibold">Dirk Mirovsky</h3>
@@ -263,7 +263,8 @@ partners:
           >
             <!-- picture shortcode -->
             {% Picture "src/assets/images/patrons/dirk-budach.jpg", "aspect-w-10
-            aspect-h-2", "object-cover filter grayscale", "Dirk Budach" %}
+            aspect-h-2", "object-cover filter grayscale", "Dirk Budach", "lazy"
+            %}
           </div>
           <div class="text-lg leading-6 w-2/3">
             <h3 class="mb-2 font-semibold">Dirk Budach</h3>
@@ -299,7 +300,7 @@ partners:
             <!-- picture shortcode -->
             {% Picture "src/assets/images/patrons/kai-fischer-1.jpg",
             "aspect-w-10 aspect-h-4", "object-cover filter grayscale", "Kai
-            Fischer" %}
+            Fischer", "lazy" %}
           </div>
           <div class="text-lg leading-6 w-2/3">
             <h3 class="mb-2 font-semibold">Kai Fischer</h3>
@@ -335,7 +336,7 @@ partners:
             <!-- picture shortcode -->
             {% Picture "src/assets/images/patrons/claudia-remus.jpg",
             "aspect-w-10 aspect-h-4", "object-cover filter grayscale", "Claudia
-            Remus" %}
+            Remus", "lazy" %}
           </div>
           <div class="text-lg leading-6 w-2/3">
             <h3 class="mb-2 font-semibold">Claudia Remus</h3>
@@ -361,9 +362,11 @@ partners:
       <div id="filosofia" class="relative bg-orange-200 md:bg-yellow-300">
         <div class="xl:absolute xl:inset-0">
           <div class="xl:absolute xl:inset-y-0 xl:right-0 xl:w-5/12">
-            {% Picture "./src/assets/images/hero/guestaccess-hdr.jpg","", " h-56
+            {% Picture
+            "./src/assets/images/hero/guestaccess-hdr.jpg","bg-gray-100", " h-56
             w-full object-cover xl:absolute xl:h-full filter grayscale", "Gente
-            hablando y tomando algo en un evento de la Fundación Goethe" %}
+            hablando y tomando algo en un evento de la Fundación Goethe", "lazy"
+            %}
           </div>
         </div>
         <div

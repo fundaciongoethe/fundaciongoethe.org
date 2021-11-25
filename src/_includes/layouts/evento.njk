@@ -314,8 +314,8 @@ locale], artist) %}
     <div class="sm:w-1/4">
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
-          {% Picture artist.data.images.featured,"aspect-w-3 aspect-h-2",
-          "object-cover filter grayscale", artist.data.images.alt %}
+          {% Picture artist.data.images.featured, "aspect-w-3 aspect-h-2",
+          "object-cover filter grayscale", artist.data.images.alt, "lazy" %}
         </div>
         <div
           class="
@@ -363,7 +363,7 @@ locale], artist) %}
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
           {% Picture artist.data.images.featured,"aspect-w-3 aspect-h-2",
-          "object-cover filter grayscale", artist.data.images.alt %}
+          "object-cover filter grayscale", artist.data.images.alt, "lazy" %}
         </div>
         <div
           class="
@@ -411,7 +411,7 @@ locale], artist) %}
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
           {% Picture artist.data.images.featured,"aspect-w-3 aspect-h-2",
-          "object-cover filter grayscale", artist.data.images.alt %}
+          "object-cover filter grayscale", artist.data.images.alt, "lazy" %}
         </div>
         <div
           class="
@@ -462,7 +462,7 @@ locale], artist) %}
         <div class="sm:absolute sm:inset-y-0 sm:left-0 sm:w-1/2">
           {% Picture artist.data.images.featured,"", "filter grayscale w-full
           object-cover md:absolute h-72 sm:h-96 md:h-full",
-          artist.data.images.alt %}
+          artist.data.images.alt, "lazy" %}
         </div>
       </div>
       <div
@@ -576,7 +576,8 @@ locale], artist) %}
     <div class="order-1 md:absolute md:inset-y-0 md:right-0 md:w-1/2">
       <!-- picture shortcode -->
       {% Picture venue.data.images.featured,"", "filter grayscale w-full
-      object-cover md:absolute h-72 sm:h-96 md:h-full", venue.data.images.alt %}
+      object-cover md:absolute h-72 sm:h-96 md:h-full", venue.data.images.alt,
+      "lazy" %}
     </div>
   </div>
   {% endfor %}
@@ -619,7 +620,7 @@ locale], artist) %}
             "
           >
             {% Picture partnerarchiv[partner].logo,"", "lazy max-h-16",
-            partnerarchiv[partner].name %}
+            partnerarchiv[partner].name, "lazy" %}
           </a>
         </figure>
 

@@ -6,98 +6,98 @@ sponsorlist:
 ---
 
 <main id="main" class="block">
-	<div class="relative">
-		<article class="mb-10">
-			<div
-				class="
-					px-3
-					sm:pl-16
-					xl:ml-40
-					2xl:ml-44
-					mt-8
-					xl:mt-16
-					py-8
-					rounded-tl-lg
-				"
-			>
-				<h1
-					class="
-						2xl:ml-64
-						text-xl
-						lg:text-2xl
-						xl:text-4xl
-						font-semibold
-						uppercase
-					"
-				>
-					{{ title }}
-				</h1>
-				<h2
-					class="2xl:ml-64 text-base uppercase font-semibold mt-2 text-gray-700"
-				>
-					{{ meta[locale].sponsorSince }} {{ since }}
-				</h2>
-			</div>
+  <div class="relative">
+    <article class="mb-10">
+      <div
+        class="
+          px-3
+          sm:pl-16
+          xl:ml-40
+          2xl:ml-44
+          mt-8
+          xl:mt-16
+          py-8
+          rounded-tl-lg
+        "
+      >
+        <h1
+          class="
+            2xl:ml-64
+            text-xl
+            lg:text-2xl
+            xl:text-4xl
+            font-semibold
+            uppercase
+          "
+        >
+          {{ title }}
+        </h1>
+        <h2
+          class="2xl:ml-64 text-base uppercase font-semibold mt-2 text-gray-700"
+        >
+          {{ meta[locale].sponsorSince }} {{ since }}
+        </h2>
+      </div>
 
-			<div
-				class="
-					bg-gray-200
-					px-3
-					pt-10
-					pb-16
-					2xl:px-44
-					flex
-					items-center
-					flex-col
-					sm:flex-row
-				"
-			>
-				<div class="sm:w-1/3 mb-8 sm:mb-0 rounded-md">
-					<!-- picture shortcode -->
-					{% Picture images.logo, "rounded-md", "w-full h-auto object-cover",
-					title %}
-				</div>
+      <div
+        class="
+          bg-gray-200
+          px-3
+          pt-10
+          pb-16
+          2xl:px-44
+          flex
+          items-center
+          flex-col
+          sm:flex-row
+        "
+      >
+        <div class="sm:w-1/3 mb-8 sm:mb-0 rounded-md">
+          <!-- picture shortcode -->
+          {% Picture images.logo, "rounded-md", "w-full h-auto object-cover",
+          title, "eager" %}
+        </div>
 
-				<div class="sm:pl-16 2xl:pl-40 sm:w-2/3">
-					<p class="mb-5">{{ excerpt }}</p>
+        <div class="sm:pl-16 2xl:pl-40 sm:w-2/3">
+          <p class="mb-5">{{ excerpt }}</p>
 
-					<!-- social links -->
-					{%- include "partials/social-links.njk" %}
-				</div>
-			</div>
+          <!-- social links -->
+          {%- include "partials/social-links.njk" %}
+        </div>
+      </div>
 
-			<!-- gallerie if image 1 defined in frontmatter  -->
-			{% if images.featured1 %}
-			<ul role="list" class="grid grid-cols-2 sm:grid-cols-4">
-				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<!-- picture shortcode -->
-					{% Picture images.featured1, "w-full aspect-w-10 aspect-h-7",
-					"object-cover", images.alt1 %}
-				</li>
+      <!-- gallerie if image 1 defined in frontmatter  -->
+      {% if images.featured1 %}
+      <ul role="list" class="grid grid-cols-2 sm:grid-cols-4">
+        <li class="relative block w-full aspect-w-10 aspect-h-7">
+          <!-- picture shortcode -->
+          {% Picture images.featured1, "w-full aspect-w-10 aspect-h-7",
+          "object-cover", images.alt1, "lazy" %}
+        </li>
 
-				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<!-- picture shortcode -->
-					{% Picture images.featured2, "w-full aspect-w-10 aspect-h-7",
-					"object-cover", images.alt2 %}
-				</li>
+        <li class="relative block w-full aspect-w-10 aspect-h-7">
+          <!-- picture shortcode -->
+          {% Picture images.featured2, "w-full aspect-w-10 aspect-h-7",
+          "object-cover", images.alt2, "lazy" %}
+        </li>
 
-				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<!-- picture shortcode -->
-					{% Picture images.featured3, "w-full aspect-w-10 aspect-h-7",
-					"object-cover", images.alt3 %}
-				</li>
-				<li class="relative block w-full aspect-w-10 aspect-h-7">
-					<!-- picture shortcode -->
-					{% Picture images.featured4, "w-full aspect-w-10 aspect-h-7",
-					"object-cover", images.alt4 %}
-				</li>
-			</ul>
-			{% endif %}
+        <li class="relative block w-full aspect-w-10 aspect-h-7">
+          <!-- picture shortcode -->
+          {% Picture images.featured3, "w-full aspect-w-10 aspect-h-7",
+          "object-cover", images.alt3, "lazy" %}
+        </li>
+        <li class="relative block w-full aspect-w-10 aspect-h-7">
+          <!-- picture shortcode -->
+          {% Picture images.featured4, "w-full aspect-w-10 aspect-h-7",
+          "object-cover", images.alt4, "lazy" %}
+        </li>
+      </ul>
+      {% endif %}
 
-			<!-- insert all sponsors  -->
-			{% include "components/sponsorlist.njk" %}
-		</article>
-	</div>
+      <!-- insert all sponsors  -->
+      {% include "components/sponsorlist.njk" %}
+    </article>
+  </div>
 </main>
 
 <!-- include base schema  -->

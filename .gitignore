@@ -1,3 +1,7 @@
+
+#eleventyignore
+.eleventyignore
+
 # Logs
 logs
 *.log
@@ -63,7 +67,7 @@ typings/
 # Mac
 .DS_Store
 
-# Build 
+# Build
 dist
 
 # Don't commit temp build files

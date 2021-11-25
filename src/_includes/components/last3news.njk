@@ -1,134 +1,134 @@
 <div class="pt-16 pb-5 px-4 sm:px-6 lg:pt-20 lg:px-24">
-	<div class="relative mx-auto">
-		<div class="text-center">
-			<h2 class="standardtitel text-gray-900">{{ meta[locale].newsTitle }}</h2>
-			<p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
-				{{ meta[locale].newsExcerpt }}
-			</p>
-		</div>
+  <div class="relative mx-auto">
+    <div class="text-center">
+      <h2 class="standardtitel text-gray-900">{{ meta[locale].newsTitle }}</h2>
+      <p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
+        {{ meta[locale].newsExcerpt }}
+      </p>
+    </div>
 
-		<section class="mt-12">
-			<div class="relative pb-20">
-				<div class="relative mx-auto max-w-7xl">
-					<div
-						class="
-							grid
-							gap-8
-							mx-auto
-							mt-12
-							md:grid-cols-2
-							lg:grid-cols-3 lg:max-w-none
-						"
-					>
-						{% set postslist = collections["posts_" + locale] %} {# startnews #}
-						{% set postslist = postslist | reverse %} {% for post in
-						postslist.slice(0, 3) %}
+    <section class="mt-12">
+      <div class="relative pb-20">
+        <div class="relative mx-auto max-w-7xl">
+          <div
+            class="
+              grid
+              gap-8
+              mx-auto
+              mt-12
+              md:grid-cols-2
+              lg:grid-cols-3 lg:max-w-none
+            "
+          >
+            {% set postslist = collections["posts_" + locale] %} {# startnews #}
+            {% set postslist = postslist | reverse %} {% for post in
+            postslist.slice(0, 3) %}
 
-						<div
-							class="
-								flex flex-col
-								overflow-hidden
-								rounded-md
-								border border-gray-200
-							"
-						>
-							<div class="flex-shrink-0 relative buttonhover">
-								<a href="{{ post.url | url }}" tabindex="-1">
-									<!-- picture shortcode -->
+            <div
+              class="
+                flex flex-col
+                overflow-hidden
+                rounded-md
+                border border-gray-200
+              "
+            >
+              <div class="flex-shrink-0 relative buttonhover">
+                <a href="{{ post.url | url }}" tabindex="-1">
+                  <!-- picture shortcode -->
 
-									<!-- if featured image -->
-									{% if post.data.images.featured %} {% Picture
-									post.data.images.featured,"", "lazy object-cover grayimg
-									w-full h-40", post.data.images.alt or post.data.title %}
-									<!-- else fallback -->
-									{% else %} {% Picture
-									"./src/assets/images/blog/blog-fallback.jpg","", "lazy
-									object-cover grayimg w-full h-40", "Blog Fundación Goethe" %}
-									{% endif %}
+                  <!-- if featured image -->
+                  {% if post.data.images.featured %} {% Picture
+                  post.data.images.featured,"", " object-cover grayimg w-full
+                  h-40", post.data.images.alt or post.data.title, "lazy" %}
+                  <!-- else fallback -->
+                  {% else %} {% Picture
+                  "./src/assets/images/blog/blog-fallback.jpg","", "
+                  object-cover grayimg w-full h-40", "Blog Fundación Goethe",
+                  "lazy" %} {% endif %}
 
-									<div
-										class="
-											absolute
-											inset-0
-											bg-gradient-to-b
-											from-gray-50
-											to-orange-50
-										"
-										style="mix-blend-mode: multiply"
-									></div>
-								</a>
-							</div>
+                  <div
+                    class="
+                      absolute
+                      inset-0
+                      bg-gradient-to-b
+                      from-gray-50
+                      to-orange-50
+                    "
+                    style="mix-blend-mode: multiply"
+                  ></div>
+                </a>
+              </div>
 
-							<div class="flex flex-col justify-between flex-1 p-4">
-								<div
-									class="
-										flex
-										tracking-wide
-										uppercase
-										text-xs
-										font-bold
-										text-red-700
-									"
-								>
-									{{ post.data.topic }}
-								</div>
-								<a
-									href="{{ post.url | url }}"
-									class="no-underline block"
-									tabindex="-1"
-								>
-									<h2 class="text-base font-bold text-gray-900 mt-2">
-										{{ post.data.title }}
-									</h2>
+              <div class="flex flex-col justify-between flex-1 p-4">
+                <div
+                  class="
+                    flex
+                    tracking-wide
+                    uppercase
+                    text-xs
+                    font-bold
+                    text-red-700
+                  "
+                >
+                  {{ post.data.topic }}
+                </div>
+                <a
+                  href="{{ post.url | url }}"
+                  class="no-underline block"
+                  tabindex="-1"
+                >
+                  <h2 class="text-base font-bold text-gray-900 mt-2">
+                    {{ post.data.title }}
+                  </h2>
 
-									<p class="prose mt-3">
-										{{ post.data.excerpt }}
-									</p>
-								</a>
+                  <p class="prose mt-3">
+                    {{ post.data.excerpt }}
+                  </p>
+                </a>
 
-								<div
-									class="
-										flex
-										items-center
-										mt-12
-										uppercase
-										justify-between
-										text-xs
-										font-bold
-									"
-								>
-									<div class="flex leading-5">
-										<time datetime="{{ post.date | date('YYYY-MM-DD') }}">
-											{{ post.date | date("Do MMMM yyyy", locale) }}</time
-										>
-									</div>
+                <div
+                  class="
+                    flex
+                    items-center
+                    mt-12
+                    uppercase
+                    justify-between
+                    text-xs
+                    font-bold
+                  "
+                >
+                  <div class="flex leading-5">
+                    <time datetime="{{ post.date | date('YYYY-MM-DD') }}">
+                      {{ post.date | date("Do MMMM yyyy", locale) }}</time
+                    >
+                  </div>
 
-									<p class="pt-0 mt-0 leading-5">
-										<a
-											title="Leer más: {{ post.data.title }}"
-											href="{{ post.url | url }}"
-											class="
-												buttonhover
-												block
-												bg-red-600
-												text-gray-50
-												px-3
-												rounded-sm
-												no-underline
-												transition
-												hover:text-white
-											"
-											>{{ meta[locale].readingText }}</a
-										>
-									</p>
-								</div>
-							</div>
-						</div>
+                  <p class="pt-0 mt-0 leading-5">
+                    <a
+                      title="Leer más: {{ post.data.title }}"
+                      href="{{ post.url | url }}"
+                      class="
+                        buttonhover
+                        block
+                        bg-red-600
+                        text-gray-50
+                        px-3
+                        rounded-sm
+                        no-underline
+                        transition
+                        hover:text-white
+                      "
+                      >{{ meta[locale].readingText }}</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
 
-						{%- endfor -%}
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </div>

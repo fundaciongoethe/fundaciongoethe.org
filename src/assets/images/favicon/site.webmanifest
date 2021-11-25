@@ -1,19 +1,26 @@
 {
-	"name": "Fundación Goethe",
-	"short_name": "Fundación Goethe",
-	"icons": [
-		{
-			"src": "/android-chrome-192x192.png",
-			"sizes": "192x192",
-			"type": "image/png"
-		},
-		{
-			"src": "/android-chrome-512x512.png",
-			"sizes": "512x512",
-			"type": "image/png"
-		}
-	],
-	"theme_color": "#FFCF1D",
-	"background_color": "#FDE68A",
-	"display": "standalone"
+  "name": "Fundación Goethe - Fundación cultural de la economía hispano-alemana",
+  "short_name": "Fundación Goethe",
+  "start_url": "https://www.fundaciongoethe.org",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/maskable.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#FFCF1D",
+  "background_color": "#FDE68A",
+  "display": "standalone"
 }

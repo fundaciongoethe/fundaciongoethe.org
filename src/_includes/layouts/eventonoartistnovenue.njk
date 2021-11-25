@@ -1,0 +1,110 @@
+---
+layout: base
+tags: pages
+sponsorlist:
+  direction: text-left
+  grids: grid-cols-3 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+---
+
+<main id="main">
+  <div class="lg:mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
+    <div
+      class="
+        col-span-5
+        md:col-span-3
+        {%
+        if
+        calendarLinks.isFutureEvent
+        %}
+        bg-yellow-200
+        md:bg-yellow-300
+        {%
+        else
+        %}
+        bg-gray-200
+        {%
+        endif
+        %}
+        sm:rounded-tr-xl sm:mr-3
+        md:mr-0
+        px-3
+        xl:pl-16
+        2xl:pl-24
+        md:pr-12
+        lg:pr-36
+        xl:pr-44
+        py-12
+      "
+    >
+      {% if calendarLinks.isFutureEvent %}
+
+      <span class="text-sm text-red-600 font-bold tracking-wide uppercase">
+        {{  date | date("Do MMMM yyyy", locale) }}
+      </span>
+
+      {% else %}
+      <span
+        class="
+          text-sm text-gray-800
+          bg-red-400
+          px-2
+          py-1
+          rounded-sm
+          font-bold
+          tracking-wide
+          uppercase
+        "
+      >
+        {{ meta[locale].event.finished }}.
+      </span>
+      <p
+        class="
+          text-sm text-gray-800
+          px-2
+          py-1
+          rounded-sm
+          font-bold
+          tracking-wide
+        "
+      >
+        {{ meta[locale].event.finishedExtended }}
+        {{  date | date("dddd", locale) }}, {{  date | date("LL", locale) }}
+        {{ meta[locale].event.finishedPrep }} {{ city }}.
+      </p>
+      {% endif %}
+
+      <h1 class="standardtitel uppercase mt-4">{{ title }}</h1>
+
+      {% if infobox and calendarLinks.isFutureEvent %} {%- include
+      "components/infobox.njk" %} {% endif %}
+
+      <div class="standardtext mt-12 prose">{{ content | safe }}</div>
+    </div>
+
+    <div
+      class="
+        col-span-5
+        md:col-span-2
+        bg-gray-50
+        text-white
+        sm:rounded-t-2xl sm:ml-3
+        md:ml-0
+        transform
+        lg:ml-2
+        xl:ml-1
+        2xl:ml-0
+        md:-translate-x-8
+        lg:-translate-x-28
+        2xl:-translate-x-32
+        sm:-mt-6
+        md:mt-20
+        py-4
+        sm:py-10
+        px-3
+        xl:px-8
+      "
+    >
+      <div class="py-2 sm:p-0">{% include "components/sponsorlist.njk" %}</div>
+    </div>
+  </div>
+</main>

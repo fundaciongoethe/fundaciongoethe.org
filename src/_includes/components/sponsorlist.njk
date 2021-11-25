@@ -1,51 +1,51 @@
 <div class="relative mx-auto max-w-4xl">
-	{% if sponsorlist.title %}
-	<div class="{{ sponsorlist.direction or 'text-center' }}">
-		<h2 class="standardtitel text-gray-900">{{ sponsorlist.title }}</h2>
-		<p class="standardtext mt-3 sm:mt-4 mx-auto max-w-2xl">
-			{{ sponsorlist.text }}
-		</p>
-	</div>
-	{% endif %}
+  {% if sponsorlist.title %}
+  <div class="{{ sponsorlist.direction or 'text-center' }}">
+    <h2 class="standardtitel text-gray-900">{{ sponsorlist.title }}</h2>
+    <p class="standardtext mt-3 sm:mt-4 mx-auto max-w-2xl">
+      {{ sponsorlist.text }}
+    </p>
+  </div>
+  {% endif %}
 
-	<div
-		class="mt-6 grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-3 md:grid-cols-7' }} lg:mt-8"
-	>
-		<!-- get current locale from meta.languages -->
-		{% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in
-		sponsors %}
+  <div
+    class="mt-6 grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-3 md:grid-cols-7' }} lg:mt-8"
+  >
+    <!-- get current locale from meta.languages -->
+    {% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in
+    sponsors %}
 
-		<figure>
-			<a
-				href="{{ sponsor.url }}"
-				class="
-					buttonhover
-					col-span-1
-					flex
-					justify-center
-					py-4
-					px-4
-					filter
-					grayscale
-					hover:grayscale-0
-					opacity-60
-					hover:opacity-100
-				"
-			>
-				{#
-				<img
-					src="/assets/images/{{ sponsor.data.images.logo }}"
-					alt="Logo von {{ sponsor.data.title }}"
-					class="lazy max-h-12"
-				/>
-				#}
+    <figure>
+      <a
+        href="{{ sponsor.url }}"
+        class="
+          buttonhover
+          col-span-1
+          flex
+          justify-center
+          py-4
+          px-4
+          filter
+          grayscale
+          hover:grayscale-0
+          opacity-60
+          hover:opacity-100
+        "
+      >
+        {#
+        <img
+          src="/assets/images/{{ sponsor.data.images.logo }}"
+          alt="Logo von {{ sponsor.data.title }}"
+          class="lazy max-h-12"
+        />
+        #}
 
-				<!-- picture shortcode -->
-				{% Picture sponsor.data.images.logo,"", "object-cover filter",
-				sponsor.data.title %}
-			</a>
-		</figure>
+        <!-- picture shortcode -->
+        {% Picture sponsor.data.images.logo,"bg-transparent", "object-cover
+        filter", sponsor.data.title, "lazy" %}
+      </a>
+    </figure>
 
-		{%- endfor -%}
-	</div>
+    {%- endfor -%}
+  </div>
 </div>

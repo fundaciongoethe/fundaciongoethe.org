@@ -1,46 +1,46 @@
 {% if partnerlist.title %}
 <div class="text-center">
-	<h2 class="standardtitel text-gray-900">{{ partnerlist.title }}</h2>
-	<p class="standardtext mt-3 sm:mt-4">
-		{{ partnerlist.text }}
-	</p>
+  <h2 class="standardtitel text-gray-900">{{ partnerlist.title }}</h2>
+  <p class="standardtext mt-3 sm:mt-4">
+    {{ partnerlist.text }}
+  </p>
 </div>
 {% endif %}
 
 <div class="mt-6 grid gap-1 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:mt-8">
-	<!-- get current locale from meta.languages -->
-	{% for partner in partners %}
+  <!-- get current locale from meta.languages -->
+  {% for partner in partners %}
 
-	<figure>
-		<a
-			ref="nofollow"
-			target="_blank"
-			title="{{ meta[locale].event.visitWeb }} {{
-				partnerarchiv[partner].name
-			}}"
-			href="{{ partnerarchiv[partner].url }}"
-			class="
-				col-span-1
-				flex
-				justify-center
-				py-4
-				px-4
-				filter
-				grayscale
-				hover:grayscale-0
-				opacity-60
-				hover:opacity-100
-				transition
-				duration-200
-				ease-in-out
-				transform
-				hover:scale-105
-			"
-		>
-			{% Picture partnerarchiv[partner].logo,"", "lazy",
-			partnerarchiv[partner].name %}
-		</a>
-	</figure>
+  <figure>
+    <a
+      ref="nofollow"
+      target="_blank"
+      title="{{ meta[locale].event.visitWeb }} {{
+        partnerarchiv[partner].name
+      }}"
+      href="{{ partnerarchiv[partner].url }}"
+      class="
+        col-span-1
+        flex
+        justify-center
+        py-4
+        px-4
+        filter
+        grayscale
+        hover:grayscale-0
+        opacity-60
+        hover:opacity-100
+        transition
+        duration-200
+        ease-in-out
+        transform
+        hover:scale-105
+      "
+    >
+      {% Picture partnerarchiv[partner].logo,"bg-transparent", "lazy",
+      partnerarchiv[partner].name, "lazy" %}
+    </a>
+  </figure>
 
-	{%- endfor -%}
+  {%- endfor -%}
 </div>

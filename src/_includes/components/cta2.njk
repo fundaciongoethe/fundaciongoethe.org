@@ -1,65 +1,62 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 
 <div class="bg-yellow-400">
-	<div class="overflow-hidden sm:grid sm:grid-cols-5 lg:gap-4">
-		<div
-			class="
-				col-span-3
-				pt-10
-				pb-12
-				px-3
-				sm:pl-16
-				md:px-16
-				lg:py-16
-				lg:pr-0
-				xl:py-20
-				xl:pl-24
-				xl:pr-16
-			"
-		>
-			<div class="lg:self-center">
-				<h2 class="standardtitel">
-					{{ cta2.title }}
-				</h2>
-				<p class="mt-4 standardtext">{{ cta2.text }}</p>
-				<a
-					href="{{ cta2.btnLink }}"
-					class="
-						buttonhover
-						mt-8
-						bg-red-600
-						border border-transparent
-						rounded-md
-						shadow-sm
-						px-6
-						py-2
-						inline-flex
-						items-center
-						text-base
-						font-semibold
-						text-white
-						hover:text-white
-						no-underline
-					"
-				>
-					{{ cta2.btnText }}</a
-				>
-			</div>
-		</div>
-		<div
-			class="
-				hidden
-				sm:block
-				col-span-2
-				-mt-6
-				aspect-w-5 aspect-h-3
-				md:aspect-w-2 md:aspect-h-1
-			"
-		>
-			{% Picture cta2.image, "aspect-w-5 aspect-h-3 md:aspect-w-2
-			md:aspect-h-1", "transform translate-x-6 translate-y-6 rounded-lg
-			object-cover object-left-top sm:translate-x-16 lg:translate-y-20",
-			cta2.alt %}
-		</div>
-	</div>
+  <div class="overflow-hidden sm:grid sm:grid-cols-5 lg:gap-4">
+    <div
+      class="
+        col-span-3
+        pt-10
+        pb-12
+        px-3
+        sm:pl-16
+        md:px-16
+        lg:py-16 lg:pr-0
+        xl:py-20 xl:pl-24 xl:pr-16
+      "
+    >
+      <div class="lg:self-center">
+        <h2 class="standardtitel">
+          {{ cta2.title }}
+        </h2>
+        <p class="mt-4 standardtext">{{ cta2.text }}</p>
+        <a
+          href="{{ cta2.btnLink }}"
+          class="
+            buttonhover
+            mt-8
+            bg-red-600
+            border border-transparent
+            rounded-md
+            shadow-sm
+            px-6
+            py-2
+            inline-flex
+            items-center
+            text-base
+            font-semibold
+            text-white
+            hover:text-white
+            no-underline
+          "
+        >
+          {{ cta2.btnText }}</a
+        >
+      </div>
+    </div>
+    <div
+      class="
+        hidden
+        sm:block
+        col-span-2
+        -mt-6
+        aspect-w-5 aspect-h-3
+        md:aspect-w-2 md:aspect-h-1
+      "
+    >
+      {% Picture cta2.image, "aspect-w-5 aspect-h-3 md:aspect-w-2
+      md:aspect-h-1", "transform translate-x-6 translate-y-6 rounded-lg
+      object-cover object-left-top sm:translate-x-16 lg:translate-y-20",
+      cta2.alt, "lazy" %}
+    </div>
+  </div>
 </div>
