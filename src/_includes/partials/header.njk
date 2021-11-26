@@ -1,314 +1,267 @@
 <nav
-	x-data="{ open: false }"
-	class="
-		relative
-		nav
-		mt-2
-		transform
-		md:-translate-y-16
-		lg:translate-y-0
-		bg-gray-200
-		md:bg-transparent
-		z-10
-	"
+  x-data="{ open: false }"
+  class="
+    relative
+    nav
+    mt-2
+    transform
+    md:-translate-y-16
+    lg:translate-y-0
+    bg-gray-200
+    md:bg-transparent
+    z-10
+  "
 >
-	<div class="mx-auto">
-		<div
-			class="
-				flex
-				md:flex-col
-				lg:flex-row lg:items-center
-				justify-between
-				relative
-			"
-		>
-			<div class="flex items-end">
-				<div class="flex-shrink-0 flex">
-					<a
-						href="/{{ locale }}/"
-						title="Home"
-						class="no-underline"
-						tabindex="-1"
-					>
-						<img
-							class="
-								py-1
-								sm:py-0
-								block
-								h-12
-								2xl:h-16
-								md:mb-2
-								lg:mb-0
-								w-auto
-								pl-2
-								xl:pl-16
-								2xl:pl-24
-							"
-							src="/assets/svg/logo-goethe20-RGB.svg"
-							alt="Fundación Goethe Logo"
-							width="338"
-							height="98"
-						/>
-					</a>
-				</div>
-			</div>
-			<div
-				class="
-					hidden
-					md:block
-					bg-gray-900
-					md:px-2 md:pl-10
-					lg:pl-12
-					2xl:pr-10
-					w-full
-					lg:w-auto
-					xl:w-2/3
-					lg:rounded-l-md
-				"
-			>
-				<div class="flex justify-center lg:justify-start">
-					{% for item in navigation[locale].top %}
+  <div class="mx-auto">
+    <div
+      class="
+        flex
+        md:flex-col
+        lg:flex-row lg:items-center
+        justify-between
+        relative
+      "
+    >
+      <div class="flex items-end">
+        <div class="flex-shrink-0 flex">
+          <a
+            href="/{{ locale }}/"
+            title="Home"
+            class="no-underline"
+            tabindex="-1"
+          >
+            <img
+              class="
+                py-1
+                sm:py-0
+                block
+                h-12
+                2xl:h-16
+                md:mb-2
+                lg:mb-0
+                w-auto
+                pl-2
+                xl:pl-16
+                2xl:pl-24
+              "
+              src="/assets/svg/logo-goethe20-RGB.svg"
+              alt="Fundación Goethe Logo"
+              width="338"
+              height="98"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="
+          hidden
+          md:block
+          bg-gray-900
+          md:px-2 md:pl-10
+          lg:pl-12
+          2xl:pr-10
+          w-full
+          lg:w-auto
+          xl:w-2/3
+          lg:rounded-l-md
+        "
+      >
+        <div class="flex justify-center lg:justify-start">
+          {% for item in navigation[locale].top %}
 
-					<a
-						class="
-							text-white
-							no-underline
-							text-xs
-							xl:text-sm
-							2xl:text-base
-							font-semibold
-							uppercase
-							bg-gray-900
-							hover:text-white hover:bg-gray-800
-							px-1
-							md:px-2
-							2xl:px-3
-							py-3
-							2xl:py-4
-							block
-							relative
-						"
-						href="{{ item.url }}"
-						{{
-						helpers.getLinkActiveState(item.url,
-						page.url)
-						|
-						safe
-						}}
-						>{{ item.text }}</a
-					>
+          <a
+            class="
+              text-white
+              no-underline
+              text-xs
+              xl:text-sm
+              2xl:text-base
+              font-semibold
+              uppercase
+              bg-gray-900
+              hover:text-white hover:bg-gray-800
+              px-1
+              md:px-2
+              2xl:px-3
+              py-3
+              2xl:py-4
+              block
+              relative
+            "
+            href="{{ item.url }}"
+            {{
+            helpers.getLinkActiveState(item.url,
+            page.url)
+            |
+            safe
+            }}
+            >{{ item.text }}</a
+          >
 
-					{% endfor %}
-				</div>
-			</div>
+          {% endfor %}
+        </div>
+      </div>
 
-			<div class="flex md:hidden">
-				<!-- Mobile menu button -->
-				<button
-					type="button"
-					class="
-						inline-flex
-						items-center
-						justify-center
-						px-2
-						my-1
-						text-xs
-						font-semibold
-						text-gray-50
-						bg-black
-						rounded-l-md
-						hover:bg-red-600
-					"
-					aria-controls="mobile-menu"
-					@click="open = !open"
-					aria-expanded="false"
-					x-bind:aria-expanded="open.toString()"
-				>
-					<span class="sr-only">{{ meta[locale].menuText }}</span>
-					<span
-						class="uppercase"
-						:class="{ 'hidden': open, 'block': !(open) }"
-						>{{ meta[locale].menuButton }}</span
-					>
+      <div class="flex md:hidden fade-in overflow-hidden">
+        <!-- Mobile menu button -->
+        <button
+          type="button"
+          class="
+            inline-flex
+            items-center
+            justify-center
+            px-2
+            my-1
+            text-xs
+            font-semibold
+            text-gray-50
+            bg-black
+            rounded-l-md
+            hover:bg-red-600
+          "
+          aria-controls="mobile-menu"
+          @click="open = !open"
+          aria-expanded="false"
+          x-bind:aria-expanded="open.toString()"
+        >
+          <span class="sr-only">{{ meta[locale].menuText }}</span>
+          <span
+            class="uppercase"
+            :class="{ 'hidden': open, 'block': !(open) }"
+            >{{ meta[locale].menuButton }}</span
+          >
 
-					<svg
-						x-description="Icono para el menú cerrado."
-						xmlns="http://www.w3.org/2000/svg"
-						x-state:on="Menú abierto"
-						x-state:off="Menú cerrado"
-						class="h-4 w-4 ml-1 block"
-						:class="{ 'hidden': open, 'block': !(open) }"
-						viewBox="0 0 24 24"
-						stroke-width="2.5"
-						stroke="#FDF2F8"
-						fill="none"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						aria-hidden="true"
-					>
-						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-						<line x1="4" y1="6" x2="20" y2="6" />
-						<line x1="4" y1="12" x2="20" y2="12" />
-						<line x1="4" y1="18" x2="20" y2="18" />
-					</svg>
+          <svg
+            x-description="Icono para el menú cerrado."
+            xmlns="http://www.w3.org/2000/svg"
+            x-state:on="Menú abierto"
+            x-state:off="Menú cerrado"
+            class="h-4 w-4 ml-1 block"
+            :class="{ 'hidden': open, 'block': !(open) }"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="#FDF2F8"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="18" x2="20" y2="18" />
+          </svg>
 
-					{#
-					<svg
-						x-description="Icono si menú está cerrado.
+          <span
+            class="uppercase"
+            :class="{ 'block': open, 'hidden': !(open) }"
+            >{{ meta[locale].menuClose }}</span
+          >
 
-					Heroicon name: outline/menu"
-						x-state:on="Menú abierto"
-						x-state:off="Menú cerrado"
-						class="h-5 w-5 ml-1 block"
-						:class="{ 'hidden': open, 'block': !(open) }"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-						aria-hidden="true"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M4 6h16M4 12h16M4 18h16"
-						></path>
-					</svg>
-					#}
-					<span
-						class="uppercase"
-						:class="{ 'block': open, 'hidden': !(open) }"
-						>{{ meta[locale].menuClose }}</span
-					>
+          <svg
+            x-description="Icono pare el menú abierto."
+            xmlns="http://www.w3.org/2000/svg"
+            x-state:on="Menú abierto"
+            x-state:off="Menú cerrado"
+            class="h-4 w-4 ml-1 block"
+            :class="{ 'block': open, 'hidden': !(open) }"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="#FDF2F8"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
 
-					<svg
-						x-description="Icono pare el menú abierto."
-						xmlns="http://www.w3.org/2000/svg"
-						x-state:on="Menú abierto"
-						x-state:off="Menú cerrado"
-						class="h-4 w-4 ml-1 block"
-						:class="{ 'block': open, 'hidden': !(open) }"
-						viewBox="0 0 24 24"
-						stroke-width="2.5"
-						stroke="#FDF2F8"
-						fill="none"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						aria-hidden="true"
-					>
-						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-						<line x1="18" y1="6" x2="6" y2="18" />
-						<line x1="6" y1="6" x2="18" y2="18" />
-					</svg>
+  <div
+    x-description="Mobile menu, show/hide based on menu state."
+    class="md:hidden relative bg-gray-200"
+    id="mobile-menu"
+    x-show="open"
+    style="display: none"
+  >
+    {% for item in navigation[locale].top %}
 
-					{#
-					<svg
-						x-description="Icono si menú está abierto.
+    <a
+      class="
+        text-gray-900
+        no-underline
+        text-sm
+        font-bold
+        uppercase
+        hover:bg-gray-300
+        block
+        px-2
+        py-3
+      "
+      href="{{ item.url }}"
+      {{
+      helpers.getLinkActiveState(item.url,
+      page.url)
+      |
+      safe
+      }}
+      >{{ item.text }}</a
+    >
 
-Heroicon name: outline/x"
-						x-state:on="Menú abierto"
-						x-state:off="Menú cerrado"
-						class="h-5 w-5 ml-1 hidden"
-						:class="{ 'block': open, 'hidden': !(open) }"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-						aria-hidden="true"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M6 18L18 6M6 6l12 12"
-						></path>
-					</svg>
-					#}
-				</button>
-			</div>
-		</div>
-	</div>
+    {% endfor %}
 
-	<div
-		x-description="Mobile menu, show/hide based on menu state."
-		class="md:hidden relative bg-gray-200"
-		id="mobile-menu"
-		x-show="open"
-		style="display: none"
-	>
-		{% for item in navigation[locale].top %}
+    <!-- invitations link on mobile -->
+    <a
+      class="
+        text-gray-900
+        no-underline
+        text-sm
+        font-bold
+        uppercase
+        hover:bg-gray-300
+        block
+        px-2
+        py-3
+        {%
+        if
+        (page.url
+        ===
+        '/es/invitaciones/')
+        or
+        (page.url
+        ===
+        '/de/einladungen/')
+        %}
+        bg-gray-300
+        {%
+        endif
+        %}
+      "
+      href="{{ navigation[locale].bottom.row3[0].url }}"
+    >
+      {{ navigation[locale].bottom.row3[0].text }}</a
+    >
 
-		<a
-			class="
-				text-gray-900
-				no-underline
-				text-sm
-				font-bold
-				uppercase
-				hover:bg-gray-300
-				block
-				px-2
-				py-3
-			"
-			href="{{ item.url }}"
-			{{
-			helpers.getLinkActiveState(item.url,
-			page.url)
-			|
-			safe
-			}}
-			>{{ item.text }}</a
-		>
+    <div class="flex items-center justify-center border-t border-gray-100">
+      <!-- languages -->
+      {% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set
+      translatedUrl to the homepage of that language by default #} {% set
+      translatedUrl = "/" + lgg.code + "/" %} {# set current language class #}
+      {% set activeClass = "bg-gray-300 " if lgg.code == locale else
+      "text-gray-900 " %} {# loop through all the content of the site #} {% for
+      item in collections.all %} {# for each item in the loop, check if - its
+      translationKey matches the current item translationKey - its locale
+      matches the code of the language we are looping through #} {% if
+      item.data.translationKey == translationKey and item.data.locale ==
+      lgg.code %} {% set translatedUrl = item.url %} {% endif %} {% endfor %}
 
-		{% endfor %}
-
-		<!-- invitations link on mobile -->
-		<a
-			class="
-				text-gray-900
-				no-underline
-				text-sm
-				font-bold
-				uppercase
-				hover:bg-gray-300
-				block
-				px-2
-				py-3
-				{%
-				if
-				(page.url
-				===
-				'/es/invitaciones/')
-				or
-				(page.url
-				===
-				'/de/einladungen/')
-				%}
-				bg-gray-300
-				{%
-				endif
-				%}
-			"
-			href="{{ navigation[locale].bottom.row3[0].url }}"
-		>
-			{{ navigation[locale].bottom.row3[0].text }}</a
-		>
-
-		<div class="flex items-center justify-center border-t border-gray-100">
-			<!-- languages -->
-			{% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set
-			translatedUrl to the homepage of that language by default #} {% set
-			translatedUrl = "/" + lgg.code + "/" %} {# set current language class #}
-			{% set activeClass = "bg-gray-300 " if lgg.code == locale else
-			"text-gray-900 " %} {# loop through all the content of the site #} {% for
-			item in collections.all %} {# for each item in the loop, check if - its
-			translationKey matches the current item translationKey - its locale
-			matches the code of the language we are looping through #} {% if
-			item.data.translationKey == translationKey and item.data.locale ==
-			lgg.code %} {% set translatedUrl = item.url %} {% endif %} {% endfor %}
-
-			<a
-				class="
+      <a
+        class="
 					bg-gray-200 text-center
 					hover:bg-gray-300
 			no-underline
@@ -319,11 +272,11 @@ Heroicon name: outline/x"
 			block
 			px-2
 			py-3 w-1/2 {{ activeClass }}"
-				href="{{ translatedUrl }}"
-				>{{ lgg.long }}</a
-			>
+        href="{{ translatedUrl }}"
+        >{{ lgg.long }}</a
+      >
 
-			{% if loop.last %} {% endif %} {% endfor %}
-		</div>
-	</div>
+      {% if loop.last %} {% endif %} {% endfor %}
+    </div>
+  </div>
 </nav>

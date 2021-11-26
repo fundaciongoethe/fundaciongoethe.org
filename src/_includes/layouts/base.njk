@@ -27,7 +27,6 @@
       type="font/woff2"
       crossorigin
     />
-    <link rel="stylesheet" href="/assets/fonts.min.css" />
 
     {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{%
     endset %}
@@ -43,6 +42,8 @@
       title="RSS Feed para {{ meta.siteName }}"
       href="/feed.xml"
     />
+    <link rel="stylesheet" href="/assets/fonts.min.css" />
+
     {%- include "partials/head.njk" %}
     <!-- include base schema  -->
     {%- include "schemas/base-schema.njk" %}
