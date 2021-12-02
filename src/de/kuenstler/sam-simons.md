@@ -15,4 +15,4 @@ links:
 
 Ursprünglich aus München stammend besuchte Sam Simons das musische Pestalozzi Gymnasium München. Diese Zeit prägte unter anderem den Wunsch, Musik zum Beruf zu machen und so folgte nach seinem Abitur 2018 die Ausbildung im Hauptfach Jazzpiano bei Volker Giesek und Max Neissendorfer an der Neuen Jazzschool München, die er im Sommer 2021 abschloss.
 
-Sam Simons präsentiert als Jazzpianist zusammen mit Katharina Gruber das Konzertprogramm A Jazz Summernight´s Dream sowie ein Weihnachtsprogramm.
+Sam Simons präsentiert als Jazzpianist zusammen mit [Katharina Gruber](https://www.fundaciongoethe.org/de/kuenstler/katharina-gruber/) das Konzertprogramm A Jazz Summernight´s Dream sowie ein Weihnachtsprogramm.

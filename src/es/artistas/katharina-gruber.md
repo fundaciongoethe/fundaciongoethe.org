@@ -23,5 +23,5 @@ Una beca de la Neue Jazzschool München permitió a Katharina participar en un i
 
 Tras completar su formación, la Neue Jazzschool contrató a Katharina como profesora de canto para su programa de enseñanza abierta.
 
-Junto a su padre, el guitarrista Christian Gruber, presenta el programa A Tribute to Edith Piaf, Ella Fitzgerald, Carole King y Joni Mitchell, con el que realizó una gira por España en 2021.
-Katharina actúa regularmente con el pianista Sam Simons, con el que presenta "A Jazz Summernight's Dream" y un programa de Navidad.
+Junto a su padre, el [guitarrista Christian Gruber](https://www.fundaciongoethe.org/es/artistas/duo-gruber/), presenta el programa A Tribute to Edith Piaf, Ella Fitzgerald, Carole King y Joni Mitchell, con el que realizó una gira por España en 2021.
+Katharina actúa regularmente con el pianista [Sam Simons](https://www.fundaciongoethe.org/es/artistas/sam-simons/), con el que presenta "A Jazz Summernight's Dream" y un programa de Navidad.

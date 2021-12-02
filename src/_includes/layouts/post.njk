@@ -17,23 +17,11 @@ layout: home
 
     {% if images.credit %}
     <figcaption
-      class="
-        md:mr-20
-        flex
-        transform
-        -translate-y-10
-        text-sm
-        bg-gray-100
-        py-1
-        pl-3
-        sm:pl-6
-        md:rounded-r
-        opacity-80
-      "
+      class="pr-3 flex transform -translate-y-10 text-sm py-1 pl-3 sm:pl-6"
     >
       <!-- Heroicon name: solid/camera -->
       <svg
-        class="flex-none w-5 h-5 text-gray-400"
+        class="flex-none w-5 h-5 text-gray-500 bg-gray-50 opacity-80"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
@@ -45,7 +33,7 @@ layout: home
           clip-rule="evenodd"
         />
       </svg>
-      <span class="ml-2">
+      <span class="px-1 bg-gray-50 opacity-80">
         {{ images.credit }}
       </span>
     </figcaption>

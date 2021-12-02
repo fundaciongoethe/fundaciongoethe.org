@@ -102,10 +102,10 @@
         </div>
       </div>
 
-      <div class="flex md:hidden fade-in overflow-hidden">
-        <!-- Mobile menu button -->
+      <div class="flex md:hidden">
+        {# Mobile menu button #}
         <button
-          type="button"
+          @click="open = !open"
           class="
             inline-flex
             items-center
@@ -119,25 +119,17 @@
             rounded-l-md
             hover:bg-red-600
           "
-          aria-controls="mobile-menu"
-          @click="open = !open"
-          aria-expanded="false"
-          x-bind:aria-expanded="open.toString()"
+          x-bind:aria-label="open ? 'Close main menu' : 'Main menu'"
+          aria-label="Main menu"
+          x-bind:aria-expanded="open"
         >
-          <span class="sr-only">{{ meta[locale].menuText }}</span>
-          <span
-            class="uppercase"
-            :class="{ 'hidden': open, 'block': !(open) }"
-            >{{ meta[locale].menuButton }}</span
-          >
-
+          {# Icon when menu is closed. #}
           <svg
-            x-description="Icono para el menú cerrado."
-            xmlns="http://www.w3.org/2000/svg"
-            x-state:on="Menú abierto"
-            x-state:off="Menú cerrado"
-            class="h-4 w-4 ml-1 block"
-            :class="{ 'hidden': open, 'block': !(open) }"
+            x-state:on="Menu open"
+            x-state:off="Menu closed"
+            :class="{ 'hidden': open, 'block': !open }"
+            class="block w-6 h-6"
+            fill="none"
             viewBox="0 0 24 24"
             stroke-width="2.5"
             stroke="#FDF2F8"
@@ -151,20 +143,16 @@
             <line x1="4" y1="12" x2="20" y2="12" />
             <line x1="4" y1="18" x2="20" y2="18" />
           </svg>
-
-          <span
-            class="uppercase"
-            :class="{ 'block': open, 'hidden': !(open) }"
-            >{{ meta[locale].menuClose }}</span
+          <span class="uppercase" :class="{ 'hidden': open, 'block': !(open) }"
+            >{{ meta[locale].menuButton }}dd</span
           >
-
+          {# Icon when menu is open. #}
           <svg
-            x-description="Icono pare el menú abierto."
-            xmlns="http://www.w3.org/2000/svg"
-            x-state:on="Menú abierto"
-            x-state:off="Menú cerrado"
-            class="h-4 w-4 ml-1 block"
-            :class="{ 'block': open, 'hidden': !(open) }"
+            x-state:on="Menu open"
+            x-state:off="Menu closed"
+            :class="{ 'hidden': !open, 'block': open }"
+            class="hidden w-6 h-6"
+            fill="none"
             viewBox="0 0 24 24"
             stroke-width="2.5"
             stroke="#FDF2F8"
@@ -177,6 +165,11 @@
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
+          <span
+            class="uppercase"
+            :class="{ 'block': open, 'hidden': !(open) }"
+            >{{ meta[locale].menuClose }}</span
+          >
         </button>
       </div>
     </div>

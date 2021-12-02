@@ -14,7 +14,7 @@ links:
   web2: https://katharinagruber.de
 ---
 
-**Christian Gruber**, que lleva más de 30 años actuando a nivel internacional en el dúo de guitarra Gruber &amp; Maklar, se siente en casa en muchos mundos musicales. Además de la constante del dúo de guitarras, utiliza las múltiples posibilidades de tocar junto a otros músicos y artistas como inspiración y desafío al mismo tiempo. Esto se evidencia en proyectos transfronterizos como el proyecto con la acordeonista Maria Reiter, con Monika Drasch, música del mundo, o con su hija Katharina Gruber.
+**[Christian Gruber](https://www.fundaciongoethe.org/es/artistas/christian-gruber/)**, que lleva más de 30 años actuando a nivel internacional en el dúo de guitarra Gruber &amp; Maklar, se siente en casa en muchos mundos musicales. Además de la constante del dúo de guitarras, utiliza las múltiples posibilidades de tocar junto a otros músicos y artistas como inspiración y desafío al mismo tiempo. Esto se evidencia en proyectos transfronterizos como el proyecto con la acordeonista Maria Reiter, con Monika Drasch, música del mundo, o con su hija Katharina Gruber.
 
 En 1985 Christian Gruber fundó el dúo de guitarra Gruber &amp; Maklar junto con Peter Maklar.
 
@@ -22,7 +22,7 @@ Su exitosa carrera de conciertos comenzó cuando ganaron el primer premio en el 
 
 Muchos compositores de renombre, como Dusan Bogdanovic, Atanas Ourkouzounov, Wulfin Lieske, Enjott Schneider y Paolo Devecchi han escrito obras para el dúo o se las han dedicado. Ocho producciones en CD con literatura desde el barroco hasta los tiempos modernos dan testimonio de la diversidad artística del dúo, así como las numerosas ediciones de sus propios arreglos de obras maestras seleccionadas publicadas por Doberman-Yppan/Canadá.
 
-**Katharina Gruber** entró en contacto con la música a una edad temprana a través de su padre, el guitarrista Christian Gruber, y su pasión y talento para cantar y tocar la flauta pronto se hicieron patentes.
+**[Katharina Gruber](https://www.fundaciongoethe.org/es/artistas/katharina-gruber/)** entró en contacto con la música a una edad temprana a través de su padre, el guitarrista Christian Gruber, y su pasión y talento para cantar y tocar la flauta pronto se hicieron patentes.
 
 Tras recibir en su juventud premios culturales de su escuela y de su ciudad natal, Landsberg, y una vez finalizado su bachillerato, estudió primero la asignatura artística principal de flauta con Renate Greiss-Armin en la Musikhochschule Karlsruhe y con Mie Ogura en el Conservatoire Jaques Ibert de París.
 
