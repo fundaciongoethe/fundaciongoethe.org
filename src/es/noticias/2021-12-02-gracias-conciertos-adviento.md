@@ -1,11 +1,11 @@
 ---
-title: "¡Gracias por acompañarnos en nuestros conciertos de Adviento!"
+title: "Gracias por acompañarnos en nuestros conciertos de Adviento"
 date: "2021-12-02"
 translationKey: "advieento2021gracias"
 excerpt: Nuestros conciertos de Adviento de este año han terminado y han sido un gran éxito. Estamos tremendamente agradecidos por la gran demanda de invitaciones.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/concierto-adviento-barcelona-2021-2.jpg
-  alt: Dulces navideños preparados en una mesa para los asistentes del cocnierto
+  alt: Dulces navideños preparados en una mesa para los asistentes del concierto
   credit: Mireia Miralles
 gallery:
   - image: ./src/assets/images/blog/concierto-adviento-barcelona-2021-3.jpg

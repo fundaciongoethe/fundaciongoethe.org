@@ -143,8 +143,10 @@
             <line x1="4" y1="12" x2="20" y2="12" />
             <line x1="4" y1="18" x2="20" y2="18" />
           </svg>
-          <span class="uppercase" :class="{ 'hidden': open, 'block': !(open) }"
-            >{{ meta[locale].menuButton }}dd</span
+          <span
+            class="uppercase"
+            :class="{ 'hidden': open, 'block': !(open) }"
+            >{{ meta[locale].menuButton }}</span
           >
           {# Icon when menu is open. #}
           <svg
