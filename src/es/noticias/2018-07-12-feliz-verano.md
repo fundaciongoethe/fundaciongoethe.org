@@ -1,5 +1,5 @@
 ---
-title: "¡Feliz verano!"
+title: "Feliz verano"
 date: "2018-07-12"
 translationKey: "verano18"
 excerpt: Aquí pueden ver algunos de los eventos que estamos preparando para el regreso de las vacaciones. Quedamos a su disposición para cualquier duda o preinscripción.

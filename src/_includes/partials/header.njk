@@ -110,7 +110,7 @@
             inline-flex
             items-center
             justify-center
-            px-2
+            px-3
             my-1
             text-xs
             font-semibold
@@ -143,11 +143,11 @@
             <line x1="4" y1="12" x2="20" y2="12" />
             <line x1="4" y1="18" x2="20" y2="18" />
           </svg>
-          <span
+          <!-- <span
             class="uppercase"
             :class="{ 'hidden': open, 'block': !(open) }"
             >{{ meta[locale].menuButton }}</span
-          >
+          > -->
           {# Icon when menu is open. #}
           <svg
             x-state:on="Menu open"
@@ -167,11 +167,11 @@
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
-          <span
+          <!-- <span aspect-h-9
             class="uppercase"
             :class="{ 'block': open, 'hidden': !(open) }"
             >{{ meta[locale].menuClose }}</span
-          >
+          > -->
         </button>
       </div>
     </div>

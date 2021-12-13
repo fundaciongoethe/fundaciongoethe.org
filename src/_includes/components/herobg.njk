@@ -29,8 +29,8 @@
             mx-auto
             lg:row-start-1 lg:col-start-1
             mt-10
-            md:mt-28
-            lg:mt-40
+            md:mt-40
+            lg:mt-48
           "
         >
           <span
@@ -60,11 +60,9 @@
     </div>
 
     <div class="lg:w-full xl:w-4/7 pr-10 sm:pr-16 md:pr-0">
-      <!-- picture shortcode geht nicht? -->
-
-      {% Picture heroimg.url, "", " h-56 rounded-tr-xl md:rounded-tr-none
-      md:h-auto w-full object-cover fade-in md:rounded-b-lg", heroimg.alt,
-      "eager" %}
+      {% Picture heroimg.url, "bg-transparent", " h-56 rounded-tr-xl
+      md:rounded-tr-none md:h-full w-full object-cover fade-in md:rounded-b-lg",
+      heroimg.alt, "eager" %}
     </div>
     <div
       class="
