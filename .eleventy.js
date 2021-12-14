@@ -42,9 +42,6 @@ const isValidEvent = (event) => isValidTitle(event.data.title);
 const _ = require("lodash");
 
 module.exports = function (eleventyConfig) {
-	// Folders to copy to build dir (See. 1.1)
-	eleventyConfig.addPassthroughCopy("src/static");
-
 	// Filters
 	Object.keys(filters).forEach((filterName) => {
 		eleventyConfig.addFilter(filterName, filters[filterName]);
