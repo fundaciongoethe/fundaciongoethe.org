@@ -5,45 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ seo.title or title }} | {{ meta[locale].metaTitle }}</title>
 
-    <!-- fonts -->
-    <link
-      rel="preload"
-      href="/assets/fonts/gotham/gothamrnd-book.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="/assets/fonts/gotham/gothamrnd-medium.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="/assets/fonts/gotham/gothamrnd-bold.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+    <!-- fonts preload -->
+    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-book.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-bold.woff2" as="font" type="font/woff2" crossorigin />
 
-    {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{%
-    endset %}
+    {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{% endset %}
     <style>
       {{ css | safe }}
     </style>
     {% else %}
     <link rel="stylesheet" href="/assets/main.min.css" />
     {% endif %}
-    <link
-      rel="alternate"
-      type="application/atom+xml"
-      title="RSS Feed para {{ meta.siteName }}"
-      href="/feed.xml"
-    />
-
-    <link rel="stylesheet" href="/assets/fonts.min.css" />
+    <link rel="alternate" type="application/atom+xml" title="RSS Feed para {{ meta.siteName }}" href="/feed.xml" />
 
     {%- include "partials/head.njk" %}
     <!-- include base schema  -->
@@ -51,24 +25,17 @@
 
     <!-- service worker -->
     <script>
-      if ("serviceWorker" in navigator)
-        navigator.serviceWorker.register("/service-worker.js");
+      if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js');
     </script>
 
     <!-- plausible analytics -->
-    <script
-      defer
-      data-domain="fundaciongoethe.org"
-      src="https://plausible.io/js/plausible.js"
-    ></script>
+    <script defer data-domain="fundaciongoethe.org" src="https://plausible.io/js/plausible.js"></script>
   </head>
   <body class="bg-gray-200">
     <a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
 
     <div hidden>{% svgsprite %}</div>
-    <div
-      class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-yellow-300 via-orange-500 to-red-600' }}"
-    >
+    <div class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-yellow-300 via-orange-500 to-red-600' }}">
       <div
         class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
           overflow

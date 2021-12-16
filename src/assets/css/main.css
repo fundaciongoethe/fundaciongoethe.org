@@ -1,14 +1,15 @@
 /* purgecss start ignore */
 /* fonts werden als erstes geladen */
-/* @import "_fonts.css"; */
+@import 'utils/_fonts.css';
 /* purgecss end ignore */
 
-@import "utils/_tailwind.css";
+@import 'utils/_tailwind.css';
 
 /* purgecss start ignore */
-@import "utils/_accessibility.css";
-@import "utils/_custom.css";
-@import "utils/_animations.css";
-@import "utils/_audio-player.css";
-@import "utils/_lite-youtube.css";
+
+@import 'utils/_accessibility.css';
+@import 'utils/_custom.css';
+@import 'utils/_animations.css';
+@import 'utils/_audio-player.css';
+@import 'utils/_lite-youtube.css';
 /* purgecss end ignore */
