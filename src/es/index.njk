@@ -2,7 +2,7 @@
 title: Inicio
 layout: base
 permalink: /{{ locale }}/index.html
-translationKey: "home"
+translationKey: 'home'
 seo:
   title: La Fundación Goethe en Madrid.
   description: La Fundación Cultural de la Economía Hispano-Alemana desde 2001
@@ -27,24 +27,16 @@ cta:
 sponsorlist:
   title: Nuestros Patrocinadores
   text: Nuestros patrocinadores son, sin duda alguna, el eje central de la Fundación Goethe. Tenemos la suerte de contar desde hace años con la colaboración de reconocidas marcas de gran prestigio mundial.
+  eleventyComputed:
+  preloads:
+    - as: image
+      href: '/assets/images/navidad-2021-hero-230w.jpeg'
 ---
 
 {% include "components/herobg.njk" %}
 
 <main id="main" class="mt-112 sm:mt-96 md:mt-44 lg:mt-64 xl:mt-96 2xl:mt-112">
-  <div
-    class="
-      pt-48
-      pb-5
-      px-4
-      sm:px-6
-      md:pt-48
-      lg:pt-44
-      xl:pt-20
-      2xl:pt-20
-      lg:px-24
-    "
-  >
+  <div class="pt-48 pb-5 px-4 sm:px-6 md:pt-48 lg:pt-44 xl:pt-20 2xl:pt-20 lg:px-24">
     <!-- sponsors -->
     {% include "components/sponsorlist.njk" %}
   </div>

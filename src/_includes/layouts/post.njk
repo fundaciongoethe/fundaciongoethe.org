@@ -6,19 +6,13 @@ layout: home
   {% if images.featured %} {# 21-07 "grayimg" entfernt aus picture class #}
   <figure class="h-full w-full fade-in">
     <div class="mx-auto max-w-4xl relative">
-      {% Picture images.featured,"", "w-full h-auto md:rounded-md", images.alt
-      or title, "eager" %}
+      {% Picture images.featured,"", "w-full h-auto md:rounded-md", images.alt or title, "eager" %}
 
-      <div
-        class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50"
-        style="mix-blend-mode: multiply"
-      ></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50" style="mix-blend-mode: multiply"></div>
     </div>
 
     {% if images.credit %}
-    <figcaption
-      class="pr-3 flex transform -translate-y-10 text-sm py-1 pl-3 sm:pl-6"
-    >
+    <figcaption class="pr-3 flex transform -translate-y-10 text-sm py-1 pl-3 sm:pl-6">
       <!-- Heroicon name: solid/camera -->
       <svg
         class="flex-none w-5 h-5 text-gray-500 bg-gray-50 opacity-80"
@@ -42,15 +36,11 @@ layout: home
 
   {% endif %}
 
-  <div
-    class="text-right text-xs uppercase flex justify-end font-bold mr-5 mt-2"
-  >
-    <time datetime="{{ date | datetime }}">
-      {{ date | date("dddd, Do MMMM yyyy", locale) }}</time
-    >
+  <div class="text-right text-xs uppercase flex justify-end font-bold mr-5 mt-2">
+    <time datetime="{{ date | datetime }}"> {{ date | date("dddd, Do MMMM yyyy", locale) }}</time>
   </div>
 
-  <h1 class="standardtitel px-3 sm:px-6 py-6">
+  <h1 class="standardtitel px-3 sm:px-6 pb-6 pt-12">
     {{ title }}
   </h1>
 
@@ -65,9 +55,8 @@ layout: home
     <h2 class="standardtitel mb-4">{{ meta[locale].gallery }}</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
-      {% for item in gallery %} {% Picture item.image, "aspect-w-5 aspect-h-4
-      md:aspect-w-4 md:aspect-h-4", "object-cover rounded-sm", title, "lazy" %}
-      {%- endfor -%}
+      {% for item in gallery %} {% Picture item.image, "aspect-w-5 aspect-h-4 md:aspect-w-4 md:aspect-h-4",
+      "object-cover rounded-sm", title, "lazy" %} {%- endfor -%}
     </div>
   </div>
   {%- endif -%}
