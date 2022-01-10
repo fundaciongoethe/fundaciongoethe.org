@@ -1,8 +1,8 @@
 ---
-title: "Mercedes"
-translationKey: "mercedes"
-customSlug: "mercedes"
-since: "2011"
+title: 'Mercedes'
+translationKey: 'mercedes'
+customSlug: 'mercedes'
+since: '2011'
 excerpt:
 seo:
   image:
@@ -14,4 +14,6 @@ links:
   facebook: https://facebook.com/MercedesBenzEspana
   instagram: https://instagram.com/mbenzespana
   youtube: https://youtube.com/user/MercedesBenzSpain
+permalink: false
+eleventyExcludeFromCollections: true
 ---

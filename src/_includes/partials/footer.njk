@@ -3,89 +3,35 @@
   <h2 id="footerHeading" class="sr-only">Footer</h2>
   <div class="mx-auto pb-12 lg:pb-16">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8 bg-gray-50 border-b border-t">
-      <div
-        class="
-          space-y-8
-          xl:col-span-1
-          bg-gray-200
-          pl-3
-          sm:pl-16
-          2xl:pl-24
-          py-8
-          pr-8
-        "
-      >
+      <div class="space-y-8 xl:col-span-1 bg-gray-200 pl-3 sm:pl-16 2xl:pl-24 py-8 pr-8">
         <ul class="divide-y divide-gray-200">
           <li class="py-3 flex items-center">
-            {% svg "phone", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0",
-            "Teléfonos", "footer" %}
+            {% svg "phone", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", "Teléfonos", "footer" %}
 
-            <div
-              class="
-                ml-2
-                sm:ml-5
-                text-sm
-                sm:text-base
-                font-semibold
-                text-gray-900
-              "
-            >
+            <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900">
               <p>
-                <a
-                  class="no-underline"
-                  href="tel:{{ meta.address.phoneCall }}"
-                  >{{ meta.address.phoneDisplay }}</a
-                >
+                <a class="no-underline" href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
               </p>
               <p>
-                <a
-                  class="no-underline"
-                  href="tel:{{ meta.address.mobileCall }}"
-                  >{{ meta.address.mobileDisplay }}</a
-                >
+                <a class="no-underline" href="tel:{{ meta.address.mobileCall }}">{{ meta.address.mobileDisplay }}</a>
               </p>
             </div>
           </li>
 
           <li class="py-3 flex items-center">
-            {% svg "mail", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0",
-            "Dirección de correos", "footer" %}
+            {% svg "mail", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", "Dirección de correos", "footer" %}
 
-            <div
-              class="
-                ml-2
-                sm:ml-5
-                text-sm
-                sm:text-base
-                font-semibold
-                text-gray-900
-                truncate
-              "
-            >
+            <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900 truncate">
               <p>
-                <a
-                  class="no-underline truncate"
-                  href="mailto:{{ meta.address.email }}"
-                  >{{ meta.address.email }}</a
-                >
+                <a class="no-underline truncate" href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
               </p>
             </div>
           </li>
 
           <li class="py-3 flex items-center">
-            {% svg "map", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0",
-            "Dirección postal", "footer" %}
+            {% svg "map", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", "Dirección postal", "footer" %}
 
-            <div
-              class="
-                ml-2
-                sm:ml-5
-                text-sm
-                sm:text-base
-                font-semibold
-                text-gray-900
-              "
-            >
+            <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900">
               <p>
                 {{ meta.address.street }}
               </p>
@@ -95,22 +41,7 @@
         </ul>
       </div>
       <div
-        class="
-          mt-12
-          md:grid md:grid-cols-3
-          gap-8
-          xl:mt-0 xl:col-span-2
-          py-8
-          text-base
-          font-semibold
-          tracking-wider
-          uppercase
-          mx-auto
-          max-w-3xl
-          px-3
-          sm:pl-24
-          md:px-3
-        "
+        class="mt-12 md:grid md:grid-cols-3 gap-8 xl:mt-0 xl:col-span-2 py-8 text-base font-semibold tracking-wider uppercase mx-auto max-w-3xl px-3 sm:pl-24 md:px-3"
       >
         <div class="flex flex-row items-center">
           <ul class="space-y-2">
@@ -132,7 +63,7 @@
           </ul>
         </div>
 
-        <div class="flex flex-row items-center mt-12 md:mt-0">
+        <div class="flex flex-row items-center mt-8 md:mt-0">
           <ul class="space-y-2">
             {% for item in navigation[locale].bottom.row2 %}
             <li>
@@ -152,7 +83,7 @@
           </ul>
         </div>
 
-        <div class="flex flex-row items-center mt-12 md:mt-0">
+        <div class="flex flex-row items-center mt-28 md:mt-0">
           <ul class="space-y-2">
             {% for item in navigation[locale].bottom.row3 %}
             <li>
@@ -174,31 +105,11 @@
       </div>
     </div>
   </div>
-  <div
-    class="
-      font-semibold
-      bg-transparent
-      px-2
-      sm:px-6
-      md:px-16
-      2xl:px-24
-      text-xs
-      pb-16
-    "
-  >
-    <div
-      class="
-        py-4
-        lg:py-1
-        flex flex-col
-        xl:flex-row
-        md:items-center md:justify-between
-      "
-    >
+  <div class="font-semibold bg-transparent px-2 sm:px-6 md:px-16 2xl:px-24 text-xs pb-16">
+    <div class="py-4 lg:py-1 flex flex-col xl:flex-row md:items-center md:justify-between">
       <div class="mt-2 lg:mt-0 md:order-1 uppercase">
         <p class="text-center text-gray-900 leading-loose">
-          &copy; 2001 - {% year %} Fundación Goethe {% for item in
-          navigation[locale].footer %}
+          &copy; 2001 - {% year %} Fundación Goethe {% for item in navigation[locale].footer %}
 
           <a
             class="text-gray-900 hover:text-red-600 ml-4"
@@ -215,37 +126,17 @@
         </p>
       </div>
 
-      <div
-        class="
-          mt-6
-          xl:mt-0
-          flex
-          justify-center
-          items-center
-          space-x-2
-          md:order-2
-        "
-      >
-        {# Display Social icons from _data/social.json #} {% for site in social
-        %} {% if site.url %}
+      <div class="mt-6 xl:mt-0 flex justify-center items-center space-x-2 md:order-2">
+        {# Display Social icons from _data/social.json #} {% for site in social %} {% if site.url %}
         <a
           aria-label="Link to {{ site.platform }}"
           alt="Link to {{ site.platform }}"
-          class="
-            transition
-            duration-100
-            ease-in-out
-            transform
-            hover:-translate-y-0.5 hover:scale-105
-            text-yellow-400
-            hover:text-gray-50
-          "
+          class="transition duration-100 ease-in-out transform hover:-translate-y-0.5 hover:scale-105 text-yellow-400 hover:text-gray-50"
           href="{{ site.url | url }}"
           target="_blank"
           rel="noopener"
         >
-          {% svg site.platform, "h-5 w-5 fill-current", site.platform, "footer"
-          %}
+          {% svg site.platform, "h-5 w-5 fill-current", site.platform, "footer" %}
         </a>
         {% endif %} {% endfor %}
         <span class="ml-3 truncate">@fundaciongoethe</span>

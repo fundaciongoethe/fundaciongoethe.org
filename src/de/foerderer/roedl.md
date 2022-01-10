@@ -1,8 +1,8 @@
 ---
-title: "Rödl & Partner "
-translationKey: "roedl"
-customSlug: "roedl"
-since: "2011"
+title: 'Rödl & Partner '
+translationKey: 'roedl'
+customSlug: 'roedl'
+since: '2011'
 excerpt:
 seo:
   image:
@@ -14,4 +14,6 @@ links:
   facebook:
   instagram:
   linkedin:
+permalink: false
+eleventyExcludeFromCollections: true
 ---
