@@ -308,7 +308,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/fonts/');
   eleventyConfig.addPassthroughCopy('src/assets/svg/');
-  eleventyConfig.addPassthroughCopy('src/assets/pdf/');
 
   // social icons von images zu root
   eleventyConfig.addPassthroughCopy({
