@@ -1,40 +1,16 @@
 <div class="relative bg-gray-900 mt-20">
-  <div
-    class="
-      relative
-      h-56
-      bg-gray-100
-      sm:h-72
-      md:absolute md:left-0 md:h-full md:w-5/12
-    "
-  >
-    {% Picture "./src/assets/images/cta/concert.jpg","bg-gray-100", "w-full
-    h-full object-cover", "Concierto de una gran orquesta", "lazy" %}
+  <div class="relative h-56 bg-gray-100 sm:h-72 md:absolute md:left-0 md:h-full md:w-5/12">
+    {% Picture "./src/assets/images/cta/concert.jpg","bg-gray-100", "w-full h-full object-cover", "Concierto de una gran
+    orquesta", "lazy" %}
 
     <div
       aria-hidden="true"
-      class="
-        absolute
-        inset-0
-        bg-gradient-to-b
-        from-gray-50
-        to-orange-50
-        mix-blend-multiply
-      "
+      class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50 mix-blend-multiply"
     ></div>
   </div>
   <div class="relative mx-auto">
     <div class="md:ml-auto md:w-7/12 flex flex-col sm:flex-row">
-      <div
-        class="
-          sm:w-7/12
-          bg-yellow-400
-          px-3
-          py-12
-          sm:px-6 sm:py-10
-          lg:px-10 lg:py-12
-        "
-      >
+      <div class="sm:w-7/12 bg-yellow-400 px-3 py-12 sm:px-6 sm:py-10 lg:px-10 lg:py-12">
         <h2 class="mt-2 text-black standardtitel">
           {{ promotion.title }}
         </h2>
@@ -45,19 +21,9 @@
           <div class="inline-flex">
             <a
               href="{{ promotion.link }}"
-              class="
-                inline-flex
-                items-center
-                justify-center
-                px-2
-                py-2
-                text-xs
-                font-bold
-                text-black
-                uppercase
-              "
+              class="inline-flex items-center justify-center px-2 py-2 text-xs font-bold text-black uppercase"
             >
-              {% svg "arrow-right", "-ml-1 mr-3 h-5 w-5", "flecha" %}
+              {% svg "arrow-right", "-ml-1 mr-3 h-5 w-5", visible, "flecha" %}
               {{ promotion.more }}
             </a>
           </div>
@@ -69,23 +35,7 @@
           <li>
             <a
               href="{{ navigation[locale].bottom.row2[0].url }}"
-              class="
-                buttonhover
-                no-underline
-                inline-flex
-                px-2
-                sm:px-4
-                py-2
-                my-2
-                border border-transparent
-                text-base
-                uppercase
-                font-semibold
-                rounded-sm
-                shadow-sm
-                sm:bg-gray-700
-                hover:bg-red-600 hover:text-white
-              "
+              class="buttonhover no-underline inline-flex px-2 sm:px-4 py-2 my-2 border border-transparent text-base uppercase font-semibold rounded-sm shadow-sm sm:bg-gray-700 hover:bg-red-600 hover:text-white"
             >
               {{ navigation[locale].bottom.row2[0].text }}
             </a>
@@ -93,23 +43,7 @@
           <li>
             <a
               href="{{ navigation[locale].bottom.row2[1].url }}"
-              class="
-                buttonhover
-                no-underline
-                inline-flex
-                px-2
-                sm:px-4
-                py-2
-                my-2
-                border border-transparent
-                text-base
-                uppercase
-                font-semibold
-                rounded-sm
-                shadow-sm
-                sm:bg-gray-700
-                hover:bg-red-600 hover:text-white
-              "
+              class="buttonhover no-underline inline-flex px-2 sm:px-4 py-2 my-2 border border-transparent text-base uppercase font-semibold rounded-sm shadow-sm sm:bg-gray-700 hover:bg-red-600 hover:text-white"
             >
               {{ navigation[locale].bottom.row2[1].text }}
             </a>
@@ -118,23 +52,7 @@
           <li>
             <a
               href="{{ navigation[locale].bottom.row2[2].url }}"
-              class="
-                buttonhover
-                no-underline
-                inline-flex
-                px-2
-                sm:px-4
-                py-2
-                my-2
-                border border-transparent
-                text-base
-                uppercase
-                font-semibold
-                rounded-sm
-                shadow-sm
-                sm:bg-gray-700
-                hover:bg-red-600 hover:text-white
-              "
+              class="buttonhover no-underline inline-flex px-2 sm:px-4 py-2 my-2 border border-transparent text-base uppercase font-semibold rounded-sm shadow-sm sm:bg-gray-700 hover:bg-red-600 hover:text-white"
             >
               {{ navigation[locale].bottom.row2[2].text }}
             </a>

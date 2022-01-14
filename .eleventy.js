@@ -13,6 +13,7 @@ const dateFilters = require('./utils/filters/dateFilters.js');
 const youtube = require('./utils/shortcodes/youtube-lite.js');
 const audiofile = require('./utils/shortcodes/audio.js');
 const svg = require('./utils/shortcodes/svg.js');
+const imageShortcodePlaceholder = require('./utils/shortcodes/image-placeholder.js');
 
 // paired shortcodes
 const markdownShortcodes = require('./utils/paired-shortcodes/markdown-shortcodes.js');
@@ -80,6 +81,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles
   eleventyConfig.addShortcode('youtube', youtube);
   eleventyConfig.addShortcode('audiofile', audiofile);
+  eleventyConfig.addNunjucksAsyncShortcode('imagePh', imageShortcodePlaceholder);
 
   Object.keys(svg).forEach((shortcodeName) => {
     eleventyConfig.addShortcode(shortcodeName, svg[shortcodeName]);
@@ -308,6 +310,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/fonts/');
   eleventyConfig.addPassthroughCopy('src/assets/svg/');
+  eleventyConfig.addPassthroughCopy('src/assets/images/image-placeholder.png');
 
   // social icons von images zu root
   eleventyConfig.addPassthroughCopy({

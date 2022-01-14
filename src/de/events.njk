@@ -1,8 +1,8 @@
 ---
 title: Events
 layout: home
-permalink: "/{{ locale }}/events/index.html"
-translationKey: "events"
+permalink: '/{{ locale }}/events/index.html'
+translationKey: 'events'
 seo:
   title: Veranstaltungen und Termine
   description: Die Fundación Goethe unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten.
@@ -34,43 +34,15 @@ pastevents:
 {% include "components/hero-grid.njk" %}
 
 <div class="my-10 2xl:md:my-16 xl:my-28">
-  <ul
-    class="
-      divide-y divide-gray-300
-      md:bg-gray-100 md:border-t md:border-b
-      border-gray-300
-    "
-  >
+  <ul class="divide-y divide-gray-300 md:bg-gray-100 md:border-t md:border-b border-gray-300">
     <!-- events FUTURE -->
 
     {% for event in collections.eventsZukunft %}
     <li class="px-3 py-5 md:py-0 max-w-5xl mx-auto">
       <div class="flex items-center space-x-4">
-        <a
-          class="no-underline py-1 sm:py-5 lg:py-6"
-          tabindex="-1"
-          href="{{ event.url }}"
-        >
-          <div
-            class="
-              flex flex-col
-              items-center
-              justify-center
-              w-20
-              md:w-32
-              lg:w-40
-              text-center
-            "
-          >
-            <p
-              class="
-                text-xs
-                uppercase
-                tracking-wider
-                text-gray-500
-                font-semibold
-              "
-            >
+        <a class="no-underline py-1 sm:py-5 lg:py-6" tabindex="-1" href="{{ event.url }}">
+          <div class="flex flex-col items-center justify-center w-20 md:w-32 lg:w-40 text-center">
+            <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">
               {{ event.date | date("dddd", locale) }}
             </p>
 
@@ -94,8 +66,8 @@ pastevents:
           #}
           <a href="{{ event.url }}" tabindex="-1">
             <!-- picture shortcode -->
-            {% Picture event.data.images.featured,"h-40 w-40", "object-cover
-            filter h-40 w-full grayscale", event.data.images.alt, "lazy" %}
+            {% Picture event.data.images.featured,"h-40 w-40", "object-cover filter h-40 w-full grayscale",
+            event.data.images.alt, "lazy" %}
           </a>
         </div>
 
@@ -103,19 +75,7 @@ pastevents:
           <a class="no-underline py-1 sm:py-5 lg:py-6" href="{{ event.url }}">
             <div class="flex items-center justify-start">
               <p
-                class="
-                  hidden
-                  sm:inline-flex
-                  items-center
-                  px-2.5
-                  py-0.5
-                  rounded-md
-                  text-xs
-                  font-semibold
-                  border border-gray-300
-                  uppercase
-                  tracking-wider
-                "
+                class="hidden sm:inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold border border-gray-300 uppercase tracking-wider"
               >
                 {{ event.data.type }}
               </p>
@@ -127,30 +87,13 @@ pastevents:
 
             <h2
               id="{{ event.data.title | slug }}"
-              class="
-                standardtext
-                md:uppercase
-                font-semibold
-                xl:font-bold
-                my-1
-                md:mb-4
-                max-w-sm
-              "
+              class="standardtext md:uppercase font-semibold xl:font-bold my-1 md:mb-4 max-w-sm"
             >
               {{ event.data.title }}
             </h2>
 
             <div class="flex items-center justify-start">
-              <p
-                class="
-                  mr-4
-                  font-semibold
-                  text-red-600
-                  uppercase
-                  tracking-wider
-                  text-xs
-                "
-              >
+              <p class="mr-4 font-semibold text-red-600 uppercase tracking-wider text-xs">
                 {{ event.data.city }}
               </p>
               <p class="text-xs font-semibold hidden sm:block">
@@ -171,24 +114,9 @@ pastevents:
           <a
             href="{{ event.url }}"
             tabindex="-1"
-            class="
-              inline-flex
-              items-center
-              shadow-sm
-              px-2.5
-              py-2.5
-              rounded-full
-              bg-red-600
-              transform
-              hover:translate-x-2
-              transition
-              duration-300
-              ease-in-out
-              mr-1
-              sm:mr-3
-            "
+            class="inline-flex items-center shadow-sm px-2.5 py-2.5 rounded-full bg-red-600 transform hover:translate-x-2 transition duration-300 ease-in-out mr-1 sm:mr-3"
           >
-            {% svg "arrow-right-white", "h-5 w-5 lg:h-10 lg:w-10", "flecha" %}
+            {% svg "arrow-right-white", "h-5 w-5 lg:h-10 lg:w-10", hidden %}
           </a>
         </div>
       </div>
@@ -209,18 +137,7 @@ pastevents:
   </div>
 
   <!-- events PAST -->
-  <div
-    class="
-      bg-white
-      max-w-xl
-      mx-auto
-      border-t
-      sm:border
-      border-gray-300
-      sm:rounded-md
-    "
-    x-data="{selected:null}"
-  >
+  <div class="bg-white max-w-xl mx-auto border-t sm:border border-gray-300 sm:rounded-md" x-data="{selected:null}">
     <ul class="shadow-box">
       <!-- sorted by year past events -->
       {% for year, yearPosts in collections.eventsVergangenheit %}
@@ -229,9 +146,7 @@ pastevents:
         <button
           type="button"
           class="w-full px-8 py-6 text-left"
-          @click="selected !== {{ loop.index }} ? selected = {{
-            loop.index
-          }} : selected = null"
+          @click="selected !== {{ loop.index }} ? selected = {{ loop.index }} : selected = null"
         >
           <div class="flex items-center justify-between">
             <h3 class="md:font-semibold 2xl:font-bold">
@@ -260,9 +175,7 @@ pastevents:
           class="relative overflow-hidden max-h-0"
           style=""
           x-ref="container{{ loop.index }}"
-          x-bind:style="selected == {{
-            loop.index
-          }} ? 'max-height: ' + $refs.container{{
+          x-bind:style="selected == {{ loop.index }} ? 'max-height: ' + $refs.container{{
             loop.index
           }}.scrollHeight + 'px' : ''"
         >
@@ -270,15 +183,7 @@ pastevents:
             {% for event in yearPosts | reverse %}
 
             <a
-              class="
-                no-underline
-                text-sm
-                bg-gray-200
-                py-0.5
-                rouded-sm
-                pr-1
-                hover:bg-yellow-400
-              "
+              class="no-underline text-sm bg-gray-200 py-0.5 rouded-sm pr-1 hover:bg-yellow-400"
               href="{{ event.url }}"
             >
               <span class="bg-black text-white px-2 py-0.5 rouded-sm">

@@ -1,9 +1,9 @@
 ---
-title: "The SuAnLo Trio"
-translationKey: "suanlo"
-customSlug: "suanlo-trio"
+title: 'The SuAnLo Trio'
+translationKey: 'suanlo'
+customSlug: 'suanlo-trio'
 excerpt: El SuAnLo Trio nace en San Sebastián en el año 2015 con el objetivo de ofrecer una gran variedad de música tanto en eventos privados como públicos.
-occupation: "Trío de piano"
+occupation: 'Pianotrio'
 seo:
   image: artists/suanlo.jpg
 images: # complete path for eleventy img srcset output, alt required

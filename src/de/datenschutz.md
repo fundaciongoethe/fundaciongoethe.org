@@ -2,8 +2,8 @@
 title: Datenschutzerklärung
 description: Datenschutzerklärung der Fundación Goethe, gemäß der EU-Datenschutzgrundverordnung (GDPR).
 layout: page
-permalink: "/{{ locale }}/datenschutz/index.html"
-translationKey: "privacy"
+permalink: '/{{ locale }}/datenschutz/index.html'
+translationKey: 'privacy'
 ---
 
 # Datenschutzerklärung
@@ -23,6 +23,7 @@ Wenn Sie diesbezüglich Fragen oder Bedenken haben, wenden Sie sich bitte an: <a
 ## Welche Daten werden im Hintergrund gesammelt?
 
 Diese Website sammelt oder speichert keine persönlich identifizierbaren Daten im Hintergrund.
+Für unsere Besucherstatistiken verwenden wir <a rel="noreferrer noopener" href="https://plausible.io/">Plausible Analytics</a>, ein datenschutzfreundliches Webanalysetool. Es wurde so entwickelt, dass es mit den verschiedenen Datenschutzbestimmungen wie DSGVO und CCPA konform ist. Plausible verwendet keine Cookies und sammelt keinerlei persönliche Daten.
 
 ## Internationale Datenübertragungen
 
@@ -49,4 +50,4 @@ Wenn wir den Inhalt dieser Richtlinien ändern, werden diese Änderungen in dem 
 
 Wenn Sie einen Grund haben, sich über die Art und Weise zu beschweren, wie wir Ihre Privatsphäre behandlen, kontaktieren Sie uns bitte per E-Mail an : <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.
 
-Zuletzt aktualisiert am: 01. Juli 2021
+Zuletzt aktualisiert am: 14. Januar 2022

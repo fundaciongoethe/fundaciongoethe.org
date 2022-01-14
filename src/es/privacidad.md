@@ -2,8 +2,8 @@
 title: Política de privacidad
 description: Política de privacidad según la Regulación General de Protección de Datos de la UE (RGPD).
 layout: page
-permalink: "/{{ locale }}/privacidad/index.html"
-translationKey: "privacy"
+permalink: '/{{ locale }}/privacidad/index.html'
+translationKey: 'privacy'
 ---
 
 # Política de privacidad
@@ -18,11 +18,13 @@ translationKey: "privacy"
 **Tel:** <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
 **Mail:** <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
-Si tienes alguna pregunta o duda al respecto por favor, ponte en contacto con Claudia Remus: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+Si tiene alguna pregunta o duda al respecto, Ppngase en contacto con Claudia Remus: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 ## ¿Qué datos de fondo se recogen?
 
-Esta página web no recoge ningún dato personal. No establece ninguna cookie y no utiliza ningún script de seguimiento de terceros. No se procesa ninguna analítica de usuario ni ninguna otra métrica durante tu visita, y el servidor no escribe ningún archivo de registro, lo que significa que tu dirección IP no se almacena en ningún sitio.
+Esta página web no recoge ningún dato personal. No establece ninguna cookie y no utiliza ningún script de seguimiento de terceros.
+
+Para nuestras estadísticas de visitantes utilizamos <a rel="noreferrer noopener" href="https://plausible.io/">Plausible Analytics</a>, una herramienta de análisis web que da prioridad a la privacidad. Está construida para cumplir con las diferentes regulaciones de privacidad, como RGPD y CCPA. Plausible no utiliza cookies y no recoge ningún tipo de datos personales.
 
 ## Tansferencias internacionales de datos
 
@@ -71,7 +73,7 @@ Una vez concluida la relación o finalizado el plazo antes indicado, en la medid
 
 ## ¿Qué tan seguro es este sitio web?
 
-Este sitio web se transmite a sí mismo usando HTTPS, encriptando todos los datos entre el navegador y el servidor. Tu proveedor de red puede seguir viendo que está cargando archivos de este sitio, pero no su contenido. Esto también te protege de que terceros intercepten datos, por ejemplo, mientras navega en una WiFi pública, o de que los proveedores de red inyecten anuncios en este sitio.
+Este sitio web se transmite a sí mismo usando HTTPS, encriptando todos los datos entre el navegador y el servidor. Su proveedor de red puede seguir viendo que está cargando archivos de este sitio, pero no su contenido. Esto también le protege de que terceros intercepten datos, por ejemplo, mientras navega en una WiFi pública, o de que los proveedores de red inyecten anuncios en este sitio.
 
 ## Cambios en la política
 
@@ -79,9 +81,9 @@ Si cambiamos el contenido de esta política, esos cambios serán efectivos en el
 
 ## Quejas
 
-Si tienes alguna razón para quejarte de la forma en que tratamos tu privacidad, ponte en contacto con nosotros por correo electrónico: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.
-Podrás también presentar una reclamación ante la Agencia Española de Protección de Datos.
+Si tiene alguna razón para quejarse de la forma en que tratamos su privacidad, póngase en contacto con nosotros por correo electrónico: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>.
+Podrá también presentar una reclamación ante la Agencia Española de Protección de Datos.
 
 ## Actualización
 
-Última actualización: 01 de julio de 2021
+Última actualización: 14 de enero de 2022

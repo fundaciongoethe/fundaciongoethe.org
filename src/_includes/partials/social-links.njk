@@ -6,7 +6,7 @@
   href="{{ links.web }} "
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "world", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
+  {% svg "world", "mr-2 h-5 w-5 flex-shrink-0", visible, "Website" %}
   <span class="ml-3 truncate">{{ links.web | replace("https://", "") }}</span>
 </a>
 {% endif %}
@@ -19,7 +19,7 @@
   href="{{ links.web2 }}"
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "world", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
+  {% svg "world", "mr-2 h-5 w-5 flex-shrink-0", visible, "Website" %}
   <span class="ml-3 truncate">{{ links.web2 | replace("https://", "") }}</span>
 </a>
 {% endif %}
@@ -32,11 +32,8 @@
   href="{{ links.twitter }}"
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "twitter", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
-  <span
-    class="ml-3 truncate"
-    >{{ links.twitter | replace("https://", "") }}</span
-  >
+  {% svg "twitter", "mr-2 h-5 w-5 flex-shrink-0", visible, "Twitter" %}
+  <span class="ml-3 truncate">{{ links.twitter | replace("https://", "") }}</span>
 </a>
 {% endif %}
 
@@ -48,10 +45,8 @@
   href="{{ links.facebook }}"
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "facebook", "mr-2 h-5 w-5 flex-shrink-0", "flecha" %}
-  <span class="ml-3 truncate">
-    {{ links.facebook | replace("https://", "") }}</span
-  >
+  {% svg "facebook", "mr-2 h-5 w-5 flex-shrink-0", visible, "Facebook" %}
+  <span class="ml-3 truncate"> {{ links.facebook | replace("https://", "") }}</span>
 </a>
 {% endif %}
 
@@ -63,10 +58,8 @@
   href="{{ links.instagram }}"
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "instagram", "mr-2 h-5 w-5 flex-shrink-0 ", "flecha" %}
-  <span class="ml-3 truncate">
-    {{ links.instagram | replace("https://", "") }}</span
-  >
+  {% svg "instagram", "mr-2 h-5 w-5 flex-shrink-0 ", visible, "Instagram" %}
+  <span class="ml-3 truncate"> {{ links.instagram | replace("https://", "") }}</span>
 </a>
 {% endif %}
 
@@ -78,11 +71,8 @@
   href="{{ links.youtube }}"
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "youtube", "mr-2 h-5 w-5 flex-shrink-0", "youtube" %}
-  <span
-    class="ml-3 truncate"
-    >{{ links.youtube | replace("https://", "") }}</span
-  >
+  {% svg "youtube", "mr-2 h-5 w-5 flex-shrink-0", visible, "Youtube" %}
+  <span class="ml-3 truncate">{{ links.youtube | replace("https://", "") }}</span>
 </a>
 {% endif %}
 
@@ -94,11 +84,8 @@
   href="{{ links.spotify }}"
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "spotify-black", "mr-2 h-5 w-5 flex-shrink-0", "spotify" %}
-  <span
-    class="ml-3 truncate"
-    >{{ links.spotify | replace("https://", "") }}</span
-  >
+  {% svg "spotify-black", "mr-2 h-5 w-5 flex-shrink-0", visible, "Spotify" %}
+  <span class="ml-3 truncate">{{ links.spotify | replace("https://", "") }}</span>
 </a>
 {% endif %}
 
@@ -110,9 +97,7 @@
   href="{{ links.linkedin }}"
   class="flex items-left justify-left py-1 text-sm text-gray-700"
 >
-  {% svg "linkedin", "mr-2 h-5 w-5 flex-shrink-0", "linkedin" %}
-  <span class="ml-3 truncate">
-    {{ links.linkedin | replace("https://", "") }}</span
-  >
+  {% svg "linkedin", "mr-2 h-5 w-5 flex-shrink-0", visible, "Linkedin" %}
+  <span class="ml-3 truncate"> {{ links.linkedin | replace("https://", "") }}</span>
 </a>
 {% endif %}

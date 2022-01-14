@@ -6,7 +6,7 @@
       <div class="space-y-8 xl:col-span-1 bg-gray-200 pl-3 sm:pl-16 2xl:pl-24 py-8 pr-8">
         <ul class="divide-y divide-gray-200">
           <li class="py-3 flex items-center">
-            {% svg "phone", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", "Teléfonos", "footer" %}
+            {% svg "phone", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", visible, "Teléfonos" %}
 
             <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900">
               <p>
@@ -19,7 +19,7 @@
           </li>
 
           <li class="py-3 flex items-center">
-            {% svg "mail", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", "Dirección de correos", "footer" %}
+            {% svg "mail", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", visible, "Dirección de correos"%}
 
             <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900 truncate">
               <p>
@@ -29,7 +29,7 @@
           </li>
 
           <li class="py-3 flex items-center">
-            {% svg "map", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", "Dirección postal", "footer" %}
+            {% svg "map", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", visible, "Dirección postal" %}
 
             <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900">
               <p>
@@ -136,7 +136,7 @@
           target="_blank"
           rel="noopener"
         >
-          {% svg site.platform, "h-5 w-5 fill-current", site.platform, "footer" %}
+          {% svg site.platform, "h-5 w-5 fill-current", visible, site.platform %}
         </a>
         {% endif %} {% endfor %}
         <span class="ml-3 truncate">@fundaciongoethe</span>
