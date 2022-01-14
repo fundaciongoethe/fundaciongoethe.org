@@ -2,14 +2,14 @@
 
 [[redirects]]
 from = "/"
-to = /de/"
+to = /de"
 status = 302
 force = true
 conditions = {Language = ["de"]}
 
 [[redirects]]
 from = "/"
-to = /es/"
+to = /es"
 status = 302
 force = true}
 
