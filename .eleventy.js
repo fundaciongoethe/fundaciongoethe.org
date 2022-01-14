@@ -33,7 +33,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
-const pluginPWA = require('eleventy-plugin-pwa');
+const pluginPWA = require('@pkvach/eleventy-plugin-pwa');
 
 // event validation
 const isValidTitle = (title = '') => title.trim().length > 2;

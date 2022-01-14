@@ -2,7 +2,7 @@ module.exports = {
   lenesaile: {
     name: 'Lene Saile - Desarrollo web',
     url: 'https://www.lenesaile.com/',
-    logo: './src/assets/images/event-sponsors/lene.png',
+    logo: './src/assets/images/event-sponsors/lene-saile.png',
   },
   patrimonio: {
     name: 'Patrimonio Nacional',
