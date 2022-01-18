@@ -1,8 +1,8 @@
 ---
-title: "Oficina Nacional Alemana de Turismo"
-translationKey: "dzt"
-customSlug: "onat"
-since: "2011"
+title: 'Oficina Nacional Alemana de Turismo'
+translationKey: 'dzt'
+customSlug: 'onat'
+since: '2012'
 excerpt:
 seo:
   image:

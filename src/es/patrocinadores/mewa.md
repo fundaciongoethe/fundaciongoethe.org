@@ -1,8 +1,8 @@
 ---
-title: "Mewa"
-translationKey: "mewa"
-customSlug: "mewa"
-since: "2011"
+title: 'Mewa'
+translationKey: 'mewa'
+customSlug: 'mewa'
+since: '2008'
 excerpt:
 seo:
   image:

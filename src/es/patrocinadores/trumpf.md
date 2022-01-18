@@ -1,8 +1,8 @@
 ---
-title: "Trumpf"
-translationKey: "trumpf"
-customSlug: "trumpf"
-since: "2011"
+title: 'Trumpf'
+translationKey: 'trumpf'
+customSlug: 'trumpf'
+since: '2007'
 excerpt:
 seo:
   image:

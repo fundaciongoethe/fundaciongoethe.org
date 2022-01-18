@@ -1,8 +1,8 @@
 ---
-title: "Jungheinrich"
-translationKey: "jungheinrich"
-customSlug: "jungheinrich"
-since: "2011"
+title: 'Jungheinrich'
+translationKey: 'jungheinrich'
+customSlug: 'jungheinrich'
+since: '2008'
 excerpt:
 seo:
   image:

@@ -1,8 +1,8 @@
 ---
-title: "Dikeos"
-translationKey: "dikeos"
-customSlug: "dikeos"
-since: "2011"
+title: 'Dikeos'
+translationKey: 'dikeos'
+customSlug: 'dikeos'
+since: '2015'
 excerpt:
 seo:
   image:

@@ -1,8 +1,8 @@
 ---
-title: "BASF"
-translationKey: "basf"
-customSlug: "basf"
-since: "2009"
+title: 'BASF'
+translationKey: 'basf'
+customSlug: 'basf'
+since: '2008'
 excerpt: Nuestro patrocinador BASF crea química para un futuro sostenible. El éxito económico se combina con la protección del medio ambiente y la responsabilidad social. BASF está presente en España desde hace más de 50 años. En la actualidad, más de 2.000 empleados trabajan en los distintos centros de todo el país.
 seo:
   title: BASF | Patrocinador de la Fundación Goethe

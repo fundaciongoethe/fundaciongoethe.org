@@ -1,8 +1,8 @@
 ---
-title: "BMW"
-translationKey: "bmw"
-customSlug: "bmw"
-since: "2011"
+title: 'BMW'
+translationKey: 'bmw'
+customSlug: 'bmw'
+since: '2003'
 excerpt:
 seo:
   image:

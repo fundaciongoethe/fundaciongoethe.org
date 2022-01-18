@@ -1,8 +1,8 @@
 ---
-title: "Stihl"
-translationKey: "stihl"
-customSlug: "stihl"
-since: "2011"
+title: 'Stihl'
+translationKey: 'stihl'
+customSlug: 'stihl'
+since: '2007'
 excerpt:
 seo:
   image:

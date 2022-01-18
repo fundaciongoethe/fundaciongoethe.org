@@ -1,8 +1,8 @@
 ---
-title: "Cuatrecasas"
-translationKey: "cuatrecasas"
-customSlug: "cuatrecasas"
-since: "2011"
+title: 'Cuatrecasas'
+translationKey: 'cuatrecasas'
+customSlug: 'cuatrecasas'
+since: '2007'
 excerpt:
 seo:
   image:

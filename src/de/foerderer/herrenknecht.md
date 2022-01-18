@@ -1,8 +1,8 @@
 ---
-title: "Herrenknecht"
-translationKey: "herrenknecht"
-customSlug: "herrenknecht"
-since: "2011"
+title: 'Herrenknecht'
+translationKey: 'herrenknecht'
+customSlug: 'herrenknecht'
+since: '2010'
 excerpt:
 seo:
   image:

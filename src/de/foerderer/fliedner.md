@@ -1,8 +1,8 @@
 ---
-title: "Fundación Federico Fliedner"
-translationKey: "fliedner"
-customSlug: "fliedner"
-since: "2011"
+title: 'Fundación Federico Fliedner'
+translationKey: 'fliedner'
+customSlug: 'fliedner'
+since: '2019'
 excerpt:
 seo:
   image:

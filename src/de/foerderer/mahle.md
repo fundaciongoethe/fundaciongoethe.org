@@ -1,8 +1,8 @@
 ---
-title: "Mahle"
-translationKey: "mahle"
-customSlug: "mahle"
-since: "2011"
+title: 'Mahle'
+translationKey: 'mahle'
+customSlug: 'mahle'
+since: '2001'
 excerpt:
 seo:
   image:

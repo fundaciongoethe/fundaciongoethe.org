@@ -1,8 +1,8 @@
 ---
-title: "T-Systems"
-translationKey: "t-systems"
-customSlug: "t-systems"
-since: "2011"
+title: 'T-Systems'
+translationKey: 't-systems'
+customSlug: 't-systems'
+since: '2017'
 excerpt:
 seo:
   image:

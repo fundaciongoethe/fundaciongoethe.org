@@ -1,8 +1,8 @@
 ---
-title: "Lidl"
-translationKey: "lidl"
-customSlug: "lidl"
-since: "2011"
+title: 'Lidl'
+translationKey: 'lidl'
+customSlug: 'lidl'
+since: '2016'
 excerpt:
 seo:
   image:

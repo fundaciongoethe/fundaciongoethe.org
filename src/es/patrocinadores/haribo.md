@@ -1,8 +1,8 @@
 ---
-title: "Haribo"
-translationKey: "haribo"
-customSlug: "haribo"
-since: "2011"
+title: 'Haribo'
+translationKey: 'haribo'
+customSlug: 'haribo'
+since: '2008'
 excerpt:
 seo:
   image:

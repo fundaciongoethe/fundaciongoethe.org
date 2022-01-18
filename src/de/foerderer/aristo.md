@@ -1,8 +1,8 @@
 ---
-title: "Aristo"
-translationKey: "aristo"
-customSlug: "aristo"
-since: "2011"
+title: 'Aristo'
+translationKey: 'aristo'
+customSlug: 'aristo'
+since: '2018'
 excerpt: Unser Förderer ARISTO Pharma Iberia ist die spanische Tochtergesellschaft der deutschen Unternehmensgruppe Aristo Pharma GmbH mit langjähriger Erfahrung in der Pharmabranche und Sitz in Berlin.
 seo:
   title: Aristo | Förderer der Fundación Goethe

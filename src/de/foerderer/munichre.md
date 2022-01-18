@@ -1,8 +1,8 @@
 ---
-title: "Munich Re"
-translationKey: "munichre"
-customSlug: "munichre"
-since: "2011"
+title: 'Munich Re'
+translationKey: 'munichre'
+customSlug: 'munichre'
+since: '2008'
 excerpt:
 seo:
   image:

@@ -1,8 +1,8 @@
 ---
-title: "Rhenus Logistics"
-translationKey: "rhenus"
-customSlug: "rhenus"
-since: "2011"
+title: 'Rhenus Logistics'
+translationKey: 'rhenus'
+customSlug: 'rhenus'
+since: '2008'
 excerpt:
 seo:
   image:

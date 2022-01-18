@@ -1,11 +1,13 @@
 ---
-title: "BMW"
-translationKey: "bmw"
-customSlug: "bmw"
-since: "2011"
-excerpt:
+title: 'BMW'
+translationKey: 'bmw'
+customSlug: 'bmw'
+since: '2003'
+excerpt: 'Nuestro patrocinador BMW España hace realidad la pasión de conducir. Ofrece modelos exclusivos que marcan el rumbo del futuro.'
 seo:
-  image:
+  title: BMW | Patrocinador de la Fundación Goethe
+  description: Nuestro patrocinador BMW España hace realidad la pasión de conducir. Ofrece modelos exclusivos que marcan el rumbo del futuro.
+  image: ./src/assets/images/sponsors/bmw/bmw-logo.png
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/bmw/bmw-logo.png
 links:

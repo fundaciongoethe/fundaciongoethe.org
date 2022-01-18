@@ -1,8 +1,8 @@
 ---
-title: "Aristo"
-translationKey: "aristo"
-customSlug: "aristo"
-since: "2011"
+title: 'Aristo'
+translationKey: 'aristo'
+customSlug: 'aristo'
+since: '2018'
 excerpt: Nuestro patrocinador ARISTO Pharma Iberia es la filial española del grupo de empresas alemán Aristo Phar. GmbH con muchos años de experiencia en la industria farmacéutica y con sede en Berlín.
 seo:
   title: Aristo | Patrocinador de la Fundación Goethe

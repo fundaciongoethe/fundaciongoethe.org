@@ -1,8 +1,8 @@
 ---
-title: "Deutsche Zentrale für Tourismus"
-translationKey: "dzt"
-customSlug: "dzt"
-since: "2011"
+title: 'Deutsche Zentrale für Tourismus'
+translationKey: 'dzt'
+customSlug: 'dzt'
+since: '2012'
 excerpt:
 seo:
   image:

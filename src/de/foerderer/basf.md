@@ -1,8 +1,8 @@
 ---
-title: "BASF"
-translationKey: "basf"
-customSlug: "basf"
-since: "2009"
+title: 'BASF'
+translationKey: 'basf'
+customSlug: 'basf'
+since: '2008'
 excerpt: Unser Förderer BASF schafft Chemie für eine nachhaltige Zukunft. Wirtschaftlichen Erfolg wird mit Umweltschutz und sozialer Verantwortung verbunden. Die BASF ist seit mehr als 50 Jahren in Spanien vertreten. Derzeit arbeiten mehr als 2.000 Mitarbeiter in den verschiedenen Zentren im ganzen Land.
 seo:
   title: BASF | Förderer der Fundación Goethe
