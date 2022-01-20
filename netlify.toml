@@ -51,7 +51,7 @@ force = true
 [[headers]]
     for = "/*"
     [headers.values]
-    Content-Security-Policy = "default-src 'self' www.fundaciongoethe.org api.netlify.com identity.netlify.com; connect-src 'self' www.netlifystatus.com plausible.io; img-src 'self' data: cdnjs.cloudflare.com; manifest-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; script-src 'self' cdnjs.cloudflare.com identity.netlify.com unpkg.com plausible.io instant.page 'unsafe-eval' 'unsafe-inline'; worker-src 'self' blob; font-src 'self' data: fonts.gstatic.com;"
+    Content-Security-Policy = "default-src 'self' www.fundaciongoethe.org api.netlify.com identity.netlify.com youtube-nocookie.com; connect-src 'self' www.netlifystatus.com plausible.io; img-src 'self' data: cdnjs.cloudflare.com; manifest-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; script-src 'self' cdnjs.cloudflare.com identity.netlify.com unpkg.com plausible.io instant.page 'unsafe-eval' 'unsafe-inline'; worker-src 'self' blob; font-src 'self' data: fonts.gstatic.com; iframe-src www.youtube-nocookie.com/embed"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"

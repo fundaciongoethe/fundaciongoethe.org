@@ -4,13 +4,13 @@ title: 'Visita guiada en el Museo Nacional Thyssen-Bornemisza'
 translationKey: thyssen2022
 customSlug: visita-guiada-en-el-museo-nacional-thyssen-bornemisza-2022
 venue: [thyssen]
-artist:
+artist: [felixscheffler]
 city: Madrid
 type: 'Visita guiada'
 access: Se requiere una invitación personal
-date: 2022-01-28 16:45:00
-opening: 2022-01-28 16:30:00
-ending: 2022-01-28 18:45:00
+date: 2022-01-28 16:00:00
+opening: 2022-01-28 15:45:00
+ending: 2022-01-28 18:00:00
 deadline: 2022-01-24 11:00:00
 calcDuration: 1.5
 program:

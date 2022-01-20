@@ -7,9 +7,9 @@ artist: [felixscheffler]
 city: Madrid
 type: 'Museumsführung'
 access: Persönliche Einladung erforderlich
-date: 2022-01-28 16:45:00
-opening: 2022-01-28 16:30:00
-ending: 2022-01-28 18:45:00
+date: 2022-01-28 16:00:00
+opening: 2022-01-28 15:45:00
+ending: 2022-01-28 18:00:00
 deadline: 2022-01-24 11:00:00
 calcDuration: 1.5
 program:
