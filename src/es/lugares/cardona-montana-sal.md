@@ -1,7 +1,7 @@
 ---
-title: "Montaña de sal de Cardona"
-translationKey: "montanacardona"
-customSlug: "montana-sal-cardona"
+title: 'Montaña de sal de Cardona'
+translationKey: 'montanacardona'
+customSlug: 'montana-sal-cardona'
 excerpt: La Montaña de Sal de Cardona es uno de los 17 "Espacios de Interés Natural de Cataluña". Todavía crece porque la lluvia lo erosiona.
 city: Cardona
 seo: # image relative to /assets/images/
@@ -9,7 +9,7 @@ seo: # image relative to /assets/images/
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/montana-sal-cardona.jpg
   alt: Interior de la mina
-  credit: Beusson, CC BY-SA 3.0, via Wikimedia Commons
+  credit:
 links:
   web: https://cardonaturisme.cat/ca/que-fer-hi/parc-cultural-muntanya-de-sal
 ---

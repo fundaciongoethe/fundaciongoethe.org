@@ -1,16 +1,16 @@
 ---
 title: 'Visita guiada en el Museo Nacional Thyssen-Bornemisza'
 translationKey: thyssen2022
-customSlug: visita-guiada-en-el-museo-nacional-thyssen-bornemisza-2022
+customSlug: visita-guiada-museo-nacional-thyssen-bornemisza-2022-espanol
 venue: [thyssen]
 artist: [felixscheffler]
 city: Madrid
 type: 'Visita guiada'
 access: Se requiere una invitación personal
-date: 2022-01-28 16:00:00
-opening: 2022-01-28 15:45:00
-ending: 2022-01-28 18:00:00
-deadline: 2022-01-24 11:00:00
+date: 2022-02-18 16:00:00
+opening: 2022-02-18 15:45:00
+ending: 2022-02-18 18:00:00
+deadline: 2022-01-14 11:00:00
 calcDuration: 2
 program:
 seo:
@@ -22,7 +22,7 @@ images: # complete path for eleventy img srcset output, alt required
 infobox: Evento privado, sólo con invitación personal.
 ---
 
-<strong>Visita guiada en alemán.</strong>
+<strong>Visita guiada en español.</strong>
 
 Partiendo de la creación en su día de la colección enciclopédica privada más importante a nivel mundial, la visita guiada abarca las obras maestras de los siglos 14 a 17 y nos mostrará las características únicas de los distintos tipos de cuadros, desde pinturas sacras e históricas pasando por retratos, bodegones y paisajes.
 

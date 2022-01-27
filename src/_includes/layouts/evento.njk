@@ -376,7 +376,8 @@ tags: pages
             href="{{ partnerarchiv[partner].url }}"
             class="buttonhover col-span-1 flex justify-center py-6 px-2 filter grayscale hover:grayscale-0 opacity-75 hover:opacity-100"
           >
-            {% Picture partnerarchiv[partner].logo,"", "lazy max-h-16", partnerarchiv[partner].name, "lazy" %}
+            {% Picture partnerarchiv[partner].logo, "bg-transparent", "lazy max-h-16 object-cover",
+            partnerarchiv[partner].name, "lazy" %}
           </a>
         </figure>
 

@@ -9,7 +9,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/cuatrecasas/cuatrecasas-logo.png
 links:
-  web: https://cuatrecasas.com
+  web: https://www.cuatrecasas.com
   twitter: https://twitter.com/cuatrecasas
   facebook: https://facebook.com/cuatrecasasgp
   instagram: https://instagram.com/cuatrecasas_

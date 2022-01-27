@@ -1,7 +1,7 @@
 ---
-title: "Kulturpark Salzberg in Cardona"
-translationKey: "montanacardona"
-customSlug: "salzberg-cardona"
+title: 'Kulturpark Salzberg in Cardona'
+translationKey: 'montanacardona'
+customSlug: 'salzberg-cardona'
 excerpt: Der Salzberg in Cardona ist einer von insgesamt 17 besondern Naturgebieten in Katalonien. Er wächst bis heute, da der Regen ihn erodiert.
 city: Cardona
 seo: # image relative to /assets/images/
@@ -9,7 +9,7 @@ seo: # image relative to /assets/images/
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/montana-sal-cardona.jpg
   alt: Im Inneren des Bergwerks
-  credit: Beusson, CC BY-SA 3.0, via Wikimedia Commons
+  credit:
 links:
   web: https://cardonaturisme.cat/ca/que-fer-hi/parc-cultural-muntanya-de-sal
 ---
