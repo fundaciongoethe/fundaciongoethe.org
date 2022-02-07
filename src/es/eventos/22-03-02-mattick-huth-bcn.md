@@ -26,6 +26,8 @@ images: # complete path for eleventy img srcset output, alt required
 infobox: Evento privado, sólo con invitación personal.
 ---
 
-Los dos músicos trabajan en dúo desde hace más de 20 años, especializándose entre otros en programas temáticos de conciertos, relacionando música y letra.
+El prestigioso dúo Mattick/Huth de Múnich ofrecerá un concierto para conmemorar el 200 aniversario de la muerte del escritor E.T.A. Hoffmann, que también se hizo un nombre como compositor, director de orquesta y director de ópera.
+
+La música de Ludwig van Beethoven, Franz Schubert y Johann Nepomuk Hummel y los textos de la "Kreisleriana" de Hoffmann dan vida a la diversidad e intensidad del comienzo del periodo romántico.
 
 {% youtube 'YTwRHX5guWk', 'Duo Mattick–Huth. Claude Debussy: En Bateau aus Petite Suite' %}

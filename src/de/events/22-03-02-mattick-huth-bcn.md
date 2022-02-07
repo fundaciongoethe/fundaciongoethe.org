@@ -26,6 +26,8 @@ images: # complete path for eleventy img srcset output, alt required
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 ---
 
-Die beiden Musiker arbeiten seit mehr als 20 Jahren als Duo und haben sich unter anderem auf thematische Konzertprogramme spezialisiert, die Musik und Text miteinander verbinden.
+Das renommierte Duo Mattick/Huth aus München gibt ein Konzert zum Jubiläumsjahr des Dichters E.T.A. Hoffmann, der auch als Komponist, Dirigent und Opernintendant von sich reden machte.
+
+Musik von Ludwig van Beethoven, Franz Schubert und Johann Nepomuk Hummel und Texte aus Hoffmanns „Kreisleriana“ lassen die Vielfalt und Intensität der Zeit der frühen Romantik lebendig werden.
 
 {% youtube 'YTwRHX5guWk', 'Duo Mattick–Huth. Claude Debussy: En Bateau aus Petite Suite' %}
