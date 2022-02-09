@@ -10,20 +10,21 @@ city: Madrid
 partners:
   - dsm
 type: Concierto
-access: Se requiere una invitación personal
+access: Inscripción directa
 date: 2022-03-01 20:00:00
 opening: 2022-03-01 19:30:00
 ending: 2022-03-01 22:00:00
 deadline: 2022-02-28 11:00:00
 calcDuration: 2
-program:
+program: 2022-programa-mattickhuth.pdf
 seo:
   title: Dúo Mattick-Huth en el Colegio Alemán, Madrid
   image: venues/dsmadrid.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/dsmadrid.jpg
   alt: Colegio Alemán Madrid
-infobox: Evento privado, sólo con invitación personal.
+infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
+directregister: https://mattick-huth-2022-madrid.eventbrite.es
 ---
 
 El prestigioso dúo Mattick/Huth de Múnich ofrecerá un concierto para conmemorar el 200 aniversario de la muerte del escritor E.T.A. Hoffmann, que también se hizo un nombre como compositor, director de orquesta y director de ópera.

@@ -10,20 +10,21 @@ city: Madrid
 partners:
   - dsm
 type: Konzert
-access: Persönliche Einladung erforderlich
+access: Direktanmeldung
 date: 2022-03-01 20:00:00
 opening: 2022-03-01 19:30:00
 ending: 2022-03-01 22:00:00
 deadline: 2022-02-28 11:00:00
 calcDuration: 2
-program:
+program: 2022-programa-mattickhuth.pdf
 seo:
   title: Duo Mattick–Huth in der Deutschen Schule, Madrid
   image: venues/dsmadrid.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/dsmadrid.jpg
   alt: Deutsche Schule Madrid
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
+infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
+directregister: https://mattick-huth-2022-madrid.eventbrite.es
 ---
 
 Das renommierte Duo Mattick/Huth aus München gibt ein Konzert zum Jubiläumsjahr des Dichters E.T.A. Hoffmann, der auch als Komponist, Dirigent und Opernintendant von sich reden machte.
