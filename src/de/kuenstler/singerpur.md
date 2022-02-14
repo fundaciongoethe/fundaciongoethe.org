@@ -1,9 +1,9 @@
 ---
-title: "Singer Pur"
-translationKey: "singerpur"
-customSlug: "singer-pur"
-excerpt: Singer Pur ist ein deutsches Vokalsolistenensemble, das von fünf ehemaligen Regensburger Domspatzen gegründet wurde. Sie besteht aus fünf Männern und einer Frau.
-occupation: "Vokalsolistenensemble"
+title: 'Singer Pur'
+translationKey: 'singerpur'
+customSlug: 'singer-pur'
+excerpt: Singer Pur ist ein deutsches Vokalsolistenensemble, das von fünf ehemaligen Regensburger Domspatzen gegründet wurde. Es besteht aus fünf Männern und einer Frau.
+occupation: 'Vokalsolistenensemble'
 seo:
   image: artists/singer-pur-2.jpg
 images: # complete path for eleventy img srcset output, alt required
@@ -18,7 +18,7 @@ links:
   youtube:
 ---
 
-Seit ihrer Gründung 1991 haben sich Singer Pur  –  in der ursprünglichen Besetzung fünf ehemalige Regensburger Domspatzen und eine Sopranistin  –  zu einer der herausragendsten A-cappella-Formationen entwickelt und genießen mittlerweile auch von Seiten der Fachpresse das Prädikat des „derzeit führenden deutschsprachigen Vokalensembles”.
+Seit ihrer Gründung 1991 haben sich Singer Pur  zu einer der herausragendsten A-cappella-Formationen entwickelt und genießen mittlerweile auch von Seiten der Fachpresse das Prädikat des „derzeit führenden deutschsprachigen Vokalensembles”.
 
 1994 gewann das Sextett den 1. Preis des „Deutschen Musikwettbewerbs” in Bonn, ein Jahr später wurde es in Finnland mit dem begehrten „Grand Prix für Vokalmusik” beim Internationalen „Tampere-Musikfestival” ausgezeichnet. Regelmäßige Auftritte im Rahmen renommierter Konzertreihen und Festivals (u. a. Schleswig-Holstein Musik Festival, Ludwigsburger Schlossfestspiele, Rheingau Musikfestival) bestätigen den hervorragenden Ruf des jungen Ensembles. Konzerttourneen führten das Sextett bereits in über 50 Länder, wie fast ganz Europa, die USA, nach Kanada, Afrika und Zentral- und Südostasien.
 
@@ -32,4 +32,4 @@ Das Ensemble wurde auf Grund seiner unermüdlichen internationalen Tätigkeit al
 
 Mit dem weltbekannten britischen „Hilliard Ensemble” verbindet die Gruppe eine enge musikalische und freundschaftliche Zusammenarbeit. Das gemeinsame Projekt „The Hilliard Ensemble meets Singer Pur” (mit Alter und Neuer Vokalmusik für bis zu zehn Stimmen) erregt beim Konzertpublikum großes Aufsehen.
 
-In 2013 trat Singer Pur in acht verschiedenen Ländern auf, gab 4 Workshops in den USA sowie 4 in Deutschland und wurde im selben Jahr mit dem begehrten Caeciliaprijs (Belgien) und dem Bayerischen Staatspreis für Musik ausgezeichnet.
+2013 trat Singer Pur in acht verschiedenen Ländern auf, gab 4 Workshops in den USA sowie 4 in Deutschland und wurde im selben Jahr mit dem begehrten Caeciliaprijs (Belgien) und dem Bayerischen Staatspreis für Musik ausgezeichnet.

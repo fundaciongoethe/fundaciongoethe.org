@@ -199,7 +199,7 @@ tags: pages
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
           {% Picture artist.data.images.featured, "aspect-w-3 aspect-h-2", "object-cover filter grayscale",
-          artist.data.images.alt, "lazy" %}
+          artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
         </div>
         <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 px-3 pb-10">
           <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"> Künstler </span>
@@ -228,7 +228,7 @@ tags: pages
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
           {% Picture artist.data.images.featured,"aspect-w-3 aspect-h-2", "object-cover filter grayscale",
-          artist.data.images.alt, "lazy" %}
+          artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
         </div>
         <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 px-3 pb-10">
           <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"> Künstler </span>
@@ -257,7 +257,7 @@ tags: pages
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
           {% Picture artist.data.images.featured,"aspect-w-3 aspect-h-2", "object-cover filter grayscale",
-          artist.data.images.alt, "lazy" %}
+          artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
         </div>
         <div
           class="text-base max-w-prose mx-auto lg:ml-auto lg:mr-0 px-3 xl:pl-16 sm:pr-6 lg:pr-12 xl:pr-20 pt-4 pb-10"
@@ -286,8 +286,8 @@ tags: pages
     <div class="relative w-full flex flex-col">
       <div class="sm:absolute sm:inset-0">
         <div class="sm:absolute sm:inset-y-0 sm:left-0 sm:w-1/2">
-          {% Picture artist.data.images.featured,"", "filter grayscale w-full object-cover md:absolute h-72 sm:h-96
-          md:h-full", artist.data.images.alt, "lazy" %}
+          {% Picture artist.data.images.featured,"bg-gray-100", "filter grayscale w-full object-cover md:absolute h-72
+          sm:h-96 md:h-full", artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
         </div>
       </div>
       <div class="relative pt-12 pb-16 px-3 sm:pt-16 lg:px-8 sm:max-w-7xl sm:mx-auto sm:grid sm:grid-cols-2">
@@ -351,8 +351,8 @@ tags: pages
 
     <div class="order-1 md:absolute md:inset-y-0 md:right-0 md:w-1/2">
       <!-- picture shortcode -->
-      {% Picture venue.data.images.featured,"", "filter grayscale w-full object-cover md:absolute h-72 sm:h-96
-      md:h-full", venue.data.images.alt, "lazy" %}
+      {% Picture venue.data.images.featured,"bg-gray-100", "filter grayscale w-full object-cover md:absolute h-72
+      sm:h-96 md:h-full", venue.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
     </div>
   </div>
   {% endfor %}
