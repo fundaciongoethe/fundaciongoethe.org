@@ -1,7 +1,7 @@
 ---
-title: "Sant Pau del Camp"
-translationKey: "santpau"
-customSlug: "sant-pau-del-camp"
+title: 'Sant Pau del Camp'
+translationKey: 'santpau'
+customSlug: 'sant-pau-del-camp'
 excerpt: El Monasterio de Sant Pau del Camp es un antiguo monasterio benedictino situado en el barrio del Raval de Barcelona. Es uno de los edificios románicos mejor conservados de la ciudad.
 city: Barcelona
 seo: # image relative to /assets/images/

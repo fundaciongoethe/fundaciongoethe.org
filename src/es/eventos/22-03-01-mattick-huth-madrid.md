@@ -10,7 +10,7 @@ city: Madrid
 partners:
   - dsm
 type: Concierto
-access: Inscripción directa
+access: Entrada gratuita con inscripción previa a través de Eventbrite.
 date: 2022-03-01 20:00:00
 opening: 2022-03-01 19:30:00
 ending: 2022-03-01 22:00:00

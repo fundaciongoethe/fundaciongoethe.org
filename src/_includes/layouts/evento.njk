@@ -12,7 +12,7 @@ tags: pages
 <main id="main">
   <div class="lg:mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
     <div
-      class="col-span-5 md:col-span-3 {% if calendarLinks.isFutureEvent %} bg-yellow-200 md:bg-yellow-300 {% else %} bg-gray-200 {% endif %} sm:rounded-tr-xl sm:mr-3 md:mr-0 px-3 xl:pl-16 2xl:pl-24 md:pr-12 lg:pr-36 xl:pr-44 py-12"
+      class="col-span-5 md:col-span-3 {% if calendarLinks.isFutureEvent %} bg-yellow-50 md:bg-yellow-300 {% else %} bg-gray-200 {% endif %} sm:rounded-tr-xl sm:mr-3 md:mr-0 px-3 xl:pl-16 2xl:pl-24 md:pr-12 lg:pr-36 xl:pr-44 py-12"
     >
       {% if calendarLinks.isFutureEvent %}
 
@@ -81,14 +81,14 @@ tags: pages
       class="col-span-5 md:col-span-2 bg-black text-white sm:rounded-t-2xl sm:ml-3 md:ml-0 transform lg:ml-2 xl:ml-1 2xl:ml-0 md:-translate-x-8 lg:-translate-x-28 2xl:-translate-x-32 sm:-mt-6 md:mt-20 py-4 sm:py-10 px-3 xl:px-8"
     >
       <div class="py-2 sm:p-0">
-        <dl class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase">
-          <!-- <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+        <dl class="sm:divide-y sm:divide-gray-800 text-xs lg:text-sm uppercase">
+          <!-- <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.type }}
             </dt>
             <dd class="text-gray-50 col-span-3">{{ type }}</dd>
           </div> -->
-          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.date }}
             </dt>
@@ -104,7 +104,7 @@ tags: pages
           <!-- wenn opening time -->
           {% if opening %}
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs truncate">
               {{ meta[locale].event.entry }}
             </dt>
@@ -115,7 +115,7 @@ tags: pages
 
           {% else %}
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.start }}
             </dt>
@@ -126,7 +126,7 @@ tags: pages
 
           {% endif %}
           <!-- wenn opening time ende -->
-          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.ending }}
             </dt>
@@ -136,7 +136,7 @@ tags: pages
           </div>
           {% endif %}
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.artist }}
             </dt>
@@ -146,7 +146,7 @@ tags: pages
             </dd>
           </div>
 
-          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs">
               {{ meta[locale].event.venue }}
             </dt>
@@ -158,7 +158,7 @@ tags: pages
           </div>
 
           {% if deadline and calendarLinks.isFutureEvent %}
-          <div class="py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
             <dt class="font-bold text-gray-400 col-span-2 text-xs truncate">
               {{ meta[locale].event.deadline }}
             </dt>
@@ -173,7 +173,7 @@ tags: pages
 
       {% if program %}
 
-      <div class="text-white pt-4 text-xs">
+      <div class="text-white pt-10 text-xs lg:text-sm">
         <a href="/assets/pdf/{{ program }}" class="flex items-center hover:text-yellow-400" download>
           {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible, "download pdf programa" %}
           {{ meta[locale].event.program }}
@@ -182,8 +182,8 @@ tags: pages
 
       {% endif %}
 
-      <!-- calendar links -->
-      {% if calendarLinks.isFutureEvent %} {%- include "partials/calendarLinks.njk" %}{% endif %}
+      <!-- calendar links deaktiviert bis repariert -->
+      <!-- {% if calendarLinks.isFutureEvent %} {%- include "partials/calendarLinks.njk" %}{% endif %} -->
     </div>
   </div>
 
