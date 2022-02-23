@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 title: 'El Cuarteto Mandelring en Madrid'
 description: 'El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpretará obras de Ludwig van Beethoven, Dmitri Schostakowitsch y Antonín Dvořák.'
 translationKey: mandelringmad2022
@@ -25,7 +23,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/palacio-real-madrid.jpg
   alt: Palacio Real de Madrid
-infobox: Evento privado, sólo por invitación personal. Los participantes inscritos también recibirán una invitación por correo de la Casa Real.
+infobox: Evento privado, sólo con invitación personal. Los participantes inscritos también recibirán una invitación de la Casa Real.
 directregister:
 ---
 
@@ -33,4 +31,12 @@ directregister:
 
 – Reseña de CD de “Neue Zürcher Zeitung
 
-El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpretará obras de Ludwig van Beethoven, Dmitri Schostakowitsch y Antonín Dvořák.
+El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpreta obras de grandes compositores: Ludwig van Beethoven, Fanny Hensel y Felix Mendelssohn Bartholdy.
+
+Este programa conmemora el 175º aniversario de la muerte de los hermanos Fanny Hensel y Felix Mendelssohn Bartholdy.
+
+Felix Mendelssohn Bartholdy compuso su última obra completa tras la repentina muerte de su hermana Fanny Hensel. Nunca superó esta pérdida y murió sólo 6 meses después de su hermana.
+
+El Cuarteto Mandelring interpretará esta noche el Cuarteto op. 80, que se convirtió en el Réquiem de los hermanos.
+
+Para otras formas de conseguir entradas, ponte en contacto directamente con el [Patrimonio Nacional](https://www.patrimonionacional.es/actualidad/proximos-conciertos).

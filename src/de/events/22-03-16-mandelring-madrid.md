@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 title: 'Mandelring-Quartett in Madrid'
 description: 'Das Mandelring-Quartett, eines der besten Streichquartette der Welt, interpretiert Werke von Ludwig van Beethoven, Dmitri Schostakowitsch und Antonín Dvořák.'
 translationKey: mandelringmad2022
@@ -25,7 +23,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/palacio-real-madrid.jpg
   alt: Palacio Real de Madrid
-infobox: Private Veranstaltung, nur mit persönlicher Einladung. Registrierte Teilnehmer erhalten zusätzlich eine Einladung per Post vom Königshaus.
+infobox: Private Veranstaltung, nur mit persönlicher Einladung. Registrierte Teilnehmer erhalten zusätzlich eine Einladung vom Königshaus.
 directregister:
 ---
 
@@ -33,4 +31,12 @@ directregister:
 
 – CD-Rezension der Neuen Zürcher Zeitung
 
-Das Mandelring-Quartett, eines der besten Streichquartette der Welt, interpretiert Werke von Ludwig van Beethoven, Dmitri Schostakowitsch und Antonín Dvořák.
+Das Mandelring-Quartett, eines der besten Streichquartette der Welt, interpretiert Werke von großen Komponisten: Ludwig van Beethoven, Fanny Hensel und Felix Mendelssohn Bartholdy.
+
+Dieses Programm gedenkt dem 175. Todesjahr der Geschwister Fanny Hensel und Felix Mendelssohn Bartholdy.
+
+Das letzte vollständige Werk von Felix Mendelssohn Bartholdy komponierte er zum plötzlichen Tod seiner Schwester Fanny Hensel. Er hat diesen Verlust nie verwunden und starb nur 6 Monate nach seiner Schwester.
+
+Das Mandelring-Quartett wird das Quartett op. 80, das zum Requiem der Geschwister wurde, an diesem Abend spielen.
+
+Für andere Möglichkeiten an Eintrittskarten zu kommen, wenden Sie sich bitte direkt ans [Patrimonio Nacional](https://www.patrimonionacional.es/actualidad/proximos-conciertos).

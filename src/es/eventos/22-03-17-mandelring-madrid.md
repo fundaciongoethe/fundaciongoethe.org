@@ -1,10 +1,8 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 title: 'El Cuarteto Mandelring en Madrid'
 description: 'El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpretará obras de Ludwig van Beethoven, Dmitri Schostakowitsch y Antonín Dvořák.'
-translationKey: mandelringmad2022libre
-customSlug: cuarteto-mandelring-madrid-2022-entrada-libre
+translationKey: mandelringmad2022alt
+customSlug: cuarteto-mandelring-madrid-2022-2
 artist: [mandelringquartett]
 venue: [palacioreal]
 location: Salón de Columnas, Palacio Real de Madrid
@@ -12,7 +10,7 @@ city: Madrid
 partners:
   - patrimonio
 type: Concierto
-access: Entrada libre
+access: Se requiere una invitación personal
 date: 2022-03-17 19:30:00
 opening: 2022-03-17 19:00:00
 ending: 2022-03-17 21:00:00
@@ -25,7 +23,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/palacio-real-madrid.jpg
   alt: Palacio Real de Madrid
-infobox: Entrada gratuita hasta completar el aforo. No enviamos invitaciones para este evento.
+infobox: Evento privado, sólo con invitación personal. Los participantes inscritos también recibirán una invitación de la Casa Real.
 directregister:
 ---
 
@@ -33,4 +31,12 @@ directregister:
 
 – Reseña de CD de “Neue Zürcher Zeitung
 
-El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpretará obras de Ludwig van Beethoven, Dmitri Schostakowitsch y Antonín Dvořák.
+El Cuarteto Mandelring, uno de los mejores cuartetos de cuerda del mundo, interpreta obras de grandes compositores: Ludwig van Beethoven, Fanny Hensel y Felix Mendelssohn Bartholdy.
+
+Este programa conmemora el 175º aniversario de la muerte de los hermanos Fanny Hensel y Felix Mendelssohn Bartholdy.
+
+Felix Mendelssohn Bartholdy compuso su última obra completa tras la repentina muerte de su hermana Fanny Hensel. Nunca superó esta pérdida y murió sólo 6 meses después de su hermana.
+
+El Cuarteto Mandelring interpretará esta noche el Cuarteto op. 80, que se convirtió en el Réquiem de los hermanos.
+
+Para otras formas de conseguir entradas, ponte en contacto directamente con el [Patrimonio Nacional](https://www.patrimonionacional.es/actualidad/proximos-conciertos).

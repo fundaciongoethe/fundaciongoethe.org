@@ -24,4 +24,4 @@ Alberto Ballesteros, geboren in Madrid 1983, ist ein spanischer Songwriter. Er h
 
 Er hat drei EPs und zwei Alben aufgenommen und unzählige Konzerte in Spanien, England und Deutschland gegeben. Derzeit präsentiert er sein neues Album "La fiesta en paz" und seinen ersten Gedichtband "El verano más largo". Seine Arbeiten wurden in zahlreichen Medien veröffentlicht, darunter Cadena Ser, Radio 3, Onda Madrid und Castilla La Mancha Televisión.
 
-Begleitet wird er von dem Violinisten Manu Clavijo. Als Studiomusiker hat er an mehr als 250 CD-Aufnahmen mitgewirkt, spielt in Sinfonieorchestern und ist derzeit als festes Mitglied der Band von Miguel Ríos auf Tournee.
+Begleitet wird er von dem Violinisten <a href="https://www.manuclavijo.com/" target="_blank" rel="nofollow">Manu Clavijo</a>. Als Studiomusiker hat er an mehr als 250 CD-Aufnahmen mitgewirkt, spielt in Sinfonieorchestern und ist derzeit als festes Mitglied der Band von Miguel Ríos auf Tournee.

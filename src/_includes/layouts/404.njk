@@ -49,11 +49,6 @@
     <!-- include base schema  -->
     {%- include "schemas/base-schema.njk" %}
 
-    <!-- service worker vorübergehend deaktiviert -->
-    <!-- <script>
-      if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js');
-    </script> -->
-
     <!-- plausible analytics -->
     <script defer data-domain="fundaciongoethe.org" src="https://plausible.io/js/plausible.js"></script>
   </head>
@@ -67,16 +62,10 @@
           overflow
         }} rounded-b-lg"
       >
-        <!-- 				{# topbar + header #}  -->
-
-        {% include "partials/topbar.njk" %} {% include "partials/header.njk" %}
-
         <div class="flex-grow max-w-full">
           {{ content | safe }}
         </div>
-        {% include "partials/footer.njk" %}
       </div>
-      {% include "partials/credit.njk" %}
     </div>
 
     <script src="/assets/main.min.js" defer></script>

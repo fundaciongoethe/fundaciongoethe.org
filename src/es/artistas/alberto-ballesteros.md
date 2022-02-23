@@ -26,3 +26,5 @@ Ha grabado tres EP y dos discos largos, y ha realizado innumerables conciertos e
 Actualmente se encuentra presentando su nuevo disco "La fiesta en paz" y su primer libro de poemas "El verano más largo".
 
 Su trabajo ha aparecido en numerosos medios de comunicación, cómo la Cadena Ser, Radio 3, Onda Madrid y Castilla La Mancha Televisión.
+
+Le acompaña el reconocido vilonista <a href="https://www.manuclavijo.com/" target="_blank" rel="nofollow">Manu Clavijo</a>. Como músico de estudio, ha participado en más de 250 grabaciones de CD, toca en orquestas sinfónicas y actualmente está de gira con Miguel Ríos como miembro permanente de la banda.

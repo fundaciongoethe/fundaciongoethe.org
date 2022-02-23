@@ -1,29 +1,62 @@
 ---
 title: 404 - No encontrado
 description: Esto es extraño, ¿cómo llegaste aquí? Esta página no existe.
-layout: plain
+layout: '404'
 permalink: "/404.html"
 eleventyExcludeFromCollections: true
 ---
 
-<div class="flex items-center justify-center w-full lg:min-h-0">
-  <div
-    class="
-      flex flex-col
-      lg:flex-row lg:space-x-16 lg:space-x-reverse
-      justify-center
-      items-center
-    "
-  >
-    <div class="lg:w-1/2 px-2 text-sm md:text-base lg:px-0">
-      <h1 class="standardtitel">Esta página (ya) no existe.</h1>
 
-      <p class="standardtext mt-2">
-        No hay nada más aquí. <br />Echa un vistazo a la
-        <a href="/">página inicial</a>.
-      </p>
+<div class="min-h-full pt-16 pb-12 flex flex-col ">
+  <main class="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex-shrink-0 flex justify-center">
+      <a href="https://www.fundaciongoethe.org/es" class="inline-flex">
+        <span class="sr-only">Fundación Goethe</span>
+
+            <img
+              class="
+                py-1
+                sm:py-0
+                block
+                h-20
+                2xl:h-24
+                md:mb-2
+                lg:mb-0
+                w-auto
+                pl-2
+                xl:pl-16
+                2xl:pl-24
+              "
+              src="/assets/svg/logo-goethe20-RGB.svg"
+              alt="Fundación Goethe Logo"
+              width="338"
+              height="98"
+            />
+          </a>
+
     </div>
+    <div class="py-16">
+      <div class="text-center">
+        <p class="text-sm font-semibold text-red-600 uppercase tracking-wide">404</p>
+        <h1 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Esta página (ya) no existe.</h1>
+        <p class="mt-2 text-base text-gray-500">Lo sentimos, no hay nada más aquí. </a></p>
+        <div class="mt-6">
+          <a href="https://www.fundaciongoethe.org/es" class="text-base font-medium text-red-600 hover:text-red-500">Echa un vistazo a la
+            página inicial<span aria-hidden="true"> &rarr;</span></a>
+        </div>
 
-    <div class="lg:w-1/2 py-8">{%- include "shared/sitting.svg" %}</div>
-  </div>
+        <div class="lg:w-2/3 py-8 mx-auto">{%- include "shared/sitting.svg" %}</div>
+
+      </div>
+    </div>
+  </main>
+  <footer class="flex-shrink-0 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+    <nav class="flex py-1 flex-col sm:flex-row justify-center sm:space-x-4">
+      <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-600">info@fundaciongoethe.org</a>
+      <span class="hidden sm:inline-block border-l border-gray-300" aria-hidden="true"></span>
+      <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-600">+34 910 291 992</a>
+
+    </nav>
+  </footer>
 </div>
+

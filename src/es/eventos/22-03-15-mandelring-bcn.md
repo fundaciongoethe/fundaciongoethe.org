@@ -23,7 +23,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/real-academia-farmacia-catalunya.jpg
   alt: Real Academia de Farmacia de Cataluña
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
+directregister: https://mandelring-barcelona-2022.eventbrite.es
 ---
 
 > La palabra ‘fulminante’ se queda corta. La música entra en la médula como un calambre, el corazón y el cerebro se quedan literalmente electrificados desde el primer compás, sin preaviso. ¡La música de Felix Mendelssohn Bartholdy tocada por el cuarteto “Mandelring Quartett” con alta tensión, ardiente, febril – peligro de incendio!

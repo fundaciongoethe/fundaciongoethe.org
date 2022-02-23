@@ -33,7 +33,6 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
-const pluginPWA = require('@pkvach/eleventy-plugin-pwa');
 
 // event validation
 const isValidTitle = (title = '') => title.trim().length > 2;
@@ -115,7 +114,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(embedEverything);
-  eleventyConfig.addPlugin(pluginPWA);
 
   // eleventy img
   eleventyConfig.addNunjucksAsyncShortcode('Picture', async (src, pcls, cls, alt, loading, sizes = '100vw') => {
@@ -366,6 +364,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('venue', 'layouts/venue.njk');
   eleventyConfig.addLayoutAlias('sponsor', 'layouts/sponsor.njk');
   eleventyConfig.addLayoutAlias('redirect', 'layouts/redirect.njk');
+  eleventyConfig.addLayoutAlias('404', 'layouts/404.njk');
 
   // Opts in to a full deep merge when combining the Data Cascade.
   // @link https://www.11ty.dev/docs/data-deep-merge/#data-deep-merge
