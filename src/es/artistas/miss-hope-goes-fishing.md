@@ -24,5 +24,5 @@ Miss Hope goes fishing fue creada en Lockdown 2020.
 
 El silencio y el tiempo fueron los poderosos ingredientes que hicieron posible unas canciones poéticas a caballo entre el folk, el pop y el jazz.
 
-Así es como Claudia Giese (voz), Thomas Krizsan (piano) Pablo Ortega (violonchelo) dieron vida al proyecto.
+Así es como Claudia Giese (voz), Thomas Krizsan (piano) Arturo Figueroa (violonchelo) dieron vida al proyecto.
 El actual álbum "Im Strom" puede escucharse en todas las plataformas de streaming.

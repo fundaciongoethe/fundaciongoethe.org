@@ -22,6 +22,6 @@ links:
 
 Miss Hope goes fishing entstand im Lockdown 2020.
 
-Stille und Zeit waren die kraftvollen Zutaten, die poetische Songs irgendwo zwischen Folk, Pop und Jazz entstehen ließen. So haben Claudia Giese (Gesang), Thomas Krizsan (Piano) Pablo Ortega (Cello) dem Projekt Leben eingehaucht.
+Stille und Zeit waren die kraftvollen Zutaten, die poetische Songs irgendwo zwischen Folk, Pop und Jazz entstehen ließen. So haben Claudia Giese (Gesang), Thomas Krizsan (Piano) Arturo Figueroa (Cello) dem Projekt Leben eingehaucht.
 
 Das aktuelle Album Im Strom ist auf allen Streamingplattformen zu hören und Radiosender haben die Songs von Miss Hope goes fishing entdeckt.
