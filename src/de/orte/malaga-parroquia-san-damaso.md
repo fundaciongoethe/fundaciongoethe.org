@@ -8,8 +8,8 @@ seo: # image relative to /assets/images/
   image: /venues/parroquia-san-damaso-malaga.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/parroquia-san-damaso-malaga.jpg
-  alt: Innenraum der Pfarrkirche.
-  credit: horariodemisas.com
+  alt: Innenraum der Pfarrkirche während eines Konzertes.
+  credit:
 links:
   web:
 ---

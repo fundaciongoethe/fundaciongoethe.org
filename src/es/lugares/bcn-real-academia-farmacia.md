@@ -8,8 +8,8 @@ seo: # image relative to /assets/images/
   image: /venues/real-academia-farmacia-catalunya.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/real-academia-farmacia-catalunya.jpg
-  alt: Reial Acadèmia de Farmàcia de Catalunya
-  credit: rafc.cat
+  alt: Durante un concierto del cuarteto Mandelring
+  credit:
 links:
   web: https://rafc.cat
   twitter:

@@ -4,7 +4,7 @@ description: 'Das Mandelring-Quartett, eines der besten Streichquartette der Wel
 translationKey: mandelringbcn2022
 customSlug: mandelring-quartett-barcelona-2022
 artist: [mandelringquartett]
-venue: [mariacristinamalaga]
+venue: [bcnfarmacia]
 location: Real Academia de Farmacia de Cataluña
 city: Barcelona
 partners:
