@@ -14,13 +14,11 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://www.albertoballesteros.com
   twitter: https://twitter.com/alberto_ballest
-  facebook: https://facebook.com/alberto.ballesteros.10
+  facebook:
   instagram: https://instagram.com/alber.ballesteros
   spotify: https://open.spotify.com/artist/76cl8WncFJMLHHsekATDDC
   youtube: https://youtube.com/user/Sheffield247
 ---
-
-Alberto Ballesteros, Madrid 1983, es un escritor e intérprete de canciones en castellano.
 
 Ha grabado tres EP y dos discos largos, y ha realizado innumerables conciertos en España, en Inglaterra y en Alemania.
 Actualmente se encuentra presentando su nuevo disco "La fiesta en paz" y su primer libro de poemas "El verano más largo".

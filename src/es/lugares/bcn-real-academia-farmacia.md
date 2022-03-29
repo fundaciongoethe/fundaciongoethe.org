@@ -20,5 +20,3 @@ links:
 La Reial Acadèmia de Farmàcia de Catalunya está situada en el complejo del antiguo Hospital de la Santa Cruz de Barcelona. Suministraba medicamentos a los pacientes del hospital. El hospital contaba con una plantilla de funcionarios cuyo trabajo consistía en recoger los medicamentos prescritos por los médicos y llevárselos a los pacientes.
 
 La Real Academia de Farmacia sigue activa hoy en día y es donde los miembros se reúnen (más o menos una vez al mes) en la "Sala de Juntas".
-
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator

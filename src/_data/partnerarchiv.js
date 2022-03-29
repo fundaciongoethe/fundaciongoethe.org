@@ -204,4 +204,14 @@ module.exports = {
     url: 'https://www.lidl.es/',
     logo: './src/assets/images/sponsors/lidl/lidl-logo.png',
   },
+  fundacionginer: {
+    name: 'Fundación Francisco Giner de los Ríos',
+    url: 'https://www.fundacionginer.org/index.htm',
+    logo: './src/assets/images/event-sponsors/fundacion-giner.png',
+  },
+  labeneficencia: {
+    name: 'Centro Cultural de la Beneficencia',
+    url: 'http://www.labeneficencia.es/',
+    logo: './src/assets/images/event-sponsors/labeneficencia.png',
+  },
 };
