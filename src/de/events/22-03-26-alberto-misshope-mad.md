@@ -10,6 +10,7 @@ city: Madrid
 partners:
   - fundacionginer
   - dzt
+  - bremen
 type: Konzert
 access: Direktanmeldung
 date: 2022-04-26 20:00:00
@@ -17,7 +18,7 @@ opening: 2022-04-26 19:30:00
 ending: 2022-04-26 21:30:00
 deadline: 2022-04-26 11:00:00
 calcDuration: 1.5
-program:
+program: 2022-programa-albertoballesteros-misshope-madrid.pdf
 seo:
   title: Alberto Ballesteros & Miss Hope goes fishing en Madrid
   image: venues/mad-fundacion-francisco-giner.jpg
@@ -29,9 +30,9 @@ infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://albertoballesteros-misshopegoesfishing-madrid-2022.eventbrite.es
 ---
 
-## Música y poesía: Un intercambio de folk-rock y jazz
+## Musik und Poesie. Ein Wechselspiel aus Folk-Rock und Jazz
 
-Alberto Ballesteros aus Spanien und "Miss Hope goes fishing" aus Deutschland geben ein gemeinsames Konzert und stellen ihre Poesieveröffentlichungen vor. Sie werden auch ein gemeinsames Stück aufführen, das eigens für diese Tournee durch Spanien komponiert wurde.
+Alberto Ballesteros aus Spanien und "Miss Hope goes fishing" aus Deutschland geben ein gemeinsames Konzert und stellen ihre jeweiligen Poesie- und Musikveröffentlichungen vor.
 
 {% youtube 'CV6jkivJ44o', 'Coquilles - Miss Hope goes fishing' %}
 

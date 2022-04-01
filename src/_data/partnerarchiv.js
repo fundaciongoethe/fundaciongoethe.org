@@ -214,4 +214,14 @@ module.exports = {
     url: 'http://www.labeneficencia.es/',
     logo: './src/assets/images/event-sponsors/labeneficencia.png',
   },
+  bremen: {
+    name: 'Discover Bremen',
+    url: 'https://www.bremen.eu/',
+    logo: './src/assets/images/event-sponsors/bremen.png',
+  },
+  fabrika12: {
+    name: 'Fabrika12',
+    url: 'https://www.facebook.com/Fabrika12/',
+    logo: './src/assets/images/event-sponsors/fabrika12.png',
+  },
 };

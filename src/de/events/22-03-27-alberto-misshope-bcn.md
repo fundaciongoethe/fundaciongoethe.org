@@ -10,6 +10,7 @@ city: Barcelona
 partners:
   - universitatabat
   - dzt
+  - bremen
 type: Konzert
 access: Direktanmeldung
 date: 2022-04-27 20:00:00
@@ -29,9 +30,9 @@ infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://albertoballesteros-misshopegoesfishing-bcn-2022.eventbrite.es
 ---
 
-## Música y poesía: Un intercambio de folk-rock y jazz
+## Musik und Poesie. Ein Wechselspiel aus Folk-Rock und Jazz
 
-Alberto Ballesteros aus Spanien und "Miss Hope goes fishing" aus Deutschland geben ein gemeinsames Konzert und stellen ihre Poesieveröffentlichungen vor. Sie werden auch ein gemeinsames Stück aufführen, das eigens für diese Tournee durch Spanien komponiert wurde.
+Alberto Ballesteros aus Spanien und "Miss Hope goes fishing" aus Deutschland geben ein gemeinsames Konzert und stellen ihre jeweiligen Poesie- und Musikveröffentlichungen vor.
 
 {% youtube 'K93UZKyEXlA', 'Fischsuppe - Miss Hope goes fishing' %}
 
