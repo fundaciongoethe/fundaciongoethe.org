@@ -85,11 +85,4 @@ module.exports = {
     },
   },
   plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms'), require('@tailwindcss/aspect-ratio')],
-  purge:
-    process.env.NODE_ENV === 'production'
-      ? {
-          enabled: true,
-          content: ['src/**/*.njk', 'src/**/*.js'],
-        }
-      : {},
 };
