@@ -311,6 +311,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/videos/');
 
   eleventyConfig.addPassthroughCopy('src/assets/images/image-placeholder.png');
+  eleventyConfig.addPassthroughCopy('src/assets/images/logo-fallback.jpg');
+  eleventyConfig.addPassthroughCopy('src/assets/images/default.png');
 
   // social icons von images zu root
   eleventyConfig.addPassthroughCopy({
