@@ -3,7 +3,7 @@ module.exports = {
   siteName: 'Fundación Goethe',
   siteType: 'Organization', // schema
   logoUrl: 'https://www.fundaciongoethe.org/assets/svg/logo-goethe20-RGB.svg',
-  siteImage: '/assets/images/default.png',
+  siteImage: '/assets/images/social/default.jpg',
   authorName: 'Fundación Goethe',
   authorURL: 'https://www.fundaciongoethe.org',
   authorEmail: 'info@fundaciongoethe.org',

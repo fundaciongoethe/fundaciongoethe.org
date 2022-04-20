@@ -1,58 +1,23 @@
-<ul
-  role="list"
-  class="
-    sm:grid sm:grid-cols-2
-    gap-x-4 gap-y-8
-    md:grid-cols-3
-    sm:gap-x-6
-    lg:grid-cols-4
-    xl:gap-x-8
-  "
->
+<ul role="list" class="sm:grid sm:grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
   <!-- loop -->
   {% for venue in venues %}
 
   <li class="relative pb-6 sm:pb-0">
     <a href="{{ venue.url }}">
       <div
-        class="
-          group
-          block
-          w-full
-          aspect-w-10 aspect-h-7
-          rounded-md
-          bg-gray-100
-          overflow-hidden
-          motion-reduce:transition-none motion-reduce:transform-none
-          buttonhover
-        "
+        class="group block w-full aspect-w-10 aspect-h-7 rounded-md bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
       >
         <!-- picture shortcode -->
-        {% Picture venue.data.images.featured, "aspect-w-10 aspect-h-7",
-        "object-cover filter grayscale", venue.data.images.alt, "lazy" %}
+        {% Picture venue.data.images.featured, "aspect-w-10 aspect-h-7", "object-cover filter grayscale",
+        venue.data.images.alt, "lazy", "(min-width: 640px) 360px, 640px" %}
 
-        <span class="sr-only">
-          {{ meta[locale].event.readmore }} {{ venue.data.title }}</span
-        >
+        <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
       </div>
     </a>
     <h2 class="mt-2 block text-base font-semibold truncate uppercase">
-      <a
-        class="no-underline hover:underline"
-        tabindex="-1"
-        href="{{ venue.url }}"
-        >{{ venue.data.title }}</a
-      >
+      <a class="no-underline hover:underline" tabindex="-1" href="{{ venue.url }}">{{ venue.data.title }}</a>
     </h2>
-    <p
-      class="
-        block
-        text-xs text-orange-500
-        font-semibold
-        tracking-wide
-        uppercase
-      "
-    >
+    <p class="block text-xs text-orange-500 font-semibold tracking-wide uppercase">
       {{ venue.data.city }}
     </p>
   </li>

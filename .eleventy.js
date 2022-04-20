@@ -312,7 +312,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/images/image-placeholder.png');
   eleventyConfig.addPassthroughCopy('src/assets/images/logo-fallback.jpg');
-  eleventyConfig.addPassthroughCopy('src/assets/images/default.png');
+  eleventyConfig.addPassthroughCopy('src/assets/images/social/');
 
   // social icons von images zu root
   eleventyConfig.addPassthroughCopy({
@@ -383,7 +383,7 @@ module.exports = function (eleventyConfig) {
       data: '_data',
     },
     passthroughFileCopy: true,
-    templateFormats: ['html', 'njk', 'md', 'pdf'],
+    templateFormats: ['njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
   };

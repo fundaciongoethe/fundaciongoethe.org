@@ -7,7 +7,7 @@ excerpt: 'La Fundación Prosegur es una entidad sin ánimo de lucro que canaliza
 seo:
   title: Fundación Prosegur | Patrocinador de la Fundación Goethe
   description: La Fundación Prosegur canaliza la acción social y cultural de Prosegur con el objetivo de ayudar a construir una sociedad más solidaria, generando oportunidades de desarrollo para las personas.
-  image: ./src/assets/images/sponsors/prosegur/prosegur-logo.png
+  image: sponsors/prosegur/prosegur-logo.png
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/prosegur/prosegur-logo.png
   featured1: ./src/assets/images/sponsors/prosegur/fundacion-prosegur-desarrollo.jpg
@@ -16,7 +16,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt2: Inclusión
   featured3: ./src/assets/images/sponsors/prosegur/fundacion-prosegur-voluntariado.jpg
   alt3: Voluntariado
-  featured4: ./src/assets/images/sponsors/prosegur/fundacion-prosegur-cultura
+  featured4: ./src/assets/images/sponsors/prosegur/fundacion-prosegur-cultura.jpg
   alt4: Cultura
 links:
   web: https://fundacionprosegur.com

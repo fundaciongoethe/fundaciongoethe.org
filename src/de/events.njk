@@ -6,7 +6,7 @@ translationKey: 'events'
 seo:
   title: Veranstaltungen und Termine
   description: Die Fundación Goethe unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten.
-  image: ./src/assets/images/events/events-header.jpg
+  image: social/events-header.jpg
 herogrid:
   title: Unsere nächsten Veranstaltungen
   text: Die Fundación Goethe unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten.
@@ -68,7 +68,7 @@ pastevents:
           <a href="{{ event.url }}" tabindex="-1">
             <!-- picture shortcode -->
             {% Picture event.data.images.featured,"h-40 w-40", "object-cover filter h-40 w-full grayscale",
-            event.data.images.alt, "lazy" %}
+            event.data.images.alt, "lazy", "20vw" %}
           </a>
         </div>
 
