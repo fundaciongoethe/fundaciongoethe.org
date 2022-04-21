@@ -11,8 +11,7 @@
     "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
     "build:scripts": "esbuild src/assets/scripts/main.js --bundle --minify --outfile=dist/assets/main.min.js",
     "start": "run-p dev:*",
-    "cleanbuild": "run-s clean build:*",
-    "build": "run build:*",
+    "build": "run-s clean build:*",
     "debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
     "debug-perf": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy"
   },
