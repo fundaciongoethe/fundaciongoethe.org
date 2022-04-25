@@ -18,7 +18,7 @@ opening: 2022-04-28 19:30:00
 ending: 2022-04-28 21:30:00
 deadline: 2022-04-28 11:00:00
 calcDuration: 1.5
-program:
+program: 2022-programa-albertoballesteros-misshope-valencia.pdf
 seo:
   title: Alberto Ballesteros & Miss Hope goes fishing en Valencia
   image: venues/fabrika-12.jpg

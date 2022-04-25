@@ -15,30 +15,11 @@
     <a
       ref="nofollow"
       target="_blank"
-      title="{{ meta[locale].event.visitWeb }} {{
-        partnerarchiv[partner].name
-      }}"
+      title="{{ meta[locale].event.visitWeb }} {{ partnerarchiv[partner].name }}"
       href="{{ partnerarchiv[partner].url }}"
-      class="
-        col-span-1
-        flex
-        justify-center
-        py-4
-        px-4
-        filter
-        grayscale
-        hover:grayscale-0
-        opacity-60
-        hover:opacity-100
-        transition
-        duration-200
-        ease-in-out
-        transform
-        hover:scale-105
-      "
+      class="col-span-1 flex justify-center py-4 px-4 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition duration-200 ease-in-out transform hover:scale-105"
     >
-      {% Picture partnerarchiv[partner].logo,"bg-transparent", "lazy",
-      partnerarchiv[partner].name, "lazy" %}
+      {% Picture partnerarchiv[partner].logo,"bg-transparent", "lazy", partnerarchiv[partner].name, "lazy" %}
     </a>
   </figure>
 

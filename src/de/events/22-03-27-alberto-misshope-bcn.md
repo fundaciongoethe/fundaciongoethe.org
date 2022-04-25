@@ -18,7 +18,7 @@ opening: 2022-04-27 19:30:00
 ending: 2022-04-27 21:30:00
 deadline: 2022-04-27 11:00:00
 calcDuration: 1.5
-program:
+program: 2022-programa-albertoballesteros-misshope-barcelona.pdf
 seo:
   title: Alberto Ballesteros & Miss Hope goes fishing en Barcelona
   image: venues/bcn-universitat-abat.jpg

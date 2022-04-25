@@ -9,7 +9,7 @@ seo: # image relative to /assets/images/
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-fundacion-francisco-giner.jpg
   alt: Fachada de la sede de la Fundación Francisco Giner de los Ríos
-  credit: Luis García, CC BY-SA 4.0, via Wikimedia Commons
+  credit:
 links:
   web: https://www.fundacionginer.org/index.htm
 ---

@@ -151,7 +151,8 @@ module.exports = function (eleventyConfig) {
           height="${lowsrc.height}"
           alt="${alt}"
           loading="${loading}"
-          decoding="async">
+          decoding="async"
+         >
       </picture>`;
   });
 

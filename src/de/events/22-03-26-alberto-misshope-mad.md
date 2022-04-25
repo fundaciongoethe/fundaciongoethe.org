@@ -9,6 +9,7 @@ location: Fundación Francisco Giner de los Ríos
 city: Madrid
 partners:
   - fundacionginer
+  - botschaftmadrid
   - dzt
   - bremen
 type: Konzert
