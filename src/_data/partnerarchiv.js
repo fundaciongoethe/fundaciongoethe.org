@@ -131,7 +131,7 @@ module.exports = {
   },
   dzt: {
     name: 'Oficina Nacional Alemana de Turismo',
-    url: 'https://www.germany.travel',
+    url: 'https://www.germany.travel/es/home.html',
     logo: './src/assets/images/sponsors/dzt/dzt-logo.png',
   },
   transfesa: {
