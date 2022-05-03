@@ -1,9 +1,9 @@
 ---
-title: "Nereydas"
-translationKey: "nereydas"
-customSlug: "nereydas"
+title: 'Nereydas'
+translationKey: 'nereydas'
+customSlug: 'nereydas'
 excerpt: Nereydas es una formación fundada en 2010, dirigida por Javier Ulises Illán, para investigar, interpretar y difundir el patrimonio musical.
-occupation: "Orquesta"
+occupation: 'Orquesta'
 seo:
   title: Nereydas
   description: Nereydas es una formación fundada en 2010, dirigida por Javier Ulises Illán, para investigar, interpretar y difundir el patrimonio musical.
@@ -14,10 +14,10 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://www.nereydas.com
   twitter:
-  facebook: https://www.facebook.com/NereydasILLAN
+  facebook: https://facebook.com/NereydasILLAN
   instagram:
   spotify:
-  youtube: https://www.youtube.com/channel/UC9IfI4Ok5iAWCdAwAU1muig
+  youtube: https://youtube.com/channel/UC9IfI4Ok5iAWCdAwAU1muig
 ---
 
 El conjunto trabaja con un amplio repertorio que abarca diferentes períodos estilísticos, desde la música renacentista y barroca hasta los programas sinfónico-corales clásicos.

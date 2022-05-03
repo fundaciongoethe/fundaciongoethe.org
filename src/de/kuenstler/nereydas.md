@@ -1,9 +1,9 @@
 ---
-title: "Nereydas"
-translationKey: "nereydas"
-customSlug: "nereydas"
+title: 'Nereydas'
+translationKey: 'nereydas'
+customSlug: 'nereydas'
 excerpt: Nereydas ist ein Ensemble, das 2010 unter der Leitung von Javier Ulises Illán gegründet wurde, um das musikalische Erbe zu erforschen, aufzuführen und zu verbreiten.
-occupation: "Orchester"
+occupation: 'Orchester'
 seo:
   title: Nereydas
   description: Nereydas ist ein Ensemble, das 2010 unter der Leitung von Javier Ulises Illán gegründet wurde, um das musikalische Erbe zu erforschen, aufzuführen und zu verbreiten.
@@ -14,10 +14,10 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://www.nereydas.com
   twitter:
-  facebook: https://www.facebook.com/NereydasILLAN
+  facebook: https://facebook.com/NereydasILLAN
   instagram:
   spotify:
-  youtube: https://www.youtube.com/channel/UC9IfI4Ok5iAWCdAwAU1muig
+  youtube: https://youtube.com/channel/UC9IfI4Ok5iAWCdAwAU1muig
 ---
 
 Das Ensemble arbeitet mit einem breit gefächerten Repertoire, das verschiedene Stilepochen abdeckt, von Renaissance- und Barockmusik bis hin zu klassischen symphonisch-choralen Programmen.

@@ -1,9 +1,9 @@
 ---
-title: "Núria Rial"
-translationKey: "nuriarial"
-customSlug: "nuria-rial"
+title: 'Núria Rial'
+translationKey: 'nuriarial'
+customSlug: 'nuria-rial'
 excerpt: Nuria Rial estudió canto y piano en su Cataluña natal y fue miembro de la clase de Kurt Widmer en la Academia de Música de Basilea.
-occupation: "Soprano"
+occupation: 'Soprano'
 seo:
   title: Núria Rial
   description: Nuria Rial estudió canto y piano en su Cataluña natal y fue miembro de la clase de Kurt Widmer en la Academia de Música de Basilea.
@@ -14,10 +14,10 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://www.nuriarial.com
   twitter:
-  facebook: https://www.facebook.com/NereydasILLAN
+  facebook: https://facebook.com/NereydasILLAN
   instagram:
   spotify: https://open.spotify.com/artist/03wei1gynOPSup8cERYf0Z
-  youtube: https://www.youtube.com/playlist?playnext=1&list=PL4onZ1MSn1YJdog0CG7JeLpnl1ys7bEpU&feature=gws_kp_artist
+  youtube: https://youtube.com/playlist?playnext=1&list=PL4onZ1MSn1YJdog0CG7JeLpnl1ys7bEpU&feature=gws_kp_artist
 ---
 
 En 2003 fue galardonada con el "Preis der Helvetia Patria Jeunesse Stiftung" de Pro Europa, por sus excepcionales logros como cantante.

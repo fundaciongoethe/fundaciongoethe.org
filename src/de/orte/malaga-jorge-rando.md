@@ -1,7 +1,7 @@
 ---
-title: "Museum Jorge Rando"
-translationKey: "jorgerando"
-customSlug: "museo-jorge-rando"
+title: 'Museum Jorge Rando'
+translationKey: 'jorgerando'
+customSlug: 'museo-jorge-rando'
 excerpt: Das Museum beherbergt Ausstellungen von Jorge Rando und anderer expressionistischer Künstler. Im Museum finden zahlreiche Veranstaltungen statt.
 city: Málaga
 seo: # image relative to /assets/images/
@@ -12,7 +12,7 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://www.museojorgerando.org
   twitter: https://twitter.com/MuseoJorgeRando
-  facebook: https://www.facebook.com/museumjorgerando
+  facebook: https://facebook.com/museumjorgerando
 ---
 
 Das Museum Jorge Rando beherbergt Ausstellungen von Jorge Rando, einem spanischen Maler und Bildhauer, der mit der neoexpressionistischen Kunstbewegung verbunden ist, sowie erstklassige Ausstellungen expressionistischer Künstler.

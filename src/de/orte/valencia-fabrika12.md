@@ -15,6 +15,6 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web:
   twitter:
-  facebook: https://www.facebook.com/Fabrika12
+  facebook: https://facebook.com/Fabrika12
   instagram:
 ---

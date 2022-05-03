@@ -1,7 +1,7 @@
 ---
-title: "Círculo de Bellas Artes"
-translationKey: "circulobellasartes"
-customSlug: "circulo-de-bellas-artes"
+title: 'Círculo de Bellas Artes'
+translationKey: 'circulobellasartes'
+customSlug: 'circulo-de-bellas-artes'
 excerpt: El Círculo de Bellas Artes, una institución cultural privada de Madrid, fue creado en 1880 por iniciativa de algunos artistas.
 city: Madrid
 seo: # image relative to /assets/images/
@@ -12,8 +12,8 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://www.circulobellasartes.com
   twitter: https://twitter.com/cbamadrid
-  facebook: https://www.facebook.com/circulodebellasartes
-  instagram: https://www.instagram.com/cbamadrid
+  facebook: https://facebook.com/circulodebellasartes
+  instagram: https://instagram.com/cbamadrid
 ---
 
 El Círculo Especialmente en torno a 1900, la institución cobró esplendor a través de personajes como el Premio Nobel Jacinto Benavente y el poeta cómico Carlos Arniches. El joven Pablo Picasso recibió aquí clases de pintura y Ramón María del Valle-Inclán frecuentaba su salón.

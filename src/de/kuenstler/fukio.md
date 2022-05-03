@@ -1,9 +1,9 @@
 ---
-title: "Fukio"
-translationKey: "fukio"
-customSlug: "fukio-quartet"
+title: 'Fukio'
+translationKey: 'fukio'
+customSlug: 'fukio-quartet'
 excerpt: Die vier Musiker des Fukio Quartetts erforschen die Kammermusik für Saxophon und treten in wichtigen Konzertsälen in Spanien, Deutschland, England und China auf.
-occupation: "Saxophonquartett"
+occupation: 'Saxophonquartett'
 seo:
   title: Fukio Quartet
   description: Die vier Musiker des Fukio Quartetts erforschen die Kammermusik für Saxophon und treten in wichtigen Konzertsälen in Spanien, Deutschland, England und China auf.
@@ -15,10 +15,10 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://fukioquartet.com
   twitter: https://twitter.com/Fukios
-  facebook: https://www.facebook.com/fukios
-  instagram: https://www.instagram.com/fukio_quartet
+  facebook: https://facebook.com/fukios
+  instagram: https://instagram.com/fukio_quartet
   spotify: https://open.spotify.com/artist/4KU2xC5RXAd0JWZ5znGnJg
-  youtube: https://www.youtube.com/channel/UCG9yzO9RwAmMljoTLSILWFw
+  youtube: https://youtube.com/channel/UCG9yzO9RwAmMljoTLSILWFw
 ---
 
 Seit seiner Gründung im Jahr 2008 konzentriert sich Fukio auf die Aufführung von Musik für Saxophonquartett und die Erarbeitung von neuem Repertoire.
