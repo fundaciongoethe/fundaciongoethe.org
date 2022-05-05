@@ -1,9 +1,9 @@
 ---
-title: "Sistergold"
-translationKey: "sistergold"
-customSlug: "sistergold"
+title: 'Sistergold'
+translationKey: 'sistergold'
+customSlug: 'sistergold'
 excerpt: Ladypower y entretenimiento - sistergold ofrecen perfección musical y talento creativo para un programa de canciones grandioso.
-occupation: "Cuarteto de saxofones"
+occupation: 'Cuarteto de saxofones'
 seo:
   image: artists/sistergold.jpg
 images: # complete path for eleventy img srcset output, alt required
@@ -18,12 +18,11 @@ links:
   youtube:
 ---
 
-## Sister Barítono - Kerstin Röhn
+## Sister Barítono - Natascha Protze
 
-Estudios clásicos de flauta traversa en Kassel
-Saxófono y jazz y música pop en la Escuela Superior de Música de Hamburgo
-Clases con saxofonistas renombrados (Lutz Büchner, Jürgen Seefelder, Dirk Raulf)
-Docente de saxófono en la Unviersidad de Kassel | Dirección del Grupo de saxofonistas „Unisax”
+Estudió jazz en la Universidad de Música y Teatro de Hamburgo, especializándose en saxofón.
+Lecciones y talleres con Fiete Felsch, Herb Geller, Vincent Herring, Kenny Wheeler y otros
+Profesora de saxofón, flauta y clarinete en la KJM de Stade y en la escuela Julius-Leber de HH-Schnelsen
 
 ## Sister Tenor - Sigrun Krüger
 

@@ -1,9 +1,9 @@
 ---
-title: "Sistergold"
-translationKey: "sistergold"
-customSlug: "sistergold"
+title: 'Sistergold'
+translationKey: 'sistergold'
+customSlug: 'sistergold'
 excerpt: Ladypower und Entertainment - sistergold bieten musikalische Perfektion und kreatives Gespür für ein grandioses Songprogramm.
-occupation: "Saxophonquartett"
+occupation: 'Saxophonquartett'
 seo:
   image: artists/sistergold.jpg
 images: # complete path for eleventy img srcset output, alt required
@@ -20,12 +20,11 @@ links:
 
 sistergold bietet neben brillanten Bearbeitungen aus den Genres Pop, Jazz, Soul und Weltmusik spannendes Entertainment von Steptanz bis Showblock.
 
-## Bariton-Sister - Kerstin Röhn
+## Bariton-Sister - Natascha Protze
 
-Klassisches Querflötenstudium in Kassel
-Saxophon und Jazz und Popmusik an der Hochschule für Musik, Hamburg
-Unterricht bei namhaften Jazzsaxophonisten (Lutz Büchner, Jürgen Seefelder, Dirk Raulf)
-Saxophondozentin an der Universität Kassel | Leitung des Saxophon-Ensembles „Unisax”
+Jazz-Studium an der Hochschule für Musik und Theater Hamburg im Hauptfach Saxophon
+Unterricht und Workshops u.a. bei Fiete Felsch, Herb Geller, Vincent Herring, Kenny Wheeler
+Lehrerin für Saxophon, Querflöte und Klarinette an der KJM in Stade und der Julius-Leber-Schule in HH-Schnelsen
 
 ## Tenor-Sister -  Sigrun Krüger
 

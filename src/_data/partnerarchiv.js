@@ -224,4 +224,29 @@ module.exports = {
     url: 'https://www.facebook.com/Fabrika12/',
     logo: './src/assets/images/event-sponsors/fabrika12.png',
   },
+  anoche: {
+    name: 'Anoche Tuve un Sueño',
+    url: 'https://anochetuveunsueno.com/',
+    logo: './src/assets/images/event-sponsors/anoche.png',
+  },
+  frankfurt: {
+    name: 'Tourismus+Congress GmbH Frankfurt am Main',
+    url: 'https://www.frankfurt-tourismus.de/',
+    logo: './src/assets/images/event-sponsors/frankfurt-tourismus.png',
+  },
+  mutua: {
+    name: 'Anoche Tuve un Sueño',
+    url: 'https://www.mutua.es/',
+    logo: './src/assets/images/event-sponsors/mutua.png',
+  },
+  foroaustria: {
+    name: 'Anoche Tuve un Sueño',
+    url: 'https://www.bmeia.gv.at/es/foro-cultural-de-austria-en-madrid/m',
+    logo: './src/assets/images/event-sponsors/foro-austria.png',
+  },
+  escuelareinasofia: {
+    name: 'Escuela Superior de Música Reina Sofía',
+    url: 'https://www.escuelasuperiordemusicareinasofia.es',
+    logo: './src/assets/images/event-sponsors/reinasofia-escuela.png',
+  },
 };

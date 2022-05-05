@@ -9,14 +9,14 @@ location: Pabellón Mies van der Rohe
 city: Barcelona
 partners:
   - mies
-type: Konzert
+type: Klavierkonzert
 access: Direktanmeldung
 date: 2022-05-16 19:30:00
 opening: 2022-05-16 19:00:00
 ending: 2022-05-16 20:30:00
 deadline: 2022-05-16 11:00:00
 calcDuration: 1
-program:
+program: 2022-programa-simon-mies.pdf
 seo:
   title: Corinna Simon im Pabellón Mies van der Rohe
   image: venues/pabellon-mies.jpg
