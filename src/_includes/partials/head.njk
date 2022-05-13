@@ -1,70 +1,45 @@
-{# set absolutePageURL to use later in canonical and og URLs #} {%- set
-absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%}
-{# set image paths here so user/editor doesn't have to deal with full paths #}
+<!-- set absolutePageURL to use later in canonical and og URLs  -->
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url)}}{%- endset -%}
+<!-- set image paths here so user/editor doesn't have to deal with full path  -->
 {%- set ogImage -%} {% if seo.image %} /assets/images/{{ seo.image }}
 {% elseif images.featured %}
-{{ images.featured }}
+<!-- strip src  -->
+{{ images.featured | replace("./src", ".") }}
 {% else %}
 {{ meta.siteImage }}
-{% endif %} {%- endset -%} {#- General #}
+{% endif %} {%- endset -%}
+
+<!-- metas  -->
+{#- General #}
 <meta name="author" content="{{ author or meta.authorName }}" />
-<meta
-  name="description"
-  content="{{ seo.description or excerpt or meta[locale].metaDescription }}"
-/>
+<meta name="description" content="{{ seo.description or excerpt or meta[locale].metaDescription }}" />
 <link rel="canonical" href="{{ absolutePageUrl }}" />
+
 {#- Open Graph #}
 <meta property="og:site_name" content="{{ meta[locale].metaTitle }}" />
-<meta
-  property="og:title"
-  content=" {{ seo.title or title }} | {{ meta[locale].metaTitle }}"
-/>
+<meta property="og:title" content=" {{ seo.title or title }} | {{ meta[locale].metaTitle }}" />
 <meta property="og:type" content="website" />
-<meta
-  property="og:description"
-  content="{{ seo.description or excerpt or meta[locale].metaDescription }}"
-/>
+<meta property="og:description" content="{{ seo.description or excerpt or meta[locale].metaDescription }}" />
 <meta property="og:url" content="{{ absolutePageUrl }}" />
 <meta property="og:locale" content="{{ meta[locale].localeCode }}" />
+<meta property="og:image" content="{{ ogImage | url | absoluteUrl(build.url) }}" />
 
-<meta
-  property="og:image"
-  content="{{ ogImage | url | absoluteUrl(build.url) }}"
-/>
 {#- Twitter Card #}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="{{ meta.twitterSite }}" />
 <meta name="twitter:creator" content="{{ meta.twitterCreator }}" />
-<meta
-  name="twitter:title"
-  content="{{ seo.title or title }} | {{ meta[locale].metaTitle }}"
-/>
-<meta
-  name="twitter:description"
-  content="{{ seo.description or excerpt or meta[locale].metaDescription }}"
-/>
+<meta name="twitter:title" content="{{ seo.title or title }} | {{ meta[locale].metaTitle }}" />
+<meta name="twitter:description" content="{{ seo.description or excerpt or meta[locale].metaDescription }}" />
+
 {#- Favicon #}
 <link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
 <link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml" />
-<link
-  rel="apple-touch-icon"
-  sizes="180x180"
-  href="{{ '/apple-touch-icon.png' | url }}"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  href="{{ '/favicon-32x32.png' | url }}"
-  sizes="32x32"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  href="{{ '/favicon-16x16.png' | url }}"
-  sizes="16x16"
-/>
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}" />
+<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | url }}" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | url }}" sizes="16x16" />
 <link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
 <meta name="theme-color" content="#FFCF1D" />
+
 {#- RSS Feed #}
 <link
   type="application/atom+xml"

@@ -14,9 +14,9 @@ partners:
   - frankfurt
 type: Gala con concierto de piano
 access: Se requiere una invitación personal
-date: 2022-05-17 19:30:00
-opening: 2022-05-17 19:00:00
-ending: 2022-05-17 21:30:00
+date: 2022-05-17 19:00:00
+opening: 2022-05-17 18:30:00
+ending: 2022-05-17 21:00:00
 deadline: 2022-05-16 11:00:00
 calcDuration: 2
 program:
@@ -31,4 +31,4 @@ infobox: Evento privado, sólo con invitación personal.
 directregister:
 ---
 
-Programa: por determinar.
+Corinna Simon presentará Nocturno de Frédéric Chopin y una pieza del compositor ucraniano Valentin Silvestrov, que se llama simplemente "Bagatelle". Silvestrov vivió en Kiev hasta el comienzo de la guerra, luego huyó de Ucraniaa Alemania y actualmente vive en Berlín.

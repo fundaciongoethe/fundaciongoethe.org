@@ -14,9 +14,9 @@ partners:
   - frankfurt
 type: Gala mit Klavierkonzert
 access: Persönliche Einladung erforderlich
-date: 2022-05-17 19:30:00
-opening: 2022-05-17 19:00:00
-ending: 2022-05-17 21:30:00
+date: 2022-05-17 19:00:00
+opening: 2022-05-17 18:30:00
+ending: 2022-05-17 21:00:00
 deadline: 2022-05-16 11:00:00
 calcDuration: 2
 program:
@@ -31,4 +31,4 @@ infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 ---
 
-Programm: wird noch festgelegt.
+Corinna Simon spielt Frédéric Chopins Nocturne und ein Stück des ukrainischen Komponisten Valentin Silvestrov, das schlicht "Bagatelle" heißt. Silvestrov lebte bis zum Beginn des Krieges in Kiew, floh dann aus der Ukraine nach Deutschland und lebt heute in Berlin.

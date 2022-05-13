@@ -28,6 +28,4 @@ infobox: Evento privado, sólo con invitación personal.
 directregister:
 ---
 
-Como parte de la temporada musical 2022 de Patrimonio Nacional, la Real Capilla del Palacio Real de Madrid acoge un ciclo de órgano, una serie de recitales protagonizados por grandes artistas españoles.
-
-El día 24 de mayo el organista Daniel Oyarzábal y el percusionista David Mayoral presentarán el concierto "Battaglia! Las guerras del Emperador", brindando piezas de Weckmann, Bach, Susato y Handel.
+En la preciosa Capilla Real del Palacio Real de Madrid, Daniel Oyarzábal (órgano) y David Mayoral (percusión), interpretarán obras de Weckmann, Bach, Susato y Haendel. El órgano de la Capilla Real es una obra maestra de 1778 con un sonido incomparable.

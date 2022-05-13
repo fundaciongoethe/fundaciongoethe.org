@@ -1,6 +1,6 @@
 ---
 title: 'XV Orgelzyklus: Daniel Oyarzabal und David Mayoral'
-description: 'Der Organist Daniel Oyarzábal und der Perkussionist David Mayoral präsentieren Stücke von Weckmann, Bach, Susato und Händel.'
+description: 'Der Organist Daniel Oyarzábal und der Perkussionist David Mayoral präsentieren Werke von Weckmann, Bach, Susato und Händel.'
 translationKey: oyarzabalmayoral2022
 customSlug: daniel-oyarzabal-david-mayoral-palacio-real-2022
 artist: [oyarzabalmayoral]
@@ -28,6 +28,4 @@ infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 ---
 
-Im Rahmen der Musiksaison 2022 des Patrimonio Nacional wird in der Kapelle des Königspalastes in Madrid ein Orgelzyklus angeboten: eine Reihe von Konzerten mit großen spanischen Künstlern.
-
-Am 24. Mai laden wir ein zu einem Konzert des Organisten Daniel Oyarzábal und des Perkussionisten David Mayoral: "Battaglia! The Emperor's Wars", mit Werken von Weckmann, Bach, Susato und Händel.
+In der wunderschönen Capilla Real des Palacio Real de Madrid spielen Daniel Oyarzábal (Orgel) und David Mayoral (Perkussion), Werke von Weckmann, Bach, Susato und Händel. Die Orgel in der Capilla Real ist ein Meisterstück aus dem Jahr 1778 mit einem unvergleichlichen Klang.
