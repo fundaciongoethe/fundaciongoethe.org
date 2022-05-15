@@ -394,7 +394,8 @@ select {
   background-size: 1.5em 1.5em;
   padding-right: 2.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+     color-adjust: exact;
+          print-color-adjust: exact;
 }
 [multiple] {
   background-image: initial;
@@ -403,7 +404,8 @@ select {
   background-size: initial;
   padding-right: 0.75rem;
   -webkit-print-color-adjust: unset;
-          color-adjust: unset;
+     color-adjust: unset;
+          print-color-adjust: unset;
 }
 [type='checkbox'],[type='radio'] {
   -webkit-appearance: none;
@@ -411,7 +413,8 @@ select {
           appearance: none;
   padding: 0;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+     color-adjust: exact;
+          print-color-adjust: exact;
   display: inline-block;
   vertical-align: middle;
   background-origin: border-box;
@@ -484,6 +487,7 @@ select {
   line-height: inherit;
 }
 [type='file']:focus {
+  outline: 1px solid ButtonText;
   outline: 1px auto -webkit-focus-ring-color;
 }
 *, ::before, ::after {
@@ -1122,9 +1126,6 @@ select {
   bottom: 0;
   left: 0;
 }
-.aspect-h-2 {
-  --tw-aspect-h: 2;
-}
 .aspect-w-10 {
   position: relative;
   padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
@@ -1138,6 +1139,9 @@ select {
   right: 0;
   bottom: 0;
   left: 0;
+}
+.aspect-h-2 {
+  --tw-aspect-h: 2;
 }
 .aspect-h-7 {
   --tw-aspect-h: 7;
@@ -1538,6 +1542,9 @@ select {
 .max-w-none {
   max-width: none;
 }
+.max-w-lg {
+  max-width: 32rem;
+}
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -1818,10 +1825,6 @@ select {
   --tw-border-opacity: 1;
   border-color: rgb(231 229 228 / var(--tw-border-opacity));
 }
-.border-yellow-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(161 98 7 / var(--tw-border-opacity));
-}
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(245 245 244 / var(--tw-border-opacity));
@@ -2024,11 +2027,11 @@ select {
 .p-3 {
   padding: 0.75rem;
 }
-.p-2 {
-  padding: 0.5rem;
-}
 .p-4 {
   padding: 1rem;
+}
+.p-2 {
+  padding: 0.5rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -2312,13 +2315,13 @@ select {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
+.text-yellow-900 {
+  --tw-text-opacity: 1;
+  color: rgb(113 63 18 / var(--tw-text-opacity));
+}
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(41 37 36 / var(--tw-text-opacity));
-}
-.text-yellow-700 {
-  --tw-text-opacity: 1;
-  color: rgb(161 98 7 / var(--tw-text-opacity));
 }
 .text-gray-400 {
   --tw-text-opacity: 1;
@@ -3751,8 +3754,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
   .md\:border-b {
     border-bottom-width: 1px;
   }
-  .md\:border-none {
-    border-style: none;
+  .md\:border-yellow-400 {
+    --tw-border-opacity: 1;
+    border-color: rgb(250 204 21 / var(--tw-border-opacity));
   }
   .md\:bg-gray-100 {
     --tw-bg-opacity: 1;
@@ -3772,10 +3776,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
   .md\:bg-orange-400 {
     --tw-bg-opacity: 1;
     background-color: rgb(251 146 60 / var(--tw-bg-opacity));
-  }
-  .md\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 240 138 / var(--tw-bg-opacity));
   }
   .md\:bg-gradient-to-r {
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -4371,6 +4371,10 @@ lite-youtube.lyt-activated > .lty-playbtn {
   .xl\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+  .xl\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .xl\:px-8 {
     padding-left: 2rem;
