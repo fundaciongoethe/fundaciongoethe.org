@@ -1,6 +1,5 @@
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
-const ColorThief = require('colorthief');
 const htmlmin = require('html-minifier');
 
 // eleventy img placeholder
@@ -28,7 +27,6 @@ const imageShortcodePlaceholder = async (src, cls, alt, caption, loading = 'lazy
 
   let lowsrc = metadata.jpeg[0];
 
-  // getting the url for colorthief to use
   let imgSrc = src;
   if (!imgSrc.startsWith('.')) {
     const inputPath = this.page.inputPath;
@@ -37,10 +35,8 @@ const imageShortcodePlaceholder = async (src, cls, alt, caption, loading = 'lazy
     imgSrc = pathParts.join('/') + '/' + src;
   }
 
-  // colorthief getting the image colors
-  return ColorThief.getColor(imgSrc).then((color) => {
-    return htmlmin.minify(
-      `<figure class="-mx-6 lg:-mx-24 my-8 md:my-16 lg:my-24">
+  return htmlmin.minify(
+    `<figure class="-mx-6 lg:-mx-24 my-8 md:my-16 lg:my-24">
       <div class="relative" style="background-color: rgba(${color},1);"><picture>
     ${Object.values(metadata)
       .map((imageFormat) => {
@@ -60,9 +56,8 @@ const imageShortcodePlaceholder = async (src, cls, alt, caption, loading = 'lazy
     </picture></div>
     ${caption ? `<figcaption class="py-2 px-6 text-xs text-black">${caption}</figcaption>` : ``}
 </figure>`,
-      { collapseWhitespace: true }
-    );
-  });
+    { collapseWhitespace: true }
+  );
 };
 
 module.exports = imageShortcodePlaceholder;
