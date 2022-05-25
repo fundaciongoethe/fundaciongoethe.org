@@ -1,14 +1,15 @@
 ---
-title: "Corinna Simon"
-translationKey: "corinnasimon"
-customSlug: "corinna-simon"
+title: 'Corinna Simon'
+translationKey: 'corinnasimon'
+customSlug: 'corinna-simon'
 excerpt: Die deutsche Pianistin Corinna Simon erhielt ihren ersten Klavierunterricht im Alter von fünf Jahren. Mit zwölf Jahren wurde sie in das Julius-Stern-Institut aufgenommen.
-occupation: "Pianistin"
+occupation: 'Pianistin'
 seo:
   image: artists/corinna-simon.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/corinna-simon.jpg
-  alt: Corinna Simon spielt auf einem Konzert für die Fundación Goethe
+  alt: Corinna Simon bei einem Konzert für die Fundación Goethe
+  credit: Mireia Miralles
 links:
   web: https://www.corinna-simon.com
   twitter:

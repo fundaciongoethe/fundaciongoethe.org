@@ -9,7 +9,7 @@
       >
         <!-- picture shortcode -->
         {% Picture venue.data.images.featured, "aspect-w-10 aspect-h-7", "object-cover filter grayscale",
-        venue.data.images.alt, "lazy", "(min-width: 640px) 360px, 640px" %}
+        venue.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
 
         <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
       </div>

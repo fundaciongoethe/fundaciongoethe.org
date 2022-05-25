@@ -4,7 +4,7 @@ description: Un homenaje a las grandes cantantes y compositoras de jazz, folk, p
 translationKey: gruberjazzmadrid
 customSlug: tribute-jazz-madrid
 artist: [duogruber]
-venue: [palacioreal]
+venue: [campodelmoro]
 location: Campo del Moro, Madrid
 city: Madrid
 partners:

@@ -10,8 +10,8 @@ seo: # image relative to /assets/images/
   image: /venues/museo-reina-sofia.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/museo-reina-sofia.jpg
-  alt: Museo Nacional Centro de Arte Reina Sofía, Haupteingang
-  credit: Zarateman, CC BY-SA 4.0, via Wikimedia Commons
+  alt: Auditorium des Museums während eines Konzerts von Corinna Simon
+  credit: Alfonso Cano
 links:
   web: https://www.museoreinasofia.es/colabora/eventos-corporativos-visitas-privadas/auditorio-400
   twitter:

@@ -1,14 +1,15 @@
 ---
-title: "Corinna Simon"
-translationKey: "corinnasimon"
-customSlug: "corinna-simon"
+title: 'Corinna Simon'
+translationKey: 'corinnasimon'
+customSlug: 'corinna-simon'
 excerpt: Corinna Simon, pianista de Berlín, empezó dando clases de piano a la tierna edad de cinco años. Con doce años comenzó su formación pianística como estudiante juvenil en el Julius-Stern-Institut en Berlín con los profesores Ingeborg Peukert y Wolfgang Saschowa.
-occupation: "Pianista"
+occupation: 'Pianista'
 seo:
   image: artists/corinna-simon.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/corinna-simon.jpg
-  alt: Corinna Simon tocando en un concierto para la Fundación Goethe
+  alt: Corinna Simon en un concierto para la Fundación Goethe
+  credit: Mireia Miralles
 links:
   web: https://www.corinna-simon.com
   twitter:
