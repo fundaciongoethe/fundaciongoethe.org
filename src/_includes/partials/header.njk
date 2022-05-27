@@ -40,7 +40,7 @@
         {# Mobile menu button #}
         <button
           @click="open = !open"
-          class="inline-flex items-center justify-center px-3 my-1 text-xs font-semibold text-gray-50 bg-black rounded-l-md hover:bg-red-600"
+          class="inline-flex items-center justify-center px-3 my-1 text-xs font-semibold rounded-l-md hover:bg-gray-100"
           x-bind:aria-label="open ? 'Close main menu' : 'Main menu'"
           aria-label="Main menu"
           x-bind:aria-expanded="open"
@@ -54,7 +54,7 @@
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="2.5"
-            stroke="#FDF2F8"
+            stroke="#44403C"
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -65,11 +65,7 @@
             <line x1="4" y1="12" x2="20" y2="12" />
             <line x1="4" y1="18" x2="20" y2="18" />
           </svg>
-          <!-- <span
-            class="uppercase"
-            :class="{ 'hidden': open, 'block': !(open) }"
-            >{{ meta[locale].menuButton }}</span
-          > -->
+
           {# Icon when menu is open. #}
           <svg
             x-state:on="Menu open"
@@ -79,7 +75,7 @@
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="2.5"
-            stroke="#FDF2F8"
+            stroke="#44403C"
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -89,11 +85,6 @@
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
-          <!-- <span aspect-h-9
-            class="uppercase"
-            :class="{ 'block': open, 'hidden': !(open) }"
-            >{{ meta[locale].menuClose }}</span
-          > -->
         </button>
       </div>
     </div>
@@ -101,7 +92,7 @@
 
   <div
     x-description="Mobile menu, show/hide based on menu state."
-    class="md:hidden relative bg-gray-200"
+    class="md:hidden relative"
     id="mobile-menu"
     x-show="open"
     style="display: none"
@@ -124,13 +115,13 @@
 
     <!-- invitations link on mobile -->
     <a
-      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 {% if (page.url === '/es/invitaciones/') or (page.url === '/de/einladungen/') %} bg-gray-300 {% endif %}"
+      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t {% if (page.url === '/es/invitaciones/') or (page.url === '/de/einladungen/') %} bg-gray-300 {% endif %}"
       href="{{ navigation[locale].bottom.row3[0].url }}"
     >
       {{ navigation[locale].bottom.row3[0].text }}</a
     >
 
-    <div class="flex items-center justify-center border-t border-gray-100">
+    <div class="flex items-center justify-center border-t border-b">
       <!-- languages -->
       {% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set translatedUrl to the homepage of that
       language by default #} {% set translatedUrl = "/" + lgg.code + "/" %} {# set current language class #} {% set
