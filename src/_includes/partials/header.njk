@@ -40,7 +40,7 @@
         {# Mobile menu button #}
         <button
           @click="open = !open"
-          class="inline-flex items-center justify-center px-3 my-1 text-xs font-semibold rounded-l-md hover:bg-gray-100"
+          class="inline-flex items-center justify-center px-3 my-1 text-xs font-semibold rounded-l-md hover:bg-gray-200"
           x-bind:aria-label="open ? 'Close main menu' : 'Main menu'"
           aria-label="Main menu"
           x-bind:aria-expanded="open"
@@ -100,7 +100,7 @@
     {% for item in navigation[locale].top %}
 
     <a
-      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3"
+      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t"
       href="{{ item.url }}"
       {{
       helpers.getLinkActiveState(item.url,

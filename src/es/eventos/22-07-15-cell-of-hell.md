@@ -21,7 +21,7 @@ seo:
   title: 'Cell of Hell en el Campo del Moro'
   image: venues/mad-campo-del-moro.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-campo-del-moro.jpg
+  featured: ./src/assets/images/artists/cell-of-hell.jpg
   alt: Una fuente y el Palacio Real al fondo.
   credit: Patrimonio Nacional
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.

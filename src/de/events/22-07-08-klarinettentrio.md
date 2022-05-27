@@ -21,7 +21,7 @@ seo:
   title: 'Klarinettentrio im Campo del Moro'
   image: venues/mad-campo-del-moro.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-campo-del-moro.jpg
+  featured: ./src/assets/images/artists/klarinettentrio.jpg
   alt: Ein Springbrunnen und der Königspalast im Hintergrund.
   credit: Patrimonio Nacional
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.

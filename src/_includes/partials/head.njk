@@ -1,10 +1,8 @@
 <!-- set absolutePageURL to use later in canonical and og URLs  -->
-{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url)}}{%- endset -%}
-<!-- set image paths here so user/editor doesn't have to deal with full path  -->
-{%- set ogImage -%} {% if seo.image %} /assets/images/{{ seo.image }}
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url)}}{%- endset -%} {%- set ogImage -%} {% if
+seo.image %} /assets/images/{{ seo.image }}
 {% elseif images.featured %}
-<!-- strip src  -->
-{{ images.featured | replace("./src", ".") }}
+{{ images.featured | replace("./src/", "") }}
 {% else %}
 {{ meta.siteImage }}
 {% endif %} {%- endset -%}
