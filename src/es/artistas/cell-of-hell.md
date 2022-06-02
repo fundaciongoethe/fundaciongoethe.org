@@ -1,5 +1,5 @@
 ---
-title: 'Cell of hell'
+title: 'Cell of Hell'
 translationKey: 'cellofhell'
 customSlug: 'cell-of-hell'
 excerpt: 'Espectaculares composiciones originales, así como "clásicos" interpretados por clásicos: conocidos "éxitos" de Haendel, Vivaldi o Beethoven, pero también Metallica, crean un puente hacia el siglo XXI.'

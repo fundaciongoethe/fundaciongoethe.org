@@ -18,8 +18,8 @@ gallery:
   - image: ./src/assets/images/blog/corinna-simon-barcelona-2022-8.jpg
   - image: ./src/assets/images/blog/corinna-simon-barcelona-2022-9.jpg
   - image: ./src/assets/images/blog/corinna-simon-madrid-2022-1.jpg
-  - image: ./src/assets/images/blog/corinna-simon-madrid-2022-2.jpg
-  - image: ./src/assets/images/blog/corinna-simon-madrid-2022-3.jpg
+  - image: ./src/assets/images/blog/corinna-simon-madrid-2022-4.jpg
+  - image: ./src/assets/images/blog/corinna-simon-madrid-2022-5.jpg
 ---
 
 En mayo 2022, la pianista berlinesa [Corinna Simon](https://www.fundaciongoethe.org/es/artistas/corinna-simon/) nos visitó para dar dos conciertos: En Barcelona en el [Pabellón Mies van der Rohe](https://www.fundaciongoethe.org/es/lugares/pabellon-mies-van-der-rohe/) y en Madrid en el [Auditorio del Museo Nacional Centro de Arte Reina Sofía](https://www.fundaciongoethe.org/es/lugares/auditorio-museo-reina-sofia/), en el marco de la Gala "Anoche tuve un sueño".

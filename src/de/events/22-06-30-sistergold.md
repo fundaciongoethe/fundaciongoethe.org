@@ -13,7 +13,7 @@ type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2022-06-30 21:00:00
 opening: 2022-06-30 20:30:00
-ending: 2022-06-30 22:40:00
+ending: 2022-06-30 22:10:00
 deadline: 2022-06-25 11:00:00
 calcDuration: 1.1
 program:
@@ -28,6 +28,8 @@ infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Pl
 directregister:
 ---
 
-Das Programm wird noch festgelegt.
+Ladypower und Entertainment: sistergold bieten musikalische Perfektion und kreatives Gespür für ein grandioses Songprogramm.
+
+Zu hören gibt es Swingklassiker wie „Lady be good“ und „Route 66“, Ausflüge in die Klassik mit Stücken aus Claude Debussys „Childrens Corner“ und Georg Friedrich Händels „Die Königin von Saba“, Musik aus Irland, Brasilien, Argentinien und Israel, aber auch Sting und den Blues Brothers gehören diesmal dazu. Eine wilde Mischung, die widerspiegelt, was sistergold auszeichnet.
 
 {% youtube 'ld5Q_A9jxyY', 'Das Saxophonquartett sistergold spielt Abba' %}

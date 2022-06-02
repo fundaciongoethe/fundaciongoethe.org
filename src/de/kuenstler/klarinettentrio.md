@@ -1,6 +1,6 @@
 ---
 title: 'Klarinettentrio Schmuck'
-translationKey: 'klarinettentrio.md'
+translationKey: 'klarinettentrio'
 customSlug: 'klarinettentrio-schmuck'
 excerpt: 'Sprudelnde Spielfreude, magische Dialoge und nahtlose Interaktion kommen bei diesen Musikern zusammen. Das Programm des Trios reicht von klassischer Musik über Jazz bis hin zu moderner Musik. '
 occupation: 'Klarinettentrio'

@@ -1,6 +1,6 @@
 {
   "name": "fundaciongoethe",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "fundaciongoethe uses ESBuild Tailwind and PostCSS",
   "scripts": {
     "clean": "del dist",
@@ -15,7 +15,7 @@
     "debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
     "debug-perf": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy"
   },
-  "author": "Chris Collins",
+  "author": "Lene Saile",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.1.1",

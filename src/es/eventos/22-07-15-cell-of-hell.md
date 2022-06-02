@@ -13,7 +13,7 @@ type: Concierto
 access: Se requiere una invitación personal
 date: 2022-07-15 21:00:00
 opening: 2022-07-15 20:30:00
-ending: 2022-07-15 22:40:00
+ending: 2022-07-15 22:10:00
 deadline: 2022-07-10 11:00:00
 calcDuration: 1.1
 program:
@@ -28,6 +28,6 @@ infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo c
 directregister:
 ---
 
-Programa a determinar.
+Cell of Hell lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.
 
 {% youtube 'PGYfcqsxYF8', 'CELL OF HELL | Vivaldi Cello Rock - Dirty Antonio' %}

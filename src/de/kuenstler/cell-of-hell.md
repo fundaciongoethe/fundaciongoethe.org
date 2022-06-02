@@ -1,5 +1,5 @@
 ---
-title: 'Cell of hell'
+title: 'Cell of Hell'
 translationKey: 'cellofhell'
 customSlug: 'cell-of-hell'
 excerpt: 'Spektakuläre Eigenkompositionen sowie "Klassiker", vorgetragen von Klassikern: Bekannte "Hits" von Händel, Vivaldi oder Beethoven, aber auch Metallica, schlagen eine Brücke ins 21. Jahrhundert.'

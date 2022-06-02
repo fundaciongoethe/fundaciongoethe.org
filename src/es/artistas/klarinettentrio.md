@@ -1,6 +1,6 @@
 ---
 title: 'Trío de clarinette Schmuck'
-translationKey: 'klarinettentrio.md'
+translationKey: 'klarinettentrio'
 customSlug: 'trio-de-clarinette-schmuck'
 excerpt: 'Alegría burbujeante de jugar, diálogo mágico e interacción homogénea se reúnen en estos músicos. El programa del trío abarca desde la música clásica hasta el jazz y la música moderna. '
 occupation: 'Trío de clarinette'

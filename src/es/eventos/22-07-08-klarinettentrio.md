@@ -13,7 +13,7 @@ type: Concierto
 access: Se requiere una invitación personal
 date: 2022-07-08 21:00:00
 opening: 2022-07-08 20:30:00
-ending: 2022-07-08 22:40:00
+ending: 2022-07-08 22:10:00
 deadline: 2022-07-05 11:00:00
 calcDuration: 1.1
 program:
@@ -28,6 +28,6 @@ infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo c
 directregister:
 ---
 
-Programa por determinar.
+Alegría burbujeante de jugar, diálogo mágico e interacción homogénea se reúnen en este trío de clarinette. El programa del trío abarca desde la música clásica hasta el jazz y la música moderna.
 
 {% youtube 'XyckzfpHtAE', 'Klarinettentrio Schmuck. Mozart: Voi che sapete' %}

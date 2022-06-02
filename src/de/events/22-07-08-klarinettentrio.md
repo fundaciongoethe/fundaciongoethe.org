@@ -13,7 +13,7 @@ type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2022-07-08 21:00:00
 opening: 2022-07-08 20:30:00
-ending: 2022-07-08 22:40:00
+ending: 2022-07-08 22:10:00
 deadline: 2022-07-05 11:00:00
 calcDuration: 1.1
 program:
@@ -28,6 +28,6 @@ infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Pl
 directregister:
 ---
 
-Das Programm wird noch festgelegt.
+Sprudelnde Spielfreude, magischer Dialog und homogenes Zusammenspiel treffen im Klarinettentrio Schmuck aufeinander. Das Programm des Trios reicht von klassischer Musik über Jazz bis hin zu moderner Musik.
 
 {% youtube 'XyckzfpHtAE', 'Klarinettentrio Schmuck. Mozart: Voi che sapete' %}
