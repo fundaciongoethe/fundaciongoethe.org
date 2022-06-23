@@ -6,7 +6,7 @@
     <a href="{{ artist.url }}">
       <div class="group block w-full aspect-w-10 aspect-h-7 rounded-md bg-gray-100 overflow-hidden buttonhover">
         <!-- picture shortcode -->
-        {% Picture artist.data.images.featured," aspect-w-10 aspect-h-7 ", "object-cover filter grayscale",
+        {% Picture artist.data.images.featured," aspect-w-10 aspect-h-7 ", "object-cover grayimg ",
         artist.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
 
         <span class="sr-only"> {{ meta[locale].event.readmore }} {{ artist.data.title }}</span>

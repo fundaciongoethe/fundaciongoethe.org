@@ -11,10 +11,10 @@ partners:
   - mies
 type: Führung
 access: Persönliche Einladung erforderlich
-date: 2022-07-04 20:30:00
-opening: 2022-07-04 20:00:00
-ending: 2022-07-04 22:00:00
-deadline: 2022-07-04 11:00:00
+date: 2022-07-05 20:30:00
+opening: 2022-07-05 20:00:00
+ending: 2022-07-05 22:00:00
+deadline: 2022-07-05 11:00:00
 calcDuration: 1.3
 program:
 seo:

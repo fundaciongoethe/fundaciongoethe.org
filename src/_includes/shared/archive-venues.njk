@@ -8,8 +8,8 @@
         class="group block w-full aspect-w-10 aspect-h-7 rounded-md bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
       >
         <!-- picture shortcode -->
-        {% Picture venue.data.images.featured, "aspect-w-10 aspect-h-7", "object-cover filter grayscale",
-        venue.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
+        {% Picture venue.data.images.featured, "aspect-w-10 aspect-h-7", "object-cover grayimg ", venue.data.images.alt,
+        "eager", "(min-width: 640px) 360px, 640px" %}
 
         <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
       </div>

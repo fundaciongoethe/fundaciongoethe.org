@@ -201,6 +201,10 @@ h2 {
   filter: grayscale(100%);
 }
 
+.grayimg:hover {
+  filter: grayscale(0%);
+}
+
 .counterinput {
   appearance: none;
   outline: 0;
