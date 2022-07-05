@@ -9,6 +9,7 @@ location: Campo del Moro, Madrid
 city: Madrid
 partners:
   - patrimonio
+  - botschaftmadrid
 type: Concierto
 access: Se requiere una invitación personal
 date: 2022-06-30 21:00:00
