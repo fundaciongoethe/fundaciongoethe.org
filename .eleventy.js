@@ -313,10 +313,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/pdf/');
   eleventyConfig.addPassthroughCopy('src/assets/images/');
 
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/helperfiles/google35901daa0ceb7399.html': 'google35901daa0ceb7399.html',
-  });
-
   // social icons von images zu root
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/site.webmanifest': 'site.webmanifest',
