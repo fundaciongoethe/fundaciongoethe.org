@@ -11,7 +11,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: 'Skulpturenpark Enrique Asensi'
   credit:
 links:
-  web:
+  web: https://www.asensi.de
   twitter:
   facebook:
   instagram:
