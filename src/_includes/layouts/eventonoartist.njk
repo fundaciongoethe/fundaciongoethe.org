@@ -4,38 +4,12 @@ tags: pages
 ---
 
 <!-- venues -->
-{% set venueItems = helpers.filterCollectionByKeys(collections["venues_" +
-locale], venue) %}
+{% set venueItems = helpers.filterCollectionByKeys(collections["venues_" + locale], venue) %}
 
 <main id="main">
   <div class="lg:mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
     <div
-      class="
-        col-span-5
-        md:col-span-3
-        {%
-        if
-        calendarLinks.isFutureEvent
-        %}
-        bg-yellow-200
-        md:bg-yellow-300
-        {%
-        else
-        %}
-        bg-gray-200
-        {%
-        endif
-        %}
-        sm:rounded-tr-xl sm:mr-3
-        md:mr-0
-        px-3
-        xl:pl-16
-        2xl:pl-24
-        md:pr-12
-        lg:pr-36
-        xl:pr-44
-        py-12
-      "
+      class="col-span-5 md:col-span-3 {% if calendarLinks.isFutureEvent %} bg-yellow-200 md:bg-yellow-300 {% else %} bg-gray-200 {% endif %} sm:rounded-tr-xl sm:mr-3 md:mr-0 px-3 xl:pl-16 2xl:pl-24 md:pr-12 lg:pr-36 xl:pr-44 py-12"
     >
       {% if calendarLinks.isFutureEvent %}
 
@@ -44,57 +18,23 @@ locale], venue) %}
       </span>
 
       {% else %}
-      <span
-        class="
-          text-sm text-gray-800
-          bg-red-400
-          px-2
-          py-1
-          rounded-sm
-          font-bold
-          tracking-wide
-          uppercase
-        "
-      >
+      <span class="text-sm text-gray-800 bg-red-400 px-2 py-1 rounded-sm font-bold tracking-wide uppercase">
         {{ meta[locale].event.finished }}
       </span>
       {% endif %}
 
       <h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
 
-      {% if infobox and calendarLinks.isFutureEvent %} {%- include
-      "components/infobox.njk" %} {% endif %}
+      {% if infobox and calendarLinks.isFutureEvent %} {%- include "components/infobox.njk" %} {% endif %}
 
       <div class="standardtext mt-12 prose">{{ content | safe }}</div>
     </div>
 
     <div
-      class="
-        col-span-5
-        md:col-span-2
-        bg-black
-        text-white
-        sm:rounded-t-2xl sm:ml-3
-        md:ml-0
-        transform
-        lg:ml-2
-        xl:ml-1
-        2xl:ml-0
-        md:-translate-x-8
-        lg:-translate-x-28
-        2xl:-translate-x-32
-        sm:-mt-6
-        md:mt-20
-        py-4
-        sm:py-10
-        px-3
-        xl:px-8
-      "
+      class="col-span-5 md:col-span-2 bg-black text-white sm:rounded-t-2xl sm:ml-3 md:ml-0 transform lg:ml-2 xl:ml-1 2xl:ml-0 md:-translate-x-8 lg:-translate-x-28 2xl:-translate-x-32 sm:-mt-6 md:mt-20 py-4 sm:py-10 px-3 xl:px-8"
     >
       <div class="py-2 sm:p-0">
-        <dl
-          class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase"
-        >
+        <dl class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase">
           <div class="py-4 grid grid-cols-5 sm:gap-4">
             <dt class="font-bold text-gray-400 col-span-2">
               {{ meta[locale].event.type }}
@@ -122,10 +62,7 @@ locale], venue) %}
               {{ meta[locale].event.entry }}
             </dt>
             <dd class="text-gray-50 col-span-3">
-              {{ opening | date("HH:mm", locale) }} ({{
-                meta[locale].event.start
-              }}
-              {{ date | date("HH:mm", locale) }})
+              {{ opening | date("HH:mm", locale) }} ({{ meta[locale].event.start }} {{ date | date("HH:mm", locale) }})
             </dd>
           </div>
 
@@ -178,40 +115,17 @@ locale], venue) %}
       </div>
 
       <!-- calendar links -->
-      {% if calendarLinks.isFutureEvent %} {%- include
-      "partials/calendarLinks.njk" %}{% endif %}
+      <!-- {% if calendarLinks.isFutureEvent %} {%- include "partials/calendarLinks.njk" %}{% endif %} -->
     </div>
   </div>
 
   <!-- venues -->
   {% for venue in venueItems %}
   <div class="relative flex flex-col">
-    <div
-      class="
-        order-2
-        relative
-        pt-12
-        pb-16
-        px-3
-        sm:pt-16
-        md:max-w-7xl md:mx-auto
-        grid grid-cols-1
-        md:grid-cols-2
-      "
-    >
+    <div class="order-2 relative pt-12 pb-16 px-3 sm:pt-16 md:max-w-7xl md:mx-auto grid grid-cols-1 md:grid-cols-2">
       <div class="md:col-start-1 xl:pl-12">
-        <div
-          class="text-base mx-auto md:ml-auto md:mr-0 sm:pr-6 lg:pr-16 xl:pr-20"
-        >
-          <span
-            class="
-              text-sm text-orange-500
-              font-bold
-              tracking-wide
-              uppercase
-              mb-2
-            "
-          >
+        <div class="text-base mx-auto md:ml-auto md:mr-0 sm:pr-6 lg:pr-16 xl:pr-20">
+          <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2">
             {{ meta[locale].event.venue }}
           </span>
           <h2 class="standardtitel uppercase">
@@ -235,9 +149,9 @@ locale], venue) %}
 
     <div class="order-1 md:absolute md:inset-y-0 md:right-0 md:w-1/2">
       <!-- picture shortcode -->
-      {% Picture venue.data.images.featured,"", "filter grayscale w-full
-      object-cover md:absolute h-72 sm:h-96 md:h-full", venue.data.images.alt,
-      "lazy" %}
+
+      {% Picture venue.data.images.featured,"", "filter grayscale w-full object-cover md:absolute h-72 sm:h-96
+      md:h-full", venue.data.images.alt, "lazy" %}
     </div>
   </div>
   {% endfor %}
@@ -245,15 +159,11 @@ locale], venue) %}
   <!-- partners -->
   {% if partners %}
 
-  <h2 class="standardtitel pt-20 px-3 lg:px-16">
-    {{ meta[locale].event.thanks }}:
-  </h2>
+  <h2 class="standardtitel pt-20 px-3 lg:px-16">{{ meta[locale].event.thanks }}:</h2>
 
   <div class="mt-8 border-t border-b border-gray-300">
     <div class="relative mx-auto px-3 lg:px-16 bg-white">
-      <div
-        class="grid grid-cols-2 gap-0.5 md:grid-cols-7 divide-x divide-gray-300"
-      >
+      <div class="grid grid-cols-2 gap-0.5 md:grid-cols-7 divide-x divide-gray-300">
         <!-- get current locale from meta.languages -->
         {% for partner in partners %}
 
@@ -261,26 +171,12 @@ locale], venue) %}
           <a
             ref="nofollow"
             target="_blank"
-            title="{{ meta[locale].event.visitWeb }} {{
-              partnerarchiv[partner].name
-            }}"
+            title="{{ meta[locale].event.visitWeb }} {{ partnerarchiv[partner].name }}"
             href="{{ partnerarchiv[partner].url }}"
-            class="
-              buttonhover
-              col-span-1
-              flex
-              justify-center
-              py-6
-              px-2
-              filter
-              grayscale
-              hover:grayscale-0
-              opacity-75
-              hover:opacity-100
-            "
+            class="buttonhover col-span-1 flex justify-center py-6 px-2 filter grayscale hover:grayscale-0 opacity-75 hover:opacity-100"
           >
-            {% Picture partnerarchiv[partner].logo, "bg-gray-100", "lazy
-            max-h-16", partnerarchiv[partner].name, "lazy" %}
+            {% Picture partnerarchiv[partner].logo, "bg-gray-100", "lazy max-h-16", partnerarchiv[partner].name, "lazy"
+            %}
           </a>
         </figure>
 

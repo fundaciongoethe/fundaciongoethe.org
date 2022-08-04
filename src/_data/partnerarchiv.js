@@ -249,4 +249,14 @@ module.exports = {
     url: 'https://www.escuelasuperiordemusicareinasofia.es',
     logo: './src/assets/images/event-sponsors/reinasofia-escuela.png',
   },
+  cervello: {
+    name: 'Església romànica de Santa Maria de Cervelló',
+    url: 'https://www.cervello.cat/coneix-cervello/turisme/llocs-dinteres/esglesia-de-santa-maria-de-cervello.html',
+    logo: './src/assets/images/event-sponsors/cervello.png',
+  },
+  asensi: {
+    name: 'Parque de Esculturas Enrique Asensi',
+    url: 'https://www.asensi.de/SkulpturenPark/',
+    logo: './src/assets/images/event-sponsors/asensi.png',
+  },
 };
