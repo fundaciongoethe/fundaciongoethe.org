@@ -259,4 +259,9 @@ module.exports = {
     url: 'https://www.asensi.de/SkulpturenPark/',
     logo: './src/assets/images/event-sponsors/asensi.png',
   },
+  segle: {
+    name: 'Segle Nou',
+    url: 'https://www.seglenou.cat/',
+    logo: './src/assets/images/event-sponsors/segle.png',
+  },
 };

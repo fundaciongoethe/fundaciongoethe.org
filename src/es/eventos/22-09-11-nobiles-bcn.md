@@ -9,6 +9,7 @@ location: Iglesia de Santa María de Cervelló
 city: Cervelló (Barcelona)
 partners:
   - cervello
+  - segle
 type: Concierto
 access: Se requiere una invitación personal
 date: 2022-09-11 11:30:00
