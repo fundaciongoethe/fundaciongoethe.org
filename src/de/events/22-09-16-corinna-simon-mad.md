@@ -9,11 +9,12 @@ location: Palacio Real de Madrid
 city: Madrid
 partners:
   - patrimonio
+  - botschaftmadrid
 type: Klavierkonzert
 access: Persönliche Einladung erforderlich
-date: 2022-09-16 13:00:00
-opening: 2022-09-16 12:30:00
-ending: 2022-09-16 14:00:00
+date: 2022-09-17 12:00:00
+opening: 2022-09-17 11:30:00
+ending: 2022-09-17 13:00:00
 deadline: 2022-09-09 13:00:00
 calcDuration: 1
 program:

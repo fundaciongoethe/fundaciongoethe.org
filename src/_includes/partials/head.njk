@@ -10,7 +10,7 @@ seo.image %} /assets/images/{{ seo.image }}
 <!-- metas  -->
 {#- General #}
 <meta name="author" content="{{ author or meta.authorName }}" />
-<meta name="description" content="{{ seo.description or excerpt or meta[locale].metaDescription }}" />
+<meta name="description" content="{{ seo.description or excerpt or description or meta[locale].metaDescription }}" />
 <link rel="canonical" href="{{ absolutePageUrl }}" />
 
 {#- Open Graph #}
