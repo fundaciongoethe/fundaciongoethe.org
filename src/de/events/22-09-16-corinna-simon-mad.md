@@ -18,7 +18,7 @@ deadline: 2022-09-09 13:00:00
 calcDuration: 1
 program:
 seo:
-  title: Corinna Simon: Piano for Kids im Königspalast von Madrid
+  title: 'Corinna Simon: Piano for Kids im Königspalast von Madrid'
   image: venues/palacio-real-madrid.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/palacio-real-madrid.jpg

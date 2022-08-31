@@ -18,7 +18,7 @@ deadline: 2022-09-09 13:00:00
 calcDuration: 1
 program:
 seo:
-  title: Corinna Simon: Piano para niños en el Palacio Real de Madrid
+  title: 'Corinna Simon: Piano para niños en el Palacio Real de Madrid'
   image: venues/palacio-real-madrid.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/palacio-real-madrid.jpg
