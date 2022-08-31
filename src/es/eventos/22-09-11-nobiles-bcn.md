@@ -2,11 +2,11 @@
 title: 'Ensemble Nobiles en la Iglesia de Santa María de Cervelló'
 description: 'El quinteto vocal Ensemble Nobiles cantará canciones de amor y de dolor, de hogar y del extranjero, pedagógicas, frívolas.'
 translationKey: nobilesbcn22
-customSlug: ensemble-nobiles-concierto-barcelona-pardo
+customSlug: ensemble-nobiles-concierto-barcelona-cervello
 artist: [ensemblenobiles]
 venue: [iglesiacervello]
 location: Iglesia de Santa María de Cervelló
-city: Cervelló (Barcelona)
+city: Can Pi (Barcelona)
 partners:
   - cervello
   - segle

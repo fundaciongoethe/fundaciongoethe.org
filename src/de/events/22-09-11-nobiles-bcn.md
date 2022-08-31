@@ -2,11 +2,11 @@
 title: 'Ensemble Nobiles in der Kirche Santa Maria de Cervelló'
 description: 'Das Vokalquintett Ensemble Nobiles singt in Liedern von Liebe und Leid, von Heimat und Ausland, lehrreich, frivol.'
 translationKey: nobilesbcn22
-customSlug: ensemble-nobiles-konzert-barcelona-pardo
+customSlug: ensemble-nobiles-konzert-barcelona-cervello
 artist: [ensemblenobiles]
 venue: [iglesiacervello]
 location: Iglesia de Santa María de Cervelló
-city: Cervelló (Barcelona)
+city: Can Pi (Barcelona)
 partners:
   - cervello
   - segle

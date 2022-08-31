@@ -31,18 +31,18 @@ tags: pages
     </div>
 
     <div
-      class="col-span-5 md:col-span-2 bg-black text-white sm:rounded-t-2xl sm:ml-3 md:ml-0 transform lg:ml-2 xl:ml-1 2xl:ml-0 md:-translate-x-8 lg:-translate-x-28 2xl:-translate-x-32 sm:-mt-6 md:mt-20 py-4 sm:py-10 px-3 xl:px-8"
+      class="col-span-5 transform py-4 px-3 bg-black text-white sm:rounded-t-2xl sm:py-10 sm:ml-3 sm:-mt-6 md:ml-0 md:mt-20 md:col-span-2 md:-translate-x-8 lg:ml-2 xl:ml-1 lg:-translate-x-28 xl:py-12 xl:px-8 2xl:-translate-x-32 2xl:ml-0"
     >
       <div class="py-2 sm:p-0">
-        <dl class="sm:divide-y sm:divide-gray-800 text-sm lg:text-base uppercase">
-          <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+        <dl class="sm:divide-y sm:divide-gray-800 text-xs">
+          <!-- <div class="py-4 grid grid-cols-5 sm:gap-4">
+            <dt class="font-bold text-gray-400 col-span-2 truncate uppercase">
               {{ meta[locale].event.type }}
             </dt>
             <dd class="text-gray-50 col-span-3">{{ type }}</dd>
-          </div>
-          <div class="py-4 grid grid-cols-5 sm:gap-4 upprcase">
-            <dt class="font-bold text-gray-400 col-span-2">
+          </div> -->
+          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+            <dt class="font-bold text-gray-400 col-span-2 truncate uppercase">
               {{ meta[locale].event.date }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -58,7 +58,7 @@ tags: pages
           {% if opening %}
 
           <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+            <dt class="font-bold text-gray-400 col-span-2 truncate uppercase">
               {{ meta[locale].event.entry }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -69,7 +69,7 @@ tags: pages
           {% else %}
 
           <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+            <dt class="font-bold text-gray-400 col-span-2 truncate uppercase">
               {{ meta[locale].event.start }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -80,7 +80,7 @@ tags: pages
           {% endif %}
           <!-- wenn opening time ende -->
           <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+            <dt class="font-bold text-gray-400 col-span-2 truncate uppercase">
               {{ meta[locale].event.ending }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -90,7 +90,7 @@ tags: pages
           {% endif %}
 
           <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+            <dt class="font-bold text-gray-400 col-span-2 truncate uppercase">
               {{ meta[locale].event.venue }}
             </dt>
             <dd class="text-gray-50 col-span-3">
@@ -102,7 +102,7 @@ tags: pages
 
           {% if deadline and calendarLinks.isFutureEvent %}
           <div class="py-4 grid grid-cols-5 sm:gap-4">
-            <dt class="font-bold text-gray-400 col-span-2">
+            <dt class="font-bold text-gray-400 col-span-2 truncate uppercase">
               {{ meta[locale].event.deadline }}
             </dt>
             <dd class="text-gray-50 col-span-3">
