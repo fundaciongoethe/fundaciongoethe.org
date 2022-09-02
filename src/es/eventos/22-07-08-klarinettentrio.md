@@ -28,6 +28,6 @@ infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo c
 directregister:
 ---
 
-Alegría burbujeante de jugar, diálogo mágico e interacción homogénea se reúnen en este trío de clarinette. El programa del trío abarca desde la música clásica hasta el jazz y la música moderna.
+Alegría burbujeante de jugar, diálogo mágico e interacción homogénea se reúnen en este trío de clarinete. El programa del trío abarca desde la música clásica hasta el jazz y la música moderna.
 
 {% youtube 'XyckzfpHtAE', 'Klarinettentrio Schmuck. Mozart: Voi che sapete' %}

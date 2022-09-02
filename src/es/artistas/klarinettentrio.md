@@ -1,9 +1,9 @@
 ---
-title: 'Trío de clarinette Schmuck'
+title: 'Trío de clarinete Schmuck'
 translationKey: 'klarinettentrio'
-customSlug: 'trio-de-clarinette-schmuck'
+customSlug: 'trio-de-clarinete-schmuck'
 excerpt: 'Alegría burbujeante de jugar, diálogo mágico e interacción homogénea se reúnen en estos músicos. El programa del trío abarca desde la música clásica hasta el jazz y la música moderna. '
-occupation: 'Trío de clarinette'
+occupation: 'Trío de clarinete'
 seo:
   image: artists/klarinettentrio.jpg
 images: # complete path for eleventy img srcset output, alt required

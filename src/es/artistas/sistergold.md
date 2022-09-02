@@ -26,7 +26,7 @@ Profesora de saxofón, flauta y clarinete en la KJM de Stade y en la escuela Jul
 
 ## Sister Tenor - Sigrun Krüger
 
-Saxófono, clarinette, flauta traversa, primeras clases de música con 8 años
+Saxófono, clarinete, flauta traversa, primeras clases de música con 8 años
 Estudios de pedagogía de la cultura en Hildesheim con asignatura principal de música
 Talleres con Peter Weniger, Peter Herbolzheimer, David Milne, John Ruocco, Joe Lovano
 Entre otros actúa como docente instrumentalista y docente de talleres

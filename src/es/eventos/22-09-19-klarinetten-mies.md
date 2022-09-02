@@ -1,5 +1,5 @@
 ---
-title: 'Klarinettentrio Schmuck en el Pabellón Mies van der Rohe'
+title: 'Trío de clarinete Schmuck en el Pabellón Mies van der Rohe'
 description: 'El trío de clarinetes Schmuck interpreta obras desde Brahms y Mozart hasta Henri Mancini, Abba y los Beatles en el Pabellón Mies van der Rohe de Barcelona.'
 translationKey: klarinettenbcn2022
 customSlug: klarinettentrio-concierto-barcelona
@@ -18,7 +18,7 @@ deadline: 2022-09-18 11:00:00
 calcDuration: 1.1
 program:
 seo:
-  title: Klarinettentrio Schmuck en Barcelona
+  title: Trío de clarinete Schmuck en Barcelona
   image: venues/pabellon-mies.jpg
   description: 'El trío de clarinetes Schmuck interpreta obras desde Brahms y Mozart hasta Henri Mancini, Abba y los Beatles en el Pabellón Mies van der Rohe de Barcelona.'
 images: # complete path for eleventy img srcset output, alt required
