@@ -1,6 +1,6 @@
 ---
 title: 'Corinna Simon: Piano para niños'
-description: 'En su concierto "Piano para niños", la pianista berlinesa Corinna Simon presenta toda una serie de pequeños tesoros de varios siglos de compositores.'
+description: 'En su concierto "Piano para niños", la pianista berlinesa Corinna Simon presenta toda una serie de pequeños tesoros de varios siglos.'
 translationKey: simonmadkids2022
 customSlug: corinna-simon-piano-para-ninos-madrid
 artist: [corinnasimon]
