@@ -29,6 +29,8 @@ infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 ---
 
-Sprudelnde Spielfreude, magischer Dialog und homogenes Zusammenspiel treffen im Klarinettentrio Schmuck aufeinander.
+Gemeinsam mit der Fundació Mies van der Rohe organisieren wir eine neue Reihe des Pavelló de Música.
 
-Das Programm des Trios reicht von klassischer Musik über Jazz bis hin zu moderner Musik und umfasst Werke von Brahms und Mozart bis zu Henri Mancini, Abba und den Beatles.
+Diesmal tritt im Pavelló de Música das Klarinettentrio Schmuck auf: ein Trio bestehend aus zwei Klarinetten und einer Bassklarinette, den Schmuck-Schwestern Yumi und Sayaka und Johann Peter Taferner, drei preisgekrönten Spitzenmusikern, die in Europa und auf der ganzen Welt konzertieren.
+
+Das Programm, das sie aufführen werden, umfasst eine Vielzahl von Stücken, die uns spielerisch auf eine Reise von der klassischen Musik bis hin zu Jazz und moderner Musik mitnehmen.

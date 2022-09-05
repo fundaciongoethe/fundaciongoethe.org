@@ -29,4 +29,8 @@ infobox: Evento privado, sólo con invitación personal.
 directregister:
 ---
 
-El programa del trío abarca desde la música clásica hasta el jazz y la música moderna. Incluirá obras desde Brahms y Mozart hasta Henri Mancini, Abba y los Beatles.
+Junto con la Fundació Mies van der Rohe traemos una nueva sesión del Pavelló de Música.
+
+Esta vez, Pavelló de Música está protagonizado por Klarinettentrio Schmuck: Un trío de dos clarinetes y un clarinete bajo formado por las hermanas Schmuck, Yumi y Sayaka y Johann Peter Taferner, tres músicos de primer nivel ampliamente galardonados que han dado conciertos en Europa y por todas partes.
+
+El programa que interpretarán incluye piezas muy variadas que nos llevan con espíritu lúdico en un recorrido que abarca desde la música clásica hasta el jazz y la moderna.
