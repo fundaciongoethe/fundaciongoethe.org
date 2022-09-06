@@ -17,7 +17,7 @@ opening: 2022-09-17 11:30:00
 ending: 2022-09-17 13:00:00
 deadline: 2022-09-09 13:00:00
 calcDuration: 1
-program:
+program: 2022-programa-simon-mad.pdf
 seo:
   title: 'Corinna Simon: Piano for Kids im Königspalast von Madrid'
   image: venues/palacio-real-madrid.jpg

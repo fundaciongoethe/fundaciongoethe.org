@@ -16,7 +16,7 @@ opening: 2022-09-10 19:30:00
 ending: 2022-09-10 21:00:00
 deadline: 2022-09-05 15:30:00
 calcDuration: 1
-program:
+program: 2022-programa-nobiles-mad.pdf
 seo:
   image: venues/mad-pardo-capilla.jpg
 images: # complete path for eleventy img srcset output, alt required

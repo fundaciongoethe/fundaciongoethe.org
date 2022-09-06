@@ -17,7 +17,7 @@ opening: 2022-09-11 11:00:00
 ending: 2022-09-11 12:30:00
 deadline: 2022-09-09 15:30:00
 calcDuration: 1
-program:
+program: 2022-programa-nobiles-bcn.pdf
 seo:
   title: 'Ensemble Nobiles en la Iglesia de Santa María de Cervelló'
   image: venues/bcn-cervello.jpg
