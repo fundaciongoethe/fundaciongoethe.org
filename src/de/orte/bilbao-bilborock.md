@@ -1,7 +1,7 @@
 ---
-title: "Bilborock"
-translationKey: "bilborock"
-customSlug: "bilborock"
+title: 'Bilborock'
+translationKey: 'bilborock'
+customSlug: 'bilborock'
 excerpt: Bilborock ist ein beliebter Treffpunkt für junge Leute und Gruppen, Unternehmen und Kulturveranstalter in Bilbao.
 city: Bilbao
 seo: # image relative to /assets/images/

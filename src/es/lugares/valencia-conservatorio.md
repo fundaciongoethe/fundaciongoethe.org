@@ -1,7 +1,7 @@
 ---
-title: "Conservatorio Profesional de Música"
-translationKey: "conservatoriovalencia"
-customSlug: "conservatorio-valencia"
+title: 'Conservatorio Profesional de Música'
+translationKey: 'conservatoriovalencia'
+customSlug: 'conservatorio-valencia'
 excerpt: El Conservatorio de Valencia es un centro público de enseñanza musical elemental y profesional. Cuenta con un hermoso auditorio recientemente restaurado y con una excelente acústica.
 city: Valencia
 seo: # image relative to /assets/images/
@@ -11,7 +11,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Escenario con piano
   credit:
 links:
-  web: https://mestreacasa.gva.es/web/cpmvalencia
+  web: https://portal.edu.gva.es/cpmvalencia/es/inicio/
   twitter:
   facebook:
   instagram:

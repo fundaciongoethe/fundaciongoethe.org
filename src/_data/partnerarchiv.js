@@ -176,7 +176,7 @@ module.exports = {
   },
   conservatoriovalencia: {
     name: 'Conservatorio Profesional de Música de Valencia',
-    url: 'https://mestreacasa.gva.es/web/cpmvalencia',
+    url: 'https://portal.edu.gva.es/cpmvalencia/es/inicio/',
     logo: './src/assets/images/event-sponsors/conservatorio-valencia.png',
   },
   teatresarria: {
