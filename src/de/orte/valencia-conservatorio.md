@@ -1,8 +1,8 @@
 ---
-title: "Konservatorium Valencia"
-translationKey: "conservatoriovalencia"
-customSlug: "konservatorium-valencia"
-excerpt: Das Konservatorium in Valencia ist ein öffentliches Zentrum für elementare und professionelle Musikausbildung. Es verfügt über eine kürzlich restaurierte, wunderschöne Aula mit hervorragender Akustik.
+title: 'Konservatorium Valencia'
+translationKey: 'conservatoriovalencia'
+customSlug: 'konservatorium-valencia'
+excerpt: Das Konservatorium in Valencia ist ein öffentliches Zentrum für elementare und professionelle Musikausbildung. Es verfügt über eine wunderschöne Aula mit hervorragender Akustik.
 city: Valencia
 seo: # image relative to /assets/images/
   image: /venues/valencia-conservatorio.jpg

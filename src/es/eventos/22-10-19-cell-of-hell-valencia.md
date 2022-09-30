@@ -5,7 +5,7 @@ translationKey: cellofhellval22
 customSlug: cell-of-hell-valencia
 artist: [cellofhell]
 venue: [conservatoriovalencia]
-location: Conservatorio Profesional de Música
+location: Conservatorio Profesional de Música, Edificio de Velluters
 city: Valencia
 partners:
   - conservatoriovalencia
@@ -29,6 +29,9 @@ infobox: Evento privado, sólo con invitación personal.
 directregister:
 ---
 
-Cell of Hell lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.
+Una Thaigenie loca, un finlandés frío como el hielo, un nihilista alemán y un batería suizo desaliñado, eso es Cell Of Hell. Esta banda internacional lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.
+
+Espectaculares composiciones originales, así como "clásicos" interpretados por clásicos: conocidos éxitos de Haendel, Vivaldi o Beethoven, pero también Metallica, crean un puente hacia el siglo XXI. Tan pronto como se ajustan las cuerdas en el backstage, Cell Of Hell se desata en el escenario.
+Con el apoyo del Consulado General de Barcelona.
 
 {% youtube 'PGYfcqsxYF8', 'CELL OF HELL | Vivaldi Cello Rock - Dirty Antonio' %}

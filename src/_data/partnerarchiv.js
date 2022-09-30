@@ -155,14 +155,19 @@ module.exports = {
     logo: './src/assets/images/event-sponsors/botschaft.png',
   },
   konsulatmalaga: {
-    name: 'Konsulat der Bundesrepublik Deutschland in Málaga',
-    url: 'https://spanien.diplo.de/es-de/vertretungen/generalkonsulat3',
+    name: 'El Consulado en Málaga',
+    url: 'https://spanien.diplo.de/es-es/vertretungen/generalkonsulat3',
     logo: './src/assets/images/event-sponsors/konsulat-malaga.png',
   },
   konsulatbarcelona: {
-    name: 'Konsulat der Bundesrepublik Deutschland in Barcelona',
-    url: 'https://spanien.diplo.de/es-de/vertretungen/generalkonsulat1',
+    name: 'El Consulado en Barcelona',
+    url: 'https://spanien.diplo.de/es-es/vertretungen/generalkonsulat1',
     logo: './src/assets/images/event-sponsors/konsulat-barcelona.png',
+  },
+  konsulatbilbao: {
+    name: 'El Consulado en Bilbao',
+    url: 'https://spanien.diplo.de/es-de/ueber-uns/-/1994986',
+    logo: './src/assets/images/event-sponsors/konsulat-bilbao.png',
   },
   fundacionunicaja: {
     name: 'Fundación Unicaja',

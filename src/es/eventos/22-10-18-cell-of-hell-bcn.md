@@ -28,6 +28,8 @@ infobox: Evento privado, sólo con invitación personal.
 directregister:
 ---
 
-Cell of Hell lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.
+Una Thaigenie loca, un finlandés frío como el hielo, un nihilista alemán y un batería suizo desaliñado, eso es Cell Of Hell. Esta banda internacional lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.
+
+Espectaculares composiciones originales, así como "clásicos" interpretados por clásicos: conocidos éxitos de Haendel, Vivaldi o Beethoven, pero también Metallica, crean un puente hacia el siglo XXI. Tan pronto como se ajustan las cuerdas en el backstage, Cell Of Hell se desata en el escenario.
 
 {% youtube 'PGYfcqsxYF8', 'CELL OF HELL | Vivaldi Cello Rock - Dirty Antonio' %}

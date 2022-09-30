@@ -2,7 +2,7 @@
 title: 'Conservatorio Profesional de Música'
 translationKey: 'conservatoriovalencia'
 customSlug: 'conservatorio-valencia'
-excerpt: El Conservatorio de Valencia es un centro público de enseñanza musical elemental y profesional. Cuenta con un hermoso auditorio recientemente restaurado y con una excelente acústica.
+excerpt: El Conservatorio de Valencia es un centro público de enseñanza musical elemental y profesional. Cuenta con un hermoso auditorio y con una excelente acústica.
 city: Valencia
 seo: # image relative to /assets/images/
   image: /venues/valencia-conservatorio.jpg
