@@ -14,9 +14,9 @@ links:
   web: https://www.cellofhell.com
   twitter:
   facebook:
-  instagram: https://www.instagram.com/cellofhell
+  instagram: https://instagram.com/cellofhell
   spotify:
-  youtube: https://www.youtube.com/channel/UCjWb8M7IuN5DqpNcf9oqX0w
+  youtube: https://youtube.com/channel/UCjWb8M7IuN5DqpNcf9oqX0w
 ---
 
 Esta banda internacional lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.

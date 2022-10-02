@@ -14,9 +14,9 @@ links:
   web: https://www.cellofhell.com
   twitter:
   facebook:
-  instagram: https://www.instagram.com/cellofhell
+  instagram: https://instagram.com/cellofhell
   spotify:
-  youtube: https://www.youtube.com/channel/UCjWb8M7IuN5DqpNcf9oqX0w
+  youtube: https://youtube.com/channel/UCjWb8M7IuN5DqpNcf9oqX0w
 ---
 
 Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf. Spektakuläre Eigenkompositionen, sowie „Klassiker" von Klassikern gespielt: bekannte Hits von Händel, Vivaldi, oder Beethoven, aber auch Metallica, schaffen eine Brücke ins 21.Jahrhundert.

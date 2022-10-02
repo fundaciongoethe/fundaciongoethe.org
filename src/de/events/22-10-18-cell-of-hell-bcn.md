@@ -28,7 +28,7 @@ infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 ---
 
-Ein verrücktes Thaigenie, ein eiskalter Finne, ein deutscher Nihilist und ein löchriger Schweizer Drummer, dass ist Cell Of Hell. Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf.
+Ein verrücktes Thaigenie, ein eiskalter Finne, ein deutscher Nihilist und ein löchriger Schweizer Drummer, das ist Cell Of Hell. Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf.
 
 Spektakuläre Eigenkompositionen, sowie „Klassiker" von Klassikern gespielt: bekannte Hits von Händel, Vivaldi, oder Beethoven, aber auch Metallica, schaffen eine Brücke ins 21.Jahrhundert. Kaum sind die Darmsaiten Backstage runtergeschraubt, lassen es Cell Of Hell auf der Bühne so richtig krachen.
 

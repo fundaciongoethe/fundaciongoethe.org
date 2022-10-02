@@ -57,17 +57,10 @@ pastevents:
           </div>
         </a>
 
-        <div class="hidden md:flex h-40 w-40 bg-gray-200">
-          {#
-          <img
-            class="h-40 w-40 filter grayscale"
-            src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&amp;ixqx=9eFae6zevd&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
-            alt=""
-          />
-          #}
+        <div class="hidden md:flex h-40 w-40 relative bg-gray-200">
           <a href="{{ event.url }}" tabindex="-1">
             <!-- picture shortcode -->
-            {% Picture event.data.images.featured,"h-40 w-40", "object-cover filter h-40 w-full grayscale",
+            {% Picture event.data.images.featured,"bg-gray-200", "grayimg absolute inset-0 w-full h-full object-cover",
             event.data.images.alt, "lazy", "20vw" %}
           </a>
         </div>
