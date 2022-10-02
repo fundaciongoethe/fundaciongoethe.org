@@ -5,11 +5,11 @@
   <li class="relative pb-6 sm:pb-0">
     <a href="{{ venue.url }}">
       <div
-        class="group block w-full aspect-w-10 aspect-h-7 rounded-md bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
+        class="group block w-full aspect-video rounded-md bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
       >
         <!-- picture shortcode -->
-        {% Picture venue.data.images.featured, "aspect-w-10 aspect-h-7", "object-cover grayimg ", venue.data.images.alt,
-        "eager", "(min-width: 640px) 360px, 640px" %}
+        {% Picture venue.data.images.featured, "w-full aspect-video", "grayimg absolute inset-0 w-full h-full
+        object-cover", venue.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
 
         <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
       </div>

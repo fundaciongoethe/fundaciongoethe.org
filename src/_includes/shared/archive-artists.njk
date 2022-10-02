@@ -4,10 +4,10 @@
 
   <li class="relative truncate">
     <a href="{{ artist.url }}">
-      <div class="group block w-full aspect-w-10 aspect-h-7 rounded-md bg-gray-100 overflow-hidden buttonhover">
+      <div class="group block w-full aspect-video rounded-md bg-gray-100 overflow-hidden buttonhover">
         <!-- picture shortcode -->
-        {% Picture artist.data.images.featured," aspect-w-10 aspect-h-7 ", "object-cover grayimg ",
-        artist.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
+        {% Picture artist.data.images.featured," w-full aspect-video ", "grayimg absolute inset-0 w-full h-full
+        object-cover ", artist.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
 
         <span class="sr-only"> {{ meta[locale].event.readmore }} {{ artist.data.title }}</span>
       </div></a
