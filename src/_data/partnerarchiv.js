@@ -269,4 +269,9 @@ module.exports = {
     url: 'https://www.seglenou.cat/',
     logo: './src/assets/images/event-sponsors/segle.png',
   },
+  prohelvetia: {
+    name: 'Pro Helvetia',
+    url: 'https://prohelvetia.ch/de/',
+    logo: './src/assets/images/event-sponsors/prohelvetia.png',
+  },
 };

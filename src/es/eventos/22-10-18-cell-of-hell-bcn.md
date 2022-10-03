@@ -9,6 +9,7 @@ location: Pabellón Mies van der Rohe
 city: Barcelona
 partners:
   - mies
+  - prohelvetia
 type: Concierto
 access: Se requiere una invitación personal
 date: 2022-10-18 19:30:00

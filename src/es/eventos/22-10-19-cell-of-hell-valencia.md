@@ -10,6 +10,7 @@ city: Valencia
 partners:
   - conservatoriovalencia
   - konsulatbarcelona
+  - prohelvetia
 type: Concierto
 access: Se requiere una invitación personal
 date: 2022-10-19 18:30:00

@@ -50,13 +50,14 @@ layout: home
 
   <!-- import gallery if there is gallery  -->
 
-  {% if gallery %} {# 21-07 "filter grayscale" entfernt aus picture class #}
+  {% if gallery %}
+  <!--  21-07 "filter grayscale" entfernt aus picture class -->
   <div class="px-3 sm:px-6 mt-10">
     <h2 class="standardtitel mb-4">{{ meta[locale].gallery }}</h2>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
-      {% for item in gallery %} {% Picture item.image, "aspect-w-5 aspect-h-4 md:aspect-w-4 md:aspect-h-4",
-      "object-cover rounded-sm", title, "lazy" %} {%- endfor -%}
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 md:grid-cols-3">
+      {% for item in gallery %} {% Picture item.image, "aspect-[5/4] md:aspect-square", "w-full h-full object-cover
+      rounded-sm", title, "lazy" %} {%- endfor -%}
     </div>
   </div>
   {%- endif -%}

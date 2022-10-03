@@ -9,6 +9,7 @@ location: Bilborock
 city: Bilbao
 partners:
   - konsulatbilbao
+  - prohelvetia
 type: Concierto
 access: Entrada con donación
 date: 2022-10-21 21:30:00
