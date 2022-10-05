@@ -11,7 +11,7 @@ partners:
   - mies
   - prohelvetia
 type: Concierto
-access: Se requiere una invitación personal
+access: Inscripción directa
 date: 2022-10-18 19:30:00
 opening: 2022-10-18 19:00:00
 ending: 2022-10-18 20:40:00
@@ -25,9 +25,11 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pabellon-mies.jpg
   alt: Pabellón Mies van der Rohe
   credit:
-infobox: Evento privado, sólo con invitación personal.
-directregister:
+infobox: Entrada libre hasta completar aforo permitido.
+directregister: https://cellofhell-barcelona-2022.eventbrite.es
 ---
+
+Junto con la Fundació Mies van der Rohe traemos una nueva sesión del Pavelló de Música. Esta vez, Pavelló de Música está protagonizado por la banda internacional de hard rock Cell of Hell.
 
 Una Thaigenie loca, un finlandés frío como el hielo, un nihilista alemán y un batería suizo desaliñado, eso es Cell Of Hell. Esta banda internacional lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.
 
