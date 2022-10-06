@@ -25,7 +25,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pabellon-mies.jpg
   alt: Pabellón Mies van der Rohe
   credit:
-infobox: Entrada libre hasta completar aforo permitido.
+infobox: Entrada libre con inscripción previa a través de Eventbrite.
 directregister: https://cellofhell-barcelona-2022.eventbrite.es
 ---
 
