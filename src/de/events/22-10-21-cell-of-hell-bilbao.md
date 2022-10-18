@@ -25,7 +25,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/bilbao-bilborock.jpg
   alt: Bilborock
   credit:
-infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität.
+infobox: Eintritt mit einer Spende von 10 Euro
 directregister: https://coh-bilbao.eventbrite.es
 ---
 
