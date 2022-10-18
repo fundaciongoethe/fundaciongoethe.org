@@ -24,7 +24,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/hangar-48.jpg
   alt: Hangar 48
   credit: Hangar 48
-infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
+infobox: Entrada libre con inscripción previa a través de Eventbrite.
 directregister: https://cellofhell-madrid-2022.eventbrite.es
 ---
 

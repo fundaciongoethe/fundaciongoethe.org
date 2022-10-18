@@ -12,7 +12,7 @@ partners:
   - konsulatbarcelona
   - prohelvetia
 type: Konzert
-access: Persönliche Einladung erforderlich
+access: Direktanmeldung
 date: 2022-10-19 18:30:00
 opening: 2022-10-19 18:00:00
 ending: 2022-10-19 19:40:00
@@ -26,8 +26,8 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-conservatorio.jpg
   alt: Conservatorio Profesional de Música
   credit:
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
-directregister:
+infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
+directregister: https://www.eventbrite.es/e/entradas-cell-of-hell-en-valencia-429560957387
 ---
 
 Ein verrücktes Thaigenie, ein eiskalter Finne, ein deutscher Nihilist und ein löchriger Schweizer Drummer, das ist Cell Of Hell. Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf.
