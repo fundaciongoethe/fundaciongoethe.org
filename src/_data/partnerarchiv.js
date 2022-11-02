@@ -189,21 +189,6 @@ module.exports = {
     url: 'https://www.teatredesarria.cat/',
     logo: './src/assets/images/event-sponsors/sarria.png',
   },
-  santpau: {
-    name: 'Centre Cultural de Sarrià',
-    url: 'https://www.teatredesarria.cat/',
-    logo: './src/assets/images/event-sponsors/sarria.png',
-  },
-  sanjuanhospital: {
-    name: 'Centre Cultural de Sarrià',
-    url: 'https://www.teatredesarria.cat/',
-    logo: './src/assets/images/event-sponsors/sarria.png',
-  },
-  iglesiaencarnacion: {
-    name: 'Centre Cultural de Sarrià',
-    url: 'https://www.teatredesarria.cat/',
-    logo: './src/assets/images/event-sponsors/sarria.png',
-  },
   lidl: {
     name: 'Lidl España',
     url: 'https://www.lidl.es/',

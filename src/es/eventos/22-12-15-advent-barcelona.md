@@ -3,7 +3,7 @@ title: 'Concierto de adviento en Barcelona'
 description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.'
 translationKey: adventbarcelona2022
 customSlug: concierto-adviento-barcelona-2022
-artist: [cellofhell]
+artist: [singerpur]
 venue: [conservatoriovalencia]
 location: Sant Pau del Camp
 city: Barcelona

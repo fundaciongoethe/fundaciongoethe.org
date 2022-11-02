@@ -8,7 +8,6 @@ venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
 partners:
-  - iglesiaencarnacion
   - haribo
   - lidl
   - konsulatbilbao
@@ -17,7 +16,7 @@ type: Konzert
 access: Direktanmeldung
 date: 2022-12-10 19:00:00
 opening: 2022-12-10 18:30:00
-ending: 2022-12-10 20:00:00
+ending: 2022-12-10 20:30:00
 deadline: 2022-12-10 11:00:00
 calcDuration: 1.5
 program:

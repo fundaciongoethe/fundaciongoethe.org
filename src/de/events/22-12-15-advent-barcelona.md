@@ -3,7 +3,7 @@ title: 'Adventskonzert in Barcelona'
 description: 'Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.'
 translationKey: adventbarcelona2022
 customSlug: concierto-adviento-barcelona-2022
-artist: [cellofhell]
+artist: [singerpur]
 venue: [conservatoriovalencia]
 location: Sant Pau del Camp
 city: Barcelona

@@ -9,7 +9,7 @@ seo:
   description: Nuestro patrocinador ARISTO Pharma Iberia es la filial española del grupo de empresas alemán Aristo Phar. GmbH con muchos años de experiencia en la industria farmacéutica y con sede en Berlín.
   image:
 images: # complete path for eleventy img srcset output, alt required
-  logo: ./src/assets/images/sponsors/aristo/aritso.png
+  logo: ./src/assets/images/sponsors/aristo/aristo-logo.png
   featured1: ./src/assets/images/sponsors/aristo/aristo-1.jpg
   alt1: Fotografía promocional
   featured2: ./src/assets/images/sponsors/aristo/aristo-2.jpg
