@@ -9,11 +9,11 @@ const htmlmin = require('html-minifier');
 
 const imageShortcodePlaceholder = async (src, cls, alt, caption, loading = 'lazy', sizes = '100vw') => {
   if (!alt) {
-    throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+    throw new Error(`Missing \`alt\` on myImagePlaceholder from: ${src}`);
   }
 
   let metadata = await Image(src, {
-    widths: [230, 580, 770, 1200],
+    widths: [170, 420, 770, 1200],
     formats: ['avif', 'webp', 'jpeg'],
     urlPath: '/assets/images/',
     outputDir: './dist/assets/images/',

@@ -26,6 +26,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Patrimonio Nacional
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 directregister:
+youtube: true
 ---
 
 Alegría burbujeante de jugar, diálogo mágico e interacción homogénea se reúnen en este trío de clarinete. El programa del trío abarca desde la música clásica hasta el jazz y la música moderna.

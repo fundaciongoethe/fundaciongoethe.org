@@ -71,7 +71,7 @@ module.exports = {
   },
   sanmiguel: {
     name: 'Basílica Pontificia de San Miguel en Madrid',
-    url: 'https://bsmiguel.es/',
+    url: 'https://www.basilicadesanmiguel.org/',
     logo: './src/assets/images/event-sponsors/sanmiguel.png',
   },
   caterva: {
@@ -273,5 +273,25 @@ module.exports = {
     name: 'Pro Helvetia',
     url: 'https://prohelvetia.ch/de/',
     logo: './src/assets/images/event-sponsors/prohelvetia.png',
+  },
+  cuatrecasas: {
+    name: 'Cuatrecasas',
+    url: 'https://www.cuatrecasas.com/es/spain/',
+    logo: './src/assets/images/sponsors/cuatrecasas/cuatrecasas-logo.png',
+  },
+  stihl: {
+    name: 'Stihl',
+    url: 'https://www.stihl.es/es',
+    logo: './src/assets/images/sponsors/stihl/stihl-logo.png',
+  },
+  mediolanum: {
+    name: 'Mediolanum',
+    url: 'https://www.bancomediolanum.es/es-ES/',
+    logo: './src/assets/images/event-sponsors/mediolanum.png',
+  },
+  haribo: {
+    name: 'Haribo',
+    url: 'https://www.haribo.com/es-es',
+    logo: './src/assets/images/sponsors/haribo/haribo-logo.png',
   },
 };

@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 infobox: Eintritt mit einer Spende von 10 Euro
 directregister: https://coh-bilbao.eventbrite.es
+youtube: true
 ---
 
 Ein verrücktes Thaigenie, ein eiskalter Finne, ein deutscher Nihilist und ein löchriger Schweizer Drummer, das ist Cell Of Hell. Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf.

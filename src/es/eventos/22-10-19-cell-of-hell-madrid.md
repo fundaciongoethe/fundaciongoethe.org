@@ -26,6 +26,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Hangar 48
 infobox: Entrada libre con inscripción previa a través de Eventbrite.
 directregister: https://cellofhell-madrid-2022.eventbrite.es
+youtube: true
 ---
 
 Una Thaigenie loca, un finlandés frío como el hielo, un nihilista alemán y un batería suizo desaliñado, eso es Cell Of Hell. Esta banda internacional lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.

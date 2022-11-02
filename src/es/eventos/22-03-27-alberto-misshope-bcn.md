@@ -28,6 +28,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 infobox: Entrada libre con inscripción previa a través de Eventbrite.
 directregister: https://albertoballesteros-misshopegoesfishing-bcn-2022.eventbrite.es
+youtube: true
 ---
 
 ## Música y poesía: Un intercambio de folk-rock y jazz

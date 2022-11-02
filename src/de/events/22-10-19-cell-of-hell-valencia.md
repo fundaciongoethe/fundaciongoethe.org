@@ -28,6 +28,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://www.eventbrite.es/e/entradas-cell-of-hell-en-valencia-429560957387
+youtube: true
 ---
 
 Ein verrücktes Thaigenie, ein eiskalter Finne, ein deutscher Nihilist und ein löchriger Schweizer Drummer, das ist Cell Of Hell. Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf.

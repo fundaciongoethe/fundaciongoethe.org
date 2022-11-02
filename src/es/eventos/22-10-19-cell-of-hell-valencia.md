@@ -28,6 +28,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 infobox: Entrada libre con inscripción previa a través de Eventbrite.
 directregister: https://www.eventbrite.es/e/entradas-cell-of-hell-en-valencia-429560957387
+youtube: true
 ---
 
 Una Thaigenie loca, un finlandés frío como el hielo, un nihilista alemán y un batería suizo desaliñado, eso es Cell Of Hell. Esta banda internacional lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.

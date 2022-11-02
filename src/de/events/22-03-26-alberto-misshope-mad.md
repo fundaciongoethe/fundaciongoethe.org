@@ -29,6 +29,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Luis García, CC BY-SA 4.0, via Wikimedia Commons
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://albertoballesteros-misshopegoesfishing-madrid-2022.eventbrite.es
+youtube: true
 ---
 
 ## Musik und Poesie. Ein Wechselspiel aus Folk-Rock und Jazz

@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 infobox: Entrada libre con inscripción previa a través de Eventbrite.
 directregister: https://cellofhell-barcelona-2022.eventbrite.es
+youtube: true
 ---
 
 Junto con la Fundació Mies van der Rohe traemos una nueva sesión del Pavelló de Música. Esta vez, Pavelló de Música está protagonizado por la banda internacional de hard rock Cell of Hell.

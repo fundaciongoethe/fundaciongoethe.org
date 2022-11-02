@@ -1,14 +1,14 @@
 ---
-title: "Singer Pur"
-translationKey: "singerpur"
-customSlug: "singer-pur"
+title: 'Singer Pur'
+translationKey: 'singerpur'
+customSlug: 'singer-pur'
 excerpt: Singer Pur es un conjunto alemán de solistas vocales fundado por cinco antiguos Regensburger Domspatzen. Está formado por cinco hombres y una mujer.
-occupation: "conjunto de solistas vocales"
+occupation: 'conjunto de solistas vocales'
 seo:
-  image: artists/singer-pur-2.jpg
+  image: artists/singer-pur.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/singer-pur-2.jpg
-  alt: Singer Pur auf Spanien-Tournee
+  featured: ./src/assets/images/artists/singer-pur.jpg
+  alt: 'Singer Pur de gira con la Fundación Goethe'
 links:
   web: https://www.singerpur.de
   twitter:

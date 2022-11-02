@@ -1,9 +1,9 @@
 ---
-title: "Duo Gruber"
-translationKey: "duogruber"
-customSlug: "duo-gruber"
+title: 'Duo Gruber'
+translationKey: 'duogruber'
+customSlug: 'duo-gruber'
 excerpt: Das Gruber Duo besteht aus der Sängerin Katharina Gruber und dem Gitarristen Christian Gruber, Vater und Tochter und international bekannte und preisgekrönte Künstler.
-occupation: "Gitarre und Gesang"
+occupation: 'Gitarre und Gesang'
 seo:
   image: artists/duo-gruber.jpg
 images: # complete path for eleventy img srcset output, alt required
@@ -12,6 +12,7 @@ images: # complete path for eleventy img srcset output, alt required
 links:
   web: https://christian-gruber-gitarre.de
   web2: https://katharinagruber.de
+youtube: true
 ---
 
 **[Christian Gruber](https://www.fundaciongoethe.org/de/kuenstler/christian-gruber/)**, der seit über 30 Jahren im _Gitarrenduo Gruber &amp; Maklar_ eine internationale Konzerttätigkeit pflegt, fühlt sich in vielen musikalischen Welten zu Hause. Neben der Konstante des Gitarrenduos, nutzt er die vielfältigen Möglichkeiten des Zusammenspiels mit anderen Musikern und Künstlern als Inspiration und Herausforderung zugleich. Das zeigt sich in grenzüberschreitenden Projekten wie mit der Akkordeonistin Maria Reiter, der Weltmusikerin Monika Drasch oder mit seiner Tochter Katharina Gruber.

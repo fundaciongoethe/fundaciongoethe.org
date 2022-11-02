@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://cellofhell-barcelona-2022.eventbrite.es
+youtube: true
 ---
 
 Gemeinsam mit der Fundació Mies van der Rohe organisieren wir eine neue Reihe des Pavelló de Música.

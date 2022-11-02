@@ -1,11 +1,12 @@
 ---
-title: "Die Fundación Goethe erhält den Preis „Corazón de Olavidia“"
-date: "2018-04-18"
-translationKey: "premio18"
+title: 'Die Fundación Goethe erhält den Preis „Corazón de Olavidia“'
+date: '2018-04-18'
+translationKey: 'premio18'
 excerpt: Die Stadt Carboneros in der Provinz Jaén, Andalucía, hat am 14. April 2018 zum vierten Mal den „Corazón de Olavidia“ verliehen.
 images:
   featured: ./src/assets/images/blog/premio-Corazon-de-Olavidia.jpg
   alt:
+youtube: true
 ---
 
 > Alle Preisträger leisten hervorragende Arbeit auf nationaler, internationaler, regionaler oder lokaler Ebene

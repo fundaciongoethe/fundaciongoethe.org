@@ -26,6 +26,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Hangar 48
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://cellofhell-madrid-2022.eventbrite.es
+youtube: true
 ---
 
 Ein verrücktes Thaigenie, ein eiskalter Finne, ein deutscher Nihilist und ein löchriger Schweizer Drummer, das ist Cell Of Hell. Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf.

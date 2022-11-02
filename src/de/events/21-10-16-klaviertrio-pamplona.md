@@ -1,5 +1,5 @@
 ---
-title: "Ludwig van Beethoven: Die Klavierquartette"
+title: 'Ludwig van Beethoven: Die Klavierquartette'
 description: Das Klaviertrio Hannover präsentiert gemeinsam mit dem Bratschisten Konstantin Sellheim von den Münchner Philharmonikern die  Klavierquartette von Ludwig van Beethoven.
 translationKey: klaviertiopamplona
 customSlug: beethoven-klavierquartette-pamplona
@@ -24,6 +24,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pamplona-catedral.jpg
   alt: Kathedrale von Pamplona
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
+youtube: true
 ---
 
 Deutschland feiert mit der ganzen Welt den 250. Geburtstag von Ludwig van Beethoven. Ludwig van Beethoven gilt als der meistgespielte klassische Komponist, der sich immer wieder neu erfunden hat, die Grenzen der Musik erweiterte und die Gesellschaft infrage stellte.

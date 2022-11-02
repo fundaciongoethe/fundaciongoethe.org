@@ -28,6 +28,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://albertoballesteros-misshopegoesfishing-bcn-2022.eventbrite.es
+youtube: true
 ---
 
 ## Musik und Poesie. Ein Wechselspiel aus Folk-Rock und Jazz

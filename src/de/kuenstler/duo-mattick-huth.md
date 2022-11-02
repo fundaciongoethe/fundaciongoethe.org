@@ -11,6 +11,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Duo Gruber
 links:
   web: https://www.duo-mattick-huth.de
+youtube: true
 ---
 
 Neben konventionellen Konzerten in ganz Deutschland, spezialisierten sich die beiden Musiker auf thematisch gebundene Konzertprogramme, die Musik und Text verbinden und schaffen Begegnungen zwischen den Künsten: zwischen Musik und Sprache, zwischen Wort und Klang.

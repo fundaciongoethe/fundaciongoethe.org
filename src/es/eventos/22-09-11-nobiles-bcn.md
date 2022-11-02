@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: De Baldiri - Trabajo propio, CC BY-SA 3.0, commons.wikimedia.org
 infobox: Evento privado, sólo con invitación personal.
 directregister:
+youtube: true
 ---
 
 El quinteto vocal Ensemble Nobiles canta en canciones de amor y de dolor, de casa y del extranjero, educativas, frívolas.

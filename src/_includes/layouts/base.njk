@@ -79,6 +79,20 @@
       {% include "partials/credit.njk" %}
     </div>
 
-    <script src="/assets/main.min.js" defer></script>
+    <script src="/assets/main.js" defer></script>
+
+    <!-- if youtube -->
+    {% if youtube %}
+    <script
+      src="/assets/lite-yt-embed.js
+    "
+      defer
+    ></script>
+    {% endif %}
+
+    <!-- if validation needed -->
+    {% if validate %}
+    <script src="/assets/validate.js" defer></script>
+    {% endif %}
   </body>
 </html>

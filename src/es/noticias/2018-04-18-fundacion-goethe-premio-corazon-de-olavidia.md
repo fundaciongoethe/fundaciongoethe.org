@@ -1,11 +1,12 @@
 ---
-title: "La Fundación Goethe recibe el premio Corazón de Olavidia"
-date: "2018-04-18"
-translationKey: "premio18"
+title: 'La Fundación Goethe recibe el premio Corazón de Olavidia'
+date: '2018-04-18'
+translationKey: 'premio18'
 excerpt: La ciudad de Carboneros, en la provincia de Jaén, Andalucía, concedió por cuarta vez los premios Corazón de Olavidia
 images:
   featured: ./src/assets/images/blog/premio-Corazon-de-Olavidia.jpg
   alt:
+youtube: true
 ---
 
 > Todos los premiados se lo merecen por su labor a nivel nacional, internacional, regional o local

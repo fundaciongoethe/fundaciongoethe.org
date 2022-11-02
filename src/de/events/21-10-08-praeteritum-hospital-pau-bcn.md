@@ -23,6 +23,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/hospital-sant-pau.jpg
   alt: Hospital de Sant Pau
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
+youtube: true
 ---
 
 Anlässlich des 250. Geburtstages von Ludwig van Beethoven veranstalten wir ein Konzert im Recinte Modernista des Hospital de Sant Pau.

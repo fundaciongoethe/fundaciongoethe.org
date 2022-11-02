@@ -1,5 +1,5 @@
 ---
-title: "Ludwig van Beethoven: Los cuartetos para piano"
+title: 'Ludwig van Beethoven: Los cuartetos para piano'
 description: Junto con el violista Konstantin Sellheim de la Filarmónica de Múnich, el Trío de Piano de Hannover presenta los cuartetos para piano de Ludwig van Beethoven.
 translationKey: klaviertiovalencia
 customSlug: beethoven-cuartetos-para-piano-valencia
@@ -24,7 +24,8 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-conservatorio.jpg
   alt: Conservatorio Profesional de Música
 infobox: Entrada libre hasta completar aforo permitido. La inscripción directa es posible a través del siguiente enlace.
-directregister: "https://beethoven-klavierquartette-valencia.eventbrite.es"
+directregister: 'https://beethoven-klavierquartette-valencia.eventbrite.es'
+youtube: true
 ---
 
 Alemania celebra con todo el mundo el 250 aniversario de Ludwig van Beethoven. Ludwig van Beethoven está considerado el compositor clásico más interpretado, que se reinventó constantemente, amplió los límites de la música y cuestionó a la sociedad.

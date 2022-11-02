@@ -1,11 +1,12 @@
 ---
-title: "Online Musikzimmer mit Caterva musica"
-date: "2020-06-25"
-translationKey: "cuatroestaciones"
+title: 'Online Musikzimmer mit Caterva musica'
+date: '2020-06-25'
+translationKey: 'cuatroestaciones'
 excerpt: Aufgenommen wurde das Konzert von Wohnzimmer zu Wohnzimmer während der Corona-Krise im Mai 2020.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/caterva-youtube-web2.jpg
   alt:
+youtube: true
 ---
 
 Caterva Musica präsentieren das Konzert „13 Monate und 4 Jahreszeiten – Online“ mit Frühling und Auszügen aus den Gedichten Erich Kästners.

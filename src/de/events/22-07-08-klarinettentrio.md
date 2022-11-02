@@ -26,6 +26,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Patrimonio Nacional
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
 directregister:
+youtube: true
 ---
 
 Sprudelnde Spielfreude, magischer Dialog und homogenes Zusammenspiel treffen im Klarinettentrio Schmuck aufeinander. Das Programm des Trios reicht von klassischer Musik über Jazz bis hin zu moderner Musik.

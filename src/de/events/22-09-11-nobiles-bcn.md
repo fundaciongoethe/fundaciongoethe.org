@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: De Baldiri - Trabajo propio, CC BY-SA 3.0, commons.wikimedia.org
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
+youtube: true
 ---
 
 Das Vokalquintett Ensemble Nobiles singt in Liedern von Liebe und Leid, von Heimat und Ausland, lehrreich, frivol.

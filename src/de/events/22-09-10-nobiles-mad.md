@@ -25,6 +25,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Patrimonio Nacional
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
+youtube: true
 ---
 
 Das Vokalquintett Ensemble Nobiles singt in Liedern von Liebe und Leid, von Heimat und Ausland, lehrreich, frivol.

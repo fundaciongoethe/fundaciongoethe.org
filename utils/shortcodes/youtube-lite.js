@@ -1,7 +1,10 @@
-module.exports = (id, label) => {
-	return `
- <lite-youtube videoid="${id}" playlabel="${label}"></lite-youtube>
-    `;
+const liteYoutube = (id, label) => {
+  return `
+    <div class="youtube-embed"> <lite-youtube videoid="${id}" style="background-image: url('https://i.ytimg.com/vi/${id}/hqdefault.jpg');">
+    <button type="button" class="lty-playbtn">
+      <span class="lyt-visually-hidden">${label}</span>
+    </button>
+  </lite-youtube></div>
+      `;
 };
-
-// ejemplo: {% youtube 'c4B-6XPbsY4', 'Crispina & Molinilla - Ven al Teatro - Canción infantil sobre el Teatro' %}
+module.exports = liteYoutube;

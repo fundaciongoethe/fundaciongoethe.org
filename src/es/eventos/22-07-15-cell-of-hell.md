@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Patrimonio Nacional
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 directregister:
+youtube: true
 ---
 
 Cell of Hell lleva ya algún tiempo mezclando clubes de rock duro y festivales de música clásica en Suiza y Alemania.

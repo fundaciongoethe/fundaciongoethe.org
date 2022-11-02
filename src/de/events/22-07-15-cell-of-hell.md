@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Patrimonio Nacional
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
 directregister:
+youtube: true
 ---
 
 Ein verrücktes Thaigenie, ein eiskalter Finne, ein deutscher Nihilist und ein löchriger Schweizer Drummer, dass ist Cell Of Hell. Diese internationale Band mischt seit einiger Zeit sowohl Hardrockclubs, als auch Klassikfestivals in der Schweiz und Deutschland auf.

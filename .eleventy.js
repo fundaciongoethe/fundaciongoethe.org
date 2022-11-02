@@ -14,7 +14,6 @@ const youtube = require('./utils/shortcodes/youtube-lite.js');
 const audiofile = require('./utils/shortcodes/audio.js');
 const videofile = require('./utils/shortcodes/video.js');
 const svg = require('./utils/shortcodes/svg.js');
-const imageShortcodePlaceholder = require('./utils/shortcodes/image-placeholder.js');
 
 // paired shortcodes
 const markdownShortcodes = require('./utils/paired-shortcodes/markdown-shortcodes.js');
@@ -80,7 +79,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('youtube', youtube);
   eleventyConfig.addShortcode('audiofile', audiofile);
   eleventyConfig.addShortcode('videofile', videofile);
-  eleventyConfig.addNunjucksAsyncShortcode('imagePh', imageShortcodePlaceholder);
 
   Object.keys(svg).forEach((shortcodeName) => {
     eleventyConfig.addShortcode(shortcodeName, svg[shortcodeName]);
@@ -340,6 +338,11 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/maskable.png': 'maskable.png',
+  });
+
+  // node modules
+  eleventyConfig.addPassthroughCopy({
+    'node_modules/lite-youtube-embed/src/lite-yt-embed.js': `assets/lite-yt-embed.js`,
   });
 
   // Set custom markdown library instance  and support for Emojis in markdown...

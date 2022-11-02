@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Patrimonio Nacional
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 directregister:
+youtube: true
 ---
 
 Ladypower y entretenimiento: sistergold ofrece perfección musical y talento creativo para un programa de canciones grandioso.

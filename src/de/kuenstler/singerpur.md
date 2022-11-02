@@ -5,9 +5,9 @@ customSlug: 'singer-pur'
 excerpt: Singer Pur ist ein deutsches Vokalsolistenensemble, das von fünf ehemaligen Regensburger Domspatzen gegründet wurde. Es besteht aus fünf Männern und einer Frau.
 occupation: 'Vokalsolistenensemble'
 seo:
-  image: artists/singer-pur-2.jpg
+  image: artists/singer-pur.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/singer-pur-2.jpg
+  featured: ./src/assets/images/artists/singer-pur.jpg
   alt: Singer Pur auf Spanien-Tournee
 links:
   web: https://www.singerpur.de

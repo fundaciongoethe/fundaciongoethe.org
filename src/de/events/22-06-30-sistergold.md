@@ -27,6 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   credit: Patrimonio Nacional
 infobox: Freier Eintritt bis zum Erreichen der vollen Kapazität. Reservierte Plätze nur mit persönlicher Einladung durch die Fundación Goethe.
 directregister:
+youtube: true
 ---
 
 Ladypower und Entertainment: sistergold bieten musikalische Perfektion und kreatives Gespür für ein grandioses Songprogramm.

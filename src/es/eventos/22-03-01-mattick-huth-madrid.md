@@ -25,6 +25,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Colegio Alemán Madrid
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister: https://mattick-huth-2022-madrid.eventbrite.es
+youtube: true
 ---
 
 El prestigioso dúo Mattick/Huth de Múnich ofrecerá un concierto para conmemorar el 200 aniversario de la muerte del escritor E.T.A. Hoffmann, que también se hizo un nombre como compositor, director de orquesta y director de ópera.

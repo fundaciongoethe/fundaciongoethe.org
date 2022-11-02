@@ -25,6 +25,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Deutsche Schule Barcelona
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://mattick-huth-2022-barcelona.eventbrite.es
+youtube: true
 ---
 
 Das renommierte Duo Mattick/Huth aus München gibt ein Konzert zum Jubiläumsjahr des Dichters E.T.A. Hoffmann, der auch als Komponist, Dirigent und Opernintendant von sich reden machte.

@@ -1,5 +1,5 @@
 ---
-title: "Ludwig van Beethoven: Los cuartetos para piano"
+title: 'Ludwig van Beethoven: Los cuartetos para piano'
 description: Junto con el violista Konstantin Sellheim de la Filarmónica de Múnich, el Trío de Piano de Hannover presenta los cuartetos para piano de Ludwig van Beethoven.
 translationKey: klaviertiopamplona
 customSlug: beethoven-cuartetos-para-piano-pamplona
@@ -24,6 +24,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pamplona-catedral.jpg
   alt: Catedral de Pamplona
 infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
+youtube: true
 ---
 
 Alemania celebra con todo el mundo el 250 aniversario de Ludwig van Beethoven. Ludwig van Beethoven está considerado el compositor clásico más interpretado, que se reinventó constantemente, amplió los límites de la música y cuestionó a la sociedad.
