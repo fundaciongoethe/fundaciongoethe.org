@@ -1,8 +1,8 @@
 ---
-title: 'Adventskonzert in Bilbao'
+title: 'Weihnachtskonzert in Bilbao'
 description: 'Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.'
 translationKey: adventbilbao2022
-customSlug: concierto-adviento-bilbao-2022
+customSlug: weihnachtskonzert-bilbao-2022
 artist: [singerpur]
 venue: [encarnacion]
 location: Iglesia de la Encarnación
@@ -21,7 +21,7 @@ deadline: 2022-12-10 11:00:00
 calcDuration: 1.5
 program:
 seo:
-  title: 'Concierto de adviento en Bilbao'
+  title: 'Weihnachtskonzert in Bilbao, Iglesia de la Encarnación'
   image: venues/iglesia-encarnacion.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/iglesia-encarnacion.jpg
@@ -31,6 +31,6 @@ directregister:
 youtube: true
 ---
 
-Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
+Wir laden zu unserer Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

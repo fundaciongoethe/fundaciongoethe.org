@@ -1,5 +1,5 @@
 ---
-title: 'Concierto de adviento en Barcelona'
+title: 'Concierto de Navidad en Barcelona'
 description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.'
 translationKey: adventbarcelona2022
 customSlug: concierto-adviento-barcelona-2022
@@ -20,7 +20,7 @@ deadline: 2022-12-15 11:00:00
 calcDuration: 1.5
 program:
 seo:
-  title: 'Concierto de adviento en Barcelona'
+  title: 'Concierto de Navidad en Barcelona, Sant Pau del Camp'
   image: venues/sant-pau-camp.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/sant-pau-camp.jpg
@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.
+Junto con la <a href="https://www.ahk.es/" rel="noopener noreferrer" target="_blank" rel="nofollow noopener noreferrer">Cámara de Comercio Alemana para España</a> invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

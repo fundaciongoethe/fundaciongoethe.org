@@ -1,11 +1,11 @@
 ---
-title: 'Concierto de adviento en Valencia'
+title: 'Concierto de Navidad en Valencia'
 description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.'
 translationKey: adventvalencia2022
 customSlug: concierto-adviento-valencia-2022
 artist: [singerpur]
 venue: [sanjuanhospital]
-location: Iglesia San Juan del Hospital, Valencia
+location: Iglesia San Juan del Hospital
 city: Valencia
 partners:
   - sanjuan
@@ -20,7 +20,7 @@ deadline: 2022-12-11 11:00:00
 calcDuration: 1.5
 program:
 seo:
-  title: 'Concierto de adviento en Valencia'
+  title: 'Concierto de Navidad en Valencia, Iglesia San Juan del Hospital'
   image: venues/valencia-sanjuan.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-sanjuan.jpg
@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.
+Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

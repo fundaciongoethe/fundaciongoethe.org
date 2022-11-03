@@ -1,8 +1,8 @@
 ---
-title: 'Adventskonzert in Valencia'
+title: 'Weihnachtskonzert in Valencia'
 description: 'Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.'
 translationKey: adventvalencia2022
-customSlug: concierto-adviento-valencia-2022
+customSlug: weihnachtskonzert-valencia-2022
 artist: [singerpur]
 venue: [sanjuanhospital]
 location: Iglesia San Juan del Hospital, Valencia
@@ -20,7 +20,7 @@ deadline: 2022-12-11 11:00:00
 calcDuration: 1.5
 program:
 seo:
-  title: 'Concierto de adviento en Valencia'
+  title: 'Weihnachtskonzert in Valencia, Iglesia San Juan del Hospital'
   image: venues/valencia-sanjuan.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-sanjuan.jpg
@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
+Wir laden zu unserer Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

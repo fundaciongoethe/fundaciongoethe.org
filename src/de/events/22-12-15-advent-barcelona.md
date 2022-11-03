@@ -1,8 +1,8 @@
 ---
-title: 'Adventskonzert in Barcelona'
+title: 'Weihnachtskonzert in Barcelona'
 description: 'Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.'
 translationKey: adventbarcelona2022
-customSlug: concierto-adviento-barcelona-2022
+customSlug: weihnachtskonzert-barcelona-2022
 artist: [singerpur]
 venue: [conservatoriovalencia]
 location: Sant Pau del Camp
@@ -20,7 +20,7 @@ deadline: 2022-12-15 11:00:00
 calcDuration: 1.5
 program:
 seo:
-  title: 'Concierto de adviento en Barcelona'
+  title: 'Weihnachtskonzert in Barcelona, Sant Pau del Camp'
   image: venues/sant-pau-camp.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/sant-pau-camp.jpg
@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
+Wir laden gmeinsam mit der <a href="https://www.ahk.es/es/" target="_blank" rel="nofollow noopener noreferrer" rel="noopener noreferrer">AHK Spanien</a> zu unserer Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

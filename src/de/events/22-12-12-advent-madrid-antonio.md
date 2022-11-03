@@ -1,8 +1,8 @@
 ---
-title: 'Adventskonzert in Madrid'
+title: 'Weihnachtskonzert in Madrid'
 description: 'Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.'
 translationKey: adventmadrid2022antonio
-customSlug: concierto-adviento-madrid-antonio-alemanes-2022
+customSlug: weihnachtskonzert-madrid-antonio-alemanes-2022
 artist: [singerpur]
 venue: [antonioalemanes]
 location: Iglesia de San Antonio de los Alemanes
@@ -20,7 +20,7 @@ deadline: 2022-12-12 11:00:00
 calcDuration: 1.5
 program:
 seo:
-  title: 'Concierto de adviento en Madrid: Iglesia San Antonio de los Alemanes'
+  title: 'Weihnachtskonzert in  Madrid: Iglesia San Antonio de los Alemanes'
   image: venues/mad-antonio-alemanes.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-antonio-alemanes.jpg
@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
+Wir laden gmeinsam mit der <a href="https://www.ahk.es/es/" target="_blank" rel="nofollow noopener noreferrer" rel="noopener noreferrer">AHK Spanien</a> zu unserer Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

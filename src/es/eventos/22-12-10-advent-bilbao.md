@@ -1,5 +1,5 @@
 ---
-title: 'Concierto de adviento en Bilbao'
+title: 'Concierto de Navidad en Bilbao'
 description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.'
 translationKey: adventbilbao2022
 customSlug: concierto-adviento-bilbao-2022
@@ -21,7 +21,7 @@ deadline: 2022-12-10 11:00:00
 calcDuration: 1.5
 program:
 seo:
-  title: 'Concierto de adviento en Bilbao'
+  title: 'Concierto de Navidad en Bilbao, Iglesia de la Encarnación'
   image: venues/iglesia-encarnacion.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/iglesia-encarnacion.jpg
@@ -31,6 +31,6 @@ directregister:
 youtube: true
 ---
 
-Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.
+Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}
