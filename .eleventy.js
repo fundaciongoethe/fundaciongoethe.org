@@ -257,12 +257,12 @@ module.exports = function (eleventyConfig) {
 
   // events es
   eleventyConfig.addCollection('events_es', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('./src/es/eventos/*.md');
+    return collectionApi.getFilteredByGlob('./src/es/eventos/**/*.md');
   });
 
   // events es past sorted by year
   eleventyConfig.addCollection('eventosPasados', (collectionApi) => {
-    return _.chain(collectionApi.getFilteredByGlob('./src/es/eventos/*.md'))
+    return _.chain(collectionApi.getFilteredByGlob('./src/es/eventos/**/*.md'))
       .filter((event) => isValidEvent(event) && isBefore(new Date(event.data.date), new Date()))
       .groupBy((event) => event.date.getFullYear())
       .toPairs()
@@ -270,20 +270,21 @@ module.exports = function (eleventyConfig) {
       .value();
   });
 
+  // events es future sorted by year
   eleventyConfig.addCollection('eventosFuturos', (collectionApi) => {
     return collectionApi
-      .getFilteredByGlob('./src/es/eventos/*.md')
+      .getFilteredByGlob('./src/es/eventos/**/*.md')
       .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));
   });
 
   // events de
   eleventyConfig.addCollection('events_de', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('./src/de/events/*.md');
+    return collectionApi.getFilteredByGlob('./src/de/events/**/*.md');
   });
 
   // events de past sorted by year
   eleventyConfig.addCollection('eventsVergangenheit', (collectionApi) => {
-    return _.chain(collectionApi.getFilteredByGlob('./src/de/events/*.md'))
+    return _.chain(collectionApi.getFilteredByGlob('./src/de/events/**/*.md'))
       .filter((event) => isValidEvent(event) && isBefore(new Date(event.data.date), new Date()))
       .groupBy((event) => event.date.getFullYear())
       .toPairs()
@@ -291,9 +292,10 @@ module.exports = function (eleventyConfig) {
       .value();
   });
 
+  // events de future sorted by year
   eleventyConfig.addCollection('eventsZukunft', (collectionApi) => {
     return collectionApi
-      .getFilteredByGlob('./src/de/events/*.md')
+      .getFilteredByGlob('./src/de/events/**/*.md')
       .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));
   });
 

@@ -19,6 +19,13 @@ force = true
     cache_img = './assets/images'
     cache_img_httpHeader = false
 
+
+[[plugins]]
+package = "netlify-plugin-cache"
+  [plugins.inputs]
+  paths = [ ".cache" ]
+
+
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
