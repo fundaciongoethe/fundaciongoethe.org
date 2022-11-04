@@ -27,7 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/iglesia-encarnacion.jpg
   alt: Iglesia de la Encarnación
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite. Wir freuen uns über eine kleine Spende für den Veranstaltungsort.
-directregister:
+directregister: https://concierto-navidad-bilbao-2022.eventbrite.es
 youtube: true
 ---
 

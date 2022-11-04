@@ -30,6 +30,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-san-miguel.jpg
   alt: 'Basílica Pontificia de San Miguel'
 infobox: 'Freier Eintritt mit vorheriger Anmeldung über Eventbrite. Wir freuen uns über eine kleine Spende für den Veranstaltungsort.'
+directregister: https://concierto-navidad-madrid-miguel-2022.eventbrite.es
 youtube: true
 ---
 

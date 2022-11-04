@@ -26,7 +26,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/valencia-sanjuan.jpg
   alt: Iglesia San Juan del Hospital
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite. Wir freuen uns über eine kleine Spende für den Veranstaltungsort.
-directregister:
+directregister: https://concierto-navidad-valencia-2022.eventbrite.es
 youtube: true
 ---
 
