@@ -4,7 +4,7 @@ description: 'Wir laden zu unserer Adventsfeier mit Weihnachtsliedern, deutschen
 translationKey: adventbarcelona2022
 customSlug: weihnachtskonzert-barcelona-2022
 artist: [singerpur]
-venue: [conservatoriovalencia]
+venue: [santpau]
 location: Sant Pau del Camp
 city: Barcelona
 partners:

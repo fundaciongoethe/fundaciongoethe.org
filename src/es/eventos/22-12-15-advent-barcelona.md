@@ -4,7 +4,7 @@ description: 'Invitamos a nuestros celebraciones de adviento con canciones de na
 translationKey: adventbarcelona2022
 customSlug: concierto-adviento-barcelona-2022
 artist: [singerpur]
-venue: [conservatoriovalencia]
+venue: [santpau]
 location: Sant Pau del Camp
 city: Barcelona
 partners:
