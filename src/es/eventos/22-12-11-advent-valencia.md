@@ -1,8 +1,8 @@
 ---
 title: 'Concierto de Navidad en Valencia'
-description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.'
+description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados y vino tinto caliente alemán.'
 translationKey: adventvalencia2022
-customSlug: concierto-adviento-valencia-2022
+customSlug: concierto-navidad-valencia-2022
 artist: [singerpur]
 venue: [sanjuanhospital]
 location: Iglesia San Juan del Hospital
@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
+Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

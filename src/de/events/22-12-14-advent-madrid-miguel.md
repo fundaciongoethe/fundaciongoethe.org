@@ -33,6 +33,6 @@ infobox: 'Freier Eintritt mit vorheriger Anmeldung über Eventbrite. Wir freuen 
 youtube: true
 ---
 
-Wir laden zu unserer Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
+Wir laden zu unserer alljährlichen Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und Glühwein ein.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

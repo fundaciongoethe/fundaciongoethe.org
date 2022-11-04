@@ -1,8 +1,8 @@
 ---
 title: 'Concierto de Navidad en Madrid'
-description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.'
+description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados y vino tinto caliente alemán.'
 translationKey: adventmadrid2022miguel
-customSlug: concierto-adviento-madrid-san-miguel-2022
+customSlug: concierto-navidad-madrid-san-miguel-2022
 artist: [singerpur]
 venue: [sanmiguelmadrid]
 location: Basílica Pontificia de San Miguel
@@ -33,6 +33,6 @@ infobox: 'Entrada gratuita con inscripción previa a través de Eventbrite. Agra
 youtube: true
 ---
 
-Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
+Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

@@ -2,7 +2,7 @@
 title: 'Concierto de Navidad en Barcelona'
 description: 'Invitamos a nuestros celebraciones de adviento con canciones de navidad, dulces especiados alemanes y vino tinto caliente alemán.'
 translationKey: adventbarcelona2022
-customSlug: concierto-adviento-barcelona-2022
+customSlug: concierto-navidad-barcelona-2022
 artist: [singerpur]
 venue: [santpau]
 location: Sant Pau del Camp
@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
+Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}
