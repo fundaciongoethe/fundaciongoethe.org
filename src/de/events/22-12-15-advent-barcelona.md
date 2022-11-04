@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Wir laden gmeinsam mit der <a href="https://www.ahk.es/es/" target="_blank" rel="nofollow noopener noreferrer" rel="noopener noreferrer">AHK Spanien</a> zu unserer Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
+Wir laden zu unserer Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und deutschem Glühwein ein.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

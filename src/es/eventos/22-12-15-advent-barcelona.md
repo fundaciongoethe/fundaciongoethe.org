@@ -30,6 +30,6 @@ directregister:
 youtube: true
 ---
 
-Junto con la <a href="https://www.ahk.es/" rel="noopener noreferrer" target="_blank" rel="nofollow noopener noreferrer">Cámara de Comercio Alemana para España</a> invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
+Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente alemán.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}
