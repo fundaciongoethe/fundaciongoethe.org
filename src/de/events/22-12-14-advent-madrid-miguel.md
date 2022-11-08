@@ -34,7 +34,7 @@ directregister: https://concierto-navidad-madrid-miguel-2022.eventbrite.es
 youtube: true
 ---
 
-Das preisgekrönte Vokalensemble Singer Pur wird mit wunderschönen Gesang die Vorfreude auf das schönste Fest des Jahres wecken.
+Das preisgekrönte Vokalensemble Singer Pur weckt bei unserem Weihnachtskonzert die Vorfreude auf das schönste Fest des Jahres!
 
 Uns erwartet ein stimmunsvolles Programm aus Advents-und Weihnachtsliedern. Im Anschluss gibt es einen Empfang, auf dem der typische Glühwein natürlich nicht fehlen darf.
 

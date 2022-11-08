@@ -32,7 +32,7 @@ youtube: true
 
 Gemeinsam mit der <a href="https://www.ahk.es/" target="_blank" rel="noopener noreferrer">AHK Spanien</a> laden wir zu unserem Weihnachtskonzert in Barcelona ein.
 
-Das preisgekrönte Vokalensemble Singer Pur wird mit wunderschönen Gesang die Vorfreude auf das schönste Fest des Jahres wecken.
+Das preisgekrönte Vokalensemble Singer Pur weckt die Vorfreude auf das schönste Fest des Jahres!
 
 Uns erwartet ein stimmunsvolles Programm aus Advents-und Weihnachtsliedern. Im Anschluss gibt es einen Empfang, auf dem der typische Glühwein natürlich nicht fehlen darf.
 

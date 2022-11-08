@@ -32,7 +32,7 @@ youtube: true
 
 Gemeinsam mit der <a href="https://www.ahk.es/" target="_blank" rel="noopener noreferrer">AHK Spanien</a> veranstalten wir ein Weihnachtskonzert in der Iglesia de San Antonio de los Alemanes in Madrid.
 
-Das preisgekrönte Vokalensemble Singer Pur wird mit wunderschönen Gesang die Vorfreude auf das schönste Fest des Jahres wecken.
+Das preisgekrönte Vokalensemble Singer Pur weckt die Vorfreude auf das schönste Fest des Jahres!
 
 Uns erwartet ein stimmunsvolles Programm aus Advents-und Weihnachtsliedern. Im Anschluss gibt es einen Empfang, auf dem der typische Glühwein natürlich nicht fehlen darf.
 
