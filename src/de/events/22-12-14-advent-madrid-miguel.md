@@ -34,6 +34,8 @@ directregister: https://concierto-navidad-madrid-miguel-2022.eventbrite.es
 youtube: true
 ---
 
-Wir laden zu unserer alljährlichen Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und Glühwein ein.
+Das preisgekrönte Vokalensemble Singer Pur wird mit wunderschönen Gesang die Vorfreude auf das schönste Fest des Jahres wecken.
+
+Uns erwartet ein stimmunsvolles Programm aus Advents-und Weihnachtsliedern. Im Anschluss gibt es einen Empfang, auf dem der typische Glühwein natürlich nicht fehlen darf.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

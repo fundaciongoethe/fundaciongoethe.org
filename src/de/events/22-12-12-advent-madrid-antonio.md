@@ -30,6 +30,10 @@ directregister:
 youtube: true
 ---
 
-Wir laden zu unserer alljährlichen Weihnachtsfeier mit Adventsliedern, deutschen Gewürzsüßigkeiten und Glühwein ein.
+Gemeinsam mit der <a href="https://www.ahk.es/" target="_blank" rel="noopener noreferrer">AHK Spanien</a> veranstalten wir ein Weihnachtskonzert in der Iglesia de San Antonio de los Alemanes in Madrid.
+
+Das preisgekrönte Vokalensemble Singer Pur wird mit wunderschönen Gesang die Vorfreude auf das schönste Fest des Jahres wecken.
+
+Uns erwartet ein stimmunsvolles Programm aus Advents-und Weihnachtsliedern. Im Anschluss gibt es einen Empfang, auf dem der typische Glühwein natürlich nicht fehlen darf.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

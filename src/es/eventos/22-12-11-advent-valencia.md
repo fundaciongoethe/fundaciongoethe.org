@@ -30,6 +30,7 @@ directregister: https://concierto-navidad-valencia-2022.eventbrite.es
 youtube: true
 ---
 
-Invitamos a nuestros celebraciones de Navidad con canciones de adviento, dulces especiados alemanes y vino tinto caliente.
+El premiado conjunto vocal Singer Pur despertará la expectación de la fiesta más bonita del año con su hermoso canto.
+Nos espera un programa evocador de canciones de Adviento y Navidad. A continuación, os invitamos a una recepción en la que se servirá el típico vino caliente.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

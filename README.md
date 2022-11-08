@@ -1,9 +1,12 @@
-<h1><a href="https://www.fundaciongoethe.org/"><strong>fundaciongoethe.org</strong></a></h1>
+fundaciongoethe.org
 
-## <em>Eleventy · Tailwind CSS · HTML · CSS · Javascript</em>
+## Made with Eleventy · Tailwind CSS · HTML · CSS · Javascript
 
-<p> <a href="https://www.lenesaile.com/"><img src="https://res.cloudinary.com/lenesaile/image/upload/v1599732281/lene-blog_mebtmm.svg" width="100" alt="Lene Saile"></a></p>
-Find me on [Github](https://github.com/madrilene) or on [lene.dev](https://www.lene.dev/).
+<img src="https://res.cloudinary.com/lenesaile/image/upload/v1599732281/lene-blog_mebtmm.svg" width="100" alt="Lene Saile">
+
+Find me on [Github](https://github.com/madrilene) or on [lenesaile.com](https://www.lenesaile.com/).
+
+Live website: [www.fundaciongoethe.org](https://www.fundaciongoethe.org/es/)
 
 ### Install dependencies
 
