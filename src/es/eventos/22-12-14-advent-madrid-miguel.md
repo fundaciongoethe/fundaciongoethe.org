@@ -17,9 +17,9 @@ partners:
   - dzt
 type: Concierto
 access: Inscripción directa
-date: 2022-12-14 19:00:00
-opening: 2022-12-14 18:30:00
-ending: 2022-12-14 20:30:00
+date: 2022-12-14 19:30:00
+opening: 2022-12-14 19:00:00
+ending: 2022-12-14 21:00:00
 deadline: 2022-12-14 11:00:00
 calcDuration: 1.5
 program:
@@ -34,7 +34,7 @@ directregister: https://concierto-navidad-madrid-miguel-2022.eventbrite.es
 youtube: true
 ---
 
-El premiado conjunto vocal Singer Pur despertará la expectación de la fiesta más bonita del año con su hermoso canto.
+El premiado ensemble vocal Singer Pur despertará la expectación de la fiesta más bonita del año con su hermoso canto.
 Nos espera un programa evocador de canciones de Adviento y Navidad. A continuación, os invitamos a una recepción en la que se servirá el típico vino caliente.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

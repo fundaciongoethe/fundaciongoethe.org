@@ -9,8 +9,6 @@ location: Iglesia de San Antonio de los Alemanes
 city: Madrid
 partners:
   - ahk
-  - haribo
-  - lidl
 type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2022-12-12 19:30:00

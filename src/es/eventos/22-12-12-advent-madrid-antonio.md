@@ -9,8 +9,6 @@ location: Iglesia de San Antonio de los Alemanes
 city: Madrid
 partners:
   - ahk
-  - haribo
-  - lidl
 type: Concierto
 access: Se requiere una invitación personal
 date: 2022-12-12 19:30:00
@@ -32,7 +30,7 @@ youtube: true
 
 Junto con la <a href="https://www.ahk.es/" rel="noopener" target="_blank" rel="nofollow noopener noreferrer">Cámara de Comercio Alemana para España</a> celebramos el concierto de Navidad en Madrid, en la Iglesia de San Antonio de los Alemanes.
 
-El premiado conjunto vocal Singer Pur despertará la expectación de la fiesta más bonita del año con su hermoso canto.
+El premiado ensemble vocal Singer Pur despertará la expectación de la fiesta más bonita del año con su hermoso canto.
 
 Nos espera un programa evocador de canciones de Adviento y Navidad. A continuación, habrá una recepción en la que se servirá el típico vino caliente.
 

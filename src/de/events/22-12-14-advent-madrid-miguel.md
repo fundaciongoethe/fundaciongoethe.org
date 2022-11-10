@@ -17,9 +17,9 @@ partners:
   - dzt
 type: Konzert
 access: Direktanmeldung
-date: 2022-12-14 19:00:00
-opening: 2022-12-14 18:30:00
-ending: 2022-12-14 20:30:00
+date: 2022-12-14 19:30:00
+opening: 2022-12-14 19:00:00
+ending: 2022-12-14 21:00:00
 deadline: 2022-12-14 11:00:00
 calcDuration: 1.5
 program:
