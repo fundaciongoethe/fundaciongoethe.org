@@ -11,8 +11,8 @@ partners:
   - ahk
 type: Concierto
 access: Se requiere una invitación personal
-date: 2022-12-12 19:30:00
-opening: 2022-12-12 19:00:00
+date: 2022-12-12 20:00:00
+opening: 2022-12-12 19:30:00
 ending: 2022-12-12 21:00:00
 deadline: 2022-12-09 11:00:00
 calcDuration: 1.5
