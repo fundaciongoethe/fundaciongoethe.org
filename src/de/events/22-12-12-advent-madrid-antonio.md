@@ -32,6 +32,6 @@ Gemeinsam mit der <a href="https://www.ahk.es/" target="_blank" rel="noopener no
 
 Das preisgekrönte Vokalensemble Singer Pur weckt die Vorfreude auf das schönste Fest des Jahres!
 
-Uns erwartet ein stimmunsvolles Programm aus Advents-und Weihnachtsliedern. Im Anschluss gibt es einen Empfang, auf dem der typische Glühwein natürlich nicht fehlen darf.
+Uns erwartet ein stimmungsvolles Programm aus Advents-und Weihnachtsliedern. Im Anschluss gibt es einen Empfang, auf dem der typische Glühwein natürlich nicht fehlen darf.
 
 {% youtube '3r9xDAEiaYs', 'Singer Pur-Adventskalender' %}

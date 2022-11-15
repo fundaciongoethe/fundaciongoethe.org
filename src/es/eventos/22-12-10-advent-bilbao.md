@@ -8,7 +8,6 @@ venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
 partners:
-  - haribo
   - lidl
   - konsulatbilbao
   - botschaftmadrid

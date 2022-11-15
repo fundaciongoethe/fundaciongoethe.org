@@ -9,7 +9,6 @@ location: Sant Pau del Camp
 city: Barcelona
 partners:
   - ahk
-  - haribo
   - lidl
 type: Concierto
 access: Se requiere una invitación personal

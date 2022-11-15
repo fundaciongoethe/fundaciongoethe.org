@@ -8,13 +8,13 @@ venue: [sanmiguelmadrid]
 location: Basílica Pontificia de San Miguel
 city: Madrid
 partners:
-  - haribo
   - lidl
   - basf
   - cuatrecasas
   - stihl
   - mediolanum
   - dzt
+  - trumpf
 type: Concierto
 access: Inscripción directa
 date: 2022-12-14 19:30:00

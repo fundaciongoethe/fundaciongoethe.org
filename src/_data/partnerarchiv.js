@@ -279,4 +279,9 @@ module.exports = {
     url: 'https://www.haribo.com/es-es',
     logo: './src/assets/images/sponsors/haribo/haribo-logo.png',
   },
+  trumpf: {
+    name: 'Trumpf',
+    url: 'https://www.trumpf.com/es_ES',
+    logo: './src/assets/images/sponsors/trumpf/trumpf-logo.png',
+  },
 };

@@ -9,7 +9,6 @@ location: Iglesia San Juan del Hospital
 city: Valencia
 partners:
   - sanjuan
-  - haribo
   - lidl
 type: Concierto
 access: Inscripción directa
