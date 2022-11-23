@@ -10,6 +10,7 @@ city: Valencia
 partners:
   - sanjuan
   - lidl
+  - sixt
 type: Konzert
 access: Direktanmeldung
 date: 2022-12-11 17:00:00

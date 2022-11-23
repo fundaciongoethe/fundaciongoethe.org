@@ -10,7 +10,7 @@ city: Bilbao
 partners:
   - lidl
   - konsulatbilbao
-  - botschaftmadrid
+  - sixt
 type: Konzert
 access: Direktanmeldung
 date: 2022-12-10 19:00:00
