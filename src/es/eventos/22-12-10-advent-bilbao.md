@@ -7,9 +7,9 @@ artist: [singerpur]
 venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
-partners:
-  - lidl
+partner
   - konsulatbilbao
+  - lidl
   - sixt
 type: Concierto
 access: Inscripción directa

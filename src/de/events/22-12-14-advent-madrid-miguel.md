@@ -16,7 +16,7 @@ partners:
   - dzt
   - trumpf
 type: Konzert
-access: Direktanmeldung
+access: Bereits ausgebucht
 date: 2022-12-14 19:30:00
 opening: 2022-12-14 19:00:00
 ending: 2022-12-14 21:00:00
@@ -30,7 +30,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-san-miguel.jpg
   alt: 'Basílica Pontificia de San Miguel'
 infobox: 'Freier Eintritt mit vorheriger Anmeldung über Eventbrite. Wir freuen uns über eine kleine Spende für den Veranstaltungsort.'
-directregister: https://concierto-navidad-madrid-miguel-2022.eventbrite.es
+directregister:
 youtube: true
 ---
 

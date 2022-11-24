@@ -8,8 +8,8 @@ venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
 partners:
-  - lidl
   - konsulatbilbao
+  - lidl
   - sixt
 type: Konzert
 access: Direktanmeldung
