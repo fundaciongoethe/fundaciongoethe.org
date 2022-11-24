@@ -7,7 +7,7 @@ artist: [singerpur]
 venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
-partner
+partners:
   - konsulatbilbao
   - lidl
   - sixt
