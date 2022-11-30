@@ -366,6 +366,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
   eleventyConfig.addLayoutAlias('plain', 'layouts/plain.njk');
   eleventyConfig.addLayoutAlias('evento', 'layouts/evento.njk');
+  eleventyConfig.addLayoutAlias('event-archive', 'layouts/event-archive.njk');
   eleventyConfig.addLayoutAlias('eventonoartist', 'layouts/eventonoartist.njk');
   eleventyConfig.addLayoutAlias('eventonoartistnovenue', 'layouts/eventonoartistnovenue.njk');
   eleventyConfig.addLayoutAlias('artist', 'layouts/artist.njk');

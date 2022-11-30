@@ -17,7 +17,7 @@ opening: 2022-12-15 19:00:00
 ending: 2022-12-15 21:00:00
 deadline: 2022-12-15 11:00:00
 calcDuration: 1.5
-program:
+program: 2022-programa-navidad-bcn.pdf
 seo:
   title: 'Concierto de Navidad en Barcelona, Sant Pau del Camp'
   image: venues/sant-pau-camp.jpg

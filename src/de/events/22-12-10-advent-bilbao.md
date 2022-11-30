@@ -18,7 +18,7 @@ opening: 2022-12-10 18:30:00
 ending: 2022-12-10 20:30:00
 deadline: 2022-12-10 11:00:00
 calcDuration: 1.5
-program:
+program: 2022-programa-navidad.pdf
 seo:
   title: 'Weihnachtskonzert in Bilbao, Iglesia de la Encarnación'
   image: venues/iglesia-encarnacion.jpg

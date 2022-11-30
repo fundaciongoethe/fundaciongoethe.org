@@ -1,6 +1,6 @@
 ---
 title: Eventos
-layout: home
+layout: event-archive
 permalink: '/{{ locale }}/eventos/index.html'
 translationKey: 'events'
 seo:
@@ -32,6 +32,7 @@ pastevents:
 ---
 
 <!-- hero -->
+
 {% include "components/hero-grid.njk" %}
 
 <div class="my-10 2xl:md:my-16 xl:my-28">
@@ -116,6 +117,7 @@ pastevents:
       </div>
     </li>
     {% endfor %}
+
   </ul>
 
   <!-- past events -->
@@ -130,6 +132,7 @@ pastevents:
         {{ pastevents.description }}
       </p>
     </div>
+
   </div>
 
   <div class="bg-white max-w-xl mx-auto border-t sm:border border-gray-300 sm:rounded-md" x-data="{selected:null}">
@@ -194,12 +197,16 @@ pastevents:
 
       {% endfor %}
     </ul>
+
   </div>
 </div>
 
 <!-- hero -->
+
 {% include "components/cta2.njk" %}
 
 <!-- include event schema  -->
+
 {%- include "schemas/event-schema.njk" %}
+
 <!-- ende -->

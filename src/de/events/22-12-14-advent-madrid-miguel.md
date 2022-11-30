@@ -22,7 +22,7 @@ opening: 2022-12-14 19:00:00
 ending: 2022-12-14 21:00:00
 deadline: 2022-12-14 11:00:00
 calcDuration: 1.5
-program:
+program: 2022-programa-navidad-mad.pdf
 seo:
   title: 'Weihnachtskonzert in Madrid, Básilica San Miguel'
   image: 'venues/venues/mad-san-miguel.jpg'

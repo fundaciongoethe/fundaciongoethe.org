@@ -18,7 +18,7 @@ opening: 2022-12-11 16:30:00
 ending: 2022-12-11 18:30:00
 deadline: 2022-12-11 11:00:00
 calcDuration: 1.5
-program:
+program: 2022-programa-navidad.pdf
 seo:
   title: 'Concierto de Navidad en Valencia, Iglesia San Juan del Hospital'
   image: venues/valencia-sanjuan.jpg
