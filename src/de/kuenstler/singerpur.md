@@ -8,7 +8,8 @@ seo:
   image: artists/singer-pur.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/singer-pur.jpg
-  alt: Singer Pur auf Spanien-Tournee
+  alt: 'Heiteres Foto der Gruppe im Anzug mit der Sopranistin in einem roten Kleid in ihrer Mitte'
+  credit: Christian Palm
 links:
   web: https://www.singerpur.de
   twitter:

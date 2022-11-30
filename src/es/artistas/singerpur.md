@@ -8,7 +8,8 @@ seo:
   image: artists/singer-pur.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/singer-pur.jpg
-  alt: 'Singer Pur de gira con la Fundación Goethe'
+  alt: 'Foto alegre de los miembros de Singer Pur en traje formal alrededor de la soprano en un vestido rojo'
+  credit: Christian Palm
 links:
   web: https://www.singerpur.de
   twitter:
