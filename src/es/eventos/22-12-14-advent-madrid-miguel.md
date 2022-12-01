@@ -13,10 +13,9 @@ partners:
   - cuatrecasas
   - stihl
   - mediolanum
-  - dzt
   - trumpf
 type: Concierto
-access: Entradas agotadas
+access: Inscripción directa
 date: 2022-12-14 19:30:00
 opening: 2022-12-14 19:00:00
 ending: 2022-12-14 21:00:00
@@ -30,7 +29,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-san-miguel.jpg
   alt: 'Basílica Pontificia de San Miguel'
 infobox: 'Entrada gratuita con inscripción previa a través de Eventbrite. Agradecemos una pequeña donación para el lugar de la celebración.'
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-concierto-de-navidad-en-madrid-basilica-pontificia-de-san-miguel-461687007267
 youtube: true
 ---
 
