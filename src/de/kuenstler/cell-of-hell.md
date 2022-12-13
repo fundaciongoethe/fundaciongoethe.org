@@ -8,7 +8,7 @@ seo:
   image: artists/cell-of-hell.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/cell-of-hell.jpg
-  alt: Pressefoto der Band
+  alt: Die Band in Barcelona, Gruppenfoto vor dem Pabellón Mies van der Rohe
   credit:
 links:
   web: https://www.cellofhell.com

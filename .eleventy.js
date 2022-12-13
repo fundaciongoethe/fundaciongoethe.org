@@ -1,6 +1,5 @@
 const filters = require('./utils/filters.js');
 
-const { isAfter, isBefore, format } = require('date-fns');
 // moment cause i cant get it to work with fns repecting DRY
 const moment = require('moment');
 const markdownIt = require('markdown-it');
@@ -31,13 +30,6 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
-
-// event validation
-const isValidTitle = (title = '') => title.trim().length > 2;
-const isValidEvent = (event) => isValidTitle(event.data.title);
-
-// to group all posts by year
-const _ = require('lodash');
 
 module.exports = function (eleventyConfig) {
   // Filters
@@ -173,131 +165,7 @@ module.exports = function (eleventyConfig) {
 
   // Collections
 
-  // blog es
-  eleventyConfig.addCollection('posts_es', function (collection) {
-    return collection.getFilteredByGlob('./src/es/noticias/*.md');
-  });
-
-  // blog de
-  eleventyConfig.addCollection('posts_de', function (collection) {
-    return collection.getFilteredByGlob('./src/de/aktuelles/*.md');
-  });
-
-  // artists es, randomized on build
-  eleventyConfig.addCollection('artists_es', function (collection) {
-    return (
-      collection
-        // Change to the name of your tag
-        .getFilteredByGlob('./src/es/artistas/*.md')
-        .sort(() => {
-          return 0.5 - Math.random();
-        })
-    );
-  });
-
-  // artists de, randomized on build
-  eleventyConfig.addCollection('artists_de', function (collection) {
-    return (
-      collection
-        // Change to the name of your tag
-        .getFilteredByGlob('./src/de/kuenstler/*.md')
-        .sort(() => {
-          return 0.5 - Math.random();
-        })
-    );
-  });
-
-  // venues es, randomized on build
-  eleventyConfig.addCollection('venues_es', function (collection) {
-    return (
-      collection
-        // Change to the name of your tag
-        .getFilteredByGlob('./src/es/lugares/*.md')
-        .sort(() => {
-          return 0.5 - Math.random();
-        })
-    );
-  });
-
-  // venues de, randomized on build
-  eleventyConfig.addCollection('venues_de', function (collection) {
-    return (
-      collection
-        // Change to the name of your tag
-        .getFilteredByGlob('./src/de/orte/*.md')
-        .sort(() => {
-          return 0.5 - Math.random();
-        })
-    );
-  });
-
-  // förderer es, randomized on build
-  eleventyConfig.addCollection('sponsors_es', function (collection) {
-    return (
-      collection
-        // Change to the name of your tag
-        .getFilteredByGlob('./src/es/patrocinadores/*.md')
-        .sort(() => {
-          return 0.5 - Math.random();
-        })
-    );
-  });
-
-  // förderer de, randomized on build
-  eleventyConfig.addCollection('sponsors_de', function (collection) {
-    return (
-      collection
-        // Change to the name of your tag
-        .getFilteredByGlob('./src/de/foerderer/*.md')
-        .sort(() => {
-          return 0.5 - Math.random();
-        })
-    );
-  });
-
-  // events es
-  eleventyConfig.addCollection('events_es', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('./src/es/eventos/**/*.md');
-  });
-
-  // events es past sorted by year
-  eleventyConfig.addCollection('eventosPasados', (collectionApi) => {
-    return _.chain(collectionApi.getFilteredByGlob('./src/es/eventos/**/*.md'))
-      .filter((event) => isValidEvent(event) && isBefore(new Date(event.data.date), new Date()))
-      .groupBy((event) => event.date.getFullYear())
-      .toPairs()
-      .reverse()
-      .value();
-  });
-
-  // events es future sorted by year
-  eleventyConfig.addCollection('eventosFuturos', (collectionApi) => {
-    return collectionApi
-      .getFilteredByGlob('./src/es/eventos/**/*.md')
-      .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));
-  });
-
-  // events de
-  eleventyConfig.addCollection('events_de', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('./src/de/events/**/*.md');
-  });
-
-  // events de past sorted by year
-  eleventyConfig.addCollection('eventsVergangenheit', (collectionApi) => {
-    return _.chain(collectionApi.getFilteredByGlob('./src/de/events/**/*.md'))
-      .filter((event) => isValidEvent(event) && isBefore(new Date(event.data.date), new Date()))
-      .groupBy((event) => event.date.getFullYear())
-      .toPairs()
-      .reverse()
-      .value();
-  });
-
-  // events de future sorted by year
-  eleventyConfig.addCollection('eventsZukunft', (collectionApi) => {
-    return collectionApi
-      .getFilteredByGlob('./src/de/events/**/*.md')
-      .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));
-  });
+  eleventyConfig.addPlugin(require('./utils/collections/collections-config.js'));
 
   // Custom Watch Targets
 
@@ -314,32 +182,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/images/');
 
   // social icons von images zu root
+
   eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/site.webmanifest': 'site.webmanifest',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon.ico': 'favicon.ico',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon.svg': 'favicon.svg',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/apple-touch-icon.png': 'apple-touch-icon.png',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon-32x32.png': 'favicon-32x32.png',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon-16x16.png': 'favicon-16x16.png',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/android-chrome-192x192.png': 'android-chrome-192x192.png',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/android-chrome-512x512.png': 'android-chrome-512x512.png',
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/maskable.png': 'maskable.png',
+    'src/assets/images/favicon/*': '/',
   });
 
   // node modules
