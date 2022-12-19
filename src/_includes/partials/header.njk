@@ -1,9 +1,13 @@
+
+
 <nav x-data="{ open: false }" class="relative nav transform md:-translate-y-16 lg:translate-y-0 z-10">
   <div class="mx-auto">
     <div class="flex md:flex-col lg:flex-row lg:items-center justify-between relative">
       <div class="flex items-end">
         <div class="flex-shrink-0 flex">
-          <a href="/{{ locale }}/" title="Home" class="no-underline" tabindex="-1">
+          {% set activePage = page.url | url %}
+          <a class="logo" href="/{{ locale }}/" title="Home" class="no-underline" tabindex="-1" {% if activePage === '/es/' or activePage === '/de/' %}
+          aria-current="page" {% endif %}>
             <img
               class="py-1 block h-12 2xl:h-16 md:mb-2 lg:mb-0 w-auto pl-2 xl:pl-16 2xl:pl-24"
               src="/assets/svg/logo-goethe20-RGB.svg"

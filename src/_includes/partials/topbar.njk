@@ -2,18 +2,20 @@
 <div class="bg-transparent hidden md:block z-20">
   <div class="max-w-7xl mx-auto px-2 md:px-10 2xl:px-16">
     <div class="relative flex items-center justify-end h-16">
-      <div class="flex items-center pr-2 sm:ml-6 sm:pr-0 z-10">
-        {# loop though site.languages #} {% for lgg in meta.languages %} {% if
-        loop.first %} {% endif %} {# set translatedUrl to the homepage of that
-        language by default #} {% set translatedUrl = "/" + lgg.code + "/" %} {#
-        set current language class #} {% set activeClass = "bg-orange-400
-        text-black hover:bg-orange-500 border border-orange-500" if lgg.code ==
-        locale else "bg-white text-gray-700 hover:bg-gray-200 border
-        border-gray-300" %} {# loop through all the content of the site #} {%
-        for item in collections.all %} {# for each item in the loop, check if -
-        its translationKey matches the current item translationKey - its locale
-        matches the code of the language we are looping through #} {% if
-        item.data.translationKey == translationKey and item.data.locale ==
+      <div class="flex items-center pr-2 sm:ml-6 sm:pr-0 z-20">
+        <!-- loop though site.languages   -->
+        {% for lgg in meta.languages %} {% if loop.first %} {% endif %}
+        <!-- set translatedUrl to the homepage of that
+        language by default   -->
+        {% set translatedUrl = "/" + lgg.code + "/" %}
+
+        <!--
+        set current language class  -->
+        {% set activeClass = "bg-orange-400 text-black hover:bg-orange-500 border border-orange-500" if lgg.code ==
+        locale else "bg-white text-gray-700 hover:bg-gray-200 border border-gray-300" %}
+
+        <!-- loop through all the content of the site  -->
+        {% for item in collections.all %} {% if item.data.translationKey == translationKey and item.data.locale ==
         lgg.code %} {% set translatedUrl = item.url %} {% endif %} {% endfor %}
 
         <a
@@ -24,6 +26,10 @@
 							rounded-full
 							mx-1  {{ activeClass }}"
           href="{{ translatedUrl }}"
+
+          {%   if lgg.code ==
+          locale   %}  aria-current="page" {% endif %}
+
           >{{ lgg.label }}</a
         >
 
@@ -31,26 +37,9 @@
 
         <a
           href="/{{ locale }}/{{ meta[locale].invitationsLink }}/"
-          class="
-            buttonhover
-            inline-flex
-            items-center
-            px-3
-            py-2
-            shadow-sm
-            text-xs
-            uppercase
-            leading-4
-            font-semibold
-            rounded-md
-            text-black
-            bg-yellow-300
-            hover:bg-yellow-400
-            ml-6
-          "
+          class="buttonhover inline-flex items-center px-3 py-2 shadow-sm text-xs uppercase leading-4 font-semibold rounded-md text-black bg-yellow-300 hover:bg-yellow-400 ml-6"
         >
-          {% svg "ticket", "h-4 w-4 fill-current mr-2", site.platform, "topbar"
-          %} {{ meta[locale].invitations }}
+          {% svg "ticket", "h-4 w-4 fill-current mr-2", site.platform, "topbar" %} {{ meta[locale].invitations }}
         </a>
       </div>
     </div>

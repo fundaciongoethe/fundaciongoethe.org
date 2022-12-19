@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}">
   <head>
+    <!-- 1 charset/http-equiv/viewport -->
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 2 title -->
     <title>{{ seo.title or title }} | {{ meta[locale].metaTitle }}</title>
 
-    <!-- img preload -->
+    <!-- 3 preconnect/async js -->
+    <!-- 4 synchronous js  -->
+    <!-- include base schema  -->
+    {%- include "schemas/base-schema.njk" %}
+
+    <!-- 5 synchronous css / inline css  -->
+    {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{% endset %}
+    <style>
+      {{ css | safe }}
+    </style>
+    {% else %}
+    <link rel="stylesheet" href="/assets/main.min.css" />
+    {% endif %}
+
+    <!-- 6 preload -->
+
+    <!-- fonts preload -->
+    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-book.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-bold.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- logo preload -->
     <link rel="preload" as="image" type="image/svg+xml" href="/assets/svg/logo-goethe20-RGB.svg" />
 
     <!-- preloads in page data -->
@@ -31,53 +56,7 @@
     />
     {%- endfor -%} {% endif %}
 
-    <!-- fonts preload -->
-    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-medium.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-book.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/assets/fonts/gotham/gothamrnd-bold.woff2" as="font" type="font/woff2" crossorigin />
-
-    {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{% endset %}
-    <style>
-      {{ css | safe }}
-    </style>
-    {% else %}
-    <link rel="stylesheet" href="/assets/main.min.css" />
-    {% endif %}
-    <link rel="alternate" type="application/atom+xml" title="RSS Feed para {{ meta.siteName }}" href="/feed.xml" />
-
-    {%- include "partials/head.njk" %}
-    <!-- include base schema  -->
-    {%- include "schemas/base-schema.njk" %}
-
-    <!-- service worker vorübergehend deaktiviert -->
-    <!-- <script>
-      if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js');
-    </script> -->
-
-    <!-- plausible analytics -->
-    <script defer data-domain="fundaciongoethe.org" src="https://plausible.io/js/plausible.js"></script>
-  </head>
-  <body class="bg-gray-200">
-    <a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
-
-    <div hidden>{% svgsprite %}</div>
-    <div class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-yellow-300 via-orange-500 to-red-600' }}">
-      <div
-        class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
-          overflow
-        }} rounded-b-lg"
-      >
-        <!-- 				{# topbar + header #}  -->
-
-        {% include "partials/topbar.njk" %} {% include "partials/header.njk" %}
-
-        <div class="flex-grow max-w-full">
-          {{ content | safe }}
-        </div>
-        {% include "partials/footer.njk" %}
-      </div>
-      {% include "partials/credit.njk" %}
-    </div>
+    <!-- 7 defered js  -->
 
     <script src="/assets/main.js" defer></script>
 
@@ -94,5 +73,41 @@
     {% if validate %}
     <script src="/assets/validate.js" defer></script>
     {% endif %}
+
+    <!-- plausible analytics -->
+    <script defer data-domain="fundaciongoethe.org" src="https://plausible.io/js/plausible.js"></script>
+
+    <!-- snow -->
+    <script src="https://app.embed.im/snow.js" defer></script>
+
+    <!-- 8 everything else: meta tags, icons, open graph etc.  -->
+    {%- include "partials/head.njk" %}
+
+    <!-- service worker vorübergehend deaktiviert -->
+    <!-- <script>
+      if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js');
+    </script> -->
+  </head>
+  <body class="bg-gray-200">
+    <a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
+
+    <div hidden>{% svgsprite %}</div>
+    <div class="min-h-full   {{ bgcolor or 'bg-gradient-to-tr  from-yellow-300 via-orange-500 to-red-600' }}">
+      <div
+        class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
+          overflow
+        }} rounded-b-lg"
+      >
+        <!-- 				{# topbar + header #}  -->
+
+        <header role="banner">{% include "partials/topbar.njk" %} {% include "partials/header.njk" %}</header>
+
+        <div class="flex-grow max-w-full">
+          {{ content | safe }}
+        </div>
+        {% include "partials/footer.njk" %}
+      </div>
+      {% include "partials/credit.njk" %}
+    </div>
   </body>
 </html>

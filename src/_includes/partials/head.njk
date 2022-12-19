@@ -9,9 +9,12 @@ seo.image %} /assets/images/{{ seo.image }}
 
 <!-- metas  -->
 {#- General #}
+<link rel="canonical" href="{{ absolutePageUrl }}" />
 <meta name="author" content="{{ author or meta.authorName }}" />
 <meta name="description" content="{{ seo.description or excerpt or description or meta[locale].metaDescription }}" />
-<link rel="canonical" href="{{ absolutePageUrl }}" />
+<meta name="robots" content="index,follow" /><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow" /><!-- Google Specific -->
+<meta name="generator" content="{{ eleventy.generator }}" />
 
 {#- Open Graph #}
 <meta property="og:site_name" content="{{ meta[locale].metaTitle }}" />

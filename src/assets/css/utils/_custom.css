@@ -182,15 +182,15 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .nav a[aria-current='page'],
-  .nav a[data-state='active'] {
+  .nav a:not(.logo)[aria-current='page'],
+  .nav a:not(.logo)[data-state='active'] {
     @apply bg-red-600;
   }
 }
 
 @media (max-width: 767px) {
-  .nav a[aria-current='page'],
-  .nav a[data-state='active'] {
+  .nav a:not(.logo)[aria-current='page'],
+  .nav a:not(.logo)[data-state='active'] {
     @apply bg-gray-300 text-black;
   }
 }
