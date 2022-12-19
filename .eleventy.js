@@ -180,6 +180,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/videos/');
   eleventyConfig.addPassthroughCopy('src/assets/pdf/');
   eleventyConfig.addPassthroughCopy('src/assets/images/');
+  eleventyConfig.addPassthroughCopy('src/assets/scripts/vendor/');
 
   // social icons von images zu root
 

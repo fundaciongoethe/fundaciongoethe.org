@@ -1,5 +1,2 @@
-src/assets/helperfiles/_redirects.njk
-src/assets/helperfiles/humans.njk
-src/assets/helperfiles/sitemap.njk
-src/assets/helperfiles/robots.njk
-src/assets/helperfiles/google35901daa0ceb7399.njk
+src/assets/helperfiles/*
+src/assets/scripts/vendor/*
