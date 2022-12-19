@@ -34,14 +34,8 @@ gallery:
   - image: ./src/assets/images/blog/concierto-navidad-barcelona-2022-04.jpg
 ---
 
-Los conciertos de navidad de la semana pasada fueron realmente mágicos e inolvidables.
-
-Queremos agradecer de corazón a todas las personas que llenasteis los espacios en cada una de las ciudades, al ensemble vocal [Singapur](/es/artistas/singer-pur/) y a todos los patrocinadores y colaboradores por hacerlo posible.
-
-Aquí compartimos algunas fotografías de los eventos.
-
 Die diesjährigen Weihnachtskonzerte waren wirklich magisch und unvergesslich.
 
-Wir möchten uns ganz herzlich bei all den Besuchern bedanken, die die Veranstaltungsorte in den einzelnen Städten füllten, bei dem Vokalensemble [Singapur](/de/kuenstler/singer-pur/) und bei allen Partnern und Förderern, die dies möglich gemacht haben.
+Wir möchten uns ganz herzlich bei all den Besuchern bedanken, die die Veranstaltungsorte in den einzelnen Städten füllten, bei dem Vokalensemble [Singer Pur](/de/kuenstler/singer-pur/) und bei allen Partnern und Förderern, die dies möglich gemacht haben.
 
 Hier finden Sie einige Bilder von den Veranstaltungen.
