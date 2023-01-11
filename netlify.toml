@@ -1,17 +1,30 @@
-# redirect to spanish or german landing. system parses redirect rules from top to bottom (cascading), the second redirect rule doesn’t have to have the Language conditions since any ‘fr’ requests will never reach that redirect.
+# redirect to spanish or german landing
 
 [[redirects]]
-from = "/"
-to = "/de"
-status = 302
-force = true
-conditions = {Language = ["de"]}
+  from = "/"
+  to = "/de"
+  status = 302
+  force = true
+  conditions = {Language = ["de"]}
 
 [[redirects]]
-from = "/"
-to = "/es"
-status = 302
-force = true
+  from = "/"
+  to = "/es"
+  status = 302
+  force = true
+
+# redirect the 404 pages to your specific variant.
+
+[[redirects]]
+  from = "/de/*"
+  to = "/de/404"
+  status = 404
+
+[[redirects]]
+  from = "/es/*"
+  to = "/es/404"
+  status = 404
+
 
 [[plugins]]
   package = "netlify-plugin-11ty"
