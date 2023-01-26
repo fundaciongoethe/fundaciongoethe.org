@@ -14,4 +14,6 @@ links:
   facebook: https://facebook.com/Haribo.ES
   instagram: https://instagram.com/haribo_es
   linkedin: https://linkedin.com/company/hariboespaña
+permalink: false
+eleventyExcludeFromCollections: true
 ---

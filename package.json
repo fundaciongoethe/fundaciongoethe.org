@@ -6,7 +6,7 @@
     "clean": "del dist",
     "dev:postcss": "postcss src/assets/css/*.css -o dist/assets/main.min.css --watch --verbose",
     "dev:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js --bundle --watch --outdir=dist/assets",
-    "dev:11ty": "eleventy --serve --watch",
+    "dev:11ty": "eleventy --serve --watch --incremental",
     "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
     "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
     "build:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js --bundle --minify --outdir=dist/assets --platform=node --tree-shaking=true",
@@ -33,7 +33,7 @@
     "validator": "^13.7.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.15",
+    "@11ty/eleventy": "^2.0.0-beta.1",
     "@11ty/eleventy-img": "^2.0.0",
     "autoprefixer": "^10.4.8",
     "calendar-link": "^2.2.0",
@@ -42,7 +42,7 @@
     "date-fns": "^2.29.2",
     "del-cli": "^5.0.0",
     "dotenv": "^16.0.2",
-    "esbuild": "^0.16.4",
+    "esbuild": "^0.17.4",
     "glob": "^8.0.3",
     "html-minifier": "^4.0.0",
     "luxon": "^3.1.1",
