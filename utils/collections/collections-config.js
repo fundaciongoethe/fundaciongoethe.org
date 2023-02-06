@@ -65,7 +65,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // events es past sorted by year
-  eleventyConfig.addCollection('eventosPasados', (collectionApi) => {
+  eleventyConfig.addCollection('eventosPasados_es', (collectionApi) => {
     return lodash
       .chain(collectionApi.getFilteredByGlob('./src/es/eventos/**/*.md'))
       .filter((event) => isValidEvent(event) && isBefore(new Date(event.data.date), new Date()))
@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // events es future sorted by year
-  eleventyConfig.addCollection('eventosFuturos', (collectionApi) => {
+  eleventyConfig.addCollection('eventosFuturos_es', (collectionApi) => {
     return collectionApi
       .getFilteredByGlob('./src/es/eventos/**/*.md')
       .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));
@@ -88,7 +88,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // events de past sorted by year
-  eleventyConfig.addCollection('eventsVergangenheit', (collectionApi) => {
+  eleventyConfig.addCollection('eventosPasados_de', (collectionApi) => {
     return lodash
       .chain(collectionApi.getFilteredByGlob('./src/de/events/**/*.md'))
       .filter((event) => isValidEvent(event) && isBefore(new Date(event.data.date), new Date()))
@@ -99,7 +99,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // events de future sorted by year
-  eleventyConfig.addCollection('eventsZukunft', (collectionApi) => {
+  eleventyConfig.addCollection('eventosFuturos_de', (collectionApi) => {
     return collectionApi
       .getFilteredByGlob('./src/de/events/**/*.md')
       .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));

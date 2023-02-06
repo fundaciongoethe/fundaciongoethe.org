@@ -13,7 +13,8 @@ tags: pages
         <ul class="divide-y divide-gray-300 md:bg-gray-100 md:border-t md:border-b border-gray-300">
           <!-- events FUTURE -->
 
-          {% for event in collections.eventsZukunft %}
+          {% set eventsFuture = collections["eventosFuturos_" + locale] %} {% for event in eventsFuture %}
+
           <li class="px-3 py-5 md:py-0 max-w-5xl mx-auto">
             <div class="flex items-center space-x-4">
               <a class="no-underline py-1 sm:py-5 lg:py-6" tabindex="-1" href="{{ event.url }}">
@@ -112,7 +113,8 @@ tags: pages
         >
           <ul class="shadow-box">
             <!-- sorted by year past events -->
-            {% for year, yearPosts in collections.eventsVergangenheit %}
+
+            {% set eventsPast = collections["eventosPasados_" + locale] %} {% for year, yearPosts in eventsPast %}
 
             <li class="relative">
               <button
