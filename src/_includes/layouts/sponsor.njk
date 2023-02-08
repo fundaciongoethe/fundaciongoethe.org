@@ -24,7 +24,7 @@ sponsorlist:
         </div>
 
         <div class="sm:pl-16 2xl:pl-40 w-full sm:w-2/3">
-          <p class="mb-5">{{ excerpt }}</p>
+          <p class="mb-5">{{ excerpt }} {{ content | safe }}</p>
 
           <!-- social links -->
           {%- include "partials/social-links.njk" %}
@@ -39,23 +39,25 @@ sponsorlist:
           {% Picture images.featured1, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt1,
           "lazy" %}
         </li>
-
+        {% if images.featured2 %}
         <li class="relative block w-full aspect-video">
           <!-- picture shortcode -->
           {% Picture images.featured2, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt2,
           "lazy" %}
         </li>
-
+        {% endif %} {% if images.featured3 %}
         <li class="relative block w-full aspect-video">
           <!-- picture shortcode -->
           {% Picture images.featured3, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt3,
           "lazy" %}
         </li>
+        {% endif %} {% if images.featured4 %}
         <li class="relative block w-full aspect-video">
           <!-- picture shortcode -->
           {% Picture images.featured4, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt4,
           "lazy" %}
         </li>
+        {% endif %}
       </ul>
       {% endif %}
 
