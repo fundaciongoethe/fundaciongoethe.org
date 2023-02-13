@@ -19,4 +19,4 @@ Avenida de Bruselas, 30
 28108 – Alcobendas, Madrid
 Teléfono: 900 170 170
 
-Correo electrónico: atencioclientes@mercedes-benz.com
+Correo electrónico: atencionclientes@mercedes-benz.com

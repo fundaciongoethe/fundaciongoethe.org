@@ -1,6 +1,6 @@
 {
   "name": "fundaciongoethe",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "fundaciongoethe uses ESBuild Tailwind and PostCSS",
   "scripts": {
     "clean": "del dist",

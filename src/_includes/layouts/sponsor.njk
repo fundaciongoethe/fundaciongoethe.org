@@ -2,7 +2,7 @@
 layout: base
 tags: pages
 sponsorlist:
-  grids: grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6  xl:grid-cols-7
+  grids: grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6
 ---
 
 <main id="main" class="block">
@@ -24,7 +24,7 @@ sponsorlist:
         </div>
 
         <div class="sm:pl-16 2xl:pl-40 w-full sm:w-2/3">
-          <p class="mb-5">{{ excerpt }} {{ content | safe }}</p>
+          <article class="my-5">{{ excerpt }} {{ content | safe }}</article>
 
           <!-- social links -->
           {%- include "partials/social-links.njk" %}
