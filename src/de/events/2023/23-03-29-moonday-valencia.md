@@ -24,4 +24,4 @@ directregister:
 youtube:
 ---
 
-Wir freuen uns ankündigen zu können, dass die Rockband moonday6 die CD_Release Tour in Spanien starten wird.
+Moonday6 spielen amerikanischen Rock ’n’ Roll. Ihr erstes Album werden sie im März 2023 veröffentlichen: Wir freuen uns, dass sie die _CD_Release-Tour_ mit uns in Spanien beginnen!

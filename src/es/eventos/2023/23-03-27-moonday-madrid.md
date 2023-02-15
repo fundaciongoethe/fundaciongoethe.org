@@ -24,4 +24,4 @@ directregister:
 youtube:
 ---
 
-Nos complace anunciar que el grupo de rock moonday6 va a iniciar la gira CD_Release Tour en España.
+El grupo moonday6 toca rock and roll americano. Publicarán su primer álbum en marzo de 2023. Nos complace anunciar que van a iniciar la gira _CD_Release Tour_ en España.
