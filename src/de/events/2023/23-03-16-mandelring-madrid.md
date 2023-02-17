@@ -2,7 +2,7 @@
 title: 'Mandelring-Quartett in Madrid'
 description: 'Das Mandelring-Quartett – eines der weltbesten Streichquartette – gibt im Palacio Real ein Konzert auf den berühmten Instrumenten von Antonio Stradivari'
 translationKey: mandelringmad2023
-customSlug: cuarteto-mandelring-madrid-2023
+customSlug: mandelring-quartett-madrid-2023-zwei
 artist: [mandelringquartett]
 venue: [palacioreal]
 location: Salón de Columnas, Palacio Real de Madrid

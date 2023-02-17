@@ -2,7 +2,7 @@
 title: 'El Cuarteto Mandelring en Madrid'
 description: 'El Cuarteto Mandelring – uno de los cuartetos de cuerda más reconocidos a nivel mundial – dará un concierto en el Salón de las Columnas del Palacio Real de Madrid'
 translationKey: mandelringmad2023
-customSlug: cuarteto-mandelring-madrid-2023
+customSlug: cuarteto-mandelring-madrid-2023-segundo-dia
 artist: [mandelringquartett]
 venue: [palacioreal]
 location: Salón de Columnas, Palacio Real de Madrid
