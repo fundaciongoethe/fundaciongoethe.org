@@ -21,7 +21,9 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Sidecar
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister:
-youtube:
+youtube: true
 ---
 
 El grupo moonday6 toca rock and roll americano. Publicarán su primer álbum en marzo de 2023. Nos complace anunciar que van a iniciar la gira _CD_Release Tour_ en España.
+
+{% youtube 'Zs6YyGPj9BU', 'moonday6 - All Night Long' %}

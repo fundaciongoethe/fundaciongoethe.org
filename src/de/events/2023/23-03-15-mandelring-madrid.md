@@ -13,7 +13,7 @@ type: Konzert
 access: Persönliche Einladung erforderlich
 date: 2023-03-15 19:30:00
 opening: 2023-03-15 19:00:00
-ending: 2023-03-15 21:00:00
+ending: 2023-03-15 21:30:00
 deadline: 2023-03-03 11:00:00
 calcDuration: 1.5
 program:
