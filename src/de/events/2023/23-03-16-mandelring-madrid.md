@@ -27,4 +27,4 @@ infobox: Private Veranstaltung, nur mit persönlicher Einladung. Registrierte Te
 directregister:
 ---
 
-Das Mandelring-Quartett – eines der weltbesten Streichquartette – gibt im Palacio Real ("Salón de las Columnas") ein Konzert auf den berühmten Instrumenten von Antonio Stradivari aus dem Jahre 1696. Die einzigartigen Instrumente, die sogenannten Palatinos, werden nur wenige Male im Jahr und ausschließlich im Palast bespielt. Mit großer Virtuosität werden Werke von Ludwig van Beethoven, Leos Janácek und Franz Schubert.
+Das Mandelring-Quartett – eines der weltbesten Streichquartette – gibt im Palacio Real ("Salón de las Columnas") ein Konzert auf den berühmten Instrumenten von Antonio Stradivari aus dem Jahre 1696. Die einzigartigen Instrumente, die sogenannten Palatinos, werden nur wenige Male im Jahr und ausschließlich im Palast bespielt. In diesem Konzert wird das Mandelring Quartett mit großer Virtuosität Werke von Ludwig van Beethoven, Leos Janácek und Franz Schubert spielen.
