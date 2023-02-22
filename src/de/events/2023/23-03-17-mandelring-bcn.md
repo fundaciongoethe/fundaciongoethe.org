@@ -1,14 +1,14 @@
 ---
 title: 'El Cuarteto Mandelring en Barcelona'
-description: 'El Cuarteto Mandelring dará un concierto con gran virtuosismo en la Casa Golferichs con obras de Ludwig van Beethoven, Leos Janácek y Franz Schubert.'
+description: 'Das Mandelring-Quartett spielt in der Casa Golferichs ein Konzert mit Werken von Ludwig van Beethoven, Leoš Janáček und Franz Schubert.'
 translationKey: mandelringbcn2023
 customSlug: cuarteto-mandelring-barcelona-2023
 artist: [mandelringquartett]
 venue: [golferichs]
 location: Casa Golferichs
 city: Barcelona
-type: Concierto
-access: Se requiere una invitación personal
+type: Konzert
+access: Persönliche Einladung erforderlich
 date: 2023-03-17 19:30:00
 opening: 2023-03-17 19:00:00
 ending: 2023-03-17 21:30:00
@@ -21,8 +21,8 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/bcn-golferichs.jpg
   alt: Casa Golferichs
-infobox: Evento privado, sólo con invitación personal.
+infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 ---
 
-Das Mandelring-Quartett – eines der weltbesten Streichquartette – wird mit grosser Virtuosität in der Casa Golferichs ein Konzert Werke von Ludwig van Beethoven, Leos Janácek und Franz Schubert spielen.
+Das Mandelring-Quartett – eines der weltbesten Streichquartette – spielt in der Casa Golferichs ein Konzert mit Werken von Ludwig van Beethoven, Leoš Janáček und Franz Schubert.

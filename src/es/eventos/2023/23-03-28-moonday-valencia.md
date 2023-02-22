@@ -6,7 +6,7 @@ customSlug: concierto-moonday-valencia-sidecar
 venue: [loco]
 artist: [moonday6]
 city: Valencia
-location: Sala Loco
+location: Loco Club
 partners:
 type: 'Concierto'
 access: Inscripción directa
@@ -18,7 +18,7 @@ calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/val-loco.jpg
-  alt: Sala Loco
+  alt: Loco Club
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister:
 youtube: true

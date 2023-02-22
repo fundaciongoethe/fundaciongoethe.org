@@ -1,11 +1,11 @@
 ---
-title: 'Loco'
+title: 'Loco Club'
 translationKey: 'loco'
-customSlug: 'loco-valencia'
+customSlug: 'loco-club-valencia'
 excerpt: "Pequeño local con muy buena acústica. Son sinónimo Rock n' roll, Soul, Power Pop, Garage, Country. Los mejores espectáculos, cerveza y DJ's."
 city: Valencia
 seo: # image relative to /assets/images/
-  title: Loco
+  title: Loco Club
   description: "Pequeño local con muy buena acústica. Son sinónimo Rock n' roll, Soul, Power Pop, Garage, Country. Los mejores espectáculos, cerveza y DJ's."
   image: /venues/val-loco.jpg
 images: # complete path for eleventy img srcset output, alt required
