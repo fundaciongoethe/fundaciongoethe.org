@@ -26,6 +26,8 @@ directregister:
 youtube: true
 ---
 
+**Visita guiada en Alemán.**
+
 En la historia del arte del siglo XX, la figura de Daniel-Henry Kahnweiler (1884-1979) es una leyenda. De origen alemán, eligió París para abrir su galería en 1907, en el número 28 de la rue Vignon. Las escasas exposiciones y presentaciones que organiza en ella hasta 1914 lo convierten en el marchante pionero del cubismo. Promotor de Georges Braque, Pablo Picasso, André Derain y Maurice de Vlaminck, y más adelante de Juan Gris y de Fernand Léger, Kahnweiler construye desde cero una red internacional de coleccionistas cubistas, como Hermann Rupf, Roger Dutilleul, Vincenc Kramar, Serguéi Shchukin y Gertrude Stein, y se rodea de los mejores críticos, como Guillaume Apollinaire, Wilhelm Uhde, Ardengo Soffici o Carl Einstein. Kahnweiler era también un literato que se hizo editor para reunir, en libros exquisitamente editados, a los poetas y los pintores del grupo cubista: Apollinaire y Derain, en L’Enchanteur pourrissant, en 1909; Max Jacob y Picasso, en Saint-Matorel, en 1910, entre otros.
 
 Invitamos a una visita guiada con la historiadora del arte Prof. Dra. Mercedes Valdivieso al Museo Picasso Barcelona.
