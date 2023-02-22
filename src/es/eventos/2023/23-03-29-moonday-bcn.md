@@ -10,10 +10,10 @@ location: Sala Sidecar
 partners:
 type: 'Concierto'
 access: Inscripción directa
-date: 2023-03-28 20:30:00
-opening: 2023-03-28 20:00:00
-ending: 2023-03-28 22:00:00
-deadline: 2023-03-28 11:00:00
+date: 2023-03-29 20:30:00
+opening: 2023-03-29 20:00:00
+ending: 2023-03-29 22:00:00
+deadline: 2023-03-29 11:00:00
 calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required

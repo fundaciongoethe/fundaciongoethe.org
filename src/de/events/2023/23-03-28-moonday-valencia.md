@@ -1,12 +1,12 @@
 ---
-title: 'moonday6 in Barcelona'
+title: 'moonday6 in Valencia'
 description: 'Wir freuen uns ankündigen zu können, dass die Rockband moonday6 die CD_Release Tour in Spanien starten wird.'
 translationKey: moondaymad23
-customSlug: konzert-moonday-barcelona-sidecar
-venue: [sidecar]
+customSlug: konzert-moonday-valencia-sidecar
+venue: [loco]
 artist: [moonday6]
-city: Barcelona
-location: Sala Sidecar
+city: Valencia
+location: Sala Loco
 partners:
 type: 'Konzert'
 access: Direktanmeldung
@@ -17,8 +17,8 @@ deadline: 2023-03-28 11:00:00
 calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/bcn-sidecar.jpg
-  alt: Sidecar
+  featured: ./src/assets/images/venues/val-loco.jpg
+  alt: Sala Loco
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister:
 youtube: true
