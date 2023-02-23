@@ -8,7 +8,7 @@ seo: # image relative to /assets/images/
   image: /venues/bcn-sidecar.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/bcn-sidecar.jpg
-  alt: Centre i Teatre de Sarria
+  alt: Sidecar
 links:
   web: https://www.sidecar.es
   twitter:

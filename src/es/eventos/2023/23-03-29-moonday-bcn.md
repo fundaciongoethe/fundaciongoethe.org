@@ -1,7 +1,7 @@
 ---
 title: 'moonday6 in Barcelona'
 description: 'Nos complace anunciar que el grupo de rock moonday6 va a iniciar la gira CD_Release Tour en España.'
-translationKey: moondaymad23
+translationKey: moondaybcn23
 customSlug: concierto-moonday-barcelona-sidecar
 venue: [sidecar]
 artist: [moonday6]

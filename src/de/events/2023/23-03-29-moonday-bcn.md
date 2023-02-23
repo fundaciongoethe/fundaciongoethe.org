@@ -1,7 +1,7 @@
 ---
 title: 'moonday6 in Barcelona'
 description: 'Wir freuen uns ankündigen zu können, dass die Rockband moonday6 die CD_Release Tour in Spanien starten wird.'
-translationKey: moondaymad23
+translationKey: moondaybcn23
 customSlug: konzert-moonday-barcelona-sidecar
 venue: [sidecar]
 artist: [moonday6]
