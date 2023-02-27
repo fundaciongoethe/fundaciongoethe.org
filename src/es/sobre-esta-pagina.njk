@@ -2,193 +2,122 @@
 title: Desarrollo y detalles técnicos de fundaciongoethe.org
 description: Detalles técnicos y accesibilidad de fundaciongoethe.org. Este sitio fue diseñado totalmente a mano y desarrollado con el método Jamstack.
 layout: plain
-permalink: "/{{ locale }}/sobre-esta-pagina/index.html"
-translationKey: "aboutwebsite"
+permalink: '/{{ locale }}/sobre-esta-pagina/index.html'
+translationKey: 'aboutwebsite'
 ---
 
 <div class="relative max-w-2xl mx-auto">
   <div class="text-lg max-w-prose mx-auto">
     <h1 class="standardtitel">Detalles técnicos y accesibilidad</h1>
     <p class="standardtext mt-3 sm:mt-4 prose">
-      Este sitio fue diseñado totalmente a mano y desarrollado con el método
-      Jamstack. La idea de Jamstack es hacer que una página web sea más rápida y
-      segura. Está orientado a los inicios del desarrollo de la web, cuando
-      todas las páginas web eran estáticas - puros archivos HTML que se
-      encuentran en una estructura de carpetas. Estas páginas web, que se
-      arreglaban con lo más esencial, eran increíblemente rápidas y seguras. Hoy
-      en día aprovechamos de las ventajas de esta técnica clásica con un método
-      moderno.
+      Este sitio fue diseñado totalmente a mano y desarrollado con el método Jamstack. La idea de Jamstack es hacer que
+      una página web sea más rápida y segura. Está orientado a los inicios del desarrollo de la web, cuando todas las
+      páginas web eran estáticas - puros archivos HTML que se encuentran en una estructura de carpetas. Estas páginas
+      web, que se arreglaban con lo más esencial, eran increíblemente rápidas y seguras. Hoy en día aprovechamos de las
+      ventajas de esta técnica clásica con un método moderno.
     </p>
   </div>
   <div class="mt-6 prose mx-auto">
     <p>
-      <strong
-        >Las páginas creadas con este sístema tienen grandes ventajas:</strong
-      >
+      <strong>Las páginas creadas con este sístema tienen grandes ventajas:</strong>
     </p>
     <ul>
       <li>
-        <strong>Tiempos de carga muy rápidos</strong>, ya que los archivos de
-        marcas y activos preconstruidos se sirven a través de una red de
-        distribución de contenidos (CDN)
+        <strong>Tiempos de carga muy rápidos</strong>, ya que los archivos de marcas y activos preconstruidos se sirven
+        a través de una red de distribución de contenidos (CDN)
       </li>
       <li>
-        <strong>Más seguridad</strong>, porque sin bases de datos y servidores
-        no hay vulnerabilidades que puedan ser explotadas por los atacantes.
+        <strong>Más seguridad</strong>, porque sin bases de datos y servidores no hay vulnerabilidades que puedan ser
+        explotadas por los atacantes.
       </li>
       <li>
-        <strong>Bajos costos de funcionamiento</strong>, ya que el alojamiento
-        de archivos estáticos es barato o incluso gratuito.
+        <strong>Bajos costos de funcionamiento</strong>, ya que el alojamiento de archivos estáticos es barato o incluso
+        gratuito.
       </li>
       <li>
-        <strong> Escalabilidad</strong>, significa que si el sitio web es
-        visitado repentinamente por muchos usuarios activos al mismo tiempo, el
-        CDN compensa esto sin problemas.
+        <strong> Escalabilidad</strong>, significa que si el sitio web es visitado repentinamente por muchos usuarios
+        activos al mismo tiempo, el CDN compensa esto sin problemas.
       </li>
     </ul>
   </div>
   <div class="my-12">
     <figure>
-      {% Picture "./src/assets/images/pages/lighthouse.jpg","", "w-full h-full
-      rounded-md object-cover border", "Pantallazo de los resultados de
-      lighhouse ", "lazy" %}
-      <figcaption
-        class="
-          text-sm
-          mt-2
-          text-gray-600
-          sm:bg-white sm:border sm:px-3 sm:py-2
-          rounded-md
-        "
-      >
-        Resultados de la auditoría Lighthouse para fundaciongoethe.org/es.
-        Lighthouse proporciona información sobre el rendimiento, el SEO, la
-        usabilidad y la accesibilidad de una página.
+      {% Picture "./src/assets/images/pages/lighthouse.jpg","", "w-full h-full rounded-md object-cover border",
+      "Pantallazo de los resultados de lighhouse ", "lazy" %}
+      <figcaption class="text-sm mt-2 text-gray-600 sm:bg-white sm:border sm:px-3 sm:py-2 rounded-md">
+        Resultados de la auditoría Lighthouse para fundaciongoethe.org/es. Lighthouse proporciona información sobre el
+        rendimiento, el SEO, la usabilidad y la accesibilidad de una página.
       </figcaption>
     </figure>
   </div>
   <div class="mt-6 prose mx-auto">
     <h2>Damos gran importancia a la accesibilidad</h2>
     <p>
-      Por término medio, una de cada cinco personas tiene una enfermedad,
-      deficiencia o discapacidad de larga s 1 de cada 5 pduración, y muchas más
-      tienen una discapacidad temporal o situacional.
+      Por término medio, una de cada cinco personas tiene una enfermedad, deficiencia o discapacidad de larga s 1 de
+      cada 5 pduración, y muchas más tienen una discapacidad temporal o situacional.
     </p>
     <p>
-      Nuestra desarrolladora se asegura de que este sitio web puede ser
-      utilizado por el mayor número posible de personas. Nadie debe ser excluido
-      por tener deficiencias visuales, auditivas, del habla, motoras o
-      cognitivas.
+      Nuestra desarrolladora se asegura de que este sitio web puede ser utilizado por el mayor número posible de
+      personas. Nadie debe ser excluido por tener deficiencias visuales, auditivas, del habla, motoras o cognitivas.
     </p>
     <h2>fundaciongoethe.org está muy rapido y seguro</h2>
 
     <p>
-      Las arquitecturas Jamstack ofrecen menos puntos de ataque. Al servir HTML
-      estático pre-renderizado, se eliminan todas las posibles conexiones a
-      servidores de aplicaciones web o de bases de datos.
+      Las arquitecturas Jamstack ofrecen menos puntos de ataque. Al servir HTML estático pre-renderizado, se eliminan
+      todas las posibles conexiones a servidores de aplicaciones web o de bases de datos.
     </p>
     <p>
-      Nos aseguramos de que todo el mundo pueda ver este sitio web rápidamente y
-      sin costes adicionales (consumo de datos), y sin tener que pasar por
-      obstáculos innecesarios.
+      Nos aseguramos de que todo el mundo pueda ver este sitio web rápidamente y sin costes adicionales (consumo de
+      datos), y sin tener que pasar por obstáculos innecesarios.
     </p>
   </div>
 
   <div class="my-12">
     <figure>
-      {% Picture "./src/assets/images/pages/webpagetest.jpg","", "w-full h-full
-      rounded-md object-cover border", "Pantallazo de los resultados de
-      webpagetest ", "lazy" %}
-      <figcaption
-        class="
-          text-sm
-          mt-2
-          text-gray-600
-          sm:bg-white sm:border sm:px-3 sm:py-2
-          rounded-md
-        "
-      >
-        Resultados de la auditoría www.webpagetest.org para
-        fundaciongoethe.org/es. WebPageTest utiliza navegadores reales para
-        recopilar métricas de tiempo, detalles de seguridad y los recientemente
-        introducidos “Core Web Vitals”.
+      {% Picture "./src/assets/images/pages/webpagetest.jpg","", "w-full h-full rounded-md object-cover border",
+      "Pantallazo de los resultados de webpagetest ", "lazy" %}
+      <figcaption class="text-sm mt-2 text-gray-600 sm:bg-white sm:border sm:px-3 sm:py-2 rounded-md">
+        Resultados de la auditoría www.webpagetest.org para fundaciongoethe.org/es. WebPageTest utiliza navegadores
+        reales para recopilar métricas de tiempo, detalles de seguridad y los recientemente introducidos “Core Web
+        Vitals”.
       </figcaption>
     </figure>
   </div>
 </div>
 
-<div class="max-w-5xl mx-auto md:bg-transparent md:my-20">
-  <div class="md:grid md:grid-cols-12">
-    <div
-      class="
-        hidden
-        md:block
-        relative
-        z-10
-        md:col-start-1 md:row-start-1 md:col-span-3 md:py-16 md:bg-transparent
-      "
-    >
-      <div class="max-w-md mx-auto sm:max-w-3xl md:max-w-none md:p-0">
-        <div class="aspect-h-1 aspect-w-1">
-          {% Picture "./src/assets/images/pages/lene.png","aspect-h-1
-          aspect-w-1", "object-cover object-center rounded-lg shadow-lg",
-          "Dibujo de Lene", "lazy" %}
+<div
+  id="lene"
+  class="pb-4 lg:pb-0 lg:z-10 lg:relative bg-gradient-to-b md:bg-gradient-to-r from-gray-50 to-gray-200 my-40 rounded-md"
+>
+  <div class="lg:mx-auto lg:max-w-7xl md:px-8 md:grid md:grid-cols-3">
+    <div class="relative md:-my-8">
+      <div class="mx-auto max-w-md px-4 md:max-w-3xl sm:px-6 sm:p-0 sm:h-full">
+        <div class="aspect-square overflow-hidden">
+          <!-- picture shortcode -->
+          {% Picture "./src/assets/images/pages/lene.png"," aspect-square ", "rounded-md absolute inset-0 w-full h-full
+          object-cover", "Lene Saile", "lazy" %}
         </div>
       </div>
     </div>
-
-    <div
-      class="
-        relative
-        md:bg-gray-200
-        md:col-start-3
-        md:row-start-1
-        md:col-span-10
-        md:rounded-xl
-        md:grid
-        md:grid-cols-10
-        md:items-center
-      "
-    >
-      <div
-        class="
-          prose
-          relative
-          mx-auto
-          py-12
-          space-y-4
-          sm:max-w-3xl sm:py-16
-          md:max-w-none md:p-0 md:col-start-3 md:col-span-6
-        "
-      >
-        <p>
-          ¿Quieres una página web atractiva y rápida, en la que los visitantes
-          puedan orientarse inmediatamente y que sea accesible y utilizable para
-          todas las personas, independientemente de cualquier discapacidad?
-        </p>
-        <p>
-          Ponte en contacto con nuestra desarrolladora Lene, estará encantada de
-          ayudarte.
-        </p>
-        <a
-          class="
-            buttonhover
-            inline-flex
-            bg-yellow-400 bg-origin-border
-            px-4
-            py-2
-            border border-transparent
-            rounded-md
-            shadow-md
-            hover:shadow-lg
-            no-underline
-          "
-          rel="noopener"
-          target="_blank"
-          href="https://www.lenesaile.com"
-          >www.lenesaile.com</a
+    <div class="mt-12 md:m-0 md:col-span-2 sm:pl-4 lg:pl-8">
+      <article class="mx-auto max-w-md px-4 sm:px-0 sm:py-4 sm:max-w-none">
+        <div
+          class="prose relative mx-auto py-16 space-y-4 sm:max-w-3xl sm:py-16 md:max-w-none md:p-0 md:col-start-3 md:col-span-6"
         >
-      </div>
+          <p>
+            ¿Quieres una página web atractiva y rápida, en la que los visitantes puedan orientarse inmediatamente y que
+            sea accesible y utilizable para todas las personas, independientemente de cualquier discapacidad?
+          </p>
+          <p>Ponte en contacto con nuestra desarrolladora Lene, estará encantada de ayudarte.</p>
+          <a
+            class="buttonhover inline-flex bg-yellow-400 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-md hover:shadow-lg no-underline"
+            rel="noopener"
+            target="_blank"
+            href="https://www.lenesaile.com"
+            >www.lenesaile.com</a
+          >
+        </div>
+      </article>
     </div>
   </div>
 </div>

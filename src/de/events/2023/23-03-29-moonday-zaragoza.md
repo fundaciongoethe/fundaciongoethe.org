@@ -8,6 +8,7 @@ artist: [moonday6]
 city: Zaragoza
 location: La Ley Seca
 partners:
+  - konsulatbarcelona
 type: 'Konzert'
 access: Direktanmeldung
 date: 2023-03-30 21:00:00

@@ -1,11 +1,11 @@
 ---
 title: Fotoalbum
 layout: plain
-permalink: "/{{ locale }}/fotoalbum/index.html"
-translationKey: "album"
+permalink: '/{{ locale }}/fotoalbum/index.html'
+translationKey: 'album'
 seo:
   title: Fotoalbum
-  description: In unserer Galerie zeigen wir Ihnen einige Eindrücke von unseren Veranstaltungen - Konzerte, Führungen, Ausstellungen und Ausflüge.
+  description: 'In unserer Galerie zeigen wir Ihnen einige Eindrücke von unseren Veranstaltungen - Konzerte, Führungen, Ausstellungen und Ausflüge.'
 gallery:
   - image: ./src/assets/images/gallery/eventos-fundacion-goethe-galeria-02.jpg
   - image: ./src/assets/images/gallery/eventos-fundacion-goethe-galeria-03.jpg
@@ -59,17 +59,19 @@ gallery:
 
 <div class="mb-12">
   <div class="md:text-center max-w-3xl mx-auto mb-12">
-    <h1 class="standardtitel text-gray-900">Fotogalerie</h1>
+    <h1 class="standardtitel text-gray-900">{{ title }}</h1>
     <p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
-      In unserer Galerie zeigen wir Ihnen einige Eindrücke von unseren
-      Veranstaltungen
+      {{ seo.description }}
     </p>
   </div>
   <!-- set -->
   <div class="mt-10">
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
-      {% for item in gallery %} {% Picture item.image,"aspect-w-5 aspect-h-3
-      md:aspect-w-4 md:aspect-h-4", "object-cover rounded-md", title, "lazy" %}
+    <div class="grid gap-4 sm:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {% for item in gallery %}
+      <div class="relative aspect-square">
+        {% Picture item.image," w-full aspect-square ", "rounded-sm w-full h-full absolute inset-0 object-cover", title,
+        "lazy" %}
+      </div>
       {%- endfor -%}
     </div>
   </div>
