@@ -21,7 +21,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/zaragoza-leyseca.jpg
   alt: La Ley Seca Logo
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
+directregister: https://moonday6-zaragoza-2023.eventbrite.es
 youtube: true
 ---
 

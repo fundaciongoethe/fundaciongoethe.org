@@ -20,7 +20,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/hangar-48.jpg
   alt: Hangar 48
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
-directregister:
+directregister: https://moonday6-madrid-2023.eventbrite.es
 youtube: true
 ---
 

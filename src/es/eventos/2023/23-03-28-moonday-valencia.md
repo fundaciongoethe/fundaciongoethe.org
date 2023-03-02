@@ -20,7 +20,7 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/val-loco.jpg
   alt: Loco Club
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
+directregister: https://moonday6-valencia-2023.eventbrite.es
 youtube: true
 ---
 
