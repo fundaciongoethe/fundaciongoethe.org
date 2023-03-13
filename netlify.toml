@@ -25,6 +25,12 @@
   to = "/es/404"
   status = 404
 
+[[redirects]]
+  from = "/*"
+  to = "/es/404"
+  status = 404
+
+
 
 [[plugins]]
 package = "netlify-plugin-cache"

@@ -1,9 +1,9 @@
 ---
-title: "Mandelring-Quartett"
-translationKey: "mandelringquartett"
-customSlug: "cuarteto-mandelring"
+title: 'Mandelring-Quartett'
+translationKey: 'mandelringquartett'
+customSlug: 'cuarteto-mandelring'
 excerpt: El Mandelring Quartett, formado por Sebastian Schmidt (violín), Nanette Schmidt (violín), Andreas Willwohl (viola) y Bernhard Schmidt (violonchelo), es uno de los cuartetos de cuerda más reconocidos del mundo.
-occupation: "cuarteto de cuerda"
+occupation: 'cuarteto de cuerda'
 seo:
   image: artists/mandelring-quartett.jpg
 images: # complete path for eleventy img srcset output, alt required
@@ -19,10 +19,14 @@ links:
   youtube:
 ---
 
-La expresividad, la homogeneidad interpretativa y su firme voluntad de penetrar en la esencia de la música que interpretan, son las principales señas de identidad del Cuarteto Mandelring, cuyos primeros premios, obtenidos en importantes concursos, como el ARD Múnich, el Concours International de Quatuor à cordes Evian, o el Premio Paolo Borciani en Reggio Emilia, marcaron el inicio de su carrera internacional.
+> Lujosa poesía sonora
 
-La prestigiosa publicación Fono Forum lo calificó como uno de los seis mejores cuartetos de cuerda del mundo. En la actualidad estos cuatro intérpretes actúan en los centros musicales de mayor prestigio, tanto en Europa como en todo el continente americano, Oriente Próximo y Asia. También participan habitualmente en importantes festivales como los de Lockenhaus, Montpellier, Ottawa, Oleg-Kagan, Schleswig-Holstein, y Salzburgo. Los cuatro músicos que integran esta formación han dejado siempre una huella indeleble en todas sus actuaciones: Recientemente la prensa calificó su intervención en el festival de Salzburgo como «una experiencia memorable, difícil de repetir».
+Así escribía la destacada revista cultural española Scherzo tras un concierto del Cuarteto Mandelring en Madrid.
 
-Sus actuaciones son frecuentes en el Hambacher Musikfest, donde se dan cita amantes de la música de cámara de todo el mundo. Desde 2010 desarrollan también sus propios ciclos de conciertos en la Filarmonía de Berlín y en su ciudad de origen Neustadt an der Weinstraße.
+Fundado en 1983, el conjunto ha ganado importantes concursos, entre ellos el Concurso Internacional de Música ARD y el Premio Paolo Borciani. Desde entonces, las giras de conciertos les han llevado a numerosos centros musicales internacionales. El calendario de conciertos incluye regularmente giras por varios países europeos, América del Norte y del Sur y Asia. El cuarteto es bienvenido en los principales festivales, como la Schubertiade Schwarzenberg y Hohenems, el Festival de Música de Niederrhein, el Ludwigsburg Schlossfestspiele, el Festival Internacional De Música De Marvão y el Kuhmo Chamber Music.
 
-Sus numerosas grabaciones han sido galardonadas con importantes premios -como el de la Crítica del Disco Alemana, entre otros- que avalan la gran calidad artística del conjunto, mostrando la versatilidad y amplitud de su repertorio, integrado por obras que van principalmente desde mediados del siglo XVIII hasta finales del XX, entre las cuales destacan los quince cuartetos de cuerda de Schostakovich, que esta formación ha interpretado con mucha frecuencia. La grabación completa de esta serie, así como sus producciones discográficas con obras de Schubert y Schumann, han sido consideradas por la crítica especializada como interpretaciones de referencia. Recientemente el Cuarteto Mandelring ha concluido la grabación completa de la obra de música de cámara para cuerdas de Brahms, teniendo entre sus proyectos más inmediatos el registro de diversos cuartetos de cuerda de compositores franceses.
+El Festival de Música de Hambach, que el Cuarteto Mandelring fundó en 1997 en su ciudad natal de Neustadt an der Weinstraße, se ha convertido desde entonces en un punto de encuentro para amantes de la música de cámara de todo el mundo. Desde 2010, el conjunto organiza su propio ciclo de conciertos en Neustadt y en la Filarmónica de Berlín.
+
+El Cuarteto Mandelring ha interpretado en varias ocasiones ciclos de la integral de música de cámara para cuerda de Mendelssohn y Brahms. El cuarteto interpretó los 15 cuartetos de cuerda de Shostakovich en el Festival de Salzburgo y en Berlín, entre otros, y en la temporada 2020/21 como Cuarteto en Residencia en el Círculo de Bellas Artes de Madrid. En la primavera de 2022, el conjunto fue invitado por tercera vez a tocar conciertos con los instrumentos Stradivari de la Colección Real de Madrid.
+
+Numerosas grabaciones en CD galardonadas con el Premio de la Crítica Discográfica Alemana, nominaciones a los Premios Internacionales de Música Clásica y otros premios demuestran la excepcional calidad del cuarteto y su amplio repertorio. La grabación de la integral de los cuartetos de Shostakovich, así como la grabación de la integral de música de cámara para cuerdas de Mendelssohn, consideradas grabaciones de referencia por críticos de renombre, atrajeron especialmente la atención internacional. Más recientemente, el CD "Pennies from Heaven" con bises seleccionados, así como un doble lanzamiento con repertorio francés: los cuartetos de Maurice Ravel y Claude Debussy combinados con obras de sus contemporáneos Fernand de La Tombelle y Jean Rivier.

@@ -1,9 +1,9 @@
 ---
-title: "Mandelring-Quartett"
-translationKey: "mandelringquartett"
-customSlug: "mandelring-quartett"
+title: 'Mandelring-Quartett'
+translationKey: 'mandelringquartett'
+customSlug: 'mandelring-quartett'
 excerpt: Das Mandelring Quartett, bestehend aus Sebastian Schmidt (Violine), Nanette Schmidt (Violine), Andreas Willwohl (Viola) und Bernhard Schmidt (Violoncello), ist eines der renommiertesten Streichquartette der Welt.
-occupation: "Streichquartett"
+occupation: 'Streichquartett'
 seo:
   image: artists/mandelring-quartett.jpg
 images: # complete path for eleventy img srcset output, alt required
@@ -19,10 +19,14 @@ links:
   youtube:
 ---
 
-> Fulminant ist gar kein Ausdruck. Wie ein Stromschlag fährt einem die Musik ins Mark, buchstäblich mit dem ersten, Herz und Hirn elektrisierenden Takt, ohne jede Vorwarnung: die Musik von Felix Mendelssohn Bartholdy, die das Mandelring Quartett unter äusserster Hochspannung spielt, hitzig, fiebrig – brandgefährlich!
+> Luxuriöse Poesie des Klangs
 
-Schreibt die Neue Zürcher Zeitung in einer CD-Rezension. The Strad, das führende englischsprachige Klassikmagazin, widmete dem Mandelring Quartett eine Titelseite und ein ausführliches Porträt. Das Musikmagazin Fono Forum zählt das Ensemble zu den sechs besten Streichquartetten der Welt. Der Gewinn großer Wettbewerbe – München (ARD), Evian und Reggio Emilia (Premio Paolo Borciani) – war der Einstieg in die internationale Karriere des Mandelring Quartetts. Heute führen Konzertreisen das Ensemble in internationale Musikzentren wie Wien, Paris, London, Madrid, New York, Los Angeles und Vancouver. Zudem finden sich im Konzertkalender regelmäßige Tourneen nach Mittel- und Südamerika, in den Nahen Osten und nach Asien. Auch bei großen Festivals – unter anderem Schleswig-Holstein, Rheingau, Montpellier und Schubertiade Schwarzenberg – zählt das Quartett zu den gern gesehenen Gästen.
+So schrieb das führende spanische Kulturmagazin Scherzo nach einem Konzert des Mandelring Quartetts in Madrid.
 
-Wo immer die vier Musiker auftreten, hinterlassen sie bleibende musikalische Spuren: „Ein denkwürdiges, sobald nicht wiederholbares Festspielerlebnis“, schrieben etwa die Salzburger Nachrichten nach dem Schostakowitsch-Zyklus des Mandelring Quartetts bei den Salzburger Festspielen. Das HAMBACHERMusikFEST, das Festival des Mandelring Quartetts, ist seit vielen Jahren ein Publikumsmagnet. Seit 2010 gestaltet das Ensemble eigene Konzertreihen in der Berliner Philharmonie und in seiner Heimatstadt Neustadt an der Weinstraße.
+Das 1983 gegründete Ensemble gewann große Wettbewerbe, darunter den Internationalen Musikwettbewerb der ARD und den Premio Paolo Borciani. Seitdem führen Konzertreisen in zahlreiche internationale Musikzentren. Regelmäßig finden sich im Konzertkalender Tourneen in verschiedene europäische Länder, nach Nord- und Südamerika und Asien. Bei großen Festivals – unter anderem Schubertiade Schwarzenberg und Hohenems, Niederrhein Musikfestival, Ludwigsburger Schlossfestspiele, Festival Internacional De Música De Marvão und Kuhmo Chamber Music – zählt das Quartett zu den gern gesehenen Gästen.
 
-Seinen 30. Geburtstag feierte das Quartett 2013 im Berliner Radialsystem mit dem Projekt „3 aus 30“, bei dem das Publikum in fünf Konzerten die gespielten Werke unmittelbar vor Konzertbeginn auswählen konnte. Zahlreiche preisgekrönte CDs zeigen die außergewöhnliche Qualität und das breite Repertoire des Ensembles. Besondere Aufmerksamkeit erregten international die Einspielung sämtlicher Schostakowitsch-Quartette, die von namhaften Kritikern als Referenzaufnahme angesehen wird, sowie die Aufnahme der gesamten Kammermusik für Streicher von Mendelssohn. Zuletzt erschien eine Gesamteinspielung der Streicherkammermusik von Brahms. Aktuelles Projekt ist eine Aufnahme französischer Streichquartette.
+Das Hambacher Musikfest, das das Mandelring Quartett 1997 in seiner Heimatstadt Neustadt an der Weinstraße ins Leben gerufen hat, ist inzwischen ein Treffpunkt für Kammermusikfreunde aus aller Welt. Seit 2010 gestaltet das Ensemble eigene Konzertreihen in Neustadt und in der Berliner Philharmonie.
+
+Mehrfach führte das Mandelring Quartett Zyklen der gesamten Streicherkammermusik von Mendelssohn und Brahms auf. Die 15 Streichquartette von Schostakowitsch spielte das Quartett unter anderem bei den Salzburger Festspielen und in Berlin sowie in der Saison 2020/21 als Quartet in Residence im Círculo de Bellas Artes in Madrid. Im Frühjahr 2022 war das Ensemble bereits zum dritten Mal eingeladen, Konzerte auf den Stradivari-Instrumenten der königlichen Sammlung in Madrid zu spielen.
+
+Zahlreiche mit dem Preis der Deutschen Schallplattenkritik, International Classical Music Awards-Nominierungen und weiteren Preisen ausgezeichnete CD-Aufnahmen zeigen die außergewöhnliche Qualität und das breite Repertoire des Quartetts. Besondere Aufmerksamkeit erregten international die Einspielung sämtlicher Schostakowitsch-Quartette sowie die Aufnahme der gesamten Kammermusik für Streicher von Mendelssohn, die von namhaften Kritikern als Referenzaufnahmen angesehen werden. Zuletzt erschienen die CD „Pennies from Heaven“ mit ausgewählten Zugaben sowie eine Doppelveröffentlichung mit französischem Repertoire: die Quartette von Maurice Ravel und Claude Debussy kombiniert mit Werken ihrer Zeitgenossen Fernand de La Tombelle und Jean Rivier.
