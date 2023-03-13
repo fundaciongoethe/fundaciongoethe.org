@@ -14,7 +14,7 @@ opening: 2023-03-17 19:00:00
 ending: 2023-03-17 21:30:00
 deadline: 2023-03-17 11:00:00
 calcDuration: 1.5
-program:
+program: 2023-programa-mandelring.pdf
 seo:
   title: El Cuarteto Mandelring en Casa Golferichs, Barcelona
   image: venues/bcn-golferichs.jpg
