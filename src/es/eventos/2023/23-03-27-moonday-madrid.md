@@ -26,4 +26,6 @@ youtube: true
 
 El grupo moonday6 toca rock and roll americano. Publicarán su primer álbum en marzo de 2023. Nos complace anunciar que van a iniciar la gira _CD_Release Tour_ en España.
 
+Artista invitado: [Maerm](/es/artistas/maerm/)
+
 {% youtube 'Zs6YyGPj9BU', 'moonday6 - All Night Long' %}

@@ -9,7 +9,7 @@ seo: # image relative to /assets/images/
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/bcn-golferichs.jpg
   alt: 'Casa Golferichs'
-  credit: Pere López
+  credit:
 links:
   web: https://www.golferichs.org
   twitter:

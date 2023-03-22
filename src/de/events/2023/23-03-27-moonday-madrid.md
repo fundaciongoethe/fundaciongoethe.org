@@ -26,4 +26,6 @@ youtube: true
 
 Moonday6 spielen amerikanischen Rock ’n’ Roll. Ihr erstes Album werden sie im März 2023 veröffentlichen: Wir freuen uns, dass sie die _CD_Release-Tour_ mit uns in Spanien beginnen!
 
+Vorband: [Maerm](/de/kuenstler/maerm/)
+
 {% youtube 'Zs6YyGPj9BU', 'moonday6 - All Night Long' %}
