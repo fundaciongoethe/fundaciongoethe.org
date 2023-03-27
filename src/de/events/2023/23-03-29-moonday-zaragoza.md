@@ -11,8 +11,8 @@ partners:
   - konsulatbarcelona
 type: 'Konzert'
 access: Direktanmeldung
-date: 2023-03-30 21:00:00
-opening: 2023-03-30 20:00:00
+date: 2023-03-30 20:00:00
+opening: 2023-03-30 19:00:00
 ending: 2023-03-30 22:00:00
 deadline: 2023-03-29 11:00:00
 calcDuration: 1.5
