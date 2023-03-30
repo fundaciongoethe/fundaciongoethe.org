@@ -10,7 +10,7 @@ location: La Ley Seca
 partners:
   - konsulatbarcelona
 type: 'Konzert'
-access: Direktanmeldung
+access: Abgesagt!
 date: 2023-03-30 20:00:00
 opening: 2023-03-30 19:00:00
 ending: 2023-03-30 21:30:00
@@ -20,13 +20,11 @@ program:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/zaragoza-leyseca.jpg
   alt: La Ley Seca Logo
-infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
-directregister: https://moonday6-zaragoza-2023.eventbrite.es
+infobox:
+directregister:
 youtube: true
 ---
 
-Moonday6 spielen amerikanischen Rock ’n’ Roll. Ihr erstes Album werden sie im März 2023 veröffentlichen: Wir freuen uns, dass sie die _CD_Release-Tour_ mit uns in Spanien beginnen!
+## -- Abgesagt --
 
-Vorband: [Distrópicos](/de/kuenstler/distropicos/)
-
-{% youtube 'Zs6YyGPj9BU', 'moonday6 - All Night Long' %}
+Aus gesundheitlichen Gründen muss dieses Konzert leider verschoben werden. Wir werden Sie informieren, sobald ein neuer Termin feststeht.
