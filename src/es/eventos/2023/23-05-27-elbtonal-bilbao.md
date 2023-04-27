@@ -20,7 +20,7 @@ deadline: 2023-05-27 11:00:00
 calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/museomaritimo.jpg
+  featured: ./src/assets/images/venues/museo-maritimo-bilbao.jpg
   alt: Museo Marítimo Ría de Bilbao
   credit:
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
