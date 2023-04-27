@@ -284,4 +284,14 @@ module.exports = {
     url: 'https://www.trumpf.com/es_ES',
     logo: './src/assets/images/sponsors/trumpf/trumpf-logo.png',
   },
+  bertelsmann: {
+    name: 'Fundación Bertelsmann',
+    url: 'https://www.fundacionbertelsmann.org/',
+    logo: './src/assets/images/event-sponsors/bertelsmann.png',
+  },
+  museomaritimo: {
+    name: 'Museo Marítimo Ría de Bilbao',
+    url: 'https://itsasmuseum.eus',
+    logo: './src/assets/images/event-sponsors/museomaritimo.png',
+  },
 };
