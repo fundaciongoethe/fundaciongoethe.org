@@ -292,7 +292,7 @@ module.exports = {
   museomaritimo: {
     name: 'Museo Marítimo Ría de Bilbao',
     url: 'https://itsasmuseum.eus',
-    logo: './src/assets/images/event-sponsors/museomaritimo.png',
+    logo: './src/assets/images/event-sponsors/museomaritimo-logo.png',
   },
   schenker: {
     name: 'Schenker',

@@ -5,7 +5,7 @@ translationKey: elbtonalbilbao23
 customSlug: elbtonal-percussion-bilbao
 artist: [elbtonal]
 venue: [museomaritimo]
-location: Museo Marítimo Ría de Bilbao
+location: Museo Marítimo Ría
 city: Bilbao
 partners:
   - museomaritimo
