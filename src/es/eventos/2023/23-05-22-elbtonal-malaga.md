@@ -4,12 +4,13 @@ description: 'Los percusionistas de Hamburgo están especializados en una mezcla
 translationKey: elbtonalmalaga23
 customSlug: elbtonal-percussion-malaga
 artist: [elbtonal]
-venue: [espaciobertelsmann]
+venue: [jorgerando]
 location: Museo Jorge Rando
 city: Málaga
 partners:
   - jorgerando
   - sixt
+  - schenker
 type: 'Concierto'
 access: Inscripción directa
 date: 2023-05-22 19:30:00

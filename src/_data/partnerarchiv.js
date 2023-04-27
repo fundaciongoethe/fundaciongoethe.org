@@ -294,4 +294,9 @@ module.exports = {
     url: 'https://itsasmuseum.eus',
     logo: './src/assets/images/event-sponsors/museomaritimo.png',
   },
+  schenker: {
+    name: 'Schenker',
+    url: 'https://www.dbschenker.com',
+    logo: './src/assets/images/event-sponsors/schenker.png',
+  },
 };

@@ -10,6 +10,7 @@ city: Barcelona
 partners:
   - mies
   - sixt
+  - schenker
 type: Konzert
 access: Direktanmeldung
 date: 2023-05-25 19:30:00

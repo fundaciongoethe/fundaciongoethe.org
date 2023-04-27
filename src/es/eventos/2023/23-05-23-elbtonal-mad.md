@@ -10,6 +10,7 @@ city: Madrid
 partners:
   - bertelsmann
   - sixt
+  - schenker
 type: 'Concierto'
 access: Inscripción directa
 date: 2023-05-23 19:30:00

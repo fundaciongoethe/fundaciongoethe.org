@@ -10,6 +10,7 @@ city: Bilbao
 partners:
   - museomaritimo
   - sixt
+  - schenker
 type: Konzert
 access: Direktanmeldung
 date: 2023-05-27 19:30:00

@@ -4,12 +4,13 @@ description: 'Die Schlagzeugern aus Hamburg haben sich auf eine Mischung aus Kla
 translationKey: elbtonalmalaga23
 customSlug: elbtonal-percussion-malaga
 artist: [elbtonal]
-venue: [espaciobertelsmann]
+venue: [jorgerando]
 location: Museo Jorge Rando
 city: Málaga
 partners:
   - jorgerando
   - sixt
+  - schenker
 type: Konzert
 access: Direktanmeldung
 date: 2023-05-22 19:30:00
