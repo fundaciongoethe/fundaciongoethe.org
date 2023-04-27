@@ -12,7 +12,7 @@ links:
   web: https://espaciobertelsmann.es
   twitter: https://twitter.com/e_bertelsmann
   facebook: https://facebook.com/EspacioBertelsmann
-  instagram: https://instagram.com/ebertelsmann/
+  instagram: https://instagram.com/ebertelsmann
   linkedin: https://linkedin.com/company/espacio-bertelsmann
 ---
 

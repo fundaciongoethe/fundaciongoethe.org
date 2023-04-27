@@ -14,7 +14,7 @@ links:
   web: https://www.elbtonalpercussion.de
   twitter:
   facebook: https://facebook.com/ElbtonalPercussion
-  instagram: https://www.instagram.com/elbtonal_percussion
+  instagram: https://instagram.com/elbtonal_percussion
   spotify:
   youtube:
 ---
