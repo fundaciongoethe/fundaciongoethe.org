@@ -1,7 +1,7 @@
 ---
-title: 'Museo Marítimo Ría de Bilbao'
-translationKey: 'museomaritimo'
-customSlug: 'mueso-maritimo-bilbao'
+title: 'Itsasmuseum Bilbao'
+translationKey: 'itsasmuseum'
+customSlug: 'itsasmuseum-bilbao'
 excerpt: 'Das Museo Marítimo Ría de Bilbao (Itsasmuseum Bilbao) ist ein Schifffahrtsmuseum in Bilbao Das Museum ist in der ehemaligen Euskalduna-Werft untergebracht und widmet sich der maritimen Geschichte und Kultur des Baskenlandes.'
 city: Bilbao
 images: # complete path for eleventy img srcset output, alt required

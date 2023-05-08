@@ -2,7 +2,7 @@
 title: 'Espacio Bertelsmann'
 translationKey: 'espaciobertelsmann'
 customSlug: 'espacio-bertelsmann-madrid'
-excerpt: La Fundación Bertelsmann en Madrid es un lugar donde la gente se reúne, aprende y busca soluciones innovadoras para promover un cambio social positivo.
+excerpt: "La Fundación Bertelsmann en Madrid (C/ O’Donnell 10, Madrid) es un lugar donde la gente se reúne, aprende y busca soluciones innovadoras para promover un cambio social positivo."
 city: Madrid
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/espacio-bertelsmann.jpg

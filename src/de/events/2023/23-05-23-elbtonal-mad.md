@@ -10,14 +10,10 @@ city: Madrid
 partners:
   - bertelsmann
   - sixt
-<<<<<<< HEAD
-  - schenker
-=======
   - kuehne
   - jungheinrich
   - feda
   - ewa
->>>>>>> 52e775d (new logos)
 type: Konzert
 access: Direktanmeldung
 date: 2023-05-23 19:30:00

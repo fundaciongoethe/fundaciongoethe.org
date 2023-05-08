@@ -4,20 +4,16 @@ description: 'Die Schlagzeugern aus Hamburg haben sich auf eine Mischung aus Kla
 translationKey: elbtonalbilbao23
 customSlug: elbtonal-percussion-bilbao
 artist: [elbtonal]
-venue: [museomaritimo]
+venue: [itsasmuseum]
 location: Museo Marítimo Ría de Bilbao
 city: Bilbao
 partners:
   - museomaritimo
   - sixt
-<<<<<<< HEAD
-  - schenker
-=======
   - kuehne
   - jungheinrich
   - feda
   - ewa
->>>>>>> 52e775d (new logos)
 type: Konzert
 access: Direktanmeldung
 date: 2023-05-27 19:30:00

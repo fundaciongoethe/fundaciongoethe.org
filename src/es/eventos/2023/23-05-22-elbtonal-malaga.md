@@ -10,14 +10,6 @@ city: Málaga
 partners:
   - jorgerando
   - sixt
-<<<<<<< HEAD
-  - schenker
-type: 'Concierto'
-access: Inscripción directa
-date: 2023-05-22 19:30:00
-opening: 2023-05-22 19:00:00
-ending: 2023-05-22 21:00:00
-=======
   - kuehne
   - jungheinrich
   - feda
@@ -27,7 +19,6 @@ access: Inscripción directa
 date: 2023-05-22 19:00:00
 opening: 2023-05-22 18:30:00
 ending: 2023-05-22 20:30:00
->>>>>>> 52e775d (new logos)
 deadline: 2023-05-22 11:00:00
 calcDuration: 1.5
 program:

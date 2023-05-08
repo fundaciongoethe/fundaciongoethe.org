@@ -4,20 +4,16 @@ description: 'Los percusionistas de Hamburgo están especializados en una mezcla
 translationKey: elbtonalbilbao23
 customSlug: elbtonal-percussion-bilbao
 artist: [elbtonal]
-venue: [museomaritimo]
+venue: [itsasmuseum]
 location: Museo Marítimo Ría
 city: Bilbao
 partners:
   - museomaritimo
   - sixt
-<<<<<<< HEAD
-  - schenker
-=======
   - kuehne
   - jungheinrich
   - feda
   - ewa
->>>>>>> 52e775d (new logos)
 type: 'Concierto'
 access: Inscripción directa
 date: 2023-05-27 19:30:00
