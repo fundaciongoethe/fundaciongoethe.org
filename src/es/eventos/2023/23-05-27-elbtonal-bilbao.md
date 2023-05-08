@@ -5,10 +5,10 @@ translationKey: elbtonalbilbao23
 customSlug: elbtonal-percussion-bilbao
 artist: [elbtonal]
 venue: [itsasmuseum]
-location: Museo Marítimo Ría
+location: Itsasmuseum Bilbao
 city: Bilbao
 partners:
-  - museomaritimo
+  - itsasmuseum
   - sixt
   - kuehne
   - jungheinrich
@@ -24,7 +24,7 @@ calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/museo-maritimo-bilbao.jpg
-  alt: Museo Marítimo Ría de Bilbao
+  alt: Itsasmuseum Bilbao
   credit:
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister:

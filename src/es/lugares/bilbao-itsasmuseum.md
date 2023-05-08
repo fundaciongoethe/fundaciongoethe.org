@@ -6,7 +6,7 @@ excerpt: 'El Museo Marítimo Ría de Bilbao es un museo marítimo de Bilbao. Se 
 city: Bilbao
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/museo-maritimo-bilbao.jpg
-  alt: 'Laura Konjetzky sube al escenario para un concierto en el Museo Marítimo Ría de Bilbao'
+  alt: 'Laura Konjetzky sube al escenario para un concierto en el Itsasmuseum Bilbao'
   credit:
 links:
   web: https://itsasmuseum.eus
