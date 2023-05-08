@@ -284,6 +284,14 @@ module.exports = {
     url: 'https://www.trumpf.com/es_ES',
     logo: './src/assets/images/sponsors/trumpf/trumpf-logo.png',
   },
+<<<<<<< HEAD
+=======
+  jungheinrich: {
+    name: 'Jungheinrich',
+    url: 'https://www.jungheinrich.es/',
+    logo: './src/assets/images/sponsors/jungheinrich/jungheinrich-logo.png',
+  },
+>>>>>>> 52e775d (new logos)
   bertelsmann: {
     name: 'Fundación Bertelsmann',
     url: 'https://www.fundacionbertelsmann.org/',
@@ -299,4 +307,22 @@ module.exports = {
     url: 'https://www.dbschenker.com',
     logo: './src/assets/images/event-sponsors/schenker.png',
   },
+<<<<<<< HEAD
+=======
+  ewa: {
+    name: 'EWA',
+    url: 'https://ewa-madrid.com/',
+    logo: './src/assets/images/event-sponsors/ewa.png',
+  },
+  kuehne: {
+    name: 'kuehne',
+    url: 'https://home.kuehne-nagel.com/',
+    logo: './src/assets/images/event-sponsors/kuehne.png',
+  },
+  feda: {
+    name: 'feda',
+    url: 'https://www.feda-madrid.com/',
+    logo: './src/assets/images/event-sponsors/feda.png',
+  }
+>>>>>>> 52e775d (new logos)
 };
