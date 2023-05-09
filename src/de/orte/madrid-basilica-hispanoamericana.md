@@ -1,8 +1,9 @@
 ---
-title: "Basílica Hispanoamericana Nuestra Señora de la Merced"
-translationKey: "hispanoamericana"
-customSlug: "basilica-hispanoamericana-de-la-merced"
+title: 'Basílica Hispanoamericana Nuestra Señora de la Merced'
+translationKey: 'hispanoamericana'
+customSlug: 'basilica-hispanoamericana-de-la-merced'
 excerpt: Die große Kirche befindet sich in Madrid, in der Calle Edgar Neville 23. Sie wurde von den Architekten Francisco Javier Sáenz de Oiza und Luis Laorga entworfen.
+city: Madrid
 seo: # image relative to /assets/images/
   image: /venues/mad-basilica-hispanoamericana.jpg
 images: # complete path for eleventy img srcset output, alt required

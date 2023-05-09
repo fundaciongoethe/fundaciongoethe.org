@@ -35,3 +35,31 @@ button:focus-visible {
   width: 1px;
   white-space: nowrap;
 }
+
+.card:focus,
+.card:focus-within {
+  outline: #f37536 dashed 3px;
+  outline-offset: 0.25rem;
+  cursor: pointer;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+/* 'clickable' */
+
+.card:focus-within a:focus {
+  outline: none;
+}
+.card {
+  position: relative;
+}
+.card a:after {
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

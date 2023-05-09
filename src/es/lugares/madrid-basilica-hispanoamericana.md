@@ -1,8 +1,9 @@
 ---
-title: "Basílica Hispanoamericana Nuestra Señora de la Merced"
-translationKey: "hispanoamericana"
-customSlug: "basilica-hispanoamericana-de-la-merced"
+title: 'Basílica Hispanoamericana Nuestra Señora de la Merced'
+translationKey: 'hispanoamericana'
+customSlug: 'basilica-hispanoamericana-de-la-merced'
 excerpt: Situada en Madrid, en el número 23 de la calle Edgar Neville, esta iglesia grande y bonita fue diseñada por los arquitectos Francisco Javier Sáenz de Oiza y Luis Laorga.
+city: Madrid
 seo: # image relative to /assets/images/
   image: /venues/mad-basilica-hispanoamericana.jpg
 images: # complete path for eleventy img srcset output, alt required
