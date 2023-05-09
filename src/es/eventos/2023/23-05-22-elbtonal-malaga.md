@@ -27,7 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Museo Jorge Rando
   credit:
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
+directregister: https://elbtonal-percussion-malaga-2023.eventbrite.es
 youtube: true
 ---
 

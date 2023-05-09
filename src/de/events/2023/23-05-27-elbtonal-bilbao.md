@@ -27,7 +27,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Itsasmuseum Bilbao
   credit:
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
-directregister:
+directregister: https://elbtonal-percussion-bilbao-2023.eventbrite.es
 youtube: true
 ---
 
