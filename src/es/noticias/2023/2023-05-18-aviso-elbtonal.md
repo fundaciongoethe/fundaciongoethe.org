@@ -8,7 +8,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: 'Foto de prensa de Elbtonal Percusión, con una pancarta que dice Málaga'
 ---
 
-Nota: debido a las previsiones meteorológicas (¡lluvia!) el [concierto con Elbtonal Percussion](/es/eventos/elbtonal-percussion-malaga/) tendrá lugar el 22.05.2023 en Málaga en la Caja Blanca.
+Nota: debido a las previsiones meteorológicas (¡lluvia!) el [concierto con Elbtonal Percussion](/es/eventos/elbtonal-percussion-malaga/) tendrá lugar en **la Caja Blanca**.
 
 En caso de no poder asistir al concierto debido al cambio de sala, por favor envía un breve mensaje a info@fundaciongoethe.org.
 
