@@ -318,5 +318,10 @@ module.exports = {
     name: 'feda',
     url: 'https://www.feda-madrid.com/',
     logo: './src/assets/images/event-sponsors/feda.png',
-  }
+  },
+  cajablanca: {
+    name: 'cajablanca',
+    url: 'https://www.instagram.com/lacajablanca_malaga',
+    logo: './src/assets/images/event-sponsors/cajablanca.png',
+  },
 };

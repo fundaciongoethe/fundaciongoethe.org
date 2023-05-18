@@ -26,7 +26,6 @@ const htmlmin = require('./utils/transforms/htmlmin.js');
 
 // plugins
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
@@ -102,7 +101,6 @@ module.exports = function (eleventyConfig) {
   // Plugins
 
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(embedEverything);
 
   // eleventy img

@@ -9,6 +9,7 @@ location: Itsasmuseum Bilbao
 city: Bilbao
 partners:
   - itsasmuseum
+  - konsulatbilbao
   - sixt
   - kuehne
   - jungheinrich

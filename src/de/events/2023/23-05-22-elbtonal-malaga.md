@@ -4,7 +4,7 @@ description: 'Die Schlagzeugern aus Hamburg haben sich auf eine Mischung aus Kla
 translationKey: elbtonalmalaga23
 customSlug: elbtonal-percussion-malaga
 artist: [elbtonal]
-venue: [jorgerando]
+venue: [cajablanca]
 location: Museo Jorge Rando
 city: Málaga
 partners:
@@ -12,6 +12,7 @@ partners:
   - sixt
   - kuehne
   - jungheinrich
+  - cajablanca
   - feda
   - ewa
 type: Konzert
@@ -23,7 +24,7 @@ deadline: 2023-05-22 11:00:00
 calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/rando-malaga.jpg
+  featured: ./src/assets/images/venues/malaga-cajablanca.jpg
   alt: Museo Jorge Rando
   credit:
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.

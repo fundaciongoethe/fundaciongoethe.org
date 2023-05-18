@@ -9,7 +9,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/elbtonal.jpg
   alt: Die vier Musiker auf einem spielerischen Foto mit Kopfhörern
-  credit:
+  credit: Fritz Meffert
 links:
   web: https://www.elbtonalpercussion.de
   twitter:

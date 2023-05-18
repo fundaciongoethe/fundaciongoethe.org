@@ -9,7 +9,7 @@ seo:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/elbtonal.jpg
   alt: Los cuatro músicos en una foto lúdica con auriculares
-  credit:
+  credit: Fritz Meffert
 links:
   web: https://www.elbtonalpercussion.de
   twitter:
