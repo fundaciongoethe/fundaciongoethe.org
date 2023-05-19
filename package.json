@@ -1,6 +1,6 @@
 {
   "name": "fundaciongoethe",
-  "version": "2.1.12",
+  "version": "2.1.13",
   "description": "fundaciongoethe uses ESBuild Tailwind and PostCSS",
   "scripts": {
     "clean": "del dist",
@@ -9,7 +9,7 @@
     "dev:11ty": "eleventy --serve --watch --incremental",
     "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
     "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
-    "build:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js --bundle --minify --outdir=dist/assets --platform=node --tree-shaking=true",
+    "build:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js --bundle --outdir=dist/assets --platform=node --tree-shaking=true",
     "build:sw": "workbox generateSW",
     "start": "run-p dev:*",
     "build": "run-s clean build:*",
@@ -32,7 +32,7 @@
     "validator": "^13.7.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-beta.1",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.0.0",
     "autoprefixer": "^10.4.8",
     "calendar-link": "^2.2.0",
