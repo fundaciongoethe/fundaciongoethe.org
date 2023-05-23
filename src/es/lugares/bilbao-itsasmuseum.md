@@ -2,7 +2,7 @@
 title: 'Itsasmuseum Bilbao'
 translationKey: 'itsasmuseum'
 customSlug: 'itsasmuseum-bilbao'
-excerpt: 'El Museo Marítimo Ría de Bilbao es un museo marítimo de Bilbao. Se encuentra en los antiguos astilleros Euskalduna y está dedicado a la historia y la cultura marítimas del País Vasco.'
+excerpt: 'El Itsasmuseum Bilbao es un museo marítimo ubicado en los antiguos astilleros Euskalduna. Está dedicado a la historia y la cultura marítimas del País Vasco.'
 city: Bilbao
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/museo-maritimo-bilbao.jpg

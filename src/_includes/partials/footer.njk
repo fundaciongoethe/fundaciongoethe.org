@@ -20,9 +20,9 @@
           <li class="py-3 flex items-center">
             {% svg "mail", "h-10 w-10 p-2 bg-white rounded-full flex-shrink-0", visible, "Dirección de correos"%}
 
-            <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900 truncate">
-              <p>
-                <a class="no-underline truncate" href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+            <div class="ml-2 sm:ml-5 text-sm sm:text-base font-semibold text-gray-900">
+              <p class="truncate">
+                <a class="no-underline" href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
               </p>
             </div>
           </li>
