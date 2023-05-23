@@ -4,7 +4,7 @@
       <div class="grid gap-8 mx-auto mt-12 md:grid-cols-2 xl:grid-cols-3 lg:max-w-none">
         {% for post in postslist | reverse %}
 
-        <div class="card relative buttonhover flex flex-col overflow-hidden rounded-md border border-yellow-200">
+        <div class="card relative buttonhover flex flex-col overflow-hidden rounded-md border">
           <div class="flex-shrink-0">
             <a href="{{ post.url | url }}">
               <!-- if featured image -->
