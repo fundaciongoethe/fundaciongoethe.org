@@ -8,8 +8,8 @@ seo:
   image: artists/elbtonal.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/elbtonal.jpg
-  alt: Los cuatro músicos en una foto lúdica con auriculares
-  credit: Fritz Meffert
+  alt: Los cuatro músicos en el Pabellón Mies van der Rohe
+  credit:
 links:
   web: https://www.elbtonalpercussion.de
   twitter:

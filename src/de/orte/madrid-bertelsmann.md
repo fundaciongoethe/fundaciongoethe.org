@@ -2,11 +2,11 @@
 title: 'Espacio Bertelsmann'
 translationKey: 'espaciobertelsmann'
 customSlug: 'espacio-bertelsmann-madrid'
-excerpt: "Die Bertelsmann Stiftung in Madrid (C/ O’Donnell 10, Madrid) ist ein Ort, an dem Menschen zusammenkommen, lernen und gemeinsam nach innovativen Lösungen suchen, um einen positiven sozialen Wandel zu fördern."
+excerpt: 'Die Bertelsmann Stiftung in Madrid (C/ O’Donnell 10, Madrid) ist ein Ort, an dem Menschen zusammenkommen, lernen und gemeinsam nach innovativen Lösungen suchen, um einen positiven sozialen Wandel zu fördern.'
 city: Madrid
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/espacio-bertelsmann.jpg
-  alt: Espacio Bertelsmann
+  alt: Die deutsche Gruppe Elbtonal Percussion im Espacio Bertelsmann
   credit:
 links:
   web: https://espaciobertelsmann.es

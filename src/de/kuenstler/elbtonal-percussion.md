@@ -8,7 +8,7 @@ seo:
   image: artists/elbtonal.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/elbtonal.jpg
-  alt: Die vier Musiker auf einem spielerischen Foto mit Kopfhörern
+  alt: Die vier Musiker im Pabellón Mies van der Rohe
   credit: Fritz Meffert
 links:
   web: https://www.elbtonalpercussion.de
