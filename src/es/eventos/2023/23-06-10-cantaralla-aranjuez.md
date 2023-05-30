@@ -22,7 +22,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Palacio Real de Aranjuez
   credit:
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-cantar-alla-violaen-aranjuez-645989962367
 youtube: true
 ---
 
