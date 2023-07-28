@@ -1,12 +1,12 @@
 ---
-title: 'Wir wünschen einen schönen Sommer!'
+title: 'Wir wünschen einen schönen Sommer 2022'
 date: '2022-07-25'
 translationKey: 'verano2022'
 excerpt: Wir wünschen Ihnen einen schönen Sommer! Hier können Sie einige der Veranstaltungen sehen, die wir für die Rückkehr aus den Ferien vorbereiten.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/verano-2022-de-blog.jpg
-  alt: Sommgergrußkarte 2023
-permalink: '/{{ locale }}/aktuelles/sommer-2023/index.html'
+  alt: Sommgergrußkarte 2022
+permalink: '/{{ locale }}/aktuelles/sommer-2022/index.html'
 ---
 
 Im Folgenden finden Sie einige der Veranstaltungen, die wir für die Rückkehr aus den Ferien vorbereiten.
