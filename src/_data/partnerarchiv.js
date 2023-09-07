@@ -324,4 +324,14 @@ module.exports = {
     url: 'https://www.instagram.com/lacajablanca_malaga',
     logo: './src/assets/images/event-sponsors/cajablanca.png',
   },
+  kirchedegbcn: {
+    name: 'Deutschsprachige Evangelische Gemeinde Barcelona',
+    url: 'https://www.deg-barcelona.es/',
+    logo: './src/assets/images/event-sponsors/deg-bcn.png',
+  },
+  estrelladamm: {
+    name: 'Estrella Damm',
+    url: 'https://www.estrelladamm.com/',
+    logo: './src/assets/images/event-sponsors/estrella-damm-logo.png',
+  },
 };

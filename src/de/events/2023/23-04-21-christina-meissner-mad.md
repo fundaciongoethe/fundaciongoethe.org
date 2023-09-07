@@ -10,7 +10,6 @@ location: Capilla Real de El Pardo
 partners:
   - mies
 type: 'Konzert'
-access: Persönliche Einladung erforderlich
 date: 2023-04-21 19:30:00
 opening: 2023-04-21 19:00:00
 ending: 2023-04-21 21:00:00
@@ -20,6 +19,7 @@ program:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-pardo.jpg
   alt: Capilla Real de El Pardo
+access: Persönliche Einladung erforderlich
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 ---

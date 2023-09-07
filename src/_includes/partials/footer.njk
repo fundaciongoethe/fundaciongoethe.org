@@ -126,7 +126,9 @@
       </div>
 
       <div class="mt-6 xl:mt-0 flex justify-center items-center space-x-2 md:order-2">
-        {# Display Social icons from _data/social.json #} {% for site in social %} {% if site.url %}
+        <!-- Display Social icons from _data/social.json -->
+
+        {% for site in social %} {% if site.url %}
         <a
           aria-label="Link to {{ site.platform }}"
           alt="Link to {{ site.platform }}"

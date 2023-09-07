@@ -1,30 +1,14 @@
 [
-	{
-		"platform": "### Comment: Make sure to add SVG icon in /assets/svg with same name as 'platform' ###",
-		"url": ""
-	},
-	{
-		"platform": "twitter",
-		"url": "https://twitter.com/fundaciongoethe"
-	},
-	{
-		"platform": "instagram",
-		"url": "https://www.instagram.com/fundaciongoethe/"
-	},
-	{
-		"platform": "facebook",
-		"url": "https://www.facebook.com/fundaciongoethe/"
-	},
-	{
-		"platform": "youtube",
-		"url": "https://www.youtube.com/channel/UCmTLw_kXDEUS7wxiyX3Aqdw"
-	},
-	{
-		"platform": "linkedin",
-		"url": "https://www.linkedin.com/company/fundaciongoethe/"
-	},
-	{
-		"platform": "rss",
-		"url": ""
-	}
+  {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/fundaciongoethe/"
+  },
+  {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/fundaciongoethe/"
+  },
+  {
+    "platform": "rss",
+    "url": ""
+  }
 ]
