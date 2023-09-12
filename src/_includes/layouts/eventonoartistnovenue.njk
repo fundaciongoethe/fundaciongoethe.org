@@ -107,4 +107,37 @@ sponsorlist:
       </div>
     </div>
   </div>
+
+  <!-- partners -->
+  {% if partners %}
+
+  <h2 class="standardtitel pt-20 px-3 lg:px-16">{{ meta[locale].event.thanks }}:</h2>
+
+  <div class="mt-8 border-t border-b border-gray-300">
+    <div class="relative mx-auto px-3 lg:px-16 bg-white">
+      <div class="grid grid-cols-2 gap-0.5 md:grid-cols-7 divide-x divide-gray-300 content-center">
+        <!-- get current locale from meta.languages -->
+        {% for partner in partners %}
+
+        <figure class="flex items-center">
+          <a
+            ref="nofollow"
+            target="_blank"
+            title="{{ meta[locale].event.visitWeb }} {{ partnerarchiv[partner].name }}"
+            href="{{ partnerarchiv[partner].url }}"
+            class="buttonhover col-span-1 flex justify-center py-6 px-2 filter grayscale hover:grayscale-0 opacity-75 hover:opacity-100"
+          >
+            {% Picture partnerarchiv[partner].logo, "bg-gray-100", "lazy max-h-16", partnerarchiv[partner].name, "lazy"
+            %}
+          </a>
+        </figure>
+
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+  {% endif %}
 </main>
+
+<!-- include event schema  -->
+{%- include "schemas/event-schema.njk" %}

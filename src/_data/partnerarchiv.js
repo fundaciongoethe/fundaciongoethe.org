@@ -334,4 +334,9 @@ module.exports = {
     url: 'https://www.estrelladamm.com/',
     logo: './src/assets/images/event-sponsors/damm-logo.jpg',
   },
+  gemusering: {
+    name: 'Gemüsering',
+    url: 'https://www.gemuesering.de/',
+    logo: './src/assets/images/event-sponsors/gemusering.jpg',
+  },
 };

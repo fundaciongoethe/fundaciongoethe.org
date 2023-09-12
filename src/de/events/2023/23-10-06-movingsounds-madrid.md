@@ -8,7 +8,8 @@ venue: [capillaelpardo]
 location: Königliche Kapelle des Pardo-Palastes
 city: Barcelona
 partners:
-  - mies
+  - patrimonio
+  - gemusering
 type: Konzert
 date: 2023-10-07 19:30:00
 opening: 2023-10-07 19:00:00

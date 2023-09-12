@@ -11,6 +11,7 @@ city: Barcelona
 partners:
   - estrelladamm
   - ksb
+  - munichre
 type: 'Visita guiada'
 date: 2023-10-10 10:00:00
 opening: 2023-10-10 09:45:00

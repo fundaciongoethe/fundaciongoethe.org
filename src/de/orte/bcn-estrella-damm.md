@@ -2,7 +2,7 @@
 title: 'Fabrik Estrella Damm'
 translationKey: 'estrelladammfabrica'
 customSlug: 'fabrik-estrella-damm-barcelona'
-excerpt: 'Es werden Rundgänge durch die alte Fabrik und die Fábrica del Prat angeboten. '
+excerpt: 'Die Fabrik von Damm in El Prat de Llobregat ist in Bezug auf die Produktionskapazität eine der größten in Europa und verfügt über ein hohes Maß an Technologie und Automatisierung.'
 city: Barcelona
 seo: # image relative to /assets/images/
   image: /venues/estrella-damm.jpg
@@ -16,3 +16,9 @@ links:
   facebook:
   instagram:
 ---
+
+- Derzeitige Produktionskapazität: 7,2 Mio. hl/Jahr
+- 13 Verpackungslinien (Mehrwegglas, Einwegglas, Dosen und Fässer).
+- 7 Tage die Woche, 24 Stunden am Tag Schichtbetrieb.
+- Hochgradig automatisierte Fabrik.
+- Fabrikfläche 150.000 m2

@@ -8,7 +8,8 @@ venue: [capillaelpardo]
 location: apilla Real del Palacio de El Pardo
 city: Barcelona
 partners:
-  - mies
+  - patrimonio
+  - gemusering
 type: Concierto
 date: 2023-10-07 19:30:00
 opening: 2023-10-07 19:00:00
