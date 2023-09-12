@@ -19,7 +19,7 @@ deadline: 2023-10-04 10:00:00
 calcDuration: 5
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/estrella-damm.jpg
+  featured: ./src/assets/images/venues/estrella-damm-nuevo.jpg
   alt: Fabrik Estrella Damm Barcelona
   credit:
 access: Persönliche Einladung erforderlich
@@ -28,4 +28,4 @@ directregister:
 youtube: false
 ---
 
-Wir besichtigen die Brauerei Estrella Damm und lernen den Brauprozess des Bieres kennen, das aus 100 % natürlichen Zutaten und nach dem Originalrezept von August K. Damm aus dem Jahr 1876 hergestellt wird.
+Wir besichtigen die Brauerei Estrella Damm und lernen den Brauprozess des Bieres kennen, das aus 100 % natürlichen Zutaten und nach dem Originalrezept von August K. Damm aus dem Jahr 1876 hergestellt wird. Im Anschluss an die Besichtigung nehmen wir an einer Verkostung von Estrella und anderen Bieren der Familie teil.

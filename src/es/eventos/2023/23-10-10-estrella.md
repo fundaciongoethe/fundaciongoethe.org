@@ -19,7 +19,7 @@ deadline: 2023-10-04 10:00:00
 calcDuration: 5
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/estrella-damm.jpg
+  featured: ./src/assets/images/venues/estrella-damm-nuevo.jpg
   alt: Fábrica de Estrella Damm
   credit:
 access: Se requiere una invitación personal
@@ -28,4 +28,4 @@ directregister:
 youtube: false
 ---
 
-Visitaremos la fábrica de Estrella Damm y descubriremos el proceso de elaboración de la cerveza, elaborada con ingredientes 100% naturales y según la receta original de August K. Damm de 1876.
+Visitaremos la fábrica de Estrella Damm y descubriremos el proceso de elaboración de la cerveza, elaborada con ingredientes 100% naturales y según la receta original de August K. Damm de 1876. Tras la visita, participaremos en una degustación de Estrella y otras cervezas de la familia.
