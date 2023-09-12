@@ -332,6 +332,6 @@ module.exports = {
   estrelladamm: {
     name: 'Estrella Damm',
     url: 'https://www.estrelladamm.com/',
-    logo: './src/assets/images/event-sponsors/estrella-damm-logo.png',
+    logo: './src/assets/images/event-sponsors/damm-logo.jpg',
   },
 };
