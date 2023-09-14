@@ -339,4 +339,9 @@ module.exports = {
     url: 'https://www.gemuesering.de/',
     logo: './src/assets/images/event-sponsors/gemusering.jpg',
   },
+  shane: {
+    name: 'Sociedad Hispano Alemana del Norte de España',
+    url: 'https://www.facebook.com/sociedadSHANE',
+    logo: './src/assets/images/event-sponsors/shane.jpg',
+  },
 };
