@@ -3,7 +3,7 @@ title: 'El coro de cámara de la catedral de Bremen'
 translationKey: 'bremerkammerchor'
 customSlug: 'coro-csmara-catedral-bremen'
 excerpt: 'El Coro de Cámara de la Catedral de Bremen organiza dos proyectos al año. El repertorio abarca desde la música nueva (Ysang Yun) hasta el barroco temprano (Monteverdi, Vísperas de la Virgen María).'
-occupation: 'Chor'
+occupation: 'Coro'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/bremer-domchor.jpg
   alt: El coro de cámara de la catedral de Bremen

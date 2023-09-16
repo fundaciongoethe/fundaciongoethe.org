@@ -4,9 +4,9 @@ description: 'La virtuosa del clarinete Tara Bouman y el excepcional trompetista
 translationKey: movingsoundsbcn23
 customSlug: moving-sounds-madrid
 artist: [movingsounds]
-venue: [capillaelpardo]
-location: apilla Real del Palacio de El Pardo
-city: Barcelona
+venue: [elpardo]
+location: Iglesia Palacio Real de El Pardo
+city: Madrid
 partners:
   - patrimonio
   - gemusering
@@ -18,8 +18,8 @@ deadline: 2023-10-05 11:00:00
 calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-pardo-capilla.jpg
-  alt: apilla Real del Palacio de El Pardo
+  featured: ./src/assets/images/venues/mad-pardo.jpg
+  alt: Iglesia Palacio Real de El Pardo
   credit:
 access: Se requiere una invitación personal
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.

@@ -4,9 +4,9 @@ description: 'Die Klarinettenvirtuosin Tara Bouman und der Ausnahmetrompeter und
 translationKey: movingsoundsbcn23
 customSlug: moving-sounds-madrid
 artist: [movingsounds]
-venue: [capillaelpardo]
-location: Königliche Kapelle des Pardo-Palastes
-city: Barcelona
+venue: [elpardo]
+location: Iglesia Palacio Real de El Pardo
+city: Madrid
 partners:
   - patrimonio
   - gemusering
@@ -18,8 +18,8 @@ deadline: 2023-10-56 11:00:00
 calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-pardo-capilla.jpg
-  alt: Königliche Kapelle des Pardo-Palastes
+  featured: ./src/assets/images/venues/mad-pardo.jpg
+  alt: Iglesia Palacio Real de El Pardo
   credit:
 access: Persönliche Einladung erforderlich
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.

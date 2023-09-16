@@ -9,7 +9,7 @@ location: Real Basílica de Nuestra de Atocha
 city: Madrid
 partners:
   - patrimonio
-type: Konzert
+type: Concierto
 date: 2023-10-15 18:00:00
 opening: 2023-10-15 17:30:00
 ending: 2023-10-15 19:00:00

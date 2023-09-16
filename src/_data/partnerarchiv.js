@@ -344,4 +344,14 @@ module.exports = {
     url: 'https://www.facebook.com/sociedadSHANE',
     logo: './src/assets/images/event-sponsors/shane.jpg',
   },
+  milagrosa: {
+    name: 'Basilica Parroquia La Milagrosa',
+    url: 'https://basilicalamilagrosa.es',
+    logo: './src/assets/images/event-sponsors/milagrosa.jpg',
+  },
+  corograves: {
+    name: 'Coro de Voces Graves de Madrid GGC',
+    url: 'https://vocesgravesdemadrid.com',
+    logo: './src/assets/images/event-sponsors/corovocesgraves.png',
+  },
 };

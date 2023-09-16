@@ -10,7 +10,6 @@ city: Barcelona
 partners:
   - mies
 type: Concierto
-
 date: 2023-10-06 19:30:00
 opening: 2023-10-06 19:00:00
 ending: 2023-10-06 21:00:00

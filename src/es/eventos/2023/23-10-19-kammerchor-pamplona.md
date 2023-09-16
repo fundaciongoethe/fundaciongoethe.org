@@ -9,7 +9,7 @@ location: Parroquia de San Saturnino
 city: Pamplona
 partners:
   - shane
-type: Konzert
+type: Concierto
 date: 2023-10-19 19:30:00
 opening: 2023-10-19 19:00:00
 ending: 2023-10-19 20:30:00
