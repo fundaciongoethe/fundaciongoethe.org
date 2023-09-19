@@ -5,7 +5,7 @@ translationKey: movingsoundsbcn23
 customSlug: moving-sounds-madrid
 artist: [movingsounds]
 venue: [elpardo]
-location: Iglesia Palacio Real de El Pardo
+location: Iglesia del Palacio Real de El Pardo
 city: Madrid
 partners:
   - patrimonio

@@ -16,7 +16,7 @@ links:
   facebook:
   instagram:
   spotify:
-  youtube: https://youtube.com/channel/UCjWb8M7IuN5DqpNcf9oqX0w
+  youtube:
 ---
 
 El repertorio incluye composiciones de ambos artistas, así como improvisación y, sobre todo, música intuitiva. Su programa se decide espontáneamente y en función de las cualidades acústicas del espacio en el que tocan, el momento y las personas presentes. Las piezas individuales se anuncian durante el concierto. Llevan a sus oyentes a un viaje musical de descubrimiento.
