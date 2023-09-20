@@ -25,7 +25,11 @@ tags: pages
 
       <h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
 
-      {% if infobox and calendarLinks.isFutureEvent %} {%- include "components/infobox.njk" %} {% endif %}
+      {% if infobox and calendarLinks.isFutureEvent %}
+      <!-- wenn infobox und zukunft -->
+      {%- include "components/event-infobox.njk" %} {% endif %} {% if directregister and calendarLinks.isFutureEvent %}
+      <!-- wenn directregister und zukunft -->
+      {%- include "components/event-directregister.njk" %} {% endif %}
 
       <div class="standardtext mt-12 prose">{{ content | safe }}</div>
     </div>
