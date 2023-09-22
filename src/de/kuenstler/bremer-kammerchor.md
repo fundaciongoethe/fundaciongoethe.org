@@ -6,7 +6,7 @@ excerpt: 'Der Kammerchor am Bremer Dom gestaltet zwei Projekte im Jahr. Das Repe
 occupation: 'Chor'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/bremer-kammerchor.jpg
-  alt: Domchor
+  alt: Kammerchor Bremen
   credit: stpetridom.de
 links:
   web:
