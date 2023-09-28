@@ -1,7 +1,7 @@
 /* audio player */
 
 .audio-player {
-  @apply bg-white text-gray-800 text-xs uppercase font-semibold;
+  @apply bg-transparent text-gray-800 text-xs uppercase font-semibold;
   margin-bottom: 0.5rem;
   width: 100%;
   overflow: hidden;
@@ -14,7 +14,7 @@
   position: relative;
   cursor: pointer;
   height: 0.5rem;
-  @apply bg-gray-100;
+  @apply bg-black;
 }
 
 .audio-player .timeline .progress {
@@ -27,6 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  padding: 0.5rem;
 }
 .audio-player .controls > * {
   display: flex;
@@ -42,7 +43,7 @@
   left: 0;
   height: 0;
   width: 0;
-  border: 0.975rem solid white;
+  border: 0.975rem solid transparent;
   border-left: 25px solid black;
   margin: 0.1rem;
 }

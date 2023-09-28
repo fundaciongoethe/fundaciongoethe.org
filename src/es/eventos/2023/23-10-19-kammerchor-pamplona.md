@@ -23,6 +23,7 @@ images: # complete path for eleventy img srcset output, alt required
 access: Se requiere una invitación personal
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister:
+audio: true
 ---
 
 **Porque el amor es fuerte como la muerte**

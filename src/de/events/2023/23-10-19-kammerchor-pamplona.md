@@ -23,6 +23,7 @@ images: # complete path for eleventy img srcset output, alt required
 access: Persönliche Einladung erforderlich
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister:
+audio: true
 ---
 
 **Denn Liebe ist stark wie der Tod**
