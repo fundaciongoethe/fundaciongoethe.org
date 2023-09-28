@@ -33,3 +33,7 @@ El Cantar de los Cantares es uno de los libros más fascinantes de la Biblia. La
 Las obras corales del Renacimiento desarrollan un encantador esplendor sonoro y, sin duda, también salpican elementos de danza. Los compositores barrocos acentúan a menudo el anhelo del enamorado. Esto da lugar a obras de gran expresividad que alternan el sufrimiento con la esperanza y la redención. Las fronteras entre el contenido profano y el espiritual se disuelven. Los motetes de Melchior Franck parecen casi lúdicos y llenos de vida. Están llenos de pintura tonal y frescura rítmica. Las composiciones del siglo XX juegan con nuevos efectos sonoros e invitan al oyente a soñar.
 
 El programa se completa con obras para órgano de Pablo Bruna. Su música es sobre todo pegadiza y juguetona. Pero también hay piezas expresivas como el Tiento de falsas, que guarda gran parecido con el motete de Francisco Valls.
+
+{% pairedAudio "Briegel: Du aber Daniel, gehe hin" %}
+/assets/audio/bremer-kammerchor.mp3
+{% endpairedAudio %}

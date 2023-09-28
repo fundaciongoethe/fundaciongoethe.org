@@ -21,9 +21,9 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/cccc.JPG
   alt: CCCC Centro del Carmen de Cultura Contemporánea
   credit:
-access: Persönliche Einladung erforderlich
+access: Direktanmeldung
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
-directregister:
+directregister: https://moving-sounds-valencia.eventbrite.es
 youtube: true
 ---
 

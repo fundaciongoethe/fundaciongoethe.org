@@ -16,7 +16,7 @@ const svg = require('./utils/shortcodes/svg.js');
 
 // paired shortcodes
 const markdownShortcodes = require('./utils/paired-shortcodes/markdown-shortcodes.js');
-const pairedAudio = require('./utils/paired-shortcodes/markdown-shortcodes.js');
+const pairedAudio = require('./utils/paired-shortcodes/audio.js');
 
 // async shortcodes
 const svgsprite = require('./utils/async-shortcodes/svgsprite');
@@ -77,16 +77,12 @@ module.exports = function (eleventyConfig) {
 
   // Paired Shortcodes
 
-  eleventyConfig.addPairedShortcode('pairedAudio', pairedAudio);
-
-  eleventyConfig.addPairedShortcode('pairedaudio', function (pairedaudiofile, pairedaudioname) {
-    return `<div class="audio-player" data-song="${pairedaudiofile}"><div class="timeline"><div class="progress"></div></div><div class="controls"><div class="play-container"><div class="toggle-play play"></div></div><div class="time"><div class="current">0:00</div><div class="divider">/</div><div class="length"></div></div><div class="name">${pairedaudioname}</div><div class="volume-container"><div class="volume-button"><div class="volume icono-volumeMedium"></div></div><div class="volume-slider"><div class="volume-percentage"></div></div></div></div></div>`;
-  });
-
   Object.keys(markdownShortcodes).forEach((shortcodeName) => {
     // markdown shortcodes collection
     eleventyConfig.addPairedShortcode(shortcodeName, markdownShortcodes[shortcodeName]);
   });
+
+  eleventyConfig.addPairedShortcode('pairedAudio', pairedAudio);
 
   // Async shortcodes
 
@@ -176,6 +172,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/fonts/');
   eleventyConfig.addPassthroughCopy('src/assets/svg/');
   eleventyConfig.addPassthroughCopy('src/assets/videos/');
+  eleventyConfig.addPassthroughCopy('src/assets/audio/');
   eleventyConfig.addPassthroughCopy('src/assets/pdf/');
   eleventyConfig.addPassthroughCopy('src/assets/images/');
   eleventyConfig.addPassthroughCopy('src/assets/scripts/vendor/');

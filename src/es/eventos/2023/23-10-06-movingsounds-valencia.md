@@ -21,9 +21,9 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/cccc.JPG
   alt: CCCC Centro del Carmen de Cultura Contemporánea
   credit:
-access: Se requiere una invitación personal
+access: Inscripción directa
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
+directregister: https://moving-sounds-valencia.eventbrite.es
 ---
 
 La virtuosa del clarinete Tara Bouman y el excepcional trompetista y músico polifacético Markus Stockhausen ofrecerán conciertos en España como el Dúo MOVING SOUNDS.

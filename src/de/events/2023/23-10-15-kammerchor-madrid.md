@@ -33,3 +33,7 @@ Das Hohelied Salomos („das Lied der Lieder“) ist eines der faszinierendsten 
 Die Chorwerke der Renaissance entwickeln eine bezaubernde Klangpracht und streuen durchaus auch tänzerische Elemente ein. Die Komponisten des Barock akzentuieren oft die Sehnsucht des Liebenden. Dabei entstehen hochexpressive Werke, die zwischen Leiden und Hoffen und Erlösung wechseln. Die Grenzen zwischen weltlichen und geistlichen Inhalten werden dabei aufgelöst. Geradezu spielerisch und lebensfroh erscheinen die Motetten von Melchior Franck. Sie sind voller Klangmalerei und rhythmischer Frische. Die Kompositionen aus dem 20. Jahrhundert spielen mit neuen Klangeffekten und laden zu Träumen ein.
 
 Abgerundet wird das Programm durch Orgelwerke von Pablo Bruna. Seine Musik ist zumeist eingängig und verspielt. Es gibt aber auch ausdrucksvolle Stücke wie das Tiento de falsas, das große Ähnlichkeit mit der Motette von Francisco Valls aufweist.
+
+{% pairedAudio "Briegel: Du aber Daniel, gehe hin" %}
+/assets/audio/bremer-kammerchor.mp3
+{% endpairedAudio %}
