@@ -9,7 +9,7 @@
     "dev:11ty": "eleventy --serve --watch --incremental",
     "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
     "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
-    "build:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js --bundle --minify --outdir=dist/assets",
+    "build:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js src/assets/scripts/audio.js --bundle --minify --outdir=dist/assets",
     "build:sw": "workbox generateSW",
     "start": "run-p dev:*",
     "build": "run-s clean build:*",
