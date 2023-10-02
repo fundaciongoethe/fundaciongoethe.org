@@ -1,7 +1,7 @@
 ---
 title: 'Moving Sounds in Valencia'
 description: 'Die Klarinettenvirtuosin Tara Bouman und der Ausnahmetrompeter und vielseitige Musiker Markus Stockhausen werden als Duo MOVING SOUNDS in Spanien Konzerte geben.'
-translationKey: movingsoundsbcn23
+translationKey: movingsoundsval23
 customSlug: moving-sounds-valencia
 artist: [movingsounds]
 venue: [cccc]
@@ -16,7 +16,7 @@ opening: 2023-10-05 19:00:00
 ending: 2023-10-05 21:00:00
 deadline: 2023-10-05 11:00:00
 calcDuration: 1.5
-program:
+program: 2023-programa-moving-sounds-valencia.pdf
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/cccc.JPG
   alt: CCCC Centro del Carmen de Cultura Contemporánea

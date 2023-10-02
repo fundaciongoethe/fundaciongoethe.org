@@ -1,7 +1,7 @@
 ---
 title: 'Moving Sounds in Madrid'
 description: 'Die Klarinettenvirtuosin Tara Bouman und der Ausnahmetrompeter und vielseitige Musiker Markus Stockhausen werden als Duo MOVING SOUNDS in Spanien Konzerte geben.'
-translationKey: movingsoundsbcn23
+translationKey: movingsoundsmad23
 customSlug: moving-sounds-madrid
 artist: [movingsounds]
 venue: [elpardo]

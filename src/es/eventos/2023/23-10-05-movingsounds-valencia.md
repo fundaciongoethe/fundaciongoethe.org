@@ -1,30 +1,29 @@
 ---
-title: 'Moving Sounds in Madrid'
+title: 'Moving Sounds in Valencia'
 description: 'La virtuosa del clarinete Tara Bouman y el excepcional trompetista y músico polifacético Markus Stockhausen ofrecerán conciertos en España como el Dúo MOVING SOUNDS'
-translationKey: movingsoundsbcn23
-customSlug: moving-sounds-madrid
+translationKey: movingsoundsval23
+customSlug: moving-sounds-valencia
 artist: [movingsounds]
-venue: [elpardo]
-location: Iglesia del Palacio Real de El Pardo
-city: Madrid
+venue: [cccc]
+location: CCCC Centro del Carmen de Cultura Contemporánea
+city: Valencia
 partners:
-  - patrimonio
-  - gemusering
+  - cccc
+  - konsulatbarcelona
 type: Concierto
-date: 2023-10-07 19:30:00
-opening: 2023-10-07 19:00:00
-ending: 2023-10-07 21:00:00
+date: 2023-10-05 19:30:00
+opening: 2023-10-05 19:00:00
+ending: 2023-10-05 21:00:00
 deadline: 2023-10-05 11:00:00
 calcDuration: 1.5
-program:
+program: 2023-programa-moving-sounds-valencia.pdf
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-pardo.jpg
-  alt: Iglesia Palacio Real de El Pardo
+  featured: ./src/assets/images/venues/cccc.JPG
+  alt: CCCC Centro del Carmen de Cultura Contemporánea
   credit:
-access: Se requiere una invitación personal
+access: Inscripción directa
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
-youtube: true
+directregister: https://moving-sounds-valencia.eventbrite.es
 ---
 
 La virtuosa del clarinete Tara Bouman y el excepcional trompetista y músico polifacético Markus Stockhausen ofrecerán conciertos en España como el Dúo MOVING SOUNDS.
