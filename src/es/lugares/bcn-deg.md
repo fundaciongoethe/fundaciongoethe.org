@@ -9,7 +9,7 @@ seo: # image relative to /assets/images/
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/deg-barcelona.jpg
   alt: Patio de la Comunidad Evangélica Alemana
-  credit: deg-barcelona.es
+  credit:
 links:
   web: https://www.deg-barcelona.es
   twitter:
