@@ -15,7 +15,7 @@ opening: 2023-10-19 19:00:00
 ending: 2023-10-19 20:30:00
 deadline: 2023-10-19 11:00:00
 calcDuration: 1
-program:
+program: 2023-programa-pamplona.pdf
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pamplona-san-saturnino.jpg
   alt: Parroquia de San Saturnino
