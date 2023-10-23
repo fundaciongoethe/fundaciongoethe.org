@@ -78,6 +78,8 @@ module.exports = {
       program: 'Descargar programa (PDF)',
       register: 'Inscríbete para participar',
       sale: 'Comprar entradas',
+      noEvent:
+        'Nuestros próximos eventos están en fase de planificación, pero aún no figuran en nuestra página web. Por favor, ¡vuelve pronto!',
     },
     contact: {
       title: 'Escríbenos usando nuestro formulario',
@@ -145,6 +147,8 @@ module.exports = {
       program: 'Programm  herunterladen (PDF)',
       register: 'Direkt anmelden',
       sale: 'Eintrittskarten kaufen',
+      noEvent:
+        'Unsere nächsten Veranstaltungen sind in Planung, aber noch nicht auf unserer Webseite eingetragen Bitte kommen Sie bald wieder!',
     },
     contact: {
       title: 'Schreiben Sie uns über unser Kontaktformular.',

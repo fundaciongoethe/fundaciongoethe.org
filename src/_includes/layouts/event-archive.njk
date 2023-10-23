@@ -7,13 +7,13 @@ tags: pages
   <div class="relative">
     <article>
       <!-- hero -->
-      {% include "components/hero-grid.njk" %}
+      {% include "components/hero-grid.njk" %} {% set eventsFuture = collections["eventosFuturos_" + locale] %}
 
       <div class="my-10 2xl:md:my-16 xl:my-28">
         <ul class="divide-y divide-gray-300 md:bg-gray-100 md:border-t md:border-b border-gray-300">
           <!-- events FUTURE -->
 
-          {% set eventsFuture = collections["eventosFuturos_" + locale] %} {% for event in eventsFuture %}
+          {% if eventsFuture | length != 0 %}{% for event in eventsFuture %}
 
           <li class="px-3 py-5 md:py-0 max-w-5xl mx-auto">
             <div class="flex items-center space-x-4">
@@ -91,7 +91,12 @@ tags: pages
               </div>
             </div>
           </li>
-          {% endfor %}
+          {% endfor %} {% else %}
+          <div class="mx-auto max-w-2xl text-gray-900 my-12 prose prose-red px-3 sm:px-6 text-center">
+            <p>{{ meta[locale].event.noEvent }}</p>
+          </div>
+
+          {% endif %}
         </ul>
 
         <div class="max-w-xl mx-auto">
