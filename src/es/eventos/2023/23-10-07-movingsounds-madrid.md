@@ -24,7 +24,7 @@ images: # complete path for eleventy img srcset output, alt required
 access: Se requiere una invitación personal
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister:
-youtube: true
+youtube: false
 ---
 
 La virtuosa del clarinete Tara Bouman y el excepcional trompetista y músico polifacético Markus Stockhausen ofrecerán conciertos en España como el Dúo MOVING SOUNDS.

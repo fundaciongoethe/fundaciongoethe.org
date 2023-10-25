@@ -148,7 +148,7 @@ module.exports = {
       register: 'Direkt anmelden',
       sale: 'Eintrittskarten kaufen',
       noEvent:
-        'Unsere nächsten Veranstaltungen sind in Planung, aber noch nicht auf unserer Webseite eingetragen Bitte kommen Sie bald wieder!',
+        'Unsere nächsten Veranstaltungen sind in Planung, aber noch nicht auf unserer Webseite eingetragen. Bitte schauen Sie bald wieder rein!',
     },
     contact: {
       title: 'Schreiben Sie uns über unser Kontaktformular.',
