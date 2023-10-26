@@ -26,9 +26,12 @@ type: Concierto
 access: Se requiere una invitación personal
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister:
-youtube: true
+youtube: false
 ---
 
-Con el programa Música Panamericana, el conjunto Tammurriata emprende una búsqueda musical de huellas desde Europa hasta América. El grupo muestra lo estrechamente vinculados que están los elementos de las distintas culturas y cómo se han influido y enriquecido mutuamente. En el proceso, los jóvenes músicos de éxito desdibujan las fronteras entre países, épocas y estilos.
+**“Todos los bienes del Mundo"**
+Latinoamérica es probablemente el mayor crisol de culturas del mundo. Es aquí donde la tradición musical europea del siglo XVI se encuentra con las manifestaciones musicales de diversas poblaciones indígenas, resultado del sincretismo cultural tras la llegada de Cristóbal Colón al nuevo mundo y su posterior colonización.
 
-{% youtube 'w0pLI-i_iWQ', 'Tammurriata - A la villa voy' %}
+Dicho proceso de intercambio cultural se enriquecería aún más con la llegada de los esclavos africanos al continente americano varios años después.
+
+El programa “Todos los bienes del mundo” busca dar una pequeña muestra de tan maravilloso proceso sincrético. El mestizaje cultural se hace evidente. Las fronteras entre países, épocas y estilos se desdibujan.

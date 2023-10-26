@@ -220,11 +220,11 @@ h2 {
 }
 
 [aria-disabled='true'] {
-  @apply bg-gray-600;
+  @apply bg-gray-400 cursor-not-allowed;
 }
 
 [aria-disabled='false'] {
-  @apply bg-red-600;
+  @apply bg-red-600 cursor-default;
 }
 
 .custom-gradient {
