@@ -7,9 +7,9 @@ artist: [tammurriata]
 venue: [golferichs]
 location: Casa Golferichs
 city: Barcelona
-date: 2023-11-04 11:30:00
-opening: 2023-11-04 12:00:00
-ending: 2023-11-04 13:00:00
+date: 2023-11-04 12:00:00
+opening: 2023-11-04 11:30:00
+ending: 2023-11-04 13:30:00
 deadline: 2023-11-04 11:00:00
 calcDuration: 1.5
 program:
