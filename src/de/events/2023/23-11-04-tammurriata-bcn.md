@@ -26,7 +26,7 @@ youtube: false
 
 **"Todos los bienes del mundo"- Musikalische Schätze aus Spanien und kolonialen Lateinamerika**
 
-Lateinamerika ist ein Schmelztiegel verschiedenster Kulturen. So traf die europäische Musik des 16. Jahrhunderts mit der Ankunft Kolumbus auf die Musikkultur der indigenen Bevölkerung und vermischte sich später auch mit den Rhythmen der afrikanischen Sklaven.
+Lateinamerika ist ein Schmelztiegel verschiedener Kulturen. So traf die europäische Musik des 16. Jahrhunderts mit der Ankunft Kolumbus auf die Musikkultur der indigenen Bevölkerung und vermischte sich später auch mit den Rhythmen der afrikanischen Sklaven.
 
 Mit ihrem neuen Programm "Todos los bienes del mundo" begibt sich das Ensemble Tammurriata auf eine musikalische Spurensuche von Spanien nach Lateinamerika und zeigt auf, wie eng verknüpft die Elemente der verschiedenen Kulturen sind und wie sie sich gegenseitig beeinflusst und bereichert haben.
 
