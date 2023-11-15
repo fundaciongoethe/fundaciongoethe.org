@@ -25,7 +25,7 @@ images:
 type: Konzert
 access: Persönliche Einladung erforderlich
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
-directregister:
+directregister: https://concierto-navidad-2023-bilbao.eventbrite.es
 youtube: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Conicerto de Navidad en Bilbao'
+title: 'Concierto de Navidad en Bilbao'
 description: 'El concierto con Dúo Rodin promete un fascinante viaje a través de diferentes épocas y estilos musicales.'
 translationKey: duorodinbil23
 customSlug: concierto-navidad-2023-bilbao-duo-rodin
@@ -25,7 +25,7 @@ images:
 type: Concierto
 access: Se requiere una invitación personal
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
-directregister:
+directregister: https://concierto-navidad-2023-bilbao.eventbrite.es
 youtube: false
 ---
 
