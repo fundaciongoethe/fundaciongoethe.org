@@ -354,4 +354,9 @@ module.exports = {
     url: 'https://vocesgravesdemadrid.com',
     logo: './src/assets/images/event-sponsors/corovocesgraves.png',
   },
+  kpmg: {
+    name: 'KPMG',
+    url: 'https://kpmg.com/',
+    logo: './src/assets/images/event-sponsors/kpmg-logo.jpg',
+  },
 };
