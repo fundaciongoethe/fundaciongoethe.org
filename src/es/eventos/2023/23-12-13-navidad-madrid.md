@@ -9,6 +9,7 @@ city: Madrid
 location: Basilica Parroquia La Milagrosa
 partners:
   - milagrosa
+  - ahk
   - basf
   - lidl
 date: 2023-12-13 20:45:00

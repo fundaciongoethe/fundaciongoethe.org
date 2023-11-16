@@ -8,6 +8,7 @@ venue: [sagradafamilia]
 city: Barcelona
 location: Parroquia Sagrada Familia
 partners:
+  - ahk
   - basf
   - lidl
 date: 2023-12-15 17:00:00

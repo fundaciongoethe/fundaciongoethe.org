@@ -2,13 +2,15 @@
 title: "Ensemble L'inverno"
 translationKey: 'ensemblelinverno'
 customSlug: 'ensemble-linverno'
-excerpt: 'Nadine Balbesi (Sopran), Benjamin Plag (Flöte), Frank Dittmer (Orgel), Matthias Wollong (Violine), Johannes Hupach (Violine), Sebastian Herberg (Viola), Sebastian Fritsch (Cello)'
+excerpt: 'Dieses aus sieben namhaften Musikern bestehende Ensemble musiziert in der Besetzung Streichquartett, Querflöte, Sopran und Orgel.'
 occupation: 'Ensemble'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/linverno.jpg
   alt: Portraits der sieben Mitglieder des Ensembles im Mosaik
   credit:
 ---
+
+Es wurde von Stimmführern und Solisten der Staatskapelle Dresden und der Staatskapelle Weimar gegründet und fühlt sich besonders den großen Komponisten mitteldeutscher Barockmusik verpflichtet.
 
 ## Mitglieder
 

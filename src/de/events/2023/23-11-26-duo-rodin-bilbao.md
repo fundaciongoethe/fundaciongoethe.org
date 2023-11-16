@@ -12,8 +12,8 @@ partners:
   - konsulatbilbao
   - kpmg
   - lidl
-date: 2023-11-26 13:30:00
-opening: 2023-11-26 13:00:00
+date: 2023-11-26 18:00:00
+opening: 2023-11-26 17:30:00
 ending: 2023-11-26 15:00:00
 deadline: 2023-11-26 11:00:00
 calcDuration: 1.5
