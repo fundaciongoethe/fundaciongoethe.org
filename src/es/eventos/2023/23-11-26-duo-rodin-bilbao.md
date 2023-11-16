@@ -23,7 +23,7 @@ images:
   alt: 'Iglesia de la Encarnación'
   credit:
 type: Concierto
-access: Se requiere una invitación personal
+access: Inscripción directa
 infobox: Entrada gratuita con inscripción previa a través de Eventbrite.
 directregister: https://concierto-navidad-2023-bilbao.eventbrite.es
 youtube: false
@@ -31,7 +31,5 @@ youtube: false
 
 El concierto con Dúo Rodin promete un fascinante viaje a través de diferentes épocas y estilos musicales. Desde la animada "Chanson du matin" de Edward Elgar hasta el emotivo "Oblivion" de Astor Piazzolla y las emocionantes "Czardas" de Vittorio Monti, el programa ofrece una experiencia impresionante llena de variedad y expresividad.
 
-No te pierdas el concierto de Navidad, en el que confluyen emociones y mundos musicales diferentes.
-Después, por supuesto, se servirá vino caliente y pan de especias.
-
+No te pierdas el concierto de Adviento de este año, en el que confluyen emociones y mundos musicales diferentes. Después, por supuesto, se servirá vino caliente y pan de especias.
 {% youtube 'fijF5fA7pVE', 'L. BERNSTEIN: West Side Story (excerpts) - TRÍO RODIN' %}

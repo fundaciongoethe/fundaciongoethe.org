@@ -23,7 +23,7 @@ images:
   alt: 'Iglesia de la Encarnación'
   credit:
 type: Konzert
-access: Persönliche Einladung erforderlich
+access: Direktanmeldung
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 directregister: https://concierto-navidad-2023-bilbao.eventbrite.es
 youtube: false
@@ -31,7 +31,8 @@ youtube: false
 
 Das Konzert mit dem Dúo Rodin verspricht eine faszinierende Reise durch verschiedene musikalische Epochen und Stilrichtungen. Von Edward Elgars lebhafter "Chanson du matin" über Astor Piazzollas emotionales "Oblivion" bis zu Vittorio Montis mitreißender "Czardas" bietet das Programm ein beeindruckendes Erlebnis voller Vielfalt und Ausdruckskraft.
 
-Seien Sie dabei, wenn diese unterschiedlichen Emotionen und musikalischen Welten in dem diesjährigen Konzert zum Advent aufeinandertreffen.
+Verpassen Sie nicht das diesjährige Adventskonzert, bei dem diese unterschiedlichen Emotionen und musikalischen Welten aufeinandertreffen. Im Anschluss darf der Glühwein und Lebkuchen natürlich nicht fehlen. in dem diesjährigen Konzert zum Advent aufeinandertreffen.
+
 Im Anschluss darf der Glühwein und Lebkuchen natürlich nicht fehlen.
 
 {% youtube 'fijF5fA7pVE', 'L. BERNSTEIN: West Side Story (excerpts) - TRÍO RODIN' %}
