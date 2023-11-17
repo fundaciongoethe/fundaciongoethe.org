@@ -12,6 +12,7 @@ partners:
   - ahk
   - basf
   - lidl
+  - mediolanum
 date: 2023-12-13 20:45:00
 opening: 2023-12-13 20:30:00
 ending: 2023-12-13 22:15:00
@@ -29,6 +30,8 @@ directregister: https://concierto-navidad-2023-madrid.eventbrite.es
 youtube: false
 ---
 
-En el concierto de Navidad de este año, que abarca desde melodías alegres y festivas hasta sonidos tranquilos y contemplativos, te espera un programa que refleja las distintas facetas de la época navideña. Sumérjate en el ambiente festivo y disfruta de las interpretaciones musicales de los destacados músicos de la Staatskapelle Weimar y Dresde, entre otros.
+Junto con la Cámara de Comercio Alemana para España celebramos el concierto de Navidad en Madrid.
+
+Te espera un programa que refleja las distintas facetas de la época navideña: El concierto abarca desde melodías alegres y festivas hasta sonidos tranquilos y contemplativos. Sumérjate en el ambiente festivo y disfruta de las interpretaciones musicales de los destacados músicos de la Staatskapelle Weimar y Dresde, entre otros.
 
 Por supuesto, el concierto irá seguido de vino caliente y pan de especias.

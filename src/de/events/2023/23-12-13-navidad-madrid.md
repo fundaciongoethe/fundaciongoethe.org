@@ -12,6 +12,7 @@ partners:
   - ahk
   - basf
   - lidl
+  - mediolanum
 date: 2023-12-13 20:45:00
 opening: 2023-12-13 20:30:00
 ending: 2023-12-13 22:15:00
@@ -29,8 +30,10 @@ directregister: https://concierto-navidad-2023-madrid.eventbrite.es
 youtube: false
 ---
 
-In unserem Weihnachtskonzert erwartet Sie ein Programm, das die verschiedenen Facetten der Weihnachtszeit widerspiegelt: Fröhliche und festliche Melodien bis hin zu ruhigen und besinnlichen Klängen.
+Gemeinsam mit der AHK Spanien laden wir zu unserem Weihnachtskonzert in Madrid ein.
 
-Tauchen Sie ein in die festliche Atmosphäre und lassen Sie sich von den musikalischen Darbietungen der hervorragenden Musiker unter anderem von der Staatskapelle Weimar und Dresden bezaubern.
+Das Programm spiegelt die verschiedenen Facetten der Weihnachtszeit wider: Fröhliche und festliche Melodien bis hin zu ruhigen und besinnlichen Klängen.
+
+Tauchen Sie ein in die festliche Atmosphäre und lassen Sie sich von den musikalischen Darbietungen der hervorragenden Musiker unter anderem von der Staatskapelle Weimar und Dresden verzaubern.
 
 Im Anschluss an das Konzert darf der Glühwein und Lebkuchen natürlich nicht fehlen.

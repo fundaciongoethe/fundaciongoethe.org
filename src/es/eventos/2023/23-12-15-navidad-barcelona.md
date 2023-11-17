@@ -28,6 +28,8 @@ directregister:
 youtube: false
 ---
 
-En el concierto de Navidad de este año, que abarca desde melodías alegres y festivas hasta sonidos tranquilos y contemplativos, te espera un programa que refleja las distintas facetas de la época navideña. Sumérjate en el ambiente festivo y disfruta de las interpretaciones musicales de los destacados músicos de la Staatskapelle Weimar y Dresde, entre otros.
+Junto con la Cámara de Comercio Alemana para España celebramos el concierto de Navidad en Barcelona.
+
+Te espera un programa que refleja las distintas facetas de la época navideña: El concierto abarca desde melodías alegres y festivas hasta sonidos tranquilos y contemplativos. Sumérjate en el ambiente festivo y disfruta de las interpretaciones musicales de los destacados músicos de la Staatskapelle Weimar y Dresde, entre otros.
 
 Por supuesto, el concierto irá seguido de vino caliente y pan de especias.

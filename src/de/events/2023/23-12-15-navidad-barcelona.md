@@ -28,6 +28,10 @@ directregister:
 youtube: false
 ---
 
-En el concierto de Navidad de este año, que abarca desde melodías alegres y festivas hasta sonidos tranquilos y contemplativos, te espera un programa que refleja las distintas facetas de la época navideña. Sumérjate en el ambiente festivo y disfruta de las interpretaciones musicales de los destacados músicos de la Staatskapelle Weimar y Dresde, entre otros.
+Gemeinsam mit der AHK Spanien laden wir zu unserem Weihnachtskonzert in Barcelona ein.
 
-Por supuesto, el concierto irá seguido de vino caliente y pan de especias.
+Das Programm spiegelt die verschiedenen Facetten der Weihnachtszeit wider: Fröhliche und festliche Melodien bis hin zu ruhigen und besinnlichen Klängen.
+
+Tauchen Sie ein in die festliche Atmosphäre und lassen Sie sich von den musikalischen Darbietungen der hervorragenden Musiker unter anderem von der Staatskapelle Weimar und Dresden verzaubern.
+
+Im Anschluss an das Konzert darf der Glühwein und Lebkuchen natürlich nicht fehlen.
