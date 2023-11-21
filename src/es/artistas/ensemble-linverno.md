@@ -14,12 +14,10 @@ Fue fundado por directores y solistas de la Staatskapelle Dresden y la Staatskap
 
 ## Miembros
 
-Nadine Balbesi (soprano)
-Benjamin Plag (flauta): Flautista solista Staatskapelle Weimar
-Frank Dittmer (órgano): KMD Mecklenburg-Vorpommern
-
-**Cuarteto Arabella**
-Matthias Wollong (violín): Violinista solista, 1er concertino Staatskaelle Dresden
-Johannes Hupach (violín): primer concertino adjunto, Staatskapelle Dresden
-Sebastian Herberg (viola): violista solista de los Dresdner Kapellsolisten
-Sebastian Fritsch (violonchelo)
+Nadine Balbesi (soprano): [www.nadinebalbeisi.com](https://www.nadinebalbeisi.com/)
+Benjamin Plag (flauta): [nationaltheater-weimar.de](https://www.nationaltheater-weimar.de/de/ueber-uns/ensemble-detail.php?PID=214)
+Frank Dittmer (órgano): [wikipedia.org](https://de.wikipedia.org/wiki/Frank_Dittmer)
+Matthias Wollong (violín): [staatskapelle-dresden.de](https://www.staatskapelle-dresden.de/staatskapelle/orchestermitglieder/anzeige/mw/matthias-wollong/)
+Johannes Hupach (violín): [nationaltheater-weimar.de](https://www.nationaltheater-weimar.de/de/ueber-uns/ensemble-detail.php?PID=153)
+Sebastian Herberg (viola): [staatskapelle-dresden.de](https://www.staatskapelle-dresden.de/staatskapelle/orchestermitglieder/anzeige/mw/sebastian-herberg/)
+Sebastian Fritsch (violonchelo): [sebastian-fritsch.com](https://www.sebastian-fritsch.com/en/)
