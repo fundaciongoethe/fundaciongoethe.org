@@ -12,6 +12,7 @@ partners:
   - konsulatbilbao
   - kpmg
   - lidl
+  - sixt
 date: 2023-11-26 18:00:00
 opening: 2023-11-26 17:30:00
 ending: 2023-11-26 15:00:00
