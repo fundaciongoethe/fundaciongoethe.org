@@ -18,7 +18,7 @@ opening: 2023-12-13 20:30:00
 ending: 2023-12-13 22:15:00
 deadline: 2023-12-13 11:00:00
 calcDuration: 1.5
-program: 2023-programa-navidad-mad.pdf
+program:
 images:
   featured: ./src/assets/images/venues/mad-lamilagrosa.jpg
   alt: 'Basilica Parroquia La Milagrosa'

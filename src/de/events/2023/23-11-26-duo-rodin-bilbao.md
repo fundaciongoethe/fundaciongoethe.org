@@ -18,7 +18,7 @@ opening: 2023-11-26 17:30:00
 ending: 2023-11-26 15:00:00
 deadline: 2023-11-26 11:00:00
 calcDuration: 1.5
-program:
+program: 2023-programa-navidad-bilbao.pdf
 images:
   featured: ./src/assets/images/venues/iglesia-encarnacion.jpg
   alt: 'Iglesia de la Encarnación'
