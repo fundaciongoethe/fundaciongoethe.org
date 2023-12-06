@@ -359,4 +359,9 @@ module.exports = {
     url: 'https://kpmg.com/',
     logo: './src/assets/images/event-sponsors/kpmg-logo.jpg',
   },
+  corojovenesmad: {
+    name: 'Coro de Jóvenes de Madrid',
+    url: 'https://corojovenesmadrid.com/',
+    logo: './src/assets/images/event-sponsors/coro-jovenes-madrid.jpg',
+  },
 };

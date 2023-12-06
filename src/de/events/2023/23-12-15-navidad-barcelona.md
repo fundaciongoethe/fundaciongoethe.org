@@ -8,9 +8,10 @@ venue: [sagradafamilia]
 city: Barcelona
 location: Krypta der Pfarrkirche Sagrada Familia
 partners:
-  - ahk
   - basf
   - lidl
+  - haribo
+  - ahk
 date: 2023-12-15 17:00:00
 opening: 2023-12-15 16:30:00
 ending: 2023-12-15 18:30:00
