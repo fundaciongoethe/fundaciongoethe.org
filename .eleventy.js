@@ -3,7 +3,7 @@ const filters = require('./utils/filters.js');
 // moment cause i cant get it to work with fns repecting DRY
 const moment = require('moment');
 const markdownIt = require('markdown-it');
-const markdownItEmoji = require('markdown-it-emoji');
+const markdownItEmoji = require('markdown-it-emoji').full;
 
 const eleventaFilters = require('./utils/filters/eleventaFilters.js');
 const dateFilters = require('./utils/filters/dateFilters.js');
@@ -190,13 +190,13 @@ module.exports = function (eleventyConfig) {
 
   // Set custom markdown library instance  and support for Emojis in markdown...
 
-  let options = {
+  const markdownLib = markdownIt({
     html: true,
-    breaks: true,
+    breaks: false,
     linkify: true,
     typographer: true,
-  };
-  let markdownLib = markdownIt(options).use(markdownItEmoji);
+  }).use(markdownItEmoji);
+
   eleventyConfig.setLibrary('md', markdownLib);
 
   // Add layout aliases
