@@ -24,7 +24,7 @@ tags: pages
             <div class="w-full aspect-video lg:aspect-square">
               <!-- picture shortcode -->
               {% Picture images.featured, "bg-gray-200", "fade-in-bottom rounded-lg shadow absolute inset-0 w-full
-              h-full object-cover rounded-lg", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
+              h-auto object-cover rounded-lg", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
             </div>
             {% if images.credit %}
             <figcaption class="pr-3 flex transform -translate-y-10 text-sm py-1 pl-3 sm:pl-6">

@@ -1,6 +1,6 @@
 ---
 title: 'Concierto de Navidad en Madrid'
-date: '2023-12-18'
+date: '2023-12-17'
 translationKey: 'navidadmad23'
 excerpt: "En la impresionante Basílica la Milagrosa, el conjunto L'inverno creó una mágica atmósfera navideña con obras de Bach, Mozart y Haendel."
 images:

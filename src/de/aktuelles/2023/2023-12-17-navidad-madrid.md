@@ -1,6 +1,6 @@
 ---
 title: 'Weihnachtskonzert in Madrid'
-date: '2023-12-18'
+date: '2023-12-17'
 translationKey: 'navidadmad23'
 excerpt: "In der beeindruckenden Basílica la Milagrosa entfaltete das Ensemble L'inverno eine zauberhafte Weihnachtsatmosphäre mit Werken von Bach, Mozart und Händel."
 images:
