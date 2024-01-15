@@ -24,4 +24,6 @@ links:
   facebook: https://facebook.com/AristoIberia
   instagram: https://instagram.com/aristoiberia
   linkedin: https://linkedin.com/company/aristo-pharma-iberia
+permalink: false
+eleventyExcludeFromCollections: true
 ---

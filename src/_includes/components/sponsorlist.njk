@@ -9,7 +9,7 @@
   {% endif %}
 
   <div
-    class="mt-6 grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 ' }} lg:mt-8"
+    class="mt-6 grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 ' }} lg:mt-8"
   >
     <!-- get current locale from meta.languages -->
     {% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in sponsors %}
