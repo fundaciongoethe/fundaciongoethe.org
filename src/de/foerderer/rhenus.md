@@ -22,4 +22,6 @@ links:
   facebook: https://facebook.com/RhenusLogisticsSpain
   youtube: https://youtu.be/DH9V_KyTJM0
   linkedin: https://linkedin.com/company/rhenus-logistics-iberia
+permalink: false
+eleventyExcludeFromCollections: true
 ---
