@@ -8,7 +8,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt:
 ---
 
-Junto con nuestros patrocinadores Fundación Federico Fliedner y LIDL, nos unimos a la campaña de Miele, que pone a disposición sus cocinas para que durante la crisis del coronavirus se pueda cocinar para familias vulnerables.
+Junto con nuestros promotores Fundación Federico Fliedner y LIDL, nos unimos a la campaña de Miele, que pone a disposición sus cocinas para que durante la crisis del coronavirus se pueda cocinar para familias vulnerables.
 
 Tres días a la semana el _Miele Experience Center de Alcobendas_ se convierte en un espacio solidario. Se cocinan unas 500 raciones a la semana que se distribuen a través de la Fundación Federico Fliedner, la Fundación Madrina y la Policía Nacional.
 

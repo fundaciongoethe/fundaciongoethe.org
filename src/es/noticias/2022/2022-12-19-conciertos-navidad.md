@@ -36,6 +36,6 @@ gallery:
 
 Los conciertos de navidad de la semana pasada fueron realmente mágicos e inolvidables.
 
-Queremos agradecer de corazón a todas las personas que llenasteis los espacios en cada una de las ciudades, a [Singer Pur](/es/artistas/singer-pur/) y a todos los patrocinadores y colaboradores por hacerlo posible.
+Queremos agradecer de corazón a todas las personas que llenasteis los espacios en cada una de las ciudades, a [Singer Pur](/es/artistas/singer-pur/) y a todos los promotores y colaboradores por hacerlo posible.
 
 Aquí compartimos algunas fotografías de los eventos.

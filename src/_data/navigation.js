@@ -42,7 +42,7 @@ module.exports = {
 					url: "/es/sobre-nosotros/#patronato",
 				},
 				{
-					text: "Patrocinadores",
+					text: "Promotores",
 					url: "/es/sobre-nosotros/#sponsors",
 				},
 				{

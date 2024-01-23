@@ -32,6 +32,11 @@ partners:
   - thyssen
   - sanjuan
   - sanmiguel
+cta:
+  mainText: Werden Sie Teil der Fundación Goethe als Förderer
+  subText: ...oder bewerben Sie einzelne Veranstaltungen unter Ihrer Schirmherrschaft!
+  btnText: Alle Möglichkeiten kennenlernen
+  btnLink: /de/mitmachen/
 ---
 
 <div class="relative mx-auto lg:pt-16">
@@ -240,10 +245,11 @@ partners:
   </div>
 
   <!-- include yearbook -->
-
   {%- include "shared/about-yearbook.njk" %}
 </div>
 
 <!-- partners -->
-
 <div id="partners" class="relative mx-auto max-w-3xl mb-12">{%- include "components/partnerlist.njk" %}</div>
+
+  <!-- include cta -->
+{% include "components/cta.njk" %}

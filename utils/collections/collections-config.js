@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
 
   // förderer es, randomized on build
   eleventyConfig.addCollection('sponsors_es', function (collection) {
-    return collection.getFilteredByGlob('./src/es/patrocinadores/**/*.md').sort(() => {
+    return collection.getFilteredByGlob('./src/es/promotores/**/*.md').sort(() => {
       return 0.5 - Math.random();
     });
   });

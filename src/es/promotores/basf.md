@@ -3,10 +3,10 @@ title: 'BASF'
 translationKey: 'basf'
 customSlug: 'basf'
 since: '2008'
-excerpt: Nuestro patrocinador BASF crea química para un futuro sostenible. El éxito económico se combina con la protección del medio ambiente y la responsabilidad social. BASF está presente en España desde hace más de 50 años. En la actualidad, más de 2.000 empleados trabajan en los distintos centros de todo el país.
+excerpt: BASF crea química para un futuro sostenible. El éxito económico se combina con la protección del medio ambiente y la responsabilidad social. BASF está presente en España desde hace más de 50 años. En la actualidad, más de 2.000 empleados trabajan en los distintos centros de todo el país.
 seo:
-  title: BASF | Patrocinador de la Fundación Goethe
-  description: Nuestro patrocinador BASF está presente en España desde hace más de 50 años. En la actualidad, más de 2.000 empleados trabajan en los distintos centros de todo el país.
+  title: BASF | Promotor de la Fundación Goethe
+  description: BASF está presente en España desde hace más de 50 años. En la actualidad, más de 2.000 empleados trabajan en los distintos centros de todo el país.
   image:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/basf/basf-logo.png

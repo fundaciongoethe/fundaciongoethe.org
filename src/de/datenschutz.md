@@ -10,15 +10,14 @@ translationKey: 'privacy'
 
 ## Für die Datenverarbeitung verantwortlich:
 
-{{ meta.address.firma }}
-**CIF:** {{ meta.address.cif }}
-**Adresse:** {{ meta.address.street }}
-{{ meta.address.zip }}, {{ meta.address.city }}
+{{ meta.address.firma }}<br>
+**CIF:** {{ meta.address.cif }}<br>
+**Adresse:** {{ meta.address.street }}<br>
+{{ meta.address.zip }}, {{ meta.address.city }}<br>
 
-**Tel:** <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
+**Tel:** {{ meta.address.mobileDisplay }}<br>
 **E-Mail:** <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
-Wenn Sie diesbezüglich Fragen oder Bedenken haben, wenden Sie sich bitte an: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 ## Welche Daten werden im Hintergrund gesammelt?
 

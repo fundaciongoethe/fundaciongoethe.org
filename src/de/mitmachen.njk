@@ -7,7 +7,7 @@ seo:
   title: Förderer, Partner und Künstler
   description: Werden Sie Teil der Fundación Goethe als Förderer oder bewerben Sie einzelne Veranstaltungen unter Ihrer Schirmherrschaft.
 sponsorlist:
-  grids: grid-cols-3 md:grid-cols-4 lg:grid-cols-5
+  grids: grid-cols-3 md:grid-cols-4 lg:grid-cols-6
 ---
 
 <div class="relative md:text-center max-w-3xl mx-auto mb-12">
@@ -65,35 +65,19 @@ sponsorlist:
           <div class="mt-6">
             <a
               href="#claudia"
-              class="buttonhover inline-flex bg-red-500 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm no-underline"
+              class="buttonhover inline-flex bg-red-600 text-white bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm no-underline"
             >
               Kontakt aufnehmen
             </a>
           </div>
         </div>
       </div>
-      {#
-      <div class="mt-8 border-t border-gray-200 pt-6">
-        <blockquote>
-          <div>
-            <p class="text-base text-gray-700">
-              “Zitat von einem zufriedenem Förderer. Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci
-              risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.”
-            </p>
-          </div>
-          <footer class="mt-3">
-            <div class="flex items-center space-x-3">
-              <div class="text-base font-medium text-black">Vorname Name, Position bei Förderer</div>
-            </div>
-          </footer>
-        </blockquote>
-      </div>
-      #}
+
     </div>
     <div class="order-1 md:order-2 mb my-12 sm:mt-16 px-2 sm:px-6 md:px-0">
       <div class="relative py-3 sm:max-w-xl sm:mx-auto">
         <div
-          class="absolute inset-0 bg-gradient-to-r from-red-600 to-red-500 shadow-lg transform -rotate-6 rounded-lg"
+          class="absolute inset-0 bg-gradient-to-r bg-red-600 shadow-lg transform -rotate-6 rounded-lg"
         ></div>
         <div class="relative px-4 aspect-square bg-white shadow-lg rounded-lg">
           {% Picture "./src/assets/images/cta/patrons-reunion.jpg"," aspect-square", "filter grayscale grayimg
@@ -138,7 +122,7 @@ sponsorlist:
       <div class="order-1 md:order-2 mb my-12 sm:mt-16 lg:mt-0 px-2 sm:px-6 md:px-0">
         <div class="relative py-3 sm:max-w-xl sm:mx-auto">
           <div
-            class="absolute inset-0 bg-gradient-to-r from-orange-500 to-orange-600 shadow-lg transform -rotate-6 rounded-lg"
+            class="absolute inset-0 bg-gradient-to-r bg-orange-500 shadow-lg transform -rotate-6 rounded-lg"
           ></div>
           <div class="relative px-4 aspect-square bg-white shadow-lg rounded-lg">
             {% Picture "./src/assets/images/cta/empfang-1.jpg"," aspect-square", "filter grayscale grayimg rounded-lg
@@ -185,7 +169,7 @@ sponsorlist:
       <div class="order-1 md:order-2 mb my-12 sm:mt-16 px-2 sm:px-6 md:px-0">
         <div class="relative py-3 sm:max-w-xl sm:mx-auto">
           <div
-            class="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-500 shadow-lg transform -rotate-6 rounded-lg"
+            class="absolute inset-0 bg-gradient-to-r bg-yellow-400 shadow-lg transform -rotate-6 rounded-lg"
           ></div>
           <div class="relative px-4 aspect-square bg-white shadow-lg rounded-lg">
             {% Picture "./src/assets/images/cta/escenario.jpg"," aspect-square", "filter grayscale grayimg rounded-lg
@@ -199,7 +183,7 @@ sponsorlist:
 
     <div
       id="claudia"
-      class="pb-4 lg:pb-0 lg:z-10 lg:relative bg-gradient-to-b md:bg-gradient-to-r from-gray-50 to-gray-200 mt-40 rounded-md"
+      class="pb-4 lg:pb-0 lg:z-10 lg:relative bg-gradient-to-b md:bg-gradient-to-r bg-gray-200 mt-40 rounded-md"
     >
       <div class="lg:mx-auto lg:max-w-7xl md:px-8 md:grid md:grid-cols-3">
         <div class="relative md:-my-8">
@@ -212,7 +196,7 @@ sponsorlist:
           </div>
         </div>
         <div class="mt-12 md:m-0 md:col-span-2 sm:pl-4 lg:pl-8">
-          <div class="mx-auto max-w-md px-4 sm:px-0 sm:py-4 sm:max-w-none">
+          <div class="mx-auto max-w-md px-4 sm:px-0 sm:pt-4 sm:pb-8 sm:max-w-none">
             <blockquote>
               <div>
                 <svg
@@ -226,12 +210,11 @@ sponsorlist:
                   ></path>
                 </svg>
                 <p class="mt-6 standardtext">
-                  Ich freue mich darauf, alles weitere persönlich zu besprechen. Sie erreichen mich unter
-                  <a class="no-underline" href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
-                  oder
-                  <a class="no-underline" href="tel:{{ meta.address.mobileCall }}">{{ meta.address.mobileDisplay }}</a
-                  >. Gerne können Sie mir auch unter
-                  <a class="no-underline" href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+                  Ich freue mich darauf, alles weitere persönlich zu besprechen. Sie erreichen mich unter der Nummer
+                  <a href="tel:{{ meta.address.mobileCall }}">{{ meta.address.mobileDisplay }}</a
+                  >.
+									<br>Gerne können Sie mir auch unter
+                  <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
                   eine E-Mail schreiben.
                 </p>
               </div>

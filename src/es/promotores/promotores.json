@@ -1,0 +1,4 @@
+{
+	"layout": "sponsor",
+	"permalink": "/{{ locale }}/promotores/{{ customSlug }}/index.html"
+}

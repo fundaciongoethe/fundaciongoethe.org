@@ -5,7 +5,7 @@ customSlug: 'fundacion-prosegur'
 since: '2022'
 excerpt: 'La Fundación Prosegur es una entidad sin ánimo de lucro que canaliza la acción social y cultural de Prosegur con el objetivo de ayudar a construir una sociedad más solidaria, generando oportunidades de desarrollo para las personas. La institución lleva a cabo proyectos en los campos de la educación, la inclusión laboral de las personas con discapacidad intelectual y el voluntariado corporativo, impulsando también el fomento de la cultura. De esta manera contribuye al progreso de los 15 países en los que opera: Argentina, Chile, Colombia, Costa Rica, Ecuador, El Salvador, España, Guatemala, Honduras, Nicaragua, Paraguay, Perú, Portugal, Singapur y Uruguay.'
 seo:
-  title: Fundación Prosegur | Patrocinador de la Fundación Goethe
+  title: Fundación Prosegur | Promotor de la Fundación Goethe
   description: La Fundación Prosegur canaliza la acción social y cultural de Prosegur con el objetivo de ayudar a construir una sociedad más solidaria, generando oportunidades de desarrollo para las personas.
   image: sponsors/prosegur/prosegur-logo.png
 images: # complete path for eleventy img srcset output, alt required

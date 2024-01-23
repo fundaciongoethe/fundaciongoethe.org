@@ -26,7 +26,7 @@ images: # complete path for eleventy img srcset output, alt required
 infobox: Evento privado, sólo con invitación personal.
 ---
 
-Organizamos una visita guiada a la instalación de Transfesa de Hendaya (Francia). Para realizar este evento contamos con la colaboración de [Munich Re](https://www.fundaciongoethe.org/es/patrocinadores/munichre/), patrocinador de la Fundación Goethe, y Transfesa Logistics, filial de Deutsche Bahn.
+Organizamos una visita guiada a la instalación de Transfesa de Hendaya (Francia). Para realizar este evento contamos con la colaboración de [Munich Re](https://www.fundaciongoethe.org/es/promotores/munichre/), Promotor de la Fundación Goethe, y Transfesa Logistics, filial de Deutsche Bahn.
 
 En esta moderna instalación, las mercancías se recargan en vagones con ejes intercambiables que se adaptan a los gálibos de la península y del resto del continente europeo.
 

@@ -50,10 +50,10 @@ module.exports = {
     invitations: 'Recibe invitaciones',
     invitationsLink: 'invitaciones',
     readingText: 'leer',
-    sponsorSince: 'Patrocinador de la Fundación Goethe desde',
+    sponsorSince: 'Promotor de la Fundación Goethe desde',
     sponsorCoop: 'Colaobración especial',
     sponsorCoopContent:
-      'Todos nuestros patrocinadores apoyan los eventos de la Fundación Goethe con una aportación anual. Además, existe la posibilidad de colaborar con eventos individuales por separado mediante contribuciones de patrocinio u otros servicios, por ejemplo de carácter logístico o culinario.',
+      'Todos nuestros promotores apoyan los eventos de la Fundación Goethe con una aportación anual. Además, existe la posibilidad de colaborar con eventos individuales por separado mediante contribuciones de patrocinio u otros servicios, por ejemplo de carácter logístico o culinario.',
     newsTitle: 'Noticias',
     newsExcerpt:
       '	En nuestra sección de noticias damos una revisión de los eventos pasados y llamamos la atención sobre eventos especiales.',

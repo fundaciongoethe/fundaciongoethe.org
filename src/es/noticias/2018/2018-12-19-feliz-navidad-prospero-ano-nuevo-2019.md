@@ -8,7 +8,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt:
 ---
 
-## Estimados patrocinadores y amigos de la Fundación Goethe,
+## Estimados promotores y amigos de la Fundación Goethe,
 
 La Fundación Goethe te agradece tu participación y colaboración en todos los eventos culturales de este último año. Esperamos que hayas disfrutado de nuestro programa y te animamos a participar en los eventos y actividades del próximo año.
 

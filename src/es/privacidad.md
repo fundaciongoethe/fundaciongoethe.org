@@ -10,15 +10,13 @@ translationKey: 'privacy'
 
 ## Responsable del tratamiento de datos
 
-{{ meta.address.firma }}
-**CIF:** {{ meta.address.cif }}
-**Dirección:** {{ meta.address.street }}
-{{ meta.address.zip }}, {{ meta.address.city }}
+{{ meta.address.firma }}<br>
+**CIF:** {{ meta.address.cif }}<br>
+**Dirección:** {{ meta.address.street }}<br>
+{{ meta.address.zip }}, {{ meta.address.city }}<br>
 
-**Tel:** <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
+**Tel:** {{ meta.address.mobileDisplay }}<br>
 **Mail:** <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
-
-Si tiene alguna pregunta o duda al respecto, Ppngase en contacto con Claudia Remus: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 ## ¿Qué datos de fondo se recogen?
 
@@ -41,13 +39,13 @@ Las transferencias de datos a las empresas mencionadas se realizan al amparo del
 
 ## Base jurídica del tratamiento
 
-**Patrocinadores y promotores**
+**Pomotores**
 
 La base jurídica para el tratamiento de sus datos personales conforme a la finalidad a), indicada en el apartado anterior, será la ejecución del contrato de patrocinio o promoción existente con la FUNDACIÓN GOETHE ESPAÑA.
 
 La base jurídica para el tratamiento de sus datos personales conforme a la finalidad b) será su consentimiento otorgado al solicitarla.
 
-La base jurídica para el tratamiento de sus datos personales conforme a las finalidades c) y d) será el interés legítimo de la FUNDACIÓN GOETHE ESPAÑA. El interés legítimo de la FUNDACIÓN GOETHE ESPAÑA está justificado al no ser contrario a los derechos e intereses de los patrocinadores y promotores.
+La base jurídica para el tratamiento de sus datos personales conforme a las finalidades c) y d) será el interés legítimo de la FUNDACIÓN GOETHE ESPAÑA. El interés legítimo de la FUNDACIÓN GOETHE ESPAÑA está justificado al no ser contrario a los derechos e intereses de los promotores.
 
 **Asistentes e interesados**
 
@@ -59,13 +57,13 @@ La base jurídica para el tratamiento de anonimización y disociación de sus da
 
 ## Categoría de los datos
 
-Los datos personales que trate la FUNDACIÓN GOETHE ESPAÑA serán aquellos que faciliten los propios interesados, patrocinadores, patronos o miembros por propia voluntad (en general, nombre, apellidos, datos profesionales de contacto, y correo electrónico).
+Los datos personales que trate la FUNDACIÓN GOETHE ESPAÑA serán aquellos que faciliten los propios interesados, promotores, patronos o miembros por propia voluntad (en general, nombre, apellidos, datos profesionales de contacto, y correo electrónico).
 
 ## Plazos de conservación
 
 Los datos personales se guardarán hasta que se solicite su supresión por parte del interesado.
 
-En el caso de los datos personales de patrocinadores y patronos será hasta la finalización de la relación.
+En el caso de los datos personales de promotores y patronos será hasta la finalización de la relación.
 
 En el caso de los datos personales de asistentes e interesados será un plazo de tres (3) años desde la asistencia al último evento o desde la solicitud de información por parte del interesado.
 

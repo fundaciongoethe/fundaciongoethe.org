@@ -11,8 +11,8 @@ seo:
 sponsorlist:
   direction: text-left
   grids: grid-cols-3 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5
-  title: Nuestros Patrocinadores
-  text: Nuestros patrocinadores son, sin duda alguna, el eje central de la Fundación Goethe. Tenemos la suerte de contar desde hace años con la colaboración de reconocidas marcas de gran prestigio mundial.
+  title: Nuestros Promotores
+  text: Nuestros promotores son, sin duda alguna, el eje central de la Fundación Goethe. Tenemos la suerte de contar desde hace años con la colaboración de reconocidas marcas de gran prestigio mundial.
 yearbook:
   title: Anuarios de la Fundación Goethe
   text: En nuestros anuarios presentamos una visión general de todos los eventos del año pasado. Descargate los anuarios de los anos pasados en formato Archivo PDF.
@@ -32,6 +32,11 @@ partners:
   - thyssen
   - sanjuan
   - sanmiguel
+cta:
+  mainText: Forma parte de la Fundación	Goethe como Promotor
+  subText: ...o bien promociona eventos puntuales bajo tu patrocinio.
+  btnText: Informate de las opciones.
+  btnLink: /es/participar/
 ---
 
 <div class="relative mx-auto lg:pt-16">
@@ -41,7 +46,7 @@ partners:
     </li>
 
     <li class="py-2">
-      <a href="#sponsors" class="block no-underline pr-2 text-gray-900"> Patrocinadores</a>
+      <a href="#sponsors" class="block no-underline pr-2 text-gray-900"> Promotores</a>
     </li>
 
     <li class="py-2">
@@ -205,7 +210,7 @@ partners:
                 </p>
                 <p>
                   La economía hispano-alemana apoya la labor benéfica de la Fundación Goethe con contribuciones anuales
-                  deducibles de impuestos. De esta manera, los patrocinadores contribuyen al diálogo cultural entre la
+                  deducibles de impuestos. De esta manera, los promotores contribuyen al diálogo cultural entre la
                   República Federal de Alemania y el Reino de España.
                 </p>
               </div>
@@ -253,3 +258,7 @@ partners:
 <!-- partners -->
 
 <div id="partners" class="relative mx-auto max-w-3xl pb-12">{%- include "components/partnerlist.njk" %}</div>
+
+
+  <!-- CTA -->
+  {% include "components/cta.njk" %}

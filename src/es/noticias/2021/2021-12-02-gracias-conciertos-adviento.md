@@ -18,6 +18,6 @@ gallery:
 
 Nuestros conciertos de Adviento de este año han terminado y han sido un gran éxito. Estamos tremendamente agradecidos por la gran demanda de invitaciones en Málaga, Madrid, Barcelona, Valencia y Bilbao.
 
-Muchas gracias a los artistas [Katharina Gruber](https://www.fundaciongoethe.org/es/artistas/katharina-gruber/) y [Sam Simons](https://www.fundaciongoethe.org/es/artistas/sam-simons/), a los espectaculares recintos y a [Lidl](https://www.fundaciongoethe.org/es/patrocinadores/lidl/) por proporcionarnos los dulces navideños.
+Muchas gracias a los artistas [Katharina Gruber](https://www.fundaciongoethe.org/es/artistas/katharina-gruber/) y [Sam Simons](https://www.fundaciongoethe.org/es/artistas/sam-simons/), a los espectaculares recintos y a [Lidl](https://www.fundaciongoethe.org/es/promotores/lidl/) por proporcionarnos los dulces navideños.
 
 Adjunto compartimos algunas fotos del concierto en Barcelona y aprovechamos para desearos una feliz temporada prenavideña.

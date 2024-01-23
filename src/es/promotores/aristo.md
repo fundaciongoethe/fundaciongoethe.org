@@ -3,10 +3,10 @@ title: 'Aristo'
 translationKey: 'aristo'
 customSlug: 'aristo'
 since: '2018'
-excerpt: Nuestro patrocinador ARISTO Pharma Iberia es la filial española del grupo de empresas alemán Aristo Phar. GmbH con muchos años de experiencia en la industria farmacéutica y con sede en Berlín.
+excerpt: ARISTO Pharma Iberia es la filial española del grupo de empresas alemán Aristo Phar. GmbH con muchos años de experiencia en la industria farmacéutica y con sede en Berlín.
 seo:
-  title: Aristo | Patrocinador de la Fundación Goethe
-  description: Nuestro patrocinador ARISTO Pharma Iberia es la filial española del grupo de empresas alemán Aristo Phar. GmbH con muchos años de experiencia en la industria farmacéutica y con sede en Berlín.
+  title: Aristo | Promotor de la Fundación Goethe
+  description: ARISTO Pharma Iberia es la filial española del grupo de empresas alemán Aristo Phar. GmbH con muchos años de experiencia en la industria farmacéutica y con sede en Berlín.
   image:
 images: # complete path for eleventy img srcset output, alt required
   logo: ./src/assets/images/sponsors/aristo/aristo-logo.png

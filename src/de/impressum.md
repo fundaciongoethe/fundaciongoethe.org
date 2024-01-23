@@ -10,9 +10,9 @@ translationKey: "imprint"
 
 **Angaben gemäß § 5 TMG:**
 
-{{ meta.address.firma }}
-{{ meta.address.street }}
-{{ meta.address.zip }}, {{ meta.address.city }},
+{{ meta.address.firma }}<br>
+{{ meta.address.street }}<br>
+{{ meta.address.zip }}, {{ meta.address.city }}
 
-Tel: <a href="tel:{{ meta.address.phoneCall }}">{{ meta.address.phoneDisplay }}</a>
+Tel: {{ meta.address.mobileDisplay }}<br>
 E-Mail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
