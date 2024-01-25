@@ -20,6 +20,6 @@ images: # complete path for eleventy img srcset output, alt required
   alt4: Aristo Werbefoto
 links:
   web: https://www.athlon.com
-  linkedin: https://www.linkedin.com/company/athloninternational
+  linkedin: https://www.linkedin.com/company/1343408/
   youtube: https://www.youtube.com/channel/UCTz9mVKgpxvXWjX3So-tk9A
 ---
