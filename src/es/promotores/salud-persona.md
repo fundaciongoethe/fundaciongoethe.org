@@ -23,6 +23,8 @@ links:
   instagram: https://instagram.com/fundacionsaludypersona
   youtube: https://youtube.com/@fundacionsaludypersona
   linkedin: https://linkedin.com/company/fundacionsaludypersona.org
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 La Fundación Salud y Persona es una entidad líder en prestación de servicios psicoemocionales para clientes y empleados de organizaciones. Actualmente ofrecen sus servicios a través de una de red de más de 500 psicólogos que dan cobertura a más de 4.000.000 de personas.

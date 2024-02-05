@@ -14,6 +14,4 @@ links:
   facebook: https://facebook.com/mahlegroup
   instagram: https://instagram.com/mahlegroup
   youtube: https://youtube.com/user/MAHLEZU
-permalink: false
-eleventyExcludeFromCollections: true
 ---

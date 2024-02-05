@@ -23,6 +23,8 @@ links:
   instagram: https://instagram.com/fundacionsaludypersona
   youtube: https://youtube.com/@fundacionsaludypersona
   linkedin: https://linkedin.com/company/fundacionsaludypersona.org
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 Die Fundación Salud y Persona ist eine führende Organisation bei der Bereitstellung von psycho-emotionalen Dienstleistungen für Kunden und Mitarbeiter von Organisationen. Derzeit bieten sie ihre Dienste über ein Netz von mehr als 500 Psychologen an, die mehr als 4.000.000 Menschen betreuen.
