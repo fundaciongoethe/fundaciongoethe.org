@@ -21,11 +21,10 @@ tags: pages
       <div class="relative lg:row-start-1 lg:col-start-2">
         <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
           <figure>
-            <div class="w-full aspect-video lg:aspect-square">
+
               <!-- picture shortcode -->
-              {% Picture images.featured, "bg-gray-200", "fade-in-bottom rounded-lg shadow absolute inset-0 w-full
-              h-auto object-cover rounded-lg", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
-            </div>
+              {% Picture images.featured, "bg-gray-200", "fade-in-bottom aspect-[6/5] lg:aspect-auto w-full rounded-lg object-cover", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
+
             {% if images.credit %}
             <figcaption class="pr-3 flex transform -translate-y-10 text-sm py-1 pl-3 sm:pl-6">
               <!-- Heroicon name: solid/camera -->
