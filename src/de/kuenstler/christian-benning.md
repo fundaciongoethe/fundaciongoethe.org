@@ -5,7 +5,7 @@ customSlug: 'christian-benning'
 excerpt: 'Von der Presse als „phänomenal“ (Süddeutsche Zeitung), „rhythmisches Genie“ (Die ZEIT) und „voller eleganter Perfektion“ (Kōbe Newspaper) gerühmt, finden Auftritte des aufstrebenden Multiperkussionisten Christian Benning weltweit größte Aufmerksamkeit.'
 occupation: 'Multiperkussionist'
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/christian-benning.jpg
+  featured: ./src/assets/images/artists/christian-benning-2.jpg
   alt: Der Künstler sitzt lachend auf der Straße zwischen Perkussionsinstrumenten und jongliert mit Schlegeln
 links:
   web: https://www.christianbenning.de

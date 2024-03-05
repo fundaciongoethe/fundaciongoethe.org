@@ -5,7 +5,7 @@ translationKey: benningbcn24
 customSlug: soundscapes-rhythm-architecture
 venue: [mies]
 artist: [christianbenning]
-city: Madrid
+city: Barcelona
 location: Pabellón Mies van der Rohe
 partners:
   - mies

@@ -5,7 +5,7 @@ translationKey: benningbcn24
 customSlug: paisajes-sonoros-ritmo-y-arquitectura
 venue: [mies]
 artist: [christianbenning]
-city: Madrid
+city: Barcelona
 location: Pabellón Mies van der Rohe
 partners:
   - mies

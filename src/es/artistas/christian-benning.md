@@ -6,7 +6,7 @@ excerpt: 'Elogiado por la prensa como "fenomenal" (Süddeutsche Zeitung), "genio
 occupation: 'multipercusionista'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/christian-benning-2.jpg
-  alt: El artista en un embarcadero, con gafas de sol, tocando un instrumento de percusión
+  alt: El artista está sentado risueño en la calle entre instrumentos de percusión y malabares con mazos
 links:
   web: https://www.christianbenning.de
   twitter:
