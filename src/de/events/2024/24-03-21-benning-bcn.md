@@ -9,17 +9,18 @@ city: Barcelona
 location: Pabellón Mies van der Rohe
 partners:
   - mies
+  - konsulatbarcelona
 date: 2024-03-21 19:30:00
 opening: 2024-03-21 19:00:00
 ending: 2024-03-21 21:00:00
-deadline: 2024-03-21 11:00:00
+deadline: 2024-03-20 11:00:00
 calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pabellon-mies.jpg
   alt: Pabellón Mies van der Rohe
 type: 'Konzert'
-access: Se requiere una invitación personal
+access: Persönliche Einladung erforderlich
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 youtube:

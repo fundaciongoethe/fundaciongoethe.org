@@ -364,4 +364,9 @@ module.exports = {
     url: 'https://corojovenesmadrid.com/',
     logo: './src/assets/images/event-sponsors/coro-jovenes-madrid.jpg',
   },
+  ateneubarcelones: {
+    name: 'Ateneu Barcelonès',
+    url: 'ttps://www.ateneubcn.org',
+    logo: './src/assets/images/event-sponsors/ateneu-logo.png',
+  },
 };
