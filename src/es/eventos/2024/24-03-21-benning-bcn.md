@@ -4,7 +4,7 @@ description: 'Disfruta de un concierto de percusión único presentado por el de
 translationKey: benningbcn24
 customSlug: paisajes-sonoros-ritmo-y-arquitectura
 venue: [mies]
-artist: [christianbenning]
+artist: [christianbenning, manuelkustermann, inigoducar]
 city: Barcelona
 location: Pabellón Mies van der Rohe
 partners:

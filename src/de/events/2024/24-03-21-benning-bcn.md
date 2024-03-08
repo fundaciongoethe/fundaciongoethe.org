@@ -4,7 +4,7 @@ description: 'Erleben Sie ein einzigartiges Percussion-Konzert, präsentiert von
 translationKey: benningbcn24
 customSlug: soundscapes-rhythm-architecture
 venue: [mies]
-artist: [christianbenning]
+artist: [christianbenning, manuelkustermann, inigoducar]
 city: Barcelona
 location: Pabellón Mies van der Rohe
 partners:
