@@ -26,3 +26,5 @@ youtube:
 Ladypower und Entertainment: sistergold bieten musikalische Perfektion und kreatives Gespür für ein grandioses Songprogramm.
 
 Zu hören gibt es Swingklassiker wie „Lady be good“ und „Route 66“, Ausflüge in die Klassik mit Stücken aus Claude Debussys „Childrens Corner“ und Georg Friedrich Händels „Die Königin von Saba“, Musik aus Irland, Brasilien, Argentinien und Israel, aber auch Sting und den Blues Brothers gehören diesmal dazu. Eine wilde Mischung, die widerspiegelt, was sistergold auszeichnet.
+
+Im Anschluss an das Konzert gibt es ein Mittagessen im Restaurant mit Spezialitäten, die das Restaurant anbietet (Tapas und Hähnchen, Getränke inklusive). Das Essen, 22 €/Erwachsener oder 12 €/Kind, wird direkt am Eingang des Restaurants gezahlt.

@@ -28,3 +28,6 @@ Ladypower y entretenimiento: sistergold ofrece perfección musical y talento cre
 Interpretarán clásicos del swing como "Lady be good" y "Route 66", excursiones a la música clásica con piezas de "Childrens Corner" de Claude Debussy y "La reina de Saba" de George Friderich Händel. También se incluye música de Brasil, Argentina e Israel, de Sting y los Blues Brothers.
 
 Una mezcla salvaje que refleja lo que hace especial a sistergold.
+
+Al finalizar el concierto habrá un almuerzo en el restaurante con delicias que ofrece el restaurante (tapas y pollo, bebida incluida).
+Hay que abonar 22€/adulto o 12€/niño directamente en la entrada del restaurante.
