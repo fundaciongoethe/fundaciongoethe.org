@@ -1,5 +1,5 @@
 ---
-title: 'Sistergold el el Pollo de Alcalá'
+title: 'Sistergold en el Pollo de Alcalá'
 description: 'VCuatro músicos profesionales del saxofón que, con sus personalidades y caracteres diferentes, se funden en uno, en su música, en su energía y con una diversión chispeante.'
 translationKey: sistermad24
 customSlug: sistergold-pollo-alcala
@@ -29,5 +29,6 @@ Interpretarán clásicos del swing como "Lady be good" y "Route 66", excursiones
 
 Una mezcla salvaje que refleja lo que hace especial a sistergold.
 
-Al finalizar el concierto habrá un almuerzo en el restaurante con delicias que ofrece el restaurante (tapas y pollo, bebida incluida).
-Hay que abonar 22€/adulto o 12€/niño directamente en la entrada del restaurante.
+**Evento:** Almuerzo en el Pollo de Alcalá (tapas, pollo y bebida incluida), precio 22 22€/adulto o 12€/niño, a pagar directamente en la entrada del restaurante.
+Antes del almuerzo, se celebrará un concierto de sistergold en el mismo lugar.
+
