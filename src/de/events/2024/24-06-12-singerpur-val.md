@@ -13,9 +13,9 @@ partners:
   - sixt
   - lidl
   - konsulatbarcelona
-date: 2024-06-12 19:30:00
-opening: 2024-06-12 19:00:00
-ending: 2024-06-12 21:00:00
+date: 2024-06-12 20:00:00
+opening: 2024-06-12 19:30:00
+ending: 2024-06-12 21:30:00
 deadline: 2024-06-12 11:00:00
 calcDuration: 1.5
 program:
