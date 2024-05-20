@@ -8,8 +8,8 @@ seo:
   image: artists/singer-pur.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/singer-pur.jpg
-  alt: 'Foto alegre de los miembros de Singer Pur en traje formal alrededor de la soprano en un vestido rojo'
-  credit: Christian Palm
+  alt: 'Los seis miembros del grupo sonríen a la cámara. Todos van vestidos de azul, con una mujer al frente. Los demás son hombres. '
+  credit: Michael Reinecke
 links:
   web: https://www.singerpur.de
   twitter:

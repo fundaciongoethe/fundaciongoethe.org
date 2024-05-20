@@ -8,8 +8,8 @@ seo:
   image: artists/singer-pur.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/singer-pur.jpg
-  alt: 'Heiteres Foto der Gruppe im Anzug mit der Sopranistin in einem roten Kleid in ihrer Mitte'
-  credit: Christian Palm
+  alt: 'Die sechs Mitglieder der Gruppe lächeln in die Kamera. Alle sind blau angezogen, ganz vorne steht eine Frau. Die anderen sind Männer. '
+  credit: Michael Reinecke
 links:
   web: https://www.singerpur.de
   twitter:

@@ -369,4 +369,14 @@ module.exports = {
     url: 'ttps://www.ateneubcn.org',
     logo: './src/assets/images/event-sponsors/ateneu-logo.png',
   },
+  iglesiajesuitas: {
+    name: 'Iglesia Jesuitas Valencia',
+    url: 'https://iglesiajesuitasvalencia.org/',
+    logo: './src/assets/images/event-sponsors/iglesia-jesuitas-valencia.jpg',
+  },
+  rossmann: {
+    name: 'Rossmann',
+    url: 'https://www.rossmann.es/',
+    logo: './src/assets/images/event-sponsors/rossmann.png',
+  },
 };
