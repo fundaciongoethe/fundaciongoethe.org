@@ -1,10 +1,10 @@
 ---
-layout: eventonoartist
 title: 'Führung: Ausstellung Suzanne Valadon'
 description: 'Museen erkennen zunehmend die Bedeutung von Frauen in Kunst und Gesellschaft. Ausstellungen wie die des MNAC über Suzanne Valadon (1865-1938) rücken die Kunst von Frauen in den Fokus.'
 translationKey: mnac24
 customSlug: mnac-suzanne-valadon
 venue: [mnac]
+artist: [mercedesvaldivieso]
 city: Barcelona
 location: MNAC
 date: 2024-05-31 18:00:00

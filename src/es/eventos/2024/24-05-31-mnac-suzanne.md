@@ -1,10 +1,10 @@
 ---
-layout: eventonoartist
 title: 'Visita guiada a la exposición Suzanne Valadon'
 description: 'Los museos están reconociendo cada vez más la importancia de las mujeres en el arte y la sociedad. Exposiciones como la del MNAC sobre Suzanne Valadon (1865-1938) están poniendo el arte de las mujeres en el centro de atención.'
 translationKey: mnac24
 customSlug: mnac-suzanne-valadon
 venue: [mnac]
+artist: [mercedesvaldivieso]
 city: Barcelona
 location: MNAC
 date: 2024-05-31 18:00:00

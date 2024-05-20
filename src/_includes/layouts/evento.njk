@@ -184,7 +184,7 @@ tags: pages
 					<!-- picture shortcode -->
 					{% Picture artist.data.images.featured, "bg-gray-200", "fade-in-bottom aspect-[6/5] w-full object-cover", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
         <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 px-3 pb-10">
-          <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"> Künstler </span>
+          <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2">   {{ artist.data.artistTitle or meta[locale].event.artist }}  </span>
           <h2 class="standardtitel uppercase">
             {{ artist.data.title }}
           </h2>
@@ -212,7 +212,7 @@ tags: pages
 					{% Picture artist.data.images.featured, "bg-gray-200", "fade-in-bottom aspect-[6/5] w-full object-cover", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
 
         <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 px-3 pb-10">
-          <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"> Künstler </span>
+          <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2">   {{ artist.data.artistTitle or meta[locale].event.artist }} </span>
           <h2 class="standardtitel uppercase">
             {{ artist.data.title }}
           </h2>
@@ -247,7 +247,7 @@ tags: pages
           class="text-base max-w-prose mx-auto lg:ml-auto lg:mr-0 px-3 xl:pl-16 sm:pr-6 lg:pr-12 xl:pr-20 pt-4 pb-10"
         >
           <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2">
-            {{ meta[locale].event.artist }}
+						{{ meta[locale].event.venue }}
           </span>
           <h2 class="standardtitel uppercase">
             {{ artist.data.title }}
@@ -279,7 +279,7 @@ tags: pages
         <div class="sm:col-start-2 sm:pl-3 xl:pl-12">
           <div class="text-base max-w-prose mx-auto sm:max-w-lg sm:ml-auto sm:mr-0 sm:pr-6 lg:pr-10 xl:pr-20">
             <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2">
-              {{ meta[locale].event.artist }}
+							{{ artist.data.artistTitle or meta[locale].event.artist }}
             </span>
             <h2 class="standardtitel uppercase">
               {{ artist.data.title }}
