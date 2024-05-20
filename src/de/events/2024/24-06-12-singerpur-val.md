@@ -29,6 +29,8 @@ directregister:
 youtube:
 ---
 
+Der Sänger, Komponist, Dichter und Gitarrist Gordon Sumner, der unter dem Namen „Sting“ berühmt wurde, ist seit mittlerweile 45 Jahren eine der weltweit herausragenden Musikergestalten
+
 Er findet begeisterte Zustimmung quer durch die Gesellschaft, generationsübergreifend, und bei Musikern unterschiedlichster Couleur.
 Auch das international erfolgreiche Vokalsextett Singer Pur ist in den Sog von Stings Musik mit ihren intelligenten, poetisch berührenden Texten geraten. Davon zeugt nicht nur die CD, welche die Gruppe dem Musiker gewidmet hat.
 
