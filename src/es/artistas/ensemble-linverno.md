@@ -1,5 +1,5 @@
 ---
-title: "Ensemble L'inverno"
+title: "Cuarteto L'inverno y Benjamin Plag"
 translationKey: 'ensemblelinverno'
 customSlug: 'ensemble-linverno'
 excerpt: 'El Cuarteto de cuerdas L´Inverno fue fundado por directores y solistas de la Staatskapelle Dresden y la Staatskapelle Weimar y está especialmente comprometido con los grandes compositores de la música barroca de Alemania central.'
@@ -7,7 +7,7 @@ occupation: 'Ensemble'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/ensemble-linverno.jpg
   alt: Retrato de los miembros del conjunto
-	credit: ''
+	credit: 'Nikolai Hüsch'
 ---
 
 Como primer concertino de la Staatskapelle Dresden, Matthias Wollong es uno de los violinistas más solicitados del mundo. Tras estudiar en Berlín y Suiza y ganar numerosos concursos, se convirtió en concertino de la Orquesta Sinfónica de la Radio de Berlín antes de trasladarse a Dresde en 1999. Además de sus actuaciones como solista, músico de cámara y director, imparte clases como profesor en la Universidad de Música de Weimar.

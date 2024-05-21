@@ -1,5 +1,5 @@
 ---
-title: 'Ensemble L´Inverno im Palacio Real von Madrid'
+title: 'Quartett L´Inverno und Benjamin Plag in Madrid'
 description: 'Das Streichquartett L´Inverno spielt gemeinsam mit Benjamin Plag ein Konzert auf den berühmten Instrumenten von Antonio Stradivari aus dem Jahre 1696'
 translationKey: invernomad24
 customSlug: ensemble-linverno-palacio-real-madrid
@@ -11,7 +11,7 @@ partners:
   - patrimonio
 date: 2024-06-13 19:30:00
 opening: 2024-06-13 19:00:00
-ending: 2024-06-13 20:30:00
+ending: 2024-06-13 21:00:00
 deadline: 2024-05-31 11:00:00
 calcDuration: 1.5
 program:
