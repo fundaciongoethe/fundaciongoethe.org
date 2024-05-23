@@ -379,4 +379,9 @@ module.exports = {
     url: 'https://www.rossmann.es/',
     logo: './src/assets/images/event-sponsors/rossmann.png',
   },
+  friedenskirche: {
+    name: 'Friedenskirche',
+    url: 'https://www.instagram.com/Friedenskirche.Madrid/',
+    logo: './src/assets/images/event-sponsors/Friedenskirche-logo.jpg',
+  },
 };
