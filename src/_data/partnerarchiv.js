@@ -384,4 +384,9 @@ module.exports = {
     url: 'https://www.instagram.com/Friedenskirche.Madrid/',
     logo: './src/assets/images/event-sponsors/Friedenskirche-logo.jpg',
   },
+  valenciadeutsche: {
+    name: 'Valencia für Deutsche',
+    url: 'https://valenciafuerdeutsche.com/',
+    logo: './src/assets/images/event-sponsors/valencia-deutsche.jpg',
+  },
 };

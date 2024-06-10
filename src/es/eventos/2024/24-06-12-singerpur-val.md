@@ -13,6 +13,7 @@ partners:
   - sixt
   - lidl
   - konsulatbarcelona
+  - valenciadeutsche
 date: 2024-06-12 20:00:00
 opening: 2024-06-12 19:30:00
 ending: 2024-06-12 21:30:00
