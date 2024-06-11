@@ -14,7 +14,7 @@ opening: 2024-06-11 19:30:00
 ending: 2024-06-11 21:30:00
 deadline: 2024-06-11 11:00:00
 calcDuration: 1.5
-program:
+program: 2024-programa-singerpur-madrid.pdf
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-friedenskirche.jpg
   alt: Im Inneren der Kirche

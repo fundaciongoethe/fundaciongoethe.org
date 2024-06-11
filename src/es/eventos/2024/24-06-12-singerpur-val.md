@@ -19,7 +19,7 @@ opening: 2024-06-12 19:30:00
 ending: 2024-06-12 21:30:00
 deadline: 2024-06-12 11:00:00
 calcDuration: 1.5
-program:
+program: 2024-programa-singerpur-valencia.pdf
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/iglesia-jesuitas-valencia.jpg
   alt: Interior de la iglesia
