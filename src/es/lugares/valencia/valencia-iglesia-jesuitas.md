@@ -6,8 +6,8 @@ excerpt: 'La Iglesia Jesuitas Valencia, conocida por su impresionante arquitectu
 city: Valencia
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/iglesia-jesuitas-valencia.jpg
-  alt: Interior de la iglesia
-  credit: iglesiajesuitasvalencia.org
+  alt: Interior de la iglesia, Singer Pur en concierto
+  credit:
 links:
   web: https://iglesiajesuitasvalencia.org
   twitter:
