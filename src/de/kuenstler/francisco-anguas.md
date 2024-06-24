@@ -7,6 +7,7 @@ occupation: 'Schlagzeuger'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/francisco-anguas.jpg
   alt: Porträt von Francisco Anguas. Er lächelt in die Kamera.
+	credit: "Foto: Neda Navaee"
 links:
   web:
 ---
