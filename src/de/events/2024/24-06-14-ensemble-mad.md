@@ -17,8 +17,8 @@ calcDuration: 1.5
 program:
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/palacio-real-madrid.jpg
-  alt: Concierto en la Caplilla Real
-type: 'Concierto'
+  alt: Konzert in der Caplilla Real
+type: 'Konzert'
 access: Kartenverkauf
 infobox: Karten für dieses Konzert können auf der Website von Patrimonio Nacional erworben werden.
 ticketsale: https://tickets.patrimonionacional.es/es/tickets/181066?taxonomies=842102
