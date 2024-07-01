@@ -10,6 +10,7 @@ location: Palacio Real de La Almudaina
 partners:
   - patrimonio
   - kuehne
+  - cuatrecasas
 date: 2024-07-13 21:00:00
 opening: 2024-07-13 20:30:00
 ending: 2024-07-13 22:30:00
@@ -22,7 +23,7 @@ images: # complete path for eleventy img srcset output, alt required
 type: 'Konzert'
 access: Kartenverkauf
 infobox: Karten für dieses Konzert können auf der Website von Patrimonio Nacional erworben werden.
-ticketsale:
+ticketsale: https://tickets.patrimonionacional.es/es/tickets/186794
 youtube:
 ---
 
