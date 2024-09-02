@@ -389,4 +389,9 @@ module.exports = {
     url: 'https://valenciafuerdeutsche.com/',
     logo: './src/assets/images/event-sponsors/valencia-deutsche.jpg',
   },
+  museoromanticismo: {
+    name: 'Museo del Romanticismo',
+    url: 'https://www.cultura.gob.es/mromanticismo/',
+    logo: './src/assets/images/event-sponsors/museo-romanticismo.png',
+  },
 };
