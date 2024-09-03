@@ -82,7 +82,7 @@ h2 {
   @apply mb-5;
 }
 
-.buttonhover {
+/* .buttonhover {
   @apply transform
 	hover:scale-105
 	hover:-translate-y-1
@@ -90,6 +90,11 @@ h2 {
 	transition
 	duration-300
 	ease-in-out;
+} */
+
+.buttonhover:active,
+.blackbutton:active {
+  transform: scale(99%);
 }
 
 .graybadge {
@@ -108,13 +113,9 @@ h2 {
 	no-underline
 	rounded-md
 	text-white
-	bg-black
-	transform
-	hover:scale-105
-	hover:text-white
-	transition
-	duration-300
-	ease-in-out;
+	bg-gray-800
+	hover:text-gray-100
+	hover:bg-black;
 }
 
 .prose {

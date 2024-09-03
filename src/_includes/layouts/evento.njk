@@ -14,18 +14,19 @@ tags: pages
     <div
       class="col-span-5 md:col-span-3 {% if calendarLinks.isFutureEvent %} bg-white md:bg-yellow-300 {% else %} bg-gray-200 {% endif %} sm:rounded-tr-xl sm:mr-3 md:mr-0 px-3 xl:pl-16 2xl:pl-24 md:pr-12 lg:pr-36 xl:pr-44 py-12"
     >
-      {% if calendarLinks.isFutureEvent %}
-      <section class="flex items-center gap-6">
-        <span class="text-sm text-red-600 font-bold tracking-wide uppercase">
-          {{  date | date("Do MMMM yyyy", locale) }}
-        </span>
+		{% if calendarLinks.isFutureEvent %}
+		<section class="flex items-center gap-6">
+			<span class="text-sm text-red-600 font-bold tracking-wide uppercase">
+				{{ date | date("Do MMMM yyyy", locale) }}
+			</span>
 
-        <!-- wenn eventtype -->
-        {% if type %}
-        <span class="uppercase text-xs font-bold text-yellow-900 py-0.5 px-2 bg-yellow-400 rounded-sm">{{ type }}</span>
-      </section>
+			<!-- wenn eventtype -->
+			{% if type %}
+			<span class="uppercase text-xs font-bold text-yellow-900 py-0.5 px-2 bg-yellow-400 rounded-sm">{{ type }}</span>
+			{% endif %}
+		</section>
 
-      {% endif %} {% else %}
+		{% else %}
       <span class="text-sm text-gray-800 bg-red-400 px-2 py-1 rounded-sm font-bold tracking-wide uppercase">
         {{ meta[locale].event.finished }}
       </span>
@@ -177,7 +178,7 @@ tags: pages
             {{ artist.data.title }}
           </h2>
 
-          <div class="mt-8">
+          <div class="mt-4">
             <p>
               {{ artist.data.excerpt }}
             </p>
@@ -197,7 +198,7 @@ tags: pages
       <div class="space-y-4">
 
 					<!-- picture shortcode -->
-					{% Picture artist.data.images.featured, "bg-gray-200", "fade-in-bottom aspect-[6/5] w-full object-cover", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
+					{% Picture artist.data.images.featured, "bg-gray-200", "w-full object-cover aspect-video grayscale", images.alt, "eager", "(min-width: 1024px) 50vw, 100vw" %}
 
         <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 px-3 pb-10">
           <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2">   {{ artist.data.artistTitle or meta[locale].event.artist }} </span>
@@ -205,7 +206,7 @@ tags: pages
             {{ artist.data.title }}
           </h2>
 
-          <div class="mt-8">
+          <div class="mt-4">
             <p>
               {{ artist.data.excerpt }}
             </p>
@@ -223,25 +224,19 @@ tags: pages
     <!--  if 2 artists -->
     <div class="sm:w-1/2">
       <div class="space-y-4">
-        <div
-          class="group block w-full aspect-video bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
-        >
-          <a href="{{ artist.url }}" tabindex="-1">
-            {% Picture artist.data.images.featured,"w-full aspect-video", "grayimg absolute inset-0 w-full h-full
-            object-cover", artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}</a
-          >
-        </div>
+
+            {% Picture artist.data.images.featured,"bg-gray-100", "w-full object-cover aspect-video grayscale", artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
         <div
           class="text-base max-w-prose mx-auto lg:ml-auto lg:mr-0 px-3 xl:pl-16 sm:pr-6 lg:pr-12 xl:pr-20 pt-4 pb-10"
         >
           <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2">
-						{{ meta[locale].event.venue }}
+						{{ artist.data.artistTitle or meta[locale].event.artist }}
           </span>
           <h2 class="standardtitel uppercase">
             {{ artist.data.title }}
           </h2>
 
-          <div class="mt-8">
+          <div class="mt-4">
             <p>
               {{ artist.data.excerpt }}
             </p>
@@ -259,8 +254,7 @@ tags: pages
     <div class="relative w-full flex flex-col">
       <div class="sm:absolute sm:inset-0">
         <div class="sm:absolute sm:inset-y-0 sm:left-0 sm:w-1/2">
-          {% Picture artist.data.images.featured,"bg-gray-100", "filter grayscale w-full object-cover md:absolute h-72
-          sm:h-96 md:h-full", artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
+          {% Picture artist.data.images.featured,"bg-gray-100", "w-full object-cover aspect-video grayscale", artist.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
         </div>
       </div>
       <div class="relative pt-12 pb-16 px-3 sm:pt-16 lg:px-8 sm:max-w-7xl sm:mx-auto sm:grid sm:grid-cols-2">
@@ -273,7 +267,7 @@ tags: pages
               {{ artist.data.title }}
             </h2>
 
-            <div class="mt-8">
+            <div class="mt-4">
               <p>
                 {{ artist.data.excerpt }}
               </p>
@@ -307,12 +301,12 @@ tags: pages
             {{ venue.data.title }}
           </h2>
 
-          <div class="mt-8">
+          <div class="mt-4">
             <p>
               {{ venue.data.excerpt }}
             </p>
 
-            <div class="mt-8">
+            <div class="mt-4">
               <a href="{{ venue.url }}" class="blackbutton">
                 {{ meta[locale].event.readmore }} {{ venue.data.title }}
               </a>
@@ -323,9 +317,8 @@ tags: pages
     </div>
 
     <div class="order-1 md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-      <!-- picture shortcode -->
-      {% Picture venue.data.images.featured,"bg-gray-100", "filter grayscale w-full object-cover md:absolute h-72
-      sm:h-96 md:h-full", venue.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
+
+      {% Picture venue.data.images.featured,"bg-gray-100", "w-full object-cover aspect-video grayscale", venue.data.images.alt, "lazy", "(min-width: 640px) 50vw, 100vw" %}
     </div>
   </div>
   {% endfor %}
