@@ -11,7 +11,7 @@ links:
   web:
 ---
 
-Y, una y otra vez, también se centran en la obra de compositoras. Para ello, conceden gran importancia a facilitar un mejor acceso a la música y al tema respectivo moderando sus programas.
+Y, una y otra vez, también se centran [Heike Bleckmann](/es/artistas/heike-bleckmann/) y [Claus Temps](es/artistas/claus-temps/) en la obra de compositoras. Para ello, conceden gran importancia a facilitar un mejor acceso a la música y al tema respectivo moderando sus programas.
 
 Los programas de conciertos que el dúo ha presentado junto con la Fundación Goethe en España desde 2016 son un reflejo de las actividades artísticas del pianista y la cantante. Con motivo del 15 aniversario de la Fundación Goethe, el dúo fue invitado a la Embajada de Alemania en Madrid en 2016 con el programa «Fausto - una aproximación musical», que versaba sobre el drama Fausto de Goethe y su recepción en la música. El estudio intensivo de este tema ya le había valido al dúo una invitación a un simposio musicológico en la Universidad Nacional de Irlanda Maynooth en 2012; y en 2017 fueron invitados a Argentina y Uruguay con su programa Fausto, incluyendo un concierto en la Embajada de Alemania en Montevideo.
 

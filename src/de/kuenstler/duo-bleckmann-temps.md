@@ -11,7 +11,7 @@ links:
   web:
 ---
 
-Und immer wieder richten sie in ihren Blick auch auf das Schaffen von Komponistinnen. Dabei legen sie Wert darauf, durch Moderation ihrer Programme einen besseren Zugang zur Musik und dem jeweiligen Thema zu ermöglichen.
+Und immer wieder richten [Heike Bleckmann](/de/kuenstler/heike-bleckmann/) und [Claus Temps](/de/kuenstler/claus-temps/) in ihren Blick auch auf das Schaffen von Komponistinnen. Dabei legen sie Wert darauf, durch Moderation ihrer Programme einen besseren Zugang zur Musik und dem jeweiligen Thema zu ermöglichen.
 
 Die Konzertprogramme, die das Liedduo seit 2016 gemeinsam mit der Fondacion Goethe in Spanien präsentiert hat, sind ein Spiegel der künstlerischen Aktivitäten der Pianistin und des Sängers. Zum 15-jährigen Jubiläum der Fondacion Goethe war das Duo im Jahr 2016 in die Deutsche Botschaft Madrid eingeladen mit dem Programm „Faust – eine musikalische Annäherung“, das sich mit Goethes Faust-Drama und seiner Rezeption in der Musik befasste. Die intensive Beschäftigung mit diesem Thema hatte dem Liedduo bereits im Jahr 2012 eine Einladung zu einem musikwissenschaftlichen Symposium der National University of Ireland Maynooth eingebracht; und 2017 wurden sie mit ihrem Faust-Programm nach Argentinien und Uruguay eingeladen, u.a. mit einem Konzert in der Deutschen Botschaft Montevideo.
 
