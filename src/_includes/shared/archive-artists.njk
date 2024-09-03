@@ -2,18 +2,18 @@
   <!-- loop -->
   {% for artist in artists %}
 
-  <li class="card relative truncate buttonhover">
+  <li class="card relative buttonhover">
     <div
       class="group block w-full aspect-square rounded-md bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
     >
       <!-- picture shortcode -->
-      {% Picture artist.data.images.featured," w-full aspect-square ", "grayimg absolute inset-0 w-full h-full
+      {% Picture artist.data.images.featured," w-full aspect-square ", "grayimg aspect-square w-full h-full
       object-cover ", artist.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
 
       <span class="sr-only"> {{ meta[locale].event.readmore }} {{ artist.data.title }}</span>
     </div>
 
-    <h2 class="mt-2 block text-base font-semibold truncate uppercase">
+    <h2 class="mt-2 block text-base font-semibold uppercase">
       <a class="no-underline hover:underline" href="{{ artist.url }}">{{ artist.data.title }}</a>
     </h2>
     <p class="block text-xs text-orange-500 font-semibold tracking-wide uppercase">
