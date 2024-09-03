@@ -4,7 +4,7 @@ description: 'Konzert zum 250. Geburtstag des berühmtesten Malers der deutschen
 translationKey: cdfbarcelona24
 customSlug: caspar-david-friedrich-barcelona
 venue: [degbcn]
-artist: [claustemps, heikebleckmann, ramonnausia]
+artist: [duobleckmanntemps, ramonnausia]
 city: Barcelona
 location: Martin-Luther-Kirche Barcelona
 partners:

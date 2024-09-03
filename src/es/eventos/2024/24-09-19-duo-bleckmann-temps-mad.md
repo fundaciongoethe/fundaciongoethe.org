@@ -4,7 +4,7 @@ description: 'Concierto especial con motivo del 250 aniversario del nacimiento d
 translationKey: cdfmadrid24
 customSlug: caspar-david-friedrich-madrid
 venue: [museoromanticismo]
-artist: [claustemps, heikebleckmann, ramonnausia]
+artist: [duobleckmanntemps, ramonnausia]
 city: Madrid
 location: Museo de Romanticismo
 partners:

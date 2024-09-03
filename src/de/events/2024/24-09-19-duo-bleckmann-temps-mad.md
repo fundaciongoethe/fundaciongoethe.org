@@ -4,7 +4,7 @@ description: 'Konzert zum 250. Geburtstag des berühmtesten Malers der deutschen
 translationKey: cdfmadrid24
 customSlug: caspar-david-friedrich-madrid
 venue: [museoromanticismo]
-artist: [claustemps, heikebleckmann, ramonnausia]
+artist: [duobleckmanntemps, ramonnausia]
 city: Madrid
 location: Museo de Romanticismo
 partners:

@@ -4,9 +4,9 @@ description: 'Concierto especial con motivo del 250 aniversario del nacimiento d
 translationKey: cdfbarcelona24
 customSlug: caspar-david-friedrich-barcelona
 venue: [degbcn]
-artist: [claustemps, heikebleckmann, ramonnausia]
+artist: [duobleckmanntemps, ramonnausia]
 city: Barcelona
-location: Martin-Luther-Kirche Barcelona
+location: Iglesia protestante de habla alemana en Barcelona
 partners:
   - kirchedegbcn
 date: 2024-09-20 19:30:00
@@ -16,7 +16,7 @@ deadline: 2024-09-20 11:00:00
 calcDuration: 1.5
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/deg-barcelona.jpg
-  alt: Patio de la Comunidad Evangélica Germanófona de Barcelona (Iglesia Martín Lutero Barcelona)
+  alt: Patio de la Iglesia protestante de habla alemana en Barcelona
 type: 'Concierto'
 access: Se requiere una invitación personal
 infobox: Evento privado, sólo con invitación personal.
