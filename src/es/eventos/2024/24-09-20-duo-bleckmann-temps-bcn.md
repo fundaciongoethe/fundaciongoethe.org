@@ -9,6 +9,7 @@ city: Barcelona
 location: Iglesia protestante de habla alemana en Barcelona
 partners:
   - kirchedegbcn
+  - lidl
 date: 2024-09-20 19:30:00
 opening: 2024-09-20 19:00:00
 ending: 2024-09-20 21:00:00
