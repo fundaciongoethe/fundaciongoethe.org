@@ -1,11 +1,11 @@
 ---
-title: "Residenz des deutschen Botschafters"
-translationKey: "residenciaembajada"
-customSlug: "residencia-embajador-alemania"
+title: 'Residenz des deutschen Botschafters'
+translationKey: 'residenciaembajada'
+customSlug: 'residencia-embajador-alemania'
 excerpt:
 city: Madrid
 seo: # image relative to /assets/images/
-  title: Residenz des deutschen Botschaftersa
+  title: Residenz des deutschen Botschafters
   description:
   image: /venues/residencia-embajada.jpg
 images: # complete path for eleventy img srcset output, alt required
