@@ -2,7 +2,7 @@
   <!-- loop -->
   {% for venue in venues %}
 
-  <li class="card relative truncate buttonhover">
+  <li class="card relative buttonhover">
     <div
       class="group block w-full aspect-square rounded-md bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
     >
@@ -13,7 +13,7 @@
       <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
     </div>
 
-    <h2 class="mt-2 block text-base font-semibold truncate uppercase">
+    <h2 class="mt-2 block text-base font-semibold uppercase">
       <a class="no-underline hover:underline" href="{{ venue.url }}">{{ venue.data.title }}</a>
     </h2>
     <p class="block text-xs text-orange-500 font-semibold tracking-wide uppercase">
