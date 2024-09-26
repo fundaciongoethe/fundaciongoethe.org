@@ -1,6 +1,6 @@
 ---
 title: 'Duo Gruber/Gruber en La Granja de San Ildefonso'
-description: ''
+description: 'Katharina Gruber y Christian Gruber han emprendido un viaje musical a través de la vida de Kurt Weill en Berlín, París y Nueva York'
 translationKey: duogrubergranjao24
 customSlug: duo-gruber-la-granja-2024
 artist: [duogruber]
@@ -24,3 +24,9 @@ program:
 ticketsale:
 youtube:
 ---
+
+## "Cambios" Canciones de Kurt Weill
+
+Katharina Gruber y Christian Gruber han emprendido un viaje musical a través de la vida de Kurt Weill en Berlín, París y Nueva York, rastreando el genio de Kurt Weill, uno de los compositores más versátiles y exitosos del siglo XX.
+
+Se interpretan grandes canciones de las distintas fases creativas de Weill, como Bilbao-Song, Youkali y Septembersong , que demuestran la capacidad de Weill para absorber constantemente nuevas influencias de las tradiciones musicales más diversas y para hacer frente a unas circunstancias en constante cambio con una creatividad inagotable.

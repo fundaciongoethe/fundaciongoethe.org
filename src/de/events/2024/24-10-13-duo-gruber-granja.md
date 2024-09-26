@@ -1,6 +1,6 @@
 ---
 title: 'Duo Gruber/Gruber in La Granja de San Ildefonso'
-description: ''
+description: 'Katharina Gruber und Christian Gruber spüren dem Genie Kurt Weill, einem der vielseitigsten und erfolgreichsten Komponisten des 20. Jahrhunderts, nach.'
 translationKey: duogrubergranjao24
 customSlug: duo-gruber-la-granja-2024
 artist: [duogruber]
@@ -24,3 +24,9 @@ program:
 ticketsale:
 youtube:
 ---
+
+## "Umbrüche" Songs von Kurt Weill
+
+Katharina Gruber und Christian Gruber haben sich aufgemacht, Kurt Weills Lebensstationen Berlin, Paris und New York musikalisch zu durchwandern und dem Genie Kurt Weill, einem der vielseitigsten und erfolgreichsten Komponisten des 20. Jahrhunderts, nachzuspüren.
+
+Großartige Songs aus Weills verschiedenen Schaffensphasen wie etwa Bilbao-Song, Youkali, oder Septembersong kommen zu Gehör und demonstrieren Weills Fähigkeit, stets neue Einflüsse aus verschiedensten musikalischen Traditionen zu absorbieren und ständig wechselnden Gegebenheiten mit nie versiegender Kreativität zu begegnen.
