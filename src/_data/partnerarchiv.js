@@ -397,6 +397,6 @@ module.exports = {
   requejo: {
     name: 'Pedro Requejo Novoa',
     url: 'http://pedro-requejo-novoa.com/',
-    logo: './src/assets/images/event-sponsors/requejo-logo.png',
+    logo: './src/assets/images/event-sponsors/requejo-logo2.png',
   },
 };
