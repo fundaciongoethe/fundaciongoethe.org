@@ -24,3 +24,7 @@ program:
 ticketsale:
 youtube:
 ---
+
+Concierto con los músicos Katharina Gruber (voz) y Christian Gruber (guitarra), que explorarán las estaciones musicales de Kurt Weill en Berlín, París y Nueva York. El programa incluye canciones famosas de Weill como la Canción de Bilbao, Youkali y la Canción de septiembre, que demuestran su fascinante capacidad para captar y dar forma creativa a una gran variedad de influencias musicales.
+
+Antes y después del concierto, tenemos la oportunidad de conocer al escultor Pedro Requejo Novoa y sus obras, entre ellas sus famosas figuras de bronce de Don Quijote y Sancho, que descansan en un banco frente al Museo Casa Natal de Cervantes en Alcalá de Henares.

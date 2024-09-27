@@ -24,3 +24,7 @@ program:
 ticketsale:
 youtube:
 ---
+
+Konzert mit den Musikern Katharina Gruber (Gesang) und Christian Gruber (Gitarre), die Kurt Weills musikalische Stationen Berlin, Paris und New York erkunden. Auf dem Programm stehen Weills berühmte Lieder wie der Bilbao-Song, Youkali und der Septembersong, die seine faszinierende Fähigkeit zeigen, verschiedenste musikalische Einflüsse aufzunehmen und kreativ zu gestalten.
+
+Vor und nach dem Konzert gibt es die Gelegenheit, den Bildhauer Pedro Requejo Novoa und seine Werke kennenzulernen, darunter seine berühmten Bronzefiguren von Don Quijote und Sancho, die auf einer Bank vor dem Museo Casa Natal de Cervantes in Alcalá de Henares sitzen.
