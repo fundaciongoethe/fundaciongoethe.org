@@ -77,7 +77,7 @@ module.exports = {
       deadline: 'Plazo de inscripción',
       program: 'Descargar programa (PDF)',
       register: 'Inscríbete para participar',
-      sale: 'Comprar entradas',
+      sale: 'Entradas',
       noEvent:
         'Nuestros próximos eventos están en fase de planificación, pero aún no figuran en nuestra página web. Por favor, ¡vuelve pronto!',
     },
@@ -146,7 +146,7 @@ module.exports = {
       deadline: 'Anmeldeschluss',
       program: 'Programm  herunterladen (PDF)',
       register: 'Direkt anmelden',
-      sale: 'Eintrittskarten kaufen',
+      sale: 'Eintrittskarten',
       noEvent:
         'Unsere nächsten Veranstaltungen sind in Planung, aber noch nicht auf unserer Webseite eingetragen. Bitte schauen Sie bald wieder rein!',
     },
