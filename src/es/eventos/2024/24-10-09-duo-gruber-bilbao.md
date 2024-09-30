@@ -9,6 +9,7 @@ location: Itsasmuseum Bilbao
 city: Bilbao
 partners:
   - itsasmuseum
+  - konsulatbilbao
 date: 2024-10-09 18:30:00
 opening: 2024-10-09 18:00:00
 ending: 2024-10-09 20:00:00
