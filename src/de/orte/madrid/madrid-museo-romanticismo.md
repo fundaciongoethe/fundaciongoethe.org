@@ -7,7 +7,7 @@ city: Madrid
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/museo-romanticismo-auditorio.jpg
   alt: Auditorium des Museo del Romanticismo
-	credit: Museo del Romanticismo
+  credit: Museo del Romanticismo
 links:
   web: https://www.cultura.gob.es/mromanticismo/
 ---

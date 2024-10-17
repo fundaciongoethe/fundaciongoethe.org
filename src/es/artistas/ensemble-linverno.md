@@ -7,7 +7,7 @@ occupation: 'Ensemble'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/ensemble-linverno.jpg
   alt: Retrato de los miembros del conjunto
-	credit: 'Nikolai Hüsch'
+  credit: 'Nikolai Hüsch'
 ---
 
 Como primer concertino de la Staatskapelle Dresden, Matthias Wollong es uno de los violinistas más solicitados del mundo. Tras estudiar en Berlín y Suiza y ganar numerosos concursos, se convirtió en concertino de la Orquesta Sinfónica de la Radio de Berlín antes de trasladarse a Dresde en 1999. Además de sus actuaciones como solista, músico de cámara y director, imparte clases como profesor en la Universidad de Música de Weimar.

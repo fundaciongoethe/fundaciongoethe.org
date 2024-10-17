@@ -6,7 +6,7 @@ excerpt: 'In der beeindruckenden Krypta der Sagrada Familia entführte das Ensem
 images:
   featured: ./src/assets/images/blog/concierto-navidad-barcelona-2023-01.jpg
   alt: 'Die Krypta der Basilika Sagrada Família, fotografiert vom Eingangsbereich aus, mit allen Plätzen voll besetzt, kurz vor Beginn des Konzerts'
-	credit: 'Nikolai Hüsch'
+  credit: 'Nikolai Hüsch'
 gallery:
   - image: ./src/assets/images/blog/concierto-navidad-barcelona-2023-02.jpg
   - image: ./src/assets/images/blog/concierto-navidad-barcelona-2023-03.jpg

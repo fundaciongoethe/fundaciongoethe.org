@@ -1,5 +1,5 @@
 ---
-title: "Quartett L´Inverno und Benjamin Plag"
+title: 'Quartett L´Inverno und Benjamin Plag'
 translationKey: 'ensemblelinverno'
 customSlug: 'ensemble-linverno'
 excerpt: 'Das Quartett L´Inverno wurde von Stimmführern und Solisten der Staatskapelle Dresden und Weimar gegründet und fühlt sich besonders den großen Komponisten mitteldeutscher Barockmusik verpflichtet.'
@@ -7,7 +7,7 @@ occupation: 'Ensemble'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/ensemble-linverno.jpg
   alt: Portrait der Mitglieder des Ensembles
-	credit: 'Nikolai Hüsch'
+  credit: 'Nikolai Hüsch'
 ---
 
 Als 1.Konzertmeister der Staatskapelle Dresden gehört Matthias Wollong zu den gefragtesten Geigern weltweit. Nach dem Studium in Berlin und in der Schweiz und dem Gewinn zahlreicher Wettbewerbe wurde er zunächst Konzertmeister im Rundfunksinfonieorchester Berlin, bevor er 1999 nach Dresden ging. Neben seinen Auftritten als Solist, Kammermusiker und Dirigent unterrichtet er als Professor an der HfM Weimar.

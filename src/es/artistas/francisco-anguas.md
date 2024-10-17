@@ -7,7 +7,7 @@ occupation: 'Percusionista'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/francisco-anguas.jpg
   alt: Retrato de Francisco Anguas sonriendo
-	credit: "Neda Navaee"
+  credit: 'Neda Navaee'
 links:
   web:
 ---

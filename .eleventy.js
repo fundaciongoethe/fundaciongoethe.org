@@ -30,7 +30,7 @@ const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
   // Filters
   Object.keys(filters).forEach((filterName) => {
     eleventyConfig.addFilter(filterName, filters[filterName]);

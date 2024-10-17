@@ -5,7 +5,7 @@ translationKey: 'navidadmad23'
 excerpt: "In der beeindruckenden Basílica la Milagrosa entfaltete das Ensemble L'inverno eine zauberhafte Weihnachtsatmosphäre mit Werken von Bach, Mozart und Händel."
 images:
   featured: ./src/assets/images/blog/concierto-navidad-madrid-2023-09.jpg
-	alt: "Eine Schlange von Menschen an der Tür der Basílica la Milagrosa, vor dem diesjährigen Weihnachtskonzert"
+  alt: 'Eine Schlange von Menschen an der Tür der Basílica la Milagrosa, vor dem diesjährigen Weihnachtskonzert'
 gallery:
   - image: ./src/assets/images/blog/concierto-navidad-madrid-2023-02.jpg
   - image: ./src/assets/images/blog/concierto-navidad-madrid-2023-03.jpg
