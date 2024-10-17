@@ -17,7 +17,7 @@ deadline: 2023-10-13 11:00:00
 calcDuration: 1
 program:
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-basilica-atocha.jpg
+  featured: ./src/assets/images/venues/mad-basilica-atocha2.jpeg
   alt: Real Basílica de Nuestra de Atocha
   credit:
 access: Persönliche Einladung erforderlich

@@ -399,4 +399,9 @@ module.exports = {
     url: 'http://pedro-requejo-novoa.com/',
     logo: './src/assets/images/event-sponsors/requejo-logo2.png',
   },
+  monteverdi: {
+    name: 'Monteverdi-Chor Hamburg',
+    url: 'https://www.monteverdi-chor.de/',
+    logo: './src/assets/images/event-sponsors/monteverdi-logo.png',
+  },
 };

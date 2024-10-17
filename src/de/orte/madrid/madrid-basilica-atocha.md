@@ -5,9 +5,9 @@ customSlug: 'real-basilica-nuestra-senora-atocha'
 excerpt: Die Königliche Basilika Unserer Lieben Frau von Atocha befindet sich in Avenida de la Ciudad de Barcelona, an der Stelle des ehemaligen Klosters des Predigerordens Unserer Lieben Frau von Atocha, das wiederum das ursprüngliche Einsiedlerheiligtum beherbergte, in dem die Jungfrau von Atocha verehrt wurde.
 city: Madrid
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-basilica-atocha.jpg
-  alt: önigliche Basilika Unserer Lieben Frau von Atocha
-  credit: FDV - CC BY-SA 4.0
+  featured: ./src/assets/images/venues/mad-basilica-atocha2.jpeg
+  alt: Königliche Basilika Unserer Lieben Frau von Atocha
+  credit:
 links:
   web: https://www.basilicadeatocha.es
   twitter:
