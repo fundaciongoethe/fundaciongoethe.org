@@ -35,5 +35,3 @@ Ein Stipendium der Neuen Jazzschool München ermöglichte Katharina im Jahr 2017
 Nach Abschluss ihrer Ausbildung übernahm die Neue Jazzschool Katharina als Gesangslehrerin für ihr offenes Unterrichtsprogramm.
 
 Mit ihrem Vater Christian Gruber präsentiert sie das Programm _A Tribute to Edith Piaf, Ella Fitzgerald, Carole King and Joni Mitchell_, eine Verneigung vor den Sängerinnen/Songschreiberinnen, die ihre stimmliche Entwicklung und ihr musikalisches Verständnis am meisten geprägt haben.
-
-    {% youtube 'gaOgHiIgBY8', 'Katharina Gruber y Christian Gruber ' %}
