@@ -7,8 +7,9 @@ occupation: 'Gitarre und Gesang'
 seo:
   image: artists/duo-gruber.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/duo-gruber.jpg
+  featured: ./src/assets/images/artists/duo-gruber-2.jpg
   alt: Duo Gruber
+  credit: Mireia Miralles
 links:
   web: https://christian-gruber-gitarre.de
   web2: https://katharinagruber.de

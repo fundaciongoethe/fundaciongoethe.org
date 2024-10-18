@@ -7,7 +7,7 @@ city: Alcalá de Henares
 seo: # image relative to /assets/images/
   image: /venues/alcala-requejo.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/alcala-requejo2.jpeg
+  featured: ./src/assets/images/venues/alcala-requejo.jpg
   alt: Estatua de Don Quijote
   credit:
 links:

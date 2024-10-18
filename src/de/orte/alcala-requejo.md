@@ -5,7 +5,7 @@ customSlug: 'arthouse-requejo'
 excerpt: 'Das Requejo Art House, am Monte Gurugú bei Alcalá de Henares gelegen, ist das Zentrum für Kunst, Musik und Kultur, geschaffen vom renommierten Bildhauer Pedro Requejo Novoa.'
 city: Alcalá de Henares
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/alcala-requejo2.jpeg
+  featured: ./src/assets/images/venues/alcala-requejo.jpg
   alt: Estatua de Don Quijote
   credit:
 links:
