@@ -402,6 +402,6 @@ module.exports = {
   monteverdi: {
     name: 'Monteverdi-Chor Hamburg',
     url: 'https://www.monteverdi-chor.de/',
-    logo: './src/assets/images/event-sponsors/monteverdi-logo.png',
+    logo: './src/assets/images/event-sponsors/monteverdi-logo.jpg',
   },
 };
