@@ -8,6 +8,7 @@ venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
 partners:
+  - konsulatbilbao
   - monteverdi
 date: 2024-10-30 19:00:00
 opening: 2024-10-30 18:30:00
@@ -21,7 +22,8 @@ type: 'Concierto'
 access: Venta de entradas
 infobox: Para cubrir gastos, pedimos una donación por la participación en este concierto. Esto es crucial para la logística, la seguridad y la organización de los eventos. El precio de las entradas no cubrirá el coste total de los actos, pero contribuirá a la sostenibilidad a largo plazo de nuestros programas culturales. Te agradecemos tu comprensión y apoyo.
 program:
-ticketsale:
+ticketsale: https://www.eventbrite.es/e/coro-monteverdi-de-hamburgo-en-bilbao-tickets-1049494374927
+directregister:
 youtube: true
 ---
 

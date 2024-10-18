@@ -23,6 +23,7 @@ access: Se requiere una invitación personal
 infobox: Evento privado, sólo con invitación personal.
 program:
 ticketsale:
+directregister:
 youtube: true
 ---
 

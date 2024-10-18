@@ -23,6 +23,7 @@ access: Persönliche Einladung erforderlich
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 program:
 ticketsale:
+directregister: https://www.eventbrite.es/e/coro-monteverdi-de-hamburgo-en-pamplona-tickets-1049509239387
 youtube: true
 ---
 
