@@ -19,8 +19,8 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mad-basilica-atocha2.jpeg
   alt: Real Basílica de Nuestra de Atocha
 type: 'Concierto'
-access: Se requiere una invitación personal
-infobox: Evento privado, sólo con invitación personal.
+access: Entrada libre
+infobox: Entrada libre hasta completar aforo permitido. Asiento reservado solo con invitación personal de la Fundación Goethe.
 program:
 ticketsale:
 directregister:
