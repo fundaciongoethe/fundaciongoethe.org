@@ -19,8 +19,8 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/pamplona-san-saturnino.jpg
   alt: Parroquia de San Saturnino
 type: 'Concierto'
-access: Se requiere una invitación personal
-infobox: Evento privado, sólo con invitación personal.
+access: Entrada libre
+infobox: Entrada libre hasta completar aforo permitido.
 program:
 ticketsale:
 directregister: https://www.eventbrite.es/e/coro-monteverdi-de-hamburgo-en-pamplona-tickets-1049509239387
