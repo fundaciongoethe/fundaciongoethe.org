@@ -1,25 +1,22 @@
 ---
-title: 'Weihnachtskonzert in Madrid'
+title: 'Weihnachtskonzert in Bilbao'
 description: 'Erleben Sie die Magie von Voces Graves de Madrid, einem der renommiertesten Männerchöre Spaniens, mit über 30 Jahren Leidenschaft für die Musik.'
-translationKey: navidad24madrid
-customSlug: weihnachtskonzert-madrid-2024
+translationKey: navidad24bilbao
+customSlug: weihnachtskonzert-bilbao-2024
 artist: [corovocesgraves]
-venue: [lamilagrosa]
-location: Basilica Parroquia La Milagrosa
-city: Madrid
+venue: [encarnacion]
+location: Iglesia de la Encarnación
+city: Bilbao
 partners:
   - lidl
-  - mediolanum
-  - milagrosa
-  - corograves
-date: 2024-12-11 20:45:00
-opening: 2024-12-11 20:30:00
-ending: 2024-12-11 22:15:00
-deadline: 2024-12-11 11:00:00
+date: 2025-01-03 18:30:00
+opening: 2025-01-03 19:00:00
+ending: 2025-01-03 20:30:00
+deadline: 2025-01-03 11:00:00
 calcDuration: 1.5
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/mad-lamilagrosa.jpg
-  alt: Basilica Parroquia La Milagrosa
+  featured: ./src/assets/images/venues/iglesia-encarnacion.jpg
+  alt: Iglesia de la Encarnación
 type: 'Konzert'
 access: Persönliche Einladung erforderlich
 infobox: Private Veranstaltung, nur mit persönlicher Einladung.
@@ -34,3 +31,4 @@ Erleben Sie die Magie von **Coro de Voces Graves de Madrid**, einem der renommie
 In diesem besonderen Weihnachtskonzert erwarten Sie drei Programmteile, die Sie auf eine musikalische Reise durch verschiedene Epochen und Stile führen.: von der Renaissance-Musik zur sakralen Weihnachtsmusik bis zu zeitgenössischen Komponisten.
 
 Abschließend erklingen traditionelle Weihnachtslieder aus verschiedenen Ländern, eigens für Männerchor arrangiert. Ein festlicher Abschluss, der die Vielfalt und Freude der Weihnacht feiert.
+Nach dem Konzert laden wir zu typisch deutschem Glühwein und Lebkuchen ein.
