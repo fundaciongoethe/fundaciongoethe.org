@@ -11,6 +11,7 @@ partners:
   - lidl
   - mediolanum
   - milagrosa
+  - corograves
 date: 2024-12-11 20:45:00
 opening: 2024-12-11 20:30:00
 ending: 2024-12-11 22:15:00
@@ -28,7 +29,7 @@ directregister:
 youtube: false
 ---
 
-Erleben Sie die Magie von **Voces Graves de Madrid**, einem der renommiertesten Männerchöre Spaniens, mit über 30 Jahren Leidenschaft für die Musik. Über 300 Konzerte und 20 nationale und internationale Auszeichnungen haben diesen Chor bei Publikum und Kritik gleichermaßen beliebt gemacht.
+Erleben Sie die Magie von **Coro de Voces Graves de Madrid**, einem der renommiertesten Männerchöre Spaniens, mit über 30 Jahren Leidenschaft für die Musik. Über 300 Konzerte und 20 nationale und internationale Auszeichnungen haben diesen Chor bei Publikum und Kritik gleichermaßen beliebt gemacht.
 
 In diesem besonderen Weihnachtskonzert erwarten Sie drei Programmteile, die Sie auf eine musikalische Reise durch verschiedene Epochen und Stile führen.: von der Renaissance-Musik zur sakralen Weihnachtsmusik bis zu zeitgenössischen Komponisten.
 

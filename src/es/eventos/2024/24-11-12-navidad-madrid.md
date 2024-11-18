@@ -11,6 +11,7 @@ partners:
   - lidl
   - mediolanum
   - milagrosa
+  - corograves
 date: 2024-12-11 20:45:00
 opening: 2024-12-11 20:30:00
 ending: 2024-12-11 22:15:00
@@ -28,7 +29,7 @@ directregister:
 youtube: false
 ---
 
-Viva la magia de **Voces Graves de Madrid**, uno de los coros masculinos más reconocidos de España, con más de 30 años de pasión por la música. Más de 300 conciertos y 20 premios nacionales e internacionales han hecho de este coro uno de los favoritos de público y crítica.
+Viva la magia de **Coro de Voces Graves de Madrid**, uno de los coros masculinos más reconocidos de España, con más de 30 años de pasión por la música. Más de 300 conciertos y 20 premios nacionales e internacionales han hecho de este coro uno de los favoritos de público y crítica.
 
 En este concierto especial de Navidad, te esperan tres secciones de programa que te llevarán en un viaje musical a través de diferentes épocas y estilos: desde la música renacentista hasta la música sacra navideña y los compositores contemporáneos.
 

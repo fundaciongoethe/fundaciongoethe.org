@@ -10,6 +10,7 @@ city: Barcelona
 partners:
   - ahk
   - lidl
+  - corograves
 date: 2024-12-13 19:30:00
 opening: 2024-12-13 20:00:00
 ending: 2024-12-13 21:30:00
@@ -27,7 +28,7 @@ directregister:
 youtube: false
 ---
 
-Viva la magia de **Voces Graves de Madrid**, uno de los coros masculinos más reconocidos de España, con más de 30 años de pasión por la música. Más de 300 conciertos y 20 premios nacionales e internacionales han hecho de este coro uno de los favoritos de público y crítica.
+Viva la magia de **Coro de Voces Graves de Madrid**, uno de los coros masculinos más reconocidos de España, con más de 30 años de pasión por la música. Más de 300 conciertos y 20 premios nacionales e internacionales han hecho de este coro uno de los favoritos de público y crítica.
 
 En este concierto especial de Navidad, te esperan tres secciones de programa que te llevarán en un viaje musical a través de diferentes épocas y estilos: desde la música renacentista hasta la música sacra navideña y los compositores contemporáneos.
 
