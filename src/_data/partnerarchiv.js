@@ -404,4 +404,14 @@ module.exports = {
     url: 'https://www.monteverdi-chor.de/',
     logo: './src/assets/images/event-sponsors/monteverdi-logo.jpg',
   },
+  elecnor: {
+    name: 'Grupo Elecnor',
+    url: 'https://www.grupoelecnor.com/',
+    logo: './src/assets/images/event-sponsors/elecnor-logo.png',
+  },
+  hitzkopf: {
+    name: 'Hitzkopf',
+    url: 'https://hitzkopf.com/',
+    logo: './src/assets/images/event-sponsors/hitzkopf-logo.png',
+  },
 };

@@ -1,14 +1,18 @@
 ---
-title: 'Weihnachtskonzert in Bilbao'
-description: 'Erleben Sie die Magie von Voces Graves de Madrid, einem der renommiertesten Männerchöre Spaniens, mit über 30 Jahren Leidenschaft für die Musik.'
+title: 'Neujahrskonzert in Bilbao'
+description: 'Erleben Sie ein unvergessliches Neujahrskonzert voller stimmungsvoller Musik und festlicher Magie! '
 translationKey: navidad24bilbao
-customSlug: weihnachtskonzert-bilbao-2024
-artist: [corovocesgraves]
+customSlug: neujahrskonzert-bilbao-2025
+artist: [gregorjenne, jonathanhanke, thaliahellfritsch]
 venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
 partners:
   - lidl
+  - kpmg
+  - elecnor
+  - konsulatbilbao
+  - hitzkopf
 date: 2025-01-03 19:00:00
 opening: 2025-01-03 18:30:00
 ending: 2025-01-03 20:30:00
@@ -26,9 +30,8 @@ directregister:
 youtube: false
 ---
 
-Erleben Sie die Magie von **Coro de Voces Graves de Madrid**, einem der renommiertesten Männerchöre Spaniens, mit über 30 Jahren Leidenschaft für die Musik. Über 300 Konzerte und 20 nationale und internationale Auszeichnungen haben diesen Chor bei Publikum und Kritik gleichermaßen beliebt gemacht.
+Erleben Sie ein unvergessliches Neujahrskonzert voller stimmungsvoller Musik und festlicher Magie! Das Programm vereint die schönsten Weihnachtslieder aus aller Welt und schafft eine einzigartige Atmosphäre, die Tradition und Moderne harmonisch verbindet.
 
-In diesem besonderen Weihnachtskonzert erwarten Sie drei Programmteile, die Sie auf eine musikalische Reise durch verschiedene Epochen und Stile führen.: von der Renaissance-Musik zur sakralen Weihnachtsmusik bis zu zeitgenössischen Komponisten.
+Die talentierten Nachwuchsmusiker aus Deutschland – Mezzosopranistin Thalia Hellfritsch, Tenor Gregor Jenne und Pianist Jonathan Hanke – sorgen mit ihrem Können und ihrer Leidenschaft für unvergessliche musikalische Momente.
 
-Abschließend erklingen traditionelle Weihnachtslieder aus verschiedenen Ländern, eigens für Männerchor arrangiert. Ein festlicher Abschluss, der die Vielfalt und Freude der Weihnacht feiert.
-Nach dem Konzert laden wir zu typisch deutschem Glühwein und Lebkuchen ein.
+Lassen Sie sich von zauberhaften Klängen in die Weihnachtszeit entführen und begrüßen Sie das neue Jahr mit einem strahlenden Lächeln!
