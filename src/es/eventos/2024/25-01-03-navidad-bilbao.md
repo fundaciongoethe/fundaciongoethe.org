@@ -8,11 +8,12 @@ venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
 partners:
-  - lidl
-  - kpmg
   - elecnor
-  - konsulatbilbao
+  - kpmg
+  - lidl
   - hitzkopf
+  - haribo
+  - konsulatbilbao
 date: 2025-01-03 19:00:00
 opening: 2025-01-03 18:30:00
 ending: 2025-01-03 20:30:00
