@@ -412,6 +412,6 @@ module.exports = {
   hitzkopf: {
     name: 'Hitzkopf',
     url: 'https://hitzkopf.com/',
-    logo: './src/assets/images/event-sponsors/hitzkopf-logo.png',
+    logo: './src/assets/images/event-sponsors/hitzkopf-logo.jpg',
   },
 };
