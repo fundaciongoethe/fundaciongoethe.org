@@ -3,7 +3,7 @@ title: 'Neujahrskonzert in Bilbao'
 description: 'Erleben Sie ein unvergessliches Neujahrskonzert voller stimmungsvoller Musik und festlicher Magie! '
 translationKey: navidad24bilbao
 customSlug: neujahrskonzert-bilbao-2025
-artist: [gregorjenne, jonathanhanke, thaliahellfritsch]
+artist: [jonathanhanke, thaliahellfritsch]
 venue: [encarnacion]
 location: Iglesia de la Encarnación
 city: Bilbao
@@ -33,6 +33,6 @@ youtube: false
 
 Erleben Sie ein unvergessliches Neujahrskonzert voller stimmungsvoller Musik und festlicher Magie! Das Programm vereint die schönsten Weihnachtslieder aus aller Welt und schafft eine einzigartige Atmosphäre, die Tradition und Moderne harmonisch verbindet.
 
-Die talentierten Nachwuchsmusiker aus Deutschland – Mezzosopranistin Thalia Hellfritsch, Tenor Gregor Jenne und Pianist Jonathan Hanke – sorgen mit ihrem Können und ihrer Leidenschaft für unvergessliche musikalische Momente.
+Die talentierten Nachwuchsmusiker aus Deutschland – Mezzosopranistin Thalia Hellfritsch und Pianist Jonathan Hanke – sorgen mit ihrem Können und ihrer Leidenschaft für unvergessliche musikalische Momente.
 
 Lassen Sie sich von zauberhaften Klängen in die Weihnachtszeit entführen und begrüßen Sie das neue Jahr mit einem strahlenden Lächeln!
