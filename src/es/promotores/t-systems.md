@@ -13,4 +13,6 @@ links:
   twitter: https://twitter.com/TSystems_Iberia
   youtube: https://youtube.com/user/TSystemsIberia
   linkedin: https://linkedin.com/company/tsystems-iberia
+permalink: false
+eleventyExcludeFromCollections: true
 ---

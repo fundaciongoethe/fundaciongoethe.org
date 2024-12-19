@@ -1,3 +1,18 @@
+
+{% set allSponsors = collections["sponsors_" + locale] %}
+
+{# Separate Premium Sponsors #}
+{% set premiumSponsors = [] %}
+{% set regularSponsors = [] %}
+
+{% for sponsor in allSponsors %}
+  {% if sponsor.data.premium %}
+    {% set premiumSponsors = premiumSponsors.concat([sponsor]) %}
+  {% else %}
+    {% set regularSponsors = regularSponsors.concat([sponsor]) %}
+  {% endif %}
+{% endfor %}
+
 <div class="relative mx-auto max-w-4xl bg-gray-50">
   {% if sponsorlist.title %}
   <div class="{{ sponsorlist.direction or 'text-center' }}">
@@ -8,24 +23,46 @@
   </div>
   {% endif %}
 
-  <div
-    class="sponsorlist | mt-6 grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 ' }} lg:mt-8"
-  >
-    <!-- get current locale from meta.languages -->
-    {% set sponsors = collections["sponsors_" + locale] %} {% for sponsor in sponsors %}
 
-    <figure>
-			<!-- hover styles are handled in _custom.css -->
-      <a
-        href="{{ sponsor.url }}"
-        class="buttonhover col-span-1 flex justify-center py-4 px-4 "
-      >
-        <!-- picture shortcode gr -->
-        {% Picture sponsor.data.images.logo, "bg-transparent", "object-cover grayimg ", sponsor.data.title, "lazy",
-        "(min-width: 60rem) 170px, 20vw" %}
-      </a>
-    </figure>
+  <div class="sponsorlist | mt-6 lg:mt-8">
 
-    {%- endfor -%}
+    {# Premium Sponsors Section #}
+    {% if premiumSponsors.length %}
+    <div class="flex items-center my-6">
+      <div class="flex-grow border-t border-gray-300"></div>
+      <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.premium }}</h3>
+      <div class="flex-grow border-t border-gray-300"></div>
+    </div>
+      <div class="premium-sponsors | grid gap-0.5 {{ sponsorlist.gridsPremium or 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4' }} ">
+        {% for sponsor in premiumSponsors %}
+          <figure class="premium-sponsor">
+            <a href="{{ sponsor.url }}" class="buttonhover flex justify-center py-6 px-6">
+              {% Picture sponsor.data.images.logo, "bg-transparent", "object-cover grayimg", sponsor.data.title, "lazy",
+              "(min-width: 60rem) 220px, 25vw" %}
+            </a>
+          </figure>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {# Regular Sponsors Section #}
+    {% if regularSponsors.length %}
+    <div class="flex items-center my-6">
+      <div class="flex-grow border-t border-gray-300"></div>
+      <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.regular }}</h3>
+      <div class="flex-grow border-t border-gray-300"></div>
+    </div>
+      <div class="regular-sponsors | grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 ' }} ">
+        {% for sponsor in regularSponsors %}
+          <figure>
+            <a href="{{ sponsor.url }}" class="buttonhover flex justify-center py-4 px-4">
+              {% Picture sponsor.data.images.logo, "bg-transparent", "object-cover grayimg", sponsor.data.title, "lazy",
+              "(min-width: 60rem) 170px, 20vw" %}
+            </a>
+          </figure>
+        {% endfor %}
+      </div>
+    {% endif %}
+
   </div>
 </div>

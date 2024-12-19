@@ -24,4 +24,6 @@ links:
   instagram: https://instagram.com/fundacionprosegur
   youtube: https://youtube.com/user/prosegur
   linkedin: https://linkedin.com/company/prosegur
+permalink: false
+eleventyExcludeFromCollections: true
 ---

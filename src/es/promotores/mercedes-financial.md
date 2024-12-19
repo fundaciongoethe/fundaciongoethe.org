@@ -12,6 +12,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt1: Mercedes sede en Alcobendas
 links:
   web:
+premium: true
 ---
 
 **Mercedes-Benz Financial Services España, E.F.C., S.A.U.**

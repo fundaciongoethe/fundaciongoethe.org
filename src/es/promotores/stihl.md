@@ -15,4 +15,5 @@ links:
   instagram: https://instagram.com/stihl_es
   youtube: https://youtube.com/channel/UCLYvXJuZvlpQzXGe9IdvynA
   linkedin: https://linkedin.com/company/stihl-es
+premium: true
 ---

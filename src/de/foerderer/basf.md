@@ -24,4 +24,6 @@ links:
   facebook: https://facebook.com/basf.spain
   instagram: https://instagram.com/basf_es
   linkedin: https://linkedin.com/company/basf
+permalink: false
+eleventyExcludeFromCollections: true
 ---
