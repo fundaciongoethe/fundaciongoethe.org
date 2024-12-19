@@ -14,4 +14,5 @@ links:
   facebook: https://facebook.com/lidlespana
   instagram: https://instagram.com/lidlespana
   youtube: https://youtube.com/user/LIDLEspana
+premium: true
 ---

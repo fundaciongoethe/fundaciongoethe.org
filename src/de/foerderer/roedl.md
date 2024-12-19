@@ -14,6 +14,5 @@ links:
   facebook:
   instagram:
   linkedin:
-permalink: false
-eleventyExcludeFromCollections: true
+premium: true
 ---

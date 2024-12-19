@@ -14,4 +14,5 @@ links:
   facebook: https://facebook.com/munichre
   youtube: https://youtube.com/user/MunichReVideo
   linkedin: https://linkedin.com/company/munich-re
+premium: true
 ---
