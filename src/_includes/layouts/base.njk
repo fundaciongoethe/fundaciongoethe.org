@@ -15,12 +15,12 @@
     {%- include "schemas/base-schema.njk" %}
 
     <!-- 5 synchronous css / inline css  -->
-    {% if meta.isProduction %} {% set css %}{% include "main.min.css" %}{% endset %}
-    <style>
-      {{ css | safe }}
-    </style>
+    {% if meta.isProduction %}
+      {% set css %}{% include "main.min.css" %}{% endset %}
+      <!-- this causes prettier issue -->
+      <style>{{ css | safe }}</style>
     {% else %}
-    <link rel="stylesheet" href="/assets/main.min.css" />
+      <link rel="stylesheet" href="/assets/main.min.css" />
     {% endif %}
 
     <!-- 6 preload -->
@@ -34,27 +34,25 @@
     <link rel="preload" as="image" type="image/svg+xml" href="/assets/svg/logo-goethe20-RGB.svg" />
 
     <!-- preloads in page data -->
-    {%- if preloads -%} {% for preload in preloads %}
-    <link
-      rel="preload"
-      as="{{ preload.as }}"
-      href="{{ preload.href }}"
-      {%
-      if
-      preload.type
-      %}{{
-      preload.type
-      }}{%
-      endif
-      %}
-      {%
-      if
-      preload.crossorigin
-      %}crossorigin{%
-      endif
-      %}
-    />
-    {%- endfor -%} {% endif %}
+    {%- if preloads -%}{% for preload in preloads %}
+      <link
+        rel="preload"
+        as="{{ preload.as }}"
+        href="{{ preload.href }}"
+        {%
+          if
+          preload.type
+        %}
+          {{ preload.type }}
+        {% endif %}
+        {%
+          if
+          preload.crossorigin
+        %}
+          crossorigin
+        {% endif %}
+      />
+    {%- endfor -%}{% endif %}
 
     <!-- 7 defered js  -->
 
@@ -62,56 +60,51 @@
 
     <!-- if audio -->
     {% if audio %}
-    <script
-      src="/assets/audio.js
-    "
-      defer
-    ></script>
+      <script
+        src="/assets/audio.js
+              "
+        defer
+      ></script>
     {% endif %}
 
     <!-- if youtube -->
     {% if youtube %}
-    <script
-      src="/assets/lite-yt-embed.js
-    "
-      defer
-    ></script>
+      <script
+        src="/assets/lite-yt-embed.js
+              "
+        defer
+      ></script>
     {% endif %}
 
     <!-- if validation needed -->
     {% if validate %}
-    <script src="/assets/validate.js" defer></script>
+      <script src="/assets/validate.js" defer></script>
     {% endif %}
 
     <!-- plausible analytics -->
     <script defer data-domain="fundaciongoethe.org" src="https://plausible.io/js/plausible.js"></script>
 
-    <!-- snow -->
-	 <script type="module" src="/assets/snow-fall.js"></script>
-
     <!-- 8 everything else: meta tags, icons, open graph etc.  -->
     {%- include "partials/head.njk" %}
   </head>
   <body class="bg-gray-200">
-
-		<snow-fall></snow-fall>
+    <!-- snow
+	 <script type="module" src="/assets/snow-fall.js">
+    <snow-fall></snow-fall>
+   </script>
+   -->
 
     <a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
 
     <div hidden>{% svgsprite %}</div>
+
     <div class="min-h-full   {{ bgcolor or 'custom-gradient' }}">
       <div
-        class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen {{
-          overflow
-        }} rounded-b-lg"
+        class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen rounded-b-lg"
       >
-        <!-- 				{# topbar + header #}  -->
-
         <header role="banner">{% include "partials/topbar.njk" %} {% include "partials/header.njk" %}</header>
 
-        <div class="flex-grow max-w-full">
-          {{ content | safe }}
-        </div>
+        <div class="flex-grow max-w-full">{{ content | safe }}</div>
         {% include "partials/footer.njk" %}
       </div>
       {% include "partials/credit.njk" %}
