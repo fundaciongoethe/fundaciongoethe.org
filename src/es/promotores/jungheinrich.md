@@ -14,6 +14,4 @@ links:
   facebook: https:/facebook.com/JungheinrichES/
   youtube: https://youtube.com/channel/UCMet5UmBhtQRn5GlF0THB3Q
   linkedin: https://linkedin.com/company/jungheinrich-de-espa-a-s-a-u-
-permalink: false
-eleventyExcludeFromCollections: true
 ---
