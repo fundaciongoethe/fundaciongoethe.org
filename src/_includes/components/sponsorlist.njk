@@ -1,4 +1,3 @@
-
 {% set allSponsors = collections["sponsors_" + locale] %}
 
 {# Separate Premium Sponsors #}
@@ -15,54 +14,49 @@
 
 <div class="relative mx-auto max-w-4xl bg-gray-50">
   {% if sponsorlist.title %}
-  <div class="{{ sponsorlist.direction or 'text-center' }}">
-    <h2 class="standardtitel text-gray-900">{{ sponsorlist.title }}</h2>
-    <p class="standardtext mt-3 sm:mt-4 mx-auto max-w-2xl">
-      {{ sponsorlist.text }}
-    </p>
-  </div>
+    <div class="{{ sponsorlist.direction or 'text-center' }}">
+      <h2 class="standardtitel text-gray-900">{{ sponsorlist.title }}</h2>
+      <p class="standardtext mt-3 sm:mt-4 mx-auto max-w-2xl">{{ sponsorlist.text }}</p>
+    </div>
   {% endif %}
 
-
-  <div class="sponsorlist | mt-6 lg:mt-8">
-
+  <div class="sponsorlist | mt-12">
     {# Premium Sponsors Section #}
     {% if premiumSponsors.length %}
-    <div class="flex items-center my-6">
-      <div class="flex-grow border-t border-gray-300"></div>
-      <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.premium }}</h3>
-      <div class="flex-grow border-t border-gray-300"></div>
-    </div>
-      <div class="premium-sponsors | grid gap-0.5 {{ sponsorlist.gridsPremium or 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4' }} ">
+      <div class="flex items-center my-6">
+        <div class="flex-grow border-t border-gray-300"></div>
+        <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.premium }}</h3>
+        <div class="flex-grow border-t border-gray-300"></div>
+      </div>
+      <div class="premium-sponsors | max-w-prose mx-auto flex flex-wrap gap-10 justify-center">
         {% for sponsor in premiumSponsors %}
-          <figure class="premium-sponsor">
-            <a href="{{ sponsor.url }}" class="buttonhover flex justify-center py-6 px-6">
-              {% Picture sponsor.data.images.logo, "bg-transparent", "object-cover grayimg", sponsor.data.title, "lazy",
-              "(min-width: 60rem) 220px, 25vw" %}
-            </a>
-          </figure>
+          <a href="{{ sponsor.url }}" class="buttonhover flex justify-center items-center max-w-24 md:max-w-44">
+            {%
+              Picture sponsor.data.images.logo, "bg-transparent", "object-cover grayimg", sponsor.data.title, "lazy",
+              "(min-width: 60rem) 220px, 25vw"
+            %}
+          </a>
         {% endfor %}
       </div>
     {% endif %}
 
     {# Regular Sponsors Section #}
     {% if regularSponsors.length %}
-    <div class="flex items-center my-6">
-      <div class="flex-grow border-t border-gray-300"></div>
-      <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.regular }}</h3>
-      <div class="flex-grow border-t border-gray-300"></div>
-    </div>
-      <div class="regular-sponsors | grid gap-0.5 {{ sponsorlist.grids or 'grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 ' }} ">
+      <div class="flex items-center mb-6 mt-10">
+        <div class="flex-grow border-t border-gray-300"></div>
+        <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.regular }}</h3>
+        <div class="flex-grow border-t border-gray-300"></div>
+      </div>
+      <div class="regular-sponsors | max-w-prose mx-auto flex flex-wrap gap-x-8 gap-y-5 md:gap-10 justify-center">
         {% for sponsor in regularSponsors %}
-          <figure>
-            <a href="{{ sponsor.url }}" class="buttonhover flex justify-center py-4 px-4">
-              {% Picture sponsor.data.images.logo, "bg-transparent", "object-cover grayimg", sponsor.data.title, "lazy",
-              "(min-width: 60rem) 170px, 20vw" %}
-            </a>
-          </figure>
+          <a href="{{ sponsor.url }}" class="buttonhover flex justify-center items-center max-w-16 md:max-w-24">
+            {%
+              Picture sponsor.data.images.logo, "bg-transparent", "object-cover grayimg", sponsor.data.title, "lazy",
+              "(min-width: 60rem) 170px, 20vw"
+            %}
+          </a>
         {% endfor %}
       </div>
     {% endif %}
-
   </div>
 </div>

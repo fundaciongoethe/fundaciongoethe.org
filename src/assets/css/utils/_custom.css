@@ -244,11 +244,11 @@ h2 {
   );
 }
 
-.sponsorlist figure a {
+.sponsorlist a {
   @apply grayscale contrast-125 hover:contrast-100 hover:grayscale-0 opacity-60 hover:opacity-100;
 }
 
-.sponsorlist figure a[href*='medinsa'],
-.sponsorlist figure a[href*='salud-persona'] {
+.sponsorlist a[href*='medinsa'],
+.sponsorlist a[href*='salud-persona'] {
   @apply brightness-50 hover:brightness-100;
 }

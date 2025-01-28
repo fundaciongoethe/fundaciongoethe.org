@@ -1,7 +1,9 @@
-<div class="relative bg-gray-900">
+<div class="relative bg-gray-900 mt-10">
   <div class="relative h-56 bg-gray-100 sm:h-72 md:absolute md:left-0 md:h-full md:w-5/12">
-    {% Picture "./src/assets/images/cta/concert.jpg","bg-gray-100", "w-full h-full object-cover", "Concierto de una gran
-    orquesta", "lazy" %}
+    {%
+      Picture "./src/assets/images/cta/concert.jpg","bg-gray-100", "w-full h-full object-cover", "Concierto de una gran
+      orquesta", "lazy"
+    %}
 
     <div
       aria-hidden="true"
@@ -11,12 +13,8 @@
   <div class="relative mx-auto">
     <div class="md:ml-auto md:w-7/12 flex flex-col sm:flex-row">
       <div class="sm:w-7/12 bg-yellow-400 px-3 py-12 sm:px-6 sm:py-10 lg:px-10 lg:py-12">
-        <h2 class="mt-2 text-black standardtitel">
-          {{ promotion.title }}
-        </h2>
-        <p class="standardtext mt-3">
-          {{ promotion.text | safe }}
-        </p>
+        <h2 class="mt-2 text-black standardtitel">{{ promotion.title }}</h2>
+        <p class="standardtext mt-3">{{ promotion.text | safe }}</p>
         <div class="mt-8">
           <div class="inline-flex">
             <a
