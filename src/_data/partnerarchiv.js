@@ -414,4 +414,9 @@ module.exports = {
     url: 'https://hitzkopf.com/',
     logo: './src/assets/images/event-sponsors/hitzkopf-logo.jpg',
   },
+  rcsmm: {
+    name: 'Real Conservatorio Superior de Música de Madrid',
+    url: 'https://rcsmm.eu/',
+    logo: './src/assets/images/event-sponsors/rcsmm.jpg',
+  },
 };
