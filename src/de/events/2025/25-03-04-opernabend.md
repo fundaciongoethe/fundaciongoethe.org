@@ -11,9 +11,9 @@ partners:
   - rcsmm
 type: 'Konzert'
 access: Persönliche Einladung erforderlich
-date: 2025-03-04 16:00:00
-opening: 2025-03-04 15:30:00
-ending: 2025-03-04 18:00:00
+date: 2025-03-04 19:00:00
+opening: 2025-03-04 18:30:00
+ending: 2025-03-04 20:30:00
 deadline: 2025-03-04 11:00:00
 calcDuration: 1.5
 program: 2025-tarde-opera-madrid.pdf
