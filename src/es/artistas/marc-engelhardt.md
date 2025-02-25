@@ -7,6 +7,7 @@ occupation: 'fagot'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/marc-engelhardt.jpg
   alt: Retrato de Marc Engelhardt
+  credit: Hans Georg Fischer
 links:
   web: https://www.marcengelhardt.website
 ---

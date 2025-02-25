@@ -7,6 +7,7 @@ occupation: 'pianista'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/karla-martinez.jpg
   alt: Retrato de Karla Martínez
+  credit: Kirill Bashkirov
 links:
   web: https://karlamartinezpiano.com
 ---

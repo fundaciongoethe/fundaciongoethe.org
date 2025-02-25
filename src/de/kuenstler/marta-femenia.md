@@ -7,6 +7,7 @@ occupation: 'Flötistin'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/marta-femenia.jpg
   alt: Portrait von Marta Femenía
+  credit: Arno Kohlem
 links:
   web: https://www.martafemenia.com
 ---
