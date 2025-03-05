@@ -208,8 +208,6 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('plain', 'layouts/plain.njk');
   eleventyConfig.addLayoutAlias('evento', 'layouts/evento.njk');
   eleventyConfig.addLayoutAlias('event-archive', 'layouts/event-archive.njk');
-  eleventyConfig.addLayoutAlias('eventonoartist', 'layouts/eventonoartist.njk');
-  eleventyConfig.addLayoutAlias('eventonoartistnovenue', 'layouts/eventonoartistnovenue.njk');
   eleventyConfig.addLayoutAlias('artist', 'layouts/artist.njk');
   eleventyConfig.addLayoutAlias('venue', 'layouts/venue.njk');
   eleventyConfig.addLayoutAlias('sponsor', 'layouts/sponsor.njk');
