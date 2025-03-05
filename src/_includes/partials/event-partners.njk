@@ -1,0 +1,28 @@
+{% if partners %}
+  <div class="bg-white pt-12 px-3 lg:px-16">
+    <h2 class="font-bold text-base p-2">{{ meta[locale].event.thanks }}:</h2>
+
+    <div class="border-b border-gray-300">
+      <div class="relative mx-auto">
+        <div class="grid grid-cols-2 content-center gap-0.5 md:grid-cols-7 md:divide-x md:divide-gray-300">
+          <!-- get current locale from meta.languages -->
+          {% for partner in partners %}
+            <figure class="flex items-center">
+              <a
+                ref="nofollow"
+                target="_blank"
+                href="{{ partnerarchiv[partner].url }}"
+                class="buttonhover col-span-1 flex justify-center py-6 px-2 filter grayscale hover:grayscale-0 opacity-75 hover:opacity-100"
+              >
+                {%
+                  Picture partnerarchiv[partner].logo, "bg-transparent", "lazy max-h-16 object-cover",
+                  partnerarchiv[partner].name, "lazy"
+                %}
+              </a>
+            </figure>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

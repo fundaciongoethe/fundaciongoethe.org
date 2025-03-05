@@ -1,0 +1,53 @@
+<div class="py-2 sm:p-0">
+  <dl class="sm:divide-y sm:divide-gray-800 text-xs">
+    <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+      <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.date }}</dt>
+      <dd class="text-gray-50 col-span-3">
+        {{ date | date("dddd", locale) | capitalize }}, {{ date | date("LL", locale) }}
+      </dd>
+    </div>
+
+    {% if calendarLinks.isFutureEvent %}
+      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.entry }}</dt>
+        <dd class="text-gray-50 col-span-3">
+          {{ opening | date("HH:mm", locale) }} ({{ meta[locale].event.start }}
+          {{ date | date("HH:mm", locale) }})
+        </dd>
+      </div>
+
+      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.ending }}</dt>
+        <dd class="text-gray-50 col-span-3">{{ ending | date("HH:mm", locale) }}</dd>
+      </div>
+    {% endif %}
+
+    <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+      <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.artist }}</dt>
+      <dd class="text-gray-50 col-span-3">
+        {% for artist in artistItems %}
+          {{ artist.data.title }}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      </dd>
+    </div>
+
+    {% for venue in venueItems %}
+      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.venue }}</dt>
+        <dd class="text-gray-50 col-span-3">{{ venue.data.title }}</dd>
+      </div>
+
+      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.city }}</dt>
+        <dd class="text-gray-50 col-span-3">{{ venue.data.city }}</dd>
+      </div>
+    {% endfor %}
+
+    {% if deadline and calendarLinks.isFutureEvent %}
+      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.deadline }}</dt>
+        <dd class="text-gray-50 col-span-3">{{ deadline | date("DD.MM.YYYY", locale) }}</dd>
+      </div>
+    {% endif %}
+  </dl>
+</div>

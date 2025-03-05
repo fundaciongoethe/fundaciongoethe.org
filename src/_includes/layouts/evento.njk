@@ -4,45 +4,38 @@ tags: pages
 ---
 
 <!-- Fetch related venue and artist data dynamically -->
-{% set venueItems = helpers.filterCollectionByKeys(collections["venues_" + locale], venue) %}
-{% set artistItems = helpers.filterCollectionByKeys(collections["artists_" + locale], artist) %}
+{% if venue %}
+  {% set venueItems = helpers.filterCollectionByKeys(collections["venues_" + locale], venue) %}
+{% else %}
+  {% set venueItems = [] %}
+{% endif %}
+
+{% if artist %}
+  {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" + locale], artist) %}
+{% else %}
+  {% set artistItems = [] %}
+{% endif %}
 
 <main id="main">
   <div class="lg:mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
     <!-- Event Details Section -->
     <div
-      class="col-span-5 md:col-span-3 {% if calendarLinks.isFutureEvent %}bg-white md:bg-yellow-300{% else %}bg-gray-200{% endif %} sm:rounded-tr-xl sm:mr-3 md:mr-0 px-3 xl:pl-16 2xl:pl-24 md:pr-12 lg:pr-36 xl:pr-44 py-12"
+      class="col-span-5 md:col-span-3 {% if calendarLinks.isFutureEvent %}bg-yellow-200 md:bg-yellow-300{% else %}bg-gray-200{% endif %} sm:rounded-tr-xl sm:mr-3 md:mr-0 px-3 xl:pl-16 2xl:pl-24 md:pr-12 lg:pr-36 xl:pr-44 py-12"
     >
-      <section class="flex items-center gap-6">
-        {% if calendarLinks.isFutureEvent %}
-          <span class="text-sm text-red-600 font-bold tracking-wide uppercase">
-            {{ date | date("Do MMMM yyyy", locale) }}
-          </span>
-        {% else %}
-          <span class="text-sm text-gray-800 bg-red-400 px-2 py-1 rounded-sm font-bold tracking-wide uppercase">
-            {{ meta[locale].event.finished }}
-          </span>
-        {% endif %}
-
-        {% if type %}
-          <span class="uppercase text-xs font-bold text-yellow-900 py-0.5 px-2 bg-yellow-400 rounded-sm">
-            {{ type }}
-          </span>
-        {% endif %}
-      </section>
+      {% if calendarLinks.isFutureEvent %}
+        <span class="text-sm text-red-600 font-bold tracking-wide uppercase">
+          {{ date | date("Do MMMM yyyy", locale) }}
+        </span>
+      {% else %}
+        <span class="text-sm text-gray-800 bg-red-400 px-2 py-1 rounded-sm font-bold tracking-wide uppercase">
+          {{ meta[locale].event.finished }}
+        </span>
+      {% endif %}
 
       <h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
 
       {% if infobox and calendarLinks.isFutureEvent %}
         {% include "components/event-infobox.njk" %}
-      {% endif %}
-
-      {% if directregister and calendarLinks.isFutureEvent %}
-        {% include "components/event-directregister.njk" %}
-      {% endif %}
-
-      {% if ticketsale and calendarLinks.isFutureEvent %}
-        {% include "components/event-ticketsale.njk" %}
       {% endif %}
 
       <div class="standardtext mt-8 prose">{{ content | safe }}</div>
@@ -52,166 +45,16 @@ tags: pages
     <div
       class="col-span-5 transform py-4 px-3 bg-black text-white sm:rounded-t-2xl sm:py-10 sm:ml-3 sm:-mt-6 md:ml-0 md:mt-20 md:col-span-2 md:-translate-x-8 lg:ml-2 xl:ml-1 lg:-translate-x-28 xl:py-12 xl:px-8 2xl:-translate-x-32 2xl:ml-0"
     >
-      <div class="py-2 sm:p-0">
-        <dl class="sm:divide-y sm:divide-gray-800 text-xs">
-          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-            <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.date }}</dt>
-            <dd class="text-gray-50 col-span-3">
-              {{ date | date("dddd", locale) | capitalize }}, {{ date | date("LL", locale) }}
-            </dd>
-          </div>
-
-          {% if calendarLinks.isFutureEvent %}
-            <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-              <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.entry }}</dt>
-              <dd class="text-gray-50 col-span-3">
-                {{ opening | date("HH:mm", locale) }} ({{ meta[locale].event.start }}
-                {{ date | date("HH:mm", locale) }})
-              </dd>
-            </div>
-
-            <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-              <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.ending }}</dt>
-              <dd class="text-gray-50 col-span-3">{{ ending | date("HH:mm", locale) }}</dd>
-            </div>
-          {% endif %}
-
-          <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-            <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.artist }}</dt>
-            <dd class="text-gray-50 col-span-3">
-              {% for artist in artistItems %}
-                {{ artist.data.title }}{% if not loop.last %},{% endif %}
-              {% endfor %}
-            </dd>
-          </div>
-
-          {% for venue in venueItems %}
-            <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-              <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.venue }}</dt>
-              <dd class="text-gray-50 col-span-3">{{ venue.data.title }}</dd>
-            </div>
-
-            <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-              <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.city }}</dt>
-              <dd class="text-gray-50 col-span-3">{{ venue.data.city }}</dd>
-            </div>
-          {% endfor %}
-
-          {% if deadline and calendarLinks.isFutureEvent %}
-            <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-              <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.deadline }}</dt>
-              <dd class="text-gray-50 col-span-3">{{ deadline | date("DD.MM.YYYY", locale) }}</dd>
-            </div>
-          {% endif %}
-        </dl>
-      </div>
+      {% include "partials/event-sidebar.njk" %}
     </div>
   </div>
 
-  <!-- Artist Section -->
-  {% if artistItems | length > 0 %}
-    <section class="border-b">
-      {% if artistItems | length == 1 %}
-        <!-- One Artist: Grid Layout with Image Left, Text Right -->
-        {% for artist in artistItems %}
-          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
-            <div class="aspect-square overflow-hidden">
-              {% Picture artist.data.images.featured, "bg-gray-200", "w-full h-full object-cover grayscale", artist.data.images.alt or artist.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
-            </div>
-            <div class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md self-end">
-              <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
-                {{ artist.data.artistTitle or meta[locale].event.artist }}
-              </span>
-              <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
-              <p class="mt-4">{{ artist.data.excerpt }}</p>
-              <a href="{{ artist.url }}" class="blackbutton mt-6">
-                {{ meta[locale].event.readmore }} {{ artist.data.title }}
-              </a>
-            </div>
-          </div>
-        {% endfor %}
-      {% else %}
-        <!-- Multiple Artists: Grid Layout -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-12 pt-6">
-          {% for artist in artistItems %}
-            <div class="space-y-4">
-              <div class="aspect-square overflow-hidden">
-                {% Picture artist.data.images.featured, "bg-gray-200", "w-full h-full object-cover grayscale", artist.data.images.alt or artist.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
-              </div>
-              <div class="text-base px-3 lg:px-8">
-                <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
-                  {{ artist.data.artistTitle or meta[locale].event.artist }}
-                </span>
-                <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
-                <p class="mt-4">{{ artist.data.excerpt }}</p>
-                <a href="{{ artist.url }}" class="blackbutton mt-6">
-                  {{ meta[locale].event.readmore }} {{ artist.data.title }}
-                </a>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      {% endif %}
-    </section>
-  {% endif %}
+  <!-- Dynamically Include Artist and Venue Sections -->
+  {% include "partials/event-artist.njk" %}
+  {% include "partials/event-venue.njk" %}
 
-  <!-- Venue Section -->
-  {% if venueItems | length > 0 %}
-    {% for venue in venueItems %}
-      <section class="border-b">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <!-- Image (First on Mobile, Second on MD+) -->
-          <div class="aspect-square overflow-hidden md:order-2">
-            {% if venue.data.images and venue.data.images.featured %}
-              {% Picture venue.data.images.featured, "bg-gray-100", "w-full h-full object-cover grayscale", venue.data.images.alt or venue.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
-            {% else %}
-              <div class="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
-                No Image Available
-              </div>
-            {% endif %}
-          </div>
-
-          <!-- Venue Text (Second on Mobile, First on MD+) -->
-          <div class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md md:order-1 place-self-end">
-            <h2 class="standardtitel uppercase">{{ venue.data.title }}</h2>
-            <p class="mt-4">{{ venue.data.excerpt }}</p>
-            <a href="{{ venue.url }}" class="blackbutton mt-6">
-              {{ meta[locale].event.readmore }} {{ venue.data.title }}
-            </a>
-          </div>
-        </div>
-      </section>
-    {% endfor %}
-  {% endif %}
-
-  {% if partners %}
-    <div class="bg-white pt-12 px-3 lg:px-16">
-      <h2 class="font-bold text-base">{{ meta[locale].event.thanks }}:</h2>
-
-      <div class="border-b border-gray-300">
-        <div class="relative mx-auto">
-          <div class="grid grid-cols-2 content-center gap-0.5 md:grid-cols-7 md:divide-x md:divide-gray-300">
-            <!-- get current locale from meta.languages -->
-            {% for partner in partners %}
-              <figure class="flex items-center">
-                <a
-                  ref="nofollow"
-                  target="_blank"
-                  href="{{ partnerarchiv[partner].url }}"
-                  class="buttonhover col-span-1 flex justify-center py-6 px-2 filter grayscale hover:grayscale-0 opacity-75 hover:opacity-100"
-                >
-                  {%
-                    Picture partnerarchiv[partner].logo, "bg-transparent", "lazy max-h-16 object-cover",
-                    partnerarchiv[partner].name, "lazy"
-                  %}
-                </a>
-              </figure>
-            {%- endfor -%}
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endif %}
+  <!-- Partners Section -->
+  {% include "partials/event-partners.njk" %}
 </main>
 
 <!-- Include Schema -->

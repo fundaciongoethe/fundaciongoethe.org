@@ -1,0 +1,45 @@
+{% if artistItems | length > 0 %}
+  <section class="border-b">
+    {% if artistItems | length == 1 %}
+      <!-- One Artist: Grid Layout with Image Left, Text Right -->
+      {% for artist in artistItems %}
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+          <div class="aspect-square overflow-hidden">
+            {% Picture artist.data.images.featured, "bg-gray-200", "w-full h-full object-cover grayscale", artist.data.images.alt or artist.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
+          </div>
+          <div class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md self-end">
+            <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
+              {{ artist.data.artistTitle or meta[locale].event.artist }}
+            </span>
+            <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
+            <p class="mt-4">{{ artist.data.excerpt }}</p>
+            <a href="{{ artist.url }}" class="blackbutton mt-6">
+              {{ meta[locale].event.readmore }} {{ artist.data.title }}
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <!-- Multiple Artists: Grid Layout -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-12 pt-6">
+        {% for artist in artistItems %}
+          <div class="space-y-4">
+            <div class="aspect-square overflow-hidden">
+              {% Picture artist.data.images.featured, "bg-gray-200", "w-full h-full object-cover grayscale", artist.data.images.alt or artist.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
+            </div>
+            <div class="text-base px-3 lg:px-8">
+              <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
+                {{ artist.data.artistTitle or meta[locale].event.artist }}
+              </span>
+              <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
+              <p class="mt-4">{{ artist.data.excerpt }}</p>
+              <a href="{{ artist.url }}" class="blackbutton mt-6">
+                {{ meta[locale].event.readmore }} {{ artist.data.title }}
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </section>
+{% endif %}

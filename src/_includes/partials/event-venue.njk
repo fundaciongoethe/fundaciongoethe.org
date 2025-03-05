@@ -1,0 +1,27 @@
+{% if venueItems | length > 0 %}
+  {% for venue in venueItems %}
+    <section class="border-b">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Image (First on Mobile, Second on MD+) -->
+        <div class="aspect-square overflow-hidden md:order-2">
+          {% if venue.data.images and venue.data.images.featured %}
+            {% Picture venue.data.images.featured, "bg-gray-100", "w-full h-full object-cover grayscale", venue.data.images.alt or venue.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
+          {% else %}
+            <div class="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
+              No Image Available
+            </div>
+          {% endif %}
+        </div>
+
+        <!-- Venue Text (Second on Mobile, First on MD+) -->
+        <div class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md md:order-1 place-self-end">
+          <h2 class="standardtitel uppercase">{{ venue.data.title }}</h2>
+          <p class="mt-4">{{ venue.data.excerpt }}</p>
+          <a href="{{ venue.url }}" class="blackbutton mt-6">
+            {{ meta[locale].event.readmore }} {{ venue.data.title }}
+          </a>
+        </div>
+      </div>
+    </section>
+  {% endfor %}
+{% endif %}
