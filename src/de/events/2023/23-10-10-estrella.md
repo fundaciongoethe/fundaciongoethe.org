@@ -1,5 +1,4 @@
 ---
-layout: eventonoartist
 title: 'Besichtigung der Fabrik von Estrella Damm in Barcelona'
 description: 'Wir besichtigen die Brauerei Estrella Damm und lernen den Brauprozess des Bieres kennen, das aus 100 % natürlichen Zutaten und nach dem Originalrezept von August K. Damm aus dem Jahr 1876 hergestellt wird.'
 translationKey: visitaestrella23

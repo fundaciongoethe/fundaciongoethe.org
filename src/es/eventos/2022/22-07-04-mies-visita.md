@@ -1,5 +1,4 @@
 ---
-layout: eventonoartist
 title: 'Visita guiada al Pabellón Mies van der Rohe'
 description: 'La Fundación Goethe y la Fundació Mies van der Rohe organizan una visita guiada exclusiva al Pabellón Mies van der Rohe. '
 translationKey: visitamies22

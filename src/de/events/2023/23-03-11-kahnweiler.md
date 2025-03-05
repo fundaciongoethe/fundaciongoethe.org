@@ -1,5 +1,4 @@
 ---
-layout: eventonoartist
 title: 'Daniel-Henry Kahnweiler'
 description: 'Wir laden zu einer Führung der Daniel-Henry Kahnweiler Ausstellung im Museo Picasso Barcelona ein.'
 translationKey: kahnweiler

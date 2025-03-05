@@ -1,5 +1,4 @@
 ---
-layout: eventonoartist
 title: Besichtigung der Niederlassung von Transfesa, Hendaya
 description: Ausflugstag mit der Besichtigung der Niederlassung von Transfesa bei Hendaya, dem Besuch des baskischen Eisenbahnmuseums Euskotren in Azpeitia und einer Fahrt mit der historischen Straßenbahn.
 translationKey: visitaguiadatransfesa

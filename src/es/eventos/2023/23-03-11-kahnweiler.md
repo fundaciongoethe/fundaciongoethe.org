@@ -1,5 +1,4 @@
 ---
-layout: eventonoartist
 title: 'Exposición Daniel-Henry Kahnweiler'
 description: 'Invitamos a una visita guiada con la historiadora del arte Prof. Dra. Mercedes Valdivieso al Museo Picasso Barcelona.'
 translationKey: kahnweiler

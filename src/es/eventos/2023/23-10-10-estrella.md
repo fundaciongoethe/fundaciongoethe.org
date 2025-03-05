@@ -1,5 +1,4 @@
 ---
-layout: eventonoartist
 title: 'Visita guiada por la fábrica de Estrella Damm'
 description: 'Visitaremos la fábrica de Estrella Damm y descubriremos el proceso de elaboración de la cerveza, elaborada con ingredientes 100% naturales y según la receta original de August K. Damm de 1876.'
 translationKey: visitaestrella23

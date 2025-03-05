@@ -1,5 +1,4 @@
 ---
-layout: eventonoartist
 title: 'Führung durch den Pavillon Mies van der Rohe'
 description: 'Die Fundación Goethe und die Fundació Mies van der Rohe laden zu einer exklusiven Führung durch den Pavillon ein, die von 1929 bis in die Gegenwart führen wird.'
 translationKey: visitamies22

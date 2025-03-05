@@ -1,5 +1,4 @@
 ---
-layout: eventonoartistnovenue
 title: 'Stadtführung mit Guiding Architects'
 description: 'Wir entdecken Barcelonas nachhaltiges Stadtmodell mit den Augen eines Architekten.'
 translationKey: visitaguiding23

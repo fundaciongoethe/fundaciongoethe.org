@@ -1,5 +1,4 @@
 ---
-layout: eventonoartistnovenue
 title: 'Visita guiada con Guiding Architects'
 description: 'Descubrimos el modelo barcelonés de ciudad sostenible con los ojos de un arquitecto.'
 translationKey: visitaguiding23
