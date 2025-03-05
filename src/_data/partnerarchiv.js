@@ -419,4 +419,9 @@ module.exports = {
     url: 'https://rcsmm.eu/',
     logo: './src/assets/images/event-sponsors/rcsmm.jpg',
   },
+  caixabcn: {
+    name: 'CaixaForum Barcelona',
+    url: 'https://caixaforum.org/es/barcelona',
+    logo: './src/assets/images/event-sponsors/caixa-logo.jpg',
+  },
 };
