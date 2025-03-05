@@ -9,8 +9,9 @@ city: Madrid
 location: RCSMM, Auditorio Manuel de Falla
 partners:
   - rcsmm
-type: 'Konzert'
-access: Persönliche Einladung erforderlich
+type: 'Concierto'
+access: Se requiere una invitación personal
+infobox: Evento privado, sólo con invitación personal.
 date: 2025-03-04 19:00:00
 opening: 2025-03-04 18:30:00
 ending: 2025-03-04 20:30:00
@@ -20,7 +21,6 @@ program: 2025-opernabend-madrid.pdf
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/rcsmm-venue.jpg
   alt: RCSMM, Auditorio Manuel de Falla
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 directregister:
 youtube:
 ---
