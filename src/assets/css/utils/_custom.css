@@ -154,12 +154,23 @@ h2 {
   margin-top: 0.8571429em;
 }
 
-.prose ul > li::before {
-  @apply bg-orange-500;
+/* Default unordered list styling inside .prose */
+.prose ul {
+  @apply list-none pl-0;
 }
 
+.prose ul > li {
+  @apply relative pl-6 text-black;
+}
+
+.prose ul > li::before {
+  content: '–';
+  @apply absolute left-0 top-0 text-black bg-transparent;
+}
+
+/* Ordered lists (if you want different styling) */
 .prose ol > li::before {
-  @apply text-orange-500;
+  @apply text-black;
 }
 
 .prose blockquote {

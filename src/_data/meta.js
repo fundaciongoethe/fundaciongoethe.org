@@ -61,6 +61,7 @@ module.exports = {
     event: {
       artist: 'Artista',
       venue: 'Lugar',
+      city: 'Ciudad',
       readmore: 'Más sobre',
       type: 'Tipo de evento',
       date: 'Fecha',
@@ -129,6 +130,7 @@ module.exports = {
     event: {
       artist: 'Künstler*in',
       venue: 'Ort',
+      city: 'Stadt',
       readmore: 'Mehr über',
       type: 'Art des Events',
       date: 'Datum',
