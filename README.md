@@ -10,7 +10,7 @@ Live website: [www.fundaciongoethe.org](https://www.fundaciongoethe.org/es/)
 
 ### Install dependencies
 
-```
+```bash
 npm install
 ```
 
@@ -18,7 +18,7 @@ npm install
 
 Starts watch tasks to compile when changes detected
 
-```
+```bash
 npm start
 ```
 
@@ -26,8 +26,6 @@ npm start
 
 Minify HTML, minify JS, inline and minify CSS.
 
-```
+```bash
 npm run build
 ```
-
----

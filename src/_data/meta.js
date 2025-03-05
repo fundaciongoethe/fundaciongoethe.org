@@ -105,6 +105,14 @@ module.exports = {
       datos: 'He leído la política de privacidad y acepto recibir invitaciones por correo electrónico.',
     },
     gallery: 'Galería',
+    ordering: {
+      orderBy: 'Ordenar por',
+      city: 'Ciudad (A-Z)',
+      namePlace: 'Nombre del lugar (A-Z)',
+      nameArtist: 'Nombre (A-Z)',
+      random: 'Aleatorio',
+      type: 'Ocupación (A-Z)',
+    },
   },
   de: {
     localeCode: 'de_DE',
@@ -175,6 +183,14 @@ module.exports = {
         'Ich habe die Datenschutzerklärung zur Kenntnis genommen und bin damit einverstanden, per E-Mail Einladungen zu erhalten.',
     },
     gallery: 'Galerie',
+    ordering: {
+      orderBy: 'Sortieren nach',
+      city: 'Stadt (A-Z)',
+      namePlace: 'Ortsname (A-Z)',
+      nameArtist: 'Name (A-Z)',
+      random: 'Zufall',
+      type: 'Kunstart (A-Z)',
+    },
   },
 
   isProduction: process.env.ELEVENTY_ENV === 'production',

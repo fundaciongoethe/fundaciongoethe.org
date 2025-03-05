@@ -1,25 +1,59 @@
-<ul role="list" class="sm:grid sm:grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 2xl:grid-cols-4">
-  <!-- loop -->
-  {% for venue in venues %}
-
-  <li class="card relative buttonhover">
-    <div
-      class="group block w-full aspect-square rounded-md bg-gray-100 overflow-hidden motion-reduce:transition-none motion-reduce:transform-none buttonhover"
-    >
-      <!-- picture shortcode -->
-      {% Picture venue.data.images.featured, "w-full aspect-square", "grayimg w-full h-full aspect-square
-      object-cover", venue.data.images.alt, "eager", "(min-width: 640px) 360px, 640px" %}
-
-      <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
+<div x-data="sortableList('random', 'title')">
+  <div class="mb-6 flex flex-col sm:flex-row sm:items-center gap-3">
+    <p class="text-sm font-semibold text-gray-600">{{ meta[locale].ordering.orderBy }}</p>
+    <div class="flex gap-3">
+      <button
+        @click="sortBy('random')"
+        :class="activeSort === 'random' ? 'bg-black text-white' : 'bg-gray-200 text-black'"
+        class="text-xs px-3 py-1  rounded-sm hover:bg-gray-900 hover:text-white"
+      >
+        {{ meta[locale].ordering.random }}
+      </button>
+      <button
+        @click="sortBy('title')"
+        :class="activeSort === 'title' ? 'bg-black text-white' : 'bg-gray-200 text-black'"
+        class="text-xs px-3 py-1  rounded-sm hover:bg-gray-900 hover:text-white"
+      >
+        {{ meta[locale].ordering.namePlace }}
+      </button>
+      <button
+        @click="sortBy('city')"
+        :class="activeSort === 'city' ? 'bg-black text-white' : 'bg-gray-200 text-black'"
+        class="text-xs px-3 py-1 rounded-sm hover:bg-gray-900 hover:text-white"
+      >
+        {{ meta[locale].ordering.city }}
+      </button>
     </div>
+  </div>
 
-    <h2 class="mt-2 block text-base font-semibold uppercase">
-      <a class="no-underline hover:underline" href="{{ venue.url }}">{{ venue.data.title }}</a>
-    </h2>
-    <p class="block text-xs text-orange-500 font-semibold tracking-wide uppercase">
-      {{ venue.data.city }}
-    </p>
-  </li>
+  <ul role="list" class="sm:grid sm:grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+    {% for venue in venues %}
+      <li
+        class="card relative buttonhover"
+        x-bind:data-title="'{{ venue.data.title | lower }}'"
+        x-bind:data-city="'{{ venue.data.city | lower }}'"
+      >
+        <div class="group block w-full aspect-square rounded-md bg-gray-100 overflow-hidden buttonhover">
+          {% set loadingType = "lazy" %}
+          {% if loop.index <= 2 %}
+            {% set loadingType = "eager" %}
+          {% endif %}
+          {%
+            Picture venue.data.images.featured,
+            "w-full aspect-square",
+            "grayimg w-full h-full aspect-square object-cover",
+            venue.data.images.alt,
+            loadingType,
+            "(min-width: 640px) 360px, 640px"
+          %}
 
-  {%- endfor -%}
-</ul>
+          <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
+        </div>
+        <p class="mt-2 block text-sm font-semibold">
+          <a class="no-underline hover:underline" href="{{ venue.url }}">{{ venue.data.title }}</a>
+        </h2>
+        <p class="block text-xs text-orange-500 font-semibold tracking-wide uppercase">{{ venue.data.city }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
