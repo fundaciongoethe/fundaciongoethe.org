@@ -13,6 +13,7 @@
     "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
     "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
     "build:scripts": "esbuild src/assets/scripts/*.js --bundle --minify --sourcemap --keep-names --outdir=dist/assets",
+    "build:sw": "cp src/assets/scripts/sw.js dist/sw.js",
     "start": "run-p dev:*",
     "build": "run-s clean build:*",
     "debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
