@@ -424,4 +424,9 @@ module.exports = {
     url: 'https://caixaforum.org/es/barcelona',
     logo: './src/assets/images/event-sponsors/caixa-logo.jpg',
   },
+  wb2025: {
+    name: 'wb2025',
+    url: '',
+    logo: './src/assets/images/event-sponsors/wb2025.png',
+  },
 };
