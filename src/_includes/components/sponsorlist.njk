@@ -15,8 +15,8 @@
 <div class="relative mx-auto max-w-4xl bg-gray-50">
   {% if sponsorlist.title %}
     <div class="{{ sponsorlist.direction or 'text-center' }}">
-      <h2 class="standardtitel text-gray-900">{{ sponsorlist.title }}</h2>
-      <p class="standardtext mt-3 sm:mt-4 mx-auto max-w-2xl">{{ sponsorlist.text }}</p>
+      <h2 class="standardtitel text-gray-900">{{ sponsorlist.title or meta[locale].sponsorlist.title }}</h2>
+      <p class="standardtext mt-3 sm:mt-4 mx-auto max-w-2xl">{{ sponsorlist.text or meta[locale].sponsorlist.text }}</p>
     </div>
   {% endif %}
 
@@ -25,7 +25,9 @@
     {% if premiumSponsors.length %}
       <div class="flex items-center my-6">
         <div class="flex-grow border-t border-gray-300"></div>
-        <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.premium }}</h3>
+        <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">
+          {{ sponsorlist.premium or meta[locale].sponsorlist.premium }}
+        </h3>
         <div class="flex-grow border-t border-gray-300"></div>
       </div>
       <div class="premium-sponsors | max-w-prose mx-auto flex flex-wrap gap-10 justify-center">
@@ -44,7 +46,9 @@
     {% if regularSponsors.length %}
       <div class="flex items-center mb-6 mt-10">
         <div class="flex-grow border-t border-gray-300"></div>
-        <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">{{ sponsorlist.regular }}</h3>
+        <h3 class="px-4 text-center uppercase font-bold text-gray-400 text-sm">
+          {{ sponsorlist.regular or meta[locale].sponsorlist.regular }}
+        </h3>
         <div class="flex-grow border-t border-gray-300"></div>
       </div>
       <div class="regular-sponsors | max-w-prose mx-auto flex flex-wrap gap-x-8 gap-y-5 md:gap-10 justify-center">

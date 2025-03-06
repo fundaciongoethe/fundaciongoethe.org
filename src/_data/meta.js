@@ -105,6 +105,12 @@ module.exports = {
       datos: 'He leído la política de privacidad y acepto recibir invitaciones por correo electrónico.',
     },
     gallery: 'Galería',
+    sponsorlist: {
+      title: 'Nuestros Promotores',
+      regular: 'Promotores',
+      premium: 'Promotores Premium',
+      text: 'Nuestros promotores son, sin duda alguna, el eje central de la Fundación Goethe. Tenemos la suerte de contar desde hace años con la colaboración de reconocidas marcas de gran prestigio mundial.',
+    },
     ordering: {
       orderBy: 'Ordenar por',
       city: 'Ciudad (A-Z)',
@@ -198,6 +204,12 @@ module.exports = {
         'Ich habe die Datenschutzerklärung zur Kenntnis genommen und bin damit einverstanden, per E-Mail Einladungen zu erhalten.',
     },
     gallery: 'Galerie',
+    sponsorlist: {
+      title: 'Unsere Förderer',
+      regular: 'Förderer',
+      premium: 'Förderer Premium',
+      text: 'Unsere Förderer sind die zentrale Achse der Fundación Goethe. Wir haben das große Glück, seit Jahren auf die Zusammenarbeit mit weltbekannten Unternehmen zählen zu können.',
+    },
     ordering: {
       orderBy: 'Sortieren nach',
       city: 'Stadt (A-Z)',

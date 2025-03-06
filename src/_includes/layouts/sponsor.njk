@@ -1,17 +1,13 @@
 ---
 layout: base
 tags: pages
-sponsorlist:
-  grids: grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6
 ---
 
 <main id="main" class="block">
   <div class="relative">
     <article class="mb-10">
       <div class="px-3 sm:pl-16 xl:ml-40 2xl:ml-44 mt-8 xl:mt-16 py-8 rounded-tl-lg">
-        <h1 class="2xl:ml-64 text-xl lg:text-2xl xl:text-4xl font-semibold uppercase">
-          {{ title }}
-        </h1>
+        <h1 class="2xl:ml-64 text-xl lg:text-2xl xl:text-4xl font-semibold uppercase">{{ title }}</h1>
         <h2 class="2xl:ml-64 text-base uppercase font-semibold mt-2 text-gray-700">
           {{ meta[locale].sponsorSince }} {{ since }}
         </h2>
@@ -33,32 +29,42 @@ sponsorlist:
 
       <!-- gallerie if image 1 defined in frontmatter  -->
       {% if images.featured1 %}
-      <ul role="list" class="grid sm:grid-cols-2 md:grid-cols-4">
-        <li class="relative block w-full aspect-video">
-          <!-- picture shortcode -->
-          {% Picture images.featured1, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt1,
-          "lazy" %}
-        </li>
-        {% if images.featured2 %}
-        <li class="relative block w-full aspect-video">
-          <!-- picture shortcode -->
-          {% Picture images.featured2, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt2,
-          "lazy" %}
-        </li>
-        {% endif %} {% if images.featured3 %}
-        <li class="relative block w-full aspect-video">
-          <!-- picture shortcode -->
-          {% Picture images.featured3, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt3,
-          "lazy" %}
-        </li>
-        {% endif %} {% if images.featured4 %}
-        <li class="relative block w-full aspect-video">
-          <!-- picture shortcode -->
-          {% Picture images.featured4, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt4,
-          "lazy" %}
-        </li>
-        {% endif %}
-      </ul>
+        <ul role="list" class="grid sm:grid-cols-2 md:grid-cols-4">
+          <li class="relative block w-full aspect-video">
+            <!-- picture shortcode -->
+            {%
+              Picture images.featured1, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt1,
+              "lazy"
+            %}
+          </li>
+          {% if images.featured2 %}
+            <li class="relative block w-full aspect-video">
+              <!-- picture shortcode -->
+              {%
+                Picture images.featured2, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt2,
+                "lazy"
+              %}
+            </li>
+          {% endif %}
+          {% if images.featured3 %}
+            <li class="relative block w-full aspect-video">
+              <!-- picture shortcode -->
+              {%
+                Picture images.featured3, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt3,
+                "lazy"
+              %}
+            </li>
+          {% endif %}
+          {% if images.featured4 %}
+            <li class="relative block w-full aspect-video">
+              <!-- picture shortcode -->
+              {%
+                Picture images.featured4, "bg-gray-200", "absolute inset-0 w-full h-full object-cover ", images.alt4,
+                "lazy"
+              %}
+            </li>
+          {% endif %}
+        </ul>
       {% endif %}
 
       <!-- insert all sponsors  -->
