@@ -108,12 +108,27 @@ module.exports = {
     ordering: {
       orderBy: 'Ordenar por',
       city: 'Ciudad (A-Z)',
-      namePlace: 'Nombre del lugar (A-Z)',
+      namePlace: 'Lugar (A-Z)',
       nameArtist: 'Nombre (A-Z)',
       random: 'Aleatorio',
       type: 'Ocupación (A-Z)',
     },
+    cta: {
+      mainText: 'Forma parte de la Fundación Goethe como Promotor',
+      subText: '...o bien promociona eventos puntuales bajo tu patrocinio.',
+      btnText: 'Informate de las opciones.',
+      btnLink: '/es/participar/',
+    },
+    cta2: {
+      title: '¿Quieres mantenerte al tanto de futuros eventos?',
+      text: 'Suscríbete a nuestro boletín para recibir invitaciones por correo electrónico. En los correos electrónicos recibirás información sobre los eventos planeados así como un enlace para la inscripción directa. No se llevarán a cabo medidas de publicidad.',
+      btnText: 'Recibir invitaciones',
+      btnLink: '/es/invitaciones/',
+      image: './src/assets/images/cta/concert2.jpg',
+      alt: 'Konzert im Palacio Real',
+    },
   },
+
   de: {
     localeCode: 'de_DE',
     metaTitle: 'Fundación Goethe Spanien',
@@ -190,6 +205,20 @@ module.exports = {
       nameArtist: 'Name (A-Z)',
       random: 'Zufall',
       type: 'Kunstart (A-Z)',
+    },
+    cta: {
+      mainText: 'Werden Sie Teil der Fundación Goethe als Förderer',
+      subText: '...oder bewerben Sie einzelne Veranstaltungen unter Ihrer Schirmherrschaft!',
+      btnText: 'Alle Möglichkeiten kennenlernen',
+      btnLink: '/de/mitmachen/',
+    },
+    cta2: {
+      title: 'Möchten Sie über zukünftige Veranstaltungen informiert werden?',
+      text: 'Abonnieren Sie unseren Newsletter, um Einladungen per E-Mail zu erhalten. In den E-Mails erhalten Sie Informationen zu ausgewählten Veranstaltungen sowie einen Link zur direkten Anmeldung. Es werden keine Werbemaßnahmen durchgeführt.',
+      btnText: 'Einladungen erhalten',
+      btnLink: '/de/einladungen/',
+      image: './src/assets/images/cta/concert2.jpg',
+      alt: 'Konzert im Palacio Real',
     },
   },
 

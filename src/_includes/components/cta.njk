@@ -1,7 +1,6 @@
-
 <div class="bg-orange-600">
-	<div
-		class="
+  <div
+    class="
 			max-w-7xl
 			mx-auto
 			py-12
@@ -14,9 +13,9 @@
 			xl:justify-between
 			xl:gap-10
 		"
-	>
-		<h2
-			class="
+  >
+    <h2
+      class="
 				font-semibold
 				tracking-tight
 				text-white
@@ -25,15 +24,15 @@
 				2xl:justify-center
 				2xl:gap-5
 			"
-		>
-			<span class="block text-2xl md:text-3xl mr-5">{{ cta.mainText }}</span>
-			<span class="block text-base md:text-lg">{{ cta.subText }}</span>
-		</h2>
-		<div class="mt-8 flex xl:mt-0 xl:flex-shrink-0">
-			<div class="inline-flex rounded-md shadow buttonhover">
-				<a
-					href="{{ cta.btnLink }}"
-					class="
+    >
+      <span class="block text-2xl md:text-3xl mr-5">{{ meta[locale].cta.mainText }}</span>
+      <span class="block text-base md:text-lg">{{ meta[locale].cta.subText }}</span>
+    </h2>
+    <div class="mt-8 flex xl:mt-0 xl:flex-shrink-0">
+      <div class="inline-flex rounded-md shadow buttonhover">
+        <a
+          href="{{ meta[locale].cta.btnLink }}"
+          class="
 						inline-flex
 						items-center
 						justify-center
@@ -48,10 +47,10 @@
 						bg-yellow-300
 						hover:bg-yellow-400
 					"
-				>
-					{{ cta.btnText }}
-				</a>
-			</div>
-		</div>
-	</div>
+        >
+          {{ meta[locale].cta.btnText }}
+        </a>
+      </div>
+    </div>
+  </div>
 </div>

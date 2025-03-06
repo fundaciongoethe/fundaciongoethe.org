@@ -19,13 +19,6 @@ herogrid:
     alt3: Foto von einer alten spanischen Straße
     featured4: ./src/assets/images/events/evento-visita.jpg
     alt4: Foto einer Betriebsbesichtigung
-cta2: # relative to /assets/images/
-  title: Möchten Sie über zukünftige Veranstaltungen informiert werden?
-  text: Abonnieren Sie unseren Newsletter, um Einladungen per E-Mail zu erhalten. In den E-Mails erhalten Sie Informationen zu ausgewählten Veranstaltungen sowie einen Link zur direkten Anmeldung. Es werden keine Werbemaßnahmen durchgeführt.
-  btnText: Einladungen erhalten
-  btnLink: /de/einladungen/
-  image: ./src/assets/images/cta/concert2.jpg
-  alt: Konzert im Palacio Real
 pastevents:
   title: Vergangene Veranstaltungen
   description: In unserem Veranstaltungsarchiv finden Sie alle bereits stattgefundene Events und Termine

@@ -4,11 +4,11 @@ tags: pages
 ---
 
 <main id="main" class="block">
-	<div class="relative">
-		<article class="py-10 md:pt-0 lg:py-16 px-3 sm:px-6 xl:px-16 2xl:px-24">
-			{{ content | safe }}
-		</article>
-	</div>
+  <div class="relative">
+    <article class="py-10 md:pt-0 lg:py-16 px-3 sm:px-6 xl:px-16 2xl:px-24">{{ content | safe }}</article>
+    <!-- CTA -->
+    {% include "components/cta.njk" %}
+  </div>
 </main>
 
 <!-- include base schema  -->

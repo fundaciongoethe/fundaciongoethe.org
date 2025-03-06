@@ -1,6 +1,6 @@
 ---
 title: 'The best of Hans Zimmer by Parallel Quartet'
-description: 'El Cuarteto Parallel creará una velada especial llena de intensidad musical y sonidos cinematográficos.'
+description: 'El Parallel Quartet creará una velada especial llena de intensidad musical y sonidos cinematográficos.'
 translationKey: hanszimmer
 customSlug: best-of-hans-zimmer
 venue: [caixaforum]
@@ -21,7 +21,7 @@ directregister:
 youtube: false
 ---
 
-El **Cuarteto Parallel** creará una velada especial llena de intensidad musical y sonidos cinematográficos. Con un profundo interés por la música contemporánea y el mundo sonoro del siglo XX, el ensemble combina la vanguardia con el presente y abre nuevas perspectivas artísticas.
+El **Parallel Quartet** creará una velada especial llena de intensidad musical y sonidos cinematográficos. Con un profundo interés por la música contemporánea y el mundo sonoro del siglo XX, el ensemble combina la vanguardia con el presente y abre nuevas perspectivas artísticas.
 
 Este concierto presentará una selección de la impresionante música cinematográfica de **Hans Zimmer**, recién arreglada para cuarteto de cuerda. Sus poderosas melodías, su densa atmósfera y su profundidad emocional se revelan aquí en una forma de música de cámara íntima, enraizada en la tradición, pero con una expresión moderna y cinematográfica.
 

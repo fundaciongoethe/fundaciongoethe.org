@@ -104,4 +104,43 @@ module.exports = function (eleventyConfig) {
       .getFilteredByGlob('./src/de/events/**/*.md')
       .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));
   });
+
+  // Generate backlinks from artists & venues to their events
+  eleventyConfig.addCollection('eventsByArtistAndVenue', (collectionApi) => {
+    let events = collectionApi.getFilteredByGlob(['./src/es/eventos/**/*.md', './src/de/events/**/*.md']);
+
+    let eventsByArtist = {};
+    let eventsByVenue = {};
+
+    events.forEach((event) => {
+      let artists = Array.isArray(event.data.artist) ? event.data.artist : event.data.artist ? [event.data.artist] : [];
+      let venues = Array.isArray(event.data.venue) ? event.data.venue : event.data.venue ? [event.data.venue] : [];
+
+      let locale = event.inputPath.includes('/es/') ? 'es' : 'de';
+
+      artists.forEach((artist) => {
+        let artistKey = artist.toLowerCase();
+        if (!eventsByArtist[locale]) {
+          eventsByArtist[locale] = {};
+        }
+        if (!eventsByArtist[locale][artistKey]) {
+          eventsByArtist[locale][artistKey] = [];
+        }
+        eventsByArtist[locale][artistKey].push(event);
+      });
+
+      venues.forEach((venue) => {
+        let venueKey = venue.toLowerCase();
+        if (!eventsByVenue[locale]) {
+          eventsByVenue[locale] = {};
+        }
+        if (!eventsByVenue[locale][venueKey]) {
+          eventsByVenue[locale][venueKey] = [];
+        }
+        eventsByVenue[locale][venueKey].push(event);
+      });
+    });
+
+    return { eventsByArtist, eventsByVenue };
+  });
 };

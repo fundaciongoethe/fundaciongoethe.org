@@ -19,13 +19,6 @@ herogrid:
     alt3: Fotografía de una antigua calle española
     featured4: ./src/assets/images/events/evento-visita.jpg
     alt4: Fotografía de una visita a la fábrica
-cta2: # complete path for eleventy img srcset output, alt required
-  title: ¿Quieres estar informado sobre futuros eventos?
-  text: Suscríbete a nuestro boletín para recibir invitaciones por correo electrónico. En los correos electrónicos recibirás información sobre los eventos planeados así como un enlace para la inscripción directa. No se llevarán a cabo medidas de publicidad.
-  btnText: Recibir invitaciones
-  btnLink: /es/invitaciones/
-  image: ./src/assets/images/cta/concert2.jpg
-  alt: Konzert im Palacio Real
 pastevents:
   title: Eventos pasados
   description: En nuestro archivo de eventos encontrarás todos los eventos y fechas que ya han tenido lugar

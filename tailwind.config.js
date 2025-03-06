@@ -17,6 +17,9 @@ module.exports = {
       body: ['GothamRounded', 'sans-serif'],
     },
     extend: {
+      fontSize: {
+        '2xs': '0.6rem',
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },

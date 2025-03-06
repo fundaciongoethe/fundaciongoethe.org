@@ -1,11 +1,27 @@
+const { DateTime } = require('luxon');
 
-const { DateTime } = require('luxon')
+const seen = new WeakSet(); // Prevents circular references
 
 module.exports = {
-    // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-    htmlDateString: (dateObj) => {
-      return DateTime.fromJSDate(dateObj, {
-        zone: 'utc'
-      }).toFormat('yyyy-LL-dd');
-    }
-}
+  // Convert date to HTML valid string format
+  htmlDateString: (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: 'utc',
+    }).toFormat('yyyy-LL-dd');
+  },
+
+  // Safe JSON dump to prevent circular structure errors
+  dumpSafe: (obj) => {
+    return JSON.stringify(
+      obj,
+      (key, value) => {
+        if (typeof value === 'object' && value !== null) {
+          if (seen.has(value)) return '[Circular]';
+          seen.add(value);
+        }
+        return value;
+      },
+      2
+    );
+  },
+};

@@ -1,6 +1,6 @@
 {
   "name": "fundaciongoethe",
-  "version": "2.1.16",
+  "version": "2.2.0",
   "description": "fundaciongoethe uses ESBuild Tailwind and PostCSS",
   "engines": {
     "node": ">=20.x.x"
@@ -8,11 +8,11 @@
   "scripts": {
     "clean": "del dist",
     "dev:postcss": "postcss src/assets/css/*.css -o dist/assets/main.min.css --watch --verbose",
-    "dev:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js src/assets/scripts/audio.js src/assets/scripts/snow-fall.js --bundle --watch --outdir=dist/assets",
-    "dev:11ty": "eleventy --serve --watch --incremental",
+    "dev:scripts": "esbuild src/assets/scripts/*.js --bundle --watch --outdir=dist/assets",
+    "dev:11ty": "eleventy --serve --watch --incremental --quiet",
     "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
     "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
-    "build:scripts": "esbuild src/assets/scripts/main.js src/assets/scripts/validate.js src/assets/scripts/audio.js src/assets/scripts/snow-fall.js --bundle --minify --outdir=dist/assets",
+    "build:scripts": "esbuild src/assets/scripts/*.js --bundle --minify --outdir=dist/assets",
     "build:sw": "workbox generateSW",
     "start": "run-p dev:*",
     "build": "run-s clean build:*",
@@ -59,7 +59,6 @@
     "prettier-plugin-jinja-template": "^2.0.0",
     "slugify": "^1.6.5",
     "svg-sprite": "^2.0.2",
-    "vinyl": "^3.0.0",
-    "workbox-cli": "^7.0.0"
+    "vinyl": "^3.0.0"
   }
 }

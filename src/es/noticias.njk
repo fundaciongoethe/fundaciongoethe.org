@@ -1,7 +1,7 @@
 ---
 title: Noticias
 layout: home
-translationKey: "blog"
+translationKey: 'blog'
 seo:
   title: Noticias de la Fundaci¡on Goethe
   description: En nuestra sección de noticias damos una revisión de los eventos pasados y llamamos la atención sobre eventos especiales.
@@ -10,11 +10,6 @@ pagination:
   size: 12
   reverse: true
   alias: posts_es
-cta:
-  mainText: Forma parte de la Fundación	Goethe como Promotor
-  subText: ...o bien promociona eventos puntuales bajo tu patrocinio.
-  btnText: Informate de las opciones.
-  btnLink: /es/participar/
 ---
 
 <div
@@ -34,15 +29,26 @@ cta:
     <div class="text-center">
       <h1 class="standardtitel">Noticias</h1>
       <p class="standardtext mt-3 sm:mt-4 max-w-2xl mx-auto">
-        En nuestra sección de noticias damos una revisión de los eventos pasados
-        y llamamos la atención sobre eventos especiales
+        En nuestra sección de noticias damos una revisión de los eventos pasados y llamamos la atención sobre eventos
+        especiales
       </p>
     </div>
 
-    {% set postslist = posts_es | reverse %} {% set postlist =
-    ['components/postslistcards.njk'] %} {% include postlist | join %} {% if
-    collections.posts_es.length > pagination.size %} {% include
-    "components/pagination.njk" %} {% endif %}
+    {% set postslist = posts_es | reverse %}
+    {%
+      set postlist =
+      ['components/postslistcards.njk']
+    %}
+    {% include postlist | join %}
+    {%
+      if
+      collections.posts_es.length > pagination.size
+    %}
+      {%
+        include
+        "components/pagination.njk"
+      %}
+    {% endif %}
   </div>
 </div>
 

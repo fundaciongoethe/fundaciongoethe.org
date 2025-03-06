@@ -1,7 +1,7 @@
 <div x-data="sortableList('random', 'nameArtist')">
   <div class="mb-6 flex flex-col sm:flex-row sm:items-center gap-3">
     <p class="text-sm font-semibold text-gray-600">{{ meta[locale].ordering.orderBy }}</p>
-    <div class="flex gap-3">
+    <div class="flex flex-wrap gap-1.5 sm:gap-3">
       <button
         @click="sortBy('random')"
         :class="activeSort === 'random' ? 'bg-black text-white' : 'bg-gray-200 text-black'"
@@ -26,14 +26,19 @@
     </div>
   </div>
 
-  <ul role="list" class="sm:grid sm:grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+  <ul
+    role="list"
+    class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-1.5 md:gap-x-4 gap-y-5 md:gap-y-8"
+  >
     {% for artist in artists %}
       <li
         class="card relative buttonhover"
         x-bind:data-nameArtist="'{{ artist.data.title | lower }}'"
         x-bind:data-discipline="'{{ artist.data.occupation | lower }}'"
       >
-        <div class="group block w-full aspect-square rounded-md bg-gray-100 overflow-hidden buttonhover">
+        <div
+          class="group block w-full aspect-square rounded-xs sm:rounded-sm lg:rounded-md bg-gray-100 overflow-hidden buttonhover"
+        >
           {% set loadingType = "lazy" %}
           {% if loop.index <= 2 %}
             {% set loadingType = "eager" %}
@@ -48,7 +53,7 @@
           %}
           <span class="sr-only"> {{ meta[locale].event.readmore }} {{ artist.data.title }}</span>
         </div>
-        <p class="mt-2 block text-sm font-semibold">
+        <p class="mt-2 block text-xs sm:text-sm font-semibold">
           <a class="no-underline hover:underline" href="{{ artist.url }}">{{ artist.data.title }}</a>
         </p>
         <p class="block text-xs text-orange-500 font-semibold tracking-wide uppercase">{{ artist.data.occupation }}</p>
