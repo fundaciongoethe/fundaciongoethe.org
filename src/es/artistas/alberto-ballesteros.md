@@ -4,17 +4,11 @@ translationKey: 'albertoballesteros'
 customSlug: 'alberto-ballesteros'
 excerpt: Alberto Ballesteros, Madrid 1983, es un escritor e intérprete de canciones en castellano. El abanico de sus estilos se mueve entre el pop, el rock y el folk.
 occupation: 'cantautor'
-seo:
-  title: Alberto Ballesteros
-  description: Alberto Ballesteros, Madrid 1983, es un escritor e intérprete de canciones en castellano. El abanico de sus estilos se mueve entre el pop, el rock y el folk.
-  image: artists/alberto-ballesteros.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/alberto-ballesteros.jpg
   alt: Alberto Ballesteros
 links:
   web: https://www.albertoballesteros.com
-  twitter: https://twitter.com/alberto_ballest
-  facebook:
   instagram: https://instagram.com/alber.ballesteros
   spotify: https://open.spotify.com/artist/76cl8WncFJMLHHsekATDDC
   youtube: https://youtube.com/user/Sheffield247

@@ -4,17 +4,11 @@ translationKey: 'albertoballesteros'
 customSlug: 'alberto-ballesteros'
 excerpt: Alberto Ballesteros, geboren in Madrid 1983, ist ein spanischer Songwriter. Die Bandbreite seiner Stile bewegt sich zwischen Pop, Rock und Folk.
 occupation: 'Songwriter'
-seo:
-  title: Alberto Ballesteros
-  description: Alberto Ballesteros, geboren in Madrid 1983, ist ein spanischer Songwriter. Die Bandbreite seiner Stile bewegt sich zwischen Pop, Rock und Folk.
-  image: artists/alberto-ballesteros.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/alberto-ballesteros.jpg
   alt: Alberto Ballesteros
 links:
   web: https://www.albertoballesteros.com
-  twitter: https://twitter.com/alberto_ballest
-  facebook:
   instagram: https://instagram.com/alber.ballesteros
   spotify: https://open.spotify.com/artist/76cl8WncFJMLHHsekATDDC
   youtube: https://youtube.com/user/Sheffield247
