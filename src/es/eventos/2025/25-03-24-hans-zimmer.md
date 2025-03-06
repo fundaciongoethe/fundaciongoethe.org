@@ -7,9 +7,9 @@ venue: [caixaforum]
 artist: [parallelquartet]
 partners:
   - caixabcn
-date: 2025-03-24 19:30:00
-opening: 2025-03-24 19:00:00
-ending: 2025-03-24 21:00:00
+date: 2025-03-24 19:00:00
+opening: 2025-03-24 18:30:00
+ending: 2025-03-24 20:30:00
 deadline: 2025-03-23 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
