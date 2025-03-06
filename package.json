@@ -1,7 +1,7 @@
 {
   "name": "fundaciongoethe",
   "version": "2.2.0",
-  "description": "fundaciongoethe uses ESBuild Tailwind and PostCSS",
+  "description": "fundaciongoethe.org",
   "engines": {
     "node": ">=20.x.x"
   },
@@ -12,7 +12,7 @@
     "dev:11ty": "eleventy --serve --watch --incremental --quiet",
     "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
     "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
-    "build:scripts": "esbuild src/assets/scripts/*.js --bundle --minify --sourcemap --keep-names --outdir=dist/assets",
+    "build:scripts": "esbuild src/assets/scripts/*.js --minify --bundle --keep-names --sourcemap --outdir=dist/assets",
     "build:sw": "cp src/assets/scripts/sw.js dist/sw.js",
     "start": "run-p dev:*",
     "build": "run-s clean build:*",
@@ -20,7 +20,6 @@
     "debug-perf": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy"
   },
   "author": "Lene Saile",
-  "license": "ISC",
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@tailwindcss/forms": "^0.5.0",
