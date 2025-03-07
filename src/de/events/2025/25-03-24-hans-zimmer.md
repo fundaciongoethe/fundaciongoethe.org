@@ -21,7 +21,7 @@ directregister:
 youtube: false
 ---
 
-Das Parallel Quartet wird einen besonderen Abend voller musikalischer Intensität und cineastischer Klänge gestalten. Mit einem tiefen Interesse an zeitgenössischer Musik und der Klangwelt des 20. Jahrhunderts verbindet das Ensemble Avantgarde mit Gegenwart und öffnet sich neuen künstlerischen Perspektiven.
+Das Parallel Quartet gestaltet einen besonderen Abend voller musikalischer Intensität und cineastischer Klänge. Mit einem tiefen Interesse an zeitgenössischer Musik und der Klangwelt des 20. Jahrhunderts verbindet das Ensemble Avantgarde mit Gegenwart und öffnet sich neuen künstlerischen Perspektiven.
 
 In diesem Konzert erklingt eine Auswahl der beeindruckenden Filmmusik von Hans Zimmer, neu arrangiert für Streichquartett. Seine kraftvolle Melodik, die dichte Atmosphäre und die emotionale Tiefe treten hier in einer intimen, kammermusikalischen Form zutage – verwurzelt in der Tradition, aber mit modernem, filmischem Ausdruck.
 
