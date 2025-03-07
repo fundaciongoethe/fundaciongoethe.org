@@ -38,6 +38,14 @@ tags: pages
         {% include "components/event-infobox.njk" %}
       {% endif %}
 
+      {% if directregister and calendarLinks.isFutureEvent %}
+        {%- include "components/event-directregister.njk" %}
+      {% endif %}
+
+      {% if ticketsale and calendarLinks.isFutureEvent %}
+        {%- include "components/event-ticketsale.njk" %}
+      {% endif %}
+
       <div class="standardtext mt-8 prose">{{ content | safe }}</div>
     </div>
 
