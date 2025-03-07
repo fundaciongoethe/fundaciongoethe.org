@@ -372,7 +372,7 @@ module.exports = {
   iglesiajesuitas: {
     name: 'Iglesia Jesuitas Valencia',
     url: 'https://iglesiajesuitasvalencia.org/',
-    logo: './src/assets/images/event-sponsors/iglesia-jesuitas-valencia.jpg',
+    logo: './src/assets/images/event-sponsors/iglesia-jesuitas-valencia-logo.jpg',
   },
   rossmann: {
     name: 'Rossmann',
