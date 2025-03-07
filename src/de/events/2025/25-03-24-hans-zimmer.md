@@ -13,10 +13,10 @@ ending: 2025-03-24 20:30:00
 deadline: 2025-03-23 11:00:00
 calcDuration: 1.5
 type: 'Konzert'
-access: Persönliche Einladung erforderlich
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
+access: Kartenverkauf
+infobox: Karten für dieses Konzert können auf der Website des CaixaForum Barcelona erworben werden.
 program:
-ticketsale:
+ticketsale: https://caixaforum.org/es/barcelona/p/parallel-quartet-y-hans-zimmer_a170803639
 directregister:
 youtube: false
 ---
