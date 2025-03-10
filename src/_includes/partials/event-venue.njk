@@ -15,10 +15,13 @@
 
         <!-- Venue Text (Second on Mobile, First on MD+) -->
         <div class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md md:order-1 place-self-end">
+          <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
+            {{ meta[locale].event.venue }}
+          </span>
           <h2 class="standardtitel uppercase">{{ venue.data.title }}</h2>
           <p class="mt-4">{{ venue.data.excerpt }}</p>
           <a href="{{ venue.url }}" class="blackbutton mt-6">
-            {{ meta[locale].event.readmore }} {{ venue.data.title }}
+            {{ meta[locale].event.readmore }} <span class="sr-only"> {{ venue.data.title }}</span>
           </a>
         </div>
       </div>

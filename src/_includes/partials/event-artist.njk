@@ -9,12 +9,12 @@
           </div>
           <div class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md self-end">
             <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
-              {{ artist.data.artistTitle or meta[locale].event.artist }}
+              {{ artist.data.occupation or meta[locale].event.artist }}
             </span>
             <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
             <p class="mt-4">{{ artist.data.excerpt }}</p>
             <a href="{{ artist.url }}" class="blackbutton mt-6">
-              {{ meta[locale].event.readmore }} {{ artist.data.title }}
+              {{ meta[locale].event.readmore }} <span class="sr-only"> {{ artist.data.title }}</span>
             </a>
           </div>
         </div>
@@ -29,12 +29,12 @@
             </div>
             <div class="text-base px-3 lg:px-8">
               <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
-                {{ artist.data.artistTitle or meta[locale].event.artist }}
+                {{ artist.data.occupation or meta[locale].event.artist }}
               </span>
               <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
               <p class="mt-4">{{ artist.data.excerpt }}</p>
               <a href="{{ artist.url }}" class="blackbutton mt-6">
-                {{ meta[locale].event.readmore }} {{ artist.data.title }}
+                {{ meta[locale].event.readmore }} <span class="sr-only"> {{ artist.data.title }}</span>
               </a>
             </div>
           </div>
