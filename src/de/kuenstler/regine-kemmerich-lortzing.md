@@ -2,8 +2,8 @@
 title: 'Regine Kemmerich-Lortzing'
 translationKey: 'reginemerkemmerich'
 customSlug: 'regine-kemmerich-lortzing'
-excerpt: Regine Kemmerich-Lortzing ist eine deutsche Pädagogin und Kulturwissenschaftlerin.
-occupation: 'Kulturwissenschaftlerin'
+excerpt: Regine Kemmerich-Lortzing ist Professorin und Magister in Kunstgeschichte und Mittelalter.
+occupation: 'Professorin und Magister in Kunstgeschichte und Mittelalter'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/regine-kemmerich-lortzing.jpeg
   alt: ''

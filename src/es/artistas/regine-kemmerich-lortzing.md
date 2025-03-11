@@ -2,8 +2,8 @@
 title: 'Regine Kemmerich-Lortzing'
 translationKey: 'reginemerkemmerich'
 customSlug: 'regine-kemmerich-lortzing'
-excerpt: Regine Kemmerich-Lortzing es una educadora y científica cultural alemana.
-occupation: 'Científica cultural'
+excerpt: Regine Kemmerich-Lortzing es profesora y licenciada en historia del arte y medioevo.
+occupation: 'Profesora y licenciada en historia del arte y medioevo.'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/regine-kemmerich-lortzing.jpeg
   alt: ''
