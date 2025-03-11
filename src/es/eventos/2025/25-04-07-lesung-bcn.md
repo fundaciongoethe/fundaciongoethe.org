@@ -29,6 +29,8 @@ Este año se cumple el 80 aniversario de la Operación Hannibal, la mayor operac
 
 Nos complace que Regine Kemmerich-Lortzing, como testimonio vivido en primera persona, nos cuente, junto con su sobrino, Jaime Queralt-Lortzing Beckmann, la huida de su familia de Prusia Oriental a través de fotos familiares. Jaime Queralt-Lortzing Beckmann es el autor de un relato de ficción, en forma de novela basada en hechos históricos, como la propia Operación Hannibal, y nos lo presentará brevemente también esa noche.
 
+La novela fue elegida finalista del X Premio Hispania de Novela Histórica.
+
 Jonathan Hanke acompañará el acto con su música. Jonathan es una persona que no solo combina estilos musicales, sino también a las personas y sus pasiones. Cuando algo le inspira, es capaz de entusiasmar a todos los que le rodean y mostrarles esa belleza. Ese gusto que tiene por el detalle, por la armonía individual, su sensibilidad por los matices de la melodía, junto con el ritmo y esas ganas de innovar, a veces hasta extremos desconocidos; es lo que define a Jonathan Hanke.
 
 {% Picture "./src/assets/images/poster/portada-jamas-pude-volver-akoenigsberg.jpg", null, "w-full h-auto", "Imagen de portada del libro «Jamás pude volver a Königsberg» de Jaime Queralt-Lortzing Beckmann. La portada muestra una foto de época en tonos amarillos de un viejo barco de pasajeros en alta mar, que emite humo por su chimenea. Debajo de la imagen aparece el título del libro en grandes letras amarillas sobre un fondo verde. La cubierta también muestra un logotipo que indica que el libro fue finalista del X Premio Hispania de Novela Histórica." %}
