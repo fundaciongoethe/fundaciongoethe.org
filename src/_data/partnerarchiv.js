@@ -426,7 +426,7 @@ module.exports = {
   },
   wb2025: {
     name: 'wb2025',
-    url: '',
+    url: 'http://www.semanawalterbenjamin.es/',
     logo: './src/assets/images/event-sponsors/wb2025.png',
   },
 };
