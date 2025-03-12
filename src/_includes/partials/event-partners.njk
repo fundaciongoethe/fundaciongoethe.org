@@ -3,7 +3,9 @@
     <h2 class="font-bold text-base p-2">{{ meta[locale].event.thanks }}:</h2>
 
     <div class="relative mx-auto">
-      <div class="grid grid-cols-2 content-center gap-0.5 md:grid-cols-7 md:divide-x md:divide-gray-300">
+      <div
+        class="grid grid-cols-2 content-center gap-0.5 md:grid-cols-7 md:divide-x md:divide-gray-200 bordert-t border-gray-200"
+      >
         <!-- get current locale from meta.languages -->
         {% for partner in partners %}
           <figure class="flex items-center">

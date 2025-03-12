@@ -13,7 +13,7 @@ ending: 2025-04-09 21:30:00
 deadline: 2025-04-09 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
-access: Ventas de entradas
+access: Venta de entradas
 infobox:
 program:
 ticketsale:

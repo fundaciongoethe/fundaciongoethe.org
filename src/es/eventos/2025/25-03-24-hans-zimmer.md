@@ -13,7 +13,7 @@ ending: 2025-03-24 20:30:00
 deadline: 2025-03-23 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
-access: Ventas de entradas
+access: Venta de entradas
 infobox: Las entradas para este concierto se pueden adquirir en la web del CaixaForum Barcelona.
 program:
 ticketsale: https://caixaforum.org/es/barcelona/p/parallel-quartet-y-hans-zimmer_a170803639
