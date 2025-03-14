@@ -426,7 +426,12 @@ module.exports = {
   },
   wb2025: {
     name: 'wb2025',
-    url: 'http://www.semanawalterbenjamin.es/',
+    url: 'https://www.semanawalterbenjamin.es/',
     logo: './src/assets/images/event-sponsors/wb2025.png',
+  },
+  cculturalejercitos: {
+    name: 'cculturalejercitos',
+    url: 'https://www.cculturalejercitos.com/',
+    logo: './src/assets/images/event-sponsors/cculturalejercitos-logo.jpg',
   },
 };
