@@ -16,7 +16,7 @@ type: 'Konzert'
 access: Kartenverkauf
 infobox:
 program:
-ticketsale:
+ticketsale: https://concierto-benefico-dana.eventbrite.es
 directregister:
 youtube: false
 ---

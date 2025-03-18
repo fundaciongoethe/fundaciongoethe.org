@@ -1,6 +1,6 @@
 ---
 title: 'Concierto benéfico con Jonathan Hanke y Thalia Hellfritsch'
-description: '¡Muìsica para ayudar! La Fundación Goethe y la Iglesia Jesuitas Valencia organizan un concierto especial en beneficio de las personas afectadas por la DANA.'
+description: '¡Música para ayudar! La Fundación Goethe y la Iglesia Jesuitas Valencia organizan un concierto especial en beneficio de las personas afectadas por la DANA.'
 translationKey: dana25
 customSlug: concierto-benefico-jonathan-hanke-thalia-hellfritsch
 venue: [iglesiajesuitas]
@@ -16,15 +16,15 @@ type: 'Concierto'
 access: Venta de entradas
 infobox:
 program:
-ticketsale:
+ticketsale: https://concierto-benefico-dana.eventbrite.es
 directregister:
 youtube: false
 ---
 
-¡Muìsica para ayudar! La Fundación Goethe y la Iglesia Jesuitas Valencia organizan un concierto especial en beneficio de las personas afectadas por la DANA.
+¡Música para ayudar! La Fundación Goethe y la Iglesia Jesuitas Valencia organizan un concierto especial en beneficio de las personas afectadas por la DANA.
 
 Colaboración: 10 euros
 
 Únete a nosotros en esta noche de solidaridad y disfruta de una experiencia musical única mientras contribuyes a una noble causa. La recaudacioìn se donará a través de la Generalitat Valenciana para ayudar a quienes más lo necesitan.
 
-¡No te pierdas esta oportunidad de disfrutar de buena muìsica y hacer la diferencia!
+¡No te pierdas esta oportunidad de disfrutar de buena música y hacer la diferencia!
