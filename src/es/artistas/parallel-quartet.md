@@ -12,15 +12,17 @@ links:
   web: https://parallelquartet.com
 ---
 
-Parallel Quartet es un cuarteto de cuerda con especial interés en la difusión de la música contemporánea y del s.XX. Buscan entre sus proyectos vincular la vanguardia hacia el momento presente, abriéndose también a diferentes áreas artísticas, y explorando el lenguaje sonoro de nueva creación.
+Parallel Quartet es un cuarteto de cuerda con especial interés en vincular música de diferentes épocas hacia la vanguardia y el momento presente, abriéndose también a diferentes áreas artísticas, y explorando el lenguaje sonoro de nueva creación.
 
-Han sido invitados en festivales como Clásicos en Verano de la Comunidad de Madrid, tocando en la presentación del mismo, así como en Sulayr Clásica (Granada), donde compartieron escenario junto a Bernard Gregor-Smith, violonchelista del legendario Lindsay Quartet. También han actuado en salas como el Círculo de Bellas Artes de Madrid, Auditorio BBVA, Fundación Carlos de Amberes, Ateneo de Madrid, Teatro Calderón (Valladolid), entre otras.
+Han sido invitados en festivales como Interlaken Classics 2025 (Switzerland), Clásicos en Verano de la Comunidad de Madrid, tocando en la presentación del mismo, así como en Sulayr Clásica (Granada), donde compartieron escenario junto a Bernard Gregor-Smith, violonchelista del legendario Lindsay Quartet. También han actuado en salas como el Círculo de Bellas Artes de Madrid, Embajada de Alemania, Museo Thyssen-Bornemisza, Museo de las Colecciones Reales, Auditorio BBVA, Fundación Carlos de Amberes, entre otras. También, en 2025 tocarán dentro del XLI Ciclo de Música de Cámara con los Stradivarius de Patrimonio Nacional en el Palacio Real de Madrid.
 
-Compositores como Wim Zwaag (1960) les han dedicado sus obras, como sus cuartetos de cuerda n.1 y n.2.
+Les han dedicado sus obras compositores como Wim Zwaag, con sus cuartetos de cuerda n.1 y n.2, y Luis Fonseca con Dycotomies.
 
-Sus integrantes se han formado en algunas de las principales instituciones musicales del país y Europa como la Escuela Superior Reina Sofía, Hochschule für Musik und Theater Leipzig y el Centro Superior Katarina Gurska; en las cuales han podido desarrollarse con los componentes de varias de las principales formaciones de música de cámara como: Alban Berg Quartett, Cuarteto Quiroga, Kopelman Quartet, etc
+Sus integrantes se han formado en algunas de las principales instituciones musicales del país y Europa como la Escuela Superior Reina Sofía, Hochschule für Musik und Theater Leipzig y el Centro Superior Katarina Gurska; en las cuales han podido desarrollarse con los componentes de varias de las principales formaciones de música de cámara como: Alban Berg Quartett, Cuarteto Quiroga, Kopelman Quartet, etc.
 
-Alfredo Ancillo, violín
-Laura V. Hidalgo, violín
-Fátima Poblete, viola
-tamen Nikolov, cello
+Parallel Quartet recibe el apoyo de la Fundación Goethe.
+
+- Alfredo Ancillo, violín
+- Laura V. Hidalgo, violín
+- Fátima Poblete, viola
+- Stamen Nikolov, cello
