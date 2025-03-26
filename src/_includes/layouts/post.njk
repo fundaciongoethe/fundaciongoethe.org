@@ -50,10 +50,12 @@ layout: home
       <h2 class="standardtitel mb-4">{{ meta[locale].gallery }}</h2>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 md:grid-cols-3">
-        {% for item in gallery %}{%
-          Picture item.image, "aspect-[5/4] md:aspect-square", "w-full h-full object-cover
-          rounded-sm", title, "lazy"
-        %}{%- endfor -%}
+        {% for item in gallery %}
+          {%
+            Picture item.image, "aspect-[5/4] md:aspect-square", "w-full h-full object-cover
+            rounded-sm", "", "lazy"
+          %}
+        {%- endfor -%}
       </div>
     </div>
   {%- endif -%}

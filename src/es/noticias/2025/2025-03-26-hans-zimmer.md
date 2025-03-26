@@ -13,6 +13,12 @@ gallery:
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-05.jpg
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-06.jpg
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-07.jpg
+  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-08.jpg
+  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-09.jpg
+  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-10.jpg
+  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-11.jpg
+  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-12.jpg
+  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-13.jpg
 ---
 
 El Parallel Quartet creó una velada inolvidable en el CaixaForum Barcelona, transportando al público al mundo de la música de cine de Hans Zimmer. El conjunto, conocido por su pasión por la música contemporánea y los paisajes sonoros del siglo XX, presentó una impresionante selección de obras de Zimmer, reordenadas para cuarteto de cuerda.
