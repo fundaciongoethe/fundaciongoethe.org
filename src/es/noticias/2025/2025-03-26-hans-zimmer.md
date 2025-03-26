@@ -5,7 +5,7 @@ translationKey: 'hanszimmerblog25'
 excerpt: El Parallel Quartet creó una velada inolvidable en el CaixaForum Barcelona, transportando al público al mundo de la música de cine de Hans Zimmer.
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-01.jpg
-  alt:
+  alt: 'Parallel Quartet en escenario'
 gallery:
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-02.jpg
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-03.jpg
@@ -13,12 +13,6 @@ gallery:
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-05.jpg
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-06.jpg
   - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-07.jpg
-  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-08.jpg
-  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-09.jpg
-  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-10.jpg
-  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-11.jpg
-  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-12.jpg
-  - image: ./src/assets/images/blog/2025-best-of-hans-zimmer-parallel-quartet-13.jpg
 ---
 
 El Parallel Quartet creó una velada inolvidable en el CaixaForum Barcelona, transportando al público al mundo de la música de cine de Hans Zimmer. El conjunto, conocido por su pasión por la música contemporánea y los paisajes sonoros del siglo XX, presentó una impresionante selección de obras de Zimmer, reordenadas para cuarteto de cuerda.
