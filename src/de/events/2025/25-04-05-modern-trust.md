@@ -7,6 +7,7 @@ venue: [mies]
 artist: [annemueller]
 partners:
   - mies
+  - kuehne
 date: 2025-04-05 19:30:00
 opening: 2025-04-05 19:00:00
 ending: 2025-04-05 21:00:00
