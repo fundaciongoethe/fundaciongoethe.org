@@ -7,6 +7,7 @@ venue: [iglesiajesuitas]
 artist: [jonathanhanke, thaliahellfritsch]
 partners:
   - iglesiajesuitas
+  - clementepianos
 date: 2025-04-09 20:00:00
 opening: 2025-04-09 19:30:00
 ending: 2025-04-09 21:30:00

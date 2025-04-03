@@ -434,4 +434,9 @@ module.exports = {
     url: 'https://www.cculturalejercitos.com/',
     logo: './src/assets/images/event-sponsors/cculturalejercitos-logo.jpg',
   },
+  clementepianos: {
+    name: 'Clemente Pianos',
+    url: 'http://www.clementepianos.com/',
+    logo: './src/assets/images/event-sponsors/clemente-pianos.jpg',
+  },
 };
