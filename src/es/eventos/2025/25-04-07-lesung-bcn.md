@@ -15,11 +15,11 @@ ending: 2025-04-07 21:00:00
 deadline: 2025-04-07 11:00:00
 calcDuration: 2
 type: 'Lectura musical'
-access: Se requiere una invitación personal
-infobox: Evento privado, sólo con invitación personal.
+access: Inscripción directa
+infobox: Entrada libre hasta completar aforo permitido. La inscripción directa es posible a través del siguiente enlace.
+directregister: 'https://www.eventbrite.es/e/mesa-redonda-musical-operacion-hannibal-tickets-1280617012959'
 program:
 ticketsale:
-directregister:
 youtube: false
 ---
 
