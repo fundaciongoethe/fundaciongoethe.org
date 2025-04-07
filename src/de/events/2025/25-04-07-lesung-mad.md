@@ -32,7 +32,7 @@ Der Roman war Finalist des X. Premio Hispania de Novela Histórica.
 
 Jonathan Hanke wird die Veranstaltung mit seiner Musik untermalen. Jonathan ist eine Person, die nicht nur musikalische Stile, sondern auch Menschen und Leidenschaften vereint. Wenn er sich für etwas interessiert, begeistert er alle um sich herum und zeigt ihnen, wie schön es ist. Diese Liebe zum Detail, zur individuellen Harmonie, seine Sensibilität für die Nuancen der Melodie, gepaart mit dem Rhythmus und dem Drang zur Revolution, manchmal bis zum Äußersten, das ist Jonathan Hanke.
 
-## Emisión en directo Live Stream
+## Live Stream
 
 Die Veranstaltung wird live auf Twitch übertragen. Sie können den Stream unter folgendem Link verfolgen: https://m.twitch.tv/JaimeQueralt
 
