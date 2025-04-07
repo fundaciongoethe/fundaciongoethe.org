@@ -1,6 +1,6 @@
 ---
 title: 'Musikalische Gespächsrunde: Operation Hannibal'
-description: 'Regine Kemmerich-Lortzing, como testimonio vivido en primera persona, nos cuente, junto con su sobrino, Jaime Queralt-Lortzing Beckmann, la huida de su familia de Prusia Oriental a través de fotos familiares.'
+description: 'Regine Kemmerich-Lortzing erzählt gemeinsam mit ihrem Neffen Jaime Queralt-Lortzing Beckmann anhand von Familienfotos die Geschichte der Flucht ihrer Familie aus Ostpreußen.'
 translationKey: operacionhannibalbcn25
 customSlug: musikalische-gespraechsrunde-operation-hannibal
 venue: [ccurgell]

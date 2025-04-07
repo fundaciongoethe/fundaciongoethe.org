@@ -32,4 +32,8 @@ La novela fue elegida finalista del X Premio Hispania de Novela Histórica.
 
 Jonathan Hanke acompañará el acto con su música. Jonathan es una persona que no solo combina estilos musicales, sino también a las personas y sus pasiones. Cuando algo le inspira, es capaz de entusiasmar a todos los que le rodean y mostrarles esa belleza. Ese gusto que tiene por el detalle, por la armonía individual, su sensibilidad por los matices de la melodía, junto con el ritmo y esas ganas de innovar, a veces hasta extremos desconocidos; es lo que define a Jonathan Hanke.
 
+## Emisión en directo
+
+El evento se retransmitirá en directo por Twitch. Podrás seguir el stream en el siguiente enlace: https://m.twitch.tv/JaimeQueralt
+
 {% Picture "./src/assets/images/poster/portada-jamas-pude-volver-akoenigsberg.jpg", null, "w-full h-auto", "Imagen de portada del libro «Jamás pude volver a Königsberg» de Jaime Queralt-Lortzing Beckmann. La portada muestra una foto de época en tonos amarillos de un viejo barco de pasajeros en alta mar, que emite humo por su chimenea. Debajo de la imagen aparece el título del libro en grandes letras amarillas sobre un fondo verde. La cubierta también muestra un logotipo que indica que el libro fue finalista del X Premio Hispania de Novela Histórica." %}

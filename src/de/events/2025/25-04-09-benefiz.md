@@ -24,8 +24,10 @@ youtube: false
 
 Musik zum Helfen! Die Fundación Goethe und die Jesuitenkirche Valencia veranstalten ein besonderes Konzert zugunsten der von der DANA betroffenen Menschen.
 
-Beitrag: 10 Euro
+Das Lied-Duo Hanke & Hellfritsch lädt zu einem einzigartigen musikalischen Abend ein, an dem sie Geschichten aus verschiedenen Epochen und Kulturen nacherzählen werden. Das Lied als traditionelle Form der Vertonung von Gedichten hat sich seit jeher der musikalischen Erzählung verschrieben. Musik und Text verschmelzen zu einem kraftvollen Ganzen, das Balladen, Sonette und Märchen zum Leben erweckt.
+
+Das Programm konzentriert sich sowohl auf die Erzählungen der Lieder als auch auf die Geschichten hinter den Liedern. So entdecken wir die komplexe Dreiecksbeziehung zwischen Johannes Brahms, Robert und Clara Schumann. Aber auch die dramatischen Szenen aus Goethes „Elfenkönig“ - der verzweifelte Vater, der kranke Sohn und die geheimnisvolle Gestalt - erhalten eine musikalische Stimme. Auf beschwingte Jazz-Momente von George Gershwin folgen intensive, stimmungsvolle Momentaufnahmen von Manuel de Falla. Die kulturelle Vielfalt dieses Programms macht deutlich: Der Wunsch nach musikalischem Ausdruck ist universell.
+
+Beitrag: 10€ (+ 1.32€ die Eventbrite einbehält)
 
 Begleiten Sie uns an diesem Abend der Solidarität und genießen Sie ein einzigartiges musikalisches Erlebnis, während Sie gleichzeitig einen Beitrag zu einer guten Sache leisten. Der Erlös wird über die Generalitat Valenciana gespendet, um denjenigen zu helfen, die es am meisten brauchen.
-
-Verpassen Sie nicht die Gelegenheit, großartige Musik zu genießen und etwas zu bewirken!
