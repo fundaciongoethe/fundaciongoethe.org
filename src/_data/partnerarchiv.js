@@ -439,4 +439,9 @@ module.exports = {
     url: 'http://www.clementepianos.com/',
     logo: './src/assets/images/event-sponsors/clemente-pianos.jpg',
   },
+  felipneri: {
+    name: 'Oratori de Sant Felip Neri',
+    url: 'https://oratoribarcelona.com/c',
+    logo: '',
+  },
 };

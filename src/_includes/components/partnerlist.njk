@@ -18,8 +18,12 @@
       href="{{ partnerarchiv[partner].url }}"
       class="col-span-1 flex justify-center py-4 px-4 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition duration-200 ease-in-out transform hover:scale-105"
     >
-      {% Picture partnerarchiv[partner].logo, "bg-transparent", "lazy grayimg ", partnerarchiv[partner].name, "lazy",
-      "170px" %}
+      {% if partnerarchiv[partner].logo %}
+        {% Picture partnerarchiv[partner].logo, "bg-transparent", "lazy grayimg ", partnerarchiv[partner].name, "lazy",
+        "170px" %}
+      {% else %}
+        <span class="text-center text-gray-700">{{ partnerarchiv[partner].name }}</span>
+      {% endif %}
     </a>
   </figure>
 
