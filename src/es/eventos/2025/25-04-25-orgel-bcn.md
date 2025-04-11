@@ -9,7 +9,7 @@ partners:
   - felipneri
 date: 2025-04-25 19:00:00
 opening: 2025-04-25 18:30:00
-ending: 2025-04-25 21:00:00
+ending: 2025-04-25 20:30:00
 deadline: 2025-04-25 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
