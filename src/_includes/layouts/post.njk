@@ -7,7 +7,7 @@ layout: home
     {# 21-07 "grayimg" entfernt aus picture class #}
     <figure class="h-full w-full fade-in">
       <div class="mx-auto max-w-4xl relative">
-        {% Picture images.featured,"", "w-full h-auto md:rounded-md", images.alt or title, "eager" %}
+        {% Picture images.featured,"", "w-full h-auto md:rounded-md aspect-video object-cover", images.alt or title, "eager" %}
 
         <div class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50" style="mix-blend-mode: multiply"></div>
       </div>
