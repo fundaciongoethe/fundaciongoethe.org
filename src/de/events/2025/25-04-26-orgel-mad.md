@@ -26,3 +26,5 @@ Mit dem Organisten Frank Dittmer und dem Flötisten Benjamin Plag erwarten Sie z
 Auf dem Programm stehen Meisterwerke von Händel, Bach, Mozart, Cabanilles und Krebs – ein Abend voller barocker Eleganz, musikalischer Raffinesse und überraschender Entdeckungen.
 
 Besonders freuen dürfen Sie sich auf die **einzigartige Orgel der Real Capilla**, ein klangliches Juwel, das im 18. Jahrhundert von Leonardo Fernández Dávila begonnen und von Jorge Bosch Bernat-Veri vollendet wurde. Mit ihrer beeindruckenden Klangvielfalt und technischen Innovationskraft ist sie ein Instrument von europäischem Rang – und der ideale Rahmen für dieses Konzert.
+
+Wichtig: Der Einlass beginnt um 18:30 Uhr und endet um 19:25 Uhr. Ein späterer Eintritt ist nicht möglich.

@@ -26,3 +26,5 @@ Con el organista Frank Dittmer y el flautista Benjamin Plag, te esperan dos mús
 En el programa encontrarás obras maestras de Händel, Bach, Mozart, Cabanilles y Krebs – una velada llena de elegancia barroca, sensibilidad musical y descubrimientos sorprendentes.
 
 Uno de los momentos más esperados será sin duda el sonido del **órgano histórico de la Capilla Real**, una joya del siglo XVIII iniciada por Leonardo Fernández Dávila y finalizada por Jorge Bosch Bernat-Veri. Gracias a su riqueza sonora y sus innovaciones técnicas, este instrumento ocupa un lugar destacado en Europa y ofrece el marco perfecto para este concierto.
+
+Importante: El acceso comenzará a las 18:30 y se cerrará a las 19:25, no pudiendo acceder al recinto después de esta hora.
