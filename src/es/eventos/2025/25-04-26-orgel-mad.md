@@ -2,7 +2,7 @@
 title: 'Concierto de órgano y flauta en Madrid'
 description: 'Con el organista Frank Dittmer y el flautista Benjamin Plag, te esperan dos músicos excepcionales que ya han cautivado en varias ocasiones al público de la Fundación Goethe.'
 translationKey: orgel25mad
-customSlug: orgel-floetenkonzert-madrid
+customSlug: concierto-organo-flauta-madrid
 venue: [palacioreal]
 artist: [frankdittmer, benjaminplag]
 partners:

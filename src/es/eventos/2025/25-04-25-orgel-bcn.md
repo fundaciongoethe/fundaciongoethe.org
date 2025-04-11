@@ -2,7 +2,7 @@
 title: 'Concierto de órgano y flauta en Barcelona'
 description: 'Con el organista Frank Dittmer y el flautista Benjamin Plag te esperan dos músicos excepcionales que ya han tocado en varias ocasiones para la Fundación Goethe'
 translationKey: orgel25bcn
-customSlug: orgel-floetenkonzert-barcelona
+customSlug: concierto-organo-flauta-barcelona
 venue: [santfelipneri]
 artist: [frankdittmer, benjaminplag]
 partners:
