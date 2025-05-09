@@ -441,7 +441,12 @@ module.exports = {
   },
   felipneri: {
     name: 'Oratori de Sant Felip Neri',
-    url: 'https://oratoribarcelona.com/c',
+    url: 'https://oratoribarcelona.com/',
     logo: '',
+  },
+  freixenet: {
+    name: 'Freixenet',
+    url: 'https://freixenet.com/es/',
+    logo: './src/assets/images/event-sponsors/freixenet-logo.jpg',
   },
 };
