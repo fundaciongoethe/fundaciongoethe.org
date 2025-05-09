@@ -449,4 +449,9 @@ module.exports = {
     url: 'https://freixenet.com/es/',
     logo: './src/assets/images/event-sponsors/freixenet-logo.jpg',
   },
+  mediamarkt: {
+    name: 'Meddia Markt',
+    url: 'https://www.mediamarkt.es/',
+    logo: './src/assets/images/sponsors/mediamarkt/mediamarkt-logo.png',
+  },
 };
