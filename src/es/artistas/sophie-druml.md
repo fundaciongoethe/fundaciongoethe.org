@@ -2,7 +2,7 @@
 title: 'Sophie Druml'
 translationKey: 'sophiedruml'
 customSlug: 'sophie-druml'
-excerpt:
+excerpt: 'La joven violinista y pianista Sophie Druml es una artista excepcional que impresiona al público con sus habilidades técnicas y creativas.'
 occupation: 'Violinista y pianista'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/sophie-druml.png

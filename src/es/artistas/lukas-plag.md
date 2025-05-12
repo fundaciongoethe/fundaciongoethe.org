@@ -2,7 +2,7 @@
 title: 'Lukas Plag'
 translationKey: 'lukasplag'
 customSlug: 'lukas-plag'
-excerpt:
+excerpt: 'El violonchelista Lukas Plag, nacido en 1997, ha sido galardonado con numerosos premios y ha actuado como solista en diversas orquestas.'
 occupation: 'Cellist'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/lukas-plag.png

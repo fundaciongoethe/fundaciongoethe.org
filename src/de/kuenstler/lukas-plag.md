@@ -2,7 +2,7 @@
 title: 'Lukas Plag'
 translationKey: 'lukasplag'
 customSlug: 'lukas-plag'
-excerpt:
+excerpt: 'Der 1997 geborene Cellist Lukas Plag hat zahlreiche Preise gewonnen und ist als Solist in verschiedenen Orchestern aufgetreten.'
 occupation: 'Cellist'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/lukas-plag.png
