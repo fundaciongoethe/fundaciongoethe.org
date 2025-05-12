@@ -21,8 +21,8 @@ directregister:
 youtube: false
 ---
 
-Visita guiada en Español.
+**en Castellano**
 
-La República de Weimar (1919-1933) estuvo marcada por tensiones y un trágico final, pero muchas de sus ideas y debates, y la herencia de su desbordante creatividad, siguen vivos hoy en día.
+La República de Weimar solo duró 15 años (1918-1933) y se caracterizó por una gran inestabilidad política y social. El panorama cultural –en todas sus expresiones– fue, sin embargo, de una riqueza inusual y su influencia en el arte de las nuevas vanguardias, surgidas después de 1945, es innegable.
 
-Una visión transversal de este riquísimo periodo, en el que vivieron y destacaron figuras como Thomas Mann, Käthe Kollwitz, Otto Dix o Jeanne Mammen. La Dra. Mercedes Valdivieso nos acercará a la exposición.
+La exposición Tiempos Inciertos. Alemania entre guerras, que se muestra actualmente en el CaixaForum de Barcelona, recrea el ambiente político, cultural y artístico de este periodo, a través de obras pictóricas y gráficas, fotografías, audiovisuales y fragmentos musicales. Dentro de este recorrido, se le ha dedicado especial atención a la escuela de la Bauhaus.

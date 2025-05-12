@@ -21,8 +21,8 @@ directregister:
 youtube: false
 ---
 
-Führung in Spanisch.
+**Führung in Spanisch**
 
-Die Weimarer Republik (1919–1933) war geprägt von Spannungen und einem tragischen Ende, doch viele ihrer Ideen und Debatten sowie das Erbe ihrer überschäumenden Kreativität sind bis heute lebendig.
+Die Weimarer Republik bestand nur 15 Jahre (1918-1933) und war geprägt von großer politischer und sozialer Instabilität. Das kulturelle Panorama – in all seinen Ausdrucksformen – war jedoch von ungewöhnlicher Vielfalt, und sein Einfluss auf die Kunst der neuen Avantgarde, die nach 1945 entstand, ist unbestreitbar.
 
-Ein Querschnitt durch diese äußerst facettenreiche Epoche, in der Persönlichkeiten wie Thomas Mann, Käthe Kollwitz, Otto Dix und Jeanne Mammen lebten und wirkten. Dr. Mercedes Valdivieso wird uns die Ausstellung näherbringen
+Die Ausstellung „Unsichere Zeiten. Deutschland zwischen den Kriegen“, die derzeit im CaixaForum in Barcelona zu sehen ist, lässt das politische, kulturelle und künstlerische Klima dieser Zeit anhand von Gemälden, Grafiken, Fotografien, audiovisuellen Medien und Musikausschnitten wiederaufleben. Besondere Aufmerksamkeit wird dabei der Bauhaus-Schule gewidmet.
