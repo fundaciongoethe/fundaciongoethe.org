@@ -4,7 +4,7 @@ description: 'La República de Weimar (1919-1933) estuvo marcada por tensiones y
 translationKey: caixatiempos25
 customSlug: visita-guiada-tiempos-inciertos
 venue: [caixaforum]
-artist: []
+artist: [mercedesvaldivieso]
 partners:
   - caixabcn
 date: 2025-05-19 18:30:00

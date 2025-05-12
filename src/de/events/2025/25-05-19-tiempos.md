@@ -4,7 +4,7 @@ description: 'Die Weimarer Republik (1919–1933) war geprägt von Spannungen un
 translationKey: caixatiempos25
 customSlug: visita-guiada-tiempos-inciertos
 venue: [caixaforum]
-artist: []
+artist: [mercedesvaldivieso]
 partners:
   - caixabcn
 date: 2025-05-19 18:30:00
