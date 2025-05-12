@@ -7,7 +7,7 @@ city: Palma de Mallorca
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/mallorca-almudaina.jpg
   alt: Blick auf den Palacio Real de La Almudaina
-  credit: Nicole Pankalla / Pixabay
+  credit:
 links:
   web: https://www.patrimonionacional.es/visita/palacio-real-de-la-almudaina
 ---
