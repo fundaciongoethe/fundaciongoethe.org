@@ -13,11 +13,11 @@ ending: 2025-06-08 21:30:00
 deadline: 2025-06-07 11:00:00
 calcDuration: 1.5
 type: 'Konzert'
-access: Persönliche Einladung erforderlich
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
-program:
+access: Direktanmeldung
+infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
+program: 2025-plag-druml-de.pdf
 ticketsale:
-directregister:
+directregister: https://lukas-plag-sophie-druml-palma.eventbrite.es
 youtube: false
 ---
 
