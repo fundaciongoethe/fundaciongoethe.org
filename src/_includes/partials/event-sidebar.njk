@@ -51,19 +51,25 @@
     {% endif %}
 
     {% if program %}
-      <div class="text-white pt-10 text-xs lg:text-sm">
-        <a href="/assets/pdf/{{ program }}" class="flex items-center hover:text-yellow-400" download>
+      <div class="text-white pt-10 text-xs lg:text-sm flex items-center flex-wrap gap-x-4 md:gap-x-10 gap-y-2">
+        <a
+          href="/assets/pdf/{{ program }}"
+          class="flex flex-wrap items-center hover:text-yellow-400 whitespace-nowrap"
+          download
+        >
           {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible %}
           {{ meta[locale].event.program }}
         </a>
-      </div>
-    {% endif %}
-    {% if programExtra %}
-      <div class="text-white pt-10 text-xs lg:text-sm">
-        <a href="/assets/pdf/{{ program }}" class="flex items-center hover:text-yellow-400" download>
-          {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible %}
-          {{ meta[locale].event.programExtra }}
-        </a>
+        {% if programExtra %}
+          <a
+            href="/assets/pdf/{{ program }}"
+            class="flex items-center hover:text-yellow-400 whitespace-nowrap"
+            download
+          >
+            {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible %}
+            {{ meta[locale].event.programExtra }}
+          </a>
+        {% endif %}
       </div>
     {% endif %}
   </dl>

@@ -15,8 +15,8 @@ calcDuration: 1.5
 type: 'Concierto'
 access: Se requiere una invitación personal
 infobox: Evento privado, sólo con invitación personal.
-program: 2025-plag-druml-es.pdf
-programExtra: 2025-plag-druml-ablauf.pdf
+program: 2025-plag-druml-ablauf.pdf
+programExtra: 2025-plag-druml-es.pdf
 ticketsale:
 directregister:
 youtube: false
