@@ -75,7 +75,8 @@ module.exports = {
       finishedPrep: 'en',
       thanks: 'Gracias por la colaboración',
       deadline: 'Plazo de inscripción',
-      program: 'Descargar programa (PDF)',
+      program: 'Programa (PDF)',
+      programExtra: 'Programa adicional',
       register: 'Inscríbete para participar',
       sale: 'Entradas',
       noEvent:
@@ -173,7 +174,8 @@ module.exports = {
       finishedPrep: 'in',
       thanks: 'Danke für die besondere Kooperation',
       deadline: 'Anmeldeschluss',
-      program: 'Programm  herunterladen (PDF)',
+      program: 'Programm (PDF)',
+      programExtra: 'Programm (Zusatz) (PDF)',
       register: 'Direkt anmelden',
       sale: 'Eintrittskarten',
       noEvent:

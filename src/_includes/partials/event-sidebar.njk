@@ -53,8 +53,16 @@
     {% if program %}
       <div class="text-white pt-10 text-xs lg:text-sm">
         <a href="/assets/pdf/{{ program }}" class="flex items-center hover:text-yellow-400" download>
-          {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible, "download pdf programa" %}
+          {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible %}
           {{ meta[locale].event.program }}
+        </a>
+      </div>
+    {% endif %}
+    {% if programExtra %}
+      <div class="text-white pt-10 text-xs lg:text-sm">
+        <a href="/assets/pdf/{{ program }}" class="flex items-center hover:text-yellow-400" download>
+          {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible %}
+          {{ meta[locale].event.programExtra }}
         </a>
       </div>
     {% endif %}
