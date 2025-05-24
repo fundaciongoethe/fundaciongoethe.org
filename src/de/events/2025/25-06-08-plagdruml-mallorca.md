@@ -16,6 +16,7 @@ type: 'Konzert'
 access: Direktanmeldung
 infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 program: 2025-plag-druml-de.pdf
+programExtra: 2025-plag-druml-ablauf.pdf
 ticketsale:
 directregister: https://lukas-plag-sophie-druml-palma.eventbrite.es
 youtube: false
