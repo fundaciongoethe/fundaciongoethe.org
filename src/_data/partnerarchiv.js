@@ -450,8 +450,13 @@ module.exports = {
     logo: './src/assets/images/event-sponsors/freixenet-logo.jpg',
   },
   mediamarkt: {
-    name: 'Meddia Markt',
+    name: 'Media Markt',
     url: 'https://www.mediamarkt.es/',
     logo: './src/assets/images/sponsors/mediamarkt/mediamarkt-logo.png',
+  },
+  bodegasmunoz: {
+    name: 'Bodegas Muñoz',
+    url: 'https://www.bodegasmunoz.com/',
+    logo: './src/assets/images/event-sponsors/munoz-logo.png',
   },
 };
