@@ -7,9 +7,9 @@ venue: [mies]
 artist: [sophiedruml, lukasplag]
 partners:
   - mies
-date: 2025-06-10 19:30:00
-opening: 2025-06-10 19:00:00
-ending: 2025-06-10 21:00:00
+date: 2025-06-10 21:00:00
+opening: 2025-06-10 20:30:00
+ending: 2025-06-10 22:30:00
 deadline: 2025-06-10 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
