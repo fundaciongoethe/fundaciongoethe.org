@@ -31,19 +31,19 @@
     "markdown-it": "^14.1.0",
     "markdown-it-emoji": "^3.0.0",
     "tailwindcss": "^3.4.17",
-    "validator": "^13.15.0"
+    "validator": "^13.15.15"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.0",
+    "@11ty/eleventy": "^3.1.1",
     "@11ty/eleventy-img": "^6.0.4",
     "autoprefixer": "^10.4.21",
-    "calendar-link": "^2.8.0",
+    "calendar-link": "^2.10.0",
     "clean-css": "^5.3.3",
     "cross-env": "^7.0.3",
     "date-fns": "^4.1.0",
     "del-cli": "^6.0.0",
     "dotenv": "^16.5.0",
-    "esbuild": "^0.25.4",
+    "esbuild": "^0.25.5",
     "glob": "^8.0.3",
     "html-minifier-terser": "^7.2.0",
     "luxon": "^3.6.1",
@@ -58,6 +58,6 @@
     "prettier-plugin-jinja-template": "^2.1.0",
     "slugify": "^1.6.6",
     "svg-sprite": "^2.0.4",
-    "vinyl": "^3.0.0"
+    "vinyl": "^3.0.1"
   }
 }
