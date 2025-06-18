@@ -2,61 +2,58 @@
   <div class="relative mx-auto">
     <div class="text-center">
       <h2 class="standardtitel text-gray-900">{{ meta[locale].newsTitle }}</h2>
-      <p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">
-        {{ meta[locale].newsExcerpt }}
-      </p>
+      <p class="standardtext mt-3 max-w-2xl mx-auto sm:mt-4">{{ meta[locale].newsExcerpt }}</p>
     </div>
 
     <section class="mt-12">
       <div class="relative pb-20">
         <div class="relative mx-auto max-w-7xl">
           <div class="grid gap-8 mx-auto mt-12 md:grid-cols-2 lg:grid-cols-3 lg:max-w-none">
-            {% set postslist = collections["posts_" + locale] %} {# startnews #} {% set postslist = postslist | reverse
-            %} {% for post in postslist.slice(0, 3) %}
+            {% set postslist = collections["posts_" + locale] %} {% set postslist = postslist | reverse %}
+            {% for post in postslist.slice(0, 3) %}
+              <div class="card flex flex-col overflow-hidden rounded-md border border-gray-200">
+                <div class="flex-shrink-0 relative buttonhover">
+                  <a href="{{ post.url | url }}">
+                    <!-- picture shortcode -->
 
-            <div class="card flex flex-col overflow-hidden rounded-md border border-gray-200">
-              <div class="flex-shrink-0 relative buttonhover">
-                <a href="{{ post.url | url }}">
-                  <!-- picture shortcode -->
+                    <!-- if featured image -->
+                    {% if post.data.images.featured %}
+                      {%
+                        Picture post.data.images.featured, "bg-gray-100", " object-cover
+                        grayimg w-full h-40", post.data.images.alt or post.data.title, "lazy", "(min-width: 48rem) 420px,
+                        90vw"
+                      %}
+                      <!-- else fallback -->
+                    {% else %}
+                      {%
+                        Picture "./src/assets/images/blog/blog-fallback.jpg", "bg-gray-100", " object-cover
+                        grayimg w-full h-40", "Blog Fundación Goethe", "lazy", "(min-width: 48rem) 420px, 90vw"
+                      %}
+                    {% endif %}
 
-                  <!-- if featured image -->
-                  {% if post.data.images.featured %} {% Picture post.data.images.featured, "bg-gray-100", " object-cover
-                  grayimg w-full h-40", post.data.images.alt or post.data.title, "lazy", "(min-width: 48rem) 420px,
-                  90vw" %}
-                  <!-- else fallback -->
-                  {% else %} {% Picture "./src/assets/images/blog/blog-fallback.jpg", "bg-gray-100", " object-cover
-                  grayimg w-full h-40", "Blog Fundación Goethe", "lazy", "(min-width: 48rem) 420px, 90vw" %} {% endif %}
-
-                  <div
-                    class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50"
-                    style="mix-blend-mode: multiply"
-                  ></div>
-                </a>
-              </div>
-
-              <div class="flex flex-col justify-between flex-1 p-4">
-                <div class="flex tracking-wide uppercase text-xs font-bold text-red-700">
-                  {{ post.data.topic }}
+                    <div
+                      class="absolute inset-0 bg-gradient-to-b from-gray-50 to-orange-50"
+                      style="mix-blend-mode: multiply"
+                    ></div>
+                  </a>
                 </div>
 
-                <h3 class="text-base font-bold text-gray-900 mt-2">
-                  {{ post.data.title }}
-                </h3>
+                <div class="flex flex-col justify-between flex-1 p-4">
+                  <div class="flex tracking-wide uppercase text-xs font-bold text-red-700">{{ post.data.topic }}</div>
 
-                <p class="prose mt-3">
-                  {{ post.data.excerpt }}
-                </p>
+                  <h3 class="text-base font-bold text-gray-900 mt-2">{{ post.data.title }}</h3>
 
-                <div class="flex items-center mt-12 uppercase justify-between text-xs font-bold">
-                  <div class="flex leading-5">
-                    <time datetime="{{ post.date | date('YYYY-MM-DD') }}">
-                      {{ post.date | date("Do MMMM yyyy", locale) }}</time
-                    >
+                  <p class="prose mt-3">{{ post.data.excerpt }}</p>
+
+                  <div class="flex items-center mt-12 uppercase justify-between text-xs font-bold">
+                    <div class="flex leading-5">
+                      <time datetime="{{ post.date | date('YYYY-MM-DD') }}">
+                        {{ post.date | date("Do MMMM yyyy", locale) }}</time
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
             {%- endfor -%}
           </div>
         </div>
