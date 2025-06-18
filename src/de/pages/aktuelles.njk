@@ -6,11 +6,6 @@ permalink: '/{{ locale }}/aktuelles/index.html'
 seo:
   title: Aktuelles von der Fundación Goethe
   description: In unserer Nachrichtensektion geben wir einen Rückblick auf vergangene Veranstaltungen und machen auf besondere Events aufmerksam.
-pagination:
-  data: collections.posts_de
-  size: 12
-  reverse: true
-  alias: posts_de
 ---
 
 <div
@@ -34,18 +29,11 @@ pagination:
         Events aufmerksam.
       </p>
     </div>
-
-    {% set postslist = posts_de | reverse %}
+    {% set postslist = collections.posts_de | reverse %}
     {%
       include
       "components/postslistcards.njk"
     %}
-    {%
-      if collections.posts_de.length >
-      pagination.size
-    %}
-      {% include "components/pagination.njk" %}
-    {% endif %}
   </div>
 </div>
 

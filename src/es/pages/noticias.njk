@@ -6,11 +6,6 @@ permalink: '/{{ locale }}/noticias/index.html'
 seo:
   title: Noticias de la Fundaci¡on Goethe
   description: En nuestra sección de noticias damos una revisión de los eventos pasados y llamamos la atención sobre eventos especiales.
-pagination:
-  data: collections.posts_es
-  size: 12
-  reverse: true
-  alias: posts_es
 ---
 
 <div
@@ -35,7 +30,7 @@ pagination:
       </p>
     </div>
 
-    {% set postslist = posts_es | reverse %}
+    {% set postslist = collections.posts_es | reverse %}
     {%
       set postlist =
       ['components/postslistcards.njk']
@@ -43,7 +38,7 @@ pagination:
     {% include postlist | join %}
     {%
       if
-      collections.posts_es.length > pagination.size
+      collections.posts_es.length > 12
     %}
       {%
         include
