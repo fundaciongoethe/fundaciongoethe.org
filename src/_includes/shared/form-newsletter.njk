@@ -11,9 +11,7 @@
     <div class="md:grid md:grid-cols-3 md:gap-6">
       <div class="md:col-span-1">
         <h2 class="text-lg leading-6 font-semibold">{{ form.label1.title }}</h2>
-        <p class="mt-3 text-xs sm:text-sm leading-normal text-gray-700">
-          {{ form.label1.text }}
-        </p>
+        <p class="mt-3 text-xs sm:text-sm leading-normal text-gray-700">{{ form.label1.text }}</p>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
         <div class="shadow overflow-hidden sm:rounded-md">
@@ -43,12 +41,10 @@
 
               <div class="col-span-6">
                 <div class="flex justify-between">
-                  <label for="email" class="block text-sm text-gray-900">
-                    {{ meta[locale].contact.email }}
-                  </label>
-                  <span id="email_description" class="text-sm text-red-600 font-semibold">{{
-                    meta[locale].contact.required
-                  }}</span>
+                  <label for="email" class="block text-sm text-gray-900"> {{ meta[locale].contact.email }} </label>
+                  <span id="email_description" class="text-sm text-red-600 font-semibold"
+                    >{{ meta[locale].contact.required }}</span
+                  >
                 </div>
 
                 <input
@@ -77,18 +73,14 @@
     <div class="md:grid md:grid-cols-3 md:gap-6">
       <div class="md:col-span-1">
         <h2 class="text-lg leading-6 font-semibold">{{ form.label2.title }}</h2>
-        <p class="mt-3 text-xs sm:text-sm leading-normal text-gray-700">
-          {{ form.label2.text }}
-        </p>
+        <p class="mt-3 text-xs sm:text-sm leading-normal text-gray-700">{{ form.label2.text }}</p>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
         <div class="shadow overflow-hidden sm:rounded-md">
           <div class="sm:flex bg-white">
             <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
               <fieldset>
-                <legend class="font-semibold text-gray-900">
-                  {{ meta[locale].newsletter.language }}
-                </legend>
+                <legend class="font-semibold text-gray-900">{{ meta[locale].newsletter.language }}</legend>
                 <div class="mt-4 space-y-4">
                   <div class="flex items-start">
                     <div class="flex items-center h-5">
@@ -127,9 +119,7 @@
             </div>
             <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
               <fieldset>
-                <legend class="font-semibold text-gray-900">
-                  {{ meta[locale].newsletter.venues }}
-                </legend>
+                <legend class="font-semibold text-gray-900">{{ meta[locale].newsletter.venues }}</legend>
                 <div class="mt-4 space-y-4">
                   <!-- Madrid -->
                   <div class="flex items-start">
@@ -295,15 +285,16 @@
     <div class="md:grid md:grid-cols-3 md:gap-6">
       <div class="md:col-span-1">
         <h2 class="text-lg leading-6 font-semibold">{{ form.label3.title }}</h2>
-        <p class="mt-3 text-xs sm:text-sm leading-normal text-gray-700">
-          {{ form.label3.text }}
-        </p>
+        <div class="mt-3 text-xs sm:text-sm leading-normal text-gray-700">
+          {{ form.label3.text | markdownFormat | safe }}
+        </div>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
         <div class="shadow overflow-hidden sm:rounded-md">
           <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
-            <div class="flex items-start">
+            <div class="flex items-center">
               <input
+                data-checkbox
                 id="mce-group[14393]-14393-0"
                 name="group[14393][256]"
                 value="256"
@@ -311,18 +302,19 @@
                 class="focus:ring-yellow-400 h-4 w-4 text-gray-700 border-2 border-red-300 rounded"
               />
 
-              <div class="flex justify-between">
+              <div class="flex justify-between items-center gap-6">
                 <label for="mce-group[14393]-14393-0" class="ml-3 block text-sm text-gray-900 leading-relaxed">
                   {{ meta[locale].newsletter.datos }}
                 </label>
-                <span id="rgpd_description" class="text-sm text-red-600 font-semibold">{{
-                  meta[locale].contact.required
-                }}</span>
+                <span id="rgpd_description" class="text-sm text-red-600 font-semibold"
+                  >{{ meta[locale].contact.required }}</span
+                >
               </div>
             </div>
           </div>
           <div class="px-4 py-3 text-right sm:px-6">
             <button
+              data-send
               id="mcsend"
               type="submit"
               class="buttonhover inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm rounded-md text-white bg-red-600 hover:bg-black"

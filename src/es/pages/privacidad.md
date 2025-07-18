@@ -1,22 +1,45 @@
 ---
 title: Política de privacidad
-description: Política de privacidad según la Regulación General de Protección de Datos de la UE (RGPD).
+description: Política de Privacidad de la página web de la Fundación Goethe
 layout: page
 permalink: '/{{ locale }}/privacidad/index.html'
 translationKey: 'privacy'
 ---
 
-# Política de privacidad
+# Política de Privacidad de la página web de la Fundación Goethe
 
-## Responsable del tratamiento de datos
+## 1. Responsable de tratamiento
 
-{{ meta.address.firma }}<br>
-**CIF:** {{ meta.address.cif }}<br>
-**Dirección:** {{ meta.address.street }}<br>
-{{ meta.address.zip }}, {{ meta.address.city }}<br>
+El responsable del tratamiento de los datos personales facilitados por los interesados a través de la página web www.fundaciongoethe.org/es/ (“Web”) la Fundación Goethe España, con domicilio social en Calle de Almagro, 9, 28010, Madrid, y NIF G83131854, inscrita en el Registro Mercantil de Fundaciones con número de registro 569CUL (“Fundación”).
 
-**Tel:** {{ meta.address.mobileDisplay }}<br>
-**Mail:** <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+## 2. Finalidades y bases legales de tratamiento
+
+La Fundación trata los datos personales facilitados por los interesados para las siguientes finalidades:
+
+    - Gestionar las consultas que se realicen a través del formulario web;
+    - Atender las solicitudes de inscripción a eventos e invitaciones a eventos.
+
+## 3. Destinatarios y transferencias internacionales de datos
+
+Tus datos personales no serán cedidos a terceros salvo que se trate de una obligación legal (p. ej. Juzgados y Tribunales, Fuerzas y Cuerpos de Seguridad del Estado o Fiscalía). De igual forma, los datos podrán ser cedidos con terceros con quien tenga firmado un contrato que garantice una protección adecuada de los datos personales (p. ej. prestadores de servicios).
+
+La Fundación no lleva a cabo transferencias internacionales de datos y, en caso de hacerlas, ha adoptado las salvaguardas oportunas. Puedes ponerte en contacto con nosotros para obtener más información escribiendo a este correo electrónico: info@fundaciongoethe.org.
+
+## 4. Plazos de conservación
+
+La Fundación conserva los datos personales de acuerdo con su política interna de conservación de datos y, en ningún caso, se conservarán por un tiempo necesario para cumplir con la finalidad por la que fueron recogidos.
+
+Una vez cumplidas las finalidades, la Fundación conservará los datos personales debidamente bloqueados en la medida en que puedan derivarse responsabilidades o cuando así lo exija la normativa aplicable.
+
+## 5. Derechos de los usuarios
+
+Puede ejercer los derechos reconocidos en esta normativa de protección de datos (como, por ejemplo, los derechos de acceso, rectificación o supresión) a través de la siguiente dirección de correo electrónico: info@fundaciongoethe.org.
+
+Si usted ha prestado su consentimiento para alguna finalidad, puede, de igual modo, retirar dicho consentimiento libremente sin que se produzca ningún agravante para usted.
+
+En todo caso, puede presentar en cualquier momento una reclamación ante la Agencia Española de Protección de Datos en www.aepd.es.
+
+---
 
 ## ¿Qué datos de fondo se recogen?
 

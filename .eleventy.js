@@ -7,6 +7,7 @@ const markdownItEmoji = require('markdown-it-emoji').full;
 
 const eleventaFilters = require('./utils/filters/eleventaFilters.js');
 const dateFilters = require('./utils/filters/dateFilters.js');
+const myFilters = require('./utils/filters/my-filters.js');
 
 // shortcodes
 const youtube = require('./utils/shortcodes/youtube-lite.js');
@@ -47,6 +48,10 @@ module.exports = async function (eleventyConfig) {
 
   Object.keys(dateFilters).forEach((filterName) => {
     eleventyConfig.addFilter(filterName, dateFilters[filterName]);
+  });
+
+  Object.keys(myFilters).forEach((filterName) => {
+    eleventyConfig.addFilter(filterName, myFilters[filterName]);
   });
 
   // date filter (localized)

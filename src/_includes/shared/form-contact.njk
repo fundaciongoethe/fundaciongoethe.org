@@ -146,25 +146,39 @@
             </div>
           </div>
 
-          <div class="text-right sm:col-span-2">
-            <button
-              type="submit"
-              class="
-                inline-flex
-                justify-center
-                py-2
-                px-4
-                border border-transparent
-                shadow-sm
-                text-sm
-                rounded-md
-                text-white
-                bg-red-600
-                hover:bg-black
-              "
-            >
-              {{ meta[locale].contact.send }}
-            </button>
+          <div class="mt-5 md:mt-0 md:col-span-2">
+            <div class="text-gray-700 text-sm mb-4">{{ meta[locale].contact.info | markdownFormat | safe }}</div>
+            <div class="flex items-center ">
+              <input
+                data-checkbox
+                id="consent"
+                name="consent"
+                value="256"
+                type="checkbox"
+                class="focus:ring-yellow-400 h-4 w-4 text-gray-700 border-2 border-red-300 rounded"
+              />
+
+              <div class="flex justify-between items-center gap-6">
+                <label for="consent" class="ml-3 block text-sm text-gray-900 leading-relaxed">
+                  {{ meta[locale].contact.datos }}
+                </label>
+                <span id="rgpd_description" class="text-sm text-red-600 font-semibold"
+                  >{{ meta[locale].contact.required }}</span
+                >
+              </div>
+            </div>
+            <div class="px-4 py-3 text-right sm:px-6">
+              <button
+                data-send
+                id="send"
+                type="submit"
+                class="buttonhover inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm rounded-md text-white bg-red-600 hover:bg-black"
+                aria-disabled="true"
+                disabled
+              >
+                {{ meta[locale].contact.send }}
+              </button>
+            </div>
           </div>
         </form>
       </div>

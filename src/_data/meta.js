@@ -96,6 +96,8 @@ module.exports = {
       actionLink: 'gracias',
       creditMade: 'Hecho con',
       creditBy: 'por',
+      info: 'La Fundación Goethe te informa que tratará los datos personales que facilites con la finalidad de gestionar tu consulta y darte respuesta. Puedes ejercer tus derechos de protección de datos a través del e-mail [info@fundaciongoethe.org](info@fundaciongoethe.org). Para más información, por favor, consulte nuestra [Política de Privacidad.](/es/privacidad/)',
+      datos: 'He leído la política de privacidad',
     },
     newsletter: {
       language: 'Idioma de los emails',
@@ -103,7 +105,7 @@ module.exports = {
       german: 'Alemán',
       venues: 'Lugares',
       allInvitations: 'Todas las invitaciones',
-      datos: 'He leído la política de privacidad y acepto recibir invitaciones por correo electrónico.',
+      datos: 'Consiento recibir información sobre las actividades de la Fundación Goethe.',
     },
     gallery: 'Galería',
     sponsorlist: {
@@ -195,6 +197,8 @@ module.exports = {
       actionLink: 'danke',
       creditMade: 'Gemacht mit',
       creditBy: 'von',
+      info: 'Die Fundación Goethe informiert Sie darüber, dass sie die von Ihnen angegebenen personenbezogenen Daten zum Zwecke der Bearbeitung Ihrer Anfrage und der Beantwortung Ihrer Anfrage verarbeiten wird. Sie können Ihre Datenschutzrechte wahrnehmen, indem Sie eine E-Mail an [info@fundaciongoethe.org](info@fundaciongoethe.org) senden. Weitere Informationen finden Sie in unserer [Datenschutzrichtlinie](/de/datenschutz/).',
+      datos: 'Ich habe die Datenschutzerklärung zur Kenntnis genommen',
     },
     newsletter: {
       language: 'Sprache der E-Mails',
@@ -202,8 +206,7 @@ module.exports = {
       german: 'Deutsch',
       venues: 'Orte',
       allInvitations: 'Einladungen für alle Orte',
-      datos:
-        'Ich habe die Datenschutzerklärung zur Kenntnis genommen und bin damit einverstanden, per E-Mail Einladungen zu erhalten.',
+      datos: 'Ich bin damit einverstanden, Informationen über die Aktivitäten der Fundación Goethe zu erhalten.',
     },
     gallery: 'Galerie',
     sponsorlist: {
