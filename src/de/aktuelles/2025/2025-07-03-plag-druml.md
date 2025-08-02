@@ -7,6 +7,9 @@ images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/2025-plag-druml-barcelona-04.jpg
   alt: 'Lukas Plag und Sophie Druml im Pabellón Mies van der Rohe in Barcelona'
 gallery:
+  - image: ./src/assets/images/blog/2025-duo-plag-mallorca-01.JPG
+  - image: ./src/assets/images/blog/2025-duo-plag-mallorca-02.JPG
+  - image: ./src/assets/images/blog/2025-duo-plag-mallorca-03.JPG
   - image: ./src/assets/images/blog/2025-plag-druml-barcelona-01.jpg
   - image: ./src/assets/images/blog/2025-plag-druml-barcelona-02.jpg
   - image: ./src/assets/images/blog/2025-plag-druml-barcelona-03.jpg
