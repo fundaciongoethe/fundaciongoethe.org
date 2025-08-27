@@ -17,6 +17,66 @@ sponsorlist:
 yearbook:
   title: Jahrbücher der Fundación Goethe
   text: In unseren Jahrbüchern geben wir einen Überblick über alle Ereignisse des vergangenen Jahres. Laden Sie sich hier die Jahrbücher der vergangenen Jahre als PDF-Datei herunter.
+navigation_menu:
+  - href: '#patronato'
+    text: 'Vorstand'
+  - href: '#sponsors'
+    text: 'Förderer'
+  - href: '#filosofia'
+    text: 'Philosophie'
+  - href: '#historia'
+    text: 'Geschichte'
+  - href: '#anuarios'
+    text: 'Jahrbücher'
+  - href: '#partners'
+    text: 'Kooperationspartner'
+patrons_big:
+  - name: Josef Brem
+    image: src/assets/images/patrons/josef-brem-1.jpg
+    role: Präsident
+    period: seit 2019
+    alt: ''
+  - name: Wolfgang Minet
+    image: src/assets/images/patrons/wolfgang-minet-1.jpg
+    role: Ehrenpräsident
+    period: Präsident 2001 - 2019
+    alt: ''
+patrons_small:
+  - name: Dirk Budach
+    image: src/assets/images/patrons/dirk-budach.jpg
+    role: 1. Vizepräsident, Schatzmeister
+    period: 'seit 2017. Siemens AG Group, Head of Trade Finance - Regions & Bank Relations'
+    alt: ''
+  - name: Bernd Hullerum
+    image: src/assets/images/patrons/bernd-hullerum.jpg
+    role: 2. Vizepräsident
+    period: seit 2025. CEO Andreas Stihl
+    alt: ''
+  - name: Dr. Kai Christian Fischer
+    image: src/assets/images/patrons/kai-fischer-1.jpg
+    role: Vorstandsmitglied und Schriftführer
+    period: 'seit 2009. Cuatrecasas Partner, M&A + PE, Head of German Desk'
+    alt: ''
+  - name: Patricia Ayala
+    image: src/assets/images/patrons/patricia-ayala.png
+    role: Vorstandsmitglied
+    period: 'seit 2025. Rödl & Partner, Partner und Abogada'
+    alt: ''
+  - name: Michael Aranda
+    image: src/assets/images/patrons/michael-aranda.jpg
+    role: Vorstandsmitglied
+    period: seit 2025. Consultant im Handel
+    alt: ''
+  - name: Michaela Reischl
+    image: src/assets/images/patrons/michaela-reischl.jpg
+    role: Vorstandsmitglied
+    period: seit 2025. Lidl España, Head of CSA
+    alt: ''
+  - name: Claudia Remus
+    image: src/assets/images/patrons/claudia-remus.jpg
+    role: Direktorin
+    period: seit 2013. Ansprechpartnerin und Organisatorin
+    alt: ''
 partnerlist:
   title: Partner
   text: Viele der von der Fundación Goethe organisierten Veranstaltungen wären ohne die Zusammenarbeit mit unseren Kooperationspartnern nicht möglich.
@@ -37,29 +97,11 @@ partners:
 
 <div class="relative mx-auto lg:pt-16">
   <ul class="max-w-md mx-auto px-3 sm:px-6 md:hidden divide-y divide-gray-300 mt-10 text-sm font-semibold mb-2">
-    <li class="py-2">
-      <a href="#patronato" class="block no-underline pr-2 text-gray-900"> Vorstand</a>
-    </li>
-
-    <li class="py-2">
-      <a href="#sponsors" class="block no-underline pr-2 text-gray-900"> Förderer</a>
-    </li>
-
-    <li class="py-2">
-      <a href="#filosofia" class="block no-underline pr-2 text-gray-900"> Philosophie</a>
-    </li>
-
-    <li class="py-2">
-      <a href="#historia" class="block no-underline pr-2 text-gray-900"> Geschichte</a>
-    </li>
-
-    <li class="py-2">
-      <a href="#anuarios" class="block no-underline pr-2 text-gray-900"> Jahrbücher</a>
-    </li>
-
-    <li class="py-2">
-      <a href="#partners" class="block no-underline pr-2 text-gray-900"> Kooperationspartner</a>
-    </li>
+    {% for item in navigation_menu %}
+      <li class="py-2">
+        <a href="{{ item.href }}" class="block no-underline pr-2 text-gray-900"> {{ item.text }}</a>
+      </li>
+    {% endfor %}
   </ul>
 
   <div class="flex flex-col md:flex-row">
@@ -73,116 +115,49 @@ partners:
       </div>
 
       <div class="flex flex-col sm:flex-row md:flex-col mt-10 xl:mt-16 mr-3 md:mr-16">
-        <!-- brem -->
-        <div class="w-full md:space-y-4 md:-mb-6 mr-3">
-          <div class="w-full aspect-[5/3] relative bg-gray-200 rounded-lg overflow-hidden">
-            <!-- picture shortcode -->
-            {%
-              Picture "src/assets/images/patrons/josef-brem-1.jpg", "bg-gray-200", "grayimg absolute inset-0 w-full
-              h-full object-cover", "Josef Brem", "lazy"
-            %}
-          </div>
+        {% for patron in patrons_big %}
+          <div class="w-full md:space-y-4 {% if loop.first %}md:-mb-6 mr-3{% else %}md:mt-1 -mb-5{% endif %}">
+            <div class="w-full aspect-[5/3] relative bg-gray-200 rounded-lg overflow-hidden">
+              <!-- picture shortcode -->
+              {%
+                Picture patron.image, "bg-gray-200", "grayimg absolute inset-0 w-full
+                h-full object-cover", patron.alt, "lazy"
+              %}
+            </div>
 
-          <div
-            class="py-1 lg:py-2 transform -translate-y-10 lg:-translate-y-16 space-y-2 bg-white rounded-md border w-56 2xl:w-72 mx-auto"
-          >
-            <div class="leading-6 text-center text-lg">
-              <h3 class="mb-2 font-semibold">Josef Brem</h3>
-              <p class="text-red-600 text-sm font-semibold uppercase">Präsident</p>
-              <p class="text-gray-500 text-sm">seit 2019</p>
+            <div
+              class="py-1 lg:py-2 transform -translate-y-10 lg:-translate-y-16 space-y-2 bg-white rounded-md border w-56 2xl:w-72 mx-auto"
+            >
+              <div class="leading-6 text-center text-lg">
+                <h3 class="mb-2 font-semibold">{{ patron.name }}</h3>
+                <p class="text-red-600 text-sm font-semibold uppercase">{{ patron.role }}</p>
+                <p class="text-gray-500 text-sm">{{ patron.period }}</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <!-- minet -->
-        <!-- minet -->
-        <div class="w-full md:space-y-4 md:mt-1 -mb-5">
-          <div class="w-full aspect-[5/3] relative bg-gray-200 rounded-lg overflow-hidden">
-            <!-- picture shortcode -->
-            {%
-              Picture "src/assets/images/patrons/wolfgang-minet-1.jpg", "bg-gray-200", "grayimg absolute inset-0 w-full
-              h-full object-cover", "Wolfgang Minet", "lazy"
-            %}
-          </div>
-
-          <div
-            class="py-1 lg:py-2 transform -translate-y-10 lg:-translate-y-16 space-y-2 bg-white rounded-md border w-56 2xl:w-72 mx-auto"
-          >
-            <div class="leading-6 text-center text-lg">
-              <h3 class="mb-2 font-semibold">Wolfgang Minet</h3>
-              <p class="text-red-600 text-sm font-semibold uppercase">Ehrenpräsident</p>
-              <p class="text-gray-500 text-sm">Präsident 2001 - 2019</p>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
 
       <!-- small patrons -->
       <div class="space-y-6 my-10">
-        <!-- Dirk Budach -->
-        <div class="flex items-center space-x-4 lg:space-x-6 px-3 xl:pl-16 2xl:pl-24">
-          <div class="h-40 w-40 relative bg-gray-200 rounded-lg overflow-hidden">
-            <!-- picture shortcode -->
-            {%
-              Picture "src/assets/images/patrons/dirk-budach.jpg", "bg-gray-200", "grayimg absolute inset-0 w-full
-              h-full object-cover rounded-lg ", "Dirk Budach", "lazy"
-            %}
+        {% for patron in patrons_small %}
+          <div
+            class="flex items-center space-x-4 lg:space-x-6 px-3 xl:pl-16 2xl:pl-24{% if patron.name == 'Osmar Polo' %}mb-4{% endif %}"
+          >
+            <div class="h-40 w-40 relative bg-gray-200 rounded-lg overflow-hidden">
+              <!-- picture shortcode -->
+              {%
+                Picture patron.image, "aspect-square", "grayimg absolute inset-0 w-full
+                h-full object-cover rounded-lg", patron.alt, "lazy"
+              %}
+            </div>
+            <div class="text-lg leading-6 w-2/3">
+              <h3 class="mb-2 font-semibold">{{ patron.name }}</h3>
+              <p class="text-red-600 text-sm font-semibold uppercase">{{ patron.role }}</p>
+              <p class="text-gray-500 text-sm">{{ patron.period }}</p>
+            </div>
           </div>
-          <div class="text-lg leading-6 w-2/3">
-            <h3 class="mb-2 font-semibold">Dirk Budach</h3>
-            <p class="text-red-600 text-sm font-semibold uppercase">Vizepräsident</p>
-            <p class="text-gray-500 text-sm">Madrid, seit 2017</p>
-          </div>
-        </div>
-
-        <!-- Osmar Polo -->
-        <div class="flex items-center space-x-4 lg:space-x-6 px-3 xl:pl-16 2xl:pl-24 mb-4">
-          <div class="h-40 w-40 relative bg-gray-200 rounded-lg overflow-hidden">
-            <!-- picture shortcode -->
-            {%
-              Picture "src/assets/images/patrons/osmar-polo.jpg", "aspect-square", "grayimg absolute inset-0 w-full
-              h-full object-cover rounded-lg", "Osmar Polo", "lazy"
-            %}
-          </div>
-          <div class="text-lg leading-6 w-2/3">
-            <h3 class="mb-2 font-semibold">Osmar Polo</h3>
-            <p class="text-red-600 text-sm font-semibold uppercase">Vizepräsident</p>
-            <p class="text-gray-500 text-sm">Barcelona, seit 2021</p>
-          </div>
-        </div>
-
-        <!-- Kai Fische  -->
-        <div class="flex items-center space-x-4 lg:space-x-6 px-3 xl:pl-16 2xl:pl-24">
-          <div class="h-40 w-40 relative bg-gray-200 rounded-lg overflow-hidden">
-            <!-- picture shortcode -->
-            {%
-              Picture "src/assets/images/patrons/kai-fischer-1.jpg", "aspect-square", "grayimg absolute inset-0 w-full
-              h-full object-cover rounded-lg", "Kai Fischer", "lazy"
-            %}
-          </div>
-          <div class="text-lg leading-6 w-2/3">
-            <h3 class="mb-2 font-semibold">Kai Fischer</h3>
-            <p class="text-red-600 text-sm font-semibold uppercase">Schriftführer</p>
-            <p class="text-gray-500 text-sm">seit 2009</p>
-          </div>
-        </div>
-
-        <!-- Claudia Remus -->
-        <div class="flex items-center space-x-4 lg:space-x-6 px-3 xl:pl-16 2xl:pl-24">
-          <div class="h-40 w-40 relative bg-gray-200 rounded-lg overflow-hidden">
-            <!-- picture shortcode -->
-            {%
-              Picture "src/assets/images/patrons/claudia-remus.jpg", "aspect-square", "grayimg absolute inset-0 w-full
-              h-full object-cover rounded-lg", "Claudia Remus", "lazy"
-            %}
-          </div>
-          <div class="text-lg leading-6 w-2/3">
-            <h3 class="mb-2 font-semibold">Claudia Remus</h3>
-            <p class="text-red-600 text-sm font-semibold uppercase">Direktorin</p>
-            <p class="text-gray-500 text-sm">seit 2013. Ansprechpartnerin und Organisatorin.</p>
-          </div>
-        </div>
-
+        {% endfor %}
         <!-- small patrons ende -->
       </div>
     </div>
@@ -206,10 +181,13 @@ partners:
           <div class="xl:col-start-1">
             <div class="text-base max-w-prose mx-auto xl:max-w-lg xl:ml-auto xl:mr-0">
               <p class="text-lg text-black font-semibold">
-                Die Fundación Goethe fördert die deutsch-spanischen Kulturbeziehungen und unterstützt deutsche und
-                spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten
+                Die Fundación Goethe fördert die deutsch-spanischen Kulturbeziehungen.
               </p>
-              <div class="mt-6 prose text-black">
+              <p class="mt-4 text-lg text-black font-semibold">
+                Sie unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und
+                Ausstellungsmöglichkeiten
+              </p>
+              <div class="mt-8 prose text-black">
                 <p>
                   Künstlern beider Länder und vor allem jungen Menschen wird ermöglicht, bei exklusiven Veranstaltungen
                   aufzutreten oder an spannenden Orten auszustellen. Der Nachwuchs der Kulturszene beider Länder wird
