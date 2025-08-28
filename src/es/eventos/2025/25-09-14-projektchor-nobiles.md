@@ -1,8 +1,8 @@
 ---
-title: 'Música en las Reales Capillas: Ensemble Nobiles'
-description: 'El concierto comienza con una obra por encargo para el Ensemble Nobiles, compuesta con motivo de la consagración de una iglesia conventual.'
-translationKey: 25realesnobiles
-customSlug: musica-en-las-reales-capillas-ensemble-nobiles
+title: 'Proyecto de coro para el aniversario de Johann Sebastian Bach'
+description: 'Con motivo del 275.º aniversario del fallecimiento de Johann Sebastian Bach, te invitamos cordialmente a participar en un proyecto especial de coro.'
+translationKey: 25corobach
+customSlug: proyecto-de-coro-bach
 venue: [plazaoriente]
 artist: [ensemblenobiles]
 partners:
@@ -21,15 +21,26 @@ program:
 ticketsale:
 directregister:
 youtube: false
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
 Con motivo del 275.º aniversario del fallecimiento de Johann Sebastian Bach, te invitamos cordialmente a participar en un proyecto especial de coro que celebra la vida y la obra del compositor. El concierto tendrá lugar el 14 de septiembre en el impresionante escenario del Palacio Real, en la Plaza de Oriente de Madrid. El coro estará dirigido por Paul Heller, miembro del prestigioso conjunto vocal Ensemble Nobiles. El programa musical se presentará en colaboración con el Ensemble Nobiles, el Kammerchor Greifswald y cantantes del Coro de las Voces Graves de Madrid.
 
-Están invitados todos los que disfrutan cantar y que, idealmente, cuentan con algo de experiencia coral. La participación requiere una cuota simbólica de 10 €; se proporcionarán agua, snacks y partituras. El día de ensayo comenzará con un ensayo principal de 10:00 a 14:00 horas, seguido de un ensayo general de 16:00 a 18:30 horas. El concierto dará inicio a las 19:30 horas y tendrá una duración aproximada de 70 minutos. Se interpretarán juntos corales armonizados por Johann Sebastian Bach.
+## Invitación a cantar
 
-Más información sobre los lugares del ensayo y el material musical se facilitará tras tu inscripción definitiva. En caso de que el número de inscripciones supere las plazas disponibles, el director del coro se reserva el derecho de seleccionar a los participantes.
+Todas las personas a las que les guste cantar y, a ser posible, tengan algo de experiencia en coros, están invitadas a participar en el coro del proyecto.
 
-Quieres participar? Inscríbenos un email a eventos@fundaciongoethe.org indicando tu experiencia de coro y tu tono de voz (soprano, contralto, tenor, bajo).
-Ensayos y concierto el mismo día de 10:00 a 14:00h (primer ensayo) y de 16:00 a 18:30h (ensayo final). Cuota simbólica 10€, incluye snack, agua y partituras.
+- Cuota de participación: 10 € (incluye agua, aperitivos y partituras)
+- **Ensayos:**
+  Ensayo principal: 10:00-14:00 h.
+  Ensayo general: 16:00-18:30 h.
+- Concierto: comienzo a las 19:30 h, duración aprox. 70 minutos
+- Repertorio: canto conjunto de corales en movimientos de Johann Sebastian Bach.
+
+Recibirás más información sobre los ensayos y el material musical tras la inscripción vinculante. Si el número de inscripciones supera las plazas disponibles, el director del coro se reserva el derecho de seleccionar a los participantes.
+Inscripción previa indicando el tipo de voz y la experiencia coral: eventos@fundaciongoethe.org
+
+## Invitación para escuchar
+
+Si no quieres cantar, te invitamos a disfrutar de este concierto especial el 14 de septiembre a las 19:30 h frente al Palacio Real, en la Plaza de Oriente.
+
+Disfruta de una velada festiva con obras de Johann Sebastian Bach interpretadas por el coro del proyecto, el Ensemble Nobiles, el Kammerchor Greifswald y el Coro de las Voces Graves de Madrid.
