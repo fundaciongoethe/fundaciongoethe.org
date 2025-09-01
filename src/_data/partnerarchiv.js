@@ -459,4 +459,19 @@ module.exports = {
     url: 'https://www.bodegasmunoz.com/',
     logo: './src/assets/images/event-sponsors/munoz-logo.png',
   },
+  weimar: {
+    name: 'Weimar Stadt',
+    url: 'https://www.weimar.de/leipzig region',
+    logo: './src/assets/images/event-sponsors/weimar-stadt.jpg',
+  },
+  leipzigregion: {
+    name: 'Leipzig Region',
+    url: 'https://www.leipzig.travel/en/',
+    logo: './src/assets/images/event-sponsors/leipzig-region.jpg',
+  },
+  dresdenelbland: {
+    name: 'Dresden Elbland',
+    url: 'https://www.dresden-elbland.de/',
+    logo: './src/assets/images/event-sponsors/dresden-elbland.png',
+  },
 };
