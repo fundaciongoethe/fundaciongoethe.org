@@ -4,7 +4,7 @@ description: 'Anlässlich des 275. Todestages von Johann Sebastian Bach laden wi
 translationKey: 25corobach
 customSlug: chorprojekt-johann-sebastian-bach
 venue: [plazaoriente]
-artist: [ensemblenobiles, corogreifswald]
+artist: [ensemblenobiles, corogreifswald, corovocesgraves]
 partners:
   - patrimonio
   - dzt
