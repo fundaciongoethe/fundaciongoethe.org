@@ -4,7 +4,7 @@ description: 'Anlässlich des 275. Todestages von Johann Sebastian Bach laden wi
 translationKey: 25corobach
 customSlug: chorprojekt-johann-sebastian-bach
 venue: [plazaoriente]
-artist: [ensemblenobiles]
+artist: [ensemblenobiles, corogreifswald]
 partners:
   - patrimonio
   - dzt
@@ -23,7 +23,9 @@ directregister:
 youtube: false
 ---
 
-Anlässlich des 275. Todestages von Johann Sebastian Bach laden wir herzlich zu einem besonderen musikalischen Ereignis ein. Am 14. September erklingt ein Konzert vor der eindrucksvollen Kulisse des königlichen Palastes auf der Plaza de Oriente in Madrid. Der Chor wird geleitet von Paul Heller, Mitglied des renommierten Vokalensembles Ensemble Nobiles. Das Programm gestalten gemeinsam das Ensemble Nobiles, der Kammerchor Greifswald und Sänger des Coro de las Voces Graves de Madrid.
+Anlässlich des 275. Todestages von Johann Sebastian Bach laden wir herzlich zu einem besonderen musikalischen Ereignis ein.
+
+Am 14. September erklingt ein Konzert vor der eindrucksvollen Kulisse des königlichen Palastes auf der Plaza de Oriente in Madrid. Der Chor wird geleitet von Paul Heller, Mitglied des renommierten Vokalensembles Ensemble Nobiles. Das Programm gestalten gemeinsam das Ensemble Nobiles, der Kammerchor Greifswald und Sänger des Coro de las Voces Graves de Madrid.
 
 ## Einladung zum Mitsingen
 
@@ -37,9 +39,10 @@ Alle, die Freude am Singen haben und idealerweise über etwas Chorerfahrung verf
 - Repertoire: Gemeinsames Singen von Chorälen in Sätzen von Johann Sebastian Bach
 
 Weitere Informationen zu Proben und Notenmaterial erhältst du nach verbindlicher Anmeldung. Sollte die Zahl der Anmeldungen die verfügbaren Plätze übersteigen, behält sich der Chorleiter eine Auswahl der Teilnehmenden vor.
-Voranmeldung mit Angabe der Stimmlage und Chorerfahrung: eventos@fundaciongoethe.org
 
-Einladung zum Zuhören
+**Voranmeldung mit Angabe der Stimmlage und Chorerfahrung: eventos@fundaciongoethe.org**
+
+## Einladung zum Zuhören
 
 Wenn du nicht mitsingen möchtest, laden wir dich ein, dieses besondere Konzert am 14. September um 19:30 Uhr vor dem Palacio Real auf der Plaza de Oriente mitzuerleben.
 

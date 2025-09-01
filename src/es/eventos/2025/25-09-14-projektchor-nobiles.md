@@ -23,7 +23,9 @@ directregister:
 youtube: false
 ---
 
-Con motivo del 275.º aniversario del fallecimiento de Johann Sebastian Bach, te invitamos cordialmente a participar en un proyecto especial de coro que celebra la vida y la obra del compositor. El concierto tendrá lugar el 14 de septiembre en el impresionante escenario del Palacio Real, en la Plaza de Oriente de Madrid. El coro estará dirigido por Paul Heller, miembro del prestigioso conjunto vocal Ensemble Nobiles. El programa musical se presentará en colaboración con el Ensemble Nobiles, el Kammerchor Greifswald y cantantes del Coro de las Voces Graves de Madrid.
+Con motivo del 275.º aniversario del fallecimiento de Johann Sebastian Bach, te invitamos cordialmente a participar en un proyecto especial de coro que celebra la vida y la obra del compositor.
+
+El concierto tendrá lugar el 14 de septiembre en el impresionante escenario del Palacio Real, en la Plaza de Oriente de Madrid. El coro estará dirigido por Paul Heller, miembro del prestigioso conjunto vocal Ensemble Nobiles. El programa musical se presentará en colaboración con el Ensemble Nobiles, el Kammerchor Greifswald y cantantes del Coro de las Voces Graves de Madrid.
 
 ## Invitación a cantar
 
@@ -37,7 +39,8 @@ Todas las personas a las que les guste cantar y, a ser posible, tengan algo de e
 - Repertorio: canto conjunto de corales en movimientos de Johann Sebastian Bach.
 
 Recibirás más información sobre los ensayos y el material musical tras la inscripción vinculante. Si el número de inscripciones supera las plazas disponibles, el director del coro se reserva el derecho de seleccionar a los participantes.
-Inscripción previa indicando el tipo de voz y la experiencia coral: eventos@fundaciongoethe.org
+
+**Inscripción previa indicando el tipo de voz y la experiencia coral: eventos@fundaciongoethe.org**
 
 ## Invitación para escuchar
 
