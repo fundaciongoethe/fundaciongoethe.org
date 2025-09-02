@@ -1,5 +1,5 @@
 ---
-title: 'Proyecto de coro para el aniversario de Johann Sebastian Bach'
+title: 'Un coro para Bach, una noche para el alma'
 description: 'Con motivo del 275.º aniversario del fallecimiento de Johann Sebastian Bach, te invitamos cordialmente a participar en un proyecto especial de coro.'
 translationKey: 25corobach
 customSlug: proyecto-de-coro-bach
@@ -49,6 +49,6 @@ Recibirás más información sobre los ensayos y el material musical tras la ins
 
 Si no quieres cantar, te invitamos a disfrutar de este concierto especial el 14 de septiembre a las 19:30 h frente al Palacio Real, en la Plaza de Oriente.
 
-<a href="https://Concierto_Ensemble_Nobiles.eventbrite.es" class="mt-3 inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm no-underline font-semibold rounded-md bg-red-600 text-white buttonhover hover:text-white" target="\_blank" rel="noopener noreferrer"> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg> Inscripción para el público </a>
+<a href="https://concierto_homenaje_bach.eventbrite.es/" class="mt-3 inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm no-underline font-semibold rounded-md bg-red-600 text-white buttonhover hover:text-white" target="\_blank" rel="noopener noreferrer"> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg> Inscripción para el público </a>
 
 Disfruta de una velada festiva con obras de Johann Sebastian Bach interpretadas por el coro del proyecto, el Ensemble Nobiles, el Kammerchor Greifswald y el Coro de las Voces Graves de Madrid.
