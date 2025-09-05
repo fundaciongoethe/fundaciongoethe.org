@@ -13,10 +13,10 @@ ending: 2025-09-17 21:30:00
 deadline: 2025-09-17 11:00:00
 calcDuration: 1.5
 type: 'Konzert'
-access: Persönliche Einladung erforderlich
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
+access: Eintritt mit Spende
+infobox: Eintritt mit Spende
 program:
-ticketsale:
+ticketsale: https://Donacion_Coro_Greifswald_Friedenskirche.eventbrite.es
 directregister:
 youtube: false
 ---
