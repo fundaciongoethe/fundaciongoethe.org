@@ -12,8 +12,8 @@ partners:
   - weimar
   - dresdenelbland
   - leipzigregion
-date: 2025-09-14 19:30:00
-opening: 2025-09-14 18:30:00
+date: 2025-09-14 20:00:00
+opening: 2025-09-14 19:00:00
 ending: 2025-09-14 21:00:00
 deadline: 2025-09-14 11:00:00
 calcDuration: 1.5
