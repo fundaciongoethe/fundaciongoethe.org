@@ -8,17 +8,17 @@ artist: [madrigalchor]
 partners:
   - shane
   - madrigalchor
-date: 2025-10-23 19:00:00
-opening: 2025-10-23 18:30:00
-ending: 2025-10-23 20:30:00
+date: 2025-10-23 19:30:00
+opening: 2025-10-23 19:00:00
+ending: 2025-10-23 21:00:00
 deadline: 2025-10-23 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
-access: Entrada libre
+access: Registro directo
 infobox: Entrada libre hasta completar aforo permitido. Con inscripción previa a través de Eventbrite.
 program:
 ticketsale:
-directregister:
+directregister: https://Madrigal-Chor-Kiel-Pamplona.eventbrite.es
 youtube: false
 ---
 
