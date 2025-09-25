@@ -474,4 +474,9 @@ module.exports = {
     url: 'https://www.dresden-elbland.de/',
     logo: './src/assets/images/event-sponsors/dresden-elbland.png',
   },
+  madrigalchor: {
+    name: 'Madrigalchor Kiel',
+    url: 'https://www.madrigalchor-kiel.de/',
+    logo: './src/assets/images/event-sponsors/madrigal-logo.png',
+  },
 };

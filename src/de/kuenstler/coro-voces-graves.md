@@ -10,11 +10,6 @@ images: # complete path for eleventy img srcset output, alt required
   credit:
 links:
   web: https://vocesgravesdemadrid.com
-  twitter:
-  facebook:
-  instagram:
-  spotify:
-  youtube:
 ---
 
 Der Coro de Voces Graves de Madrid GGC wurde 1995 als ein spannendes Projekt zur Wiederbelebung des Repertoires für Männerstimmen gegründet und hat derzeit fünfzig Mitglieder. In den 30 Jahren seines Bestehens hat er sich intensiv um die Wiederherstellung und Verbreitung von Chormusik für gleiche Stimmen bemüht. Mehr als zweihundertachtzig Konzerte wurden veranstaltet, darunter Einladungen zu national und international renommierten Festivals und Fernsehübertragungen.
