@@ -4,7 +4,7 @@ description: 'Las composiciones del siglo XX juegan con nuevos efectos sonoros e
 translationKey: kammerchorpamplona23
 customSlug: bremer-kammerchor-pamplona
 artist: [bremerkammerchor]
-venue: [parroquiasansaturnino]
+venue: [iglesiasansaturnino]
 location: Parroquia de San Saturnino
 city: Pamplona
 partners:

@@ -4,7 +4,7 @@ description: 'Der 1955 von Jürgen Jürgens gegründete Monteverdi-Chor Hamburg 
 translationKey: monteverdipamplona24
 customSlug: monteverdi-chor-pamplona-2024
 artist: [monteverdihamburg]
-venue: [parroquiasansaturnino]
+venue: [iglesiasansaturnino]
 location: Parroquia de San Saturnino
 city: Pamplona
 partners:

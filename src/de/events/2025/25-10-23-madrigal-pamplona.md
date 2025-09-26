@@ -1,9 +1,9 @@
 ---
 title: 'Konzert des Madrigalchor Kiel in Pamplona'
-description: 'Anlässlich des 275. Todestages von Johann Sebastian Bach laden wir herzlich zu einem besonderen musikalischen Ereignis ein.'
+description: 'Der Madrigalchor Kiel präsentiert ein vielfältiges a cappella-Programm rund um das Thema „Nacht“ in der Iglesia de San Saturnino'
 translationKey: 25madrigalpamplona
 customSlug: konzert-madrigalchor-kiel-pamplona
-venue: [parroquiasansaturnino]
+venue: [iglesiasansaturnino]
 artist: [madrigalchor]
 partners:
   - shane
@@ -22,7 +22,7 @@ directregister: https://Madrigal-Chor-Kiel-Pamplona.eventbrite.es
 youtube: false
 ---
 
-Der Madrigalchor Kiel präsentiert ein vielfältiges a cappella-Programm rund um das Thema „Nacht“ in der Pfarrkirche von San Saturnino.
+Der Madrigalchor Kiel präsentiert ein vielfältiges a cappella-Programm rund um das Thema „Nacht“ in der Iglesia de San Saturnino.
 
 Zu hören sind Werke englischer, schwedischer und deutscher Komponisten – von der Tradition der englischen Chormusik bis hin zu einer zeitgenössischen Antiphon von Nana Forte.
 

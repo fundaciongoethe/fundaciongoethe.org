@@ -4,7 +4,7 @@ description: 'Fundado en 1955 por Jürgen Jürgens, el Coro Monteverdi de Hambur
 translationKey: monteverdipamplona24
 customSlug: coro-monteverdi-pamplona-2024
 artist: [monteverdihamburg]
-venue: [parroquiasansaturnino]
+venue: [iglesiasansaturnino]
 location: Parroquia de San Saturnino
 city: Pamplona
 partners:

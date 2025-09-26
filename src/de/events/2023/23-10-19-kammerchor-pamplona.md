@@ -4,7 +4,7 @@ description: 'Die Kompositionen aus dem 20. Jahrhundert spielen mit neuen Klange
 translationKey: kammerchorpamplona23
 customSlug: bremer-kammerchor-pamplona
 artist: [bremerkammerchor]
-venue: [parroquiasansaturnino]
+venue: [iglesiasansaturnino]
 location: Parroquia de San Saturnino
 city: Pamplona
 partners:

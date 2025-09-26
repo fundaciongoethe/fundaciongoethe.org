@@ -1,6 +1,6 @@
 ---
 title: 'Konzert des Madrigalchor Kiel in Madrid'
-description: 'Der Madrigalchor Kiel präsentiert ein vielfältiges a cappella-Programm rund um das Thema „Nacht“ in der Parroquia de San Saturnino.'
+description: 'Der Madrigalchor Kiel präsentiert ein vielfältiges a cappella-Programm rund um das Thema „Nacht“ in der Real Basílica de Nuestra Señora de Atocha'
 translationKey: 25madrigalmadrid
 customSlug: konzert-madrigalchor-kiel-madrid
 venue: [basilicaatocha]
