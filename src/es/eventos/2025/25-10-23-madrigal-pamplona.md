@@ -1,6 +1,6 @@
 ---
 title: 'Concierto del Madrigal Chor Kiel en Pamplona'
-description: 'El Madrigalchor Kiel presenta un variado programa a cappella en torno al tema de la “noche” en la Iglesia de San Saturnino.'
+description: 'El Madrigalchor Kiel presenta un variado programa a cappella en torno al tema de la “noche” en la Iglesia Santo Domingo (Dominicos)'
 translationKey: 25madrigalpamplona
 customSlug: concierto-madrigal-chor-kiel-pamplona
 venue: [iglesiasantodomingo]
@@ -22,7 +22,7 @@ directregister: https://Madrigal-Chor-Kiel-Pamplona.eventbrite.es
 youtube: false
 ---
 
-El Madrigalchor Kiel presenta un variado programa a cappella en torno al tema de la “noche” en la Iglesia de San Saturnino.
+El Madrigalchor Kiel presenta un variado programa a cappella en torno al tema de la “noche” en la Iglesia Santo Domingo (Dominicos).
 
 Se interpretarán obras de compositores ingleses, suecos y alemanes, que abarcan desde la tradición de la música coral inglesa hasta una antífona contemporánea de Nana Forte.
 
