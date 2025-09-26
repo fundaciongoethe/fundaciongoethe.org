@@ -3,7 +3,7 @@ title: 'Konzert des Madrigalchor Kiel in Pamplona'
 description: 'Der Madrigalchor Kiel präsentiert ein vielfältiges a cappella-Programm rund um das Thema „Nacht“ in der Iglesia de San Saturnino'
 translationKey: 25madrigalpamplona
 customSlug: konzert-madrigalchor-kiel-pamplona
-venue: [iglesiasansaturnino]
+venue: [iglesiasantodomingo]
 artist: [madrigalchor]
 partners:
   - shane
