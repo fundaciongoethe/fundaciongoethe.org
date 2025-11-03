@@ -7,9 +7,9 @@ venue: [lamilagrosa]
 artist: [hankebrothers]
 partners:
   - milagrosa
-date: 2025-11-28 20:00:00
-opening: 2025-11-28 19:30:00
-ending: 2025-11-28 21:30:00
+date: 2025-11-28 21:45:00
+opening: 2025-11-28 20:30:00
+ending: 2025-11-28 23:15:00
 deadline: 2025-11-28 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
