@@ -7,7 +7,7 @@ city: Madrid
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/venues/monasterio_santa_isabel.jpg
   alt: Fachada del Real Monasterio de Santa Isabel
-  credit: Patrimonio Nacional
+  credit:
 links:
   web: https://www.patrimonionacional.es/visita/real-monasterio-de-santa-isabel
 ---

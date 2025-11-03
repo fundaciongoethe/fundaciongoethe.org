@@ -5,7 +5,7 @@ customSlug: 'kammerchor-greifswald'
 excerpt: 'Der Kammerchor des Instituts für Kirchenmusik und Musikwissenschaft der Universität Greifswald unter der Leitung von Prof. Frank Dittmer beschäftigt sich vornehmlich mit a-cappella-Literatur.'
 occupation: 'Kammerchor'
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/kammerchor-greifswald.jpg
+  featured: ./src/assets/images/artists/kammerchor-greifswald-2.jpg
   alt:
   credit:
 links:

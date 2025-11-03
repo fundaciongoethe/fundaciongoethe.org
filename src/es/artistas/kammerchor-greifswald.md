@@ -5,7 +5,7 @@ customSlug: 'coro-de-camara-greifswald'
 excerpt: 'El Coro de Cámara del Instituto de Música Sacra y Musicología de la Universidad de Greifswald, dirigido por el Prof. Frank Dittmer, se dedica principalmente al repertorio a cappella.'
 occupation: 'Coro de Cámara'
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/artists/kammerchor-greifswald.jpg
+  featured: ./src/assets/images/artists/kammerchor-greifswald-2.jpg
   alt:
   credit:
 links:

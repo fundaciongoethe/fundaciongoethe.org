@@ -7,7 +7,7 @@ city: Madrid
 images: # vollständiger Pfad für Eleventy img srcset output, alt erforderlich
   featured: ./src/assets/images/venues/monasterio_santa_isabel.jpg
   alt: Fassade des Real Monasterio de Santa Isabel
-  credit: Patrimonio Nacional
+  credit:
 links:
   web: https://www.patrimonionacional.es/visita/real-monasterio-de-santa-isabel
 ---
