@@ -12,9 +12,9 @@ opening: 2025-11-26 19:30:00
 ending: 2025-11-26 21:30:00
 deadline: 2025-11-26 11:00:00
 calcDuration: 1.5
-type: 'Concierto'
-access: Se requiere una invitación personal
-infobox: Evento privado, sólo con invitación personal.
+type: 'Konzert'
+access: Persönliche Einladung erforderlich
+infobox: Private Veranstaltung, nur mit persönlicher Einladung.
 program:
 ticketsale:
 directregister:

@@ -479,4 +479,9 @@ module.exports = {
     url: 'https://www.madrigalchor-kiel.de/',
     logo: './src/assets/images/event-sponsors/madrigal-logo.png',
   },
+  konsulatalicante: {
+    name: 'Cónsul Honoraria en Alicante',
+    url: 'https://spanien.diplo.de/es-es/vertretungen/honorarkonsuln/2002528-2002528',
+    logo: './src/assets/images/event-sponsors/konsulat-alicante.jpg',
+  },
 };
