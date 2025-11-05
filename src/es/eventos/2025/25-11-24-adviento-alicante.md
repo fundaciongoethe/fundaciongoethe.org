@@ -7,6 +7,7 @@ venue: [adda]
 artist: [hankebrothers]
 partners:
   - konsulatalicante
+  - konsulatbarcelona
 date: 2025-11-24 20:00:00
 opening: 2025-11-24 19:30:00
 ending: 2025-11-24 21:30:00
