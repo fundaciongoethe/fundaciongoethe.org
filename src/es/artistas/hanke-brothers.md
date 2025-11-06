@@ -2,7 +2,7 @@
 title: 'Hanke Brothers'
 translationKey: 'hankebrothers'
 customSlug: 'hanke-brothers'
-excerpt: 'Vielfalt, Experimentierfreude, das Ausloten neuer Grenzen, das ist das Lebenselixier der Brüder. Fabian, Jonathan, Lukas, David spielen Tuba, Klavier, Bratsche, Blockflöte.'
+excerpt: 'La diversidad, el gusto por la experimentación, la exploración de nuevos límites: ese es el elixir de vida de los hermanos. Fabian, Jonathan, Lukas y David tocan la tuba, el piano, la viola y la flauta dulce.'
 occupation: 'Boyband'
 seo:
   image: artists/hanke-brothers.webp
@@ -14,10 +14,10 @@ links:
 youtube: true
 ---
 
-Jeder von ihnen tut es auf seine ganz spezielle Weise, am eindrucksvollsten als Team auf der Bühne.
+Cada uno lo hace a su manera, pero lo más impresionante es verlos juntos en el escenario. Ningún concierto es igual a otro, ninguna pieza es como las que conocemos y los instrumentos no siempre tocan lo que uno espera. Las biografías de los cuatro son tan variadas como el repertorio de este conjunto excepcional.
 
-Dabei gilt: Kein Konzert ist wie das andere, kein Stück, wie man es kennt und die Instrumente spielen auch nicht immer das, was man erwartet. Die vier Biografien sind so bunt wie das Repertoire des Ausnahmeensembles. Gemeinsam haben sie auf der Bühne einen „musikalischen Dialekt“ gefunden, der so noch nicht zu hören war! Von Jeunesses Musicales Deutschland wurden sie dafür mit dem Ehrentitel „JM artist“ und für ihr Engagement als Musik- und Klassikbotschafter mit dem OPUS KLASSIK 2024 (ehemals Echo Klassik) in der Kategorie Nachwuchsförderung ausgezeichnet.
+Juntos han encontrado en el escenario un «dialecto musical» que nunca antes se había escuchado. Por ello, Jeunesses Musicales Deutschland les ha otorgado el título honorífico de «JM artist» y, por su compromiso como embajadores de la música y la música clásica, el OPUS KLASSIK 2024 (antes Echo Klassik) en la categoría de promoción de jóvenes talentos.
 
-Ihr Verein BROTHERS FOR MUSIC e.V. setzt sich für neue Musikvermittlungsprojekte und New Classical Music ein. Seit der Saison 23/24 sind sie Kuratoren der Meisterkonzerte Würzburg. Sie sind regelmäßig zu Gast bei renommierten Festivals, wie dem Schleswig-Holstein Musik Festival, den Gezeitenkonzerten, Festspielen Mecklenburg-Vorpommern, Ludwigsburger Schlossfestspielen, Heidelberger Frühling und Mozartfest Würzburg.
+Su asociación BROTHERS FOR MUSIC e.V. promueve nuevos proyectos de divulgación musical y la nueva música clásica. Desde la temporada 23/24 son comisarios de los Meisterkonzerte Würzburg. Actúan regularmente en festivales de renombre, como el Schleswig-Holstein Musik Festival, los Gezeitenkonzerte, el Festspiele Mecklenburg-Vorpommern, el Ludwigsburger Schlossfestspiele, el Heidelberger Frühling y el Mozartfest Würzburg.
 
 {% youtube 'G6XOBzFK5aw', 'Hanke Brothers - Europa (live) - Aleksey Igudesman' %}

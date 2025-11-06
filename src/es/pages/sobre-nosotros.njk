@@ -47,12 +47,12 @@ patrons_big:
 patrons_small:
   - name: Dirk Budach
     image: src/assets/images/patrons/dirk-budach.jpg
-    role: 1º Vicepresidente, Tesorero
+    role: Vicepresidente, Tesorero
     period: 'Siemens AG Group, Head of Trade Finance - Regions & Bank Relations'
     alt: ''
   - name: Bernd Hullerum
     image: src/assets/images/patrons/bernd-hullerum.jpg
-    role: 2º Vicepresidente
+    role: Vicepresidente
     period: CEO Andreas Stihl
     alt: ''
   - name: Dr. Kai Christian Fischer
@@ -96,26 +96,26 @@ partners:
 ---
 
 <div class="relative mx-auto lg:pt-16">
-  <ul class="max-w-md mx-auto px-3 sm:px-6 md:hidden divide-y divide-gray-300 mt-10 text-sm font-semibold mb-2">
+  <ul class="max-w-md px-3 mx-auto mt-10 mb-2 text-sm font-semibold divide-y divide-gray-300 sm:px-6 md:hidden">
     {% for item in navigation_menu %}
       <li class="py-2">
-        <a href="{{ item.href }}" class="block no-underline pr-2 text-gray-900"> {{ item.text }}</a>
+        <a href="{{ item.href }}" class="block pr-2 text-gray-900 no-underline"> {{ item.text }}</a>
       </li>
     {% endfor %}
   </ul>
 
   <div class="flex flex-col md:flex-row">
-    <div class="mr-3 md:mr-0 md:w-5/12 bg-gray-200 rounded-tr-lg rounded-br-lg py-12 z-10">
+    <div class="z-10 py-12 mr-3 bg-gray-200 rounded-tr-lg rounded-br-lg md:mr-0 md:w-5/12">
       <div class="px-3 sm:px-6 xl:pl-16 2xl:pl-24 md:pr-12">
         <h1 id="patronato" class="standardtitel">Patronato</h1>
-        <p class="standardtext mt-4">
+        <p class="mt-4 standardtext">
           El Patronato es el órgano de gobierno y representación de la Fundación. Sus miembros se encargan de establecer
           las actividades que ha de desarrollar, aprobar los presupuestos y las cuentas anuales y fijar los criterios de
           actuación.
         </p>
       </div>
 
-      <div class="flex flex-col sm:flex-row md:flex-col mt-10 xl:mt-16 mr-3 md:mr-16">
+      <div class="flex flex-col mt-10 mr-3 sm:flex-row md:flex-col xl:mt-16 md:mr-16">
         {% for patron in patrons_big %}
           <div class="w-full md:space-y-4 {% if loop.first %}md:-mb-6 mr-3{% else %}md:mt-1 -mb-5{% endif %}">
             <div class="w-full aspect-[5/3] relative bg-gray-200 rounded-lg overflow-hidden">
@@ -127,12 +127,12 @@ partners:
             </div>
 
             <div
-              class="py-1 lg:py-2 transform -translate-y-10 lg:-translate-y-16 space-y-2 bg-white rounded-md border w-56 2xl:w-72 mx-auto"
+              class="w-56 py-1 mx-auto space-y-2 transform -translate-y-10 bg-white border rounded-md lg:py-2 lg:-translate-y-16 2xl:w-72"
             >
-              <div class="leading-6 text-center text-lg">
+              <div class="text-lg leading-6 text-center">
                 <h3 class="mb-2 font-semibold">{{ patron.name }}</h3>
-                <p class="text-red-600 text-sm font-semibold uppercase">{{ patron.role }}</p>
-                <p class="text-gray-500 text-sm">{{ patron.period }}</p>
+                <p class="text-sm font-semibold text-red-600 uppercase">{{ patron.role }}</p>
+                <p class="text-sm text-gray-500">{{ patron.period }}</p>
               </div>
             </div>
           </div>
@@ -140,22 +140,22 @@ partners:
       </div>
 
       <!-- small patrons -->
-      <div class="space-y-6 my-10">
+      <div class="my-10 space-y-6">
         {% for patron in patrons_small %}
           <div
             class="flex items-center space-x-4 lg:space-x-6 px-3 xl:pl-16 2xl:pl-24{% if patron.name == 'Osmar Polo' %}mb-4{% endif %}"
           >
-            <div class="h-40 w-40 relative bg-gray-200 rounded-lg overflow-hidden">
+            <div class="relative w-40 h-40 overflow-hidden bg-gray-200 rounded-lg">
               <!-- picture shortcode -->
               {%
                 Picture patron.image, "{% if patron.name == 'Dirk Budach' %}aspect-[4/1]{% else %}aspect-video{% endif %}", "grayimg absolute inset-0 w-full
                 h-full object-cover rounded-lg", patron.alt, "lazy"
               %}
             </div>
-            <div class="text-lg leading-6 w-2/3">
+            <div class="w-2/3 text-lg leading-6">
               <h3 class="mb-2 font-semibold">{{ patron.name }}</h3>
-              <p class="text-red-600 text-sm font-semibold uppercase">{{ patron.role }}</p>
-              <p class="text-gray-500 text-sm">{{ patron.period }}</p>
+              <p class="text-sm font-semibold text-red-600 uppercase">{{ patron.role }}</p>
+              <p class="text-sm text-gray-500">{{ patron.period }}</p>
             </div>
           </div>
         {% endfor %}
@@ -163,7 +163,7 @@ partners:
       </div>
     </div>
     <div class="md:w-7/12">
-      <div id="sponsors" class="py-12 px-3 sm:px-6 xl:pl-16">
+      <div id="sponsors" class="px-3 py-12 sm:px-6 xl:pl-16">
         <!-- sponsors -->
         {% include "components/sponsorlist.njk" %}
       </div>
@@ -178,10 +178,10 @@ partners:
             %}
           </div>
         </div>
-        <div class="relative pt-12 pb-12 px-3 sm:pt-12 sm:px-6 xl:pl-16 xl:max-w-7xl xl:mx-auto xl:grid xl:grid-cols-2">
+        <div class="relative px-3 pt-12 pb-12 sm:pt-12 sm:px-6 xl:pl-16 xl:max-w-7xl xl:mx-auto xl:grid xl:grid-cols-2">
           <div class="xl:col-start-1">
-            <div class="text-base max-w-prose mx-auto xl:max-w-lg xl:ml-auto xl:mr-0">
-              <p class="text-lg text-black font-semibold">
+            <div class="mx-auto text-base max-w-prose xl:max-w-lg xl:ml-auto xl:mr-0">
+              <p class="text-lg font-semibold text-black">
                 En la Fundación Goethe promovemos las relaciones hispano-alemanas a nivel cultural y apoyamos con
                 nuestras numerosas actividades músicos y artistas alemanes y españoles.
               </p>
@@ -204,8 +204,8 @@ partners:
       </div>
 
       <div id="historia" class="bg-orange-100 md:bg-orange-400">
-        <div class="text-base mx-auto lg:mr-0 pt-12 pb-28 px-3 sm:px-6 xl:pl-16 md:pr-12">
-          <p class="text-lg text-black font-semibold">
+        <div class="px-3 pt-12 mx-auto text-base lg:mr-0 pb-28 sm:px-6 xl:pl-16 md:pr-12">
+          <p class="text-lg font-semibold text-black">
             La Fundación Goethe se inauguró el 18 de junio de 2001 en la Residencia del Embajador Alemán en Madrid
           </p>
           <div class="mt-6 prose text-black">
@@ -241,7 +241,7 @@ partners:
 
 <!-- partners -->
 
-<div id="partners" class="relative mx-auto max-w-3xl pb-12">{%- include "components/partnerlist.njk" %}</div>
+<div id="partners" class="relative max-w-3xl pb-12 mx-auto">{%- include "components/partnerlist.njk" %}</div>
 
 <!-- CTA -->
 {% include "components/cta.njk" %}

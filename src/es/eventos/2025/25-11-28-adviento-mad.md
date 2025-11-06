@@ -8,6 +8,7 @@ artist: [hankebrothers]
 partners:
   - milagrosa
   - ahk
+  - lidl
 date: 2025-11-28 21:45:00
 opening: 2025-11-28 20:30:00
 ending: 2025-11-28 23:15:00
