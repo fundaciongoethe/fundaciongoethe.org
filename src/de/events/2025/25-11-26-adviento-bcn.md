@@ -8,6 +8,7 @@ artist: [hankebrothers]
 partners:
   - ahk
   - lidl
+  - haribo
 date: 2025-11-26 20:00:00
 opening: 2025-11-26 19:30:00
 ending: 2025-11-26 21:30:00

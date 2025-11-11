@@ -9,17 +9,18 @@ partners:
   - milagrosa
   - ahk
   - lidl
+  - haribo
 date: 2025-11-28 20:45:00
 opening: 2025-11-28 20:30:00
 ending: 2025-11-28 22:15:00
 deadline: 2025-11-28 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
-access: Se requiere una invitación personal
-infobox: Evento privado, sólo con invitación personal.
+access: Registro directo
+infobox: Entrada libre hasta completar aforo permitido. Con inscripción previa a través de Eventbrite.
 program:
 ticketsale:
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-concierto-de-adviento-con-los-hanke-brothers-madrid-1930678935669
 youtube: false
 ---
 

@@ -10,17 +10,18 @@ partners:
   - botschaftmadrid
   - rbslegal
   - lidl
+  - haribo
 date: 2025-11-25 20:00:00
 opening: 2025-11-25 19:30:00
 ending: 2025-11-25 21:30:00
 deadline: 2025-11-25 11:00:00
 calcDuration: 1.5
 type: 'Konzert'
-access: Persönliche Einladung erforderlich
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
+access: Direktanmeldung
+infobox: Freier Eintritt mit vorheriger Anmeldung über Eventbrite.
 program:
 ticketsale:
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-concierto-de-adviento-bilbao-con-hanke-brothers-1967981964031
 youtube: false
 ---
 

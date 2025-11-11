@@ -9,17 +9,18 @@ partners:
   - konsulatalicante
   - konsulatbarcelona
   - lidl
+  - haribo
 date: 2025-11-24 20:00:00
 opening: 2025-11-24 19:30:00
 ending: 2025-11-24 21:30:00
 deadline: 2025-11-24 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
-access: Se requiere una invitación personal
-infobox: Evento privado, sólo con invitación personal.
+access: Registro directo
+infobox: Entrada libre hasta completar aforo permitido. Con inscripción previa a través de Eventbrite.
 program:
 ticketsale:
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-concierto-de-adviento-con-los-hanke-brothers-alicante-1931540903839
 youtube: false
 ---
 
