@@ -484,4 +484,9 @@ module.exports = {
     url: 'https://spanien.diplo.de/es-es/vertretungen/honorarkonsuln/2002528-2002528',
     logo: './src/assets/images/event-sponsors/konsulat-alicante.jpg',
   },
+  rbslegal: {
+    name: 'RBS Legal',
+    url: 'https://rechtsbeistand-spanien.de',
+    logo: './src/assets/images/event-sponsors/rbs-bilbao.jpg',
+  },
 };
