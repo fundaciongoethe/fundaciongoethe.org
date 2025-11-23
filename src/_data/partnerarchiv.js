@@ -489,4 +489,9 @@ module.exports = {
     url: 'https://rechtsbeistand-spanien.de',
     logo: './src/assets/images/event-sponsors/rbs-bilbao.jpg',
   },
+  roedl: {
+    name: 'Rödl & Partner',
+    url: 'https://www.roedl.com',
+    logo: 'src/assets/images/sponsors/roedl/roedl-logo.png',
+  },
 };
