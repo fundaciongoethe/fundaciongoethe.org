@@ -1,11 +1,11 @@
 const CACHE_NAME = 'fundaciongoethe-v1';
 const STATIC_ASSETS = [
   '/',
-  '/styles/index.css',
-  '/scripts/index.js',
-  '/scripts/audio.js',
-  '/scripts/snow-fall.js',
-  '/scripts/validate.js',
+  '/assets/main.min.css',
+  '/assets/main.js',
+  '/assets/audio.js',
+  '/assets/snow-fall.js',
+  '/assets/validate.js',
 ];
 
 // Install Service Worker & Cache Static Assets
