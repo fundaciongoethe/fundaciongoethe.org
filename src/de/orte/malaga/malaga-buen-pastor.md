@@ -5,9 +5,9 @@ customSlug: 'parroquia-del-buen-pastor-malaga'
 excerpt: Die Pfarrei des Guten Hirten befindet sich am Plazuela del Santísimo Cristo de la Crucifixión in Málaga.
 city: Málaga
 images: # complete path for eleventy img srcset output, alt required
-  featured: './src/assets/images/venues/malaga-beunpastor.jpg'
+  featured: './src/assets/images/venues/malaga-buenpastor.jpeg'
   alt: 'Weiße Fassade der Pfarrkirche El Buen Pastor in Málaga, mit dem Namen der Kirche in großen Buchstaben, zwei Dächern an den Seiten, einem Kreuz in der Mitte und einem religiösen Mosaik an der Hauptwand.'
-  credit: 'diocesismalaga.es'
+  credit: 'Parroquia del Buen Pastor, Museo Jorge Rando'
 links:
   web:
 ---

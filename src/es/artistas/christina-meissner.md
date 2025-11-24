@@ -3,7 +3,7 @@ title: 'Christina Meißner'
 translationKey: 'christinameissner'
 customSlug: 'christina-meissner'
 excerpt: 'Con una presencia entregada, Christina Meißner crea espacios artísticos inconfundibles y absolutamente dignos de ser escuchados.'
-occupation: 'Cellistin'
+occupation: 'Chelista'
 seo:
   image: artists/christina-meissner.jpg
 images: # complete path for eleventy img srcset output, alt required

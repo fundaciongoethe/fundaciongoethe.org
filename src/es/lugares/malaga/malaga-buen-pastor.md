@@ -5,9 +5,9 @@ customSlug: 'parroquia-del-buen-pastor-malaga'
 excerpt: 'La parroquia del Buen Pastor se encuentra en la Plazuela del Santísimo Cristo de la Crucifixión, en Málaga.'
 city: Málaga
 images: # complete path for eleventy img srcset output, alt required
-  featured: './src/assets/images/venues/malaga-beunpastor.jpg'
+  featured: './src/assets/images/venues/malaga-buenpastor.jpeg'
   alt: 'Fachada blanca de la Parroquia El Buen Pastor en Málaga, con el nombre de la iglesia en letras grandes, dos tejados a los lados, una cruz en el centro y un mosaico religioso en la pared principal.'
-  credit: 'diocesismalaga.es'
+  credit: 'Parroquia del Buen Pastor, Museo Jorge Rando'
 links:
   web:
 ---
