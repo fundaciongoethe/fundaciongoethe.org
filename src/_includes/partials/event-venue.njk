@@ -6,6 +6,11 @@
         <div class="aspect-square overflow-hidden md:order-2">
           {% if venue.data.images and venue.data.images.featured %}
             {% Picture venue.data.images.featured, "bg-gray-100", "w-full h-full object-cover grayscale", venue.data.images.alt or venue.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
+
+            {% if venue.data.images.credit %}
+              {% set imageCreditSource = venue.data.images %}
+              {% include "components/image-credit.njk" %}
+            {% endif %}
           {% else %}
             <div class="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
               No Image Available

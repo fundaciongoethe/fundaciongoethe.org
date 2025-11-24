@@ -6,6 +6,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 items-center">
           <div class="aspect-square overflow-hidden">
             {% Picture artist.data.images.featured, "bg-gray-200", "w-full h-full object-cover grayscale", artist.data.images.alt or artist.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
+            {% if artist.data.images.credit %}
+              {% set imageCreditSource = artist.data.images %}
+              {% include "components/image-credit.njk" %}
+            {% endif %}
           </div>
           <div class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md self-end">
             <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
@@ -26,6 +30,11 @@
           <div class="space-y-4">
             <div class="aspect-square overflow-hidden">
               {% Picture artist.data.images.featured, "bg-gray-200", "w-full h-full object-cover grayscale", artist.data.images.alt or artist.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
+
+              {% if artist.data.images.credit %}
+                {% set imageCreditSource = artist.data.images %}
+                {% include "components/image-credit.njk" %}
+              {% endif %}
             </div>
             <div class="text-base px-3 lg:px-8">
               <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
