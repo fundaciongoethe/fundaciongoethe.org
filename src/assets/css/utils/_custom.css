@@ -21,6 +21,11 @@
   @apply bg-gray-900 border;
 }
 
+/* View transition */
+@view-transition {
+  navigation: auto;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: 'GothamRounded', 'Helvetica Neue', Arial, sans-serif;
