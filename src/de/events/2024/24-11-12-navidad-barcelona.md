@@ -17,7 +17,7 @@ ending: 2024-12-13 21:30:00
 deadline: 2024-12-13 11:00:00
 calcDuration: 1.5
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/bcn-felip-neri.jpeg
+  featured: ./src/assets/images/venues/bcn-felip-neri-2.jpg
   alt: Iglesia Sant Felip Neri
 type: 'Konzert'
 access: Persönliche Einladung erforderlich

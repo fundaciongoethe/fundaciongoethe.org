@@ -5,9 +5,9 @@ customSlug: 'iglesia-de-sant-felip-neri-barcelona'
 excerpt: 'Die Kirche San Felipe Neri im Herzen des Gotischen Viertels von Barcelona ist eine der friedlichsten und geschichtsträchtigsten Ecken der Stadt.'
 city: Barcelona
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/bcn-felip-neri.jpeg
+  featured: ./src/assets/images/venues/bcn-felip-neri-2.jpg
   alt: 'Iglesia Sant Felip Neri'
-  credit: 'Canaan, CC BY-SA 4.0, via Wikimedia Commons'
+  credit: ''
 links:
   web:
 ---
