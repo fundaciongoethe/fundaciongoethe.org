@@ -107,7 +107,7 @@ module.exports = async function (eleventyConfig) {
   // eleventy img
   eleventyConfig.addNunjucksAsyncShortcode('Picture', async (src, pcls, cls, alt = '', loading, sizes = '100vw') => {
     let metadata = await Image(src, {
-      widths: [170, 420, 550, 770, 1200],
+      widths: [170, 550, 840, 1200],
       formats: ['webp', 'jpeg'],
       urlPath: '/assets/images/',
       outputDir: './dist/assets/images/',
