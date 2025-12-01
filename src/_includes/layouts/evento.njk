@@ -23,9 +23,17 @@ tags: pages
       class="col-span-5 md:col-span-3 {% if calendarLinks.isFutureEvent %}bg-yellow-200 md:bg-yellow-300{% else %}bg-gray-200{% endif %} sm:rounded-tr-xl sm:mr-3 md:mr-0 px-3 xl:pl-16 2xl:pl-24 md:pr-12 lg:pr-36 xl:pr-44 py-12"
     >
       {% if calendarLinks.isFutureEvent %}
-        <span class="text-sm text-red-600 font-bold tracking-wide uppercase">
-          {{ date | date("Do MMMM yyyy", locale) }}
-        </span>
+        {% if cancelled %}
+          <span
+            class="inline-flex items-center px-2 py-1 rounded-sm text-xs font-bold tracking-wide uppercase bg-red-600 text-white"
+          >
+            {{ meta[locale].event.cancelled }}
+          </span>
+        {% else %}
+          <span class="text-sm text-red-600 font-bold tracking-wide uppercase">
+            {{ date | date("Do MMMM yyyy", locale) }}
+          </span>
+        {% endif %}
       {% else %}
         <span class="text-sm text-gray-800 bg-red-400 px-2 py-1 rounded-sm font-bold tracking-wide uppercase">
           {{ meta[locale].event.finished }}
@@ -34,7 +42,7 @@ tags: pages
 
       <h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
 
-      {% if infobox and calendarLinks.isFutureEvent %}
+      {% if infobox and calendarLinks.isFutureEvent and not cancelled %}
         {% include "components/event-infobox.njk" %}
       {% endif %}
 

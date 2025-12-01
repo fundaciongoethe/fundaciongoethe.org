@@ -7,7 +7,7 @@
       </dd>
     </div>
 
-    {% if calendarLinks.isFutureEvent %}
+    {% if calendarLinks.isFutureEvent and not cancelled %}
       <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
         <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.entry }}</dt>
         <dd class="text-gray-50 col-span-3">
@@ -43,7 +43,7 @@
       </div>
     {% endfor %}
 
-    {% if deadline and calendarLinks.isFutureEvent %}
+    {% if deadline and calendarLinks.isFutureEvent and not cancelled %}
       <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
         <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.deadline }}</dt>
         <dd class="text-gray-50 col-span-3">{{ deadline | date("DD.MM.YYYY", locale) }}</dd>
