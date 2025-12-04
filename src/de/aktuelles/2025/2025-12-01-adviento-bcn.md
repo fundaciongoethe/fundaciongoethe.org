@@ -54,7 +54,9 @@ gallery:
   - image: ./src/assets/images/blog/2025-concierto-adviento-barcelona-15.jpg
 ---
 
-Die [Kirche Sant Felip Neri in Barcelona](/de/orte/iglesia-de-sant-felip-neri-barcelona/) war am 26. November Schauplatz eines Adventskonzerts der gefeierten [Hanke Brothers](/de/kuenstler/hanke-brothers/).
+Ende November verwandeln sich Kirchen in ganz Spanien in stimmungsvolle Bühnen für ein ganz besonderes Musikerlebnis: das Weihnachtsliedersingen mit den gefeierten [Hanke Brothers](/de/kuenstler/hanke-brothers/).
+
+Am 24. November 2025 fand das Adventskonzert in Alicante statt, am 25. November 2025 in Bilbao und am 26. November 2025 in Barcelona.
 
 Fabian, Jonathan, Lukas und David, bekannt für ihren experimentellen Ansatz und ihre Suche nach neuen musikalischen Grenzen, verwandelten die emblematische Kirche in einen Raum voller Charme und klanglicher Vielfalt. Das Quartett, das Instrumente wie Tuba, Klavier, Viola und Blockflöte meisterhaft kombiniert, bot ein unvergessliches Musikerlebnis, indem es beliebte Klassiker neu interpretierte und emotionale Momente schuf, die das Publikum zum Mitsingen und Nachdenken einluden.
 
