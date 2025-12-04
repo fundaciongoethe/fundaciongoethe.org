@@ -5,9 +5,9 @@ customSlug: 'adda-sala-de-camara'
 excerpt: 'La Sala de Música de Cámara de 333 m² es una joya acústica. Su techo de madera ofrece una sonoridad extraordinaria, perfecta para conciertos íntimos.'
 city: Alicante
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/alicante-adda-sala-de-camara.jpg
+  featured: ./src/assets/images/venues/alicante-adda.jpg
   alt: Sala de Cámara
-  credit: addaalicante.es
+  credit:
 links:
   web: https://addaalicante.es/sala-de-camara
 ---

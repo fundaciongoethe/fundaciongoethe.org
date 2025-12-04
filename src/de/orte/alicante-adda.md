@@ -5,9 +5,9 @@ customSlug: 'adda-kammermusiksaal'
 excerpt: 'Der 333 m² große Kammermusiksaal ist ein akustisches Juwel. Seine Holzdecke sorgt für eine außergewöhnliche Klangqualität, die sich perfekt für intime Konzerte eignet.'
 city: Alicante
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/alicante-adda-sala-de-camara.jpg
+  featured: ./src/assets/images/venues/alicante-adda.jpg
   alt: Sala de Cámara
-  credit: addaalicante.es
+  credit:
 links:
   web: https://addaalicante.es/sala-de-camara
 ---
