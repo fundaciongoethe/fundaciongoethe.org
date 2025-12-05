@@ -1,11 +1,11 @@
 ---
-title: 'Conciertos de Adviento de los Hanke Brothers'
+title: 'Adventskonzerte der Hanke Brothers'
 date: '2025-12-01'
 translationKey: 'resumenvadviento25bcn'
-excerpt: La Iglesia de Sant Felip Neri de Barcelona acogió el pasado 26 de noviembre un concierto de Adviento a cargo de los aclamados Hanke Brothers.
+excerpt: 'Am 24. November 2025 fand das Adventskonzert in Alicante statt, am 25. November 2025 in Bilbao und am 26. November 2025 in Barcelona'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/blog/2025-concierto-adviento-barcelona-05.jpg
-  alt: La fila de asistentes espera a que comience el concierto.
+  alt: Die Schlange der Zuschauer wartet auf den Beginn des Konzerts.
 gallery:
   - image: ./src/assets/images/blog/concierto-navidad-2025-alicante-01.jpg
   - image: ./src/assets/images/blog/concierto-navidad-2025-alicante-02.jpg
@@ -54,11 +54,10 @@ gallery:
   - image: ./src/assets/images/blog/2025-concierto-adviento-barcelona-15.jpg
 ---
 
-A finales de noviembre, varias iglesias de toda España se transformarán en escenarios llenos de encanto para vivir una experiencia musical muy especial: el canto navideño con los aclamados [Hanke Brothers](/es/artistas/hanke-brothers/).
+Ende November verwandeln sich Orte in ganz Spanien in stimmungsvolle Bühnen für ein ganz besonderes Musikerlebnis: das Weihnachtsliedersingen mit den gefeierten [Hanke Brothers](/de/kuenstler/hanke-brothers/).
 
-El 24 de noviembre de 2025 se celebró el concierto de Adviento en Alicante, en la ADDA Sinfónica: Sala de Cámara Ruperto Chapí. El 25 de noviembre de 2025 se celebró el concierto de Adviento en Bilbao, en la Iglesia de la Encarnación.
-La Iglesia de Sant Felip Neri de Barcelona acogió el pasado 26 de noviembre un concierto de Adviento. El 28 de noviembre de 2025 se celebró el concierto en Madrid, en la Basílica Parroquia La Milagrosa.
+Am 24. November 2025 fand das Adventskonzert in Alicante statt, am 25. November 2025 in Bilbao und am 26. November 2025 in Barcelona.
 
-Conocidos por su enfoque experimental y su búsqueda de nuevos límites musicales, Fabian, Jonathan, Lukas y David transformaron el emblemático templo en un espacio lleno de encanto y diversidad sonora. El cuarteto, que combina magistralmente instrumentos como la tuba, el piano, la viola y la flauta dulce, ofreció una experiencia musical inolvidable, reinterpretando clásicos entrañables y creando momentos emotivos que invitaron al público a cantar y reflexionar.
+Fabian, Jonathan, Lukas und David, bekannt für ihren experimentellen Ansatz und ihre Suche nach neuen musikalischen Grenzen, verwandelten die emblematische Kirche in einen Raum voller Charme und klanglicher Vielfalt. Das Quartett, das Instrumente wie Tuba, Klavier, Viola und Blockflöte meisterhaft kombiniert, bot ein unvergessliches Musikerlebnis, indem es beliebte Klassiker neu interpretierte und emotionale Momente schuf, die das Publikum zum Mitsingen und Nachdenken einluden.
 
-Fieles a su promesa, los Hanke Brothers demostraron que "ninguna obra suena como se la conoce", sorprendiendo a la audiencia con arreglos inesperados y una ejecución impecable.
+Getreu ihrem Versprechen bewiesen die Hanke Brothers, dass „kein Werk so klingt, wie man es kennt”, und überraschten das Publikum mit unerwarteten Arrangements und einer makellosen Darbietung.
