@@ -1,8 +1,8 @@
 ---
-title: "Evonik"
-translationKey: "evonik"
-customSlug: "evonik"
-since: "2011"
+title: 'Evonik'
+translationKey: 'evonik'
+customSlug: 'evonik'
+since: '2011'
 excerpt:
 seo:
   image:
@@ -14,4 +14,6 @@ links:
   facebook: https://facebook.com/Evonik/
   youtube: https://youtube.com/user/EvonikIndustries
   linkedin: https://linkedin.com/company/evonik
+permalink: false
+eleventyExcludeFromCollections: true
 ---
