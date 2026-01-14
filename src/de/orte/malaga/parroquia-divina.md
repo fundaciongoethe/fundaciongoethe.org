@@ -7,7 +7,7 @@ city: Málaga
 images: # complete path for eleventy img srcset output, alt required
   featured: './src/assets/images/venues/malaga-divinapastora.jpeg'
   alt: ''
-  credit: 'Tyk - Own work, CC BY-SA 3.0'
+  credit: ''
 links:
   web:
 ---
