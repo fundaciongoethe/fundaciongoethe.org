@@ -22,6 +22,7 @@ module.exports = {
     email: 'info@fundaciongoethe.org',
     cif: 'G83131854',
   },
+	christmas: false,
   defaultLang: 'es',
   languages: [
     {

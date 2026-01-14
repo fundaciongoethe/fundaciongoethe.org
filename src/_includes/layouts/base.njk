@@ -89,9 +89,10 @@
   </head>
   <body class="bg-gray-200">
 
-    <script type="module" src="/assets/snow-fall.js"></script>
-    <snow-fall></snow-fall>
-
+    {% if meta.christmas %}
+      <script type="module" src="/assets/snow-fall.js"></script>
+      <snow-fall></snow-fall>
+    {% endif %}
 
     <a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
 
