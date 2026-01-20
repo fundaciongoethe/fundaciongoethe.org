@@ -2,8 +2,8 @@
 title: 'Mercedes Valdivieso'
 translationKey: 'mercedesvaldivieso'
 customSlug: 'mercedes-valdivieso'
-excerpt: 'Mercedes Valdivieso ist Professorin (catedrática) für zeitgenössische Kunstgeschichte an der Universitat de Lleida (Spanien). Sie studierte Kunstgeschichte, klassische Archäologie und spanische Philologie in Köln (Promotion 1986), München und Madrid.'
-occupation: 'Kunstprofessorin'
+excerpt: 'Mercedes Valdivieso ist emeritierte Professorin (catedrática) für zeitgenössische Kunstgeschichte an der Universitat de Lleida (Spanien). Sie studierte Kunstgeschichte, klassische Archäologie und spanische Philologie in Köln (Promotion 1986), München und Madrid.'
+occupation: 'Emmeritierte Kunstprofessorin'
 artistTitle: 'Museumsführerin'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/mercedes-valdivieso.jpg

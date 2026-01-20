@@ -2,8 +2,8 @@
 title: 'Mercedes Valdivieso'
 translationKey: 'mercedesvaldivieso'
 customSlug: 'mercedes-valdivieso'
-excerpt: 'Mercedes Valdivieso es Catedrática de Historia del Arte Contemporáneo en la Universitat de Lleida. Estudió Historia del Arte, Arqueología Clásica y Filología Hispánica en Colonia (doctorado en 1986), Múnich y Madrid.'
-occupation: 'Profesora de arte'
+excerpt: 'Mercedes Valdivieso es catedrática emérita de Historia del Arte Contemporáneo en la Universitat de Lleida. Estudió Historia del Arte, Arqueología Clásica y Filología Hispánica en Colonia (doctorado en 1986), Múnich y Madrid.'
+occupation: 'Profesora de arte emérita'
 artistTitle: 'Guía de la exposición'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/mercedes-valdivieso.jpg

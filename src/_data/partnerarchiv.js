@@ -424,6 +424,11 @@ module.exports = {
     url: 'https://caixaforum.org/es/barcelona',
     logo: './src/assets/images/event-sponsors/caixa-logo.jpg',
   },
+  caixamad: {
+    name: 'CaixaForum Madrid',
+    url: 'https://caixaforum.org/es/madrid',
+    logo: './src/assets/images/event-sponsors/caixa-logo-madrid.jpg',
+  },
   wb2025: {
     name: 'wb2025',
     url: 'https://www.semanawalterbenjamin.es/',
