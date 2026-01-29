@@ -9,7 +9,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Anne Müller
 links:
   web: https://www.heu.blue
-  instagram: https://www.instagram.com/heu.musik
+  instagram: https://www.instagram.com/heu.annemueller
 ---
 
 > Sus actuaciones crean momentos conmovedores que oscilan entre el pasado y el futuro a través de los profundos colores de su voz y sus textos poéticos.
@@ -23,9 +23,10 @@ links:
 >
 > - Andrea Hilger, directora de la Bienal OSTRALE
 
-En 2025, Anne Müller ha sido invitada por la Fundación Goethe a actuar en el emblemático pabellón de Mies van der Rohe en Barcelona y realizará un proyecto artístico en el Colegio Alemán de Barcelona. También actuará en el Panometer de Dresde, en la Bienal OSTRALE y en Bélgica.
+Anne Müller trabaja en los ámbitos de la música, el sonido y el video. Su práctica artística se mueve de forma fluida entre el arte sonoro, el concierto, la instalación y la composición audiovisual. En el centro de su trabajo se encuentra una aproximación experimental al sonido como material, combinada con capas visuales, percepción espacial y presencia performativa.
 
-El Instituto Goethe de Sídney la ha invitado a participar en el programa Artist in Residence. En 2024, Anne Müller ofreció conciertos e instalaciones en las Colecciones Estatales de Arte de Dresde, en la catedral de San Pedro y San Pablo, en el Museo de la Utopía y la Vida Cotidiana y en el ExRotaprint de Berlín.
+Su lenguaje artístico está marcado por un interés en los estados de transición, las atmósferas y las transformaciones sutiles. Las obras de Müller exploran con frecuencia la relación entre sonido, imagen, espacio y memoria, creando situaciones inmersivas que invitan a una escucha atenta y a una percepción intensificada.
 
-Por invitación de los Institutos Goethe, sus proyectos musicales llevaron a Anne Müller a realizar giras de conciertos por todo el país de Brasil, Letonia y Nueva Zelanda. Con sus performances artísticas e instalaciones, Anne Müller ha participado en numerosas asociaciones de arte, museos, festivales, galerías y en las capitales europeas de la cultura La Valeta (Malta) y Breslavia (Polonia). Anne Müller también es profesora invitada en academias de arte internacionales, entre otras en Hong Kong, Breslavia, Granada,
-Beirut o Brunéi Darussalam.
+En lugar de seguir géneros fijos, su práctica se desarrolla en procesos abiertos. Combina música electrónica, voz, texto, video, fotografía y performance en vivo en constelaciones específicas para cada lugar. Estas obras se caracterizan por la sensibilidad, la reducción y un enfoque intuitivo, a la vez que conceptualmente fundamentado.
+
+Las performances y las instalaciones de Anne Müller se han presentado en salas de conciertos, museos, galerías, festivales y espacios públicos. Colabora a nivel internacional y desarrolla conceptos individuales para cada contexto.

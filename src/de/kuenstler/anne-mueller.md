@@ -9,7 +9,7 @@ images: # complete path for eleventy img srcset output, alt required
   alt: Anne Müller
 links:
   web: https://www.heu.blue
-  instagram: https://www.instagram.com/heu.musik
+  instagram: https://www.instagram.com/heu.annemueller
 ---
 
 > Ihre Performances schaffen durch die tiefen Klangfarben ihrer Stimme und poetischen Texte berührende Momente, die zwischen Vergangenheit und Zukunft oszillieren. In Anne Müllers Musik und Video-Performances entstehen eindrucksvolle visuelle und akustische Räume.
@@ -20,8 +20,8 @@ links:
 >
 > - Andrea Hilger, Direktorin der OSTRALE Biennale
 
-2025 ist h e u Anne Müller von der Fundación Goethe eingeladen, den ikonischen Mies van der Rohe-Pavillon in Barcelona zu bespielen und sie realisiert ein Kunstprojekt am Colegio Áleman Barcelona. Ebenso gastiert sie im Panometer Dresden, auf der OSTRALE Biennale und in Beglien.
-Vom Goethe Institut Sydney ist sie zur Artist in Residence eingeladen.
+Anne Müller arbeitet in den Bereichen Musik, Klang und Video. Ihre künstlerische Praxis bewegt sich fließend zwischen Klangkunst, Konzertperformance, Installation und audiovisueller Komposition. Im Mittelpunkt ihrer Arbeit steht ein experimenteller Ansatz, der Klang als Material mit visuellen Ebenen, räumlicher Wahrnehmung und performativer Präsenz verbindet.
 
-2024 spielte Anne Müller Konzerte und Installationen bei den Staatlichen Kunstsammlungen Dresden, im Dom St. Peter und Paul, im Museum für Utopie und Alltag oder im ExRotaprint in Berlin.
-Ihre Musikprojekte führten Anne Müller auf Einladung der Goethe Institute auf landesweite Konzerttouren nach Brasilien, Lettland und Neuseeland. Mit ihren Kunstperformances und Installationen war Anne Müller in zahlreichen Kunstvereinen, Museen, Festivals, Galerien und den Europäischen Kulturhauptstädten Valletta (Malta) und Wroclaw (Polen) vertreten. Ebenso ist Anne Müller Gastdozentin an internationalen Kunstakademien u.a. in Hong Kong, Wroclaw, Granada,Beirut oder Brunei Darussalam tätig.
+Ihre künstlerische Sprache ist geprägt von einem Interesse an Übergangszuständen, Atmosphären und subtilen Transformationen. Müllers Arbeiten untersuchen oft die Beziehung zwischen Klang, Bild, Raum und Erinnerung und schaffen immersive Situationen, die zu konzentriertem Zuhören und gesteigerter Wahrnehmung einladen. Anstatt festen Genres zu folgen, entfaltet sich ihre Praxis in offenen Prozessen. Sie kombiniert elektronische Musik, Stimme, Text, Video, Fotografie und Live-Performance zu ortsspezifischen Konstellationen. Diese Arbeiten zeichnen sich durch Sensibilität, Reduktion und einen intuitiven, aber konzeptionell fundierten Ansatz aus.
+
+Anne Müllers Performances und Installationen wurden in Konzertsälen, Museen, Galerien, auf Festivals und im öffentlichen Raum präsentiert. Sie arbeitet international zusammen und entwickelt individuelle Konzepte für jeden Kontext.

@@ -13,8 +13,9 @@ ending: 2026-02-06 19:00:00
 deadline: 2026-02-06 11:00:00
 calcDuration: 2
 type: 'Ausstellungsführung'
-access: Persönliche Einladung erforderlich
-infobox: Private Veranstaltung, nur mit persönlicher Einladung.
+accessVariant: invite_only
+access:
+infobox:
 program:
 ticketsale:
 directregister:
