@@ -28,4 +28,4 @@ Joseph Beuys es uno de los artistas más importantes del arte alemán posterior 
 
 Un impulso inicial y una conversación con el público. Todo puede ser pensado, porque «pensar es arte plástico».
 
-La música y artista h e uannemüller, que en 2025 activó el Pabellón Mies van derRohe en Barcelona, transforma mediante sound spaces creados en directo, con instrumentos, voz, objetos cotidianos y lenguaje, el espacio, las personas y el tema.
+La música y artista _h e u_ annemüller, que en 2025 activó el Pabellón Mies van der Rohe en Barcelona, transforma mediante sound spaces creados en directo, con instrumentos, voz, objetos cotidianos y lenguaje, el espacio, las personas y el tema.
