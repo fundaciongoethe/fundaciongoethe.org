@@ -499,4 +499,14 @@ module.exports = {
     url: 'https://www.roedl.com',
     logo: 'src/assets/images/sponsors/roedl/roedl-logo.png',
   },
+  harlemjazz: {
+    name: 'Harlem Jazz Club',
+    url: 'https://www.harlemjazzclub.es',
+    logo: './src/assets/images/event-sponsors/harlem-jazz-club.jpg',
+  },
+  espronceda: {
+    name: 'Espronceda',
+    url: 'https://www.espronceda.net/',
+    logo: './src/assets/images/event-sponsors/espronceda-logo.png',
+  },
 };

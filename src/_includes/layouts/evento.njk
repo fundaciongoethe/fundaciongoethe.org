@@ -42,7 +42,18 @@ tags: pages
 
       <h1 class="standardtitel uppercase mt-2">{{ title }}</h1>
 
-      {% if infobox and calendarLinks.isFutureEvent and not cancelled %}
+      {%
+        set accessData = {
+          access: access,
+          infobox: infobox,
+          accessVariant: accessVariant
+        }
+      %}
+
+      {% set resolvedInfobox = accessData | infoboxFromVariant(locale) %}
+
+      {% if resolvedInfobox and calendarLinks.isFutureEvent and not cancelled %}
+        {% set infobox = resolvedInfobox %}
         {% include "components/event-infobox.njk" %}
       {% endif %}
 

@@ -62,7 +62,9 @@ tags: pages
                             {{ meta[locale].event.cancelled }}
                           </span>
                         {% else %}
-                          <p class="hidden sm:block text-xs text-gray-500">{{ event.data.access }}</p>
+                          <p class="hidden sm:block text-xs text-gray-500">
+                            {{ event.data | accessFromVariant(locale) }}
+                          </p>
                         {% endif %}
                       </div>
 
