@@ -13,15 +13,13 @@ ending: 2026-02-16 21:30:00
 deadline: 2026-02-16 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
-accessVariant: tickets_partner
+accessVariant: donation
 access:
 infobox:
-ticketsale:
+ticketsale: https://insomniabrassband.eventbrite.es
 directregister:
 youtube: false
 cancelled: false
 ---
 
 Lucks, Schlichting y Marien vuelven a la carretera, llevando su pequeña banda de metales de gira por Alemania, Francia y Cataluña. Con nuevas composiciones en la maleta, presentan en directo el programa de su próximo álbum. Este se grabará inmediatamente después de la gira y se publicará en otoño en Tiger Moon Records. El material completamente nuevo se aborda con su ya probada e irresistible forma de hacer música: juegos de roles cambiantes, alternando entre ritmo y melodía, mientras recorren un fascinantepaisaje sonoro que transita por el free jazz, el funk, el punk rock y las tradiciones de las brass bands de Nueva Orleans. Como colectivo, han dedicado cada vez más tiempo a empujar y expandir sus composiciones originales, combinando brío improvisador conun funk que invita al movimiento.
-
-Entrada: 5€

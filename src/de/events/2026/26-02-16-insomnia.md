@@ -13,10 +13,10 @@ ending: 2026-02-16 21:30:00
 deadline: 2026-02-16 11:00:00
 calcDuration: 1.5
 type: 'Concierto'
-accessVariant: tickets_partner
+accessVariant: donation
 access:
 infobox:
-ticketsale:
+ticketsale: https://insomniabrassband.eventbrite.es
 directregister:
 youtube: false
 cancelled: false
