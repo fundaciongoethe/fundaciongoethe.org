@@ -1,6 +1,6 @@
 ---
 title: 'Insomnia Brass Band im Harlem Jazz Club'
-description: 'Lucks, Schlichting und Marien sind wieder on the road und touren mit ihrerMiniatur-Blaskapelle durch Deutschland, Frankreich und Katalonien.'
+description: 'Lucks, Schlichting und Marien sind wieder on the road und touren mit ihrer Miniatur-Blaskapelle durch Deutschland, Frankreich und Katalonien.'
 translationKey: 26insomniaharlem
 customSlug: insomnia-brass-band-harlem-jazz-club-2026
 venue: [harlemjazz]

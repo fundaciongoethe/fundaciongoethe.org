@@ -13,7 +13,7 @@ ending: 2026-02-26 21:00:00
 deadline: 2026-02-26 11:00:00
 calcDuration: 1
 type: 'Gespräch'
-accessVariant: free_seats
+accessVariant: invite_only
 access:
 infobox:
 ticketsale:
