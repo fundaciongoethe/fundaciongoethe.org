@@ -7,8 +7,9 @@ venue: [espronceda]
 artist: [annemueller, martinmueller]
 partners:
   - espronceda
+  - lidl
 date: 2026-02-26 19:30:00
-opening: 2026-02-26 19:00
+opening: 2026-02-26 19:00:00
 ending: 2026-02-26 21:00:00
 deadline: 2026-02-26 11:00:00
 calcDuration: 1

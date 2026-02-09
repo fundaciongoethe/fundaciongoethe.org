@@ -2,10 +2,10 @@
 title: 'Exposición "Chez Matisse" en CaixaForum Madrid'
 date: '2026-02-09'
 translationKey: 'chezmatisse26'
-excerpt: 'Los Promotores de la Fundación Goethe visitaron la exposición temporal «Chez Matisse» en CaixaForum Madrid.'
+excerpt: 'Los Promotores de la Fundación Goethe visitaron la exposición temporal Chez Matisse en CaixaForum Madrid'
 images: # complete path for eleventy img srcset output, alt required
-featured: ./src/assets/images/blog/chez-matisse-caixaforum-2026-01.jpg
-alt: Exposición en CaixaForum Madrid
+  featured: ./src/assets/images/blog/chez-matisse-caixaforum-2026-02.jpg
+  alt: 'Exposición en CaixaForum Madrid'
 gallery:
   - image: ./src/assets/images/blog/chez-matisse-caixaforum-2026-01.jpg
   - image: ./src/assets/images/blog/chez-matisse-caixaforum-2026-02.jpg

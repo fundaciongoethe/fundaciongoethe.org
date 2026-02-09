@@ -4,8 +4,8 @@ date: '2026-02-09'
 translationKey: 'chezmatisse26'
 excerpt: 'Die Förderer der Fundación Goethe besuchten die temporäre Ausstellung „Chez Matisse“ im CaixaForum Madrid.'
 images: # complete path for eleventy img srcset output, alt required
-featured: ./src/assets/images/blog/chez-matisse-caixaforum-2026-01.jpg
-alt: Ausstellung "Chez Matisse" im CaixaForum Madrid
+  featured: ./src/assets/images/blog/chez-matisse-caixaforum-2026-02.jpg
+  alt: Ausstellung "Chez Matisse" im CaixaForum Madrid
 gallery:
   - image: ./src/assets/images/blog/chez-matisse-caixaforum-2026-01.jpg
   - image: ./src/assets/images/blog/chez-matisse-caixaforum-2026-02.jpg
