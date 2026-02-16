@@ -87,21 +87,6 @@ h2 {
   @apply mb-5;
 }
 
-/* .buttonhover {
-  @apply transform
-	hover:scale-105
-	hover:-translate-y-1
-	no-underline
-	transition
-	duration-300
-	ease-in-out;
-} */
-
-.buttonhover:active,
-.blackbutton:active {
-  transform: scale(99%);
-}
-
 .graybadge {
   @apply bg-gray-300 px-2 py-0.5 text-sm font-semibold rounded-sm;
 }
@@ -214,8 +199,17 @@ h2 {
 
 /* @apply border-b-4 border-yellow-300; */
 
-.grayimg {
+.buttonhover {
+  transform: background-color 0.2s ease-in-out;
+}
+
+.grayimg,
+.grayimg-permanent {
   filter: grayscale(100%);
+}
+
+.grayimg {
+  transition: filter 0.2s ease-in-out;
 }
 
 .grayimg:hover {

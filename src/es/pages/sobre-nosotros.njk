@@ -76,7 +76,7 @@ patrons_small:
     period: Lidl España, Head of CSA
     alt: ''
   - name: Claudia Remus
-    image: src/assets/images/patrons/claudia-remus.jpg
+    image: src/assets/images/patrons/claudia-remus-focus.jpg
     role: Directora
     period: Persona de contacto y organizadora de los eventos y actividades
     alt: ''
@@ -121,7 +121,7 @@ partners:
             <div class="w-full aspect-[5/3] relative bg-gray-200 rounded-lg overflow-hidden">
               <!-- picture shortcode -->
               {%
-                Picture patron.image, "{% if loop.first %}w-full aspect-[5/3]{% else %}bg-gray-200{% endif %}", "grayimg absolute inset-0
+                Picture patron.image, "{% if loop.first %}w-full aspect-[5/3]{% else %}bg-gray-200{% endif %}", "grayimg-permanent absolute inset-0
                 w-full h-full object-cover", patron.alt, "lazy"
               %}
             </div>
@@ -148,7 +148,7 @@ partners:
             <div class="relative w-40 h-40 overflow-hidden bg-gray-200 rounded-lg">
               <!-- picture shortcode -->
               {%
-                Picture patron.image, "{% if patron.name == 'Dirk Budach' %}aspect-[4/1]{% else %}aspect-video{% endif %}", "grayimg absolute inset-0 w-full
+                Picture patron.image, "{% if patron.name == 'Dirk Budach' %}aspect-[4/1]{% else %}aspect-video{% endif %}", "grayimg-permanent absolute inset-0 w-full
                 h-full object-cover rounded-lg", patron.alt, "lazy"
               %}
             </div>
