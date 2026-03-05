@@ -20,11 +20,8 @@ ending: 2022-05-17 21:00:00
 deadline: 2022-05-16 11:00:00
 calcDuration: 2
 program:
-seo:
-  title: Gala "Anoche tuve un sueño" con Corinna Simon
-  image: venues/museo-reina-sofia.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/museo-reina-sofia.jpg
+  featured: ./src/assets/images/venues/museo-reina-sofia-auditorio.jpg
   alt: Museo Nacional Centro de Arte Reina Sofía
   credit:
 infobox: Evento privado, sólo con invitación personal.

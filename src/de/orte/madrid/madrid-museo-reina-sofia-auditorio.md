@@ -4,12 +4,8 @@ translationKey: 'auditoriomuseoreinasofia'
 customSlug: 'auditorio-museo-reina-sofia'
 excerpt: 'Das Auditorium des Museo Nacional Centro de Arte Reina Sofía liegt nur wenige Meter von Atocha entfernt und ist Schauplatz für kulturelle Veranstaltungen, Konzerte und Kongresse.'
 city: Madrid
-seo: # image relative to /assets/images/
-  title: Auditorium des Nationalmuseums und Kunstzentrums Reina Sofía
-  description: Das Auditorium des Museo Nacional Centro de Arte Reina Sofía liegt nur wenige Meter von Atocha entfernt und ist Schauplatz für kulturelle Veranstaltungen, Konzerte und Kongresse.
-  image: /venues/museo-reina-sofia.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/museo-reina-sofia.jpg
+  featured: ./src/assets/images/venues/museo-reina-sofia-auditorio.jpg
   alt: Auditorium des Museums während eines Konzerts von Corinna Simon
   credit: Alfonso Cano
 links:
