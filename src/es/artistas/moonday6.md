@@ -4,8 +4,6 @@ translationKey: 'moonday6'
 customSlug: 'moonday6'
 excerpt: 'Los músicos profesionales de la banda moonday6 se reunieron durante la pandemia. Hace tiempo que esto es mucho más que un proyecto de rock duro de la provincia.'
 occupation: 'banda de rock'
-seo:
-  image: artists/moonday6.jpg
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/moonday6.jpg
   alt: La banda en un taller de coches, instrumentos en mano, un coche antiguo al fondo.
