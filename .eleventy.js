@@ -26,7 +26,8 @@ const svgsprite = require('./utils/async-shortcodes/svgsprite');
 const htmlmin = require('./utils/transforms/htmlmin.js');
 
 // plugins
-const pluginRss = require('@11ty/eleventy-plugin-rss');
+const pluginRssImport = require('@11ty/eleventy-plugin-rss');
+const pluginRss = pluginRssImport?.default ?? pluginRssImport;
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
