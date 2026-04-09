@@ -3,7 +3,7 @@
   "version": "2.2.0",
   "description": "fundaciongoethe.org",
   "engines": {
-    "node": ">=20.x.x"
+    "node": ">=22.x.x"
   },
   "scripts": {
     "clean": "del dist",
