@@ -509,4 +509,9 @@ module.exports = {
     url: 'https://www.espronceda.net/',
     logo: './src/assets/images/event-sponsors/espronceda-logo.png',
   },
+  mayrit: {
+    name: 'Mayrit',
+    url: 'https://mayrit.org/',
+    logo: './src/assets/images/event-sponsors/mayrit.png',
+  },
 };

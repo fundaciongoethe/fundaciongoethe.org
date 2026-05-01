@@ -2733,19 +2733,6 @@ h2 {
 .standardtext p {
   margin-bottom: 1.25rem;
 }
-/* .buttonhover {
-  @apply transform
-	hover:scale-105
-	hover:-translate-y-1
-	no-underline
-	transition
-	duration-300
-	ease-in-out;
-} */
-.buttonhover:active,
-.blackbutton:active {
-  transform: scale(99%);
-}
 .graybadge {
   border-radius: 0.125rem;
   --tw-bg-opacity: 1;
@@ -2906,8 +2893,15 @@ h2 {
   }
 }
 /* @apply border-b-4 border-yellow-300; */
-.grayimg {
+.buttonhover {
+  transform: background-color 0.2s ease-in-out;
+}
+.grayimg,
+.grayimg-permanent {
   filter: grayscale(100%);
+}
+.grayimg {
+  transition: filter 0.2s ease-in-out;
 }
 .grayimg:hover {
   filter: grayscale(0%);
