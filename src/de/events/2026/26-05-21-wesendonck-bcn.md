@@ -14,10 +14,10 @@ ending: 2026-05-21 21:30:00
 deadline: 2026-05-21 11:00:00
 calcDuration: 1.5
 type: 'Konzert'
-accessVariant: invite_only
+accessVariant: tickets_eventbrite
 access:
 infobox:
-ticketsale:
+ticketsale: https://GerdaIguchi_Barcelona.eventbrite.es
 directregister:
 youtube: true
 cancelled: false
@@ -27,6 +27,6 @@ Im neu gestalteten Gemeinderaum der Martin-Luther-Kirche Barcelona wird Gerda Ig
 
 Die Deutschjapanerin widmet sich mit grosser Hingabe dem Wesendonck-Zyklus, nicht nur, um ihn bei traditionellen Liederabenden zur Auffuehrung zu bringen, sondern auch, um die Zeitlosigkeit der Texte genau unter die Lupe zu nehmen.
 
-An dem Konzertabend verbindet sie den Liedzyklus mit *Wesendonck Synthetisch*, einem elektronischen Synth-Ambient-Sound. Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmtem Raeucherwerk wird ein Klang-, Bild- und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der "Wesendonck Lieder" eintauchen laesst.
+An dem Konzertabend verbindet sie den Liedzyklus mit _Wesendonck Synthetisch_, einem elektronischen Synth-Ambient-Sound. Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmtem Raeucherwerk wird ein Klang-, Bild- und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der "Wesendonck Lieder" eintauchen laesst.
 
 {% youtube 'soaxPmzg5U4', 'Gerda Iguchi - Träume ASC 2025 Candidate' %}

@@ -14,7 +14,7 @@ ending: 2026-05-20 21:00:00
 deadline: 2026-05-20 11:00:00
 calcDuration: 1
 type: 'Concierto'
-accessVariant: invite_only
+accessVariant: free_capacity_no_seats
 access:
 infobox:
 ticketsale:
@@ -23,7 +23,7 @@ youtube: true
 cancelled: false
 ---
 
-En el marco de Mayrit Bienal, un evento que reune diseno, arquitectura y arte contemporaneo, la joven mezzosoprano Gerda Iguchi presentara *Wesendonck Synthetisch*.
+En el marco de Mayrit Bienal, un evento que reune diseno, arquitectura y arte contemporaneo, la joven mezzosoprano Gerda Iguchi presentara _Wesendonck Synthetisch_.
 
 Con gran dedicacion, la artista germano-japonesa se adentra en el ciclo Wesendonck y examina con detenimiento la atemporalidad de sus textos. En este programa, combina el ciclo completo de canciones con sonidos electronicos de synth ambient.
 

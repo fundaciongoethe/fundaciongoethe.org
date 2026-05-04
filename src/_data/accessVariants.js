@@ -13,6 +13,12 @@ module.exports = {
       infobox: 'Entrada libre hasta completar aforo permitido.',
     },
 
+    free_capacity_no_seats: {
+      access: 'Entrada libre',
+      infobox:
+        'No es necesario registrarse. Entrada libre hasta completar aforo permitido. No podemos garantizar que haya asientos disponibles en el lugar del evento.',
+    },
+
     // Free entry, capacity note and reserved seats for invitees
     free_seats: {
       access: 'Entrada libre',
@@ -74,6 +80,12 @@ module.exports = {
     free_capacity: {
       access: 'Freier Eintritt',
       infobox: 'Freier Eintritt bis zum Erreichen der vollen Kapazität.',
+    },
+
+    free_capacity_no_seats: {
+      access: 'Freier Eintritt',
+      infobox:
+        'Keine Anmeldung erforderlich. Freier Eintritt bis zum Erreichen der vollen Kapazität. Wir können leider nicht garantieren dass am Veranstaltungsort Sitzplätze zur Verfüfung stehen.',
     },
 
     free_seats: {

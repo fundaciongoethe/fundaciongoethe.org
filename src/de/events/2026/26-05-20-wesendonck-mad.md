@@ -14,7 +14,7 @@ ending: 2026-05-20 21:00:00
 deadline: 2026-05-20 11:00:00
 calcDuration: 1
 type: 'Konzert'
-accessVariant: invite_only
+accessVariant: free_capacity_no_seats
 access:
 infobox:
 ticketsale:
@@ -23,9 +23,9 @@ youtube: true
 cancelled: false
 ---
 
-Im Rahmen der Mayrit Bienal, einer Veranstaltung, die Design, Architektur und zeitgenoessische Kunst vereint, wird Gerda Iguchi, eine junge Mezzosopranistin, *Wesendonck Synthetisch* praesentieren.
+Im Rahmen der Mayrit Bienal, einer Veranstaltung, die Design, Architektur und zeitgenoessische Kunst vereint, wird Gerda Iguchi, eine junge Mezzosopranistin, _Wesendonck Synthetisch_ praesentieren.
 
-Mit grosser Hingabe widmet sich die junge Deutschjapanerin dem Wesendonck-Zyklus. Sie nimmt die Zeitlosigkeit der Texte genau unter die Lupe und verbindet in dem Programm *Wesendonck Synthetisch* den gesamten Liedzyklus mit elektronischen Synth-Ambient-Sounds.
+Mit grosser Hingabe widmet sich die junge Deutschjapanerin dem Wesendonck-Zyklus. Sie nimmt die Zeitlosigkeit der Texte genau unter die Lupe und verbindet in dem Programm _Wesendonck Synthetisch_ den gesamten Liedzyklus mit elektronischen Synth-Ambient-Sounds.
 
 Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmtem Raeucherwerk wird ein Klang-, Bild- und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der "Wesendonck Lieder" eintauchen laesst.
 
