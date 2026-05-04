@@ -23,10 +23,10 @@ youtube: true
 cancelled: false
 ---
 
-Im neu gestalteten Gemeinderaum der Martin-Luther-Kirche Barcelona wird Gerda Iguchi, Mezzosopranistin, begleitet von Ayala Rosenbaum, die aus einer verbotenen Liebe entstandenen "Wesendonck Lieder" von Richard Wagner auf Texte seiner Muse Mathilde Wesendonck praesentieren.
+Im neu gestalteten Gemeinderaum der Martin-Luther-Kirche Barcelona wird Gerda Iguchi, Mezzosopranistin, begleitet von Ayala Rosenbaum, die aus einer verbotenen Liebe entstandenen “Wesendonck Lieder” von Richard Wagner auf Texte seiner Muse Mathilde Wesendonck präsentieren.
 
-Die Deutschjapanerin widmet sich mit grosser Hingabe dem Wesendonck-Zyklus, nicht nur, um ihn bei traditionellen Liederabenden zur Auffuehrung zu bringen, sondern auch, um die Zeitlosigkeit der Texte genau unter die Lupe zu nehmen.
+Die Deutsch-Japanerin widmet sich mit großer Hingabe dem Wesendonck-Zyklus, nicht nur, um ihn bei traditionellen Liederabenden zur Aufführung zu bringen, sondern auch, um die Zeitlosigkeit der Texte genau unter die Lupe zu nehmen.
 
-An dem Konzertabend verbindet sie den Liedzyklus mit _Wesendonck Synthetisch_, einem elektronischen Synth-Ambient-Sound. Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmtem Raeucherwerk wird ein Klang-, Bild- und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der "Wesendonck Lieder" eintauchen laesst.
+Am Konzertabend verbindet sie den Liederzyklus mit _Wesendonck Synthetisch_, einem elektronischen Synth-Ambient-Sound. Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmten Räucherwerk wird ein Klang-, Bild- und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der “Wesendonck Lieder” eintauchen lässt.
 
 {% youtube 'soaxPmzg5U4', 'Gerda Iguchi - Träume ASC 2025 Candidate' %}

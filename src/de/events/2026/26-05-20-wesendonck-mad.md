@@ -5,7 +5,7 @@ translationKey: 26wesendonckmad
 customSlug: wesendonck-synthetisch-matadero-madrid-2026
 venue: [matadero]
 artist: [gerdaiguchi]
-location: Matadero Madrid - Central de Diseno, Aula 2 "El Cubo"
+location: Matadero Madrid - Central de Diseño, Aula 2 "El Cubo"
 partners:
   - mayrit
 date: 2026-05-20 20:00:00
@@ -23,10 +23,10 @@ youtube: true
 cancelled: false
 ---
 
-Im Rahmen der Mayrit Bienal, einer Veranstaltung, die Design, Architektur und zeitgenoessische Kunst vereint, wird Gerda Iguchi, eine junge Mezzosopranistin, _Wesendonck Synthetisch_ praesentieren.
+Im Rahmen der Mayrit Bienal, einer Veranstaltung, die Design, Architektur und zeitgenössische Kunst vereint, wird Gerda Iguchi, eine junge Mezzosopranistin Wesendonck-Synthetisch präsentieren.
 
-Mit grosser Hingabe widmet sich die junge Deutschjapanerin dem Wesendonck-Zyklus. Sie nimmt die Zeitlosigkeit der Texte genau unter die Lupe und verbindet in dem Programm _Wesendonck Synthetisch_ den gesamten Liedzyklus mit elektronischen Synth-Ambient-Sounds.
+Mit großer Hingabe widmet sich die junge Deutschjapanerin dem Wesendonck-Zyklus. Sie nimmt die Zeitlosigkeit der Texte genau unter die Lupe und verbindet in dem Programm “Wesendonck Synthetisch” den gesamten Liedzyklus mit elektronischen Synth-Ambient-Sounds.
 
-Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmtem Raeucherwerk wird ein Klang-, Bild- und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der "Wesendonck Lieder" eintauchen laesst.
+Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmten Räucherwerk wird ein Klang-, Bild-, und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der „Wesendonck Lieder” eintauchen lässt.
 
 {% youtube 'soaxPmzg5U4', 'Gerda Iguchi - Träume ASC 2025 Candidate' %}
