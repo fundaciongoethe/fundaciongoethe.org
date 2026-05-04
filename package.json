@@ -55,7 +55,7 @@
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.1",
     "prettier": "^3.8.3",
-    "prettier-plugin-jinja-template": "^2.1.0",
+    "prettier-plugin-jinja-template": "^2.2.0",
     "slugify": "^1.6.9",
     "svg-sprite": "^2.0.4",
     "vinyl": "^3.0.1"
