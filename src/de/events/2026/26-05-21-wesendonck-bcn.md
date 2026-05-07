@@ -27,6 +27,6 @@ Im neu gestalteten Gemeinderaum der Martin-Luther-Kirche Barcelona wird Gerda Ig
 
 Die Deutsch-Japanerin widmet sich mit großer Hingabe dem Wesendonck-Zyklus, nicht nur, um ihn bei traditionellen Liederabenden zur Aufführung zu bringen, sondern auch, um die Zeitlosigkeit der Texte genau unter die Lupe zu nehmen.
 
-Am Konzertabend verbindet sie den Liederzyklus mit _Wesendonck Synthetisch_, einem elektronischen Synth-Ambient-Sound. Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern und abgestimmten Räucherwerk wird ein Klang-, Bild- und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der “Wesendonck Lieder” eintauchen lässt.
+Am Konzertabend verbindet sie den Liederzyklus mit _Wesendonck Synthetisch_, einem elektronischen Synth-Ambient-Sound. Ihr Ziel: die Dichtung und die Musik in modernem Gewand erlebbar machen. Gepaart mit audio-reaktiven Bewegtbildern des visuellen Medienkünstlers [Nicolas Merk](/de/kuenstler/nicolas-merk/) und abgestimmtem Räucherwerk wird ein Klang-, Bild-, und Duftraum kreiert, der das Publikum ganz und gar in die intime Welt der „Wesendonck Lieder” eintauchen lässt.
 
 {% youtube 'soaxPmzg5U4', 'Gerda Iguchi - Träume ASC 2025 Candidate' %}

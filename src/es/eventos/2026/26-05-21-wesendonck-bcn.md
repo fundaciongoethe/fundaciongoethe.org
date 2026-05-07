@@ -27,6 +27,6 @@ En el renovado salón parroquial de la Iglesia Martin-Luther en Barcelona, la me
 
 La artista germano-japonesa se dedica con gran entrega al ciclo Wesendonck, no solo para interpretarlo en recitales tradicionales, sino también para explorar la vigencia y la actualidad de sus textos.
 
-En esta velada, combinará el ciclo de canciones con _Wesendonck Synthetisch_, una propuesta de sonidos electrónicos synth ambient. Su objetivo: hacer que la poesía y la música cobren vida en un lenguaje contemporáneo. Acompañado de imágenes audiovisuales reactivas al sonido y de una cuidada ambientación aromática, se creará un espacio de sonido, imagen y aroma que sumergirá por completo al público en el íntimo universo de los Wesendonck-Lieder.
+En esta velada, combinará el ciclo de canciones con _Wesendonck Synthetisch_, una propuesta de sonidos electrónicos synth ambient. Su objetivo: hacer que la poesía y la música cobren vida bajo una estética contemporánea. Acompañado de imágenes audiovisuales reactivas del artista visual [Nicolas Merk](/es/artistas/nicolas-merk/) y de una cuidada selección de incienso, se crea un espacio sonoro, visual y olfativo que sumerge por completo al público en el mundo íntimo de los «Wesendonck Lieder».
 
 {% youtube 'soaxPmzg5U4', 'Gerda Iguchi - Träume ASC 2025 Candidate' %}
