@@ -7,11 +7,11 @@ city: Bilbao
 seo: # image relative to /assets/images/
   title: Teatro Campos Elíseos
   description:
-  image: /venues/teatro-campos-eliseos.JPG
+  image: /venues/bilbao-teatro-campos-eliseos.jpg
 images: # complete path for eleventy img srcset output, alt required
-  featured: ./src/assets/images/venues/teatro-campos-eliseos.JPG
-  alt: Teatro Campos Elíseos
-  credit: Zarateman, CC0, via Wikimedia Commons
+  featured: ./src/assets/images/venues/bilbao-teatro-campos-eliseos.jpg
+  alt: Teatro Campos Elíseos, Sala Cúpula
+  credit: teatrocampos.com
 links:
   web: https://www.teatrocampos.com
   twitter:

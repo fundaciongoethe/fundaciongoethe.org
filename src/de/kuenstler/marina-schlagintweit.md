@@ -14,4 +14,4 @@ links:
 
 Neben dem Quartett „Das Gibt’s nur einmal“ und dem Duo „SchlagRechtWeit“ spielt und komponiert sie für das neunköpfige Marina Schlagintweit Large Ensemble, das auf den Leipziger Jazztagen 2024 sein Debüt hatte. Sie gewann den Jutta-Hipp-Preis des Jazzverband Sachsens in der Kategorie Komposition sowie den BMW Young Artist Jazz Award. Zunächst studierte sie zeitgenössische Komposition in Detmold (NRW), bevor sie ein Stipendium für eine Artist-Residency in der Cité des Arts Paris erhielt und im Anschluss ihr Studium in Jazzklavier und Jazzkomposition in München absolvierte.
 
-Sie begleitet unter anderem Fernanda von Sachsen am Klavier.
+Sie begleitet unter anderem [Fernanda von Sachsen](/de/kuenstler/fernanda-von-sachsen/) am Klavier.

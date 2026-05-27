@@ -1,6 +1,7 @@
 {% if artistItems | length > 0 %}
+  {% set artistCount = artistItems | length %}
   <section class="border-b">
-    {% if artistItems | length == 1 %}
+    {% if artistCount == 1 %}
       <!-- One Artist: Grid Layout with Image Left, Text Right -->
       {% for artist in artistItems %}
         <div class="grid grid-cols-1 md:grid-cols-2 items-center">
@@ -24,8 +25,12 @@
         </div>
       {% endfor %}
     {% else %}
-      <!-- Multiple Artists: Grid Layout -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-12 pt-6">
+      <!-- Multiple Artists: Adaptive grid layout -->
+      {% set gridColsClass = "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" %}
+      {% if artistCount >= 4 %}
+        {% set gridColsClass = "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4" %}
+      {% endif %}
+      <div class="grid {{ gridColsClass }} gap-6 pb-12 pt-6">
         {% for artist in artistItems %}
           <div class="space-y-4">
             <div class="aspect-square overflow-hidden">
@@ -36,7 +41,7 @@
                 {% include "components/image-credit.njk" %}
               {% endif %}
             </div>
-            <div class="text-base px-3 lg:px-8">
+            <div class="text-base px-3">
               <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
                 {{ artist.data.occupation or meta[locale].event.artist }}
               </span>

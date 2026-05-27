@@ -14,4 +14,4 @@ links:
 
 Además del cuarteto «Das Gibt’s nur einmal» y del dúo «SchlagRechtWeit», toca y compone para el Marina Schlagintweit Large Ensemble de nueve músicos, que debutó en los Leipziger Jazztage de 2024. Ganó el premio Jutta-Hipp del Jazzverband Sachsen en la categoría de composición, así como el BMW Young Artist Jazz Award. Estudió primero composición contemporánea en Detmold (NRW), antes de recibir una beca para una residencia artística en la Cité des Arts de París y, a continuación, completar sus estudios de piano y composición de jazz en Múnich.
 
-Acompaña, entre otras formaciones, a Fernanda von Sachsen al piano.
+Acompaña, entre otras formaciones, a [Fernanda von Sachsen](/es/artistas/fernanda-von-sachsen/) al piano.
