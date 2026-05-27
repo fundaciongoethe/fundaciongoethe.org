@@ -514,4 +514,14 @@ module.exports = {
     url: 'https://mayrit.org/',
     logo: './src/assets/images/event-sponsors/mayrit.png',
   },
+  fcam: {
+    name: 'Fundación Colegio Alemán Málaga',
+    url: 'https://fcam.es/',
+    logo: './src/assets/images/sponsors/fcam/fcam-logo.png',
+  },
+  dwa: {
+    name: 'Deutsches Wirtschaftsforum Andalusien',
+    url: 'https://www.dw-a.es/',
+    logo: './src/assets/images/event-sponsors/dwa.webp',
+  },
 };
