@@ -12,18 +12,18 @@ partners:
   - dwa
   - konsulatmalaga
   - lidl
-date: 2026-06-17 20:10:00
-opening: 2026-06-17 19:00:00
-ending: 2026-06-17 21:20:00
+date: 2026-06-17 19:00:00
+opening: 2026-06-17 18:30:00
+ending: 2026-06-17 20:10:00
 deadline: 2026-06-17 11:00:00
 calcDuration: 1.17
 type: 'Concierto'
-accessVariant: invite_only
+accessVariant: free_eventbrite
 access:
 infobox:
 program:
 ticketsale:
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-das-gibt-s-nur-einmal-es-solo-una-vez-1990467820834
 youtube: false
 cancelled: false
 ---

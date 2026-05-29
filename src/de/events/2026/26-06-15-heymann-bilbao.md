@@ -11,18 +11,18 @@ partners:
   - kpmg
   - rbslegal
   - konsulatbilbao
-date: 2026-06-15 21:10:00
-opening: 2026-06-15 20:00:00
-ending: 2026-06-15 22:20:00
+date: 2026-06-15 20:00:00
+opening: 2026-06-15 19:30:00
+ending: 2026-06-15 21:10:00
 deadline: 2026-06-15 11:00:00
 calcDuration: 1.17
 type: 'Konzert'
-accessVariant: invite_only
+accessVariant: free_eventbrite
 access:
 infobox:
 program:
 ticketsale:
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-das-gibt-s-nur-einmal-es-solo-una-vez-1990467515922
 youtube: false
 cancelled: false
 ---

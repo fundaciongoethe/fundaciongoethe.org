@@ -9,13 +9,13 @@ location: Patio de Borbones, Palacio Real de El Pardo
 city: Madrid
 partners:
   - patrimonio
-date: 2026-06-14 14:10:00
-opening: 2026-06-14 13:00:00
-ending: 2026-06-14 15:20:00
+date: 2026-06-14 13:00:00
+opening: 2026-06-14 12:30:00
+ending: 2026-06-14 14:10:00
 deadline: 2026-06-10 11:00:00
 calcDuration: 1.17
 type: 'Konzert'
-accessVariant: invite_only
+accessVariant: free_capacity
 access:
 infobox:
 program:
