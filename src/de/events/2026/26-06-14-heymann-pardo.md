@@ -29,4 +29,4 @@ Werner Richard Heymann prägte mit Liedern wie „Ein Freund, ein guter Freund�
 
 Das Ensemble um die Sängerin Fernanda von Sachsen und die Pianistin Marina Schlagintweit bringt gemeinsam mit Lorenz Heigenhuber am Bass und Tilman Albrecht am Schlagzeug seine unvergesslichen Melodien in neuen Arrangements zurück auf die Bühne. Mit humorvollen Geschichten und musikalischer Virtuosität erzählen die Künstler von Heymanns Weg von der Berliner Kabarettszene der 1920er Jahre über seine Arbeit als musikalischer Leiter der UFA bis hin zu seiner erfolgreichen Karriere in Hollywood, wo er viermal für den Oscar nominiert wurde.
 
-Freuen Sie sich auf einen atmosphärischen Abend, der Vergangenheit und Gegenwart verbindet und die zeitlose Schönheit seiner Musik neu erlebbar macht.
+Freuen Sie sich auf ein schönes Konzert, das Vergangenheit und Gegenwart verbindet und die zeitlose Schönheit seiner Musik neu erlebbar macht.
