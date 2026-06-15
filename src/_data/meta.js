@@ -2,7 +2,7 @@ module.exports = {
   siteURL: process.env.URL || 'http://localhost:8080',
   siteName: 'Fundación Goethe',
   siteType: 'Organization', // schema
-  logoUrl: 'https://www.fundaciongoethe.org/assets/svg/logo-goethe20-RGB.svg',
+  logoUrl: 'https://www.fundaciongoethe.org/assets/svg/logo-goethe25-RGB.svg',
   siteImage: '/assets/images/social/default.jpg',
   authorName: 'Fundación Goethe',
   authorURL: 'https://www.fundaciongoethe.org',
@@ -22,7 +22,7 @@ module.exports = {
     email: 'info@fundaciongoethe.org',
     cif: 'G83131854',
   },
-	christmas: false,
+  christmas: false,
   defaultLang: 'es',
   languages: [
     {

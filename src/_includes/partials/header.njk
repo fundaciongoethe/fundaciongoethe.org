@@ -1,16 +1,21 @@
-
-
 <nav x-data="{ open: false }" class="relative nav transform md:-translate-y-16 lg:translate-y-0 z-10">
   <div class="mx-auto">
     <div class="flex md:flex-col lg:flex-row lg:items-center justify-between relative">
       <div class="flex items-end">
         <div class="flex-shrink-0 flex">
           {% set activePage = page.url | url %}
-          <a class="logo" href="/{{ locale }}/" title="Home" class="no-underline" {% if activePage === '/es/' or activePage === '/de/' %}
-          aria-current="page" {% endif %}>
+          <a
+            class="logo"
+            href="/{{ locale }}/"
+            title="Home"
+            class="no-underline"
+            {% if activePage === '/es/' or activePage === '/de/' %}
+              aria-current="page"
+            {% endif %}
+          >
             <img
               class="py-1 block h-12 2xl:h-16 md:mb-2 lg:mb-0 w-auto pl-2 xl:pl-16 2xl:pl-24"
-              src="/assets/svg/logo-goethe20-RGB.svg"
+              src="/assets/svg/logo-goethe25-RGB.svg"
               alt="Fundación Goethe Logo"
               width="338"
               height="98"
@@ -23,19 +28,17 @@
       >
         <div class="flex justify-center lg:justify-start">
           {% for item in navigation[locale].top %}
-
-          <a
-            class="text-white no-underline text-xs xl:text-sm 2xl:text-base font-semibold uppercase bg-gray-900 hover:text-white hover:bg-gray-800 px-1 md:px-2 2xl:px-3 py-3 2xl:py-4 block relative"
-            href="{{ item.url }}"
-            {{
-            helpers.getLinkActiveState(item.url,
-            page.url)
-            |
-            safe
-            }}
-            >{{ item.text }}</a
-          >
-
+            <a
+              class="text-white no-underline text-xs xl:text-sm 2xl:text-base font-semibold uppercase bg-gray-900 hover:text-white hover:bg-gray-800 px-1 md:px-2 2xl:px-3 py-3 2xl:py-4 block relative"
+              href="{{ item.url }}"
+              {{
+                helpers.getLinkActiveState(item.url,
+                page.url)
+                |
+                safe
+              }}
+              >{{ item.text }}</a
+            >
           {% endfor %}
         </div>
       </div>
@@ -102,24 +105,22 @@
     style="display: none"
   >
     {% for item in navigation[locale].top %}
-
-    <a
-      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t"
-      href="{{ item.url }}"
-      {{
-      helpers.getLinkActiveState(item.url,
-      page.url)
-      |
-      safe
-      }}
-      >{{ item.text }}</a
-    >
-
+      <a
+        class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t"
+        href="{{ item.url }}"
+        {{
+          helpers.getLinkActiveState(item.url,
+          page.url)
+          |
+          safe
+        }}
+        >{{ item.text }}</a
+      >
     {% endfor %}
 
     <!-- invitations link on mobile -->
     <a
-      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t {% if (page.url === '/es/invitaciones/') or (page.url === '/de/einladungen/') %} bg-gray-300 {% endif %}"
+      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t {% if (page.url === '/es/invitaciones/') or (page.url === '/de/einladungen/') %}bg-gray-300{% endif %}"
       href="{{ navigation[locale].bottom.row3[0].url }}"
     >
       {{ navigation[locale].bottom.row3[0].text }}</a
@@ -127,16 +128,27 @@
 
     <div class="flex items-center justify-center border-t border-b bg-gray-50">
       <!-- languages -->
-      {% for lgg in meta.languages %} {% if loop.first %} {% endif %} {# set translatedUrl to the homepage of that
-      language by default #} {% set translatedUrl = "/" + lgg.code + "/" %} {# set current language class #} {% set
-      activeClass = "bg-gray-300 " if lgg.code == locale else "text-gray-900 " %} {# loop through all the content of the
-      site #} {% for item in collections.all %} {# for each item in the loop, check if - its translationKey matches the
-      current item translationKey - its locale matches the code of the language we are looping through #} {% if
-      item.data.translationKey == translationKey and item.data.locale == lgg.code %} {% set translatedUrl = item.url %}
-      {% endif %} {% endfor %}
+      {% for lgg in meta.languages %}
+        {% if loop.first %}{% endif %} {# set translatedUrl to the homepage of that
+      language by default #}
+        {% set translatedUrl = "/" + lgg.code + "/" %} {# set current language class #}
+        {%
+          set
+          activeClass = "bg-gray-300 " if lgg.code == locale else "text-gray-900 "
+        %}
+        {# loop through all the content of the
+      site #}
+        {% for item in collections.all %}{# for each item in the loop, check if - its translationKey matches the
+      current item translationKey - its locale matches the code of the language we are looping through #}
+        {%
+          if
+          item.data.translationKey == translationKey and item.data.locale == lgg.code
+        %}
+          {% set translatedUrl = item.url %}
+        {% endif %}{% endfor %}
 
-      <a
-        class="
+        <a
+          class="
 					bg-gray-200 text-center
 					hover:bg-gray-300
 			no-underline
@@ -147,11 +159,12 @@
 			block
 			px-2
 			py-3 w-1/2 {{ activeClass }}"
-        href="{{ translatedUrl }}"
-        >{{ lgg.long }}</a
-      >
+          href="{{ translatedUrl }}"
+          >{{ lgg.long }}</a
+        >
 
-      {% if loop.last %} {% endif %} {% endfor %}
+        {% if loop.last %}{% endif %}
+      {% endfor %}
     </div>
   </div>
 </nav>
