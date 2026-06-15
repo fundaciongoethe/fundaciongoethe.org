@@ -60,10 +60,11 @@ package = "netlify-plugin-cache"
   publish = "dist"
   command = "npm run build:netlify"
 
-# Form detection is disabled; kontaktformular is already
-# registered and the live form includes a manual form-name hidden field.
-[build.processing.forms]
-  enabled = false
+# Stop Netlify scanning ~1500 HTML files for forms on every deploy.
+# kontaktformular is already registered; the form keeps a manual form-name field.
+# Also disable in UI: Forms → Usage and configuration → Form detection.
+[build.processing]
+  ignore_html_forms = true
 
 [[headers]]
     for = "/*"
