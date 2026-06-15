@@ -63,6 +63,7 @@ typings/
 
 # Build
 dist
+.cache
 
 # Don't commit temp build files
 src/static/app.min.js

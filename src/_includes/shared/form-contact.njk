@@ -25,12 +25,14 @@
         <h2 class="standardtitel">{{ meta[locale].contact.title }}</h2>
         <p class="mt-3 standardtext sm:mt-4">{{ meta[locale].contact.text }}</p>
         <form
+          netlify
+          data-netlify="true"
           name="kontaktformular"
           action="/{{ locale }}/{{ meta[locale].contact.actionLink }}/"
           method="POST"
-          data-netlify="true"
           class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
         >
+          <input type="hidden" name="form-name" value="kontaktformular" />
           <div>
             <label for="first_name" class="block text-sm text-gray-900">{{ meta[locale].contact.firstname }}</label>
             <div class="mt-1">

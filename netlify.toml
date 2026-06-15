@@ -60,6 +60,11 @@ package = "netlify-plugin-cache"
   publish = "dist"
   command = "npm run build"
 
+# Form detection is disabled; kontaktformular is already
+# registered and the live form includes a manual form-name hidden field.
+[build.processing.forms]
+  enabled = false
+
 [[headers]]
     for = "/*"
     [headers.values]

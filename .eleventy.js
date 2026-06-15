@@ -32,6 +32,21 @@ const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
 
+const pictureFilenameFormat = function (id, src, width, format) {
+  const extension = path.extname(src);
+  const name = path.basename(src, extension);
+  return `${name}-${width}w.${format}`;
+};
+
+const pictureImageOptions = {
+  widths: [170, 550, 840, 1200],
+  formats: ['webp', 'jpeg'],
+  urlPath: '/assets/images/',
+  outputDir: './dist/assets/images/',
+  useCache: true,
+  filenameFormat: pictureFilenameFormat,
+};
+
 module.exports = async function (eleventyConfig) {
   // Filters
   Object.keys(filters).forEach((filterName) => {
@@ -107,18 +122,7 @@ module.exports = async function (eleventyConfig) {
 
   // eleventy img
   eleventyConfig.addNunjucksAsyncShortcode('Picture', async (src, pcls, cls, alt = '', loading, sizes = '100vw') => {
-    let metadata = await Image(src, {
-      widths: [170, 550, 840, 1200],
-      formats: ['webp', 'jpeg'],
-      urlPath: '/assets/images/',
-      outputDir: './dist/assets/images/',
-      filenameFormat: function (id, src, width, format, options) {
-        const extension = path.extname(src);
-        const name = path.basename(src, extension);
-
-        return `${name}-${width}w.${format}`;
-      },
-    });
+    let metadata = await Image(src, pictureImageOptions);
 
     let lowsrc = metadata.jpeg[0];
 
@@ -149,10 +153,9 @@ module.exports = async function (eleventyConfig) {
     }
 
     let metadata = await Image(src, {
+      ...pictureImageOptions,
       widths: [600],
       formats: ['jpeg'],
-      urlPath: '/assets/images/',
-      outputDir: './dist/assets/images/',
     });
 
     let data = metadata.jpeg[metadata.jpeg.length - 1];

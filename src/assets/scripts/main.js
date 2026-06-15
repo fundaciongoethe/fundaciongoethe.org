@@ -29,10 +29,3 @@ Alpine.data('sortableList', (defaultSort, datasetAttr) => ({
 }));
 
 Alpine.start();
-
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker
-    .register('/sw.js')
-    .then(() => {})
-    .catch((error) => console.error('SW registration failed:', error));
-}

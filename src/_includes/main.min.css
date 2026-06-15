@@ -1427,6 +1427,9 @@ input:where([type='file']):focus {
 .-ml-1 {
   margin-left: -0.25rem;
 }
+.-mt-2 {
+  margin-top: -0.5rem;
+}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1812,9 +1815,6 @@ input:where([type='file']):focus {
 .justify-items-end {
   justify-items: end;
 }
-.gap-0\.5 {
-  gap: 0.125rem;
-}
 .gap-1 {
   gap: 0.25rem;
 }
@@ -2040,10 +2040,6 @@ input:where([type='file']):focus {
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(28 25 23 / var(--tw-bg-opacity, 1));
-}
-.bg-orange-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 237 213 / var(--tw-bg-opacity, 1));
 }
 .bg-orange-200 {
   --tw-bg-opacity: 1;
@@ -2324,6 +2320,9 @@ input:where([type='file']):focus {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-\[10px\] {
+  font-size: 10px;
 }
 .text-base {
   font-size: 1rem;
@@ -3850,10 +3849,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
     --tw-bg-opacity: 1;
     background-color: rgb(231 229 228 / var(--tw-bg-opacity, 1));
   }
-  .md\:bg-orange-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(251 146 60 / var(--tw-bg-opacity, 1));
-  }
   .md\:bg-transparent {
     background-color: transparent;
   }
@@ -4158,10 +4153,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
   .lg\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -4173,6 +4164,10 @@ lite-youtube.lyt-activated > .lty-playbtn {
   .lg\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+  }
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
   .lg\:py-12 {
     padding-top: 3rem;
@@ -4366,6 +4361,10 @@ lite-youtube.lyt-activated > .lty-playbtn {
   .xl\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   .xl\:px-44 {
     padding-left: 11rem;
