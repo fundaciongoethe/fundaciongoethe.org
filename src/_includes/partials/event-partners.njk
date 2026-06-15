@@ -1,27 +1,39 @@
 {% if partners %}
-  <div class="px-3 pt-12 bg-white lg:px-16">
-    <h2 class="p-2 text-base font-bold">{{ meta[locale].event.thanks }}:</h2>
+  <div class="lg:px-8 xl:px-20 py-8 bg-white lg:py-10">
+    <h2 class="px-4 text-base font-bold">{{ meta[locale].event.thanks }}:</h2>
 
     <div class="relative mx-auto">
       <div class="grid grid-cols-2 content-center gap-8 md:grid-cols-7 bordert-t border-gray-200">
         <!-- get current locale from meta.languages -->
         {% for partner in partners %}
-          <figure class="flex items-center">
+          {% if partner is string %}
+            {% set partnerKey = partner %}
+            {% set partnerCaption = null %}
+          {% else %}
+            {% set partnerKey = partner.id %}
+            {% set partnerCaption = partner.caption %}
+          {% endif %}
+          <figure class="flex flex-col items-center">
             <a
               ref="nofollow"
               target="_blank"
-              href="{{ partnerarchiv[partner].url }}"
-              class="flex justify-center col-span-1 px-2 py-6 buttonhover hover-luminance-105"
+              href="{{ partnerarchiv[partnerKey].url }}"
+              class="flex justify-center col-span-1 py-4 buttonhover hover-luminance-105"
             >
-              {% if partnerarchiv[partner].logo %}
+              {% if partnerarchiv[partnerKey].logo %}
                 {%
-                  Picture partnerarchiv[partner].logo, "bg-transparent", "lazy max-h-16 object-cover",
-                  partnerarchiv[partner].name, "lazy"
+                  Picture partnerarchiv[partnerKey].logo, "bg-transparent", "lazy max-h-16 object-cover",
+                  partnerarchiv[partnerKey].name, "lazy"
                 %}
               {% else %}
-                <span class="font-medium text-center">{{ partnerarchiv[partner].name }}</span>
+                <span class="font-medium text-center">{{ partnerarchiv[partnerKey].name }}</span>
               {% endif %}
             </a>
+            {% if partnerCaption %}
+              <figcaption class="px-1 -mt-2 text-[10px] text-center text-gray-600 uppercase font-semibold">
+                {{ partnerCaption }}
+              </figcaption>
+            {% endif %}
           </figure>
         {%- endfor -%}
       </div>
