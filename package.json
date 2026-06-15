@@ -7,16 +7,20 @@
   },
   "scripts": {
     "clean": "del dist",
+    "clean:keep-images": "node scripts/clean-dist-keep-images.js",
+    "invalidate:images": "node scripts/invalidate-stale-images.js",
+    "build:netlify": "run-s clean:keep-images invalidate:images build:postcss build:11ty build:scripts",
     "dev:postcss": "postcss src/assets/css/*.css -o dist/assets/main.min.css --watch --verbose",
     "dev:scripts": "esbuild src/assets/scripts/*.js --bundle --watch --outdir=dist/assets",
     "dev:11ty": "eleventy --serve --watch --incremental --quiet",
-    "build:postcss": "npx cross-env NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
-    "build:11ty": "npx cross-env ELEVENTY_ENV=production eleventy",
+    "build:postcss": "NODE_ENV=production postcss src/assets/css/main.css -o src/_includes/main.min.css",
+    "build:11ty": "ELEVENTY_ENV=production eleventy",
     "build:scripts": "esbuild src/assets/scripts/*.js --minify --bundle --keep-names --sourcemap --outdir=dist/assets",
     "start": "run-p dev:*",
     "build": "run-s clean build:postcss build:11ty build:scripts",
-    "debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
-    "debug-perf": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy"
+    "debug": "run-s build:postcss && DEBUG=Eleventy* ELEVENTY_ENV=production npx @11ty/eleventy",
+    "debug:perf": "run-s build:postcss && DEBUG=Eleventy:Benchmark*,Eleventy:Image ELEVENTY_ENV=production npx @11ty/eleventy",
+    "debug:netlify": "run-s clean:keep-images invalidate:images build:postcss && DEBUG=Eleventy:Benchmark*,Eleventy:Image ELEVENTY_ENV=production npx @11ty/eleventy"
   },
   "author": "Lene Saile",
   "dependencies": {
@@ -38,7 +42,6 @@
     "autoprefixer": "^10.5.0",
     "calendar-link": "^2.11.3",
     "clean-css": "^5.3.3",
-    "cross-env": "^10.1.0",
     "date-fns": "^4.4.0",
     "del-cli": "^7.0.0",
     "dotenv": "^17.4.2",

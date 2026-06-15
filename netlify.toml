@@ -35,7 +35,7 @@
 [[plugins]]
 package = "netlify-plugin-cache"
   [plugins.inputs]
-  paths = [ ".cache" ]
+  paths = [ ".cache", "dist/assets/images" ]
 
 
 [[plugins]]
@@ -58,7 +58,7 @@ package = "netlify-plugin-cache"
 
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "npm run build:netlify"
 
 # Form detection is disabled; kontaktformular is already
 # registered and the live form includes a manual form-name hidden field.

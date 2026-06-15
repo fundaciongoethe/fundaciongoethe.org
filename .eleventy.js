@@ -38,14 +38,23 @@ const pictureFilenameFormat = function (id, src, width, format) {
   return `${name}-${width}w.${format}`;
 };
 
-const pictureImageOptions = {
-  widths: [170, 550, 840, 1200],
-  formats: ['webp', 'jpeg'],
-  urlPath: '/assets/images/',
-  outputDir: './dist/assets/images/',
-  useCache: true,
-  filenameFormat: pictureFilenameFormat,
-};
+function getPictureImageOptions(overrides = {}) {
+  return {
+    widths: [550, 840, 1200],
+    formats: ['webp', 'jpeg'],
+    urlPath: '/assets/images/',
+    outputDir: './dist/assets/images/',
+    useCache: true,
+    filenameFormat: pictureFilenameFormat,
+    htmlOptions: {
+      imgAttributes: {},
+      pictureAttributes: {},
+      whitespaceMode: 'inline',
+      fallback: 'largest',
+    },
+    ...overrides,
+  };
+}
 
 module.exports = async function (eleventyConfig) {
   // Filters
@@ -122,7 +131,7 @@ module.exports = async function (eleventyConfig) {
 
   // eleventy img
   eleventyConfig.addNunjucksAsyncShortcode('Picture', async (src, pcls, cls, alt = '', loading, sizes = '100vw') => {
-    let metadata = await Image(src, pictureImageOptions);
+    let metadata = await Image(src, getPictureImageOptions());
 
     let lowsrc = metadata.jpeg[0];
 
@@ -152,11 +161,13 @@ module.exports = async function (eleventyConfig) {
       throw new Error(`Missing \`alt\` on myImage from: ${src}`);
     }
 
-    let metadata = await Image(src, {
-      ...pictureImageOptions,
-      widths: [600],
-      formats: ['jpeg'],
-    });
+    let metadata = await Image(
+      src,
+      getPictureImageOptions({
+        widths: [600],
+        formats: ['jpeg'],
+      })
+    );
 
     let data = metadata.jpeg[metadata.jpeg.length - 1];
     return `<img src="${data.url}" class="${cls}" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">`;
