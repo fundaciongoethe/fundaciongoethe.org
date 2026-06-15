@@ -10,6 +10,7 @@ city: Barcelona
 partners:
   - mies
   - lidl
+  - freixenet
 date: 2026-06-16 19:30:00
 opening: 2026-06-16 19:00:00
 ending: 2026-06-16 20:40:00
