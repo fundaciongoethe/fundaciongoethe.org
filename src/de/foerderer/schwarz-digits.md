@@ -7,7 +7,7 @@ excerpt: 'Schwarz Digits ist eine der führenden Technologieunternehmen in Europ
 seo:
   image:
 images: # complete path for eleventy img srcset output, alt required
-  logo: ./src/assets/images/sponsors/schwarz-digits/schwarz-digits-logo.png
+  logo: ./src/assets/images/sponsors/schwarz-digits/schwarz-digits-logo-narrow.png
   featured1: ./src/assets/images/sponsors/schwarz-digits/schwarz-digits-presse.jpeg
   alt1: Schwarz Digits Pressekit
 links:
@@ -15,6 +15,7 @@ links:
   instagram: https://www.instagram.com/schwarzdigits
   youtube: https://www.youtube.com/@SchwarzDigits
   linkedin: https://www.linkedin.com/company/schwarz-digits
+premium: true
 ---
 
 Schwarz Digits wurde 2023 als Technologiezweig der Schwarz-Gruppe – der Muttergesellschaft von Lidl und Kaufland – gegründet und treibt die digitale Transformation in Europa voran, wobei ein Höchstmaß an Datenhoheit und -sicherheit gewährleistet wird.
