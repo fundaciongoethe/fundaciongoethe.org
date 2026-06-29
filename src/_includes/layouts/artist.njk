@@ -15,16 +15,41 @@ tags: pages
     </div>
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
       <div class="relative lg:row-start-1 lg:col-start-2">
-        <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
+        <div class="relative text-base mx-auto max-w-prose lg:max-w-none space-y-2">
           <figure>
             <!-- picture shortcode -->
             {% Picture images.featured, "bg-gray-200", "fade-in-bottom aspect-[6/5] lg:aspect-auto w-full rounded-lg object-cover", images.alt or "", "eager", "(min-width: 1024px) 50vw, 100vw" %}
 
-            {% if images.credit %}
+            {% if images.credit or images.label %}
               {% set imageCreditSource = images %}
               {% include "components/image-credit.njk" %}
             {% endif %}
           </figure>
+
+          {% if images.featured2 %}
+            <ul role="list" class="grid sm:grid-cols-2 gap-2">
+              <li class="relative">
+                <figure>
+                  {% Picture images.featured2, "bg-gray-200", "w-full rounded-lg object-cover aspect-[6/5]", images.alt2 or "", "lazy", "(min-width: 1024px) 25vw, 50vw" %}
+                  {% if images.credit2 or images.label2 %}
+                    {% set imageCreditSource = { label: images.label2, credit: images.credit2 } %}
+                    {% include "components/image-credit.njk" %}
+                  {% endif %}
+                </figure>
+              </li>
+              {% if images.featured3 %}
+                <li class="relative">
+                  <figure>
+                    {% Picture images.featured3, "bg-gray-200", "w-full rounded-lg object-cover aspect-[6/5]", images.alt3 or "", "lazy", "(min-width: 1024px) 25vw, 50vw" %}
+                    {% if images.credit3 or images.label3 %}
+                      {% set imageCreditSource = { label: images.label3, credit: images.credit3 } %}
+                      {% include "components/image-credit.njk" %}
+                    {% endif %}
+                  </figure>
+                </li>
+              {% endif %}
+            </ul>
+          {% endif %}
         </div>
       </div>
       <div class="mt-8 lg:mt-0">
