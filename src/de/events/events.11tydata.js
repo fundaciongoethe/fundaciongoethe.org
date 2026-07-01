@@ -1,8 +1,10 @@
 const { google, outlook, office365, ics } = require("calendar-link");
 const { isBefore } = require("date-fns");
+const { resolveLocation } = require("../../../utils/events/event-location.js");
 
 module.exports = {
 	eleventyComputed: {
+		location: (data) => resolveLocation(data),
 		calendarLinks: {
 			url: (data) => data.url,
 			location: (data) => data.location,

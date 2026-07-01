@@ -4,15 +4,15 @@ description: 'El Coro de la Catedral de Colonia presenta el programa „Cantate 
 translationKey: 26domchorescorial
 customSlug: concierto-coro-catedral-colonia-el-escorial-2026
 venue: [elescorial]
+space: basilica
 artist: [koelnerdomchor]
-location: Basílica del Real Monasterio de El Escorial, San Lorenzo de El Escorial
 city: San Lorenzo de El Escorial
 partners:
   - patrimonio
 date: 2026-07-25 21:00:00
 opening: 2026-07-25 20:30:00
 ending: 2026-07-25 22:10:00
-deadline: 2026-07-21 11:00:00
+deadline: false
 calcDuration: 1.17
 type: 'Concierto'
 accessVariant: free_capacity

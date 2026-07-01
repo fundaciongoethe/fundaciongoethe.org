@@ -5,7 +5,7 @@ translationKey: tempestad2021
 customSlug: la-tempestad-sinfonia-en-femenino
 artist: [tempestad]
 venue: [elescorial]
-location: Real Monasterio de San Lorenzo de El Escorial
+space: patio
 city: San Lorenzo de El Escorial
 partners:
   - patrimonio

@@ -35,4 +35,22 @@ module.exports = {
 	filterCollectionByKeys(collection, keys) {
 		return collection.filter((x) => keys.includes(x.data.translationKey));
 	},
+
+	resolveEventLocation({ space, location, venueItems, city }) {
+		if (space && venueItems?.length) {
+			const spaces = venueItems[0].data.spaces;
+			if (spaces?.[space]) {
+				const eventCity = city || venueItems[0].data.city;
+				return eventCity ? `${spaces[space]}, ${eventCity}` : spaces[space];
+			}
+		}
+		return location || "";
+	},
+
+	resolveEventSpaceLabel({ space, venueItems }) {
+		if (space && venueItems?.length) {
+			return venueItems[0].data.spaces?.[space] || "";
+		}
+		return "";
+	},
 };

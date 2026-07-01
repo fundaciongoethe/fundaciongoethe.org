@@ -37,6 +37,14 @@
         <dd class="text-gray-50 col-span-3">{{ venue.data.title }}</dd>
       </div>
 
+      {% set spaceLabel = helpers.resolveEventSpaceLabel({ space: space, venueItems: [venue] }) %}
+      {% if spaceLabel %}
+        <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+          <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.space }}</dt>
+          <dd class="text-gray-50 col-span-3">{{ spaceLabel }}</dd>
+        </div>
+      {% endif %}
+
       <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
         <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.city }}</dt>
         <dd class="text-gray-50 col-span-3">{{ venue.data.city }}</dd>

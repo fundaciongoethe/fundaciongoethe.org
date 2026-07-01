@@ -5,7 +5,7 @@ translationKey: konjetzkybelivet
 customSlug: konjetzky-belivet-escorial
 artist: [laurakonjetzky, triobelivet]
 venue: [elescorial]
-location: Real Monasterio de San Lorenzo de El Escorial
+space: patio
 city: San Lorenzo de El Escorial
 partners:
   - patrimonio

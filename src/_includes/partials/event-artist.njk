@@ -16,7 +16,7 @@
             <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
               {{ artist.data.occupation or meta[locale].event.artist }}
             </span>
-            <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
+            <h2 class="standardtitel uppercase">{{ artist.data.title }}</h2>
             <p class="mt-4">{{ artist.data.excerpt }}</p>
             <a href="{{ artist.url }}" class="blackbutton mt-6">
               {{ meta[locale].event.readmore }} <span class="sr-only"> {{ artist.data.title }}</span>
@@ -45,7 +45,7 @@
               <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
                 {{ artist.data.occupation or meta[locale].event.artist }}
               </span>
-              <h2 class="standardtitel uppercase mt-2">{{ artist.data.title }}</h2>
+              <h2 class="standardtitel uppercase">{{ artist.data.title }}</h2>
               <p class="mt-4">{{ artist.data.excerpt }}</p>
               <a href="{{ artist.url }}" class="blackbutton mt-6">
                 {{ meta[locale].event.readmore }} <span class="sr-only"> {{ artist.data.title }}</span>
