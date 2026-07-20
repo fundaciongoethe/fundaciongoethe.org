@@ -39,6 +39,7 @@
         <div
           class="group block w-full aspect-square rounded-xs sm:rounded-sm lg:rounded-md bg-gray-100 overflow-hidden buttonhover"
         >
+          {% if artist.data.images.featured %}
           {% set loadingType = "lazy" %}
           {% if loop.index <= 2 %}
             {% set loadingType = "eager" %}
@@ -51,6 +52,7 @@
             loadingType,
             "(min-width: 640px) 360px, 640px"
           %}
+          {% endif %}
           <span class="sr-only"> {{ meta[locale].event.readmore }} {{ artist.data.title }}</span>
         </div>
         <p class="mt-2 block text-xs sm:text-sm font-semibold">

@@ -16,6 +16,7 @@ tags: pages
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
       <div class="relative lg:row-start-1 lg:col-start-2">
         <div class="relative text-base mx-auto max-w-prose lg:max-w-none space-y-2">
+          {% if images.featured %}
           <figure>
             <!-- picture shortcode -->
             {% Picture images.featured, "bg-gray-200", "fade-in-bottom aspect-[6/5] lg:aspect-auto w-full rounded-lg object-cover", images.alt or "", "eager", "(min-width: 1024px) 50vw, 100vw" %}
@@ -25,6 +26,7 @@ tags: pages
               {% include "components/image-credit.njk" %}
             {% endif %}
           </figure>
+          {% endif %}
 
           {% if images.featured2 %}
             <ul role="list" class="grid sm:grid-cols-2 gap-2">
