@@ -40,7 +40,7 @@ const pictureFilenameFormat = function (id, src, width, format) {
 
 function getPictureImageOptions(overrides = {}) {
   return {
-    widths: [550, 840, 1200],
+    widths: [700, 1200],
     formats: ['webp', 'jpeg'],
     urlPath: '/assets/images/',
     outputDir: './dist/assets/images/',
