@@ -25,6 +25,6 @@ youtube: false
 cancelled: false
 ---
 
-Die Basílica del Real Monasterio de El Escorial bildet den eindrucksvollen Rahmen für ein abwechslungsreiches Orgelkonzert mit Werken aus drei Jahrhunderten europäischer Musikgeschichte. Das Programm spannt einen Bogen von der italienischen Frühbarockmusik Girolamo Frescobaldis und Bernardo Storaces über Meisterwerke von Dieterich Buxtehude und Johann Ludwig Krebs bis zu den romantischen Klangwelten Felix Mendelssohn Bartholdys und Sigfrid Karg-Elerts. Virtuose Toccaten, klangvolle Choralbearbeitungen, poetische Charakterstücke und die große Orgelsonate in f-Moll lassen die klangliche Vielfalt und Ausdruckskraft der historischen Orgel eindrucksvoll erleben.
+Die Basílica del Real Monasterio de El Escorial bildet den eindrucksvollen Rahmen für ein abwechslungsreiches Orgelkonzert mit Werken aus vier Jahrhunderten. Das Programm spannt einen Bogen vom italienischen Frühbarock über Meisterwerke von Dieterich Buxtehude und Johann Ludwig Krebs bis zu den romantischen Klangwelten Felix Mendelssohn-Bartholdys und Sigfrid Karg-Elerts. Virtuose Präludien, klangvolle Choralbearbeitungen, poetische Charakterstücke und eine große Orgelsonate lassen die klangliche Vielfalt und Ausdruckskraft der Orgel eindrucksvoll erleben.
 
-Es musiziert der deutsche Organist Robert Schulz aus Greifswald. Mit seiner sorgfältigen Programmauswahl verbindet er musikalische Tradition mit spannenden Entdeckungen und lädt das Publikum zu einer abwechslungsreichen Reise durch die europäische Orgelliteratur ein.
+Es musiziert der deutsche Organist Robert Schulz aus Greifswald. Mit seiner sorgfältigen Programmauswahl verbindet er die musikalische Traditionen Italiens und Deutschlands zu einer abwechslungsreichen Reise durch die Musikgeschichte.

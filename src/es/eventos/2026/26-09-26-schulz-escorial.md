@@ -25,6 +25,6 @@ youtube: false
 cancelled: false
 ---
 
-La Basílica del Real Monasterio de El Escorial constituye el marco incomparable para un variado concierto de órgano con obras que recorren tres siglos de la historia de la música europea. El programa abarca desde el primer Barroco italiano de Girolamo Frescobaldi y Bernardo Storace, pasando por las obras maestras de Dieterich Buxtehude y Johann Ludwig Krebs, hasta los universos sonoros del Romanticismo de Felix Mendelssohn Bartholdy y Sigfrid Karg-Elert. Tocatas de gran virtuosismo, elaboraciones corales de profunda expresividad, piezas de carácter y la monumental Sonata para órgano en fa menor ponen de manifiesto toda la riqueza tímbrica y expresiva del órgano histórico.
+La Basílica del Real Monasterio de El Escorial ofrece el marco incomparable para un variado concierto de órgano con obras de cuatro siglos de historia. El programa recorre desde el primer Barroco italiano hasta obras maestras de Dieterich Buxtehude y Johann Ludwig Krebs, pasando por los universos sonoros románticos de Felix Mendelssohn Bartholdy y Sigfrid Karg-Elert. Preludios virtuosos, elaboraciones corales, piezas de gran lirismo y una imponente sonata para órgano ponen de relieve toda la riqueza tímbrica y expresiva de este instrumento.
 
-El concierto estará a cargo del organista alemán Robert Schulz, de Greifswald. Con una cuidada selección de obras, une la tradición musical con el descubrimiento de repertorios menos habituales e invita al público a emprender un apasionante viaje por la literatura organística europea.
+El concierto estará a cargo del organista alemán Robert Schulz, de Greifswald. Con una cuidada selección de obras, une las tradiciones musicales de Italia y Alemania en un sugerente viaje por la historia de la música.

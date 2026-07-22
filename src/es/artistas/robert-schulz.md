@@ -21,4 +21,4 @@ Robert Schulz creció en la región de Parchim, donde desde muy joven descubrió
 
 Desde 2021 estudia Música Sacra en la Universidad de Greifswald con el Prof. Dr. Matthias Schneider y el Prof. Frank Dittmer, con especialización en interpretación artística de órgano. Su actividad artística se centra en la música para órgano del siglo XX y, de manera especial, en la recuperación e interpretación de obras poco frecuentes del repertorio.
 
-Robert Schulz desarrolla una intensa actividad concertística y cuenta con el apoyo del Deutschlandstipendium, una beca nacional alemana destinada a fomentar el talento académico y artístico.
+Robert Schulz desarrolla una intensa actividad concertística y cuenta con el apoyo del Deutschlandstipendium, una beca nacional alemana destinada a fomentar el talento académico y artístico. Este verano concluyó sus estudios con la obtención del diploma.
