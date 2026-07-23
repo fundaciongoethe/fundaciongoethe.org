@@ -22,6 +22,7 @@ ticketsale:
 directregister:
 youtube: false
 cancelled: false
+previewImage: artist
 ---
 
 Das Real Monasterio de Santa Isabel, eine historische Kirche aus dem frühen 17. Jahrhundert, die eng mit der spanischen Monarchie verbunden ist, bildet den stimmungsvollen Rahmen für ein Konzert von Cantus Juvenum Karlsruhe, einer der renommiertesten Kinder- und Jugendchorinstitutionen Deutschlands. Der Chor steht für musikalische Exzellenz und ist regelmäßig bei internationalen Festivals, Konzertreisen sowie Produktionen bedeutender Opernhäuser und Konzerthäuser zu erleben.

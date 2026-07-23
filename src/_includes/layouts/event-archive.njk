@@ -11,94 +11,98 @@ tags: pages
       {% set eventsFuture = collections["eventosFuturos_" + locale] %}
 
       <div class="my-10 2xl:md:my-16 xl:my-28">
-        <ul class="divide-y divide-gray-300 md:bg-gray-100 md:border-t md:border-b border-gray-300">
+        <ul class="divide-y divide-gray-300 md:border-t md:border-b border-gray-300">
           <!-- FUTURE EVENTS -->
           {% if eventsFuture | length != 0 %}
             {% for event in eventsFuture %}
               {% set venueItems = helpers.filterCollectionByKeys(collections["venues_" + locale], event.data.venue) %}
               {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" + locale], event.data.artist) %}
 
-              <li class="px-3 py-5 md:py-0 max-w-5xl mx-auto">
-                <div class="flex items-center space-x-4">
+              <li class="pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300">
+                <div class="group relative flex items-center space-x-4">
                   <!-- Date -->
-                  <a class="no-underline py-1 sm:py-5 lg:py-6" tabindex="-1" href="{{ event.url }}">
-                    <div class="flex flex-col items-center justify-center w-20 md:w-32 lg:w-40 text-center">
-                      <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">
-                        {{ event.data.date | date("dddd", locale) }}
-                      </p>
-                      <p class="text-4xl font-semibold">{{ event.data.date | date(" Do", locale) }}</p>
-                      <p class="text-xs uppercase tracking-wider font-semibold">
-                        {{ event.data.date | date("MMM", locale) }}
-                      </p>
-                    </div>
-                  </a>
+                  <div class="flex flex-col items-center justify-center w-20 md:w-32 lg:w-40 text-center">
+                    <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold">
+                      {{ event.data.date | date("dddd", locale) }}
+                    </p>
+                    <p class="text-4xl font-semibold">{{ event.data.date | date(" Do", locale) }}</p>
+                    <p class="text-xs uppercase tracking-wider font-semibold">
+                      {{ event.data.date | date("MMM", locale) }}
+                    </p>
+                  </div>
 
-                  <!-- Event Image -->
+                  <!-- Event Image: previewImage front matter = "artist" | "venue" (default) -->
                   <div class="hidden md:flex h-40 w-40 relative bg-gray-200">
-                    <a href="{{ event.url }}" tabindex="-1">
-                      {% for venue in venueItems %}
-                        {% set venueImage = venue.data.images.featured %}
-                        {% set venueAlt = venue.data.images.alt %}
-                        {% Picture venueImage, "bg-gray-200", "grayimg absolute inset-0 w-full h-full object-cover", venueAlt, "lazy", "20vw" %}
+                    {% if event.data.previewImage == "artist" and artistItems | length > 0 %}
+                      {% for artist in artistItems %}
+                        {% if loop.first and artist.data.images and artist.data.images.featured %}
+                          {% Picture artist.data.images.featured, "bg-gray-200", "grayimg absolute inset-0 w-full h-full object-cover", artist.data.images.alt or artist.data.title, "lazy", "20vw" %}
+                        {% elif loop.first %}
+                          {% for venue in venueItems %}
+                            {% if loop.first and venue.data.images and venue.data.images.featured %}
+                              {% Picture venue.data.images.featured, "bg-gray-200", "grayimg absolute inset-0 w-full h-full object-cover", venue.data.images.alt or venue.data.title, "lazy", "20vw" %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
                       {% endfor %}
-                    </a>
+                    {% else %}
+                      {% for venue in venueItems %}
+                        {% if loop.first and venue.data.images and venue.data.images.featured %}
+                          {% Picture venue.data.images.featured, "bg-gray-200", "grayimg absolute inset-0 w-full h-full object-cover", venue.data.images.alt or venue.data.title, "lazy", "20vw" %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
                   </div>
 
                   <!-- Event Info -->
                   <div class="flex flex-col flex-1 min-w-0">
-                    <a class="no-underline py-1 sm:py-5 lg:py-6" href="{{ event.url }}">
-                      <div class="flex items-center justify-start space-x-2">
-                        <p
-                          class="hidden sm:inline-flex items-center py-0.5 rounded-md text-xs font-semibold uppercase tracking-wider  {% if not event.data.cancelled %}
-                            px-2.5 border border-gray-300
-                          {% endif %}"
-                        >
-                          {{ event.data.type }}
-                        </p>
-                        {% if event.data.cancelled %}
-                          <span
-                            class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-red-600 text-white uppercase tracking-wider"
-                          >
-                            {{ meta[locale].event.cancelled }}
-                          </span>
-                        {% else %}
-                          <p class="hidden sm:block text-xs text-gray-500">
-                            {{ event.data | accessFromVariant(locale) }}
-                          </p>
-                        {% endif %}
-                      </div>
+                    <div class="flex items-center justify-start">
+                      <p class="mr-2 font-semibold text-red-600 uppercase tracking-wider text-xs">
+                        {% for venue in venueItems %}
+                          {{ venue.data.city }}
+                        {% endfor %}
+                      </p>
+                      <p class="text-xs hidden sm:block text-gray-600">
+                        {% for venue in venueItems %}
+                          {{ venue.data.title }}{% if not loop.last %},{% endif %}
+                        {% endfor %}
+                      </p>
+                    </div>
 
-                      <h2
-                        id="{{ event.data.title | slug }}"
-                        class="standardtext md:uppercase font-semibold xl:font-bold my-1 md:mb-4 max-w-sm"
-                      >
+                    <h2
+                      id="{{ event.data.title | slug }}"
+                      class="standardtext md:uppercase font-semibold xl:font-bold my-1 md:mb-4 max-w-md"
+                    >
+                      <a href="{{ event.url }}" class="no-underline after:absolute after:inset-0 after:content-['']">
                         {{ event.data.title }}
-                      </h2>
+                      </a>
+                    </h2>
 
-                      <div class="flex items-center justify-start">
-                        <p class="mr-4 font-semibold text-red-600 uppercase tracking-wider text-xs">
-                          {% for venue in venueItems %}
-                            {{ venue.data.city }}
-                          {% endfor %}
+                    <div class="flex items-center justify-start space-x-4">
+                      {% if event.data.cancelled %}
+                        <span
+                          class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-red-600 text-white uppercase tracking-wider"
+                        >
+                          {{ meta[locale].event.cancelled }}
+                        </span>
+                      {% else %}
+                        <p class="hidden sm:block text-xs text-gray-600">
+                          {{ event.data | accessFromVariant(locale) }}
                         </p>
-                        {% if not event.data.cancelled %}
-                          <p class="text-xs font-semibold hidden sm:block">
-                            {{ meta[locale].event.start }}: {{ event.data.date | date("HH:mm", locale) }}
-                          </p>
-                        {% endif %}
-                      </div>
-                    </a>
+                        <p class="hidden sm:block text-xs text-gray-600">
+                          {{ meta[locale].event.start }}: {{ event.data.date | date("HH:mm", locale) }}
+                        </p>
+                      {% endif %}
+                    </div>
                   </div>
 
-                  <!-- Arrow Link -->
+                  <!-- Arrow (decorative; click covered by stretched title link) -->
                   <div class="hidden sm:block" aria-hidden="true">
-                    <a
-                      href="{{ event.url }}"
-                      tabindex="-1"
-                      class="inline-flex items-center shadow-sm px-2.5 py-2.5 rounded-full bg-red-600 transform hover:translate-x-2 transition duration-300 ease-in-out mr-1 sm:mr-3"
+                    <span
+                      class="inline-flex items-center shadow-sm px-2.5 py-2.5 rounded-full bg-red-600 transform group-hover:translate-x-2 transition duration-300 ease-in-out mr-1 sm:mr-3"
                     >
                       {% svg "arrow-right-white", "h-5 w-5 lg:h-10 lg:w-10", hidden %}
-                    </a>
+                    </span>
                   </div>
                 </div>
               </li>

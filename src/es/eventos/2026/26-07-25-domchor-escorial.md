@@ -23,6 +23,7 @@ ticketsale:
 directregister:
 youtube: false
 cancelled: false
+previewImage: artist
 ---
 
 Desde el canto gregoriano hasta obras de Mozart, Bach o Poulenc, el concierto explora la alabanza divina a través de los siglos. La riqueza sonora del coro se despliega en piezas de gran espiritualidad y fuerza expresiva, creando un diálogo entre épocas y estilos en un espacio de profunda resonancia histórica.

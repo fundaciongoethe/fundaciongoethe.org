@@ -23,6 +23,7 @@ ticketsale:
 directregister:
 youtube: false
 cancelled: false
+previewImage: artist
 ---
 
 Der Pabellón Mies van der Rohe bildet den außergewöhnlichen Rahmen für ein Konzert, das drei musikalische Welten miteinander verbindet und den Geist der Moderne, insbesondere der 1920er Jahre, lebendig werden lässt. Werke von Isaac Albéniz, Lieder aus dem Repertoire von Marlene Dietrich und Kompositionen von Manuel de Falla treten in einen faszinierenden Dialog mit der ikonischen Architektur des Pavillons. Interpretiert wird das Programm vom spanischen Pianisten José Antonio Candel Campillo, der für seine internationale Konzerttätigkeit und seine besondere Verbundenheit mit dem spanischen Klavierrepertoire bekannt ist.

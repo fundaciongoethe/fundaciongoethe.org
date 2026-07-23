@@ -22,6 +22,7 @@ ticketsale:
 directregister:
 youtube: false
 cancelled: false
+previewImage: artist
 ---
 
 El Real Monasterio de Santa Isabel, una iglesia histórica de comienzos del siglo XVII estrechamente vinculada a la monarquía española, acoge un concierto de Cantus Juvenum Karlsruhe, una de las instituciones corales infantiles y juveniles más prestigiosas de Alemania, reconocida por su excelencia musical y por su presencia habitual en festivales internacionales, giras de conciertos y producciones de destacados teatros de ópera y salas de concierto.

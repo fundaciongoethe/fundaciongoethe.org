@@ -23,6 +23,7 @@ ticketsale:
 directregister:
 youtube: false
 cancelled: false
+previewImage: artist
 ---
 
 Vom gregorianischen Choral bis hin zu Werken von Mozart, Bach oder Poulenc erkundet das Konzert den göttlichen Lobpreis im Wandel der Jahrhunderte. Der klangliche Reichtum des Chores entfaltet sich in Werken von großer Spiritualität und Ausdruckskraft und schafft einen Dialog zwischen verschiedenen Epochen und Stilen in einem Raum von außergewöhnlicher historischer Ausstrahlung.
