@@ -22,7 +22,8 @@ program:
 ticketsale:
 directregister:
 youtube: false
-cancelled: false
+cancelled: true
+cancelReason: Konzert abgesagt wegen Bränden in der Region Madrid.
 previewImage: artist
 ---
 

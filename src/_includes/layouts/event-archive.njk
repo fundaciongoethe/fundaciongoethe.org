@@ -18,7 +18,10 @@ tags: pages
               {% set venueItems = helpers.filterCollectionByKeys(collections["venues_" + locale], event.data.venue) %}
               {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" + locale], event.data.artist) %}
 
-              <li class="pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300">
+              <li
+                class="pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300 {% if event.data.cancelled %}bg-red-50
+                hover:bg-red-100{% endif %}"
+              >
                 <div class="group relative flex items-center space-x-4">
                   <!-- Date -->
                   <div class="flex flex-col items-center justify-center w-20 md:w-32 lg:w-40 text-center">
@@ -57,7 +60,7 @@ tags: pages
                   <!-- Event Info -->
                   <div class="flex flex-col flex-1 min-w-0">
                     <div class="flex items-center justify-start">
-                      <p class="mr-2 font-semibold text-red-600 uppercase tracking-wider text-xs">
+                      <p class="mr-2 font-semibold text-orange-600 uppercase tracking-wider text-xs">
                         {% for venue in venueItems %}
                           {{ venue.data.city }}
                         {% endfor %}
@@ -80,11 +83,16 @@ tags: pages
 
                     <div class="flex items-center justify-start space-x-4">
                       {% if event.data.cancelled %}
-                        <span
-                          class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-red-600 text-white uppercase tracking-wider"
-                        >
-                          {{ meta[locale].event.cancelled }}
-                        </span>
+                        <div class="flex flex-col md:flex-row md:items-center gap-2">
+                          <span
+                            class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-red-600 text-white uppercase tracking-wider"
+                          >
+                            {{ meta[locale].event.cancelled }}
+                          </span>
+                          {% if event.data.cancelReason %}
+                            <p class="text-xs text-red-600">{{ event.data.cancelReason }}</p>
+                          {% endif %}
+                        </div>
                       {% else %}
                         <p class="hidden sm:block text-xs text-gray-600">
                           {{ event.data | accessFromVariant(locale) }}
@@ -99,9 +107,9 @@ tags: pages
                   <!-- Arrow (decorative; click covered by stretched title link) -->
                   <div class="hidden sm:block" aria-hidden="true">
                     <span
-                      class="inline-flex items-center shadow-sm px-2.5 py-2.5 rounded-full bg-red-600 transform group-hover:translate-x-2 transition duration-300 ease-in-out mr-1 sm:mr-3"
+                      class="inline-flex items-center shadow-sm px-2.5 py-2.5 rounded-full bg-yellow-400 group-hover:bg-yellow-500 transform group-hover:translate-x-2 transition duration-300 ease-in-out mr-1 sm:mr-3"
                     >
-                      {% svg "arrow-right-white", "h-5 w-5 lg:h-10 lg:w-10", hidden %}
+                      {% svg "arrow-right", "h-5 w-5 lg:h-10 lg:w-10 text-black", "hidden" %}
                     </span>
                   </div>
                 </div>

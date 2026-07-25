@@ -22,7 +22,8 @@ program:
 ticketsale:
 directregister:
 youtube: false
-cancelled: false
+cancelled: true
+cancelReason: Concierto cancelado debido a incendios en la zona de Madrid
 previewImage: artist
 ---
 

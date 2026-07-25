@@ -24,11 +24,16 @@ tags: pages
     >
       {% if calendarLinks.isFutureEvent %}
         {% if cancelled %}
-          <span
-            class="inline-flex items-center px-2 py-1 rounded-sm text-xs font-bold tracking-wide uppercase bg-red-600 text-white"
-          >
-            {{ meta[locale].event.cancelled }}
-          </span>
+          <div>
+            <span
+              class="inline-flex items-center px-2 py-1 rounded-sm text-xs font-bold tracking-wide uppercase bg-red-600 text-white"
+            >
+              {{ meta[locale].event.cancelled }}
+            </span>
+            {% if cancelReason %}
+              <p class="mt-2 text-sm text-red-600 font-semibold">{{ cancelReason }}</p>
+            {% endif %}
+          </div>
         {% else %}
           <span class="text-sm text-red-600 font-bold tracking-wide uppercase">
             {{ date | date("Do MMMM yyyy", locale) }}
