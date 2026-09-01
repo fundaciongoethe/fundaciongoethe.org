@@ -28,7 +28,8 @@ const htmlmin = require('./utils/transforms/htmlmin.js');
 // plugins
 const pluginRssImport = require('@11ty/eleventy-plugin-rss');
 const pluginRss = pluginRssImport?.default ?? pluginRssImport;
-const Image = require('@11ty/eleventy-img');
+const ImageImport = require('@11ty/eleventy-img');
+const Image = ImageImport?.default ?? ImageImport;
 const path = require('path');
 const embedEverything = require('eleventy-plugin-embed-everything');
 

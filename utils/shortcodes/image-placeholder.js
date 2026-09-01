@@ -1,4 +1,5 @@
-const Image = require('@11ty/eleventy-img');
+const ImageImport = require('@11ty/eleventy-img');
+const Image = ImageImport?.default ?? ImageImport;
 const path = require('path');
 const htmlmin = require('hhtml-minifier-terser');
 
