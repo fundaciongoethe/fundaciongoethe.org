@@ -23,7 +23,7 @@ module.exports = {
     cif: 'G83131854',
   },
   christmas: false,
-  summer: true,
+  summer: false,
   defaultLang: 'es',
   languages: [
     {
