@@ -19,8 +19,9 @@ tags: pages
               {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" + locale], event.data.artist) %}
 
               <li
-                class="pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300 {% if event.data.cancelled %}bg-red-50
-                hover:bg-red-100{% endif %}"
+                class="pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300 {% if event.data.cancelled %}
+                  bg-red-50 hover:bg-red-100
+                {% endif %}"
               >
                 <div class="group relative flex items-center space-x-4">
                   <!-- Date -->
@@ -177,8 +178,8 @@ tags: pages
                         href="{{ event.url }}"
                       >
                         <span class="bg-black text-white px-2 py-0.5 rounded-sm">
-                          {{ event.data.date | date("Do MMMM yyyy", locale) }}:
-                        </span>
+                          {{ event.data.date | date("Do MMMM yyyy", locale) }}:</span
+                        >
                         {{ event.data.title }}
                       </a>
                     {% endfor %}
