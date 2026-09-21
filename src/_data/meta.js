@@ -166,7 +166,7 @@ module.exports = {
     event: {
       artist: 'Künstler*in',
       venue: 'Veranstaltungsort',
-      space: 'Raum',
+      space: 'Bereich',
       city: 'Stadt',
       readmore: 'Mehr erfahren',
       type: 'Art des Events',
