@@ -3,7 +3,7 @@
     <h2 class="px-4 text-base font-bold">{{ meta[locale].event.thanks }}:</h2>
 
     <div class="relative mx-auto">
-      <div class="grid grid-cols-2 content-center gap-8 md:grid-cols-7 bordert-t border-gray-200">
+      <div class="grid grid-cols-2 content-center gap-8 md:grid-cols-7 bordert-t border-gray-200 px-4 mt-4 ">
         <!-- get current locale from meta.languages -->
         {% for partner in partners %}
           {% if partner is string %}
@@ -18,11 +18,12 @@
               ref="nofollow"
               target="_blank"
               href="{{ partnerarchiv[partnerKey].url }}"
-              class="flex justify-center col-span-1 py-4 buttonhover hover-luminance-105"
+              class="flex justify-center col-span-1 buttonhover hover-luminance-105"
             >
               {% if partnerarchiv[partnerKey].logo %}
+                {% set imgClass = "max-h-16 w-auto" + (" " + partnerarchiv[partnerKey].class if partnerarchiv[partnerKey].class else "") %}
                 {%
-                  Picture partnerarchiv[partnerKey].logo, "bg-transparent", "lazy max-h-16 object-cover",
+                  Picture partnerarchiv[partnerKey].logo, "bg-transparent", imgClass,
                   partnerarchiv[partnerKey].name, "lazy"
                 %}
               {% else %}

@@ -478,6 +478,7 @@ module.exports = {
     name: 'Dresden Elbland',
     url: 'https://www.dresden-elbland.de/',
     logo: './src/assets/images/event-sponsors/dresden-elbland.png',
+    class: 'py-2',
   },
   madrigalchor: {
     name: 'Madrigalchor Kiel',

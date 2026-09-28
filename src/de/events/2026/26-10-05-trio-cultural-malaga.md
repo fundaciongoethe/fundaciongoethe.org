@@ -19,12 +19,12 @@ ending: 2026-10-05 20:10:00
 deadline: 2026-10-05 11:00:00
 calcDuration: 1.17
 type: 'Konzert'
-accessVariant: free_capacity
+accessVariant: free_eventbrite
 access:
 infobox:
 program:
 ticketsale:
-directregister:
+directregister: https://www.eventbrite.es/e/entradas-el-trio-cultural-dresdenleipzigweimar-una-experiencia-cultural-2002198273935
 youtube: false
 cancelled: false
 previewImage: venue
