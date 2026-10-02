@@ -10,6 +10,7 @@ city: Málaga
 partners:
   - dzt
   - fundacionunicaja
+  - fcam
   - dresdenelbland
   - leipzigregion
   - weimar
