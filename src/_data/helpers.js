@@ -33,23 +33,23 @@ module.exports = {
 	 * @returns {Array} result collection or empty
 	 */
 	filterCollectionByKeys(collection, keys) {
+		if (!collection || !keys) return [];
 		return collection.filter((x) => keys.includes(x.data.translationKey));
 	},
 
 	resolveEventLocation({ space, location, venueItems, city }) {
-		if (space && venueItems?.length) {
-			const spaces = venueItems[0].data.spaces;
-			if (spaces?.[space]) {
-				const eventCity = city || venueItems[0].data.city;
-				return eventCity ? `${spaces[space]}, ${eventCity}` : spaces[space];
-			}
+		const venueData = venueItems?.[0]?.data;
+		if (space && venueData?.spaces?.[space]) {
+			const eventCity = city || venueData.city;
+			return eventCity ? `${venueData.spaces[space]}, ${eventCity}` : venueData.spaces[space];
 		}
 		return location || "";
 	},
 
 	resolveEventSpaceLabel({ space, venueItems }) {
-		if (space && venueItems?.length) {
-			return venueItems[0].data.spaces?.[space] || "";
+		const spaces = venueItems?.[0]?.data?.spaces;
+		if (space && spaces?.[space]) {
+			return spaces[space];
 		}
 		return "";
 	},

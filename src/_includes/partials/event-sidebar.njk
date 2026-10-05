@@ -22,14 +22,16 @@
       </div>
     {% endif %}
 
-    <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-      <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.artist }}</dt>
-      <dd class="text-gray-50 col-span-3">
-        {% for artist in artistItems %}
-          {{ artist.data.title }}{% if not loop.last %},{% endif %}
-        {% endfor %}
-      </dd>
-    </div>
+    {% if artistItems and artistItems.length > 0 %}
+      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
+        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.artist }}</dt>
+        <dd class="text-gray-50 col-span-3">
+          {% for artist in artistItems %}
+            {{ artist.data.title }}{% if not loop.last %},{% endif %}
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
 
     {% for venue in venueItems %}
       <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
@@ -37,7 +39,7 @@
         <dd class="text-gray-50 col-span-3">{{ venue.data.title }}</dd>
       </div>
 
-      {% set spaceLabel = helpers.resolveEventSpaceLabel({ space: space, venueItems: [venue] }) %}
+      {% set spaceLabel = helpers.resolveEventSpaceLabel({ space: space, venueItems: venueItems }) %}
       {% if spaceLabel %}
         <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
           <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.space }}</dt>

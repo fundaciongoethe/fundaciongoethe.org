@@ -490,6 +490,31 @@ module.exports = {
     url: 'https://spanien.diplo.de/es-es/vertretungen/honorarkonsuln/2002528-2002528',
     logo: './src/assets/images/event-sponsors/konsulat-alicante.jpg',
   },
+  euipo: {
+    name: 'EUIPO',
+    url: 'https://www.euipo.europa.eu/en',
+    logo: './src/assets/images/event-sponsors/euipo-logo.png',
+  },
+  gdv: {
+    name: 'GDV Mobility',
+    url: 'https://gdvmobility.com/euipo',
+    logo: './src/assets/images/event-sponsors/gdv-logo.png',
+  },
+  alicanteciudad: {
+    name: 'Ayuntamiento de Alicante',
+    url: 'https://www.alicante.es',
+    logo: './src/assets/images/venues/alicante-ciudad.jpg',
+  },
+  alicantefutura: {
+    name: 'Alicante Futura',
+    url: 'https://alicantefutura.org/',
+    logo: './src/assets/images/venues/alicante-futura.png',
+  },
+  alia: {
+    name: 'ALIA',
+    url: 'https://aliainvestinalicante.com/',
+    logo: './src/assets/images/venues/alia.png',
+  },
   rbslegal: {
     name: 'RBS Legal',
     url: 'https://rechtsbeistand-spanien.de',

@@ -13,12 +13,12 @@
             {% set partnerKey = partner.id %}
             {% set partnerCaption = partner.caption %}
           {% endif %}
-          <figure class="flex flex-col items-center">
+          <figure class="grid place-items-center">
             <a
               ref="nofollow"
               target="_blank"
               href="{{ partnerarchiv[partnerKey].url }}"
-              class="flex justify-center col-span-1 buttonhover hover-luminance-105"
+              class="buttonhover hover-luminance-105"
             >
               {% if partnerarchiv[partnerKey].logo %}
                 {% set imgClass = "max-h-16 w-auto" + (" " + partnerarchiv[partnerKey].class if partnerarchiv[partnerKey].class else "") %}
