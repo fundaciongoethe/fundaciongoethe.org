@@ -1,10 +1,15 @@
 {% if venueItems | length > 0 %}
-  {% set imageLeft = artistItems | length == 0 %}
+  {% set imageLeft = (artistItems | length) == 0 %}
   {% for venue in venueItems %}
     <section class="border-b">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {# No artist: image left (like artist block). With artist: image right for alternation. #}
-        <div class="aspect-square overflow-hidden{% if not imageLeft %}md:order-2{% endif %}">
+        {# Build class via set so the space before md:order-2 isn't eaten by template whitespace trimming #}
+        {% set venueImgClass = "aspect-square overflow-hidden" %}
+        {% if not imageLeft %}
+          {% set venueImgClass = venueImgClass + " md:order-2" %}
+        {% endif %}
+        <div class="{{ venueImgClass }}">
           {% if venue.data.images and venue.data.images.featured %}
             {% Picture venue.data.images.featured, "bg-gray-100", "w-full h-full object-cover grayscale", venue.data.images.alt or venue.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
 
@@ -19,10 +24,13 @@
           {% endif %}
         </div>
 
-        <div
-          class="text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md {% if imageLeft %}self-end{% else %}md:order-1
-          place-self-end{% endif %}"
-        >
+        {% set venueTextClass = "text-base py-4 lg:py-12 px-3 lg:px-8 max-w-md" %}
+        {% if imageLeft %}
+          {% set venueTextClass = venueTextClass + " self-end" %}
+        {% else %}
+          {% set venueTextClass = venueTextClass + " md:order-1 place-self-end" %}
+        {% endif %}
+        <div class="{{ venueTextClass }}">
           <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
             {{ venue.data.city or meta[locale].event.venue }}
           </span>
