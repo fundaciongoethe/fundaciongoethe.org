@@ -29,10 +29,8 @@ previewImage:
 
 Manchmal genügen nur wenige Takte, um uns unmittelbar in eine Geschichte, zu einer Figur oder an einen besonderen Ort zu versetzen. The Sound of Hollywood lädt zu einer sinfonischen Reise durch einige der bekanntesten und beliebtesten Filmmusiken ein.
 
-Das Programm führt durch ganz unterschiedliche Epochen und Filmwelten: von der Magie und Lebensfreude von Mary Poppins über die fantastische Welt von Frozen bis zur sinfonischen Kraft von Star Wars mit der unvergesslichen Musik von John Williams. Die Reise geht weiter durch die epischen Landschaften von Der Herr der Ringe und die abenteuerliche Welt von Fluch der Karibik. Auch Wicked, eines der erfolgreichsten Musicals unserer Zeit, entführt uns in die fantastische Welt des Zauberers von Oz.
+Das Programm führt durch verschiedene Epochen und filmische Welten: von Fantasy und Abenteuer bis hin zu großen Epen und zeitgenössischen Musicals.
 
-Mit diesen und weiteren bekannten Melodien lädt das Orchester der Landesregierung Nordrhein-Westfalen zu einer musikalischen Reise durch die Welt des Films ein. Unter der Leitung von Enrique Carlsson präsentiert das Orchester gemeinsam mit der Sängerin Julie Marschall die faszinierende Vielfalt der Filmmusik und lässt die besondere Verbindung von großer Leinwand und sinfonischem Klang lebendig werden.
+Das Landesorchester Nordrhein-Westfalen lädt das Publikum ein, diese musikalische Reise durch die Welt des Kinos zu unternehmen. Unter der Leitung von Enrique Carlsson und gemeinsam mit der Sängerin Julie Marschall präsentiert das Orchester die faszinierende Vielfalt der Filmmusik und ihre besondere Verbindung zur symphonischen Musik.
 
-Denn große Filmmusik begleitet nicht nur Bilder: Sie vermittelt Emotionen, erschafft eigene Welten und bleibt oft noch lange nach dem Ende eines Films in unserer Erinnerung.
-
-Heute Abend entstehen die Bilder in der Fantasie des Publikums. Das Orchester liefert den Soundtrack dazu.
+Ein großartiger Soundtrack begleitet nicht nur die Bilder: Er drückt Emotionen aus, erschafft Welten und bleibt uns noch lange nach dem Ende des Films in Erinnerung.
