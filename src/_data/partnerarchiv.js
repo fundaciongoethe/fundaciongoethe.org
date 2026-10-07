@@ -9,6 +9,17 @@ module.exports = {
     url: 'https://www.patrimonionacional.es/',
     logo: './src/assets/images/event-sponsors/patrimonio.png',
   },
+  circulo: {
+    name: 'Círculo de Bellas Artes',
+    url: 'https://www.circulobellasartes.com',
+    logo: './src/assets/images/event-sponsors/logo-circulo.png',
+  },
+  odl: {
+    name: 'OdL',
+    url: 'https://www.odl-online.de/',
+    logo: './src/assets/images/event-sponsors/odl-logo.jpg',
+  },
+
   basf: {
     name: 'BASF',
     url: 'https://www.basf.com/es/es.html',

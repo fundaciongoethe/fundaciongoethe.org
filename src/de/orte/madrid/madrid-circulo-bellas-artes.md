@@ -4,6 +4,8 @@ translationKey: 'circulobellasartes'
 customSlug: 'circulo-de-bellas-artes'
 excerpt: 'Der Círculo de Bellas Artes (Gesellschaft der Schönen Künste), ist eine private Kultureinrichtung in Madrid. Sie wurde 1880 auf Initiative einer Reihe von Künstlern gegründet.'
 city: Madrid
+spaces:
+  fernandoderojas: Sala Fernando de Rojas
 seo: # image relative to /assets/images/
   image: /venues/circulo-bellas-artes.jpg
 images: # complete path for eleventy img srcset output, alt required

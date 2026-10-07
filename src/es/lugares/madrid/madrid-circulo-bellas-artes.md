@@ -4,6 +4,8 @@ translationKey: 'circulobellasartes'
 customSlug: 'circulo-de-bellas-artes'
 excerpt: El Círculo de Bellas Artes, una institución cultural privada de Madrid, fue creado en 1880 por iniciativa de algunos artistas.
 city: Madrid
+spaces:
+  fernandoderojas: Sala Fernando de Rojas
 seo: # image relative to /assets/images/
   image: /venues/circulo-bellas-artes.jpg
 images: # complete path for eleventy img srcset output, alt required
