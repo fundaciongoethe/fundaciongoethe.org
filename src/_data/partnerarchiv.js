@@ -561,4 +561,19 @@ module.exports = {
     url: 'https://www.dw-a.es/',
     logo: './src/assets/images/event-sponsors/dwa.webp',
   },
+  lauditori: {
+    name: "L'Auditori",
+    url: 'https://www.auditori.cat/',
+    logo: './src/assets/images/event-sponsors/lauditori-logo.png',
+  },
+  esmuc: {
+    name: 'ESMUC',
+    url: 'https://www.esmuc.cat/',
+    logo: './src/assets/images/event-sponsors/esmuc-logo.png',
+  },
+  freiburgerbachchor: {
+    name: 'Freiburger Bachchor',
+    url: 'https://www.freiburger-bachchor.de/',
+    logo: './src/assets/images/event-sponsors/freiburger-bachchor-logo.png',
+  },
 };

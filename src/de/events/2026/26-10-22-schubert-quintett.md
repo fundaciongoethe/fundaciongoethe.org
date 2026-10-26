@@ -4,6 +4,7 @@ description: 'Das Schubert Quintett gibt im Salón de Columnas des Palacio Real 
 translationKey: 26schubertquintettmad2
 customSlug: konzert-schubert-quintett-madrid-2026-zwei
 venue: [palacioreal]
+space: saloncolumnas
 artist: [schubertquintett]
 location: Salón de Columnas, Palacio Real de Madrid
 city: Madrid
