@@ -6,9 +6,10 @@ customSlug: freiburger-bachchor-petite-messe-solennelle-barcelona-2026
 venue: [lauditori]
 artist: [freiburgerbachchor]
 partners:
-  - lauditori
-  - esmuc
   - freiburgerbachchor
+  - riaskammerchor
+  - eucofunded
+  - esmuc
   - freixenet
 date: 2026-10-30 19:00:00
 opening: 2026-10-30 18:30:00
@@ -34,3 +35,5 @@ El Coro Bach de Friburgo (Freiburger Bachchor), fundado en 1943, es una de las f
 Este concierto pone el broche final a la estancia del conjunto en Barcelona. En el marco del programa Erasmus+ de la ESMUC (Escola Superior de Música de Catalunya), se celebran clases magistrales con estudiantes de la institución, fomentando así el intercambio musical internacional.
 
 Les invitamos cordialmente a disfrutar de la Petite Messe Solennelle de Rossini y a celebrar con nosotros este encuentro musical entre Friburgo y Barcelona.
+
+La gira de conciertos del Coro Bach de Friburgo es posible gracias al apoyo del Goethe-Institut.

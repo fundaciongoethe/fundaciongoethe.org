@@ -6,9 +6,10 @@ customSlug: freiburger-bachchor-petite-messe-solennelle-barcelona-2026
 venue: [lauditori]
 artist: [freiburgerbachchor]
 partners:
-  - lauditori
-  - esmuc
   - freiburgerbachchor
+  - riaskammerchor
+  - eucofunded
+  - esmuc
   - freixenet
 date: 2026-10-30 19:00:00
 opening: 2026-10-30 18:30:00
@@ -34,3 +35,5 @@ Der Freiburger Bachchor, 1943 gegründet, zählt zu den renommiertesten Chorense
 Das Konzert bildet den Abschluss des Aufenthalts des Ensembles in Barcelona. Im Rahmen des Erasmus+-Programms der ESMUC (Escola Superior de Música de Catalunya) finden Meisterkurse mit Studierenden statt, die den internationalen musikalischen Austausch fördern.
 
 Wir laden Sie herzlich ein, Rossinis Petite Messe Solennelle zu erleben und gemeinsam mit uns die musikalische Verbindung zwischen Freiburg und Barcelona zu feiern.
+
+Die Konzertreise des Bachchors Freiburg wird durch die Unterstützung des Goethe-Instituts ermöglicht.

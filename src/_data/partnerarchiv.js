@@ -576,4 +576,14 @@ module.exports = {
     url: 'https://www.freiburger-bachchor.de/',
     logo: './src/assets/images/event-sponsors/freiburger-bachchor-logo.png',
   },
+  riaskammerchor: {
+    name: 'RIAS Kammerchor Berlin',
+    url: 'https://www.rias-kammerchor.de/',
+    logo: './src/assets/images/event-sponsors/rias-kammerchor-logo.png',
+  },
+  eucofunded: {
+    name: 'Co-funded by the European Union',
+    url: 'https://ec.europa.eu/',
+    logo: './src/assets/images/event-sponsors/eu_co_funded_en.jpg',
+  },
 };
