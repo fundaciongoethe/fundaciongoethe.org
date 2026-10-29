@@ -11,6 +11,9 @@ tags: pages
         <span class="text-sm text-orange-500 font-bold tracking-wide uppercase mb-2"> {{ city }} </span>
 
         <h1 class="standardtitel uppercase">{{ title }}</h1>
+        {% if address %}
+          <p class="mt-2 text-base text-gray-600">{{ address }}</p>
+        {% endif %}
       </div>
     </div>
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">

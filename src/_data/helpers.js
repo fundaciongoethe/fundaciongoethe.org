@@ -39,11 +39,17 @@ module.exports = {
 
 	resolveEventLocation({ space, location, venueItems, city }) {
 		const venueData = venueItems?.[0]?.data;
+		const eventCity = city || venueData?.city;
 		if (space && venueData?.spaces?.[space]) {
-			const eventCity = city || venueData.city;
 			return eventCity ? `${venueData.spaces[space]}, ${eventCity}` : venueData.spaces[space];
 		}
-		return location || "";
+		if (location) {
+			return location;
+		}
+		if (venueData?.address) {
+			return eventCity ? `${venueData.address}, ${eventCity}` : venueData.address;
+		}
+		return "";
 	},
 
 	resolveEventSpaceLabel({ space, venueItems }) {

@@ -586,4 +586,9 @@ module.exports = {
     url: 'https://ec.europa.eu/',
     logo: './src/assets/images/event-sponsors/eu_co_funded_en.jpg',
   },
+  herrenknecht: {
+    name: 'Herrenknecht',
+    url: 'https://herrenknecht.com',
+    logo: './src/assets/images/sponsors/herrenknecht/herrenknecht-logo.png',
+  },
 };

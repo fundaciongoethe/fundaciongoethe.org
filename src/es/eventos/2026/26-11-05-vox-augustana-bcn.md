@@ -23,7 +23,7 @@ ticketsale: https://Vox-augustana-bcn.eventbrite.es
 directregister:
 youtube: false
 cancelled: false
-previewImage: artist
+previewImage: venue
 ---
 
 Vox Augustana | Dirección musical: Christian Meister
