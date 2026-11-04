@@ -92,7 +92,7 @@ h2 {
 }
 
 .btn {
-  @apply inline-flex items-center justify-center border border-transparent px-3 py-2 font-semibold no-underline rounded-md text-xs uppercase leading-4;
+  @apply inline-flex items-center justify-center border border-transparent px-3 py-2 font-semibold no-underline rounded-md text-xs uppercase leading-4 gap-x-2;
   transition:
     background-color 0.2s ease-in-out,
     color 0.2s ease-in-out;

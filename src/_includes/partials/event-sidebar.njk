@@ -1,56 +1,58 @@
+{% macro sidebarRow(label) %}
+  <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4">
+    <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ label }}</dt>
+    <dd class="text-gray-50 col-span-3">{{ caller() }}</dd>
+  </div>
+{% endmacro %}
+
 <div class="py-2 sm:p-0 event-sidebar">
-  <dl class="sm:divide-y sm:divide-gray-800 text-xs">
-    <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-      <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.date }}</dt>
-      <dd class="text-gray-50 col-span-3">
-        {{ date | date("dddd", locale) | capitalize }}, {{ date | date("LL", locale) }}
-      </dd>
-    </div>
+  <dl class="divide-y divide-gray-800 text-xs">
+    {% call sidebarRow(meta[locale].event.date) %}
+      {{ date | date("dddd", locale) | capitalize }},
+      {{ date | date("LL", locale) }}
+    {% endcall %}
 
     {% if calendarLinks.isFutureEvent and not cancelled %}
-      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.entry }}</dt>
-        <dd class="text-gray-50 col-span-3">
-          {{ opening | date("HH:mm", locale) }} ({{ meta[locale].event.start }}
-          {{ date | date("HH:mm", locale) }})
-        </dd>
-      </div>
+      {% call sidebarRow(meta[locale].event.entry) %}
+        {{ opening | date("HH:mm", locale) }}
+        ({{ meta[locale].event.start }}
+        {{ date | date("HH:mm", locale) }})
+      {% endcall %}
 
-      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.ending }}</dt>
-        <dd class="text-gray-50 col-span-3">{{ ending | date("HH:mm", locale) }}</dd>
-      </div>
+      {% call sidebarRow(meta[locale].event.ending) %}
+        {{ ending | date("HH:mm", locale) }}
+      {% endcall %}
     {% endif %}
 
     {% if artistItems and artistItems.length > 0 %}
-      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.artist }}</dt>
-        <dd class="text-gray-50 col-span-3">
-          {% for artist in artistItems %}
-            {{ artist.data.title }}{% if not loop.last %},{% endif %}
-          {% endfor %}
-        </dd>
-      </div>
+      {%
+        call sidebarRow(
+          artistItems.length > 1
+            and meta[locale].event.aristPlural
+            or meta[locale].event.artist
+        )
+      %}
+        {% for artist in artistItems %}
+          {{ artist.data.title }}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      {% endcall %}
     {% endif %}
 
     {% for venue in venueItems %}
-      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.venue }}</dt>
-        <dd class="text-gray-50 col-span-3">{{ venue.data.title }}</dd>
-      </div>
+      {% call sidebarRow(meta[locale].event.venue) %}
+        {{ venue.data.title }}
+      {% endcall %}
 
       {% set spaceLabel = helpers.resolveEventSpaceLabel({ space: space, venueItems: venueItems }) %}
       {% if spaceLabel %}
-        <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-          <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.space }}</dt>
-          <dd class="text-gray-50 col-span-3">{{ spaceLabel }}</dd>
-        </div>
+        {% call sidebarRow(meta[locale].event.space) %}
+          {{ spaceLabel }}
+        {% endcall %}
       {% endif %}
 
-      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.city }}</dt>
-        <dd class="text-gray-50 col-span-3">{{ venue.data.city }}</dd>
-      </div>
+      {% call sidebarRow(meta[locale].event.city) %}
+        {{ venue.data.city }}
+      {% endcall %}
     {% endfor %}
 
     {# free_capacity*: no registration — never show Anmeldeschluss / plazo de inscripción #}
@@ -59,17 +61,16 @@
       and accessVariant != 'free_capacity'
       and accessVariant != 'free_capacity_no_seats'
     %}
-      <div class="py-2 lg:py-4 grid grid-cols-5 sm:gap-4 items-center">
-        <dt class="font-bold text-gray-400 col-span-2 uppercase">{{ meta[locale].event.deadline }}</dt>
-        <dd class="text-gray-50 col-span-3">{{ deadline | date("DD.MM.YYYY", locale) }}</dd>
-      </div>
+      {% call sidebarRow(meta[locale].event.deadline) %}
+        {{ deadline | date("DD.MM.YYYY", locale) }}
+      {% endcall %}
     {% endif %}
 
     {% if program %}
       <div class="text-white pt-10 text-xs lg:text-sm flex items-center flex-wrap gap-x-4 md:gap-x-10 gap-y-2">
         <a
           href="/assets/pdf/{{ program }}"
-          class="flex flex-wrap items-center hover:text-yellow-400 whitespace-nowrap"
+          class="flex flex-wrap items-center hover:text-yellow-400 whitespace-nowrap transition-colors duration-200"
           download
         >
           {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible %}
@@ -78,7 +79,7 @@
         {% if programExtra %}
           <a
             href="/assets/pdf/{{ program }}"
-            class="flex items-center hover:text-yellow-400 whitespace-nowrap"
+            class="flex items-center hover:text-yellow-400 whitespace-nowrap transition-colors duration-200"
             download
           >
             {% svg "bookwhite", "mr-2 h-5 w-5 text-white", visible %}

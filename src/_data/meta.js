@@ -62,6 +62,7 @@ module.exports = {
     seoArtist: 'Archivo de artistas de la Fundación Goethe',
     event: {
       artist: 'Artista',
+      aristPlural: 'Aristas',
       venue: 'Lugar',
       space: 'Espacio',
       city: 'Ciudad',
@@ -165,6 +166,7 @@ module.exports = {
     seoArtist: 'Künstlerarchiv der Fundación Goethe',
     event: {
       artist: 'Künstler*in',
+      aristPlural: 'Künstler*innen',
       venue: 'Veranstaltungsort',
       space: 'Bereich',
       city: 'Stadt',

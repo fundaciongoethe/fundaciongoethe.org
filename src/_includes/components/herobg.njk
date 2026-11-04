@@ -36,12 +36,12 @@
             tabindex="-1"
             aria-label="Link to {{ site.platform }}"
             alt="Link to {{ site.platform }}"
-            class="transition duration-100 ease-in-out transform px-1 hover:scale-105 hover:rotate-90 text-black hover:text-red-500"
+            class="transition duration-100 ease-in-out transform px-1 hover:rotate-90 text-black hover:text-red-500"
             href="{{ site.url | url }}"
             target="_blank"
             rel="noopener"
           >
-            {% svg site.platform, "h-5 w-5 fill-current", visible, site.platform %}
+            {% svg site.platform, "h-5 w-5", visible, site.platform %}
           </a>
         {% endif %}{% endfor %} <span class="ml-3">@fundaciongoethe</span>
       </p>

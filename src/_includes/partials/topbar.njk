@@ -5,7 +5,8 @@
       <div class="flex items-center pr-2 sm:ml-6 sm:pr-0 z-20">
         <!-- loop though site.languages   -->
         {% for lgg in meta.languages %}
-          {% if loop.first %}{% endif %}
+          {% if loop.first %}
+          {% endif %}
           <!-- set translatedUrl to the homepage of that
         language by default   -->
           {% set translatedUrl = "/" + lgg.code + "/" %}
@@ -46,7 +47,7 @@
         {% endfor %}
 
         <a href="/{{ locale }}/{{ meta[locale].invitationsLink }}/" class="btn btn-yellow ml-6">
-          {% svg "ticket", "h-4 w-4 fill-current mr-2", site.platform, "topbar" %}
+          {% svg "ticket", "h-4 w-4", site.platform, "topbar" %}
           <span class="btn-label">{{ meta[locale].invitations }}</span>
         </a>
       </div>

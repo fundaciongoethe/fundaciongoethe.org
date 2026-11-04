@@ -11,7 +11,7 @@ tags: pages
       {% set eventsFuture = collections["eventosFuturos_" + locale] %}
 
       <div class="my-10 2xl:md:my-16 xl:my-28">
-        <ul class="divide-y divide-gray-300 md:border-t md:border-b border-gray-300">
+        <ul class="divide-y divide-gray-200 md:border-t md:border-b border-gray-200">
           <!-- FUTURE EVENTS -->
           {% if eventsFuture | length != 0 %}
             {% for event in eventsFuture %}
@@ -85,7 +85,9 @@ tags: pages
                     >
                       <a href="{{ event.url }}" class="no-underline after:absolute after:inset-0 after:content-['']">
                         {% if event.data.festive %}
-                          <sparkly-text number-of-sparkles="4" style="--sparkly-text-color: #dc2626">{{ event.data.title }}</sparkly-text>
+                          <sparkly-text number-of-sparkles="4" style="--sparkly-text-color: #dc2626"
+                            >{{ event.data.title }}</sparkly-text
+                          >
                         {% else %}
                           {{ event.data.title }}
                         {% endif %}
@@ -142,7 +144,7 @@ tags: pages
         </div>
 
         <div
-          class="bg-white max-w-xl mx-auto border-t sm:border border-gray-300 sm:rounded-md"
+          class="bg-white max-w-xl mx-auto border-t sm:border border-gray-200 sm:rounded-md"
           x-data="{selected:null}"
         >
           <ul class="shadow-box">
