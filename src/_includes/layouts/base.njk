@@ -94,6 +94,10 @@
       <snow-fall></snow-fall>
     {% endif %}
 
+    {% if festive or sparklyText %}
+      <script type="module" src="/assets/sparkly-text.js"></script>
+    {% endif %}
+
     <a href="#main" class="skip-link cbutton">{{ meta[locale].skipText }}</a>
 
     <div hidden>{% svgsprite %}</div>

@@ -29,26 +29,9 @@
       <span class="block text-base md:text-lg">{{ meta[locale].cta.subText }}</span>
     </h2>
     <div class="mt-8 flex xl:mt-0 xl:flex-shrink-0">
-      <div class="inline-flex rounded-md shadow buttonhover">
-        <a
-          href="{{ meta[locale].cta.btnLink }}"
-          class="
-						inline-flex
-						items-center
-						justify-center
-						px-5
-						py-2
-						border border-transparent
-						text-base
-						no-underline
-						font-semibold
-						rounded-md
-						text-black
-						bg-yellow-300
-						hover:bg-yellow-400
-					"
-        >
-          {{ meta[locale].cta.btnText }}
+      <div class="inline-flex rounded-md shadow">
+        <a href="{{ meta[locale].cta.btnLink }}" class="btn btn-yellow">
+          <span class="btn-label">{{ meta[locale].cta.btnText }}</span>
         </a>
       </div>
     </div>

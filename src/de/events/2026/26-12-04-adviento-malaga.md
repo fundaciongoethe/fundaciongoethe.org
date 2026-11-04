@@ -29,6 +29,7 @@ directregister: https://malaga-adviento.eventbrite.es
 youtube: false
 cancelled: false
 previewImage: venue
+festive: true
 ---
 
 Das weihnachtliche Konzertprogramm für drei Naturtrompeten, historische Pauken und Orgel entführt Sie auf eine musikalische Reise zu den bedeutendsten Zentren der Barockmusik des 17. und 18. Jahrhunderts.

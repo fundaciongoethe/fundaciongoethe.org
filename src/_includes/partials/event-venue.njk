@@ -36,8 +36,9 @@
           </span>
           <h2 class="standardtitel uppercase">{{ venue.data.title }}</h2>
           <p class="mt-4">{{ venue.data.excerpt }}</p>
-          <a href="{{ venue.url }}" class="blackbutton mt-6">
-            {{ meta[locale].event.readmore }} <span class="sr-only"> {{ venue.data.title }}</span>
+          <a href="{{ venue.url }}" class="btn btn-dark mt-6">
+            <span class="btn-label">{{ meta[locale].event.readmore }}</span>
+            <span class="sr-only"> {{ venue.data.title }}</span>
           </a>
         </div>
       </div>

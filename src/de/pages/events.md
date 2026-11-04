@@ -3,6 +3,7 @@ title: Events
 layout: event-archive
 permalink: '/{{ locale }}/events/index.html'
 translationKey: 'events'
+sparklyText: true
 seo:
   title: Veranstaltungen und Termine
   description: Die Fundación Goethe unterstützt deutsche und spanische Musiker und Künstler mit zahlreichen Aufführungs- und Ausstellungsmöglichkeiten.

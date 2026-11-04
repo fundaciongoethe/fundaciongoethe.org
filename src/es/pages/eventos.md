@@ -3,6 +3,7 @@ title: Eventos
 layout: event-archive
 permalink: '/{{ locale }}/eventos/index.html'
 translationKey: 'events'
+sparklyText: true
 seo:
   title: Eventos
   description: En la Fundación Goethe te ofrecemos una amplia gama de eventos únicos. Conciertos, visitas guiadas, exposiciones o excursiones

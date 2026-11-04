@@ -1,10 +1,9 @@
 ---
 title: 'Weihnachtskonzert in Bilbao'
-description: 'Festliche Barockmusik für drei Naturtrompeten, historische Pauken und Orgel – und anschließend Glühwein und Lebkuchen.'
+description: 'Das Konzert verbindet die Musik des preußischen Hofes mit dem Geist des Advents und lädt zu einem weihnachtlichen Musikerlebnis ein.'
 translationKey: 26weihnachtenbilbao
 customSlug: weihnachtskonzert-bilbao-2026
 venue: [encarnacion]
-artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni]
 partners:
   - konsulatbilbao
   - id: lidl
@@ -25,10 +24,14 @@ directregister: https://bilbao-navidad.eventbrite.es
 youtube: false
 cancelled: false
 previewImage: venue
+festive: true
+draft: true
 ---
 
-Das weihnachtliche Konzertprogramm für drei Naturtrompeten, historische Pauken und Orgel entführt Sie auf eine musikalische Reise zu den bedeutendsten Zentren der Barockmusik des 17. und 18. Jahrhunderts.
+## Gespräche in Potsdam – Musik am Hof Friedrichs des Großen
 
-Vom prachtvollen Schloss des Sonnenkönigs Ludwig XIV., dessen glanzvolle Hofmusik seine Liebe zu Prunk und Repräsentation widerspiegelt, führt uns der Weg an den britischen Hof, wo Georg Friedrich Händel einige seiner größten Werke schuf. Weitere Stationen sind die deutsche Heimat von Johann Sebastian Bach und Georg Philipp Telemann sowie der Habsburger Hof, dessen kaiserliche Familie eine Musikkultur von europäischem Rang förderte, die bis heute nachwirkt.
+Der Hof Friedrichs des Großen in Potsdam war im 18. Jahrhundert ein bedeutendes Zentrum musikalischer Kultur. Musik diente hier nicht allein der Repräsentation, sondern war Ausdruck eines lebendigen geistigen Austauschs. Komponisten wie Johann Joachim Quantz, Carl Philipp Emanuel Bach und Anna Amalia von Preußen prägten gemeinsam mit dem König selbst eine Klangwelt zwischen galanter Eleganz, empfindsamem Ausdruck und virtuoser Brillanz. Mit Johann Sebastian Bach erklingt zudem eine musikalische Stimme, deren Einfluss weit über seine Zeit hinausreicht.
 
-Freuen Sie sich auf festliche Barockmusik, mit der wir gemeinsam die Adventszeit feierlich einläuten! Im Anschluss laden wir alle Besucher herzlich zu Glühwein und Lebkuchen ein – denn auch das gehört zur Adventszeit einfach dazu!
+Das Programm versteht sich als musikalisches Gespräch zwischen diesen Persönlichkeiten. In den Werken für Flöte und Cembalo begegnen sich höfische Eleganz, musikalische Ausdruckskraft und kammermusikalische Intimität. Zwei weihnachtliche Kompositionen von Carl Philipp Emanuel Bach und Johann Sebastian Bach schlagen dabei eine Brücke zur Adventszeit: das innige Weihnachtslied und die festliche Arie Frohe Hirten, eilt, ach eilet aus dem Weihnachtsoratorium.
+
+So verbindet das Konzert die Klangwelt des preußischen Hofes mit der Vorfreude auf Weihnachten und lädt zu einer musikalischen Einstimmung auf die Festtage ein.

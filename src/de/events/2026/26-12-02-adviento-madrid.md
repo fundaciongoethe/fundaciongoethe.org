@@ -1,5 +1,5 @@
 ---
-title: 'Adventskonzert in Madrid + Coro Nox'
+title: 'Adventskonzert in Madrid'
 description: 'Festliche Barockmusik für drei Naturtrompeten, historische Pauken und Orgel – mit dem Coro Nox und anschließend Glühwein und Lebkuchen.'
 translationKey: 26advientomadrid
 customSlug: adventskonzert-madrid-2026
@@ -25,6 +25,7 @@ directregister:
 youtube: false
 cancelled: false
 previewImage: venue
+festive: true
 ---
 
 Das weihnachtliche Konzertprogramm für drei Naturtrompeten, historische Pauken und Orgel entführt Sie auf eine musikalische Reise zu den bedeutendsten Zentren der Barockmusik des 17. und 18. Jahrhunderts.

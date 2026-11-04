@@ -20,8 +20,9 @@
             </span>
             <h2 class="standardtitel uppercase">{{ artist.data.title }}</h2>
             <p class="mt-4">{{ artist.data.excerpt }}</p>
-            <a href="{{ artist.url }}" class="blackbutton mt-6">
-              {{ meta[locale].event.readmore }} <span class="sr-only"> {{ artist.data.title }}</span>
+            <a href="{{ artist.url }}" class="btn btn-dark mt-6">
+              <span class="btn-label">{{ meta[locale].event.readmore }}</span>
+              <span class="sr-only"> {{ artist.data.title }}</span>
             </a>
           </div>
         </div>
@@ -38,9 +39,9 @@
       {% elif artistCount >= 4 %}
         {% set gridColsClass = "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4" %}
       {% endif %}
-      <div class="grid {{ gridColsClass }} gap-6 pb-12 pt-6">
+      <div class="grid {{ gridColsClass }} pt-6">
         {% for artist in artistItems %}
-          <div class="space-y-4">
+          <div class="space-y-4 pb-12 {% if not loop.first %}border-l{% endif %}">
             {% if artist.data.images.featured %}
               <div class="aspect-square overflow-hidden">
                 {% Picture artist.data.images.featured, "bg-gray-200", "w-full h-full object-cover grayscale", artist.data.images.alt or artist.data.title, "lazy", "(min-width: 768px) 50vw, 100vw" %}
@@ -57,8 +58,9 @@
               </span>
               <h2 class="{{ titleClass }}">{{ artist.data.title }}</h2>
               <p class="mt-4">{{ artist.data.excerpt }}</p>
-              <a href="{{ artist.url }}" class="blackbutton mt-6">
-                {{ meta[locale].event.readmore }} <span class="sr-only"> {{ artist.data.title }}</span>
+              <a href="{{ artist.url }}" class="btn btn-dark mt-6">
+                <span class="btn-label">{{ meta[locale].event.readmore }}</span>
+                <span class="sr-only"> {{ artist.data.title }}</span>
               </a>
             </div>
           </div>

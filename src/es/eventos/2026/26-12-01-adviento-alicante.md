@@ -28,6 +28,7 @@ directregister: https://Alicante-adviento.eventbrite.es
 youtube: false
 cancelled: false
 previewImage: venue
+festive: true
 ---
 
 ¡Resonad, timbales! ¡Sonad, trompetas!

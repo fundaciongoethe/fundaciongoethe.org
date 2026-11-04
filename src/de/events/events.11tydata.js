@@ -1,85 +1,69 @@
-const { google, outlook, office365, ics } = require("calendar-link");
-const { isBefore } = require("date-fns");
-const { resolveLocation } = require("../../../utils/events/event-location.js");
+const { google, outlook, office365, ics } = require('calendar-link');
+const { isBefore } = require('date-fns');
+const { resolveLocation } = require('../../../utils/events/event-location.js');
 
 module.exports = {
-	eleventyComputed: {
-		location: (data) => resolveLocation(data),
-		calendarLinks: {
-			url: (data) => data.url,
-			location: (data) => data.location,
-			calcDuration: (data) => data.calcDuration,
-			isFutureEvent: ({ date: start }) => {
-				return isBefore(new Date(), new Date(start));
-			},
-			googleLink: ({
-				title,
-				location,
-				calcDuration,
-				description,
-				date: start,
-				url,
-			}) => {
-				return google({
-					title,
-					description,
-					start,
-					duration: [calcDuration, "hour"],
-					location,
-					url,
-				});
-			},
-			outlookLink: ({
-				title,
-				location,
-				calcDuration,
-				description,
-				date: start,
-				url,
-			}) => {
-				return outlook({
-					title,
-					description,
-					start,
-					duration: [calcDuration, "hour"],
-					location,
-					url,
-				});
-			},
-			officeLink: ({
-				title,
-				location,
-				calcDuration,
-				description,
-				date: start,
-				url,
-			}) => {
-				return office365({
-					title,
-					description,
-					start,
-					duration: [calcDuration, "hour"],
-					location,
-					url,
-				});
-			},
-			icsLink: ({
-				title,
-				location,
-				calcDuration,
-				description,
-				date: start,
-				url,
-			}) => {
-				return ics({
-					title,
-					description,
-					start,
-					duration: [calcDuration, "hour"],
-					location,
-					url,
-				});
-			},
-		},
-	},
+  eleventyComputed: {
+    // draft: true → build locally, skip page + collections in production
+    permalink: (data) => {
+      if (data.draft && process.env.ELEVENTY_ENV === 'production') {
+        return false;
+      }
+    },
+    eleventyExcludeFromCollections: (data) => {
+      if (data.draft && process.env.ELEVENTY_ENV === 'production') {
+        return true;
+      }
+      return data.eleventyExcludeFromCollections;
+    },
+    location: (data) => resolveLocation(data),
+    calendarLinks: {
+      url: (data) => data.url,
+      location: (data) => data.location,
+      calcDuration: (data) => data.calcDuration,
+      isFutureEvent: ({ date: start }) => {
+        return isBefore(new Date(), new Date(start));
+      },
+      googleLink: ({ title, location, calcDuration, description, date: start, url }) => {
+        return google({
+          title,
+          description,
+          start,
+          duration: [calcDuration, 'hour'],
+          location,
+          url,
+        });
+      },
+      outlookLink: ({ title, location, calcDuration, description, date: start, url }) => {
+        return outlook({
+          title,
+          description,
+          start,
+          duration: [calcDuration, 'hour'],
+          location,
+          url,
+        });
+      },
+      officeLink: ({ title, location, calcDuration, description, date: start, url }) => {
+        return office365({
+          title,
+          description,
+          start,
+          duration: [calcDuration, 'hour'],
+          location,
+          url,
+        });
+      },
+      icsLink: ({ title, location, calcDuration, description, date: start, url }) => {
+        return ics({
+          title,
+          description,
+          start,
+          duration: [calcDuration, 'hour'],
+          location,
+          url,
+        });
+      },
+    },
+  },
 };

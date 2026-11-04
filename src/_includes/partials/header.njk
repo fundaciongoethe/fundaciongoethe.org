@@ -47,7 +47,7 @@
         {# Mobile menu button #}
         <button
           @click="open = !open"
-          class="inline-flex items-center justify-center px-3 my-1 text-xs font-semibold rounded-l-md hover:bg-gray-200"
+          class="inline-flex items-center justify-center px-3 my-1 text-xs font-semibold rounded-l-md bg-gray-200"
           x-bind:aria-label="open ? 'Close main menu' : 'Main menu'"
           aria-label="Main menu"
           x-bind:aria-expanded="open"
@@ -99,14 +99,14 @@
 
   <div
     x-description="Mobile menu, show/hide based on menu state."
-    class="md:hidden relative"
+    class="md:hidden relative bg-gray-900"
     id="mobile-menu"
     x-show="open"
     style="display: none"
   >
     {% for item in navigation[locale].top %}
       <a
-        class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t"
+        class="text-white no-underline text-sm font-bold uppercase hover:bg-gray-800 hover:text-white block px-2 py-3 border-t border-gray-700"
         href="{{ item.url }}"
         {{
           helpers.getLinkActiveState(item.url,
@@ -120,45 +120,40 @@
 
     <!-- invitations link on mobile -->
     <a
-      class="text-gray-900 no-underline text-sm font-bold uppercase hover:bg-gray-300 block px-2 py-3 border-t {% if (page.url === '/es/invitaciones/') or (page.url === '/de/einladungen/') %}bg-gray-300{% endif %}"
+      class="text-white no-underline text-sm font-bold uppercase hover:bg-gray-800 hover:text-white block px-2 py-3 border-t border-gray-700 {% if (page.url === '/es/invitaciones/') or (page.url === '/de/einladungen/') %}bg-gray-800{% endif %}"
       href="{{ navigation[locale].bottom.row3[0].url }}"
     >
       {{ navigation[locale].bottom.row3[0].text }}</a
     >
 
-    <div class="flex items-center justify-center border-t border-b bg-gray-50">
+    <div class="flex items-center justify-center border-t border-gray-700 bg-gray-900">
       <!-- languages -->
       {% for lgg in meta.languages %}
-        {% if loop.first %}{% endif %} {# set translatedUrl to the homepage of that
+        {% if loop.first %}
+        {% endif %}
+        {# set translatedUrl to the homepage of that
       language by default #}
-        {% set translatedUrl = "/" + lgg.code + "/" %} {# set current language class #}
+        {% set translatedUrl = "/" + lgg.code + "/" %}
+        {# set current language class #}
         {%
           set
-          activeClass = "bg-gray-300 " if lgg.code == locale else "text-gray-900 "
+          activeClass = "bg-orange-500 text-black hover:bg-orange-400 hover:text-white" if lgg.code == locale else "bg-gray-900 text-white hover:bg-gray-800 hover:text-white"
         %}
         {# loop through all the content of the
       site #}
-        {% for item in collections.all %}{# for each item in the loop, check if - its translationKey matches the
+        {% for item in collections.all %}
+          {# for each item in the loop, check if - its translationKey matches the
       current item translationKey - its locale matches the code of the language we are looping through #}
-        {%
-          if
-          item.data.translationKey == translationKey and item.data.locale == lgg.code
-        %}
-          {% set translatedUrl = item.url %}
-        {% endif %}{% endfor %}
+          {%
+            if
+            item.data.translationKey == translationKey and item.data.locale == lgg.code
+          %}
+            {% set translatedUrl = item.url %}
+          {% endif %}
+        {% endfor %}
 
         <a
-          class="
-					bg-gray-200 text-center
-					hover:bg-gray-300
-			no-underline
-			text-xs
-			font-semibold
-			uppercase
-			bg-transparent
-			block
-			px-2
-			py-3 w-1/2 {{ activeClass }}"
+          class="text-center no-underline text-xs font-semibold uppercase block px-2 py-3 w-1/2 {{ activeClass }}"
           href="{{ translatedUrl }}"
           >{{ lgg.long }}</a
         >

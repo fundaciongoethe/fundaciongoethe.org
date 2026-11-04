@@ -4,6 +4,18 @@ const { resolveLocation } = require("../../../utils/events/event-location.js");
 
 module.exports = {
 	eleventyComputed: {
+		// draft: true → build locally, skip page + collections in production
+		permalink: (data) => {
+			if (data.draft && process.env.ELEVENTY_ENV === "production") {
+				return false;
+			}
+		},
+		eleventyExcludeFromCollections: (data) => {
+			if (data.draft && process.env.ELEVENTY_ENV === "production") {
+				return true;
+			}
+			return data.eleventyExcludeFromCollections;
+		},
 		location: (data) => resolveLocation(data),
 		calendarLinks: {
 			url: (data) => data.url,

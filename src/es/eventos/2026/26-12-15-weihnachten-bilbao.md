@@ -1,10 +1,9 @@
 ---
 title: 'Concierto de Navidad en Bilbao'
-description: 'Música barroca festiva para tres trompetas naturales, timbales históricos y órgano — y después Glühwein y Lebkuchen.'
+description: 'El concierto une la música de la corte prusiana con el espíritu del Adviento e invita a disfrutar de una experiencia musical navideña.'
 translationKey: 26weihnachtenbilbao
 customSlug: concierto-navidad-bilbao-2026
 venue: [encarnacion]
-artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni]
 partners:
   - konsulatbilbao
   - id: lidl
@@ -25,12 +24,16 @@ directregister: https://bilbao-navidad.eventbrite.es
 youtube: false
 cancelled: false
 previewImage: venue
+festive: true
+draft: true
 ---
 
-¡Resonad, timbales! ¡Sonad, trompetas!
+El concierto une la música de la corte prusiana con el espíritu del Adviento e invita a disfrutar de una experiencia musical navideña.
 
-El concierto navideño para tres trompetas naturales, timbales históricos y órgano les invita a un fascinante viaje musical por los grandes centros de la música barroca de los siglos XVII y XVIII.
+## Conversaciones en Potsdam – Música en la corte de Federico el Grande
 
-El recorrido comienza en el espléndido palacio del Rey Sol, Luis XIV, cuya música cortesana reflejaba su pasión por el lujo y la magnificencia. Desde allí viajaremos a la corte británica, donde Georg Friedrich Händel compuso algunas de sus obras más célebres. Visitaremos también la Alemania de Johann Sebastian Bach y Georg Philipp Telemann, así como la corte de los Habsburgo, donde la familia imperial impulsó una extraordinaria tradición musical cuyo legado perdura hasta nuestros días.
+La corte de Federico el Grande en Potsdam fue uno de los grandes centros de la cultura musical del siglo XVIII. La música no solo cumplía una función de representación, sino que también era expresión de un intenso intercambio intelectual y artístico. Compositores como Johann Joachim Quantz, Carl Philipp Emanuel Bach y Ana Amalia de Prusia, junto con el propio monarca, dieron forma a un universo sonoro marcado por la elegancia galante, la sensibilidad expresiva y el virtuosismo. A ellos se suma la figura de Johann Sebastian Bach, cuya influencia musical trascendió ampliamente su época.
 
-Les esperamos para disfrutar juntos de la música festiva del Barroco y dar la bienvenida al Adviento. Y, como no podía ser de otra manera, al finalizar el concierto invitaremos a todos los asistentes a compartir un vino caliente especiado (Glühwein) y los tradicionales dulces navideños alemanes (Lebkuchen). ¡Una bonita forma de comenzar la época más entrañable del año!
+El programa se presenta como un diálogo musical entre estas personalidades. En las obras para flauta y clave se entrelazan la elegancia cortesana, la expresividad y la intimidad de la música de cámara. Dos composiciones navideñas de Carl Philipp Emanuel Bach y Johann Sebastian Bach establecen, además, un vínculo especial con el Adviento: el íntimo Weihnachtslied (Canción de Navidad) y la festiva aria Frohe Hirten, eilt, ach eilet (Alegraos, pastores, apresuraos) del Oratorio de Navidad.
+
+Así, el concierto une el universo musical de la corte prusiana con la ilusión y la expectación propias de estas fechas, invitando al público a sumergirse en la música y a prepararse para la llegada de la Navidad.

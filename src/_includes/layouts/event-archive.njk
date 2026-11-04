@@ -19,7 +19,7 @@ tags: pages
               {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" + locale], event.data.artist) %}
 
               <li
-                class="pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300 {% if event.data.cancelled %}
+                class="relative pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300 {% if event.data.cancelled %}
                   bg-red-50 hover:bg-red-100
                 {% endif %}"
               >
@@ -37,6 +37,12 @@ tags: pages
 
                   <!-- Event Image: previewImage front matter = "artist" | "venue" (default) -->
                   <div class="hidden md:flex h-40 w-40 relative bg-gray-200">
+                    {% if event.data.festive %}
+                      {% set festiveStarsClass = "absolute top-1 left-1 z-10 pointer-events-none" %}
+                      {% set festiveStarsCompact = true %}
+                      {% set festiveStarsIdPrefix = "archive-" ~ loop.index %}
+                      {% include "components/event-festive-stars.njk" %}
+                    {% endif %}
                     {% if event.data.previewImage == "artist" and artistItems | length > 0 %}
                       {% for artist in artistItems %}
                         {% if loop.first and artist.data.images and artist.data.images.featured %}
@@ -78,7 +84,11 @@ tags: pages
                       class="standardtext md:uppercase font-semibold xl:font-bold my-1 md:mb-4 max-w-md"
                     >
                       <a href="{{ event.url }}" class="no-underline after:absolute after:inset-0 after:content-['']">
-                        {{ event.data.title }}
+                        {% if event.data.festive %}
+                          <sparkly-text number-of-sparkles="4" style="--sparkly-text-color: #dc2626">{{ event.data.title }}</sparkly-text>
+                        {% else %}
+                          {{ event.data.title }}
+                        {% endif %}
                       </a>
                     </h2>
 

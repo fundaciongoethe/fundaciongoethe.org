@@ -91,21 +91,42 @@ h2 {
   @apply bg-gray-300 px-2 py-0.5 text-sm font-semibold rounded-sm;
 }
 
+.btn {
+  @apply inline-flex items-center justify-center border border-transparent px-3 py-2 font-semibold no-underline rounded-md text-xs uppercase leading-4;
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+.btn-yellow {
+  @apply text-black bg-yellow-300 hover:bg-yellow-400;
+}
+
+.btn-red {
+  @apply text-white bg-red-600 hover:bg-red-700 hover:text-white;
+}
+
+.btn-dark {
+  @apply text-white bg-gray-800 hover:bg-black hover:text-gray-100;
+}
+
+.btn-label {
+  text-box: trim-both cap alphabetic;
+}
+
+.event-sidebar dt {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Same look as .btn.btn-dark (Tailwind can't @apply custom classes) */
 .blackbutton {
-  @apply flex
-	items-center
-	justify-center
-	px-6
-	py-2
-	border border-transparent
-	text-base
-	font-semibold
-	no-underline
-	rounded-md
-	text-white
-	bg-gray-800
-	hover:text-gray-100
-	hover:bg-black;
+  @apply inline-flex items-center justify-center border border-transparent px-3 py-2 text-base font-semibold no-underline rounded-md text-white bg-gray-800 hover:bg-black hover:text-gray-100;
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
 }
 
 .prose {
@@ -193,14 +214,14 @@ h2 {
 @media (max-width: 767px) {
   .nav a:not(.logo)[aria-current='page'],
   .nav a:not(.logo)[data-state='active'] {
-    @apply bg-gray-300 text-black;
+    @apply bg-gray-800 text-white;
   }
 }
 
 /* @apply border-b-4 border-yellow-300; */
 
 .buttonhover {
-  transform: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .grayimg,

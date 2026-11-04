@@ -1,5 +1,5 @@
 ---
-title: 'Concierto de Adviento en Madrid + Coro Nox'
+title: 'Concierto de Adviento en Madrid'
 description: 'Música barroca festiva para tres trompetas naturales, timbales históricos y órgano — con el Coro Nox y después Glühwein y Lebkuchen.'
 translationKey: 26advientomadrid
 customSlug: concierto-adviento-madrid-2026
@@ -25,6 +25,7 @@ directregister:
 youtube: false
 cancelled: false
 previewImage: venue
+festive: true
 ---
 
 ¡Resonad, timbales! ¡Sonad, trompetas!
