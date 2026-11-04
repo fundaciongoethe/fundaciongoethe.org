@@ -100,6 +100,11 @@ module.exports = {
     url: 'https://www.ahk.es/',
     logo: './src/assets/images/event-sponsors/ahk.png',
   },
+  adda: {
+    name: 'ADDA',
+    url: 'https://addaalicante.es/',
+    logo: './src/assets/images/event-sponsors/adda.png',
+  },
   esa: {
     name: 'ESA - Madrid - European Space Agency',
     url: 'https://www.esa.int/Space_in_Member_States/Spain/Madrid',
