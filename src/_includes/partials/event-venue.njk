@@ -1,7 +1,7 @@
 {% if venueItems | length > 0 %}
   {% set imageLeft = (artistItems | length) == 0 %}
   {% for venue in venueItems %}
-    <section class="border-b">
+    <section class="border-b overflow-x-clip">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {# No artist: image left (like artist block). With artist: image right for alternation. #}
         {# Build class via set so the space before md:order-2 isn't eaten by template whitespace trimming #}
@@ -30,7 +30,16 @@
         {% else %}
           {% set venueTextClass = venueTextClass + " md:order-1 place-self-end" %}
         {% endif %}
-        <div class="{{ venueTextClass }}">
+        <div class="{{ venueTextClass }} relative">
+          {% if festive %}
+            {% set festiveStarsWrap = "-rotate-12 origin-top-left" %}
+            {% set festiveStarsClass = "absolute -top-5 -left-3 z-10 pointer-events-none max-sm:scale-90" %}
+            {% set festiveStarsIdPrefix = (translationKey or page.url) ~ "-venue-" ~ loop.index %}
+            {% include "components/event-festive-stars.njk" %}
+            {% set festiveStarsWrap = none %}
+            {% set festiveStarsClass = none %}
+            {% set festiveStarsIdPrefix = none %}
+          {% endif %}
           <span class="text-sm text-orange-500 font-bold tracking-wide uppercase">
             {{ venue.data.city or meta[locale].event.venue }}
           </span>

@@ -105,25 +105,31 @@
     style="display: none"
   >
     {% for item in navigation[locale].top %}
+      {% set activeAttrs = helpers.getLinkActiveState(item.url, page.url) %}
       <a
         class="text-white no-underline text-sm font-bold uppercase hover:bg-gray-800 hover:text-white block px-2 py-3 border-t border-gray-700"
         href="{{ item.url }}"
-        {{
-          helpers.getLinkActiveState(item.url,
-          page.url)
-          |
-          safe
-        }}
-        >{{ item.text }}</a
+        {{ activeAttrs | safe }}
+      >
+        {% if activeAttrs %}
+          {% svg "arrow-right", "inline-block h-4 w-4 mr-1 -mt-0.5", "hidden" %}
+        {% endif %}
+        {{ item.text }}</a
       >
     {% endfor %}
 
     <!-- invitations link on mobile -->
+    {% set inviteItem = navigation[locale].bottom.row3[0] %}
+    {% set inviteActive = helpers.getLinkActiveState(inviteItem.url, page.url) %}
     <a
-      class="text-white no-underline text-sm font-bold uppercase hover:bg-gray-800 hover:text-white block px-2 py-3 border-t border-gray-700 {% if (page.url === '/es/invitaciones/') or (page.url === '/de/einladungen/') %}bg-gray-800{% endif %}"
-      href="{{ navigation[locale].bottom.row3[0].url }}"
+      class="text-white no-underline text-sm font-bold uppercase hover:bg-gray-800 hover:text-white block px-2 py-3 border-t border-gray-700"
+      href="{{ inviteItem.url }}"
+      {{ inviteActive | safe }}
     >
-      {{ navigation[locale].bottom.row3[0].text }}</a
+      {% if inviteActive %}
+        {% svg "arrow-right", "inline-block h-4 w-4 mr-1 -mt-0.5", "hidden" %}
+      {% endif %}
+      {{ inviteItem.text }}</a
     >
 
     <div class="flex items-center justify-center border-t border-gray-700 bg-gray-900 rounded-es-lg">

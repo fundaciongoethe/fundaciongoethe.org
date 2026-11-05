@@ -9,7 +9,8 @@ partners:
   - milagrosa
   - id: lidl
     caption: Patrocinador en especie
-  - haribo
+  - id: haribo
+    caption: Patrocinador en especie
 date: 2026-12-02 21:00:00
 opening: 2026-12-02 20:30:00
 ending: 2026-12-02 22:10:00

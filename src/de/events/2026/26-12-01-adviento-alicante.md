@@ -12,19 +12,19 @@ partners:
   - konsulatalicante
   - id: lidl
     caption: Sachsponsor
-  - haribo
+  - id: haribo
+    caption: Patrocinador en especie
 date: 2026-12-01 20:00:00
 opening: 2026-12-01 19:30:00
 ending: 2026-12-01 21:10:00
 deadline: 2026-12-01 11:00:00
 calcDuration: 1.17
 type: 'Konzert'
-accessVariant: direct_register
+accessVariant: invite_only
 access:
 infobox:
 program:
-ticketsale:
-directregister: https://Alicante-adviento.eventbrite.es
+directregister:
 youtube: false
 cancelled: false
 previewImage: venue

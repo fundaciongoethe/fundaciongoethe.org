@@ -1,15 +1,8 @@
-{# set festiveStarsClass for placement; festiveStarsCompact for archive size; festiveStarsIdPrefix when many on a page #}
+{# set festiveStarsClass for placement; festiveStarsCompact for archive size; festiveStarsIdPrefix when many on a page; festiveStarsWrap to override random wrap rotate #}
 {% set _starId = festiveStarsIdPrefix or 'festive' %}
-{% if festiveStarsCompact %}
-  <div class="flex items-end gap-1 -rotate-12 -translate-x-4 {{ festiveStarsClass or '' }}" aria-hidden="true">
-    {% svg "star", "h-4 w-4 text-yellow-600", "hidden", "star", _starId ~ "-a" %}
-    {% svg "star", "h-5 w-5 text-yellow-500", "hidden", "star", _starId ~ "-b" %}
-    {% svg "star", "h-2.5 w-2.5 text-yellow-500 opacity-90 mb-1", "hidden", "star", _starId ~ "-c" %}
-  </div>
-{% else %}
-  <div class="flex items-end gap-1 rotate-12 {{ festiveStarsClass or '' }}" aria-hidden="true">
-    {% svg "star", "h-5 w-5 text-red-600 opacity-80", "hidden", "star", _starId ~ "-a" %}
-    {% svg "star", "h-10 w-10 text-orange-500", "hidden", "star", _starId ~ "-b" %}
-    {% svg "star", "h-4 w-4 text-yellow-500 opacity-90 mb-1.5", "hidden", "star", _starId ~ "-c" %}
-  </div>
-{% endif %}
+{% set stars = helpers.festiveStarsClasses(_starId, festiveStarsCompact) %}
+<div class="flex items-end gap-1 {{ festiveStarsWrap or stars.wrap }} {{ festiveStarsClass or '' }}" aria-hidden="true">
+  {% svg "star", stars.a, "hidden", "star", _starId ~ "-a" %}
+  {% svg "star", stars.b, "hidden", "star", _starId ~ "-b" %}
+  {% svg "star", stars.c, "hidden", "star", _starId ~ "-c" %}
+</div>

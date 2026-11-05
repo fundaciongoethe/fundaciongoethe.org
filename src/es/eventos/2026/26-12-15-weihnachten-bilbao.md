@@ -8,7 +8,8 @@ partners:
   - konsulatbilbao
   - id: lidl
     caption: Patrocinador en especie
-  - haribo
+  - id: haribo
+    caption: Patrocinador en especie
 date: 2026-12-15 20:00:00
 opening: 2026-12-15 19:30:00
 ending: 2026-12-15 21:10:00

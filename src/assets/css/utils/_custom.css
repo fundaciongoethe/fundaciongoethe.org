@@ -92,7 +92,7 @@ h2 {
 }
 
 .btn {
-  @apply inline-flex items-center justify-center border border-transparent px-3 py-2 font-semibold no-underline rounded-md text-xs uppercase leading-4 gap-x-2;
+  @apply inline-flex items-center justify-center border border-transparent px-3 py-2 font-semibold no-underline rounded-md text-xs uppercase leading-4 gap-x-1;
   transition:
     background-color 0.2s ease-in-out,
     color 0.2s ease-in-out;
@@ -108,6 +108,10 @@ h2 {
 
 .btn-dark {
   @apply text-white bg-gray-800 hover:bg-black hover:text-gray-100;
+}
+
+.btn-grey {
+  @apply text-white bg-gray-700 hover:bg-gray-800 hover:text-white;
 }
 
 .btn-label {

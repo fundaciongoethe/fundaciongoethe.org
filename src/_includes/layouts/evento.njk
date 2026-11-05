@@ -20,6 +20,7 @@ tags: pages
   <div class="relative lg:mt-16 grid grid-flow-row grid-cols-5 grid-rows-1">
     {% if festive %}
       {% set festiveStarsClass = "absolute top-2 right-2 md:top-4 md:right-4 z-10 pointer-events-none" %}
+      {% set festiveStarsIdPrefix = translationKey or page.url %}
       {% include "components/event-festive-stars.njk" %}
     {% endif %}
     <!-- Event Details Section -->
@@ -44,7 +45,9 @@ tags: pages
           </span>
         {% endif %}
       {% else %}
-        <span class="text-sm text-gray-800 bg-red-400 px-2 py-1 rounded-sm font-bold tracking-wide uppercase">
+        <span
+          class="btn-label | text-sm text-gray-800 bg-red-400 px-2 py-1 rounded-sm font-bold tracking-wide uppercase"
+        >
           {{ meta[locale].event.finished }}
         </span>
       {% endif %}

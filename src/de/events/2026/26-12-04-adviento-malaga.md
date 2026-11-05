@@ -13,7 +13,8 @@ partners:
   - feda
   - id: lidl
     caption: Sachsponsor
-  - haribo
+  - id: haribo
+    caption: Patrocinador en especie
 date: 2026-12-04 20:00:00
 opening: 2026-12-04 19:30:00
 ending: 2026-12-04 21:10:00

@@ -1,0 +1,10 @@
+{# Optional: set row2ListClass before include #}
+<ul class="{{ row2ListClass or 'flex flex-row sm:flex-col py-2 sm:py-0 gap-2 sm:gap-4' }}">
+  {% for item in navigation[locale].bottom.row2.slice(0, 3) %}
+    <li>
+      <a href="{{ item.url }}" class="btn btn-grey lg:text-base">
+        <span class="btn-label">{{ item.text }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
