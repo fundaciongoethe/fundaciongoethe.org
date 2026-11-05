@@ -124,7 +124,7 @@ tags: pages
                     <span
                       class="inline-flex items-center shadow-sm px-2.5 py-2.5 rounded-full bg-yellow-400 group-hover:bg-yellow-500 transform group-hover:translate-x-2 transition duration-300 ease-in-out mr-1 sm:mr-3"
                     >
-                      {% svg "arrow-right", "h-5 w-5 lg:h-10 lg:w-10 text-black", "hidden" %}
+                      {% svg "arrow-right", "h-5 w-5 lg:h-6 lg:w-6 text-black", "hidden" %}
                     </span>
                   </div>
                 </div>
@@ -146,37 +146,26 @@ tags: pages
         </div>
 
         <div
-          class="bg-white max-w-xl mx-auto border-t sm:border border-gray-200 sm:rounded-md"
+          class="bg-white max-w-xl mx-auto border-t sm:border border-gray-100 sm:rounded-md"
           x-data="{selected:null}"
         >
-          <ul class="shadow-box">
+          <ul class="shadow-box divide-y divide-gray-50">
             {% set eventsPast = collections["eventosPasados_" + locale] %}
             {% for year, yearPosts in eventsPast %}
               <li class="relative">
                 <button
                   type="button"
-                  class="w-full px-3 md:px-6 py-6 text-left"
+                  class="w-full px-3 md:px-6 py-6 text-left hover:bg-gray-100 transition-colors duration-200"
                   @click="selected !== {{ loop.index }} ? selected = {{ loop.index }} : selected = null"
                 >
                   <div class="flex items-center justify-between">
                     <h3 class="md:font-semibold 2xl:font-bold">{{ year }}</h3>
-                    <svg
-                      :class="selected == {{ loop.index }} ? 'transform rotate-180' : ''"
-                      class="duration-300 ease-in-out"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="#000000"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                    <span
+                      class="inline-block duration-300 ease-in-out"
+                      :class="selected == {{ loop.index }} ? 'rotate-180' : ''"
                     >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <line x1="12" y1="5" x2="12" y2="19" />
-                      <line x1="18" y1="13" x2="12" y2="19" />
-                      <line x1="6" y1="13" x2="12" y2="19" />
-                    </svg>
+                      {% svg "arrow-down", "h-5 w-5 lg:h-6 lg:w-6 text-black", "hidden" %}
+                    </span>
                   </div>
                 </button>
 
