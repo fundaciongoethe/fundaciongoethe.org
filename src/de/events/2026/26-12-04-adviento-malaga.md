@@ -6,15 +6,20 @@ customSlug: adventskonzert-malaga-2026
 venue: [cajablanca]
 artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni]
 partners:
-  - fcam
-  - dwa
-  - konsulatmalaga
-  - cajablanca
-  - feda
+  - id: fcam
+    caption: Sponsor
+  - id: dwa
+    caption: Partner
+  - id: konsulatmalaga
+    caption: Partner
+  - id: cajablanca
+    caption: Partner
+  - id: feda
+    caption: Partner
   - id: lidl
     caption: Sachsponsor
   - id: haribo
-    caption: Patrocinador en especie
+    caption: Sachsponsor
 date: 2026-12-04 20:00:00
 opening: 2026-12-04 19:30:00
 ending: 2026-12-04 21:10:00

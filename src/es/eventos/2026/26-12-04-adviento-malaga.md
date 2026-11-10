@@ -6,11 +6,16 @@ customSlug: concierto-adviento-malaga-2026
 venue: [cajablanca]
 artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni]
 partners:
-  - fcam
-  - dwa
-  - konsulatmalaga
-  - cajablanca
-  - feda
+  - id: fcam
+    caption: Patrocinador
+  - id: dwa
+    caption: Colaborador
+  - id: konsulatmalaga
+    caption: Colaborador
+  - id: cajablanca
+    caption: Colaborador
+  - id: feda
+    caption: Colaborador
   - id: lidl
     caption: Patrocinador en especie
   - id: haribo

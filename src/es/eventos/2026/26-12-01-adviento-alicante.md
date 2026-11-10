@@ -6,10 +6,14 @@ customSlug: concierto-adviento-alicante-2026
 venue: [adda]
 artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni]
 partners:
-  - ahk
-  - konsulatbarcelona
-  - adda
-  - konsulatalicante
+  - id: konsulatbarcelona
+    caption: Patrocinador
+  - id: ahk
+    caption: Patrocinador
+  - id: konsulatalicante
+    caption: Colaborador
+  - id: adda
+    caption: Colaborador
   - id: lidl
     caption: Patrocinador en especie
   - id: haribo

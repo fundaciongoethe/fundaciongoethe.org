@@ -6,14 +6,18 @@ customSlug: adventskonzert-alicante-2026
 venue: [adda]
 artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni]
 partners:
-  - ahk
-  - konsulatbarcelona
-  - adda
-  - konsulatalicante
+  - id: konsulatbarcelona
+    caption: Sponsor
+  - id: ahk
+    caption: Sponsor
+  - id: konsulatalicante
+    caption: Partner
+  - id: adda
+    caption: Partner
   - id: lidl
     caption: Sachsponsor
   - id: haribo
-    caption: Patrocinador en especie
+    caption: Sachsponsor
 date: 2026-12-01 20:00:00
 opening: 2026-12-01 19:30:00
 ending: 2026-12-01 21:10:00
