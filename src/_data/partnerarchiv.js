@@ -596,4 +596,19 @@ module.exports = {
     url: 'https://herrenknecht.com',
     logo: './src/assets/images/sponsors/herrenknecht/herrenknecht-logo.png',
   },
+  dss: {
+    name: 'Deutsche Schule Sevilla',
+    url: 'https://www.colegioalemansevilla.com/',
+    logo: './src/assets/images/event-sponsors/dss.jpeg',
+  },
+  upo: {
+    name: 'Universidad Pablo de Olavide',
+    url: 'https://www.upo.es/',
+    logo: './src/assets/images/event-sponsors/upo.png',
+  },
+  casaprovincia: {
+    name: 'Casa de la Provincia',
+    url: 'https://casadelaprovincia.es',
+    logo: '',
+  },
 };

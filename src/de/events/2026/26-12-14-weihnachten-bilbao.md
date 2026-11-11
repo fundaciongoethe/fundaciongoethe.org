@@ -4,16 +4,18 @@ description: 'Das Konzert verbindet die Musik des preußischen Hofes mit dem Gei
 translationKey: 26weihnachtenbilbao
 customSlug: weihnachtskonzert-bilbao-2026
 venue: [encarnacion]
+artist: [martafemenia, yagomahugo]
 partners:
-  - konsulatbilbao
+  - id: konsulatbilbao
+    caption: Partner
   - id: lidl
     caption: Sachsponsor
   - id: haribo
-    caption: Patrocinador en especie
-date: 2026-12-15 20:00:00
-opening: 2026-12-15 19:30:00
-ending: 2026-12-15 21:10:00
-deadline: 2026-12-15 11:00:00
+    caption: Sachsponsor
+date: 2026-12-14 19:30:00
+opening: 2026-12-14 19:00:00
+ending: 2026-12-14 20:40:00
+deadline: 2026-12-14 11:00:00
 calcDuration: 1.17
 type: 'Konzert'
 accessVariant: direct_register

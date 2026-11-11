@@ -4,16 +4,18 @@ description: 'El concierto une la música de la corte prusiana con el espíritu 
 translationKey: 26weihnachtenbilbao
 customSlug: concierto-navidad-bilbao-2026
 venue: [encarnacion]
+artist: [martafemenia, yagomahugo]
 partners:
-  - konsulatbilbao
+  - id: konsulatbilbao
+    caption: Colaborador
   - id: lidl
     caption: Patrocinador en especie
   - id: haribo
     caption: Patrocinador en especie
-date: 2026-12-15 20:00:00
-opening: 2026-12-15 19:30:00
-ending: 2026-12-15 21:10:00
-deadline: 2026-12-15 11:00:00
+date: 2026-12-14 19:30:00
+opening: 2026-12-14 19:00:00
+ending: 2026-12-14 20:40:00
+deadline: 2026-12-14 11:00:00
 calcDuration: 1.17
 type: 'Concierto'
 accessVariant: direct_register

@@ -7,9 +7,9 @@ occupation: 'flautista'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/marta-femenia.jpg
   alt: Retrato de Marta Femenía
-  credit: Arno Kohlem
+  credit:
 links:
-  web: https://www.martafemenia.com
+  web:
 ---
 
 Marta Femenía completó sus estudios en el Real Conservatorio Superior de Música de Madrid con la calificación summa cum laude.

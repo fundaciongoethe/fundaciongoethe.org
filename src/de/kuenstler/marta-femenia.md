@@ -7,9 +7,9 @@ occupation: 'Flötistin'
 images: # complete path for eleventy img srcset output, alt required
   featured: ./src/assets/images/artists/marta-femenia.jpg
   alt: Portrait von Marta Femenía
-  credit: Arno Kohlem
+  credit:
 links:
-  web: https://www.martafemenia.com
+  web:
 ---
 
 Marta Femenía hat ihr Studium an der Musikhochschule Madrid mit der Note “summa cum laude” abgeschlossen. Zwischen 2013 und 2016 perfektionierte sie ihre Ausbildung an der Musikhochschule Reina Sofía in Madrid bei Jaques Zoon. Im Jahr 2016 überreichte Königin S.M. la Reina Doña Sofía ihr den 1. Preis als beste Studentin. 2017 gewann sie den 1. Preis beim Wettbewerb der Musikjugend Spaniens. 2019 erhielt sie den Master mit Auszeichnung in der Klasse von Professor Davide Formisano an der Musikhochschule Stuttgart, wo sie seither ihr Studium im Konzertexamen fortsetzte und kürzlich mit Auszeichnung abschloss.

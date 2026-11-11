@@ -34,18 +34,20 @@
         x-bind:data-city="'{{ venue.data.city | lower }}'"
       >
         <div class="group block w-full aspect-square rounded-xs sm:rounded-sm lg:rounded-md bg-gray-100 overflow-hidden buttonhover">
-          {% set loadingType = "lazy" %}
-          {% if loop.index <= 2 %}
-            {% set loadingType = "eager" %}
+          {% if venue.data.images and venue.data.images.featured %}
+            {% set loadingType = "lazy" %}
+            {% if loop.index <= 2 %}
+              {% set loadingType = "eager" %}
+            {% endif %}
+            {%
+              Picture venue.data.images.featured,
+              "w-full aspect-square",
+              "grayimg w-full h-full aspect-square object-cover",
+              venue.data.images.alt,
+              loadingType,
+              "(min-width: 640px) 360px, 640px"
+            %}
           {% endif %}
-          {%
-            Picture venue.data.images.featured,
-            "w-full aspect-square",
-            "grayimg w-full h-full aspect-square object-cover",
-            venue.data.images.alt,
-            loadingType,
-            "(min-width: 640px) 360px, 640px"
-          %}
 
           <span class="sr-only"> {{ meta[locale].event.readmore }} {{ venue.data.title }}</span>
         </div>

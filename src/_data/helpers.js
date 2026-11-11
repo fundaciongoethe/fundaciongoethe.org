@@ -43,6 +43,7 @@ module.exports = {
       'text-yellow-500',
       'text-yellow-500',
       'text-yellow-500',
+      'text-yellow-500',
       'text-yellow-600',
       'text-orange-500',
       'text-red-600',
@@ -74,7 +75,7 @@ module.exports = {
       return {
         wrap: [
           pick('w', ['-rotate-12', '-rotate-6', 'rotate-6', 'rotate-12']),
-          pick('wt', ['-translate-x-4', '-translate-x-2', 'translate-x-1', '']),
+          pick('wt', ['-translate-x-2', '-translate-x-4', '-translate-x-6', '']),
         ]
           .filter(Boolean)
           .join(' '),

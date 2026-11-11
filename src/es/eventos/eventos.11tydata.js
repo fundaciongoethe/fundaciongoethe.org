@@ -9,6 +9,7 @@ module.exports = {
 			if (data.draft && process.env.ELEVENTY_ENV === "production") {
 				return false;
 			}
+			return data.permalink;
 		},
 		eleventyExcludeFromCollections: (data) => {
 			if (data.draft && process.env.ELEVENTY_ENV === "production") {
