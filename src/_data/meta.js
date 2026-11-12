@@ -22,8 +22,19 @@ module.exports = {
     email: 'info@fundaciongoethe.org',
     cif: 'G83131854',
   },
-  christmas: false,
-  summer: false,
+  // home hero: flip season; overlay false hides banner even if season has default copy
+  // specialImage only used when season === 'special' (falls back to images.default if null)
+  heroImage: {
+    season: 'advent', // 'default' | 'summer' | 'christmas' | 'advent' | 'special'
+    overlay: true,
+    specialImage: null,
+    images: {
+      default: './src/assets/images/hero/start.jpg',
+      summer: './src/assets/images/hero/verano-hero-26.jpg',
+      christmas: './src/assets/images/hero/navidad-2021-hero.jpg',
+      advent: './src/assets/images/hero/advent-1.jpg',
+    },
+  },
   defaultLang: 'es',
   languages: [
     {
@@ -44,6 +55,17 @@ module.exports = {
     metaTitle: 'Fundación Goethe España',
     metaDescription:
       'La Fundación Goethe reúne empresas y empresarios con el fin de promover las relaciones hispano-alemanes a nivel cultural, social, empresarial, económico.',
+    heroImage: {
+      default: { overlay: '', link: null, linkLabel: null },
+      summer: { overlay: '', link: null, linkLabel: null },
+      christmas: { overlay: '', link: null, linkLabel: null },
+      advent: {
+        overlay: 'Ya tenemos fechas para nuestros conciertos de adviento',
+        link: '/es/eventos/',
+        linkLabel: 'Eventos',
+      },
+      special: { overlay: '', link: null, linkLabel: null },
+    },
     back: 'Atrás',
     skipText: 'Saltar al contenido principal',
     menuButton: 'Menú',
@@ -148,6 +170,17 @@ module.exports = {
     metaTitle: 'Fundación Goethe Spanien',
     metaDescription:
       'Wir fördern die spanisch-deutschen Beziehungen kulturell, sozial, gesellschaftlich, unternehmerisch und wirtschaftlich.',
+    heroImage: {
+      default: { overlay: '', link: null, linkLabel: null },
+      summer: { overlay: '', link: null, linkLabel: null },
+      christmas: { overlay: '', link: null, linkLabel: null },
+      advent: {
+        overlay: 'Die Termine für unsere Adventskonzerte stehen fest!',
+        link: '/de/events/',
+        linkLabel: 'Events',
+      },
+      special: { overlay: '', link: null, linkLabel: null },
+    },
     back: 'Zurück',
     skipText: 'Zum Hauptinhalt springen',
     menuButton: 'Menü',

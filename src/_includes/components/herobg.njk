@@ -18,11 +18,27 @@
       </div>
     </div>
 
-    <div class="lg:w-full xl:w-4/7 pr-10 sm:pr-16 md:pr-0">
+    {% set heroSeason = meta.heroImage.season or 'default' %}
+    {% set heroOverlay = meta[locale].heroImage[heroSeason] if meta[locale].heroImage and meta[locale].heroImage[heroSeason] else null %}
+    <div class="lg:w-full xl:w-4/7 pr-10 sm:pr-16 md:pr-0 relative">
       {%
         Picture heroimg.url, "bg-transparent", "h-full w-full rounded-tr-xl md:rounded-tr-none object-cover
         md:rounded-b-lg", heroimg.alt, "eager", "(min-width: 48rem) 50vw, 90vw"
       %}
+      {% if meta.heroImage.overlay and heroOverlay and heroOverlay.overlay %}
+        <div class="absolute bottom-4 left-0 z-10 flex flex-wrap items-center max-w-[95%] pr-4 gap-y-2">
+          <p
+            class="bg-gray-50 text-gray-900 text-xs md:text-sm font-semibold px-3 py-1.5 rounded-e-md max-w-md lg:!min-h-10 grid items-center text-balance"
+          >
+            {{ heroOverlay.overlay }}
+          </p>
+          {% if heroOverlay.link and heroOverlay.linkLabel %}
+            <a href="{{ heroOverlay.link | url }}" class="btn btn-yellow !min-h-fit lg:!min-h-10 ml-3">
+              <span class="btn-label">{{ heroOverlay.linkLabel }}</span>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
 
     <!--  -right-32 sm:-right-28 md:-right-32 lg:-right-28 xl:-right-24 2xl:-right-20  -->

@@ -1,0 +1,190 @@
+---
+layout: false
+permalink: '/assets/og-images/event-{{ event.data.translationKey }}-{{ event.data.locale }}-preview.svg'
+# Must use | safe in attributes — Nunjucks escapes quotes to &#39; and breaks font lookup
+fontFamily: "'Gotham Rounded Medium', 'Gotham Rounded', Helvetica Neue, Arial, sans-serif"
+fontWeight: 400
+colorRed: '#E32F26'
+colorYellow: '#FFD200'
+colorOrange: '#F47920'
+colorInk: '#1a1a1a'
+colorWhite: '#ffffff'
+lineWidth: 2
+circleRim: 2
+defaultImg: './src/assets/images/social/default.jpg'
+pagination:
+  data: collections.eventosFuturosOg
+  size: 1
+  alias: event
+eleventyExcludeFromCollections: true
+---
+
+{%- set lang = event.data.locale -%}
+{%- set venueItems = helpers.filterCollectionByKeys(collections['venues_' + lang], event.data.venue) -%}
+{%- set artistItems = helpers.filterCollectionByKeys(collections['artists_' + lang], event.data.artist) -%}
+{%- set firstVenue = venueItems[0] -%}
+{%- set firstArtist = artistItems[0] -%}
+
+{%- set venueImg = firstVenue.data.images.featured if firstVenue and firstVenue.data.images and firstVenue.data.images.featured else null -%}
+{%- set artistImg = firstArtist.data.images.featured if firstArtist and firstArtist.data.images and firstArtist.data.images.featured else null -%}
+
+{# Background: venue under artist circles; fall back to artist / default #}
+{%- set bgPath = venueImg or artistImg or defaultImg -%}
+{%- if event.data.previewImage == 'artist' and not venueImg -%}
+  {%- set bgPath = artistImg or defaultImg -%}
+{%- endif -%}
+{%- set bgBase64 = bgPath | base64Format -%}
+{%- set circles = artistItems | ogArtistCircles(bgPath) -%}
+
+{%- set venueTitle = firstVenue.data.title if firstVenue else '' -%}
+{%- set cityName = event.data.city or (firstVenue.data.city if firstVenue else '') -%}
+{%- set ribbonText = event.data.ogRibbon or event.data.type or '' -%}
+
+{%- set venueLines = venueTitle | upper | splitlines(22) -%}
+{%- set dayNum = event.data.date | date('DD', lang) -%}
+{%- set monthName = event.data.date | date('MMMM', lang) | upper -%}
+
+<svg
+  width="1200"
+  height="630"
+  viewBox="0 0 1200 630"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <filter id="grayscale">
+      <feColorMatrix
+        type="matrix"
+        values="0.3333 0.3333 0.3333 0 0
+                0.3333 0.3333 0.3333 0 0
+                0.3333 0.3333 0.3333 0 0
+                0      0      0      1 0"
+      />
+    </filter>
+    {# Image ~3/5, details ~2/5 #}
+    <clipPath id="photoClip">
+      <polygon points="0,0 780,0 660,630 0,630" />
+    </clipPath>
+    {% for c in circles %}
+      <clipPath id="artistClip-{{ loop.index0 }}">
+        <circle cx="{{ c.cx }}" cy="{{ c.cy }}" r="{{ c.r }}" />
+      </clipPath>
+    {% endfor %}
+  </defs>
+
+  {# --- photo column (3) --- #}
+  <g clip-path="url(#photoClip)" filter="url(#grayscale)">
+    {% if bgBase64 %}
+      <image href="{{ bgBase64 }}" x="0" y="0" width="780" height="630" preserveAspectRatio="xMidYMid slice" />
+    {% else %}
+      <rect x="0" y="0" width="780" height="630" fill="{{ colorInk }}" />
+    {% endif %}
+  </g>
+
+  <g clip-path="url(#photoClip)">
+    {% for c in circles %}
+      <g filter="url(#grayscale)">
+        <image
+          href="{{ c.href }}"
+          x="{{ c.cx - c.r }}"
+          y="{{ c.cy - c.r }}"
+          width="{{ c.r * 2 }}"
+          height="{{ c.r * 2 }}"
+          preserveAspectRatio="xMidYMid slice"
+          clip-path="url(#artistClip-{{ loop.index0 }})"
+        />
+      </g>
+      {# offset black ring (varied per circle), then white rim #}
+      <circle
+        cx="{{ c.cx + c.ox }}"
+        cy="{{ c.cy + c.oy }}"
+        r="{{ c.r + 3 }}"
+        fill="none"
+        stroke="{{ colorInk }}"
+        stroke-width="{{ lineWidth }}"
+      />
+      <circle
+        cx="{{ c.cx }}"
+        cy="{{ c.cy }}"
+        r="{{ c.r }}"
+        fill="none"
+        stroke="{{ colorWhite }}"
+        stroke-width="{{ circleRim }}"
+      />
+    {% endfor %}
+  </g>
+
+  {# --- details column (2) --- #}
+  <polygon points="760,0 1200,0 1200,630 640,630" fill="{{ colorRed }}" />
+  <polygon points="760,0 810,0 690,630 640,630" fill="{{ colorYellow }}" />
+  {# offset black lines along yellow band edges #}
+  <line x1="821" y1="0" x2="693" y2="635" stroke="{{ colorInk }}" stroke-width="{{ lineWidth }}" />
+
+  {% if ribbonText %}
+    <text
+      transform="translate(700, 480) rotate(-78)"
+      font-family="{{ fontFamily | safe }}"
+      font-size="25"
+      font-weight="{{ fontWeight }}"
+      fill="{{ colorInk }}"
+      text-anchor="start"
+    >
+      {{ ribbonText | upper }}
+    </text>
+  {% endif %}
+
+  {# date: offset black rings + orange fill #}
+  <circle cx="1050" cy="80" r="200" fill="{{ colorOrange }}" />
+  <circle cx="1054" cy="104" r="200" fill="none" stroke="{{ colorInk }}" stroke-width="{{ lineWidth }}" />
+  <text
+    x="1060"
+    y="160"
+    font-family="{{ fontFamily | safe }}"
+    font-size="200"
+    font-weight="{{ fontWeight }}"
+    fill="{{ colorInk }}"
+    text-anchor="middle"
+  >
+    {{ dayNum }}
+  </text>
+  <text
+    x="1050"
+    y="210"
+    font-family="{{ fontFamily | safe }}"
+    font-size="25"
+    font-weight="{{ fontWeight }}"
+    fill="{{ colorInk }}"
+    text-anchor="middle"
+  >
+    {{ monthName }}
+  </text>
+
+  {% if venueTitle %}
+    <rect
+      x="820"
+      y="360"
+      width="380"
+      height="{% if venueLines.length > 1 %}80{% else %}52{% endif %}"
+      fill="{{ colorWhite }}"
+    />
+    <text font-family="{{ fontFamily | safe }}" font-size="20" font-weight="{{ fontWeight }}" fill="{{ colorInk }}">
+      {% for line in venueLines %}
+        <tspan x="838" y="{{ 392 + loop.index0 * 28 }}">{{ line }}</tspan>
+      {% endfor %}
+    </text>
+  {% endif %}
+
+  {% if cityName %}
+    <text
+      x="838"
+      y="{% if venueTitle %}{% if venueLines.length > 1 %}480{% else %}460{% endif %}{% else %}420{% endif %}"
+      font-family="{{ fontFamily | safe }}"
+      font-size="52"
+      font-weight="{{ fontWeight }}"
+      fill="{{ colorInk }}"
+    >
+      {{ cityName | upper }}
+    </text>
+  {% endif %}
+</svg>

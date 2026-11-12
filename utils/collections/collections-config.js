@@ -105,6 +105,15 @@ module.exports = function (eleventyConfig) {
       .filter((event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date()));
   });
 
+  // upcoming events both locales — for OG image generation
+  eleventyConfig.addCollection('eventosFuturosOg', (collectionApi) => {
+    const isFuture = (event) => isValidEvent(event) && isAfter(new Date(event.data.date), new Date());
+    return [
+      ...collectionApi.getFilteredByGlob('./src/es/eventos/**/*.md').filter(isFuture),
+      ...collectionApi.getFilteredByGlob('./src/de/events/**/*.md').filter(isFuture),
+    ];
+  });
+
   // Generate backlinks from artists & venues to their events
   eleventyConfig.addCollection('eventsByArtistAndVenue', (collectionApi) => {
     let events = collectionApi.getFilteredByGlob(['./src/es/eventos/**/*.md', './src/de/events/**/*.md']);

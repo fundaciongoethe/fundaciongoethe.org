@@ -16,7 +16,7 @@ opening: 2026-12-02 20:30:00
 ending: 2026-12-02 22:10:00
 deadline: 2026-12-02 11:00:00
 calcDuration: 1.17
-type: 'Konzert'
+type: 'Adventskonzert'
 accessVariant: tickets_eventbrite
 access:
 infobox:

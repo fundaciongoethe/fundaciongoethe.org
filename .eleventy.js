@@ -184,6 +184,10 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./utils/*.js');
   eleventyConfig.addWatchTarget('./tailwind.config.js');
 
+  // OG images: SVG → JPEG after build (committed JPEGs; skip if already present)
+  const { svgToJpeg } = require('./utils/events/svg-to-jpeg.js');
+  eleventyConfig.on('eleventy.after', svgToJpeg);
+
   // Passthrough File Copy
 
   eleventyConfig.addPassthroughCopy('src/assets/fonts/');
@@ -192,6 +196,7 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/audio/');
   eleventyConfig.addPassthroughCopy('src/assets/pdf/');
   eleventyConfig.addPassthroughCopy('src/assets/images/');
+  eleventyConfig.addPassthroughCopy('src/assets/og-images');
   eleventyConfig.addPassthroughCopy('src/assets/scripts/vendor/');
 
   // social icons von images zu root

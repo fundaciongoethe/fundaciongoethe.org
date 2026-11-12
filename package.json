@@ -7,6 +7,7 @@
   },
   "scripts": {
     "clean": "del dist",
+    "clean:og": "del src/assets/og-images/*.jpeg src/assets/og-images/*.jpg",
     "clean:keep-images": "node scripts/clean-dist-keep-images.js",
     "invalidate:images": "node scripts/invalidate-stale-images.js",
     "build:netlify": "run-s clean:keep-images invalidate:images build:postcss build:11ty build:scripts",

@@ -1,11 +1,16 @@
 <!-- set absolutePageURL to use later in canonical and og URLs  -->
-{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url)}}{%- endset -%} {%- set ogImage -%} {% if
-seo.image %} /assets/images/{{ seo.image }}
-{% elseif images.featured %}
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url)}}{%- endset -%}
+{%- set ogImage -%}
+{%- if calendarLinks and calendarLinks.isFutureEvent and translationKey -%}
+/assets/og-images/event-{{ translationKey }}-{{ locale }}-preview.jpeg
+{%- elseif seo.image -%}
+/assets/images/{{ seo.image }}
+{%- elseif images.featured -%}
 {{ images.featured | replace("./src/", "") }}
-{% else %}
+{%- else -%}
 {{ meta.siteImage }}
-{% endif %} {%- endset -%}
+{%- endif -%}
+{%- endset -%}
 
 <!-- metas  -->
 {#- General #}

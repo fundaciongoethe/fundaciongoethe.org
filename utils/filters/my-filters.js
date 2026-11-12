@@ -5,6 +5,9 @@ const markdownParser = require('markdown-it');
 const markdown = markdownParser();
 
 const accessVariants = require('../../src/_data/accessVariants.js');
+const { base64Format } = require('./base64-format.js');
+const { splitlines } = require('./splitlines.js');
+const { ogArtistCircles } = require('./og-artist-circles.js');
 
 function resolveAccessData(data, locale) {
   if (!data) return { access: undefined, infobox: undefined };
@@ -42,4 +45,7 @@ module.exports = {
     const resolved = resolveAccessData(data, locale);
     return resolved.infobox;
   },
+  base64Format,
+  splitlines,
+  ogArtistCircles,
 };

@@ -17,7 +17,7 @@ opening: 2026-12-14 19:00:00
 ending: 2026-12-14 20:40:00
 deadline: 2026-12-14 11:00:00
 calcDuration: 1.17
-type: 'Konzert'
+type: 'Weihnachtskonzert'
 accessVariant: direct_register
 access:
 infobox:
