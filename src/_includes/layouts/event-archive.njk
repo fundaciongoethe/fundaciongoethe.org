@@ -174,7 +174,7 @@ tags: pages
                   x-ref="container{{ loop.index }}"
                   x-bind:style="selected == {{ loop.index }} ? 'max-height: ' + $refs.container{{ loop.index }}.scrollHeight + 'px' : ''"
                 >
-                  <div class="p-6">
+                  <div class="p-3 md:p-6">
                     {% for event in yearPosts | reverse %}
                       <a
                         class="no-underline text-sm bg-gray-200 py-0.5 rounded-sm pr-1 hover:bg-yellow-400"

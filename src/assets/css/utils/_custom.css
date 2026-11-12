@@ -80,7 +80,7 @@ h2 {
 }
 
 .standardtext {
-  @apply text-base;
+  @apply text-base leading-normal;
 }
 
 .standardtext p {
@@ -281,6 +281,9 @@ h2 {
 
 .sponsorlist a {
   @apply grayscale contrast-125 hover:contrast-100 hover:grayscale-0 opacity-60 hover:opacity-100;
+  transition:
+    filter 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
 }
 
 .sponsorlist a[href*='medinsa'],

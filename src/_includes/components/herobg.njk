@@ -10,7 +10,7 @@
           <span class="text-xs xl:text-sm 2xl:text-base leading-6 text-gray-100 font-bold tracking-wider uppercase">
             <span class="text-red-600 font-bold">{{ herotext.badge }}</span>
           </span>
-          <h1 class="standardtitel mb-6 2xl:mb-8 text-gray-900">{{ herotext.title }}</h1>
+          <h1 class="standardtitel mb-4 2xl:mb-8 text-gray-900">{{ herotext.title }}</h1>
           <div class="standardtext">
             <p>{{ herotext.content }}</p>
           </div>
@@ -33,7 +33,7 @@
             {{ heroOverlay.overlay }}
           </p>
           {% if heroOverlay.link and heroOverlay.linkLabel %}
-            <a href="{{ heroOverlay.link | url }}" class="btn btn-yellow !min-h-fit lg:!min-h-10 ml-3">
+            <a href="{{ heroOverlay.link | url }}" class="btn btn-red !min-h-fit lg:!min-h-10 ml-3">
               <span class="btn-label">{{ heroOverlay.linkLabel }}</span>
             </a>
           {% endif %}
@@ -43,7 +43,7 @@
 
     <!--  -right-32 sm:-right-28 md:-right-32 lg:-right-28 xl:-right-24 2xl:-right-20  -->
     <div
-      class="absolute transform -rotate-90 bottom-20 md:bottom-36 -right-20 flex items-end justify-end text-sm md:z-10"
+      class="absolute transform -rotate-90 bottom-20 md:bottom-36 -right-[5.3rem] flex items-end justify-end text-sm md:z-10"
     >
       <p class="flex font-semibold items-center justify-center bg-gray-50 rounded-md px-1 xl:bg-transparent">
         {# Display Social icons from _data/social.json #}
