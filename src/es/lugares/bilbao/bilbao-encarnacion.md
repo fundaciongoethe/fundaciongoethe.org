@@ -4,6 +4,7 @@ translationKey: "encarnacion"
 customSlug: "iglesia-encarnacion-bilbao"
 excerpt: La iglesia renacentista-barroca del siglo XVI es famosa por sus conciertos a la luz de las velas con un sonido excelente.
 city: Bilbao
+address: Encarnacion Plaza, 9, Ibaiondo, 48006 Bilbao, Bizkaia
 seo: # image relative to /assets/images/
   image: /venues/iglesia-encarnacion.jpg
 images: # complete path for eleventy img srcset output, alt required

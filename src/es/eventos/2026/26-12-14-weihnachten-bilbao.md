@@ -28,7 +28,7 @@ youtube: false
 cancelled: false
 previewImage: venue
 festive: true
-draft: true
+draft: false
 ---
 
 El concierto une la música de la corte prusiana con el espíritu del Adviento e invita a disfrutar de una experiencia musical navideña.

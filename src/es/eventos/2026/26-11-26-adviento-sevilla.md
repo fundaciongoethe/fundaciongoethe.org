@@ -34,7 +34,7 @@ ticketsale:
 directregister:
 youtube: false
 cancelled: false
-previewImage: artist
+previewImage: venue
 festive: true
 ---
 

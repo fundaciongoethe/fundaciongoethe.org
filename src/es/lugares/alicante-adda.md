@@ -4,6 +4,7 @@ translationKey: 'adda'
 customSlug: 'adda-sala-de-camara'
 excerpt: 'El Auditorio de la Diputación de Alicante (ADDA) es uno de los principales centros culturales de la región y alberga, entre otros espacios, la Sala de Cámara Ruperto Chapí.'
 city: Alicante
+address: Av. de Jijona, 5, 03012 Alacant, Alicante
 spaces:
   salacamara: Sala de Cámara Ruperto Chapí
 images: # complete path for eleventy img srcset output, alt required

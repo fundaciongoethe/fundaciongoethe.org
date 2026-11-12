@@ -28,7 +28,7 @@ youtube: false
 cancelled: false
 previewImage: venue
 festive: true
-draft: true
+draft: false
 ---
 
 ## Gespräche in Potsdam – Musik am Hof Friedrichs des Großen

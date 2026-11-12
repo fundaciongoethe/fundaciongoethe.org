@@ -4,6 +4,7 @@ translationKey: 'lamilagrosa'
 customSlug: 'basilica-parroquia-la-milagrosa'
 excerpt: Die Basilika San Vicente de Paul, auch Kirche La Milagrosa genannt, ist eine katholische Kirche in Madrid im Stadtteil Chamberí.
 city: Madrid
+address: Calle de García de Paredes, 45, Chamberí, 28010 Madrid
 seo: # image relative to /assets/images/
   image: /venues/mad-lamilagrosa.jpg
 images: # complete path for eleventy img srcset output, alt required

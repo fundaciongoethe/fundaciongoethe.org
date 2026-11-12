@@ -609,6 +609,6 @@ module.exports = {
   casaprovincia: {
     name: 'Casa de la Provincia',
     url: 'https://casadelaprovincia.es',
-    logo: '',
+    logo: './src/assets/images/event-sponsors/casa-de-la-provincia.png',
   },
 };

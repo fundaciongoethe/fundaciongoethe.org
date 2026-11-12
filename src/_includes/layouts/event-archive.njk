@@ -19,7 +19,7 @@ tags: pages
               {% set artistItems = helpers.filterCollectionByKeys(collections["artists_" + locale], event.data.artist) %}
 
               <li
-                class="relative pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-colors duration-300 {% if event.data.cancelled %}
+                class="relative pr-3 lg:px-20 2xl:px-40 py-5 md:py-0 mx-auto hover:bg-gray-100 transition-[background-color] duration-300 {% if event.data.cancelled %}
                   bg-red-50 hover:bg-red-100
                 {% endif %}"
               >

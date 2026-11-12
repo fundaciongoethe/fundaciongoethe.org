@@ -4,6 +4,7 @@ translationKey: 'cajablanca'
 customSlug: 'la-caja-blanca-malaga'
 excerpt: La Caja Blanca in Málaga ist ein Raum für Kreativität und junge Kunst, ein experimentelles Labor, in dem nach neuen Formen und Inhalten der Kunst des 21. Jahrhunderts gesucht wird.
 city: Málaga
+address: Av. del Editor Ángel Caffarena, 8, Teatinos-Universidad, 29010 Málaga
 seo: # image relative to /assets/images/
   image: /venues/malaga-cajablanca.jpg
 images: # complete path for eleventy img srcset output, alt required

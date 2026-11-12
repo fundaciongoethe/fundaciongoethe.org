@@ -4,6 +4,7 @@ translationKey: 'adda'
 customSlug: 'adda-kammermusiksaal'
 excerpt: 'Das Auditorio de la Diputación de Alicante (ADDA) ist eines der wichtigsten Kulturzentren der Region und beherbergt unter anderem den Kammermusiksaal Ruperto Chapí.'
 city: Alicante
+address: Av. de Jijona, 5, 03012 Alacant, Alicante
 spaces:
   salacamara: Kammermusiksaal Ruperto Chapí
 images: # complete path for eleventy img srcset output, alt required
