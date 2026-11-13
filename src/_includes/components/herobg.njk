@@ -34,6 +34,7 @@
           </p>
           {% if heroOverlay.link and heroOverlay.linkLabel %}
             <a href="{{ heroOverlay.link | url }}" class="btn btn-red !min-h-fit lg:!min-h-10 ml-3">
+              {% svg "arrow-right", "h-4 w-4", visible, "flecha" %}
               <span class="btn-label">{{ heroOverlay.linkLabel }}</span>
             </a>
           {% endif %}
