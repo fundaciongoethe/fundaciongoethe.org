@@ -41,7 +41,7 @@
             {% for item in navigation[locale].bottom.row1 %}
               <li>
                 <a
-                  class="no-underline text-red-600 hover:text-gray-900"
+                  class="no-underline text-red-600 hover:text-gray-900 transition-colors duration-200"
                   href="{{ item.url }}"
                   {{
                     helpers.getLinkActiveState(item.url,
