@@ -102,14 +102,25 @@
 
     <div hidden>{% svgsprite %}</div>
 
+    {% set isHome = translationKey == 'home' %}
     <div class="min-h-full   {{ bgcolor or 'custom-gradient' }}">
+      {# Home: shared grid cell so header paints over the hero image; subgrid carries columns into main #}
       <div
-        class="flex flex-col xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }}  relative min-h-screen rounded-b-lg"
+        class="xl:container xl:mx-auto {{ contentcolor or 'bg-gray-50' }} relative min-h-screen rounded-b-lg {% if isHome %}grid grid-cols-1 md:grid-cols-[2fr_3fr]{% else %}flex flex-col{% endif %}"
       >
-        <header role="banner">{% include "partials/topbar.njk" %} {% include "partials/header.njk" %}</header>
+        <header
+          role="banner"
+          class="{% if isHome %}col-span-full md:row-start-1 md:z-10 md:self-start w-full{% endif %}"
+        >
+          {% include "partials/topbar.njk" %} {% include "partials/header.njk" %}
+        </header>
 
-        <div class="flex-grow max-w-full">{{ content | safe }}</div>
-        {% include "partials/footer.njk" %}
+        <div
+          class="{% if isHome %}col-span-full md:row-start-1 md:grid md:grid-cols-subgrid min-w-0{% else %}flex-grow max-w-full{% endif %}"
+        >
+          {{ content | safe }}
+        </div>
+        <div class="{% if isHome %}col-span-full{% endif %}">{% include "partials/footer.njk" %}</div>
       </div>
       {% include "partials/credit.njk" %}
     </div>

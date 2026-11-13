@@ -25,20 +25,19 @@ sponsorlist:
   text: Unsere Förderer sind die zentrale Achse der Fundación Goethe. Wir haben das große Glück, seit Jahren auf die Zusammenarbeit mit weltbekannten Unternehmen zählen zu können.
 ---
 
-{% include "components/herobg.njk" %}
-
-<main id="main" class="mt-8 md:mt-32 lg:mt-56 xl:mt-90 2xl:mt-112">
-  <div class="py-12 px-4 sm:px-6 md:pt-56 2xl:pt-24">
+<main id="main" class="md:col-span-full md:grid md:grid-cols-subgrid">
+  {% include "components/herobg.njk" %}
+  <div class="py-12 sm:pt-20 px-4 sm:px-6 md:col-span-full">
     <!-- sponsors -->
     {% include "components/sponsorlist.njk" %}
   </div>
   <!-- promotion -->
-  {% include "components/promotion.njk" %}
+  <div class="md:col-span-full">{% include "components/promotion.njk" %}</div>
 
   <!-- last 3 news components/last3news.njk -->
 
-  {% include "components/last3news.njk" %}
+  <div class="md:col-span-full">{% include "components/last3news.njk" %}</div>
 
   <!-- CTA -->
-  {% include "components/cta.njk" %}
+  <div class="md:col-span-full">{% include "components/cta.njk" %}</div>
 </main>
