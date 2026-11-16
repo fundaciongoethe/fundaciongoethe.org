@@ -1,13 +1,13 @@
 <div class="bg-yellow-400">
   <div class="overflow-hidden sm:grid sm:grid-cols-5 lg:gap-4">
     <div class="col-span-3 pt-10 pb-12 px-3 sm:pl-16 md:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:pl-24 xl:pr-16">
-      <div class="lg:self-center">
-        <h2 class="standardtitel">{{ meta[locale].cta2.title }}</h2>
+      <article>
+        <h2 class="standardtitel text-balance">{{ meta[locale].cta2.title }}</h2>
         <p class="mt-4 standardtext">{{ meta[locale].cta2.text }}</p>
         <a href="{{ meta[locale].cta2.btnLink }}" class="btn btn-red mt-6">
           <span class="btn-label">{{ meta[locale].cta2.btnText }}</span>
         </a>
-      </div>
+      </article>
     </div>
     <div class="hidden sm:block col-span-2 w-full h-full relative bg-yellow-400 overflow-hidden">
       {%

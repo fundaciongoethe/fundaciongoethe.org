@@ -6,7 +6,10 @@ customSlug: concierto-adviento-madrid-2026
 venue: [lamilagrosa]
 artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni, coronox]
 partners:
-  - milagrosa
+  - id: milagrosa
+    caption: Colaboración
+  - id: coronox
+    caption: Colaboración
   - id: lidl
     caption: Patrocinador en especie
   - id: haribo

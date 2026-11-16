@@ -6,7 +6,10 @@ customSlug: adventskonzert-madrid-2026
 venue: [lamilagrosa]
 artist: [sophiakaelber, pedrohenrique, pedrocases, franciscoanguas, santiagogervasoni, coronox]
 partners:
-  - milagrosa
+  - id: milagrosa
+    caption: Partner
+  - id: coronox
+    caption: Partner
   - id: lidl
     caption: Sachsponsor
   - id: haribo

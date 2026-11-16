@@ -611,4 +611,9 @@ module.exports = {
     url: 'https://casadelaprovincia.es',
     logo: './src/assets/images/event-sponsors/casa-de-la-provincia.png',
   },
+  coronox: {
+    name: 'Coro Nox',
+    url: 'https://coronox.es/',
+    logo: './src/assets/images/event-sponsors/logo-coro-nox.png',
+  },
 };
