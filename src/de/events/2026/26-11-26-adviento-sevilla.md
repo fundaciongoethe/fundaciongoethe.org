@@ -20,10 +20,10 @@ partners:
     caption: Sachsponsor
   - id: haribo
     caption: Sachsponsor
-date: 2026-11-26 20:00:00
-opening: 2026-11-26 19:30:00
-ending: 2026-11-26 21:10:00
-deadline: 2026-11-26 11:00:00
+date: 2026-11-27 17:00:00
+opening: 2026-11-27 16:30:00
+ending: 2026-11-27 18:10:00
+deadline: 2026-11-27 11:00:00
 calcDuration: 1.17
 type: 'KonAdventskonzertzert'
 accessVariant: invite_only
