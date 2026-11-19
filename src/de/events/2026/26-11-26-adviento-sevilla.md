@@ -23,9 +23,14 @@ partners:
 date: 2026-11-27 17:00:00
 opening: 2026-11-27 16:30:00
 ending: 2026-11-27 18:10:00
+additionalShows:
+  - date: 2026-11-27 19:00:00
+    opening: 2026-11-27 18:30:00
+    ending: 2026-11-27 20:10:00
+    calcDuration: 1.17
 deadline: 2026-11-27 11:00:00
 calcDuration: 1.17
-type: 'KonAdventskonzertzert'
+type: 'Adventskonzert'
 accessVariant: invite_only
 access:
 infobox:

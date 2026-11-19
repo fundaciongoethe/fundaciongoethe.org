@@ -112,7 +112,7 @@ tags: pages
                           <p class="text-xs text-gray-600">{{ event.data | accessFromVariant(locale) }}</p>
                           <span class="w-px self-stretch bg-gray-300" aria-hidden="true"></span>
                           <p class="text-xs text-gray-600">
-                            {{ meta[locale].event.start }}: {{ event.data.date | date("HH:mm", locale) }}
+                            {{ meta[locale].event.start }}: {{ event.data.date | date("HH:mm", locale) }}{% if event.data.additionalShows %}{% for show in event.data.additionalShows %} / {{ show.date | date("HH:mm", locale) }}{% endfor %}{% endif %}
                           </p>
                         </div>
                       {% endif %}
