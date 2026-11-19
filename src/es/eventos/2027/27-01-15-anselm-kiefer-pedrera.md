@@ -7,10 +7,10 @@ venue: [lapedrera]
 artist: [anselmkiefer]
 partners:
   - lapedrera
-date: 2027-01-13 17:00:00
-opening: 2027-01-13 16:30:00
-ending: 2027-01-13 19:00:00
-deadline: 2027-01-13 11:00:00
+date: 2027-01-15 17:00:00
+opening: 2027-01-15 16:30:00
+ending: 2027-01-15 19:00:00
+deadline: 2027-01-15 11:00:00
 calcDuration: 2
 type: 'Visita guiada'
 accessVariant: donation
