@@ -616,4 +616,9 @@ module.exports = {
     url: 'https://coronox.es/',
     logo: './src/assets/images/event-sponsors/logo-coro-nox.png',
   },
+  lapedrera: {
+    name: 'Fundació Catalunya La Pedrera',
+    url: 'https://www.lapedrera.com/',
+    logo: './src/assets/images/event-sponsors/anselm-kiefer-lapedrera.jpg',
+  },
 };

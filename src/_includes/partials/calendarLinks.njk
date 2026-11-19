@@ -1,45 +1,56 @@
-<div class="my-4">
-  <small>{{ meta[locale].event.addCalendar }} </small>
-  <ul class="add-to-calendar flex gap-4 mt-2">
-    <li>
-      <a
-        class="text-white hover:text-yellow-400"
-        aria-label="Add to Google Calendar"
-        href="{{ calendarLinks.googleLink }}"
-        target="_blank"
-      >
-        {% svg "calendar-google", "h-5 w-5", visible, "calendar outlook" %}
-      </a>
-    </li>
-    <li>
-      <a
-        class="text-white hover:text-yellow-400"
-        aria-label="Add to Outlook Calendar"
-        href="{{ calendarLinks.outlookLink }}"
-        target="_blank"
-      >
-        {% svg "calendar-outlook", "h-5 w-5 ", visible, "calendar outlook" %}
-      </a>
-    </li>
-    <li>
-      <a
-        class="text-white hover:text-yellow-400"
-        aria-label="Add to Office 365 Calendar"
-        href="{{ calendarLinks.officeLink }}"
-        target="_blank"
-      >
-        {% svg "calendar-office", "h-5 w-5", visible, "calendar outlook" %}
-      </a>
-    </li>
-    <li>
-      <a
-        class="text-white hover:text-yellow-400"
-        aria-label="Add to ics Calendar"
-        href="{{ calendarLinks.icsLink }}"
-        target="_blank"
-      >
-        {% svg "calendar", "h-5 w-5 ", visible, "calendar ics" %}
-      </a>
-    </li>
-  </ul>
-</div>
+{% if calendarShows and calendarShows.length %}
+  <div class="my-4 text-xs">
+    <small>{{ meta[locale].event.addCalendar }}</small>
+    {% for show in calendarShows %}
+      <div class="{% if calendarShows.length > 1 %}mt-3{% else %}mt-2{% endif %}">
+        {% if calendarShows.length > 1 %}
+          <p class="text-gray-400 mb-1">
+            {{ meta[locale].event.show }} {{ show.start | date("HH:mm", locale) }}
+          </p>
+        {% endif %}
+        <ul class="add-to-calendar flex flex-wrap gap-x-3 gap-y-1">
+          <li>
+            <a
+              class="text-white hover:text-yellow-400 underline-offset-2 hover:underline"
+              href="{{ show.googleLink }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ meta[locale].event.calendarGoogle }}
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-yellow-400 underline-offset-2 hover:underline"
+              href="{{ show.outlookLink }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ meta[locale].event.calendarOutlook }}
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-yellow-400 underline-offset-2 hover:underline"
+              href="{{ show.officeLink }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ meta[locale].event.calendarOffice }}
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-yellow-400 underline-offset-2 hover:underline"
+              href="{{ show.icsLink }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ meta[locale].event.calendarIcs }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

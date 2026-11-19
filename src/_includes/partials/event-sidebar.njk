@@ -13,15 +13,30 @@
     {% endcall %}
 
     {% if calendarLinks.isFutureEvent and not cancelled %}
-      {% call sidebarRow(meta[locale].event.entry) %}
-        {{ opening | date("HH:mm", locale) }}
-        ({{ meta[locale].event.start }}
-        {{ date | date("HH:mm", locale) }})
-      {% endcall %}
+      {% if additionalShows and additionalShows.length %}
+        {% call sidebarRow(meta[locale].event.showFirst) %}
+          <span class="block">{{ meta[locale].event.entry }}: {{ opening | date("HH:mm", locale) }}</span>
+          <span class="block">{{ meta[locale].event.start }}: {{ date | date("HH:mm", locale) }}</span>
+          <span class="block">{{ meta[locale].event.ending }}: {{ ending | date("HH:mm", locale) }}</span>
+        {% endcall %}
+        {% for show in additionalShows %}
+          {% call sidebarRow(loop.first and meta[locale].event.showSecond or (meta[locale].event.show ~ ' ' ~ (loop.index + 1))) %}
+            <span class="block">{{ meta[locale].event.entry }}: {{ show.opening | date("HH:mm", locale) }}</span>
+            <span class="block">{{ meta[locale].event.start }}: {{ show.date | date("HH:mm", locale) }}</span>
+            <span class="block">{{ meta[locale].event.ending }}: {{ show.ending | date("HH:mm", locale) }}</span>
+          {% endcall %}
+        {% endfor %}
+      {% else %}
+        {% call sidebarRow(meta[locale].event.entry) %}
+          {{ opening | date("HH:mm", locale) }}
+          ({{ meta[locale].event.start }}
+          {{ date | date("HH:mm", locale) }})
+        {% endcall %}
 
-      {% call sidebarRow(meta[locale].event.ending) %}
-        {{ ending | date("HH:mm", locale) }}
-      {% endcall %}
+        {% call sidebarRow(meta[locale].event.ending) %}
+          {{ ending | date("HH:mm", locale) }}
+        {% endcall %}
+      {% endif %}
     {% endif %}
 
     {% if artistItems and artistItems.length > 0 %}
@@ -89,4 +104,10 @@
       </div>
     {% endif %}
   </dl>
+
+  {# calendar links ready — re-enable when wanted
+  {% if calendarLinks.isFutureEvent and not cancelled %}
+    {% include "partials/calendarLinks.njk" %}
+  {% endif %}
+  #}
 </div>
