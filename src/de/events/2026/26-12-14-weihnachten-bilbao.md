@@ -1,6 +1,6 @@
 ---
-title: 'Weihnachtskonzert in Bilbao'
-description: 'Das Konzert verbindet die Musik des preußischen Hofes mit dem Geist des Advents und lädt zu einem weihnachtlichen Musikerlebnis ein.'
+title: 'Gespräche in Potsdam – Weihnachtskonzert in Bilbao'
+description: 'Mit Marta Feminina an der Flöte und Yago Mahúgo am Cembalo verbindet das Konzert die Klangwelt des preußischen Hofes mit der Vorfreude auf Weihnachten.'
 translationKey: 26weihnachtenbilbao
 customSlug: weihnachtskonzert-bilbao-2026
 venue: [encarnacion]
@@ -37,4 +37,4 @@ Der Hof Friedrichs des Großen in Potsdam war im 18. Jahrhundert ein bedeutendes
 
 Das Programm versteht sich als musikalisches Gespräch zwischen diesen Persönlichkeiten. In den Werken für Flöte und Cembalo begegnen sich höfische Eleganz, musikalische Ausdruckskraft und kammermusikalische Intimität. Zwei weihnachtliche Kompositionen von Carl Philipp Emanuel Bach und Johann Sebastian Bach schlagen dabei eine Brücke zur Adventszeit: das innige Weihnachtslied und die festliche Arie Frohe Hirten, eilt, ach eilet aus dem Weihnachtsoratorium.
 
-So verbindet das Konzert die Klangwelt des preußischen Hofes mit der Vorfreude auf Weihnachten und lädt zu einer musikalischen Einstimmung auf die Festtage ein.
+So verbindet das Konzert mit Marta Feminina an der Flöte und Yago Mahúgo am Cembalo die Klangwelt des preußischen Hofes mit der Vorfreude auf Weihnachten und lädt zu einer stimmungsvollen musikalischen Einstimmung auf die Festtage ein.
