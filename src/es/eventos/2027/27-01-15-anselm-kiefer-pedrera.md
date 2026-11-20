@@ -21,7 +21,7 @@ ticketsale: https://anselm-kiefer-pedrera.eventbrite.es
 directregister:
 youtube: false
 cancelled: false
-previewImage: artist
+previewImage: venue
 ---
 
 La primera muestra en Barcelona dedicada a la obra de uno de los artistas más influyentes del arte actual.
