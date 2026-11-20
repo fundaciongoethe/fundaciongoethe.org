@@ -2,9 +2,9 @@
 title: 'Parallel Quartet'
 translationKey: 'parallelquartet'
 customSlug: 'parallel-quartet'
-excerpt: Das Parallel Quartet ist ein Streichquartett mit besonderem Interesse an der Verbreitung der Musik der Gegenwart und des 20. Jahrhunderts.
+excerpt: 'Das Parallel Quartet ist ein Streichquartett, das Tradition und Avantgarde verbindet und über Epochen und Stile hinweg eine innovative Kammermusiksprache erforscht.'
 occupation: 'Streichquartett'
-images: # complete path for eleventy img srcset output, alt required
+images:
   featured: ./src/assets/images/artists/parallel-quartet.jpg
   alt: 'Vier Mitglieder des Parallel Quartetts posieren mit ihren Streichinstrumenten vor einer hölzernen Kulisse: Alfredo Ancillo und Laura V. Hidalgo an den Violinen, Fátima Poblete an der Bratsche und Stamen Nikolov am Cello.'
   credit: Michal Novak
@@ -12,15 +12,21 @@ links:
   web: https://parallelquartet.com
 ---
 
-In ihren Projekten versuchen sie, die Avantgarde mit der Gegenwart zu verbinden, sich verschiedenen künstlerischen Bereichen zu öffnen und die Klangsprache neuer Kreationen zu erforschen.
+Das Parallel Quartet ist ein Streichquartett mit einem eigenständigen Ansatz, der Tradition und Avantgarde zusammenführt. Seine musikalische Philosophie verbindet unterschiedliche Epochen und Stile, erkundet neue Klangfarben und sucht eine innovative Sprache der Kammermusik.
 
-Sie wurden zu Festivals wie Clásicos en Verano de la Comunidad de Madrid eingeladen und spielten bei dessen Präsentation sowie bei Sulayr Clásica (Granada), wo sie gemeinsam mit Bernard Gregor-Smith, dem Cellisten des legendären Lindsay Quartetts, auftraten. Außerdem traten sie unter anderem im Círculo de Bellas Artes in Madrid, im Auditorio BBVA, in der Fundación Carlos de Amberes, im Ateneo de Madrid und im Teatro Calderón (Valladolid) auf. 2025 werden sie im Rahmen des XLI Ciclo de Música de Cámara mit dem Stradivarius de Patrimonio Nacional im Palacio Real in Madrid spielen.
+Das Ensemble wurde zum XLI Ciclo de Música de Cámara von Patrimonio Nacional eingeladen und gab dort ein Konzert mit der Stradivari-Sammlung des Palacio Real in Madrid unter der Ehrenpräsidentschaft Ihrer Majestäten der Könige. Ebenso trat es am Vorabend des Friedensnobelpreises in der Gamle Logen in Oslo (Norwegen) auf.
 
-Komponisten wie Wim Zwaag (1960) haben ihnen Werke gewidmet, wie seine Streichquartette Nr. 1 und Nr. 2.
+Es ist regelmäßig bei renommierten Festivals zu Gast, etwa bei Interlaken Classics (Schweiz) und Clásicos en Verano der Comunidad de Madrid, an deren Präsentation es mitwirkte. In Sulayr Clásica (Granada) teilte es die Bühne mit Bernard Gregor-Smith, dem Cellisten des legendären Lindsay Quartet. Außerdem wird es zu Meisterkursen beim Festival FMJ in Ponte de Sor (Portugal) eingeladen.
 
-Die Mitglieder des Quartetts wurden an einigen der wichtigsten Musikinstitutionen Spaniens und Europas ausgebildet, wie z. B. an der Escuela Superior Reina Sofía, der Hochschule für Musik und Theater Leipzig und dem Centro Superior Katarina Gurska, wo sie die Möglichkeit hatten, sich mit den Mitgliedern mehrerer bedeutender Kammermusikensembles weiterzuentwickeln, wie z. B. dem Alban Berg Quartett, dem Cuarteto Quiroga, dem Kopelman Quartett, Cuarteto Quiroga, etc.
+Darüber hinaus konzertierte das Quartett in prägenden Sälen wie dem Círculo de Bellas Artes in Madrid, dem CaixaForum Barcelona, der Deutschen Botschaft, dem Museo Thyssen-Bornemisza, dem Museo de las Colecciones Reales, dem Auditorio BBVA, der Fundación Carlos de Amberes und dem Teatro Albéniz.
 
-Das Parallel Quartet wird von der Fundación Goethe unterstützt.
+Zur musikalischen Identität des Parallel Quartet gehört auch die Erkundung neuer Klangsprachen. Komponisten wie Wim Zwaag widmeten dem Ensemble ihre Streichquartette Nr. 1 und Nr. 2; Luis Fonseca schrieb *Dichotomies*, aufgenommen für DASH Music.
+
+Für den Kurs 2025/26 wurde das Quartett in das Programm Incubadora der Escuela Superior Reina Sofía aufgenommen, unterstützt durch ein Stipendium der Banco Sabadell.
+
+Die Mitglieder wurden an renommierten Institutionen ausgebildet, darunter die Escuela Superior Reina Sofía, die Hochschule für Musik und Theater Leipzig und das Centro Superior Katarina Gurska. Ihre Entwicklung begleiteten Mitglieder bedeutender Kammermusikensembles wie Alban Berg Quartett, Hagen Quartett, Cuarteto Quiroga und Kopelman Quartet.
+
+Das Parallel Quartet wird von der Fundación Goethe und der Fundación Ortega-Marañón unterstützt, wo es als Ensemble in Residenz tätig ist.
 
 - Alfredo Ancillo, Geige
 - Laura V. Hidalgo, Geige
