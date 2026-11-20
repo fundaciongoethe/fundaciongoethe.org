@@ -10,6 +10,8 @@ partners:
     caption: Patrocinador
   - id: konsulatmalaga
     caption: Patrocinador
+  - id: marimon
+    caption: Patrocinador
   - id: dss
     caption: Patrocinador
   - id: upo

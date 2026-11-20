@@ -621,4 +621,14 @@ module.exports = {
     url: 'https://www.lapedrera.com/',
     logo: './src/assets/images/event-sponsors/anselm-kiefer-lapedrera.jpg',
   },
+  schwarzdigits: {
+    name: 'Schwarz Digits',
+    url: 'https://schwarz-digits.de',
+    logo: './src/assets/images/sponsors/schwarz-digits/schwarz-digits-logo.jpg',
+  },
+  marimon: {
+    name: 'Marimón Abogados',
+    url: 'https://marimon-abogados.com/',
+    logo: './src/assets/images/event-sponsors/marimon-abogados.png',
+  },
 };
